@@ -37,3 +37,8 @@ Social Simulations" (Sep 2026). Role of each source in the paper noted.
 ## Also in notebook
 - NotebookLM research report "Emotional Appraisal in Humans and Virtual Agents" (synthesis note, content mirrored above).
 - Base paper: Talekar & Jhala ACS 2025 (this folder).
+
+## Added Sep 28 2026
+- Akbar, Platnick, Alirezaie, Rahnama, "Bayesian Belief Layer for Controllable Opinion Dynamics in LLM Agents," arXiv 2609.21997, REALM workshop @ EMNLP 2026.
+  Explicit belief state (probability, one Bayesian update per utterance heard) separated from speech; single stubbornness parameter kappa grounded in Friedkin-Johnsen; kappa recoverable after language round-trip across 4 models; FJ fixed points matched at R^2 0.93-0.99; belief layer exposes per-model stance biases. No emotion, no personality beyond kappa.
+  Use: (1) closest recent opinion-dynamics work, cite in related work: they make opinion explicit, we make emotion explicit; (2) "recoverable after language round-trip" = precedent for our manipulation check; (3) candidate principled fix for the static-opinion discrepancy in base code; (4) extension idea: emotion modulates kappa over time (anger -> more stubborn, anxiety -> more persuadable; cf. Tiedens & Linton 2001 on anger/certainty). Discuss with Dr. Jhala before changing baseline.

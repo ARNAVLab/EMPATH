@@ -7,6 +7,15 @@ import { BaseMessage, HumanMessage } from "@langchain/core/messages";
 
 import { prompts, personalities } from "@/config";
 
+// Reasoning models (Qwen, DeepSeek-R1 distills, gpt-oss) can emit thinking text
+// inside <think>...</think>. Strip it so it never enters the conversation or the
+// judge's number parsing.
+export function stripThinking(text: any): string {
+  const s = typeof text === "string" ? text : String(text ?? "");
+  return s.replace(/<think>[\s\S]*?<\/think>/gi, "").replace(/^[\s\S]*<\/think>/i, "").trim();
+}
+
+
 export async function createSimulatedUser(
   llm: any,
   character: any,
@@ -89,7 +98,7 @@ export async function simulatedUserNode(
     `[simulatedUserNode] (${character.name}) Simulated user response`
   );
 
-  const response_content = (response as { content: string }).content;
+  const response_content = stripThinking((response as { content: string }).content);
   return { messages: [{ role: "user", content: response_content }] };
 }
 
@@ -116,8 +125,8 @@ export async function rateOpinionOnTopic(
   const res = await llm.invoke(prompt);
 
   // Extract the number from the response
-  const match = res.content.trim().match(/-?1(?:\.0+)?|-?0(?:\.\d+)?/);
-  if (!match) throw new Error(`Unexpected model output: "${res.content}"`);
+  const match = stripThinking(res.content).match(/-?1(?:\.0+)?|-?0(?:\.\d+)?/);
+  if (!match) throw new Error(`Unexpected model output: "${stripThinking(res.content)}"`);
 
   return parseFloat(match[0]);
 }
