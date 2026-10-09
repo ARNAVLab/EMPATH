@@ -16,10 +16,16 @@ export function stripThinking(text: any): string {
 }
 
 
+export interface AgentPromptOptions {
+  emotionBlock?: string; // appended to the system prompt; "" = original prompt
+  noPersonality?: boolean; // Study 2: emotion-only agents
+}
+
 export async function createSimulatedUser(
   llm: any,
   character: any,
-  topic: string
+  topic: string,
+  opts: AgentPromptOptions = {}
 ) {
   console.log(
     `[createSimulatedUser] (${character.name}) Creating simulated user`
@@ -28,7 +34,7 @@ export async function createSimulatedUser(
   if (
     !character.name.trim() ||
     !character.profession.trim() ||
-    !character.personality
+    (!character.personality && !opts.noPersonality)
   ) {
     console.log(character);
     throw new Error("[createSimulatedUser] Error: Fields are empty!");
@@ -37,8 +43,12 @@ export async function createSimulatedUser(
   const personality_type =
     personalities[character.personality as keyof typeof personalities];
 
+  // With no emotion block the system prompt is byte-identical to the original.
+  const block = (opts.emotionBlock ?? "").replace(/{/g, "{{").replace(/}/g, "}}");
+  const systemPrompt = block ? `${prompts.system}\n  ${block}\n` : prompts.system;
+
   const prompt = ChatPromptTemplate.fromMessages([
-    ["system", prompts.system],
+    ["system", systemPrompt],
     ["human", "{messages}"],
   ]);
 
@@ -46,7 +56,7 @@ export async function createSimulatedUser(
     topic,
     name: character.name,
     profession: character.profession,
-    personality: JSON.stringify(personality_type),
+    personality: opts.noPersonality ? "" : JSON.stringify(personality_type),
     opinion_strength: JSON.stringify(character.opinion_strength),
     additional_info: JSON.stringify(character.additional_info),
   });
@@ -56,11 +66,18 @@ export async function createSimulatedUser(
   return simulatedUser;
 }
 
+export interface EmotionHook {
+  active: boolean;
+  noPersonality: boolean;
+  beforeTurn(name: string, lastMessage: string): Promise<string>;
+}
+
 export async function simulatedUserNode(
   llm: any,
   state: typeof MessagesAnnotation.State,
   character: any,
-  topic: string
+  topic: string,
+  emotion?: EmotionHook
 ) {
   console.log(`[simulatedUserNode] (${character.name}) State received`);
   const messages = state.messages;
@@ -74,7 +91,17 @@ export async function simulatedUserNode(
 
   const newMessages = await swapRoles(messages);
 
-  const simulatedUser = await createSimulatedUser(llm, character, topic);
+  let emotionBlock = "";
+  if (emotion?.active) {
+    const last = messages[messages.length - 1];
+    const lastText = typeof last?.content === "string" ? last.content : String(last?.content ?? "");
+    emotionBlock = await emotion.beforeTurn(character.name, lastText);
+  }
+
+  const simulatedUser = await createSimulatedUser(llm, character, topic, {
+    emotionBlock,
+    noPersonality: emotion?.noPersonality ?? false,
+  });
   const response = await simulatedUser.invoke({ messages: newMessages });
 
   // Type guard to check if response has a 'content' property

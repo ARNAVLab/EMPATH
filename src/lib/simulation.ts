@@ -7,7 +7,10 @@ import { messageLimit } from "@/config/run_config";
 import {
   rateOpinionOnTopic,
   simulatedUserNode,
+  EmotionHook,
 } from "@/utils/simulation_utils";
+import { EmotionController } from "@/emotion/controller";
+import { EmotionConfig } from "@/emotion/model";
 
 // Generation model. Configurable via env so we can swap between OpenAI,
 // Ollama (OPENAI_BASE_URL=http://localhost:11434/v1), or any
@@ -49,7 +52,11 @@ function shouldContinue(state: typeof MessagesAnnotation.State) {
   }
 }
 
-function createSimulation(characters: any[] = [], topic: string = "") {
+function createSimulation(
+  characters: any[] = [],
+  topic: string = "",
+  emotionCfg?: EmotionConfig
+) {
   console.log("[createSimulation] Creating simulation workflow");
 
   function shuffleArray(array: any) {
@@ -58,11 +65,29 @@ function createSimulation(characters: any[] = [], topic: string = "") {
 
   shuffleArray(characters);
 
+  // Emotion layer (absent = original framework, unchanged).
+  const emotion = emotionCfg
+    ? new EmotionController(
+        emotionCfg,
+        characters.map((c) => c.name),
+        characters,
+        judgeLlm,
+        topic
+      )
+    : null;
+  const hook: EmotionHook | undefined = emotion
+    ? {
+        active: emotion.active,
+        noPersonality: emotionCfg!.emotionOnly,
+        beforeTurn: (name, last) => emotion.beforeTurn(name, last),
+      }
+    : undefined;
+
   const workflow = new StateGraph(MessagesAnnotation);
 
   for (let i = 0; i < characters.length; i++) {
     workflow.addNode(characters[i].name, (state) =>
-      simulatedUserNode(llm, state, characters[i], topic)
+      simulatedUserNode(llm, state, characters[i], topic, hook)
     );
   }
 
@@ -85,7 +110,7 @@ function createSimulation(characters: any[] = [], topic: string = "") {
   const simulation = workflow.compile();
 
   console.log("[createSimulation] Simulation workflow compiled.");
-  return simulation;
+  return { simulation, emotion };
 }
 
 // Shared per-chunk processing used by both the streaming (UI) and
@@ -93,7 +118,8 @@ function createSimulation(characters: any[] = [], topic: string = "") {
 async function processChunk(
   chunk: any,
   topic: string,
-  roleTurnCounters: Record<string, number | null>
+  roleTurnCounters: Record<string, number | null>,
+  emotion: EmotionController | null = null
 ) {
   const nodeName = Object.keys(chunk)[0];
   const messages = chunk[nodeName].messages;
@@ -116,16 +142,25 @@ async function processChunk(
   const turnIndex = roleTurnCounters[nodeName] ?? 0;
   roleTurnCounters[nodeName] = turnIndex + 1;
 
+  const emotionRecord = emotion
+    ? await emotion.afterTurn(nodeName, conv, values.opinion)
+    : null;
+
   return {
     role: nodeName,
     content: conv,
     values: values,
     turn: turnIndex,
+    ...(emotionRecord ? { emotion: emotionRecord } : {}),
   };
 }
 
-export async function runSimulationStream(characters: any[], topic: string) {
-  const simulation = createSimulation(characters, topic);
+export async function runSimulationStream(
+  characters: any[],
+  topic: string,
+  emotionCfg?: EmotionConfig
+) {
+  const { simulation, emotion } = createSimulation(characters, topic, emotionCfg);
   const roleTurnCounters: Record<string, number | null> = {};
 
   const encoder = new TextEncoder();
@@ -137,7 +172,7 @@ export async function runSimulationStream(characters: any[], topic: string) {
         {},
         { recursionLimit }
       )) {
-        const messageObj = await processChunk(chunk, topic, roleTurnCounters);
+        const messageObj = await processChunk(chunk, topic, roleTurnCounters, emotion);
         const data = `data: ${JSON.stringify(messageObj)}\n\n`;
         controller.enqueue(encoder.encode(data));
       }
@@ -156,14 +191,18 @@ export async function runSimulationStream(characters: any[], topic: string) {
 
 // Headless runner for batch experiments: same simulation, but collects all
 // messages and returns them instead of streaming SSE. Used by scripts/.
-export async function runSimulationCollect(characters: any[], topic: string) {
-  const simulation = createSimulation(characters, topic);
+export async function runSimulationCollect(
+  characters: any[],
+  topic: string,
+  emotionCfg?: EmotionConfig
+) {
+  const { simulation, emotion } = createSimulation(characters, topic, emotionCfg);
   const roleTurnCounters: Record<string, number | null> = {};
   const collected: any[] = [];
 
   const recursionLimit = 100;
   for await (const chunk of await simulation.stream({}, { recursionLimit })) {
-    const messageObj = await processChunk(chunk, topic, roleTurnCounters);
+    const messageObj = await processChunk(chunk, topic, roleTurnCounters, emotion);
     collected.push(messageObj);
   }
 
