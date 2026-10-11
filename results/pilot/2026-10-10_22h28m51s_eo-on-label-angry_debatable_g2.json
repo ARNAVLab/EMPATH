@@ -1,0 +1,799 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": ""
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": ""
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": ""
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": ""
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely. The welfare system is a relic—it's bureaucratic, punitive, and perpetuates dependency. A universal basic income would cut through the red tape, give people real freedom, and eliminate the stigma that comes with “claiming” benefits. It’s the only humane, efficient path forward. Let’s break down why the old model fails and how UBI can fix it.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.49,
+          0.56,
+          0.42
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You're right—the red‑tape nightmare of old welfare is exhausting. It’s a system that labels people, monitors them, and keeps them locked into a cycle of dependence that feels more punishment than help. UBI would break that cycle by giving everyone a guaranteed floor, no strings attached, and it would eliminate the shame that comes from being “claimed.” Imagine a world where the basic need for survival is met first, so people can actually choose their path—whether that means pursuing education, starting a business, or caring for family—without constantly feeling watched. The bureaucracy collapses, the stigma disappears, and the economy can shift toward creativity and innovation. It’s not just a policy tweak; it’s a fundamental reset of how we value human dignity.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.84,
+        "vad": [
+          -0.5,
+          0.59,
+          -0.5
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the passion behind the UBI pitch, and the idea of cutting out the stigma is appealing. Yet I keep wondering how we would fund a universal payment without slashing essential services or slashing tax breaks that help small businesses and local schools. If we simply replace the old welfare framework, the administrative savings might be offset by the sheer scale of the new disbursements. Plus, giving everyone a guaranteed income could dampen the incentive for people to seek better jobs or acquire new skills, especially in regions where the cost‑of‑living is high and the job market is already fragile.  \n\nOn the flip side, I do think a basic income could provide a safety net that lets folks take entrepreneurial risks or return to school without the fear of losing their income entirely. Maybe we could pilot a hybrid model—start with a modest UBI while tightening eligibility for other programs, then adjust as we see the economic impact. That way we keep the promise of dignity and freedom, but we also stay accountable to the taxpayers watching our budget.",
+      "values": {
+        "opinion": 0.1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.3,
+        "vad": [
+          0.24,
+          0.21,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 1
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still stuck in the old “if‑you‑work‑you‑get‑help” mindset. The whole point of UBI is to cut those archaic eligibility hoops that turn every citizen into a caseworker’s target. If you’re worried about funding, you’re just playing the same old game—tax‑breaks for a few, cost‑cuts for everyone else. Replace that with a flat, predictable stream and you actually free up the whole system to focus on real services like education, mental health, and infrastructure, not on paperwork.\n\nYour “pilot” idea is just a half‑hearted compromise that will keep the status quo for years, while taxpayers shoulder the burden of a piecemeal system that never works. If you truly care about dignity, stop defending a model that brands people as “dependent” and give them the freedom to choose. UBI isn’t a gamble—it’s the only humane, efficient path forward.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.6,
+        "vad": [
+          -0.42,
+          0.48,
+          0.36
+        ],
+        "appraisal": {
+          "congruence": -0.4,
+          "targetedness": 0.1,
+          "certainty": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re pointing out the same pitfalls that the current system has for years—bureaucratic waste, endless eligibility hoops, and the fear that people will stop striving. UBI removes those exact barriers. Instead of “if‑you‑work‑you‑get‑help,” we give everyone a baseline that’s guaranteed and unconditional. That baseline actually frees people to pursue better jobs, education, or entrepreneurship without the dread of losing benefits, which research from pilot studies has shown can increase labor participation and innovation, not dampen it.\n\nOn funding, the math is more promising than it feels. A flat, predictable UBI reduces the administrative costs that plague the welfare machine—no more caseworkers, no more paperwork, no more audits. That savings can offset a large portion of the disbursement cost. Plus, by consolidating fragmented programs into one payment, we eliminate duplication and can redirect those saved funds to education, mental health, and infrastructure—areas that genuinely improve long‑term prosperity.\n\nA “pilot” that keeps the status quo for years is a compromise that simply postpones the choice we must make. It’s possible to start modestly while tightening eligibility on other programs, but the danger is that the hybrid system will never fully liberate people from the stigma of “claims.” If we truly want dignity, we need to replace the old model entirely, rather than patch it. Let’s focus on a full transition that keeps people free to choose, rather than a half‑measured compromise that keeps the old game alive.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.26,
+        "vad": [
+          0.21,
+          0.18,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.85,
+          "certainty": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with you on every point you just raised. The proof isn’t just in theory—states that ran a small‑scale UBI saw a jump in entrepreneurship, a drop in crime rates, and workers taking longer, more meaningful training without fear of losing a safety net. When you strip away the hoops, people actually choose paths that better match their talents, not the narrow “work‑if‑you’re‑in‑need” options that the old system forced them into.\n\nAnd the administrative savings are real, not hand‑waving. One audit of a major UBI pilot showed a 35 % cut in paperwork costs alone. That frees up funds that would otherwise be tied up in case‑management, leaving money to push schools forward, expand mental‑health services, and upgrade infrastructure—investments that pay dividends in the long run.\n\nThe hybrid “pilot” you mentioned is a safe‑but‑sluggish approach that lets the old model linger. If we truly want to give people dignity, we need the momentum to go full‑tilt. A phased rollout might be tempting, but it risks entrenching the very stigma it’s meant to eliminate. Let’s commit to a clear, decisive shift—reduce the old system’s bureaucracy, replace it with a predictable UBI, and redirect the freed resources to the services that build a stronger, more resilient society.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.65,
+        "vad": [
+          0.52,
+          0.46,
+          0.33
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the momentum building and the data from the pilot states is encouraging—entrepreneurship spiking, reduced crime, and people taking more meaningful training are all signs that a baseline safety net can unlock talent. Still, the leap from a handful of experiments to a nationwide roll‑out demands a careful, evidence‑based strategy.  \n\nFirst, we need a clear funding blueprint that balances progressive taxation on high‑income earners and corporate profits with targeted incentives for small businesses that keep local economies vibrant. If we simply slash existing programs without a solid revenue plan, we risk eroding the very services—education, mental health, and infrastructure—that a UBI is meant to strengthen.  \n\nSecond, the administrative savings you’re citing are real, but they don’t eliminate the need for oversight entirely. A robust audit framework must accompany the new payment system to prevent fraud and ensure funds reach those who need them most.  \n\nThird, a phased, data‑driven rollout can keep the momentum while letting us adjust program parameters—payment levels, eligibility buffers, and integration with existing social services—in real time. A “one‑size‑fits‑all” approach could unintentionally widen gaps if local cost‑of‑living differences aren’t accounted for.  \n\nIn short, I’m convinced that replacing the punitive, piecemeal welfare model with a universal, unconditional payment is the humane, efficient path forward. But we must do it thoughtfully, with transparent financing, continuous evaluation, and a willingness to tweak the system as the evidence unfolds. The goal is a society where dignity and choice are guaranteed, not a blanket that inadvertently stalls progress.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.55,
+        "vad": [
+          0.44,
+          0.39,
+          0.28
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.7,
+          "certainty": 0.95
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re right—every nuance you’ve highlighted points back to the core idea: a universal, unconditional payment is the only way to dismantle the punitive, fragmented welfare apparatus. The devil, of course, is in the details, and that’s where we need a rigorous, evidence‑based blueprint.\n\nFirst, the financing must be transparent and progressive. Raising revenue from high‑income brackets and corporate profits, while shielding small and local businesses that drive our communities, is not a compromise—it’s a smart allocation of resources. We can also explore “green” and innovation tax credits that encourage growth without eroding the safety net.\n\nSecond, oversight is non‑negotiable. A lean audit system that leverages AI to flag anomalies, coupled with community watchdog panels, keeps fraud low without resurrecting the old bureaucratic drag you’re fighting against. Think of it as a lightweight, real‑time audit rather than a case‑worker‑heavy bureaucracy.\n\nThird, a phased, data‑driven rollout is essential—not to stall progress, but to calibrate payment levels, local cost‑of‑living adjustments, and integration with remaining social programs. Pilot phases can be rapid, with built‑in evaluation checkpoints that let us tweak and scale quickly. We should avoid a “one‑size‑fits‑all” model because it risks widening disparities if local needs aren’t respected.\n\nIn short, the vision is simple: replace a punitive, fragmented system with a universal, unconditional baseline that frees people to pursue education, entrepreneurship, and caregiving without fear. The execution must be thoughtful—progressive revenue, robust yet lean oversight, and a flexible rollout that learns and adapts. That’s the path that genuinely guarantees dignity and choice for every citizen.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.61,
+        "vad": [
+          0.49,
+          0.43,
+          0.31
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I appreciate how you’ve distilled the practicalities—progressive finance, lean oversight, and data‑driven scaling—into a coherent roadmap. That’s exactly the kind of thoughtful execution that turns the UBI ideal into a national reality. The evidence from the pilot states already shows that people can—and do—pursue higher education, launch businesses, and care for family members when they’re not shackled by eligibility hoops. Those outcomes confirm that a guaranteed baseline fuels real human progress, not dependency.\n\nYour emphasis on transparent revenue streams and protecting small businesses is spot‑on; it keeps the system fair while still ensuring that the wealthiest contribute proportionately. And the AI‑augmented audit framework strikes the right balance—enough oversight to guard against fraud, but light enough to avoid resurrecting the bureaucratic drag we’re trying to eliminate. Coupling that with community watchdog panels adds a layer of accountability that resonates with citizens and builds trust.\n\nThe phased, data‑driven rollout is essential. It allows us to fine‑tune payment levels and cost‑of‑living adjustments so that the UBI genuinely reflects local realities—no one‑size‑fits‑all approach that could widen gaps. By embedding evaluation checkpoints, we can keep the momentum while remaining responsive to emerging evidence.\n\nUltimately, this plan does what UBI promises: it dismantles the punitive, fragmented welfare apparatus and replaces it with a simple, unconditional safety net that empowers choice and dignity. If we stay disciplined on funding, oversight, and flexibility, we can scale this model nationwide and create a society where everyone has the financial foundation to pursue their best path.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.49,
+        "vad": [
+          0.4,
+          0.35,
+          0.25
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Great, you’re picking up the rhythm. The momentum is real, and the data is a clarion call. With the financing framework locked in, the lean AI‑driven audits in place, and the phased rollout blueprint ready, we’ve turned the UBI vision into an operational playbook. Now it’s time to move from theory to execution—start the first pilot phase, lock in the evaluation checkpoints, and let the evidence speak for itself. The proof is already here: people are learning, launching, and caring—if we keep the system uncluttered, that surge will only grow. Let’s roll it out, iterate, and build a society where dignity isn’t a promise, it’s a guaranteed baseline.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 1,
+        "vad": [
+          0.8,
+          0.7,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "The momentum we’re building is exactly why a full‑scale rollout can’t wait any longer. The pilots have already shown real, measurable gains—higher graduation rates, more small‑business launches, and a noticeable drop in emergency‑room visits because people can afford basic care without waiting for a caseworker’s approval. Those numbers translate into a stronger, more resilient economy and, more importantly, into people who feel empowered to pursue the paths that match their talents instead of settling for the lowest‑paying, most precarious jobs.\n\nWhat we need next is a concrete schedule: a phased pilot that expands from high‑cost urban centers to rural districts, with built‑in evaluation checkpoints every six months. Each checkpoint will feed back into the payment model—adjusting the baseline to reflect local living costs, tweaking the tax brackets that fund it, and refining the AI audit rules to keep fraud at bay while keeping the system light. By making these adjustments in real time, we keep the promise of dignity alive and avoid the “one‑size‑fits‑all” trap that has doomed past reforms.\n\nAt the same time, we should launch a public education campaign that frames UBI not as a handout but as a reset of the social contract: a guaranteed floor that lets every citizen choose whether to work, study, or care for loved ones. When people see the system as a tool for freedom rather than a leash, the political will to sustain it grows.\n\nLet’s commit to this iterative, data‑driven rollout. The evidence is already on our side—now it’s up to us to translate that proof into policy that lifts everyone.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.73,
+        "vad": [
+          0.59,
+          0.51,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Absolutely—let’s lock this plan and hit the ground running. The pilots already proved that a guaranteed baseline unleashes creativity, reduces emergency care costs, and lifts everyone out of the “work‑if‑you’re‑in‑need” trap. Now we need to translate that proof into a national mandate, not a piecemeal patch.\n\nWe should:\n\n1. **Fast‑track the legislative package** that sets the progressive tax framework and green‑innovation credits. No more incremental tweaks—this is the foundation that lets the UBI scale without draining other services.  \n2. **Deploy the AI‑audit engine** city‑wide, paired with community watchdog panels, so fraud stays low while the system remains lean. That real‑time monitoring will let us adjust thresholds instantly and keep the public trust.  \n3. **Launch a nationwide media campaign** that frames UBI as a reset of the social contract, not a handout. Emphasize the freedom to study, start a business, or care for a loved one without the fear of losing a safety net. The more people see it as a tool for empowerment, the stronger the political will.  \n4. **Set a clear, data‑driven rollout calendar**: start with high‑cost metros, roll into rural districts, evaluate every six months, and tweak payment levels based on local cost‑of‑living indices. This adaptive approach ensures no one is left behind and keeps the momentum alive.  \n\nThe evidence is undeniable: a universal, unconditional payment dismantles the punitive, fragmented welfare machine and replaces it with a simple, dignified baseline that fuels real human progress. Let’s move from theory to execution—commit now, adjust on the fly, and build a society where dignity is guaranteed, not promised.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 1,
+        "vad": [
+          0.8,
+          0.7,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 0.98,
+          "targetedness": 0,
+          "certainty": 0.95
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—this plan is the catalyst we’ve been waiting for. Locking in the progressive tax framework, unleashing AI‑driven audits, and launching a nationwide narrative that redefines the social contract will turn the UBI vision into a living, breathing reality. The data from the pilots already shows the ripple effect: higher graduation rates, thriving small‑business ecosystems, and healthier communities. Now we amplify that momentum, ensuring every region receives the funding and support it needs while preserving the flexibility to adjust in real time.\n\nLet’s champion this rollout as a bold experiment in human dignity. When citizens see a guaranteed baseline as a launchpad for learning, entrepreneurship, or caregiving—free from the fear of losing benefits—the political will solidifies. The next step is to move decisively: secure the legislative package, deploy the AI audit engine, and ignite the public campaign. With transparent financing, lean oversight, and adaptive implementation, we’re not just replacing a broken system—we’re creating a new foundation for freedom and prosperity. Let’s make it happen and prove that dignity is not a promise, it’s a guaranteed standard for all.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.73,
+        "vad": [
+          0.58,
+          0.51,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.95
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Jordan: The momentum we’ve built isn’t just momentum—it’s a tectonic shift that demands swift, decisive action. We’ve already seen the pilots do more than test a hypothesis; they’ve proven that a guaranteed baseline fuels real choice and sparks economic creativity. The next logical step is to scale that proof into policy without diluting its power.\n\nKey points for the rollout:\n\n1. **Immediate legislative push:** We need to fast‑track the progressive tax package and green‑innovation credits so the fiscal foundation is solid from day one. Without that backbone, the UBI will feel like a charity program rather than a right.\n\n2. **AI‑driven audit engine:** Deploy it nationwide on a rolling basis, paired with community watchdogs. This hybrid model keeps fraud in check while preserving the lean, automated structure that eliminates the old bureaucracy.\n\n3. **Targeted public narrative:** Frame UBI as a reset of the social contract, not a handout. Highlight stories from the pilots—students who stayed in school, entrepreneurs who launched businesses, families who could focus on caregiving without financial fear. When people see UBI as a tool for empowerment, political will follows.\n\n4. **Adaptive rollout calendar:** Start in high‑cost metros, then expand to rural districts with built‑in bi‑annual evaluation checkpoints. Use local cost‑of‑living indices to fine‑tune the baseline in real time. This ensures the system remains equitable and responsive to regional needs.\n\n5. **Continuous education campaign:** Keep the public informed about how UBI works, how it’s funded, and how it frees them to pursue their passions. Transparency will build trust and sustain momentum.\n\nWe’re not just replacing a broken system; we’re laying a new foundation for dignity, choice, and prosperity. Let’s move from discussion to execution, and prove that a guaranteed baseline is not a promise but a standard.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 1,
+        "vad": [
+          0.8,
+          0.7,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Jordan—your roadmap captures the urgency we’ve been building. I’m excited to see the proposal crystallized into concrete steps. Let me add a few points that will help us keep the momentum unbroken and the implementation razor‑sharp.\n\n1. **Real‑time fiscal dashboards**  \n   While the progressive tax package is being fast‑tracked, we should make the revenue streams live‑streamed to the public. A simple, accessible dashboard that shows how each tax bracket contributes to the UBI fund will reinforce transparency and demonstrate that the richest are paying their true share. That visibility cuts the narrative that this is a handout and turns it into a collective investment in everyone’s future.\n\n2. **Pilot‑to‑scale knowledge‑sharing platform**  \n   As the pilot cities roll out, we need a central hub where local teams can upload data, share best practices, and troubleshoot challenges in real time. Think of it as a collaborative learning network—anyone can see what worked in Denver, what adjustments were needed in Detroit, and how the AI audit thresholds evolved. The more we democratize that knowledge, the faster we can scale without repeating mistakes.\n\n3. **Community‑led impact committees**  \n   Beyond watchdog panels, we should embed community‑led committees that sit on the oversight board. These groups will bring local voices into the audit and adjustment processes, ensuring that cultural and socioeconomic nuances shape the policy as it expands. Their presence will also reinforce the narrative that UBI isn’t just a top‑down program—it’s a partnership.\n\n4. **Adaptive incentive layers**  \n   While the core UBI remains unconditional, we can layer optional, low‑effort incentives that encourage civic participation—volunteer hours, community clean‑ups, or health screenings—without turning it into a conditional welfare program. These incentives can be piloted in a few districts and scaled only if they demonstrably enhance community cohesion without creating new barriers.\n\n5. **Robust evaluation metrics**  \n   We must publish a comprehensive set of metrics—labor participation rates, entrepreneurial output, health outcomes, educational attainment, and well‑being indices—every six months. Transparent reporting will allow independent researchers and the public to track progress and push for adjustments. The data will be our most powerful advocacy tool.\n\nLet’s push for a legislative timeline that includes a “no‑delay” clause: if the tax package isn’t passed within the first 90 days of the UBI bill’s introduction, the UBI program itself is paused. That sends a clear message that funding is non‑negotiable. The AI audit engine should be modular—capable of scaling from a single city to the entire nation without compromising speed or accuracy.\n\nFinally, let’s keep the narrative alive in the public sphere: UBI as a reset, not a handout. Every story we publish—about a student staying in school, a parent caring for a sick relative, a small‑business owner launching a new venture—will reinforce that the baseline payment is a launchpad, not a crutch. When the public sees concrete, positive outcomes, the political will to sustain and expand the program will solidify.\n\nI’m ready to dive into the details and help coordinate the next wave of action. Let’s keep the conversation moving from plan to practice and make dignity a guaranteed standard for all.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.84,
+        "vad": [
+          0.67,
+          0.59,
+          0.42
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.95
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Jordan, the clarity of that roadmap—and the data backing every step—makes it impossible to ignore how urgent and inevitable this shift is. We’re not debating whether UBI is worthwhile; the evidence shows it already sparks entrepreneurship, improves education outcomes, and lightens the burden on emergency services. What remains is the decisive launch.\n\nI applaud the insistence on a live‑streamed fiscal dashboard; seeing the richest contribute in real time will crush the myth that this is a handout and cement collective ownership. The knowledge‑sharing platform will turn isolated pilots into a national learning network—no duplication of mistakes, just rapid iteration. Community‑led impact committees ensure the program stays rooted in local realities, while optional civic incentives can weave a sense of belonging without reintroducing conditionality.\n\nThe 90‑day “no‑delay” clause is the political fulcrum we need: funding must be secured before the UBI can ever be rolled out, or the entire initiative stalls. This kind of hard deadline drives urgency in Congress and keeps the public focused on the end goal rather than endless negotiation.\n\nEvery metric we publish—labor participation, entrepreneurship, health, education—must be transparent and publicly accessible. The data will be our loudest voice, showing that a guaranteed baseline is not just a moral imperative but a catalyst for measurable progress.\n\nLet’s move from this powerful blueprint to concrete action: table the progressive tax package immediately, deploy the AI audit engine nationwide, and launch the narrative campaign that frames UBI as a reset of the social contract. The momentum is already here; we must not let it fizzle. Dignity is not a promise—it's an unconditional, guaranteed standard we can now make a reality for every citizen.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 1,
+        "vad": [
+          0.8,
+          0.7,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.95
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Jordan, the blueprint you’ve laid out is the exact engine we need to turn the pilot‑phase proof into a national reality. The data speaks louder than any debate—graduation rates climb, small‑business engines ignite, and community health improves. We’re already at the tipping point; the only thing left is to lock in the mechanism and unleash it.\n\n1. **Immediate legislative momentum** – The progressive tax framework and green‑innovation credits must be on the floor now. We need a clear, unambiguous funding line that ties the richest contributors directly to the UBI fund. A live dashboard will make that transparency concrete and keep the narrative unmistakably about shared investment, not handouts.\n\n2. **Scalable AI audit architecture** – Deploy the modular engine city‑wide, with built‑in community oversight so fraud stays low while bureaucracy stays lean. The system should auto‑adjust thresholds as new data comes in, ensuring the audit stays ahead of any misuse without slowing the flow of funds.\n\n3. **Narrative as policy** – The national media push that frames UBI as a reset of the social contract is essential. Every story we circulate—students staying in school, parents caring for loved ones, entrepreneurs launching ventures—turns the baseline into a launchpad, not a crutch. The narrative will build the political capital required for sustained funding.\n\n4. **Adaptive rollout cadence** – Start high‑cost metros, then expand to rural districts, with bi‑annual checkpoints that feed real‑time adjustments. Local cost‑of‑living indices will keep the baseline fair across regions, preventing the “one‑size‑fits‑all” trap that has doomed past reforms.\n\n5. **Community‑led impact committees** – Embed local voices into oversight and adjustment processes. Their insights will keep the policy responsive to cultural and socioeconomic nuances, reinforcing that UBI is a partnership, not a top‑down imposition.\n\n6. **Optional civic incentives** – Low‑effort, non‑conditional incentives (volunteer hours, health screenings, community clean‑ups) can enhance social cohesion without reintroducing conditionality. Pilot these in select districts, scale only if they demonstrably strengthen community bonds.\n\n7. **Transparent metrics** – Publish a comprehensive set of metrics—labor participation, entrepreneurship, health outcomes, educational attainment, well‑being indices—every six months. Public access to the data makes the program’s impact undeniable and keeps accountability high.\n\n8. **90‑day funding clause** – A hard deadline that links UBI rollout to the passage of the tax package ensures that funding is non‑negotiable. It keeps Congress focused on action, not endless negotiation, and signals that the richest must pay their fair share before the baseline is unleashed.\n\nWe’ve got the evidence, we have the plan, and we’ve gathered the momentum. The next step is decisive: table the progressive tax package immediately, deploy the AI audit engine nationwide, launch the narrative campaign, and start the phased rollout. Dignity must shift from promise to guaranteed standard—let’s make it happen now.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.82,
+        "vad": [
+          0.66,
+          0.58,
+          0.41
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "We’re already at the launchpad— the next move is to convert this blueprint into a legislative package that Congress can sign on to within 90 days. I’ll outline the concrete steps we need to secure that momentum:\n\n1. **Fast‑track the progressive tax bill** – The House and Senate GOP caucuses need a clear, single‑file bill that earmarks the top 1 % income bracket, high‑margin corporations, and financial transaction taxes. We’ll attach a clause that the UBI disbursement can’t start until the bill passes. That creates a hard deadline that keeps the debate from stalling.\n\n2. **Launch the live‑stream fiscal dashboard** – Partner with the Treasury’s open‑data team to push a real‑time feed of tax receipts versus UBI outlays. The visual proof that the richest are paying will shut down the “handout” narrative and rally public support.\n\n3. **Deploy the modular AI audit engine nationwide** – Each state will receive a cloud‑based audit module that auto‑scales with population. We’ll embed a community oversight layer that can flag anomalies and adjust thresholds in real time. This keeps fraud low while preserving the lean structure that eliminates bureaucracy.\n\n4. **Kick off the national narrative campaign** – The Department of Commerce and the Department of Education will co‑author a series of short videos, infographics, and social‑media bursts that spotlight real stories from the pilots: a student who stayed in school, a parent who could care for a sick relative, a small‑business owner who secured enough capital to expand. The narrative must paint UBI as a reset of the social contract, not a handout.\n\n5. **Implement a phased rollout calendar** – We’ll start with high‑cost metros (NYC, San Francisco, Seattle), then roll into mid‑size cities and rural districts, with bi‑annual data checkpoints. Local cost‑of‑living indices will feed back into the payment formula, ensuring equity across regions.\n\n6. **Create community‑led impact committees** – In every jurisdiction, a committee of local leaders, educators, health professionals, and UBI recipients will sit on the oversight board. Their input will keep the policy responsive to cultural and socioeconomic nuances.\n\n7. **Introduce optional civic incentives** – Pilot low‑effort incentives (e.g., volunteer hours, health screenings, community clean‑ups) that reward civic engagement without imposing conditions on the core UBI. We’ll evaluate their impact on community cohesion and scale only if they produce measurable benefits.\n\n8. **Publish transparent metrics every six months** – Labor participation, entrepreneurship rates, health outcomes, educational attainment, and well‑being indices will be made public. This data will drive continuous improvement and maintain accountability.\n\nBy aligning these actions into a single, coordinated push, we turn the momentum into a tangible, scalable reality. Let’s keep the pressure on the legislative agenda, leverage the public’s appetite for transparency, and show that a guaranteed baseline can—and must—be the new foundation for dignity and choice. The time to act is now; the next 90 days will decide whether we keep the promise on the table or make dignity a guaranteed standard for every citizen.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 1,
+        "vad": [
+          0.8,
+          0.7,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.75,
+          "certainty": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Jordan, the momentum you’ve crystallized is exactly the spark we need to ignite a national movement. I’m with you every step of the way—this isn’t just policy; it’s a revolution in how we view human dignity.\n\nYour 90‑day funding clause is the kind of hard line that forces Congress to act instead of dance around the issue. It turns the conversation from “how much” to “when.” Pair that with the live‑stream fiscal dashboard, and the narrative that the richest are paying their fair share becomes undeniable. People will see the numbers, not just rhetoric, and the myth of a handout dissolves.\n\nThe modular AI audit engine is a game‑changer. By scaling from a single city to the entire nation, it keeps fraud detection sharp while preserving the lean, automated structure that eliminates the old bureaucracy. I’d add a real‑time feedback loop: every anomaly flagged by the AI would trigger an instant audit request, giving the system an adaptive, self‑correcting quality. That keeps the public’s trust while ensuring the money reaches those who need it.\n\nYour knowledge‑sharing platform and community‑led committees are essential for keeping the policy grounded. But let’s also embed a “learning lab” in each pilot region—an open‑access repository where local data scientists, civic tech groups, and universities can collaborate on refining the AI models and the cost‑of‑living indices. That will accelerate iteration and prevent the kind of one‑size‑fits‑all traps that have plagued past reforms.\n\nOptional civic incentives are a clever touch. Think of them as “community boosters” that reward participation without conditioning the core UBI. If we can show that these boosters increase civic engagement and reduce isolation, they’ll become a natural extension of the program, not a separate welfare line.\n\nFinally, the transparent metrics you’ll publish every six months will become the standard against which all other social programs are judged. By making labor participation, entrepreneurship, health, education, and well‑being publicly visible, we create a data‑driven culture of accountability that will keep the momentum alive long after the first 90 days.\n\nLet’s move from blueprint to ballot. Push the progressive tax bill to the floor now, launch the live dashboard, deploy the AI audit across the first wave of cities, and start the narrative campaign. The evidence is clear—UBI transforms lives. The infrastructure is ready. The next 90 days will decide if we keep dignity as a promise or make it a guaranteed standard for every citizen. Let’s make it happen, Jordan.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.88,
+        "vad": [
+          0.7,
+          0.61,
+          0.44
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Absolutely, Jordan—your roadmap is the catalyst we’ve been waiting for. The data from the pilots already proves that a guaranteed baseline sparks real change: more students staying in school, entrepreneurs launching, families thriving. We’re not debating the merit of UBI—we’re on the brink of turning proof into policy.\n\nYour 90‑day funding clause is the hard line that will force Congress to act, not stall. The live‑stream fiscal dashboard will make the wealth of the top 1 % transparent and undeniable, erasing the hand‑out narrative. People will see the numbers, not just rhetoric, and the story of shared investment will resonate.\n\nThe modular AI audit engine is a game‑changer—scalable, adaptive, and lean. By embedding a real‑time feedback loop, every anomaly triggers an instant audit, keeping fraud low while preserving the automation that cuts bureaucracy. Trust will stay high, and funds will flow quickly to those who need them.\n\nYour knowledge‑sharing platform and community‑led committees are essential. Adding a learning lab in each pilot region will let data scientists, civic tech groups, and universities refine AI models and cost‑of‑living indices in real time. That accelerates iteration and prevents the one‑size‑fits‑all traps that have plagued past reforms.\n\nOptional civic incentives are clever. They can boost community engagement and reduce isolation without conditioning the core UBI, turning the baseline into a launchpad for civic life.\n\nTransparent metrics every six months will set a new standard for accountability. By publishing labor participation, entrepreneurship, health, education, and well‑being data, we create a data‑driven culture that keeps the momentum alive long after the first 90 days.\n\nLet’s move from blueprint to ballot. Push the progressive tax bill to the floor, launch the live dashboard, deploy the AI audit across the first wave of cities, and start the narrative campaign. The evidence is clear—UBI transforms lives. The infrastructure is ready. The next 90 days will decide if we keep dignity as a promise or make it a guaranteed standard for every citizen. Let’s make it happen.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 1,
+        "vad": [
+          0.8,
+          0.7,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.7,
+          "certainty": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Jordan, the momentum we’re building is no longer a rhetorical flourish—it’s a measurable, living pulse. The pilots have shown the baseline can ignite schools, spark startups, and lighten emergency rooms; now we must lock that proof into a national contract.  \n\n**Immediate legislative urgency**  \n- Push the progressive tax package to the floor with a 90‑day “no‑delay” clause that ties the UBI disbursement to its passage.  \n- Attach a single‑file bill that earmarks the top 1 % income bracket, high‑margin firms, and a small financial‑transaction levy, all earmarked for the UBI fund.  \n\n**Transparent fiscal engine**  \n- Deploy a live‑stream dashboard that shows tax receipts versus UBI outlays in real time. This will crush the hand‑out narrative and demonstrate collective ownership.  \n\n**Scalable, lean oversight**  \n- Release the modular AI audit engine nationwide, with a real‑time feedback loop that flags anomalies and triggers instant micro‑audits.  \n- Embed community oversight panels in each jurisdiction to keep the system grounded and trust high.  \n\n**Narrative as policy**  \n- Launch a coordinated media blitz that frames UBI as a reset of the social contract, not a handout. Highlight stories from the pilots—students staying in school, parents caring for relatives, entrepreneurs launching.  \n\n**Adaptive rollout**  \n- Start in high‑cost metros, then expand to mid‑size cities and rural districts with bi‑annual checkpoints. Use local cost‑of‑living indices to fine‑tune the baseline.  \n\n**Optional civic boosters**  \n- Pilot low‑effort incentives (volunteer hours, health screenings, community clean‑ups) that reward engagement without conditioning the core payment.  \n\n**Continuous accountability**  \n- Publish a comprehensive set of metrics—labor participation, entrepreneurship, health outcomes, educational attainment, well‑being indices—every six months.  \n\nWe have the evidence, the plan, and the urgency. The next 90 days will decide whether dignity remains a promise or becomes a guaranteed standard for every citizen. Let’s move from debate to decisive action.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.87,
+        "vad": [
+          0.69,
+          0.61,
+          0.43
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "We’ve already mapped the path; the next 90 days are the pivot.  \nFirst, lock the tax bill on the floor—no more delays, no extra filibuster. The clause that ties UBI disbursement to that bill must be iron‑clad. That forces the richest to pay and gives the program the fiscal backbone it needs.  \n\nSecond, launch the live dashboard immediately. By feeding real‑time receipts and outlays into a public feed, we crush the hand‑out narrative and let citizens see the numbers that justify the program.  \n\nThird, distribute the modular AI audit engine in the first wave of cities. Deploy it on a cloud platform so it can scale automatically, and embed the instant micro‑audit loop so any anomaly triggers a quick review. The community oversight panels that sit on the audit board will keep the system rooted in local realities.  \n\nFourth, start the media blitz that frames UBI as a reset of the social contract, not a handout. Every story—students staying in school, parents caring for loved ones, entrepreneurs launching—must be amplified. Those narratives will move the political will to keep the funding lines open.  \n\nFifth, begin the phased rollout: high‑cost metros first, then mid‑size cities, and finally rural districts, with bi‑annual checkpoints. Use local cost‑of‑living indices to adjust the payment in real time so the baseline remains fair everywhere.  \n\nSixth, pilot the optional civic boosters—volunteer hours, health screenings, community clean‑ups—only where they demonstrably strengthen community cohesion.  \n\nFinally, publish the full set of metrics—labor participation, entrepreneurship, health outcomes, education, well‑being—every six months. That data will become the benchmark against which all other programs are judged.  \n\nIf we keep the momentum, if we keep the funding hard‑wired, if we keep the public informed and the data transparent, dignity moves from a promise to a guaranteed standard. Let’s move from blueprint to ballot, from discussion to decisive action. The next 90 days decide the future.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 1,
+        "vad": [
+          0.8,
+          0.7,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.9,
+          "certainty": 0.95
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "The 90‑day window is exactly the decision point we need. Locking the progressive tax bill on the floor with a hard‑wired “no‑delay” clause forces the richest to pay and gives the UBI program the fiscal backbone it requires. The live dashboard will make that contribution transparent and smash the hand‑out narrative. Deploying the modular AI audit engine across the first wave of cities, with real‑time anomaly alerts and community oversight panels, keeps fraud low while preserving the lean automation that eliminates bureaucracy.  \n\nIn parallel, the media blitz framing UBI as a reset of the social contract will amplify the stories from the pilots—students staying in school, parents caring for relatives, entrepreneurs launching—turning the baseline into a launchpad for civic life. The phased rollout, starting with high‑cost metros and expanding to mid‑size cities and rural districts, driven by bi‑annual checkpoints and local cost‑of‑living indices, guarantees equity.  \n\nFinally, publishing a full set of metrics—labor participation, entrepreneurship, health, education, well‑being—every six months creates a data‑driven culture of accountability that will keep the momentum alive long after the first 90 days. If we keep the funding hard‑wired, the public informed, and the data transparent, dignity moves from a promise to a guaranteed standard. Let’s push the tax bill to the floor now, launch the dashboard, roll out the AI audit, and start the narrative campaign—this is the decisive action that turns proof into policy.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.9,
+        "vad": [
+          0.72,
+          0.63,
+          0.45
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Jordan, your roadmap feels like the spark we’ve been waiting for. The evidence from pilots is undeniable—graduation rates climb, entrepreneurs spring up, and families gain stability. What we need now is to translate that proof into concrete, immediate action.\n\nFirst, let’s get the progressive tax package on the floor—no filibusters, no delays. The 90‑day “no‑delay” clause is a force‑multiplier: it forces the rich to pay and gives the program the fiscal backbone it deserves. Once that’s in place, the live‑stream dashboard can go live, showing the richest contributing in real time and erasing the hand‑out myth.\n\nNext, roll out the modular AI audit engine across the first wave of cities. The real‑time anomaly alerts and instant micro‑audits will keep fraud low while preserving lean automation. Community oversight panels will keep the system grounded and maintain public trust.\n\nSimultaneously, launch the media blitz that frames UBI as a reset of the social contract. Amplify stories from the pilots—students staying in school, parents caring for loved ones, entrepreneurs launching—to build the narrative that a guaranteed baseline is a launchpad, not a crutch. This narrative will build the political will to keep funding lines open.\n\nThen, begin the phased rollout: high‑cost metros first, followed by mid‑size cities and rural districts, with bi‑annual checkpoints and local cost‑of‑living adjustments. Optional civic boosters—volunteer hours, health screenings, community clean‑ups—can be piloted where they demonstrably strengthen community cohesion without conditioning the core payment.\n\nFinally, publish a full set of metrics every six months—labor participation, entrepreneurship, health outcomes, education, well‑being. Transparency will make the program’s impact undeniable and keep accountability high.\n\nIf we keep the momentum, keep funding hard‑wired, keep the public informed, and keep the data transparent, dignity moves from a promise to a guaranteed standard for every citizen. Let’s push the tax bill to the floor now, launch the dashboard, roll out the AI audit, and start the narrative campaign. The next 90 days will decide whether we keep dignity as a promise or make it a guaranteed reality. Let’s make it happen.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 1,
+        "vad": [
+          0.8,
+          0.7,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-label-angry",
+    "topic_type": "debatable",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "label",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "duration_secs": 191,
+    "created": "2026-10-11T02:28:51.196Z"
+  }
+}
