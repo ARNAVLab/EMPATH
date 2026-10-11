@@ -9,7 +9,8 @@ MODELS=$(curl -s "https://generativelanguage.googleapis.com/v1beta/models?key=${
 if [ -z "$MODELS" ]; then echo "Could not list models. Check the key and try again."; exit 1; fi
 echo "Flash models your key can use:"; echo "$MODELS" | grep -i flash | sed 's/^/  /'
 PICK=""
-for m in gemini-1.5-flash gemini-2.0-flash gemini-2.5-flash; do
+# Older Flash models (1.5, 2.0, 2.5) still appear in the list but are closed to new users.
+for m in gemini-3.8-flash; do
   if echo "$MODELS" | grep -qx "$m"; then PICK=$m; break; fi
 done
 [ -z "$PICK" ] && PICK=$(echo "$MODELS" | grep -i flash | head -1)
