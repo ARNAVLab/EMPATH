@@ -14,5 +14,5 @@ for m in gemini-1.5-flash gemini-2.0-flash gemini-2.5-flash; do
 done
 [ -z "$PICK" ] && PICK=$(echo "$MODELS" | grep -i flash | head -1)
 [ -f .env.local ] && cp .env.local .env.local.backup
-printf "OPENAI_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai/\nOPENAI_API_KEY=%s\nMODEL_NAME=%s\n" "$KEY" "$PICK" > .env.local
+printf "OPENAI_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai\nOPENAI_API_KEY=%s\nMODEL_NAME=%s\n" "$KEY" "$PICK" > .env.local
 echo "Using $PICK. Settings saved to .env.local (old settings in .env.local.backup)."
