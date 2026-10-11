@@ -6,6 +6,7 @@ import { MessagesAnnotation } from "@langchain/langgraph";
 import { BaseMessage, HumanMessage } from "@langchain/core/messages";
 
 import { prompts, personalities } from "@/config";
+import { throttle } from "@/lib/throttle";
 
 // Reasoning models (Qwen, DeepSeek-R1 distills, gpt-oss) can emit thinking text
 // inside <think>...</think>. Strip it so it never enters the conversation or the
@@ -102,6 +103,7 @@ export async function simulatedUserNode(
     emotionBlock,
     noPersonality: emotion?.noPersonality ?? false,
   });
+  await throttle();
   const response = await simulatedUser.invoke({ messages: newMessages });
 
   // Type guard to check if response has a 'content' property
@@ -149,6 +151,7 @@ export async function rateOpinionOnTopic(
     .replace("{topic}", topic.replace(/"/g, '\\"'))
     .replace("{response}", response.replace(/"/g, '\\"'));
 
+  await throttle();
   const res = await llm.invoke(prompt);
 
   // Extract the number from the response

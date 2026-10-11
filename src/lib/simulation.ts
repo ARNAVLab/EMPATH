@@ -18,6 +18,7 @@ import { EmotionConfig } from "@/emotion/model";
 const llm = new ChatOpenAI({
   model: process.env.MODEL_NAME ?? "gpt-4.1-mini",
   temperature: Number(process.env.MODEL_TEMPERATURE ?? 0.7),
+  maxRetries: Number(process.env.MODEL_MAX_RETRIES ?? 10),
   apiKey: process.env.OPENAI_API_KEY ?? "ollama",
   configuration: process.env.OPENAI_BASE_URL
     ? { baseURL: process.env.OPENAI_BASE_URL }
@@ -30,6 +31,7 @@ const llm = new ChatOpenAI({
 const judgeLlm = new ChatOpenAI({
   model: process.env.JUDGE_MODEL_NAME ?? process.env.MODEL_NAME ?? "gpt-4.1-mini",
   temperature: Number(process.env.JUDGE_TEMPERATURE ?? 0),
+  maxRetries: Number(process.env.MODEL_MAX_RETRIES ?? 10),
   apiKey:
     process.env.JUDGE_API_KEY ?? process.env.OPENAI_API_KEY ?? "ollama",
   configuration:

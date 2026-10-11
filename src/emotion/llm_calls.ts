@@ -1,6 +1,7 @@
 // LLM calls used by the emotion layer: the appraisal step and the
 // manipulation check. Both run on the judge model (temperature 0).
 import { Appraisal, EmotionLabel } from "./model";
+import { throttle } from "../lib/throttle";
 
 function textOf(res: any): string {
   const s = typeof res?.content === "string" ? res.content : String(res?.content ?? "");
@@ -30,6 +31,7 @@ Message the participant just heard:
 Rate the message from the participant's point of view. Reply with only a JSON object:
 {"congruence": <number from -1 (attacks their position) to 1 (supports their position)>, "targetedness": <number from 0 (aimed at the whole group) to 1 (aimed at them personally)>, "certainty": <number from 0 (tentative) to 1 (forceful and confident)>}`;
   try {
+    await throttle();
     const out = textOf(await llm.invoke(prompt));
     const m = out.match(/\{[\s\S]*\}/);
     const j = m ? JSON.parse(m[0]) : {};
@@ -55,6 +57,7 @@ Message:
 
 Reply with only the one word.`;
   try {
+    await throttle();
     const out = textOf(await llm.invoke(prompt)).toLowerCase();
     return LABELS.find((l) => out.includes(l)) ?? null;
   } catch (err) {
