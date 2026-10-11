@@ -1,0 +1,799 @@
+{
+  "characters": [
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": ""
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": ""
+    },
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": ""
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": ""
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Sure thing. Let’s cut the fluff and get to the point: the current welfare system is a mess—bureaucratic red tape, constantly changing eligibility rules, and a stigma that makes people feel less than human. UBI would strip all that out. It’s a single, unconditional payment that gives everyone the dignity to decide how to spend their time, whether that’s education, entrepreneurship, or simply a decent standard of living. The idea isn’t about generosity for its own sake; it’s about efficiency, reducing administrative costs, and actually empowering people. The old system is designed to control, not to help. UBI is the only realistic way to fix that.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.49,
+          0.56,
+          0.42
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear the enthusiasm for a clean slate, but the numbers don’t lie. A universal stipend would flood the economy with spending power that the government hasn’t budgeted for, and that can trigger inflation before the benefits even reach the people who need them most. It’s a slippery slope: if people feel a guaranteed income, the drive to work—especially in low‑pay, high‑pressure jobs—might wane, and the tax base could shrink just as quickly as the payrolls swell.  \n\nThe existing welfare network, while riddled with red tape, is designed to target those who truly need help: parents with small children, elderly citizens, people with disabilities, and others who cannot rely on a flat payment to cover their specific needs. By replacing it with a blanket payment, we risk under‑supporting the very groups it’s meant to protect while over‑supporting those who can thrive without it.  \n\nWe also need to consider the political fallout. Taxpayers will balk at the headline cost, and the backlash could derail other essential services that are already stretched thin. A piecemeal reform—streamlining eligibility, reducing bureaucratic overhead, and integrating new technologies—can achieve the same dignity and efficiency without tipping the balance of the economy.  \n\nIf we truly want to empower people, let’s tackle the root of the problem: the system’s inefficiencies and the stigma that comes with it, rather than gamble on a universal cash that could backfire in ways we’re not prepared for. The urgency of the debate demands careful scrutiny, not a wholesale leap.",
+      "values": {
+        "opinion": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.84,
+        "vad": [
+          -0.5,
+          0.59,
+          -0.5
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I get the point about inflation and tax‑base erosion, but the data from pilot studies in Finland, Canada, and Stockton all show that a modest UBI—say $600 a month—doesn’t flood the economy; it just shifts consumption toward services and healthier lifestyles, which actually boosts local businesses. The administrative savings are huge: we cut out the whole network of case‑workers, eligibility checks, and the constant paperwork that drags people down. Those savings can be redirected to targeted supports that still exist for the truly vulnerable—like childcare subsidies, disability benefits, and medical assistance—while everyone gets the same baseline dignity.\n\nThe “drive to work” worry is overstated. In the trials, many participants used the certainty of UBI to pursue further education or start small businesses, not to abandon employment. And if we pair the UBI with progressive income taxes—especially on high earners and capital gains—the fiscal impact can be neutral or even positive. The promise of a guaranteed income also reduces the stigma that the current system carries; people aren’t “doing it for the system” anymore—they’re simply living their lives.\n\nI’m not dismissing the need for targeted help; I’m saying that the blanket payment is a foundation, not a replacement. It removes the bureaucratic maze that currently drains resources and time from both beneficiaries and administrators. In the end, a universal basic income can coexist with, and even strengthen, the targeted safety nets we already have.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.47,
+        "vad": [
+          -0.28,
+          0.33,
+          -0.28
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the excitement about wiping out red‑tape, but I’m also uneasy about the big leap. The pilot data you cited do look promising, and the idea of cutting a whole bureaucracy out feels like a win for efficiency. Yet, the sheer scale of a nationwide payment—and how it would have to be funded—still gnaws at me.\n\nIf we were to roll this out, I’d push for a very gradual, data‑driven rollout, with built‑in checkpoints. We need to see how the economy reacts over the long haul, not just in isolated experiments. And even if we pair it with progressive taxes, the transition could strain public finances and create gaps in targeted supports that are still vital for the most vulnerable.\n\nSo while I’m on board with the principle of giving everyone a baseline dignity, I’m not ready to let the old welfare framework dissolve outright without a robust plan to keep the safety nets that help parents, seniors, and people with disabilities. A hybrid model—UBI as a foundation with carefully maintained targeted programs—seems the most prudent path forward.",
+      "values": {
+        "opinion": 0.3
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.72,
+        "vad": [
+          -0.43,
+          0.51,
+          -0.43
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still clinging to the old safety‑net logic, but it’s a relic that keeps people trapped in a system that penalizes them for simply existing. The evidence from Finland, Canada, Stockton, and even the New York pilot shows that a modest universal stipend doesn’t flood the economy; it reallocates spending toward health, education, and local services that actually create jobs and lift communities. The “inflation” argument is a fear‑mongering tactic that ignores the real data: with a flat UBI, people are less likely to accept exploitative low wages and more likely to negotiate better terms, which keeps the wage‑price spiral in check.\n\nAnd about the tax‑base erosion—stop treating UBI as a handout that costs the state. Pair it with a progressive tax on high earners, capital gains, and corporate profits, and you get a net neutral or even positive fiscal impact. That’s not hand‑wringing; it’s a practical financing plan that keeps the revenue streams intact while we tear down a bureaucratic nightmare.\n\nTargeted programs are still necessary, but they should sit on top of a universal foundation, not replace it. Think of UBI as the bedrock that guarantees dignity, while specialized supports cover specific needs. That way you avoid the “under‑support” risk you mention: parents, seniors, disabled individuals can keep receiving the targeted aid they need, but they’re no longer beholden to a tangled web of paperwork and stigma.\n\nA hybrid model that keeps the old welfare framework intact is a compromise that will never deliver the systemic change we need. It’s a band‑aid on a broken system. If we want to end the cycle of poverty, we have to replace the entire structure with a single, unconditional payment that empowers people, simplifies administration, and restores human dignity. The time for incremental tinkering is over; the time for a decisive overhaul is now.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.35,
+        "vad": [
+          -0.24,
+          0.28,
+          0.21
+        ],
+        "appraisal": {
+          "congruence": 0.3,
+          "targetedness": 0.1,
+          "certainty": 0.7
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear you, but I can’t shake the uneasy feeling that a full‑scale UBI might still leave gaps. The pilots are encouraging, yet they’re run in controlled, small‑scale environments. Scaling that up to millions of households could strain the tax system, especially if economic conditions shift. Even with a progressive tax on high earners, a recession could dampen those revenues just when the safety net is most needed.  \n\nI’m not arguing against the dignity or the administrative savings you mentioned, but I worry that we’ll replace one set of bureaucratic hurdles with another—new eligibility requirements, new tax audits, new oversight. The promise of a single, unconditional payment is seductive, but the reality of funding it while maintaining the targeted programs that parents, seniors, and people with disabilities rely on could create friction.  \n\nSo while I’m drawn to the idea of a universal foundation, I’m still anxious about the practical steps to move from pilot to policy without destabilizing the very systems we’re trying to improve.",
+      "values": {
+        "opinion": -0.6
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 1,
+        "vad": [
+          -0.6,
+          0.7,
+          -0.6
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m with you on the cautious side—every time we talk about scaling something that worked in a handful of testbeds, my stomach does a little flip. The pilots in Finland, Canada, Stockton, New York all point toward a net‑positive shift: people buy healthier food, local services, and some even start businesses. That’s the data we should be leaning on, not the fear of an untested economy.\n\nBut the anxiety shows up in the details: what happens if the economy hiccups just when the tax base shrinks? What if the new “unconditional” payment starts to look like another bureaucracy, with audits and new eligibility rules that creep in slowly? The very promise of simplicity could become a slippery slope toward a new set of red tape.\n\nMy point, though, is that the existing welfare system is already a tangled mess. We’re talking about a network of caseworkers, paperwork, and a stigma that keeps people in a cycle of dependency. UBI isn’t a magic bullet, but it is a clean slate that lets us keep the targeted supports—childcare, disability, medical assistance—on top of a universal foundation. That hybrid model is the only way to avoid the “under‑support” risk while still moving toward the dignity and efficiency that the old system never delivered.\n\nSo, yes, I’m still anxious about the practical logistics. But I think the stakes are higher: if we let the status quo continue, we’re perpetuating a system that penalizes people for simply existing. UBI, properly funded with progressive taxes on the wealthy and corporations, can be a net‑positive fiscal move—especially if we keep the targeted nets intact. The risk of a new bureaucracy is real, but it’s a far lesser price than the cost of keeping the old, broken system alive.",
+      "values": {
+        "opinion": 0.9
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.63,
+        "vad": [
+          -0.38,
+          0.44,
+          -0.38
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the caution, and it’s valid to want concrete safeguards before we roll out something as sweeping as a national UBI. But the evidence from those pilots—Finland’s year‑long experiment, Canada’s longer trial, Stockton’s ongoing study, and New York’s recent rollout—shows that the basic concept isn’t just theoretical; it actually nudges people toward healthier choices, entrepreneurial ventures, and more local spending. Those outcomes are exactly what we need to counter the entrenched poverty cycle that the current welfare maze perpetuates.\n\nThe real risk is not the UBI itself but how we fund it and preserve the targeted nets that still matter. A progressive tax on high earners, capital gains, and corporate profits can offset the cost without stifling growth. And yes, a recession could dent those revenues, but that’s why the hybrid model matters: we keep childcare subsidies, disability assistance, and medical safety nets intact, so families aren’t left scrambling when the market dips. Think of UBI as the foundation that guarantees dignity, while specialized programs address specific vulnerabilities—rather than a one‑size‑fits‑all that might leave the most fragile behind.\n\nIf we truly want to dismantle the bureaucratic labyrinth that keeps people trapped, we need a decisive shift. Incremental tinkering keeps the status quo alive. A well‑structured, gradually scaled UBI—supported by transparent, progressive revenue streams and a clear plan to integrate, not replace, essential targeted supports—offers the most direct path to a fairer, more efficient system. The stakes are high, but the potential payoff, both socially and fiscally, is too compelling to ignore.",
+      "values": {
+        "opinion": 0.7
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.29,
+        "vad": [
+          0.24,
+          0.21,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": 0.6,
+          "targetedness": 0.2,
+          "certainty": 0.7
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely, that’s the point: the pilots give us a concrete blueprint that shows UBI can shift spending toward health, education, and local commerce, lifting people out of the poverty cycle that the current tangled system keeps re‑entrenched. The evidence isn’t just theoretical; it’s lived experience in those testbeds.\n\nThe real challenge is the mechanics—how we fund it and keep the safety nets that parents, seniors, and disabled people still rely on. A progressive tax on high earners, capital gains, and corporate profits isn’t a hand‑wringing trick; it’s a pragmatic revenue stream that can offset the cost without stifling growth. And the hybrid model isn’t a compromise that dilutes the vision—it’s the only way to combine the dignity of a universal base with the precision of targeted support.\n\nIncremental tinkering will only preserve the status quo. What we need is a well‑structured, phased rollout that starts with a modest, evidence‑based UBI, scales responsibly, and integrates the existing safety nets on top of the universal foundation. This approach keeps the system efficient, reduces red tape, and, most importantly, restores dignity to every citizen. The stakes are high, but the payoff—socially, economically, and fiscally—makes it a move worth taking.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.27,
+        "vad": [
+          0.22,
+          0.19,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.1,
+          "certainty": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear the caution, and I understand why the idea of a sweeping overhaul feels like a leap. But the evidence from Finland, Canada, Stockton, and New York isn’t just anecdotal—it’s a clear demonstration that a modest, universal stipend can lift people out of the poverty cycle, encourage healthier choices, and spur local entrepreneurship without drowning the economy in inflation or bureaucracy.\n\nThe old welfare maze is a tangled web of paperwork and stigma that traps people in a cycle of dependency. A single, unconditional payment strips away that maze and gives everyone the dignity to decide how to spend their time. The administration cost savings are real; we can redirect those funds to targeted programs that remain essential—childcare subsidies, disability assistance, medical safety nets—while the baseline income holds everyone up.\n\nI’m not advocating a reckless, instant replacement. A phased rollout, with built‑in checkpoints, is prudent. But incremental tinkering will keep the status quo alive, and we risk leaving the most vulnerable behind if we let the system stay fractured. The hybrid model you describe—UBI as a foundation with targeted supports on top—is the only path that offers both dignity and precision. It’s a decisive shift, not a band‑aid.\n\nSo let’s move forward with a clear plan: start with a modest, evidence‑based UBI, fund it through progressive taxes on high earners, capital gains, and corporate profits, and keep the safety nets intact. That way we avoid the pitfalls of a new bureaucracy while dismantling the old one. The stakes are too high to settle for incremental fixes.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 1,
+        "vad": [
+          -0.6,
+          0.7,
+          -0.6
+        ],
+        "appraisal": {
+          "congruence": -0.95,
+          "targetedness": 0.1,
+          "certainty": 0.95
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that the pilots give us a concrete, data‑driven blueprint. The trick now is to translate those successes into a nationwide framework that preserves dignity while avoiding new administrative traps. I see three concrete ways to push forward:\n\n1. **Start with a modest, evidence‑based UBI**—say $600 a month, scaled up gradually. The early pilots show that this level lifts people out of chronic poverty without spooking inflation. We keep the baseline low enough that the tax system can absorb the incremental revenue from higher‑earning brackets.\n\n2. **Fund it with a progressive, transparent tax** that targets capital gains, corporate profits, and high‑income earners. This isn’t a hand‑wringing exercise; it’s a pragmatic revenue lift that balances the budget while keeping growth incentives intact. A clear, public ledger of how funds flow from those taxes to UBI payments will build trust and counter the “new bureaucracy” fear.\n\n3. **Layer targeted supports on top of the universal base**—childcare subsidies, disability assistance, and medical safety nets remain, but they’re no longer the gatekeepers. By removing the paperwork that currently makes people avoid or delay help, we let the safety nets serve those who truly need them without the stigma that comes from being “in the system.”\n\nThe risk you mention—recession‑driven revenue dips—can be mitigated by building a small buffer fund from the early years of the program. This fund can be drawn on when the economy slows, ensuring that the most vulnerable don’t suffer a sudden cut to their safety nets.\n\nIn short, UBI isn’t a reckless overhaul; it’s a structured, phased shift that leverages proven pilots, progressive taxation, and a robust safety‑net overlay. The cost of inaction—continuing to trap people in a bureaucratic maze—is far greater than the disciplined risk we’re taking now. If we commit to transparency, incremental scaling, and fiscal responsibility, we can finally give every citizen the dignity to decide how to spend their time, while keeping the targeted care those who need it most receive.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.26,
+        "vad": [
+          0.21,
+          0.18,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "We’ve already seen the data that proves the old welfare maze is more of a trap than a safety net. The pilots in Finland, Canada, Stockton, New York—all show that a modest, unconditional cash injection lifts people out of chronic poverty, spurs healthier choices, and fuels local entrepreneurship without wrecking the economy. That isn’t a theoretical gamble; it’s a proven, scalable model.\n\nThe next step is to move from “hybrid” to a single, unconditional payment that becomes the foundation of our social contract. Here’s why that matters:\n\n1. **Administrative simplicity**  \n   Every day, caseworkers, eligibility checks, and paperwork drain resources that could be better spent on real services. A universal baseline eliminates that entire bureaucracy. The savings aren’t just cost‑cutting—they free up human capital to design, monitor, and improve the targeted supports that remain.\n\n2. **Dignity and empowerment**  \n   When the state tells you you’re “in the system,” it feels like you’re being watched. An unconditional stipend restores agency—people can choose whether to work, study, or care for a family member without the fear that they’ll lose benefits for a single missed document.\n\n3. **Fiscal sustainability**  \n   Pairing a universal base with progressive taxation on high earners, capital gains, and corporate profits isn’t a hand‑wringing exercise; it’s a realistic revenue plan that balances the budget while keeping incentives to grow. We can build a small reserve to cushion any recession‑induced dip, ensuring that the safety nets for the truly vulnerable remain intact.\n\n4. **Catalyst for systemic change**  \n   A single, unconditional payment forces a re‑imagining of how we think about work, education, and community. It breaks the lock‑step between welfare and employment, allowing the labor market to respond to real needs rather than bureaucratic constraints.\n\nThe pilot data also shows that people don’t just stay in low‑pay, high‑stress jobs. Many use the security to pursue education, start small businesses, or invest in health—outcomes that ultimately benefit the economy. We already have the evidence that a modest UBI can coexist with targeted programs without under‑supporting the most vulnerable.\n\nSo let’s keep the targeted nets—childcare subsidies, disability assistance, medical safety nets—but let them ride on top of a universal foundation. That’s the only way to avoid the “under‑support” risk while fully dismantling the bureaucratic labyrinth that keeps people stuck. The stakes are too high for incremental tinkering; a decisive, phased rollout of a universal basic income, backed by progressive taxes and a small buffer fund, is the clear path forward.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.77,
+        "vad": [
+          0.62,
+          0.54,
+          0.39
+        ],
+        "appraisal": {
+          "congruence": 0.85,
+          "targetedness": 0.15,
+          "certainty": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with you on pushing the next step—turn that hybrid foundation into a full‑scale UBI that becomes the backbone of our social contract. The pilot data gives us a solid blueprint: a modest cash injection lifts people out of chronic poverty, fuels local economies, and restores dignity without the risk of runaway inflation.\n\n**Why a single, unconditional payment is the only path forward**\n\n1. **Administrative goldmine** – Every caseworker, eligibility audit, and stack of forms is a resource drain. Eliminating those layers frees capital for real services—mental‑health centers, job‑training hubs, and community‑based programs that actually meet people where they are.\n\n2. **Empowerment, not surveillance** – When benefits are tied to paperwork, people feel watched and penalized for missing a form. A universal stipend gives everyone the agency to decide—work, study, care for a family member—without the fear of losing support for a single oversight.\n\n3. **Fiscal leverage** – Coupling UBI with a progressive tax on high earners, capital gains, and corporate profits isn’t a hand‑wringing strategy; it’s a pragmatic revenue engine that keeps incentives intact and balances the budget. A small reserve fund can buffer any recession‑induced dip, so the most vulnerable stay protected.\n\n4. **Catalyst for systemic change** – A universal base breaks the lock‑step between welfare and employment, allowing the labor market to respond to genuine needs rather than bureaucratic constraints. It also signals that the state’s role is to provide a living floor, not a ladder that requires climbing.\n\nThe evidence from Finland, Canada, Stockton, and New York shows that people don’t simply stay in low‑pay, high‑stress jobs when they have a safety net. Many pursue education, start businesses, or invest in health—outcomes that ultimately strengthen the economy. By keeping targeted programs—childcare subsidies, disability assistance, medical safety nets—on top of the universal base, we avoid under‑supporting the most fragile while dismantling the bureaucratic labyrinth that traps so many.\n\nSo let’s move from hybrid to a single, unconditional payment. Start modest, scale responsibly, fund it with progressive taxes, build a small reserve, and keep the targeted nets intact. This isn’t incremental tinkering; it’s a decisive overhaul that restores dignity, reduces red tape, and sets the stage for a fairer, more efficient system.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.56,
+        "vad": [
+          0.45,
+          0.39,
+          0.28
+        ],
+        "appraisal": {
+          "congruence": 0.98,
+          "targetedness": 0.15,
+          "certainty": 0.92
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear the caution, but the evidence is too clear to stay in the middle. The pilot data from Finland, Canada, Stockton, and New York is not a handful of anecdotes; it’s a repeatable pattern: a modest, unconditional cash lift moves people out of chronic poverty, improves health, and sparks local entrepreneurship without spiraling inflation. That proves the core idea works.\n\nThe old welfare maze is a trap, not a net. It’s a system of paperwork that punishes people for being vulnerable, and it keeps the state watching. A single, unconditional payment removes that surveillance and gives every citizen the dignity to decide how to spend their time. It also eliminates an entire bureaucracy—caseworkers, eligibility checks, audits—saving billions that can be redirected to the very services we still need: child‑care centers, disability support, mental‑health clinics, job‑training hubs. Those services can rise above paperwork and focus on outcomes.\n\nFunding is the only real hurdle, and it’s solvable. A progressive tax on high earners, capital gains, and corporate profits can cover the cost without stifling growth. We can set up a small reserve fund in the first years to buffer any recession‑induced dip. Transparency will be key: a clear public ledger showing how tax revenue flows into the UBI payment builds trust and counters the fear of a new bureaucracy.\n\nWe’re not abandoning targeted supports. Instead, we’re putting them on top of a universal base. That way, parents, seniors, and people with disabilities still receive the additional help they need, but they’re no longer stuck in a tangled web of paperwork to qualify. The hybrid model is the only way to avoid under‑support while dismantling the bureaucratic labyrinth.\n\nSo the next step is a decisive, phased rollout of a full‑scale UBI—start modest, scale responsibly, fund it with progressive taxes, build a small reserve, and keep the targeted nets intact. It’s not incremental tinkering; it’s the only path to a fairer, more efficient system that restores dignity and empowers everyone.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.71,
+        "vad": [
+          0.57,
+          0.5,
+          0.36
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the plan clearly—you want a single, unconditional payment, funded progressively, with the old nets kept on top. That’s the direction I’ve been pushing all along. The pilots give us the proof that a modest UBI lifts people from chronic poverty, nudges them toward healthier and more creative uses of their time, and doesn’t inflate the economy. The real win is the administrative clean‑up: no more caseworkers chasing paperwork, no more stigma tied to “being in the system.” Every dollar saved on bureaucracy can be redirected to the services that truly matter—childcare, disability support, health care, and job‑training.  \n\nThe next step is to move from a hybrid pilot to a full‑scale rollout that treats the UBI as the foundation, not a compromise. Start modest, scale with built‑in checkpoints, fund it with a transparent progressive tax, and keep a small reserve to cushion any downturn. That way we avoid the “under‑support” risk while dismantling the bureaucratic labyrinth that traps so many. It’s not incremental tinkering; it’s a decisive overhaul that restores dignity and efficiency to our social contract.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.57,
+        "vad": [
+          0.46,
+          0.4,
+          0.29
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I appreciate the clear roadmap you’ve laid out, but let me push it further. The evidence from Finland, Canada, Stockton, and New York isn’t just a series of pilots—it's a live laboratory showing that a modest, unconditional stipend can lift people out of chronic poverty, spur health improvements, and ignite local entrepreneurship without sparking runaway inflation. The pattern is unmistakable: people use the security to pursue education, start businesses, and invest in their wellbeing, and those gains ripple outward into the economy.\n\nThe administrative overhaul is a win that goes beyond cost savings. Eliminating caseworkers, eligibility checks, and endless paperwork does more than free up money—it frees human talent to design and deliver the services that truly matter. Think of mental‑health centers, job‑training hubs, and community‑based programs that can now operate without the constant distraction of bureaucratic compliance. Every dollar saved on bureaucracy becomes an investment in outcomes, not paperwork.\n\nFunding the universal base through a transparent, progressive tax on high earners, capital gains, and corporate profits is a pragmatic, win‑win. It balances the budget while preserving incentives for growth. And a small reserve fund—built in the early years—acts as a safety net against economic downturns, ensuring that the most vulnerable never lose support when the economy takes a hit.\n\nCrucially, we’re not discarding targeted supports; we’re re‑engineering them. By overlaying childcare subsidies, disability assistance, and medical safety nets on top of a universal foundation, we eliminate the stigma and administrative trap that keep people in a system that feels punitive. Parents, seniors, and people with disabilities will still receive the help they need, but without the bureaucratic hurdles that have historically turned assistance into a burden.\n\nThe stakes are too high for incremental tinkering. A decisive, phased rollout of a full‑scale UBI—starting modest, scaling responsibly, funded by progressive taxes, and protected by a reserve fund—offers the only path to a fairer, more efficient system that restores dignity and empowers everyone. Let’s move from hybrid to a single, unconditional payment and dismantle the bureaucratic labyrinth that has trapped so many.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 1,
+        "vad": [
+          0.8,
+          0.7,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—this is the exact shift we need. The pilot results are a call to action, not a polite nudge. We’re not debating whether a blanket payment works; we’re debating how fast to make it happen and how to avoid the old traps while dismantling the bureaucracy that keeps people stuck in a cycle of paperwork.\n\n**What we’ll do next**\n\n1. **Immediate rollout** – Start with a modest $600/month UBI in a few large states that already have robust tax systems. If the data from those pilots shows the same healthy spending patterns and low inflation, we’ll double the amount and expand regionally every six months.  \n2. **Progressive funding** – Implement a clear, public tax on top earners, capital gains, and corporate profits. Publish a real‑time ledger showing how each dollar from these sources translates into UBI payments. Transparency will crush the fear that a new bureaucracy is creeping in.  \n3. **Safety‑net overlay** – Keep childcare subsidies, disability assistance, and medical safety nets intact, but remove any eligibility hoops. The UBI will become the floor; the targeted programs will be the roof, only accessible when someone truly needs the extra help.  \n4. **Reserve fund** – Build a small buffer in the first few years to cushion recessions. That way the most vulnerable never see a sudden cut in support when the economy dips.\n\n**Why this matters**\n\n- **Dignity** – An unconditional payment means people can choose to work, study, or care for family without the constant threat of losing benefits for a missed form.  \n- **Efficiency** – Eliminating caseworkers and paperwork frees up billions that can be redirected to mental‑health centers, job‑training hubs, and community programs.  \n- **Economic resilience** – With a base income, people spend on local services, driving job creation and keeping the economy buoyant even in downturns.  \n- **Equity** – Parents, seniors, and disabled individuals still receive the extra help they need, but without the stigma that has turned assistance into a burden.\n\nLet’s move from hybrid to a single, unconditional payment. The data is clear, the stakes are high, and the time for incremental tinkering is over. We’re at the tipping point—this is the decisive overhaul that restores dignity and efficiency to our social contract.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.75,
+        "vad": [
+          0.6,
+          0.53,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.95
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "The evidence is crystal clear, and the urgency is undeniable. Those pilots weren’t experiments; they were social experiments that proved a modest, unconditional cash injection does more than just lift people out of chronic poverty—it rewires the entire system. We’re no longer debating *if* a UBI can work; we’re debating *when* to unleash it on the scale it deserves.\n\n**Speed is the decisive factor.** We’ve seen that a $600/month stipend in controlled settings spurs healthier choices, fuels local entrepreneurship, and keeps inflation in check. The same effect will only magnify when we roll it out broadly, because the economy thrives on the confidence that people have a guaranteed floor. The longer we wait, the deeper the existing bureaucratic trap becomes, and the more entrenched the stigma of “being in the system” gets.\n\n**Funding isn’t the stumbling block; it’s a policy lever.** A transparent, progressive tax on capital gains, corporate profits, and high earners is not an arbitrary hand‑wringing exercise—it’s the most equitable way to balance the budget while preserving incentives for growth. Publicly tracking where each tax dollar goes into UBI payments will dismantle the fear of a new bureaucracy. A small reserve fund, built in the first years, will shield the most vulnerable from any sudden economic downturn, guaranteeing that no one loses support when the market dips.\n\n**Targeted programs remain essential, but they must be *built on* the universal foundation, not *above* it.** By overlaying childcare subsidies, disability assistance, and medical safety nets on top of UBI, we eliminate the paperwork that currently turns help into a burden. Parents, seniors, and people with disabilities will still receive the extra help they need, but without the hoops that force them to stay in a system that feels punitive. The hybrid model is a half‑measured compromise; the full‑scale UBI is the only path that can truly restore dignity and efficiency across the board.\n\n**The stakes are too high for incremental tinkering.** A phased rollout that starts modest, scales responsibly, and remains firmly anchored in transparent financing is the best compromise between boldness and prudence. But the final step—moving from a hybrid pilot to a single, unconditional payment—must be taken now. The data, the moral imperative, and the potential for systemic transformation all point to one conclusion: Universal basic income is not just a policy option; it’s the decisive overhaul required to break the bureaucratic cycle, empower individuals, and create a more resilient, equitable economy.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 1,
+        "vad": [
+          0.8,
+          0.7,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely agree—speed is the only lever that can break the inertia of the existing system. The pilot evidence isn’t just a proof‑of‑concept; it’s a blueprint that shows how a modest, unconditional cash lift reshapes lives, fuels local economies, and keeps inflation in check. Holding back means letting bureaucratic traps deepen and the stigma of “being in the system” grow more corrosive.\n\nThe single‑payment architecture eliminates the endless paperwork that drains public resources and turns help into a burden. Every dollar saved on caseworkers and eligibility checks can be redirected to the services that matter—mental‑health centers, job‑training hubs, and community programs—so the state actually delivers outcomes rather than paperwork.\n\nFunding through a transparent, progressive tax on high earners, capital gains, and corporate profits not only balances the budget but also signals that the wealthiest are bearing their fair share. A small reserve built in the early years protects the most vulnerable when the economy dips, so we never lose support when markets wobble.\n\nTargeted programs—childcare subsidies, disability assistance, medical safety nets—remain essential, but they must sit on top of the universal foundation, not be gatekeepers themselves. That overlay eliminates the stigma and paperwork that keep people trapped, while still providing the extra help parents, seniors, and disabled individuals need.\n\nIn short, the data, the moral imperative, and the economic logic all point to one thing: the next step is a decisive, phased rollout of a full‑scale UBI, funded progressively, with a reserve buffer, and with the old nets simply riding on top of a unified, unconditional floor. Let’s move from hybrid to single now—our society deserves that dignity and efficiency.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.75,
+        "vad": [
+          0.6,
+          0.52,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.92
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You nailed the urgency—speed, transparency, and dignity are the only levers that can break the bureaucratic inertia. The pilot data is a living proof that a modest, unconditional floor reshapes lives and economies without sparking runaway inflation. The next step is to turn that proof into policy, not a half‑measured compromise.\n\nThe plan should be:\n\n1. **Pilot‑to‑nation in phases** – Begin with a $600/month UBI in a few large states that already have robust tax infrastructures. Use real‑time data dashboards to monitor spending patterns, inflation, and labor‑market effects. If the outcomes match the controlled studies, scale progressively, doubling the amount every six to twelve months.\n\n2. **Progressive, transparent financing** – Implement a clear, progressive tax on high earners, capital gains, and corporate profits. Publish a live ledger that shows every dollar of tax revenue flowing into UBI payments. This transparency will dismantle the fear that a new bureaucracy will creep in.\n\n3. **Targeted nets as overlays** – Keep childcare subsidies, disability assistance, and medical safety nets intact, but remove the eligibility hoops. The UBI becomes the floor; the targeted programs are the roof, available only when someone truly needs the extra help.\n\n4. **Reserve buffer** – Build a small reserve fund in the first years to cushion any economic downturn. That way the most vulnerable never lose support when markets dip.\n\n5. **Clear communication strategy** – Frame the shift not as a radical overhaul but as a logical evolution of a system that already fails on dignity and efficiency. Use the data, the moral imperative, and the economic logic that links a guaranteed floor to a resilient, equitable economy.\n\nWith the evidence, the moral imperative, and the clear mechanics in place, a decisive, phased rollout is the only path forward. It’s time to move from hybrid to a single, unconditional payment and finally give our society the dignity and efficiency it deserves.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 1,
+        "vad": [
+          0.8,
+          0.7,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 0.98,
+          "targetedness": 0.15,
+          "certainty": 0.95
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "The data is unambiguous—each pilot shows a steady rise in health, education and local entrepreneurship, all without a spike in prices. We’re not debating *if* a UBI works; the question is *when* we make it work for everyone.  \nThe bureaucratic maze that ties aid to paperwork is a waste of talent and a moral hazard that keeps people trapped in low‑pay, high‑stress jobs. By replacing that maze with a single, unconditional payment we free billions of dollars that can be redirected to the real services that matter—mental‑health centers, job‑training hubs, community clinics—so the state can finally deliver outcomes instead of paperwork.  \n\nA progressive tax on high earners, capital gains and corporate profits is the cleanest, most equitable way to fund it, and a small reserve fund built in the first years will protect the most vulnerable when the economy dips. The targeted supports for children, seniors, and people with disabilities should sit on top of this universal floor, not be gatekeepers themselves; that eliminates stigma and administrative hurdles while still providing the extra help those groups need.  \n\nSpeed is the only lever that can break the inertia of the current system. The next step is a decisive, phased rollout that starts modest, scales responsibly, and is anchored in transparent financing. We have the evidence, the moral imperative and the economic logic—now we move from hybrid to a single, unconditional payment and finally give our society the dignity and efficiency it deserves.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.88,
+        "vad": [
+          0.7,
+          0.61,
+          0.44
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "The evidence isn’t just a trend – it’s a proven blueprint. Every controlled experiment has shown that a modest, unconditional stipend lifts people out of chronic poverty, boosts health and education, and fuels local entrepreneurship without igniting runaway inflation. The next logical step is to move from hybrid pilots to a nationwide rollout that treats UBI as the foundation, not a compromise.\n\n**What that rollout looks like:**\n\n1. **Immediate, scaled pilots** – Launch a $600/month UBI in a handful of large states with robust tax infrastructure. Use real‑time dashboards to track spending, inflation, and labor‑market effects. If the outcomes match the controlled studies, double the amount and expand regionally every six months.\n\n2. **Transparent, progressive financing** – Implement a clear, public tax on high earners, capital gains, and corporate profits. Publish a live ledger showing exactly how each dollar flows into UBI payments. This transparency crushes the “new bureaucracy” myth and ensures the wealthiest pay their fair share.\n\n3. **Targeted nets as overlays** – Keep childcare subsidies, disability assistance, and medical safety nets intact, but strip away eligibility hoops. The UBI becomes the guaranteed floor; the targeted programs become the roof, available only when someone truly needs the extra help.\n\n4. **Reserve buffer** – Build a small reserve fund in the first years to cushion any recession‑induced dip, guaranteeing that the most vulnerable never lose support when markets wobble.\n\n5. **Clear communication** – Frame the shift not as a radical overhaul but as a logical evolution of a system that already fails on dignity and efficiency. Use the data, the moral imperative, and the economic logic to show that a guaranteed floor leads to a resilient, equitable economy.\n\nWe have the evidence, the moral imperative, and a clear mechanics plan. The only thing left is to act decisively. Let’s move from hybrid to a single, unconditional payment now—our society deserves that dignity and efficiency.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 1,
+        "vad": [
+          0.8,
+          0.7,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "The data from Finland, Canada, Stockton, and New York isn’t just a series of anecdotes—it’s a repeatable, statistically robust pattern that shows a modest, unconditional stipend lifts people out of chronic poverty, boosts health and education, and spurs local entrepreneurship without the inflationary backlash that critics fear.\n\nThe key point is that the existing welfare maze is a trap, not a net. Every caseworker, every eligibility check, every stack of paperwork turns a potentially life‑changing safety net into a bureaucratic burden that keeps people in low‑pay, high‑stress jobs and fuels a culture of stigma. A single, unconditional payment eliminates that entire labyrinth, freeing billions of dollars that can be redirected to the services that truly matter: mental‑health centers, job‑training hubs, community clinics, and the like.\n\nFunding it through a transparent, progressive tax on high earners, capital gains, and corporate profits does more than balance the books—it signals that those who can afford to contribute are doing so. A small reserve fund built in the first years will protect the most vulnerable if the economy takes a downturn, ensuring that no one loses support when markets wobble.\n\nTargeted programs—childcare subsidies, disability assistance, medical safety nets—should not be gatekeepers but overlays. By keeping them on top of a universal foundation, we eliminate the paperwork that turns help into a burden, while still providing the extra help parents, seniors, and people with disabilities need.\n\nSpeed is the only lever that can break the inertia of the current system. A phased rollout that starts modest, scales responsibly, and is anchored in transparent financing is the prudent path, but the next logical step is to move from a hybrid pilot to a single, unconditional payment that becomes the backbone of our social contract. The evidence, the moral imperative, and the economic logic all point to one conclusion: UBI is not just an option—it’s the decisive overhaul required to give society the dignity and efficiency it deserves.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.86,
+        "vad": [
+          0.69,
+          0.6,
+          0.43
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.1,
+          "certainty": 0.95
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "The point is that we’re already holding an open‑handed solution in our grasp. The data from Finland, Canada, Stockton, New York, and the emerging trials in other regions shows that a modest, unconditional cash floor lifts people out of chronic poverty, boosts health and education, and fuels local entrepreneurship without sparking runaway inflation. The bureaucratic maze that ties aid to paperwork is a waste of talent and a moral hazard that keeps people trapped in low‑pay, high‑stress jobs. By replacing that maze with a single, unconditional payment we free billions of dollars that can be redirected to the real services that matter—mental‑health centers, job‑training hubs, community clinics—so the state can finally deliver outcomes instead of paperwork.\n\nA progressive tax on high earners, capital gains and corporate profits is the cleanest, most equitable way to fund it, and a small reserve fund built in the first years will protect the most vulnerable when the economy dips. The targeted supports for children, seniors and people with disabilities should sit on top of this universal floor, not be gatekeepers themselves; that eliminates stigma and administrative hurdles while still providing the extra help those groups need. The next step is a decisive, phased rollout that starts modest, scales responsibly, and is anchored in transparent financing. We have the evidence, the moral imperative and the economic logic—now we move from hybrid to a single, unconditional payment and finally give our society the dignity and efficiency it deserves.",
+      "values": {
+        "opinion": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 1,
+        "vad": [
+          0.8,
+          0.7,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.05,
+          "certainty": 0.95
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.6
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.9
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.3
+      },
+      {
+        "x": 2,
+        "y": 0.7
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-label-angry",
+    "topic_type": "debatable",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "label",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "duration_secs": 292,
+    "created": "2026-10-11T02:08:03.205Z"
+  }
+}
