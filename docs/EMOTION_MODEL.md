@@ -113,3 +113,18 @@ hints before running the grid.
   angry at s=0.7). Tests path dependence of group outcomes.
 - Study sequence: Study 1 emotion-only (no personality prompts) -> Study 3
   personality x emotion. OFF stays byte-identical to baseline throughout.
+
+## Revision after the Oct 10 pilot
+- Anger vs anxiety now uses coping potential (Lazarus secondary appraisal,
+  Scherer's coping check): when attacked, an agent that can counter the
+  argument gets angry; one that can't gets anxious. The appraisal call returns
+  a new "coping" score (0-1). Reason: in group debate almost no message is
+  rated as aimed at one person, so the old targetedness rule never produced
+  anger after the opening turn.
+- Soft ceiling: gains shrink as intensity rises (s += gain * (1 - s)), so
+  low-regulation agents no longer pin at 1.0. Retuned: medium gamma 0.45,
+  low (lambda 0.8, gamma 0.6), contagion 0.15. Five strong attacks now reach
+  about 0.8 (low regulation) vs 0.4 (high regulation).
+- New optional --debate-rules flag: states each agent's side in words and
+  forbids planning talk. Off by default, so Study 0 stays a faithful
+  reproduction of the original prompt.

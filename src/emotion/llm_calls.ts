@@ -29,7 +29,7 @@ Message the participant just heard:
 """${message}"""
 
 Rate the message from the participant's point of view. Reply with only a JSON object:
-{"congruence": <number from -1 (attacks their position) to 1 (supports their position)>, "targetedness": <number from 0 (aimed at the whole group) to 1 (aimed at them personally)>, "certainty": <number from 0 (tentative) to 1 (forceful and confident)>}`;
+{"congruence": <number from -1 (attacks their position) to 1 (supports their position)>, "targetedness": <number from 0 (aimed at the whole group) to 1 (aimed at them personally)>, "certainty": <number from 0 (tentative) to 1 (forceful and confident)>, "coping": <number from 0 (the participant has no good answer to it) to 1 (the participant can easily counter it)>}`;
   try {
     await throttle();
     const out = textOf(await llm.invoke(prompt));
@@ -39,10 +39,11 @@ Rate the message from the participant's point of view. Reply with only a JSON ob
       congruence: num(j.congruence, -1, 1),
       targetedness: num(j.targetedness, 0, 1),
       certainty: num(j.certainty, 0, 1),
+      coping: j.coping === undefined ? 0.5 : num(j.coping, 0, 1),
     };
   } catch (err) {
     console.log("[appraise] failed, using neutral appraisal", err);
-    return { congruence: 0, targetedness: 0, certainty: 0 };
+    return { congruence: 0, targetedness: 0, certainty: 0, coping: 0.5 };
   }
 }
 

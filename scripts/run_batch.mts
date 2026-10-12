@@ -24,6 +24,7 @@
  *   --start X          calm | excited | angry (default calm)
  *   --emotion-only     neutral agents, no personality; 2 high and 2 low regulation
  *   --no-check         skip the per-message emotion check
+ *   --debate-rules     state each agent's side in words and forbid planning talk
  *   --label X          name used in output file names
  */
 import "./load_env.mts";
@@ -68,6 +69,7 @@ async function main() {
   const outdirName = arg("outdir", "saved_batch")!;
   const emotionArg = arg("emotion");
   const emotionOnly = flag("emotion-only");
+  const debateRules = flag("debate-rules");
 
   const emotionCfg: EmotionConfig | undefined =
     emotionArg || emotionOnly
@@ -84,7 +86,7 @@ async function main() {
     arg("label") ??
     (emotionCfg
       ? `${emotionOnly ? "eo" : "pe"}-${emotionCfg.condition}-${emotionCfg.format}-${emotionCfg.startMood}`
-      : "baseline");
+      : "baseline") + (debateRules && !arg("label") ? "-dr" : "");
 
   const topics: [string, string][] = topicArg
     ? [["custom", topicArg]]
@@ -122,6 +124,7 @@ async function main() {
         }
       }
 
+      if (debateRules) chars.forEach((c) => (c.debate_rules = true));
       console.log(`\n=== ${label} | topic=${topicType} | run ${g + 1}/${groups.length} ===`);
       const t0 = Date.now();
       const messages = await runSimulationCollect(chars, topic, emotionCfg);
@@ -149,6 +152,7 @@ async function main() {
           run_index: g,
           group,
           emotion: emotionCfg ?? null,
+          debate_rules: debateRules,
           model: process.env.MODEL_NAME ?? "gpt-4.1-mini",
           judge_model: process.env.JUDGE_MODEL_NAME ?? process.env.MODEL_NAME ?? "gpt-4.1-mini",
           base_url: process.env.OPENAI_BASE_URL ?? "openai",

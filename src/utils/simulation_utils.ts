@@ -17,6 +17,19 @@ export function stripThinking(text: any): string {
 }
 
 
+// Optional "debate rules" (EMPATH): state the agent's side in words and keep
+// the conversation a debate. Off by default, so the original prompt is unchanged.
+export const DEBATE_RULE =
+  "This is a debate, not a planning session. Argue for your position and respond directly to the others' points. Change your mind only if their arguments convince you. Do not write plans, checklists, schedules, tables, or action items.";
+
+export function stanceSentence(o: number): string {
+  if (o >= 0.75) return "You strongly agree with the topic statement and want to defend it.";
+  if (o >= 0.25) return "You somewhat agree with the topic statement.";
+  if (o > -0.25) return "You are undecided about the topic statement.";
+  if (o > -0.75) return "You somewhat disagree with the topic statement.";
+  return "You strongly disagree with the topic statement and want to argue against it.";
+}
+
 export interface AgentPromptOptions {
   emotionBlock?: string; // appended to the system prompt; "" = original prompt
   noPersonality?: boolean; // Study 2: emotion-only agents
@@ -44,8 +57,12 @@ export async function createSimulatedUser(
   const personality_type =
     personalities[character.personality as keyof typeof personalities];
 
-  // With no emotion block the system prompt is byte-identical to the original.
-  const block = (opts.emotionBlock ?? "").replace(/{/g, "{{").replace(/}/g, "}}");
+  // With no extras the system prompt is byte-identical to the original.
+  const extras = [
+    character.debate_rules ? `${stanceSentence(Number(character.opinion_strength ?? 0))} ${DEBATE_RULE}` : "",
+    opts.emotionBlock ?? "",
+  ].filter(Boolean).join(" ");
+  const block = extras.replace(/{/g, "{{").replace(/}/g, "}}");
   const systemPrompt = block ? `${prompts.system}\n  ${block}\n` : prompts.system;
 
   const prompt = ChatPromptTemplate.fromMessages([

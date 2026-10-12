@@ -17,6 +17,7 @@ export interface Appraisal {
   congruence: number; // -1 (attacks my position) .. 1 (supports it)
   targetedness: number; // 0 (aimed at the group) .. 1 (aimed at me)
   certainty: number; // 0 (tentative) .. 1 (forceful)
+  coping?: number; // 0 (can't counter it) .. 1 (can easily counter it)
 }
 
 export interface EmotionConfig {
@@ -38,11 +39,11 @@ export const ANCHORS: Record<EmotionLabel, [number, number, number]> = {
 // Decay (lambda) and gain (gamma) per regulation level.
 export const REGULATION: Record<Regulation, { lambda: number; gamma: number }> = {
   high: { lambda: 0.5, gamma: 0.3 },
-  medium: { lambda: 0.7, gamma: 0.5 },
-  low: { lambda: 0.85, gamma: 0.7 },
+  medium: { lambda: 0.7, gamma: 0.45 },
+  low: { lambda: 0.8, gamma: 0.6 },
 };
 
-export const CONTAGION = 0.2;
+export const CONTAGION = 0.15;
 const CALM_FLOOR = 0.1; // below this intensity the agent counts as calm
 
 const clip = (x: number, lo = 0, hi = 1) => Math.min(hi, Math.max(lo, x));
@@ -85,9 +86,11 @@ export function updateState(
   const t = clip(appraisal.targetedness);
   const k = clip(appraisal.certainty);
 
+  // Attacked: anger if the agent feels able to fight back (coping potential,
+  // Lazarus/Scherer) or the attack is aimed at it; otherwise anxiety.
+  const coping = clip(appraisal.coping ?? 0.5);
   let target: EmotionLabel | null = null;
-  if (c < -0.3 && t >= 0.5) target = "anger";
-  else if (c < -0.3 && k >= 0.5) target = "anxiety";
+  if (c < -0.3) target = coping >= 0.5 || t >= 0.5 ? "anger" : "anxiety";
   else if (c > 0.3) target = "enthusiasm";
 
   // No strong appraisal: current emotion fades.
@@ -97,12 +100,13 @@ export function updateState(
     return s < CALM_FLOOR ? makeState("calm", 0) : makeState(prev.label, s);
   }
 
-  // Same emotion builds on itself; a new emotion starts fresh.
+  // Same emotion builds on itself; a new emotion starts fresh. Gains shrink
+  // as intensity rises (soft ceiling), so emotions don't pin at 1.0.
   const carried = target === prev.label ? lambda * prev.intensity : 0;
-  const contagion =
-    speaker && speaker.label !== "calm" && family(speaker.label) === family(target)
-      ? CONTAGION * speaker.intensity
-      : 0;
-  const s = clip(carried + gamma * Math.abs(c) * k + contagion);
+  let s = carried + gamma * Math.abs(c) * k * (1 - carried);
+  if (speaker && speaker.label !== "calm" && family(speaker.label) === family(target)) {
+    s += CONTAGION * speaker.intensity * (1 - s);
+  }
+  s = clip(s);
   return s < CALM_FLOOR ? makeState("calm", 0) : makeState(target, s);
 }
