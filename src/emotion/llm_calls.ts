@@ -66,3 +66,33 @@ Reply with only the one word.`;
     return null;
   }
 }
+
+// Study 1: rate the emotion a message expresses on the three VAD scales.
+export async function rateVAD(
+  llm: any,
+  message: string
+): Promise<{ valence: number; arousal: number; dominance: number; intensity: number } | null> {
+  const prompt = `Rate the emotion expressed in the following message.
+
+Message:
+"""${message}"""
+
+Reply with only a JSON object:
+{"valence": <-1 (very unpleasant) to 1 (very pleasant)>, "arousal": <-1 (very calm) to 1 (very worked up)>, "dominance": <-1 (overwhelmed, submissive) to 1 (in control, assertive)>, "intensity": <0 (no emotion) to 1 (overwhelming emotion)>}`;
+  try {
+    await throttle();
+    const out = textOf(await llm.invoke(prompt));
+    const m = out.match(/\{[\s\S]*\}/);
+    const j = m ? JSON.parse(m[0]) : null;
+    if (!j) return null;
+    return {
+      valence: num(j.valence, -1, 1),
+      arousal: num(j.arousal, -1, 1),
+      dominance: num(j.dominance, -1, 1),
+      intensity: num(j.intensity, 0, 1),
+    };
+  } catch (err) {
+    console.log("[rateVAD] failed", err);
+    return null;
+  }
+}

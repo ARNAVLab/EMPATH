@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "batch": "tsx scripts/run_batch.mts"
+    "batch": "tsx scripts/run_batch.mts",
+    "rep": "tsx scripts/run_rep.mts"
   },
   "dependencies": {
     "@langchain/core": "^0.3.42",

@@ -121,7 +121,8 @@ async function processChunk(
   chunk: any,
   topic: string,
   roleTurnCounters: Record<string, number | null>,
-  emotion: EmotionController | null = null
+  emotion: EmotionController | null = null,
+  characters: any[] = []
 ) {
   const nodeName = Object.keys(chunk)[0];
   const messages = chunk[nodeName].messages;
@@ -134,6 +135,11 @@ async function processChunk(
     conv = messageText;
     const opinion = await rateOpinionOnTopic(judgeLlm, topic, conv);
     values.opinion = opinion;
+    // Optional (paper Algorithm 1): the judge's score becomes the agent's
+    // opinion for its next turn. Off by default, so the original code path
+    // (opinion fixed at its starting value) is unchanged.
+    const speaker = characters.find((c) => c.name === nodeName);
+    if (speaker?.update_opinion) speaker.opinion_strength = opinion;
     console.log(
       `[processChunk] (${nodeName}) Opinion rating: ${JSON.stringify(opinion)}`
     );
@@ -174,7 +180,7 @@ export async function runSimulationStream(
         {},
         { recursionLimit }
       )) {
-        const messageObj = await processChunk(chunk, topic, roleTurnCounters, emotion);
+        const messageObj = await processChunk(chunk, topic, roleTurnCounters, emotion, characters);
         const data = `data: ${JSON.stringify(messageObj)}\n\n`;
         controller.enqueue(encoder.encode(data));
       }
@@ -204,7 +210,7 @@ export async function runSimulationCollect(
 
   const recursionLimit = 100;
   for await (const chunk of await simulation.stream({}, { recursionLimit })) {
-    const messageObj = await processChunk(chunk, topic, roleTurnCounters, emotion);
+    const messageObj = await processChunk(chunk, topic, roleTurnCounters, emotion, characters);
     collected.push(messageObj);
   }
 

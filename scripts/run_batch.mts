@@ -25,6 +25,8 @@
  *   --emotion-only     neutral agents, no personality; 2 high and 2 low regulation
  *   --no-check         skip the per-message emotion check
  *   --debate-rules     state each agent's side in words and forbid planning talk
+ *   --update-opinion   after each message, the judge's score becomes the agent's
+ *                      opinion for its next turn (paper Algorithm 1)
  *   --label X          name used in output file names
  */
 import "./load_env.mts";
@@ -70,6 +72,7 @@ async function main() {
   const emotionArg = arg("emotion");
   const emotionOnly = flag("emotion-only");
   const debateRules = flag("debate-rules");
+  const updateOpinion = flag("update-opinion");
 
   const emotionCfg: EmotionConfig | undefined =
     emotionArg || emotionOnly
@@ -86,7 +89,9 @@ async function main() {
     arg("label") ??
     (emotionCfg
       ? `${emotionOnly ? "eo" : "pe"}-${emotionCfg.condition}-${emotionCfg.format}-${emotionCfg.startMood}`
-      : "baseline") + (debateRules && !arg("label") ? "-dr" : "");
+      : "baseline") +
+    (debateRules && !arg("label") ? "-dr" : "") +
+    (updateOpinion && !arg("label") ? "-uo" : "");
 
   const topics: [string, string][] = topicArg
     ? [["custom", topicArg]]
@@ -125,13 +130,15 @@ async function main() {
       }
 
       if (debateRules) chars.forEach((c) => (c.debate_rules = true));
+      if (updateOpinion) chars.forEach((c) => (c.update_opinion = true));
+      const startChars = chars.map((c) => ({ ...c }));
       console.log(`\n=== ${label} | topic=${topicType} | run ${g + 1}/${groups.length} ===`);
       const t0 = Date.now();
       const messages = await runSimulationCollect(chars, topic, emotionCfg);
       const secs = ((Date.now() - t0) / 1000).toFixed(0);
 
       const chartData: Record<string, { x: number; y: number }[]> = {};
-      chars.forEach(({ name, opinion_strength }) => {
+      startChars.forEach(({ name, opinion_strength }) => {
         chartData[name] = [{ x: 0, y: opinion_strength }];
       });
       for (const m of messages) {
@@ -142,7 +149,7 @@ async function main() {
       }
 
       const log = {
-        characters: chars,
+        characters: startChars,
         topic,
         messages,
         chartData,
@@ -153,6 +160,7 @@ async function main() {
           group,
           emotion: emotionCfg ?? null,
           debate_rules: debateRules,
+          update_opinion: updateOpinion,
           model: process.env.MODEL_NAME ?? "gpt-4.1-mini",
           judge_model: process.env.JUDGE_MODEL_NAME ?? process.env.MODEL_NAME ?? "gpt-4.1-mini",
           base_url: process.env.OPENAI_BASE_URL ?? "openai",
