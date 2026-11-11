@@ -183,6 +183,7 @@ async function main() {
           model: process.env.MODEL_NAME ?? "gpt-4.1-mini",
           judge_model: process.env.JUDGE_MODEL_NAME ?? process.env.MODEL_NAME ?? "gpt-4.1-mini",
           base_url: process.env.OPENAI_BASE_URL ?? "openai",
+          context_length: process.env.MODEL_CONTEXT ? Number(process.env.MODEL_CONTEXT) : null,
           duration_secs: Number(secs),
           created: new Date().toISOString(),
         },

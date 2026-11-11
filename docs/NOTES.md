@@ -72,3 +72,14 @@
 - L40S both taken tonight. booked 2 slots: wed 11/11 11:45am (2h) + thu 11/12 1:15am (10h)
 - slot 1 = calibration + study 1 + start of study 2/3. slot 2 = rest (resumes from github)
 - at each slot start: ssh in, password, paste 1 line (key + github login). rest runs remote
+
+## nov 11
+- missed the 11:45am L40S slot (mac was off)
+- L40S full till 1:15am. grabbed RTX 2080 Ti vcl now -> 12:45am (152.7.176.243)
+- remote key works, code pushed from vcl (0441051), setup ok
+- 2080 ti only 11gb so model is 32% cpu, slower. ollama 1 parallel, 16k ctx
+- running calibration only here (4 setups x 3, no emotion, ubi). study 1 + rest on L40S tonight
+- vcl kills machine ~15 min after last ssh connection drops (prob what killed oct 28 run). need a live ssh from the mac the whole time
+- mac changed network -> vcl firewall refused me till Connect clicked again
+- 2080 ti speed: ~2.6 requests/min w/ 4 debates at once. 12 calibration debates ~3.7h
+- debates hit 9k+ tokens by late rounds. old runs at default ctx prob got cut. 16k now

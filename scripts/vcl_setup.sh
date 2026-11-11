@@ -24,16 +24,17 @@ if [ ! -x "$HOME/ollama/bin/ollama" ]; then
   mkdir -p "$HOME/ollama" && tar --zstd -xf /tmp/ollama.tar.zst -C "$HOME/ollama"
 fi
 if ! pgrep -f "ollama serve" >/dev/null; then
-  # 4 parallel requests so several batch jobs can share the GPU; 16k context
-  # so a full 24-message debate fits without being cut off
-  OLLAMA_NUM_PARALLEL=4 OLLAMA_CONTEXT_LENGTH=16384 nohup "$HOME/ollama/bin/ollama" serve > "$HOME/ollama.log" 2>&1 &
+  # 4 parallel requests so several batch jobs can share the GPU. 32k context:
+  # late-round debate prompts pass 18k tokens, and anything over the limit is
+  # cut from the front, which drops the agent's system prompt.
+  OLLAMA_NUM_PARALLEL=${OLLAMA_NUM_PARALLEL:-4} OLLAMA_CONTEXT_LENGTH=${OLLAMA_CONTEXT_LENGTH:-32768} nohup "$HOME/ollama/bin/ollama" serve > "$HOME/ollama.log" 2>&1 &
   sleep 5
 fi
 for m in "${MODELS[@]}"; do "$HOME/ollama/bin/ollama" pull "$m"; done
 
 # Settings file pointing the code at local Ollama
 if [ ! -f .env.local ]; then
-  printf "OPENAI_BASE_URL=http://localhost:11434/v1\nOPENAI_API_KEY=ollama\nMODEL_NAME=%s\n" "${MODELS[0]}" > .env.local
+  printf "OPENAI_BASE_URL=http://localhost:11434/v1\nOPENAI_API_KEY=ollama\nMODEL_NAME=%s\nMODEL_CONTEXT=%s\n" "${MODELS[0]}" "${OLLAMA_CONTEXT_LENGTH:-32768}" > .env.local
 fi
 
 npm install --no-audit --no-fund

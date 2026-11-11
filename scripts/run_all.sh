@@ -8,6 +8,7 @@
 #
 # Everything is resumable: run it again on a new machine and it only does
 # what is still missing. Sizes: N (8), CAL_N (3), REPS (8).
+# Slow machine: SKIP_STUDY1=1 and/or STAGE_A_ONLY=1 to run only part of stage A.
 source ~/.nvm/nvm.sh
 cd "$(dirname "$0")/.."
 LOGS=results/logs
@@ -19,7 +20,7 @@ save() {
   (
     flock 9
     cp ~/run_all.log "$LOGS/run_all.log" 2>/dev/null
-    grep -ci "truncat" ~/ollama.log > "$LOGS/ollama_truncations.txt" 2>/dev/null
+    grep -cE "truncated = [1-9]|truncating input" ~/ollama.log > "$LOGS/ollama_truncations.txt" 2>/dev/null
     git add results 2>/dev/null
     if ! git diff --cached --quiet; then
       git commit -q -m "Save results $(date '+%Y-%m-%d %H:%M')"
@@ -43,9 +44,18 @@ SAVER=$!
 
 echo "$(date '+%H:%M') stage A: calibration + study 1"
 stream calibration bash scripts/calibrate.sh & A1=$!
-stream study1_debatable npm run rep -- --reps "${REPS:-8}" --topics debatable --file study1_debatable.jsonl --outdir results/study1 & A2=$!
-stream study1_controversial npm run rep -- --reps "${REPS:-8}" --topics controversial --file study1_controversial.jsonl --outdir results/study1 & A3=$!
+A2=""; A3=""
+if [ -z "$SKIP_STUDY1" ]; then
+  stream study1_debatable npm run rep -- --reps "${REPS:-8}" --topics debatable --file study1_debatable.jsonl --outdir results/study1 & A2=$!
+  stream study1_controversial npm run rep -- --reps "${REPS:-8}" --topics controversial --file study1_controversial.jsonl --outdir results/study1 & A3=$!
+fi
 wait $A1 $A2 $A3
+if [ -n "$STAGE_A_ONLY" ]; then
+  pkill -P $SAVER 2>/dev/null; kill $SAVER 2>/dev/null
+  save
+  echo "$(date '+%H:%M') stage A done (STAGE_A_ONLY)"
+  exit 0
+fi
 
 echo "$(date '+%H:%M') choosing setup and format"
 if [ ! -f results/calibration/choice.env ]; then python3 scripts/choose.py; fi
