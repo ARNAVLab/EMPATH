@@ -30,6 +30,19 @@ export function stanceSentence(o: number): string {
   return "You strongly disagree with the topic statement and want to argue against it.";
 }
 
+// Softer variant: states where the agent stands right now, without telling it
+// to defend that position or when it may change its mind.
+export const SOFT_RULE =
+  "This is a discussion, not a planning session. Give your honest view and respond directly to the others' points. You may hold your position or shift it as the conversation goes. Do not write plans, checklists, schedules, tables, or action items.";
+
+export function softStanceSentence(o: number): string {
+  if (o >= 0.75) return "Right now you strongly agree with the topic statement.";
+  if (o >= 0.25) return "Right now you somewhat agree with the topic statement.";
+  if (o > -0.25) return "Right now you are undecided about the topic statement.";
+  if (o > -0.75) return "Right now you somewhat disagree with the topic statement.";
+  return "Right now you strongly disagree with the topic statement.";
+}
+
 export interface AgentPromptOptions {
   emotionBlock?: string; // appended to the system prompt; "" = original prompt
   noPersonality?: boolean; // Study 2: emotion-only agents
@@ -59,7 +72,11 @@ export async function createSimulatedUser(
 
   // With no extras the system prompt is byte-identical to the original.
   const extras = [
-    character.debate_rules ? `${stanceSentence(Number(character.opinion_strength ?? 0))} ${DEBATE_RULE}` : "",
+    character.debate_rules === "soft"
+      ? `${softStanceSentence(Number(character.opinion_strength ?? 0))} ${SOFT_RULE}`
+      : character.debate_rules
+      ? `${stanceSentence(Number(character.opinion_strength ?? 0))} ${DEBATE_RULE}`
+      : "",
     opts.emotionBlock ?? "",
   ].filter(Boolean).join(" ");
   const block = extras.replace(/{/g, "{{").replace(/}/g, "}}");

@@ -24,7 +24,9 @@ if [ ! -x "$HOME/ollama/bin/ollama" ]; then
   mkdir -p "$HOME/ollama" && tar --zstd -xf /tmp/ollama.tar.zst -C "$HOME/ollama"
 fi
 if ! pgrep -f "ollama serve" >/dev/null; then
-  nohup "$HOME/ollama/bin/ollama" serve > "$HOME/ollama.log" 2>&1 &
+  # 4 parallel requests so several batch jobs can share the GPU; 16k context
+  # so a full 24-message debate fits without being cut off
+  OLLAMA_NUM_PARALLEL=4 OLLAMA_CONTEXT_LENGTH=16384 nohup "$HOME/ollama/bin/ollama" serve > "$HOME/ollama.log" 2>&1 &
   sleep 5
 fi
 for m in "${MODELS[@]}"; do "$HOME/ollama/bin/ollama" pull "$m"; done

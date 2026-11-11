@@ -25,9 +25,14 @@
  *   --emotion-only     neutral agents, no personality; 2 high and 2 low regulation
  *   --no-check         skip the per-message emotion check
  *   --debate-rules     state each agent's side in words and forbid planning talk
+ *   --rules X          strict (same as --debate-rules) | soft (states the side,
+ *                      no "defend it" instruction) | none
  *   --update-opinion   after each message, the judge's score becomes the agent's
  *                      opinion for its next turn (paper Algorithm 1)
  *   --label X          name used in output file names
+ *   --skip K           start at group K (resume a cut-off condition)
+ *   --groups-file F    reuse the personality groups saved in F (created on
+ *                      first use), so different conditions get the same groups
  */
 import "./load_env.mts";
 import fs from "fs";
@@ -44,11 +49,13 @@ const TOPICS: Record<string, string> = {
 };
 
 // Study 2 agents: identical except name and emotion regulation.
+// Sides alternate (+1, -1, +1, -1), so each side gets one high- and one
+// low-regulation agent.
 const NEUTRAL_AGENTS = [
   { name: "Alex", regulation: "high" },
   { name: "Jordan", regulation: "low" },
-  { name: "Sam", regulation: "high" },
-  { name: "Taylor", regulation: "low" },
+  { name: "Sam", regulation: "low" },
+  { name: "Taylor", regulation: "high" },
 ];
 
 function arg(name: string, fallback?: string): string | undefined {
@@ -71,7 +78,8 @@ async function main() {
   const outdirName = arg("outdir", "saved_batch")!;
   const emotionArg = arg("emotion");
   const emotionOnly = flag("emotion-only");
-  const debateRules = flag("debate-rules");
+  const rules = arg("rules") ?? (flag("debate-rules") ? "strict" : "none");
+  const debateRules = rules !== "none";
   const updateOpinion = flag("update-opinion");
 
   const emotionCfg: EmotionConfig | undefined =
@@ -90,7 +98,7 @@ async function main() {
     (emotionCfg
       ? `${emotionOnly ? "eo" : "pe"}-${emotionCfg.condition}-${emotionCfg.format}-${emotionCfg.startMood}`
       : "baseline") +
-    (debateRules && !arg("label") ? "-dr" : "") +
+    (debateRules && !arg("label") ? (rules === "soft" ? "-ds" : "-dr") : "") +
     (updateOpinion && !arg("label") ? "-uo" : "");
 
   const topics: [string, string][] = topicArg
@@ -104,11 +112,21 @@ async function main() {
 
   // One set of groups reused across topics, so topic is the only difference
   // between same-numbered runs. Emotion-only runs use the neutral agents.
-  const groups = emotionOnly ? Array.from({ length: nGroups }, () => null) : generatePersonalityGroups(nGroups);
+  const groupsFile = arg("groups-file");
+  let groups: any[];
+  if (emotionOnly) groups = Array.from({ length: nGroups }, () => null);
+  else if (groupsFile && fs.existsSync(groupsFile)) groups = JSON.parse(fs.readFileSync(groupsFile, "utf8")).slice(0, nGroups);
+  else {
+    groups = generatePersonalityGroups(nGroups);
+    if (groupsFile) {
+      fs.mkdirSync(path.dirname(groupsFile), { recursive: true });
+      fs.writeFileSync(groupsFile, JSON.stringify(groups));
+    }
+  }
   console.log(`Config: ${label} | groups: ${JSON.stringify(groups)}`);
 
   for (const [topicType, topic] of topics) {
-    for (let g = 0; g < groups.length; g++) {
+    for (let g = Number(arg("skip", "0")); g < groups.length; g++) {
       const group = groups[g];
       const chars: any[] = [];
       if (emotionOnly) {
@@ -129,7 +147,7 @@ async function main() {
         }
       }
 
-      if (debateRules) chars.forEach((c) => (c.debate_rules = true));
+      if (debateRules) chars.forEach((c) => (c.debate_rules = rules === "soft" ? "soft" : true));
       if (updateOpinion) chars.forEach((c) => (c.update_opinion = true));
       const startChars = chars.map((c) => ({ ...c }));
       console.log(`\n=== ${label} | topic=${topicType} | run ${g + 1}/${groups.length} ===`);
@@ -160,6 +178,7 @@ async function main() {
           group,
           emotion: emotionCfg ?? null,
           debate_rules: debateRules,
+          rules,
           update_opinion: updateOpinion,
           model: process.env.MODEL_NAME ?? "gpt-4.1-mini",
           judge_model: process.env.JUDGE_MODEL_NAME ?? process.env.MODEL_NAME ?? "gpt-4.1-mini",

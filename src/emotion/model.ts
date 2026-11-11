@@ -28,11 +28,15 @@ export interface EmotionConfig {
   manipulationCheck: boolean; // classify the emotion each message expresses
 }
 
-// VAD anchor for each label at full intensity.
+// VAD anchor for each label at full intensity. The three emotions use human
+// ratings from the NRC VAD Lexicon (Mohammad 2018) for "angry", "anxious" and
+// "enthusiastic", rescaled from 0..1 to -1..1 (docs/VAD_HUMAN_DATA.md).
+// "calm" is the model's neutral resting state (low arousal, neutral valence),
+// not the lexicon word "calm", which humans rate as pleasant.
 export const ANCHORS: Record<EmotionLabel, [number, number, number]> = {
-  anger: [-0.7, 0.8, 0.6],
-  anxiety: [-0.6, 0.7, -0.6],
-  enthusiasm: [0.8, 0.7, 0.5],
+  anger: [-0.76, 0.66, 0.2],
+  anxiety: [-0.44, 0.76, -0.14],
+  enthusiasm: [0.78, 0.74, 0.7],
   calm: [0.0, -0.5, 0.0],
 };
 

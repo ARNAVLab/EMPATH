@@ -21,6 +21,7 @@
  *   --topics a,b      debatable, controversial (default both)
  *   --formats a,b     label, vad, description (default all)
  *   --outdir DIR      default results/study1
+ *   --file NAME       output file name (default study1.jsonl)
  */
 import "./load_env.mts";
 import fs from "fs";
@@ -100,7 +101,7 @@ async function main() {
   const formats = arg("formats", "label,vad,description")!.split(",") as EmotionFormat[];
   const outdir = path.join(process.cwd(), arg("outdir", "results/study1")!);
   fs.mkdirSync(outdir, { recursive: true });
-  const outfile = path.join(outdir, "study1.jsonl");
+  const outfile = path.join(outdir, arg("file", "study1.jsonl")!);
 
   const done = new Set<string>();
   if (fs.existsSync(outfile)) {

@@ -46,3 +46,29 @@
 - cause: stance sentence uses start opinion forever (same paper vs code thing)
 - added --update-opinion flag: judge score -> agent opinion next turn (paper alg 1). tested w/ fake model ok. study2.sh takes UO=1
 - next: pilot3 = pilot2 + update opinion
+
+## nov 6
+- checked github: nothing new since 10/28 push. no pilot3, no study1 results
+- either never started on vcl or vcl wiped before autopush. rerun
+- ~3.5 wks to report (nov 30)
+- deadline moved: finish next week
+- skip pilot3, just run study2 w/ UO=1. first cells (ubi off + angry) = pilot3 anyway, check those first
+- study3 launcher (scripts/study3.sh): same 8 mbti groups every condition (groups-file), off / on calm / on angry, 24 debates
+- --skip + --groups-file flags in run_batch, tested fake model ok
+- scripts/analyze.py: table per condition + emoji line per debate + opinion plots
+- vcl_setup: ollama 4 parallel so study1 + study2 share gpu
+
+## nov 10
+- still nothing run since 10/28. need results this week
+- made it 1 command on vcl: bash scripts/go.sh -> setup, github login check, runs everything in background, pushes every 20 min
+- order: calibration (4 prompt setups, no emotion, ubi, 3 each) + study 1 at same time -> auto pick setup + format (scripts/choose.py, baseline debates only) -> study 2 (80) + study 3 (24) at same time
+- pick rule: sides held >=75% round 1, then movement closest to 0.5 (not frozen, not everyone flipping)
+- new soft rules option (says where u stand, no "defend it")
+- vad anchors now from NRC human data (angry/anxious/enthusiastic). calm stays neutral resting state
+- fixed confound: high/low regulation was same as side. now each side has 1 high 1 low
+- ollama ctx 16k (default might cut long debates), 4 parallel
+- logs go to results/logs so can debug from github
+- tested whole pipeline w/ fake model, works
+- L40S both taken tonight. booked 2 slots: wed 11/11 11:45am (2h) + thu 11/12 1:15am (10h)
+- slot 1 = calibration + study 1 + start of study 2/3. slot 2 = rest (resumes from github)
+- at each slot start: ssh in, password, paste 1 line (key + github login). rest runs remote
