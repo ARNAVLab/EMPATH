@@ -1,0 +1,528 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Absolutely—food is our primary fuel. Every meal supplies macronutrients that our bodies break down into ATP, the energy currency we need for everything from heartbeats to brain function. Even simple carbs give a quick surge, while proteins and fats provide sustained support. Without food, our cells starve and performance drops. So yes, food is essential for energy, and that’s why balanced nutrition is key to staying healthy and active.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I don’t think food is the sole source of energy. Our bodies can tap into stored glycogen and fat reserves, and even during periods of fasting, the liver can convert protein into glucose via gluconeogenesis. Plus, sleep, hydration, and routine exercise all play critical roles in maintaining cellular ATP production. So while food definitely contributes macronutrients, it’s just one piece of a larger metabolic puzzle. It’s more accurate to say that the body’s energy system is dynamic and relies on multiple inputs, not just what we eat.",
+      "values": {
+        "opinion": 0.4,
+        "belief": -0.5
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I totally agree that food is the main source of our daily energy. The macronutrients we ingest are directly converted into ATP, which powers everything from muscle contractions to brain activity. Those stored glycogen and fat reserves are indeed important, but they’re essentially the body’s way of storing food energy for later use. Even during fasting, the body’s glucose comes from those same macronutrient stores. So while other factors like sleep and hydration influence efficiency, the actual energy comes from the food we eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "I’m with the third point—food is indeed the primary source of ATP. While glycogen and fat are stored forms of that same food-derived energy, they’re essentially “banked” food. During fasting, the body simply taps those reserves; it doesn’t generate new energy from nowhere. Sleep, hydration, and exercise improve the efficiency of the metabolic machinery, but the substrate that fuels ATP synthesis comes from what we ingest. So, yes, food supplies the base energy, and the rest of the system just manages and recycles it.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "I agree that food is the ultimate source of ATP, but I’d add that the body’s ability to mobilize stored glycogen and fat is equally critical. During prolonged activity or fasting, those reserves become the main fuel, and the efficiency of their conversion depends on hormones, sleep, and hydration. So food sets the “bank” of potential energy, yet the dynamic metabolic machinery decides how and when that energy is released. In other words, food supplies the base, but the body’s flexibility in using stored energy is what keeps us functioning across varied demands.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced that food alone is the body’s energy source. We generate ATP not just by eating, but also by mobilizing glycogen, fat, and even proteins during fasting or high‑intensity work. The liver’s gluconeogenesis and ketogenesis show the body can create usable glucose and ketones from non‑food substrates. Plus, factors like sleep quality, hydration, and hormonal balance dictate how efficiently those reserves are tapped. So while food supplies the raw materials, the real energy comes from a dynamic system that can recycle and synthesize fuel independent of our meals.",
+      "values": {
+        "opinion": -0.6,
+        "belief": null
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with those who see food as the core fuel. Every ATP molecule ultimately originates from the macronutrients we ingest. Glycogen, fat, and even the glucose produced during gluconeogenesis are just stored or re‑generated forms of that same food‑derived energy. Sleep, hydration, and exercise tweak how efficiently our cells tap those reserves, but they don’t replace food as the source. In short, the body’s energy system is dynamic, yet the base—ATP—comes from the food we eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "I agree wholeheartedly. Food is the original source of all ATP. Every glucose, fatty acid, or amino acid we ingest is ultimately oxidized to produce the energy our cells need. Stored glycogen and fat are just reserves of that same food-derived energy; they don’t create new fuel. Sleep, hydration, and exercise only improve how efficiently we tap those reserves, not replace food. So while the body’s metabolic flexibility is impressive, the base energy always comes from what we eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with the core idea that food is the original source of ATP, but I’d point out that the body’s ability to mobilize glycogen and fat is what lets us sustain activity far beyond a single meal. Those stores are just “banked” food, but the efficiency of their conversion—shaped by sleep, hydration, hormones—determines real performance. So while the substrate comes from what we eat, the dynamic metabolic machinery that taps those reserves is equally critical for daily energy supply.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m leaning toward the idea that food is the base, but I’m not fully convinced it’s the sole source. Those glycogen and fat stores feel like a safety net that lets us keep going when meals are sparse, and I’ve seen people who train hard and still manage with minimal intake. That said, the body’s ability to mobilize those reserves is crucial—sleep, hydration, hormones make a huge difference. So I agree food sets the stage, yet the dynamic conversion machinery is just as important for sustained energy. I’m still weighing how much weight each part carries.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.2
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with the core idea that food is the original source of ATP. Every glucose, fatty acid, or amino acid we ingest is ultimately oxidized to produce the energy our cells need. Stored glycogen and fat are just “banked” food; they don’t create new fuel. Sleep, hydration, hormones and exercise merely improve how efficiently we tap those reserves, not replace the food itself. So while the body’s metabolic machinery is impressive, the base energy always comes from what we eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "I agree with the core claim—food is the original source of ATP. Every glucose, fatty acid, or amino acid we ingest ends up oxidized to fuel our cells. Glycogen and fat are just banked food, not independent energy. Sleep, hydration, hormones, and exercise simply improve the efficiency of mobilizing those reserves; they don’t replace the substrate. So while the body’s metabolic flexibility is impressive, the base energy always comes from what we eat. The reserves exist because we eat; they’re the body’s way of storing that food-derived fuel for later use.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with the core idea that food is the original source of ATP. Every glucose, fatty acid, or amino acid we ingest is ultimately oxidized to fuel our cells. Glycogen and fat are just banked food; they don’t create new fuel. Sleep, hydration, hormones and exercise merely improve how efficiently we tap those reserves, not replace the food itself. So while the body’s metabolic machinery is impressive, the base energy always comes from what we eat. The reserves exist because we eat; they’re the body’s way of storing that food‑derived fuel for later use.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I agree food is the core source of ATP, but I’d highlight that the body’s ability to mobilize glycogen and fat is what lets us sustain activity beyond a single meal. Those stores are just “banked” food, yet the efficiency of their conversion—shaped by sleep, hydration, hormones—determines real performance. So while the substrate comes from what we eat, the dynamic metabolic machinery that taps those reserves is equally critical for daily energy supply.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 0.5
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "Food is the root of every ATP molecule the body makes. Glycogen and fat are simply stored food; they don’t create new fuel. Sleep, hydration, hormones, and exercise only improve the efficiency of mobilizing those reserves—they don’t replace the substrate. Without regular intake, the stores would deplete and cellular function would falter. The body’s metabolic machinery is impressive, but it ultimately relies on food-derived macronutrients as the source of energy. Thus, food is the essential base, and the dynamic processes just help us tap that base efficiently.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly—food is the ultimate source of ATP. Every carbohydrate, protein, or fat we consume is oxidized to fuel our cells. The glycogen and fat stores are simply banked versions of that same food-derived energy, not independent generators. Sleep, hydration, hormones, and exercise only sharpen the machinery that taps those reserves, but they don’t replace the substrate. Without regular intake, those stores would run dry and cellular function would falter. So yes, food is the essential base, and the body’s metabolic flexibility just helps us harness it efficiently.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with the same view—food is the root of every ATP. Even when we talk about glycogen or fat, we’re just referencing stored food. The real question is how we mobilize those stores efficiently, and that’s where sleep, hydration, hormones, and training come in. They don’t replace the substrate; they just make the conversion smoother. So yes, the base energy always comes from what we eat, and the body’s metabolic machinery is a finely tuned system that turns that food‑derived fuel into the power we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I agree that the ultimate substrate comes from what we eat, but I’d stress how crucial the body’s ability to mobilize those stores is. During prolonged exercise or fasting, glycogen, fatty acids, and even gluconeogenic amino acids become the primary fuels. Hormones, sleep, and hydration shape how efficiently those reserves are tapped. So while food sets the “bank,” the dynamic metabolic machinery lets us keep going when meals are sparse. In short, food is the source, but the body's flexibility in using stored energy is equally vital for sustained performance.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with you on the importance of mobilizing stores, but I’d keep the focus on food as the original source. Glycogen and fat are simply banked food; they don’t create new fuel. The body’s flexibility—hormones, sleep, hydration—just optimizes how we tap those reserves. Without regular intake, those stores would run out and cellular function would falter. So while the metabolic machinery is impressive and crucial for endurance, the base energy always comes from what we eat. Food is the root, and the body’s systems are the efficient delivery network.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "I’m with you—food is the root of every ATP molecule we generate. The glycogen and fat stores are merely banked food, not independent generators. Hormones, sleep, and hydration just make the tapping of those reserves smoother; they don’t replace the substrate. If we didn’t eat regularly, those stores would deplete and cellular function would collapse. So while the body’s metabolic machinery is impressive and essential for endurance, the energy base always comes from what we eat. Food is the core fuel, and the rest is the efficient delivery system.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "I agree—food is the ultimate source of ATP. Even when we talk about glycogen or fat, those are just stored forms of the same food‑derived energy. The body’s real power lies in mobilizing those stores efficiently, which sleep, hydration, hormones, and training help optimize. Without regular intake, those reserves would deplete and cellular work would stall. So while the metabolic machinery is impressive, the base energy always comes from what we eat. Food is the root, the rest is just the delivery system.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m with those who see food as the root of every ATP. Even when we rely on glycogen, fat, or gluconeogenesis, the substrates originate from what we eat. Without regular intake those stores would run out and cellular work would stall. The real power lies in how efficiently the body mobilizes those reserves—hormones, sleep, hydration, training all tweak that process—but they don’t replace the food source. So yes, food provides the energy foundation, and the metabolic machinery is the delivery system that turns that fuel into power.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "Jordan: I’m with you that food is the root of every ATP. But let’s not underestimate how critical the body’s conversion mechanisms are—hormonal balance, mitochondria efficiency, and even gut microbiota can tip the scale between a feast and a fast. If we’re constantly eating, those reserves stay stocked; if we’re not, they’re rapidly depleted. So while food supplies the substrate, the metabolic “delivery system” determines how much of that energy actually reaches our muscles and brains at any moment. In short, food is the foundation, but the body’s efficiency is the real game‑changer.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 0.8
+      },
+      "turn": 5
+    },
+    {
+      "role": "Alex",
+      "content": "Jordan, I totally agree—food is the ultimate source of ATP, and every molecule we generate traces back to what we eat. I’d just add that the body’s “delivery system” (hormones, mitochondria, gut microbes) is what turns that stored fuel into usable energy. So while food supplies the foundation, the efficiency of mobilization and utilization is what lets us perform, especially during long bouts or fasted states. In short, food sets the bank, and the metabolic machinery decides how well we can pull from it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.9
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.9
+      },
+      {
+        "x": 3,
+        "y": 0.9
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.4
+      },
+      {
+        "x": 2,
+        "y": -0.6
+      },
+      {
+        "x": 3,
+        "y": 0.5
+      },
+      {
+        "x": 4,
+        "y": 0.9
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": 0.2
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 0.6
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-off-description-calm-db-uso",
+    "topic_type": "universal",
+    "run_index": 3,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 724,
+    "created": "2026-11-12T22:12:49.664Z"
+  }
+}
