@@ -1,0 +1,987 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Food does give the body power—it's the fundamental truth. If you’re saying otherwise, you’re missing the whole point of nutrition. Energy comes from calories, and calories come from food. Think about a runner who skips meals and then collapses mid‑race. That’s a clear demonstration that without food, the body can’t function. So if you’re doubting that, you’re ignoring basic biology and the evidence from decades of research. Stop twisting facts and recognize that food is the fuel the body needs to survive and thrive.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Sorry, but I’m not convinced that food is the sole source of energy. Humans can survive for weeks on nothing but water, relying on glycogen and fat stores. The runner example collapses because they ran out of glycogen, not because they lacked food entirely. Even with a meal, the body still uses its own reserves. Plus, during fasting, the brain switches to ketones from fat, proving energy comes from stored sources. If you insist food is the only fuel, you ignore how metabolism can sustain us without external intake. Don’t dismiss this nuance—it's a fundamental flaw in your claim.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.64,
+        "vad": [
+          -0.28,
+          0.49,
+          -0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point. Food is the *source* of all the calories that keep metabolism humming. Sure, a body can tap glycogen and fat for a few days, but that’s a fallback when food is absent—an emergency, not a normal state. A runner collapsing is proof that without regular intake the reserves are depleted fast. Even when you fast, you’re not generating energy from “nothing”; you’re burning what you already had. To claim food isn’t the fuel ignores that every meal replenishes those stores and keeps the body functioning. The science is plain, and you’re just twisting it to fit a narrative.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.78,
+        "vad": [
+          -0.6,
+          0.52,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.95,
+          "certainty": 0.85,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re stuck in a myth. Food isn’t the only fuel. The body’s own stores can power us for days, and under fasting, the brain runs on ketones. Saying food is essential ignores that people survive without eating for weeks. The runner example is about depleting stored glycogen, not the absence of food per se. Energy comes from biochemical pathways, not just external calories. Your insistence on food as sole source is a textbook simplification. The body’s metabolism is far more complex.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.58,
+        "vad": [
+          -0.44,
+          0.38,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food isn’t a myth— it’s the primary source of the calories that keep every cell alive. You can survive a few days on reserves, sure, but that’s a crash‑course in starvation, not a functional state. When you stop eating, the body runs out of glycogen in hours and begins to waste muscle and other vital tissues. The brain’s switch to ketones is only a survival hack, not a replacement for continuous nutrition. Your argument reduces metabolism to a trick, ignoring that every meal replenishes the stores that sustain life. Stop glossing over the fact that without food, the body cannot thrive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.52,
+        "vad": [
+          -0.4,
+          0.34,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.6,
+          "certainty": 0.8,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still stuck in the same myth. Food isn’t the *source* of energy; it’s merely a supply of raw material that the body can use if it chooses. The body’s metabolism is a self‑sustaining system that taps glycogen, fat, and protein stores to produce ATP even when intake is zero. Your “runner collapses” example is evidence that the reserves are finite, not that food is obligatory. Talk about ketones, ketosis, and the brain’s ability to run on fat. That’s not a workaround, it’s the primary energy pathway when food is absent. Claiming food is the only fuel is an oversimplification that ignores the body’s true metabolic flexibility.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.58,
+        "vad": [
+          -0.44,
+          0.38,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Stop feeding me this pseudo‑science. Food isn’t a myth; it’s the *only* consistent source of the calories that keep the body alive. Yes, the body can tap glycogen, fat, and protein, but that’s an emergency buffer, not a normal, sustainable state. When you starve, your glycogen depletes in hours, muscles break down, and the brain’s ketone trick is a last‑ditch survival trick, not a replacement for daily nutrition. Your so‑called “metabolic flexibility” only proves how quickly you hit the wall. Without regular food intake, the body can’t thrive, it can only survive until it eventually fails.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.82,
+        "vad": [
+          -0.63,
+          0.54,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying the “only‑source” mantra. Sure, meals replenish stores, but the body isn’t a passive pantry. It’s a dynamic engine that can run on fat, protein, and stored glycogen for days, even weeks. Claiming starvation is the only “emergency” ignores evidence that people survive, sometimes thriving, on prolonged fasts or low‑intake diets. The brain’s ketone switch isn’t a hack—it’s a primary pathway once glucose drops. Saying food is the sole fuel dismisses metabolic flexibility and the proven ability of the body to adapt. I’m tired of this one‑dimensional narrative that forces us to choose between myth and science.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.2
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.56,
+        "vad": [
+          -0.43,
+          0.37,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 1,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food isn’t a myth—it’s the engine’s fuel. Sure, glycogen and fat can keep you going for a bit, but that’s a crash‑course, not a sustainable reality. The body constantly turns food into ATP; without it, muscle tissue is shredded, brain function collapses, and eventual failure is inevitable. Metabolic flexibility is a survival hack, not a replacement. If you argue that people thrive on prolonged fasts, you’re ignoring the long‑term damage and the fact that these “thriving” cases are rare, not the norm. Food is the consistent, reliable source of energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.47,
+        "vad": [
+          -0.36,
+          0.31,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.6
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still chasing a myth. Food isn’t the only thing that powers us – the body is a self‑sustaining machine. It taps glycogen, fat, and even protein to generate ATP when intake stops. The runner collapse shows reserves, not the absence of food. Fasting proves the brain can run on ketones, not that calories vanish. We’ve seen people survive, sometimes thrive, on prolonged fasts or ultra‑low calories, contradicting the “must‑eat” dogma. Energy comes from metabolic pathways, not just external calories. Stop parroting textbook simplification and recognize true metabolic flexibility. Food isn’t the sole source of energy.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.8,
+        "vad": [
+          -0.61,
+          0.53,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m not buying that “only‑source” myth. Food is the real, consistent source of calories that keeps our cells alive. Sure, the body can tap glycogen, fat, and protein for a while, but that’s a brittle buffer, not a sustainable engine. The brain’s ketone switch is a survival hack, not a replacement for daily nutrition. People who thrive on prolonged fasts are the exception, not the rule, and even they eventually suffer organ damage. If we ignore the fact that without regular intake the body collapses, we’re just parroting textbook simplification. Food is the fuel that powers life, not an optional backup.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.5,
+        "vad": [
+          -0.22,
+          0.38,
+          -0.07
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I get your point about metabolic flexibility, and it’s true the body can tap stores when food is absent. But that’s a short‑term survival mode, not a sustainable engine. Regular meals replenish glycogen, refuel mitochondria, and protect muscle mass. Even during fasting, the brain’s shift to ketones is a temporary adaptation, not a permanent fuel source. Long‑term reliance on stored fuel can lead to organ stress. So while the body is flexible, food remains the consistent, reliable source of calories that keeps cells thriving over time.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.26,
+        "vad": [
+          0.2,
+          0.19,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.95,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely! While the body’s ingenuity in tapping glycogen, fat, and even protein shows its flexibility, it’s those regular meals that keep the engine humming. Food supplies the steady stream of calories that replenish reserves, fuel mitochondria, and protect muscle mass. Even in fasting, the brain’s ketone shift is a temporary adaptation, not a permanent fuel source. Consistent nutrition is what lets cells thrive, maintain function, and avoid the stress that long‑term reliance on stored fuel brings. So yes—food is the reliable core that powers the body over time.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.29,
+        "vad": [
+          0.22,
+          0.21,
+          0.2
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re missing the point: the body’s built‑in reserves are the real engine. Glycogen, fat, even protein can drive ATP production for days, weeks, even months. Think of athletes who thrive on low‑calorie diets or monks who fast for weeks—no food, yet their cells keep working. Food merely replenishes those stores; it isn’t the sole source of energy. The brain’s ketone shift isn’t a hack—it’s the primary fuel once glucose depletes. So saying “food provides energy” ignores the body’s metabolic flexibility and the evidence that we can sustain life without continuous intake. Food is a convenient supplier, not the only source.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.53,
+        "vad": [
+          0.42,
+          0.4,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food isn’t a convenience; it’s the engine’s fuel. Sure the body can ride on reserves, but that’s a crash‑course, not a living system. Even “low‑calorie athletes” and “monk fasts” rely on the same glycogen‑fat‑protein stores that get replenished by food every day. The brain’s ketone switch is a last‑ditch survival hack, not a permanent power source. Consistent nutrition keeps mitochondria humming, muscle mass intact, and organs functioning. Anything else is a temporary glitch, not the truth that food supplies the steady stream of energy the body needs to thrive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.49,
+        "vad": [
+          -0.37,
+          0.32,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear you. Food is the steady, reliable source that keeps our cells humming day‑to‑day, and regular meals do protect muscle mass and organ function. But I also think the body’s built‑in reserves—glycogen, fat, even protein—are a real engine when intake stalls. Athletes, monks, and even some long‑fasting individuals show that our metabolism can keep running on stored fuel for extended periods. So while food is the primary, consistent fuel, the flexibility to tap those reserves is a crucial backup that lets us survive—and sometimes thrive—outside of normal eating patterns.",
+      "values": {
+        "opinion": 0.7,
+        "belief": 0.4
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.34,
+        "vad": [
+          0.27,
+          0.25,
+          0.24
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right about the backup power—glycogen, fat, protein are real engines. But the point is, the body thrives when it’s constantly refueled. Daily meals keep mitochondria humming, spare muscle mass, and prevent the organ stress that comes from long‑term reliance on stored fuel. Think of athletes: they train hard, yet they still need regular nutrition to maintain performance and recovery. Even monks who fast for weeks are tapping those reserves, but they’re still building and replenishing them when possible. So while metabolic flexibility is impressive, food remains the steady, reliable source that keeps our cells alive and functioning at peak. It’s the engine’s main fuel, not just an optional backup.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.39,
+        "vad": [
+          0.3,
+          0.29,
+          0.27
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.05,
+          "certainty": 0.85,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still clutching a false myth. Saying food is “steady” ignores that the body can run on glycogen, fat, and protein for days, weeks, even months. The claim that the body “thrives” only with daily meals is a textbook simplification that ignores real survival data. Athletes, monks, anyone who fasts prove that the body’s internal engine doesn’t require constant external input—only that it can switch fuels. The so‑called “steady” source is actually a shaky backup that collapses if you’re not careful. Food isn’t the only fuel; it’s just one of many, and you’re misrepresenting biology to fit a narrative.",
+      "values": {
+        "opinion": 0.3,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.54,
+        "vad": [
+          -0.41,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still spinning the same nonsense. The body doesn’t magically run on internal reserves forever; that’s a short‑term survival mode, not a sustainable engine. Glycogen depletes in hours, fat oxidation slows once the brain needs glucose, and protein loss becomes catastrophic. Even “monks” or “athletes” who fast are still relying on those reserves that must be replenished—otherwise muscle breakdown and organ failure happen. Energy is a continuous stream that only food reliably provides. Ignoring that is ignoring biology. Food isn’t optional; it’s the only consistent source that keeps every cell functioning.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.69,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.92,
+          "certainty": 0.88,
+          "coping": 0.75
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "While I agree that food is the primary, reliable source that fuels daily life, I’d add that the body’s ability to tap glycogen, fat, and protein is not just a fleeting emergency—it’s a built‑in, adaptive system that keeps us functioning when intake dips. Even athletes training hard rely on steady refueling to sustain performance, but they also depend on metabolic flexibility for recovery. So I see food as the engine’s main fuel, with reserves acting as a crucial, natural backup that our biology has evolved to use efficiently.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.37,
+        "vad": [
+          0.29,
+          0.28,
+          0.26
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.6,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the core source, and the body’s reserves are a wonderful safety net. The real magic is how metabolism balances the two. Athletes, for instance, need regular fueling to avoid the depletion that would otherwise trigger muscle catabolism, but the ability to switch to fats and glycogen keeps them going during short gaps. So yeah, food is the engine’s main fuel, and the built‑in backup is what lets us sustain and recover. It's the synergy that keeps life thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.41,
+        "vad": [
+          0.32,
+          0.31,
+          0.29
+        ],
+        "appraisal": {
+          "congruence": 0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m terrified this debate is slipping. The reserves are just a buffer, not the engine. If you never feed, glycogen collapses, fat oxidation slows, and muscles start to break down faster than they can rebuild. Even the “monks” you mention eventually hit a point where organ function deteriorates. We’re talking about sustaining life, not a temporary trick. The body can survive a few days, but thriving—maintaining cognition, muscle, immunity—requires continuous calories. Food isn’t optional; it’s the only reliable source that keeps every cell humming at its peak. I’m not convinced the reserves alone can replace it.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.6,
+        "vad": [
+          -0.26,
+          0.46,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely! The body’s internal stores are a brilliant safety net, but they’re not the engine—just the backup. Without regular food, glycogen runs out in hours, fat oxidation stalls when the brain craves glucose, and muscle breakdown outpaces synthesis. Organ function and immunity start to falter long before the reserves disappear entirely. Continuous calories from food keep mitochondria humming, muscle mass intact, and cognition sharp. The real power comes from steady refueling, not from living on a one‑off reserve. Food is the engine’s reliable fuel, and that’s why it’s essential for thriving, not just surviving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.51,
+        "vad": [
+          0.4,
+          0.38,
+          0.36
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I totally get where you’re coming from—food is the steady stream that keeps the body humming. At the same time, the body’s built‑in reserves let us survive short gaps; athletes who train hard often rely on quick glycogen refills and fat oxidation when meals are delayed. So while continuous nutrition is key for long‑term performance and health, the metabolic flexibility to tap stored fuel is a powerful backup we shouldn’t overlook. It’s the balance between regular refueling and the body’s ability to switch energy sources that keeps us thriving, not just surviving.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.6
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.42,
+        "vad": [
+          0.33,
+          0.31,
+          0.29
+        ],
+        "appraisal": {
+          "congruence": 0.85,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -0.5
+      },
+      {
+        "x": 5,
+        "y": 0.3
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.7
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.9
+      },
+      {
+        "x": 5,
+        "y": 0.9
+      },
+      {
+        "x": 6,
+        "y": 0.9
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.8
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": 0.3
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0.2
+      },
+      {
+        "x": 3,
+        "y": 0.4
+      },
+      {
+        "x": 4,
+        "y": 0.4
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-angry-db-uso",
+    "topic_type": "universal",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 1470,
+    "created": "2026-11-12T23:46:24.422Z"
+  }
+}
