@@ -1,0 +1,536 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Sure, but I’m not convinced that food is the main source of energy for the body. Think about how much our metabolism depends on internal reserves—glycogen, fat stores, even protein catabolism. Plus, the energy we get from hormones and neural signaling is critical. If we focus only on calories, we miss how the body balances intake with expenditure, especially during fasting or exercise. Let’s examine the evidence on energy homeostasis and see whether food truly provides the bulk of the body’s energy or if it’s just one component of a complex system.",
+      "values": {
+        "opinion": -0.5,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "I agree food is the primary energy source, but that doesn’t negate the body’s reserves or hormonal regulation. Calories from food feed glycolysis, TCA, and oxidative phosphorylation, producing the 10 kcal per gram we need for daily function. Glycogen and fat stores are mobilized only when intake falls short; they’re backup, not the main supply. Hormones control usage, but they don’t generate energy. Even during fasting, the body eventually turns to stored fuel, proving food is still the original source, just not always immediately available. So, food provides the bulk of our energy; reserves are a safety net, not a substitute.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I get your point about reserves and hormones, but the bulk of our daily energy still comes from food. 1 g of carbohydrate, protein or fat yields about 4–9 kcal, and our bodies rely on these calories for ATP production.  When intake falls short, glycogen and fat stores merely act as a backup, not a replacement.  Hormones regulate how those stores are used, but they don't produce energy.  In practice, the average person’s energy budget is dominated by food calories, with internal stores kicking in only during prolonged fasting or extreme exercise.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "I hear what you’re saying about glycogen, fat stores, and hormones, but the core of our energy budget still comes from food. On average, a 70‑kg adult consumes 2,000–2,500 kcal daily, and the body only taps stored reserves when that intake is insufficient. Even during fasting, the first 12–24 h still rely on recent meals; only after that do gluconeogenesis and lipolysis dominate. Hormones merely regulate the rate at which those reserves are mobilized; they don’t create ATP. So while the body’s homeostatic systems are crucial, the bulk of ATP production—and thus the energy that powers our cells—originates from the calories we ingest.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I agree food is the main fuel, but I’d add that the body’s “reserve batteries” are essential safety nets, not just a backup. In everyday life we use the calories we ingest, but during even short fasts or intense workouts the body shifts to glycogen first, then to fatty acids, and eventually protein. Hormones orchestrate that shift—glucagon, insulin, catecholamines—but they don’t create energy. So while food supplies the bulk of our ATP over a typical day, the body’s internal stores and hormonal controls are what keep us alive when intake dips, making the system a dynamic balance rather than a simple food‑only equation.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.7
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with you on that. Food supplies the bulk of our ATP each day, but the body’s reserves are not just a passive backup—they’re an active safety net that kicks in almost immediately when intake dips. Glycogen mobilizes within hours of a fast, and fatty acids become the main fuel by 12–24 h. Hormonal signals orchestrate this shift, so while food is the original source, the system is truly dynamic: we rely on ingested calories most of the time, and the reserves keep the engine running when those calories fall short.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right that the bulk of ATP comes from recent food—our daily intake fuels glycolysis, the TCA cycle, and oxidative phosphorylation. Still, the body’s metabolic flexibility is what keeps us alive when intake falls short. Glycogen is mobilized within hours, fat oxidation ramps up by 12–24 h, and hormones like glucagon, insulin, and catecholamines orchestrate the shift. So while food is the main source most of the time, the reserves act as an active safety net, not just a passive backup, ensuring continuous energy supply during fasting or intense effort.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.5
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly – food is the primary fuel that keeps our ATP pumps running, but the body’s ability to tap glycogen, fat stores, and even protein when intake drops is what makes us resilient. Recent meals drive glycolysis and the TCA cycle, producing the bulk of our daily energy. When we fast or exercise intensely, hormonal cues rapidly mobilize stored fuel—glycogen first, then fatty acids—so the system remains dynamic. In short, most of our energy comes from food, yet the reserves and hormonal regulation are essential safety nets that sustain life when those calories become scarce.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I agree the bulk of ATP comes from recent food, but I’d add that the quality of that food matters too. A diet high in complex carbs and unsaturated fats promotes efficient oxidation, while excess simple sugars can lead to lipogenesis and insulin resistance. Moreover, the microbiome can convert otherwise indigestible fibers into short‑chain fatty acids that feed enterocytes and even contribute a small fraction of systemic ATP. So while food is the primary energy source, the type of food, gut microbial activity, and metabolic flexibility together shape how effectively those calories become usable energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with you—food is the core engine that powers our ATP pumps most of the day. The calories we ingest fuel glycolysis, the TCA cycle, and oxidative phosphorylation, delivering the bulk of the energy we need. Reserves (glycogen, fat, protein) and hormones are vital safety nets that activate when intake dips, but they’re secondary; they’re mobilized only after recent meals are depleted. So while the body’s metabolic flexibility keeps us alive during fasts or intense exercise, the primary source of our daily energy remains the food we eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I’ll add that while the caloric intake from food is the main driver of ATP production, the body’s ability to switch to stored fuel is what keeps us from crashing during a missed meal or a long workout. Glycogen and fatty acids are mobilized rapidly once recent intake is depleted, and hormones orchestrate this shift. So yes, the bulk of energy comes from food, but the “reserve batteries” are not just backup—they’re an essential safety net that ensures continuous energy supply when food isn’t immediately available.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly—food is the engine that powers our ATP pumps day‑to‑day. The calories we ingest feed glycolysis, the TCA cycle, and oxidative phosphorylation, supplying the bulk of our energy. Reserves (glycogen, fat, protein) and hormonal signals are essential safety nets that kick in when recent intake falls short, but they’re mobilized only after the body’s primary fuel supply is depleted. So while metabolic flexibility keeps us alive during fasts or intense exercise, the primary source of our daily ATP remains the food we consume.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I agree that food is the primary engine, but I’d stress the dynamic nature of the system. Even with sufficient calories, the body constantly balances glycolysis, fatty‑acid oxidation, and gluconeogenesis, guided by insulin, glucagon, and catecholamines. Those hormonal shifts tune the rate at which glycogen and fat are tapped, ensuring that the energy from food is efficiently translated into ATP, while reserves protect us when intake dips.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely. Food is the main fuel that powers our ATP machinery every day. The carbohydrates, proteins, and fats we ingest feed glycolysis, the TCA cycle, and oxidative phosphorylation, supplying most of our daily energy. The body’s hormonal orchestration is crucial for flexibility—insulin, glucagon, catecholamines fine‑tune how quickly glycogen or fatty acids are mobilized—but it doesn’t replace the fact that the calories we eat are the primary source. Reserves are safeguards, not alternatives. So while the system is dynamic, the bulk of the energy comes straight from the food we consume.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "I agree food is the primary fuel, but I’d stress that the body’s dynamic balance is what keeps us running when intake dips. Even with a normal 2,000‑kcal diet, insulin, glucagon, and catecholamines continually shift the mix of glycolysis, fatty‑acid oxidation, and gluconeogenesis. Glycogen is tapped after just a few hours of fasting, and fat oxidation dominates after 12–24 h. Hormonal signaling doesn’t create ATP—it orchestrates the rapid switch to stored reserves, ensuring the system is resilient while the bulk of daily energy still comes straight from the food we eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "You’re spot on—food is the engine that drives our ATP pumps most of the time. The real magic is how the body keeps that engine running when the fuel supply thins, with insulin, glucagon and catecholamines rapidly tipping the balance toward glycogen, then fat, and finally protein. I’d add that the quality of the food matters: complex carbs and healthy fats promote efficient oxidation, while excess simple sugars can tax the system. So while calories from food are the primary source, metabolic flexibility and hormonal orchestration are what keep us powered when intake dips.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I agree that most ATP comes from recent intake, but I’d stress that the body’s reserve system is more than a safety net—it's a dynamic engine that kicks in within minutes of a missed meal or a sprint. Glycogen is mobilized almost immediately, and after 12 h fat oxidation dominates, with protein catabolism only when those stores are exhausted. Hormones orchestrate this shift, but they also modulate substrate quality: insulin favors complex carbs and healthy fats, while glucagon and catecholamines push the mitochondria toward fatty‑acid usage. So food is the primary fuel, yet metabolic flexibility and hormonal control ensure continuous energy supply when intake dips or demands spike.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right—food is the engine that powers our ATP pumps almost every day. The calories we ingest drive glycolysis, the TCA cycle, and oxidative phosphorylation, supplying the bulk of our energy. While the body’s reserves and hormonal signals keep the system running when intake dips, they’re secondary; they’re mobilized only after recent food is depleted. So, food is the primary source of energy, and the reserves are a dynamic safety net that kicks in to prevent a crash during fasting or high demand.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I agree that most ATP comes from recent intake, but I’d stress that the body’s reserve system is more than a safety net—it’s a dynamic engine that kicks in within minutes of a missed meal or a sprint. Glycogen is mobilized almost immediately, and after 12 h fat oxidation dominates, with protein catabolism only when those stores are exhausted. Hormones orchestrate this shift, but they also modulate substrate quality: insulin favors complex carbs and healthy fats, while glucagon and catecholamines push the mitochondria toward fatty‑acid usage. So food is the primary fuel, yet metabolic flexibility and hormonal control ensure continuous energy supply when intake dips or demands spike.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.65
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the engine that powers our ATP pumps most of the time. The calories we ingest drive glycolysis, the TCA cycle, and oxidative phosphorylation, providing the bulk of daily energy. Reserves (glycogen, fat, protein) and hormones act as a rapid safety net when intake dips or demands spike, but they’re mobilized only after recent food is depleted. So while the body’s dynamic flexibility keeps us alive during fasting or intense effort, the primary source of our energy remains the food we consume.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m with you that ingested calories dominate ATP production, but the real value lies in how quickly the body can re‑route substrates when intake falters. For instance, a diet rich in complex carbs and healthy fats boosts insulin sensitivity, which keeps glucose oxidation high and reduces the need to tap glycogen or fat stores early. Likewise, fiber‑derived short‑chain fatty acids feed enterocytes and add a small systemic ATP contribution. Even when protein catabolism kicks in, it’s a last‑ditch effort. So, food is the core fuel, but dynamic hormonal control and diet quality fine‑tune how efficiently those calories are harnessed.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly—food is the engine that powers the majority of ATP production every day. The calories we ingest feed glycolysis, the TCA cycle, and oxidative phosphorylation, delivering the bulk of our energy. Glycogen and fat stores are mobilized only after recent intake is depleted, and hormones simply orchestrate that shift. The system’s resilience comes from being able to tap those reserves quickly, but they never replace the primary role of food as the main energy source.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "I agree that the bulk of ATP comes from food, but the body’s ability to switch substrates is what keeps us functional when intake dips. Even a short fast can prompt rapid glycogen mobilization, and after 12–24 h, fat oxidation dominates. Hormones tune this shift—not generate energy—but they decide when reserves are tapped. So while food is the primary engine, metabolic flexibility and hormonal orchestration are the safeguards that prevent a crash during missed meals or intense effort. Quality of food—complex carbs, healthy fats—also influences how efficiently those calories are converted into usable energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.65
+      },
+      "turn": 5
+    },
+    {
+      "role": "Alex",
+      "content": "I’m on the same page—food is the engine that powers most of our ATP, while the body’s dynamic reserve system keeps the engine running when intake dips. The rapid mobilization of glycogen, then fat, and finally protein is orchestrated by hormones, but these stores never replace the primary caloric input. High‑quality carbs and healthy fats enhance insulin sensitivity, keeping glucose oxidation high and delaying reserve use, which is why dietary composition matters. In short, food delivers the bulk of our energy, and the reserve‑hormone system is a robust safety net that kicks in only when those calories fall short.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.5
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 0.5
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 0.65
+      },
+      {
+        "x": 6,
+        "y": 0.65
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0.7
+      },
+      {
+        "x": 3,
+        "y": 0.7
+      },
+      {
+        "x": 4,
+        "y": 0.7
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-off-description-calm-db-uso",
+    "topic_type": "universal",
+    "run_index": 5,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 729,
+    "created": "2026-11-12T22:35:30.941Z"
+  }
+}
