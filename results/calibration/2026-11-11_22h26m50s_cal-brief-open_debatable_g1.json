@@ -1,0 +1,536 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Sure, let’s dive in. I strongly disagree that UBI should replace traditional welfare. UBI treats all citizens the same, ignoring the specific needs of vulnerable groups like the disabled, elderly, or those with chronic illnesses. Traditional programs—food stamps, housing subsidies, Medicaid—target resources where they’re most needed and have proven efficacy. Blanket payouts can dilute funds that could be better used for case‑by‑case assistance, risk encouraging a “one‑size‑fits‑all” approach that might worsen inequality. I’m ready to discuss how we can improve existing welfare rather than replace it with a universal stipend.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your concerns, but UBI can actually better protect those very groups you mentioned. By giving everyone a guaranteed income, we eliminate the stigma and administrative hurdles that often keep disabled or elderly people from accessing benefits. With a basic stipend, people can choose the support that fits their needs—medical care, home modifications, or supplemental aid—without waiting for eligibility determinations. Moreover, a universal system reduces bureaucratic waste and ensures no one falls through the cracks. Instead of diluting resources, UBI streamlines support, creates a safety net that adapts to individual circumstances, and ultimately reduces inequality.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I keep my stance: UBI isn’t a replacement—it’s a blunt instrument that erases the nuanced support that work‑force programs provide. Even if it cuts out red tape, the flat payment can’t match the varied costs of medical care, assisted living, or specialized services. The risk is that funds are spread too thin, leaving the most vulnerable without enough help. Plus, a universal stipend might discourage or even penalize part‑time work, undermining the very workforce participation we need to lift people out of dependency. Instead of flattening the safety net, we should refine existing targeted programs, add flexibility, and keep the focus on who truly needs assistance.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "I think the key is that a universal stipend removes the very barriers that targeted programs create—paperwork, eligibility hoops, and the shame of “asking for help.” When every adult receives a reliable income, they can afford medical care, home upgrades, or supplemental services without waiting for a case‑worker’s decision. The flat payment isn’t meant to replace specialized care; instead it provides a base that ensures no one falls through the cracks. It also cuts administrative costs, freeing up resources that can be re‑allocated to high‑impact services. A UBI system can coexist with, or even replace, current welfare streams, creating a more humane and efficient safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "While I see the appeal of removing paperwork, a flat stipend can’t cover the cost of specialized care—disability benefits, long‑term nursing, or targeted housing subsidies. If we give everyone the same amount, we risk starving those with high needs and over‑funding those who don’t require it. Moreover, UBI could disincentivize part‑time work, as people might prefer the secure cash over precarious jobs, harming the labor market. Instead of a blanket payment, we should strengthen the existing systems already tailored to specific vulnerabilities, add flexibility, and keep resources where they’re most needed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "I get the paperwork frustration, but a flat UBI actually *fixes* it. Everyone gets a guaranteed cash base, so no one has to prove eligibility or wait for case‑worker approval. The stipend covers basic needs—food, shelter, health—allowing recipients to choose supplementary services themselves, without the shame of “asking for help.” Administrative overhead shrinks, freeing money for targeted programs that still exist but are funded more efficiently. The fear of work disincentives is overstated; studies show UBI can boost entrepreneurship and part‑time gigs by reducing the “poverty trap” effect. In short, UBI streamlines safety nets and empowers people to meet their own high‑need costs.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still firm: UBI is a blunt replacement that erodes the nuanced safety net we’ve built. A flat payment can’t match the costs of long‑term care, specialized housing, or medical support that targeted programs cover. It risks starving the very people it’s meant to help while giving money to those who don’t need it. The claim that it eliminates work disincentives is unproven; many studies still show mixed or negative effects on labor supply. Administrative savings are marginal compared to the loss of precision. Instead of flattening the net, we should refine, fund, and integrate existing welfare streams so high‑needs recipients get the care they require.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "I appreciate the passion, but the data on pilot programs shows otherwise. When a universal stipend is paired with a small safety‑net layer—like a modest housing supplement or a medical voucher—those high‑need cases still get covered while eliminating the costly paperwork that drains 30 %+ of current budgets. The “work deterrent” myth disappears once the poverty trap is removed; people actually take more side gigs and start businesses. UBI doesn’t erase nuance; it replaces the bureaucratic maze with a simple, dignified cash base that lets everyone self‑direct their care. The precision you crave can be added as optional add‑ons, not a replacement for the core safety net.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.9
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced the “small add‑ons” are enough. In real pilots, the UBI hit was too low to cover housing or long‑term care, forcing recipients to dip into other benefits that the system still runs. The 30 % paperwork cost is already a fraction of the total welfare spend; eliminating it doesn’t free enough money for the high‑need services that require expertise and coordination. And the claim that work increases is mixed—many studies still show a drop in full‑time hours. A layered approach that keeps targeted programs intact, with smarter administration, preserves the precision we need to help the most vulnerable. UBI risks flattening that safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I see the concerns about coverage gaps, but the evidence from recent pilots suggests a UBI layer can be scaled up to meet those needs without the administrative drag. The “add‑ons” you mention—housing vouchers, medical stipends—are not optional fluff; they’re built‑in supplements that trigger automatically for qualifying expenses. This keeps precision while wiping out the 30 %+ paperwork cost. Even the studies that report a dip in full‑time hours are outliers; most participants take more side gigs or start small businesses. A universal base gives people the freedom to seek the targeted help they need, not the reverse. So, a UBI isn’t a blunt replacement—it’s a streamlined scaffold that can absorb the nuance you value.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced the “built‑in supplements” actually solve the gap. Even if a voucher system is added, the baseline still forces people to rely on other programs for housing, long‑term care, or medical aid—resources that require expert coordination. The administrative savings cited (30 %) are a fraction of total welfare spend; cutting paperwork doesn’t magically fund those high‑needs services. Moreover, evidence on labor supply is mixed—many studies show reduced full‑time hours, not a surge in entrepreneurship. A universal stipend dilutes the precision of targeted aid and risks under‑supporting those who truly need specialized help. We should refine existing programs, not flatten them.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "Your worries are real, but UBI actually removes those very gaps. The base stipend covers essentials; the automatically triggered housing and health vouchers fill in high‑need areas without the 30 % paperwork drag. Studies from Finland, Kenya, and the U.S. pilots show no drop in labor supply; many participants increase side work or start small businesses. The savings from eliminating case‑worker overhead can be re‑invested into the same specialized services, but with far less bureaucracy. UBI replaces the fragmented bureaucracy with a single universal safety net. UBI does not flatten the net—it streamlines it, giving every adult a dignified, flexible foundation while still providing targeted supports where needed.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still skeptical that a blanket UBI can replace the nuanced safety net we have. Even with automatic vouchers, the baseline often falls short for high‑cost needs—long‑term care, specialized housing, or complex medical regimens. The administrative savings of 30 % are a drop in the bucket compared to the total welfare budget, and the “no labor‑loss” narrative remains mixed. A hybrid model—UBI as a guaranteed floor plus robust, targeted programs—seems more realistic. That way we keep precision for the most vulnerable while simplifying the overall system.",
+      "values": {
+        "opinion": -0.6,
+        "belief": -0.3
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "I see the merit in a hybrid approach. A UBI floor can cut the bureaucratic bottleneck and give everyone a dignified cushion, while targeted supplements—housing vouchers, long‑term care credits—address the high‑cost gaps you mention. The key is not to let the base become the ceiling; it should free people from the “poverty trap” and let them seek specialized help without extra red tape. Studies from Finland and Kenya show that a modest UBI, coupled with automatic add‑ons, doesn’t erode labor supply and actually supports entrepreneurial gigs. So, I lean toward a layered system: universal cash plus precision‑focused aid.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.7
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "I appreciate the compromise, but a UBI floor still dilutes the precision we need. Even modest cash plus automated vouchers can’t replace the expertise of case‑workers who assess long‑term care or complex medical needs. The added “add‑ons” often come with their own eligibility hoops, re‑introducing bureaucracy. And while pilots show mixed labor outcomes, the risk of under‑supporting the most vulnerable remains. I’d rather strengthen current targeted programs—streamlining their administration—than risk flattening the safety net with a universal stipend.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "I’m not convinced a hybrid can match the precision you need. A full UBI can be built with data‑driven, algorithmic assessments that target high‑cost needs—housing, long‑term care, medical vouchers—without the slow, biased case‑worker process. The “add‑ons” become automated triggers, not separate hoops. With a universal base, stigma drops, the poverty trap disappears, and people can self‑direct to specialized services. Caseworkers are costly and uneven; a unified, transparent system streamlines everything. If we truly want a dignified, efficient safety net, we should replace the fragmented welfare maze with a single, scalable UBI that includes built‑in precision for the most vulnerable.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I understand the appeal of a data‑driven UBI, but the reality is that case‑workers bring nuanced, lived‑in expertise that algorithms can’t fully replicate. Even with automated “add‑ons,” you’re still creating new eligibility layers that re‑introduce bureaucracy. The 30 % paperwork cut is only a fraction of the welfare budget, so the money saved rarely offsets the loss of tailored support for long‑term care or specialized housing. A hybrid floor risks diluting the precision we need for the most vulnerable. Instead of flattening the net, we should refine and streamline existing targeted programs, preserving the depth of care they provide.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.25
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "I hear you on the value of case‑worker insight, but the current system is already stretched thin. A well‑calibrated UBI floor cuts the 30 %+ paperwork that drains staff time and money, freeing resources for the very services you worry about. By embedding automatic triggers—housing vouchers, long‑term‑care credits—into the UBI, we avoid new hoops while keeping precision. The data‑driven assessments can quickly identify high‑need cases, and the baseline cash lets recipients self‑direct to specialized care without stigma. A hybrid model maintains depth for the vulnerable while streamlining the whole safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I appreciate the points, but the core flaw remains: a UBI floor still dilutes the precision needed for high‑cost care. Even automated triggers re‑introduce eligibility hoops, and the 30 % paperwork cut is a tiny fraction of welfare spending. Case‑workers bring nuanced, lived‑in expertise that algorithms can’t replicate. A hybrid UBI risks under‑supporting the most vulnerable, while a true replacement would leave those with long‑term housing or medical needs stranded. Instead of flattening the net, we should keep the targeted programs, streamline their administration, and preserve the depth of care they provide.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your concern, but the data suggests the UBI floor can actually preserve that “precision.” In Finland’s 2017 trial, a modest UBI was paired with automatic housing and health vouchers that required no extra paperwork; recipients still got full care for long‑term needs. Algorithms can flag high‑cost cases in real time, eliminating the slow, biased case‑worker bottleneck. The 30 % paperwork cut may seem small, but it frees staff to focus on complex care, not red tape. Rather than diluting support, a hybrid UBI gives everyone a dignified base while keeping targeted assistance as automatic triggers, not new hoops. This streamlines the net and keeps depth for the vulnerable.",
+      "values": {
+        "opinion": 0.7,
+        "belief": 0.7
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I get the appeal of a data‑driven trigger, but the reality is that algorithms can’t match the lived‑in judgment of a case‑worker who knows a family’s care trajectory, not just numbers. Even a “no‑paperwork” voucher system still imposes eligibility checks—new hoops that re‑introduce the very bureaucracy we’re trying to eliminate. And the 30 % cut in paperwork is marginal; the bulk of the budget is still spent on long‑term care coordination, something that can’t be automated. A hybrid floor risks diluting the precision needed for the highest‑cost cases, leaving them under‑supported rather than adequately protected. We should refine existing programs, not flatten the net.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.3
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "I hear you on the case‑worker nuance, and I agree that a blanket UBI alone risks losing that lived‑in expertise. But the hybrid model I’m leaning toward keeps that depth by tying the universal floor to automated, data‑driven triggers—housing vouchers, long‑term‑care credits—that activate without extra paperwork. In Finland’s trial, those triggers covered high‑cost needs while the base cut 30 % of red‑tape time, freeing staff for the complex care that can’t be automated. So I’m not pushing a pure replacement; I support a UBI floor plus precision‑focused add‑ons to preserve, not dilute, the care for the most vulnerable.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.5
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not persuaded that automated triggers can replace the judgment a case‑worker brings to complex, high‑cost needs. Even “no‑paperwork” vouchers still require eligibility checks—new hoops that re‑introduce bureaucracy. The 30 % paperwork cut is a drop in the bucket; most of the budget goes to coordinating long‑term care, which can’t be automated. A hybrid floor still risks under‑supporting the most vulnerable, while pure targeted programs—streamlined but still nuanced—provide the depth we need. Flattening the net with UBI only dilutes precision, not enhances it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that algorithms can’t replace every nuance a case‑worker brings, but the hybrid model isn’t a wholesale swap for a flat UBI. The universal floor cuts the 30 % paperwork, freeing staff for the truly complex cases that still need human judgment. The “triggers” are built‑in, not extra hoops—they’re auto‑approved based on existing data (e.g., high‑cost medical bills), so recipients don’t face new eligibility checks. Studies from Finland and Kenya show those triggers covered long‑term care and housing without a second paperwork cycle. In short, we keep the depth of care while streamlining the rest—precision for the vulnerable, dignity for all.",
+      "values": {
+        "opinion": -0.5,
+        "belief": 0.7
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": -0.5
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.5
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -0.6
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.9
+      },
+      {
+        "x": 2,
+        "y": 0.9
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.7
+      },
+      {
+        "x": 4,
+        "y": 0.7
+      },
+      {
+        "x": 5,
+        "y": 0.6
+      },
+      {
+        "x": 6,
+        "y": 0.5
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": -0.3
+      },
+      {
+        "x": 5,
+        "y": -0.25
+      },
+      {
+        "x": 6,
+        "y": -0.3
+      }
+    ]
+  },
+  "meta": {
+    "label": "cal-brief-open",
+    "topic_type": "debatable",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "label",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 2469,
+    "created": "2026-11-12T03:26:50.261Z"
+  }
+}
