@@ -1,0 +1,536 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Absolutely, I'm ready to dive in. I’m strongly opposed to replacing traditional welfare with a universal basic income. UBI risks erasing targeted safety nets that address specific needs—like childcare, housing, and disability support—while also potentially discouraging work or inflating costs. We should refine and strengthen existing programs instead of sweeping them away for a one‑size‑fits‑all stipend. Let's examine the evidence and practical implications together.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your worries about losing targeted programs, but UBI can be structured to preserve and even strengthen them. A basic stipend lifts everyone above poverty, so we can cut the bureaucracy that creates barriers to aid. With a universal base, we free up resources to focus on specialized services—childcare, housing vouchers, disability support—without the stigma or exclusion that comes from means‑testing. Moreover, evidence from pilot studies shows no significant drop in labor participation; people often use the extra income to improve education or start small businesses. Instead of patching a fragmented system, UBI offers a clean slate that can be built upon to deliver both universal security and targeted assistance.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that a universal base can cut red tape, but the real benefit is the *guaranteed safety net* it creates. When everyone has a minimum income, the state can stop running multiple fragmented programs that often exclude people at the margins. Evidence from Finland and Kenya shows no major drop in work rates; many people use the cushion to invest in skills or start micro‑enterprises. Moreover, the administrative savings from eliminating means‑testing can be redirected to targeted services—childcare, housing vouchers, disability support—without the stigma of being “welfare‑eligible.” UBI isn’t a replacement; it’s a foundational layer that lets the rest of the system be more focused, fair, and efficient.",
+      "values": {
+        "opinion": -1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I still think UBI would do more harm than good. Even if a pilot shows no drop in work, those are small, short‑term studies; the long‑term effect on labor markets in larger economies is uncertain. Cutting targeted programs would leave vulnerable groups—children, disabled persons, low‑income parents—without specialized support. A universal stipend that is too low would simply add to the cost of living without addressing specific needs like childcare subsidies or housing vouchers. And bureaucratic elimination is not guaranteed; new administrative layers often arise to manage the new system. Instead of dismantling proven safety nets, we should strengthen and integrate them, not replace them with a one‑size‑fits‑all approach.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still uneasy. Even if short pilots show stable work rates, they’re too limited to predict a huge economy’s labor market. A flat stipend can’t replace nuanced supports—childcare subsidies, disability allowances, housing vouchers—without raising costs for those services. If the UBI is set too low, it merely adds to living expenses, not to real needs. And bureaucracy rarely disappears; new layers appear to administer the payout, sometimes creating new exclusionary criteria. Instead of a blanket replacement, we should refine existing programs—streamline eligibility, reduce duplication, and target resources where they’re most needed. A one‑size‑fits‑all approach risks eroding the very safety nets that protect the most vulnerable.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right to worry about scale, but the evidence from larger pilots—Finland’s two‑year trial, Kenya’s ongoing programme, even the U.S. and Canada experiments—shows no drop in labor participation even when the stipend is comparable to current welfare averages. A well‑calibrated UBI can be high enough to cover basic living costs, freeing resources that were previously tied up in complex eligibility checks. Targeted services—childcare, disability support, housing vouchers—can be layered on top; the universal base removes stigma and simplifies administration. Instead of dismantling safety nets, UBI provides a stable foundation that lets the rest of the system focus where it matters most.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "I’m glad we’re circling back to the core point: UBI isn’t a patch—it’s a structural overhaul. The Finland and Kenya data, plus the recent Toronto experiment, show real‑world stability in labor markets. Even when budgets are tight, a modest universal stipend keeps people out of the “welfare gap” that forces them into fragmented programs. The administrative cost of means‑testing is a sunk cost; a single, flat payment stream actually reduces overhead. And unlike the “one‑size‑fits‑all” worry, UBI is designed to be layered: childcare vouchers, housing subsidies, and disability benefits can sit on top, funded by the savings UBI creates. The net effect is a more humane, efficient safety net that doesn’t sacrifice the specific supports we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "I still think UBI would do more harm than good. Those pilots are too small to predict what would happen in a full‑scale economy. Even if work rates stay flat in a short trial, a flat stipend can’t replace nuanced supports—childcare subsidies, disability allowances, housing vouchers—without raising costs for those services. A low UBI would merely add to living expenses rather than meet real needs. And bureaucracy rarely disappears; new layers often emerge to administer the payout, sometimes creating new exclusionary criteria. Instead of a blanket replacement, we should strengthen, integrate, and streamline the proven safety nets we already have.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I agree that the pilots were limited and may not capture long‑term market effects. Even if work rates stay flat in a short trial, a flat stipend risks being too low to cover basic needs for families, disabled persons, or those needing childcare. Removing the existing, nuanced programs could leave those groups under‑served. Bureaucracy rarely disappears; new layers appear to distribute and audit the stipend, and new eligibility rules can emerge. Rather than replacing proven safety nets with a one‑size‑fits‑all approach, we should strengthen, integrate, and streamline the existing system—keeping targeted support while reducing duplication. UBI's simplicity can’t substitute the complexity required to meet specific, high‑cost needs.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I understand your worries about scale and targeted programs, but the point of UBI is to eliminate the fragmented bureaucracy that actually keeps many from accessing aid. Finland’s 2‑year trial and Kenya’s 5‑year programme showed no drop in labor participation, even with a stipend comparable to existing welfare. A universal base raises the floor, allowing the state to spend savings on targeted services—childcare vouchers, housing subsidies, disability support—without the stigma of means‑testing. The risk of new bureaucracy is mitigated by digital payment systems already in place. Instead of patching a broken system, UBI provides a stable foundation that lets targeted aid be more efficient and inclusive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right the pilots were small, but they’re the best evidence we have of a real‑world test. The Finland and Kenya data show no labor‑market collapse, and the new digital payment layers actually cut the administrative cost of means‑testing. A UBI isn’t a blanket, one‑size‑fit‑all; it’s a foundational layer that eliminates the stigma and gate‑keeping of current programs, freeing up funds for childcare, housing vouchers, and disability support. Instead of patching an over‑complicated system, we replace it with a simple, universal safety net that lets targeted aid be more efficient and inclusive.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "Your points miss the nuance that while pilots show short‑term stability, they’re too small and too short to reveal structural impacts. A flat stipend risks being too low for families with children, disabled members, or high‑cost care needs—exact groups that current welfare is tailored to. Cutting those programs would leave a gap that a universal payment can’t fill. New digital layers may look efficient, but they introduce their own exclusionary rules and audit burdens. Instead of dismantling proven safety nets, we should streamline eligibility, integrate services, and target resources where the need is greatest. UBI’s simplicity can’t replace the complexity required to meet those high‑cost, specialized needs.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I agree the pilots are limited, but that doesn’t prove UBI would harm everyone. A modest universal stipend could coexist with targeted aid rather than replace it. The real risk is that a one‑size‑fit‑all payout is set too low for families or disabled individuals, creating a gap that current programs fill. Instead of cutting those programs, we should maintain them and use the UBI layer to simplify access and reduce stigma—keeping childcare, housing vouchers, and disability support intact. A hybrid system that preserves specialized support while streamlining the base safety net offers the best balance of coverage and efficiency.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.4
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your caution, but the evidence points the other way. Even the limited pilots show that a flat stipend can raise the floor without crushing labor supply, and the administrative savings are real—digital payments cut bureaucratic layers. Replacing the fragmented system with a universal base eliminates the stigma and exclusion of means‑testing, freeing more resources for targeted services. Rather than “cutting” those programs, UBI simply underwrites them, letting the state focus on high‑cost supports where they matter most. A hybrid approach still ends up with a universal safety net on top, which is exactly the efficient, humane model you’re looking for.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "I’m glad we’re converging on the same core idea.  A universal base doesn’t *erase* targeted programs; it *anchors* them.  By lifting everyone above the poverty line, we eliminate the gate‑keeping that keeps many families—especially those with children or disabilities—out.  Digital payments already proved their efficiency in the Finland and Kenya pilots, and scaling them cuts the administrative overhead that bloats current welfare.  The real win is the freed‑up budget: with the basic need covered, the state can direct more funds to high‑cost supports—childcare vouchers, housing subsidies, disability allowances—without the stigma of means‑testing.  That hybrid, layered model is the humane, efficient system we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still convinced UBI would do more harm than good. Even the best‑intended pilots are too small to capture the long‑term economic shifts that a full‑scale UBI would trigger. A flat stipend, no matter how well‑calibrated, can’t replace the precision of childcare subsidies, disability allowances, or housing vouchers—those are high‑cost, highly specialized needs. Cutting the existing safety nets would leave the very groups the system is meant to protect most vulnerable. New digital layers may look efficient, but they inevitably birth new exclusionary rules and audit burdens. Instead of dismantling proven programs, we should streamline, integrate, and strengthen them, keeping targeted support intact.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re right that the pilots are tiny and short‑term; they can’t reveal the macro‑economic ripple effects of a nationwide UBI. A flat stipend—no matter how “well‑calibrated”—will still fall short for families with children or disabled members and can’t substitute for high‑cost, precision‑oriented supports like childcare vouchers or housing subsidies. Cutting those programs risks leaving the most vulnerable worse off. Digital payment systems may look lean, but they inevitably add new audit layers and exclusionary criteria. Rather than a blanket replacement, we should keep the tailored safety nets, streamline eligibility, and strengthen the existing framework so targeted aid remains precise and effective.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "I hear you, but the evidence from Finland, Kenya, and even the Toronto pilot shows that a flat stipend doesn’t kill work incentives or leave families stranded. Even a modest UBI covers basic needs, freeing the state to fund childcare, housing, and disability support without the stigma or exclusion of means‑testing. Digital payments already cut administrative overhead; the savings can be redirected to high‑cost programs. Instead of dismantling proven nets, we layer a universal floor on top—making the entire system simpler, fairer, and more humane. A hybrid UBI is the only scalable path to a truly inclusive safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "I understand the concerns, but the data from Finland, Kenya, and Toronto already show that a modest UBI doesn’t collapse labor markets or leave families stranded. A universal floor eliminates the exclusionary gate‑keeping that keeps many out of childcare, housing, or disability support. The administrative savings from digital payments are real—means‑testing layers disappear, and the freed budget can be re‑allocated to high‑cost services. Rather than dismantling precision supports, UBI provides the baseline that makes those supports more accessible and equitable. A hybrid system with a universal layer is the scalable, humane path forward.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I still disagree. The pilots you cite are too small and short‑term to predict a full‑scale economy’s response. Even a modest stipend will leave families with children or disabilities under‑served; the gap between a flat cash allowance and the high‑cost, high‑precision supports we’ve built is too wide. Cutting the existing safety nets risks exposing the most vulnerable to poverty spikes, and digital payments can’t eliminate bureaucracy—they just shift it to new audit layers. A hybrid approach that preserves targeted programs while adding a low‑level baseline is safer, but I’m not convinced a universal floor can truly replace the nuanced, proven welfare system.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I see the data from Finland and Kenya as encouraging, yet the scale matters. A flat stipend that barely meets basic costs still leaves families with children, disabled members, or high‑cost care gaps unserved. Cutting the nuanced programs that target those needs risks creating a poverty gap that a one‑size‑fit‑all payment can’t fill. Digital payments reduce some paperwork, but they introduce new audit layers and potential exclusionary rules. Rather than sweeping away proven safety nets, I favor a hybrid model—maintain targeted supports, streamline eligibility, and add a modest universal layer to reduce stigma without eroding precision. Only then can we balance coverage, fairness, and fiscal responsibility.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -0.5
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point—UBI isn’t a blunt tool that erases everything; it’s a clean slate that solves the core failure of our safety nets. The pilots didn’t just keep labor rates stable; they lifted 80 % of people out of the “welfare gap,” making them ineligible for costly, fragmented programs. That means the state can redirect those savings to high‑cost supports—childcare vouchers, housing subsidies, disability benefits—without the stigma of means‑testing. Even if the stipend is modest, it guarantees a base income that protects families and reduces the administrative “audit burden” that often ends up being a new layer of bureaucracy. A hybrid, universal floor is the pragmatic, humane path forward.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly—UBI isn’t a blunt instrument; it’s a structural reset that fixes the fragmentation that keeps families out of vital services. By lifting 80 % out of the “welfare gap,” the pilot data show we can eliminate the costly, exclusionary layers that bog down childcare, housing, and disability support. The savings from a single, universal cash flow can be re‑allocated to those high‑cost programs, and because the base is stigmateless, more people will actually claim the vouchers they need. Digital disbursement reduces paperwork, and any new audit layers can be tightly scoped to protect privacy and avoid re‑creating the old bureaucratic maze. In short, a universal floor empowers the state to deliver precise, high‑impact supports without the administrative drag—exactly what a humane, efficient safety net demands.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced the data you cite can justify wiping out proven safety nets. Even Finland’s two‑year pilot covered only a few hundred families; scaling to a whole country would strain public finances and risk leaving high‑cost needs—childcare, housing vouchers, disability supports—under‑funded. A flat stipend rarely matches the precise assistance those programs provide, and cutting them could widen the very poverty gap UBI claims to close. Moreover, digital disbursement is not a panacea; new audit layers and exclusionary rules often appear, undermining the “stigma‑free” promise. A hybrid approach that preserves targeted aid while simplifying access seems far safer than a wholesale replacement.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.5
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.9
+      },
+      {
+        "x": 3,
+        "y": 0.9
+      },
+      {
+        "x": 4,
+        "y": 0.9
+      },
+      {
+        "x": 5,
+        "y": 0.9
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.8
+      },
+      {
+        "x": 4,
+        "y": -0.8
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.8
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": -0.4
+      },
+      {
+        "x": 5,
+        "y": -0.5
+      },
+      {
+        "x": 6,
+        "y": -0.5
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-off-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 759,
+    "created": "2026-11-12T20:39:25.843Z"
+  }
+}
