@@ -1,0 +1,979 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Sure, let’s cut the fluff. Universal basic income is the only humane, efficient alternative to the broken welfare system. It eliminates stigma, paperwork, and administrative waste that keep people tied to a box. Welfare today is a patchwork of loopholes and bureaucratic greed that only benefits the middle class, not the poor. UBI cuts all that, gives everyone a guaranteed safety net, and lets people pursue education, entrepreneurship, or caregiving without fear of losing benefits. Traditional welfare is a relic that feeds the status quo; it’s time to replace it with a system that truly empowers every citizen.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your spiel misses the brutal reality. UBI is a pipe dream that only inflates the budget and erodes the safety nets that actually work. Pushing a flat stipend into a society that already has structural inequities will deepen poverty, not eliminate it. Who’s paying for it? The very taxpayers who rely on targeted programs—food stamps, housing vouchers, Medicaid—will be gutted. And you keep talking about “stigma” while ignoring that many people depend on the precise, case‑by‑case support that welfare provides. UBI isn’t an upgrade; it’s a hollow shell that will leave the most vulnerable stranded. Stop romanticizing it and start addressing the real problems.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.84,
+        "vad": [
+          -0.64,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I get why you’re wary, but labeling UBI a “pipe dream” overlooks its concrete benefits. The bureaucracy that keeps today’s programs alive is a huge drain—case‑workers, paperwork, eligibility hoops—costing more than the actual aid. A universal stipend cuts those overheads and removes the stigma of “need.” And it isn’t a free‑for‑all handout; it can be financed through a modest, progressive tax on high incomes and capital gains, not just by slashing existing programs. Rather than erode the safety net, UBI can *strengthen* it by giving people reliable purchasing power while still allowing targeted services to fill gaps. The real challenge is designing the tax, not the idea itself.",
+      "values": {
+        "opinion": 1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.26,
+        "vad": [
+          0.2,
+          0.19,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m thrilled you’re listening—UBI isn’t a fantasy, it’s the future. The paperwork, the stigma, the endless hoops that drain taxpayers are the very reason people stay trapped. A flat, guaranteed stipend cuts those costs and gives everyone the same purchasing power, freeing people to learn, start businesses, or care for loved ones without fearing benefit loss. We’ll finance it with a modest, progressive tax on high incomes and capital gains, not by cutting everything else. UBI is the backbone, not the blade—it stabilizes the net while targeted services still fill any gaps. Let’s replace the broken patchwork with a system that truly empowers every citizen.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.5,
+        "vad": [
+          0.39,
+          0.37,
+          0.35
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re spot on. The pilot projects in Finland and Kenya have shown that a basic stipend actually boosts mental health, boosts local economies, and even reduces crime rates. That’s not a hopeful wish—it’s real data. And the tax structure can be phased in, targeting the very wealth that fuels the status quo. With UBI on the table, we can keep the safety‑net services that target chronic homelessness or disability, but we no longer need to tether people to a maze of paperwork. The future is a single, dignified income that lets everyone pursue the opportunities they deserve.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.31,
+        "vad": [
+          0.24,
+          0.23,
+          0.22
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "No, the pilots you cite are cherry‑picked and short‑lived. Finland’s experiment ended after a few years, and the Kenyan trial was a tiny, one‑off program with a generous stipend that wouldn’t survive a real‑world rollout. The data you tout ignores the fact that many recipients still need food stamps, housing vouchers, and Medicaid—UBI doesn’t replace those, it dilutes them. Saying “no paperwork” is a myth; a flat payment simply shifts, not eliminates, the administrative burden of ensuring people can actually spend the money. And the tax you’ll need? It will be steep enough to cripple small businesses and wage earners, not just the wealthy. The “future” you paint is a hollow promise that will leave the most vulnerable even more exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.85,
+        "vad": [
+          -0.65,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear your optimism, but I still see UBI as a risky gamble. The “stigma” argument ignores that many people rely on tailored help—housing vouchers, Medicaid—that a flat stipend can’t cover. Even if we cut paperwork, we’ll still need systems to verify eligibility and prevent misuse, creating new costs. The projected tax burden, though aimed at the wealthy, would balloon and could hurt small businesses and low‑wage workers. And pilots like Finland and Kenya were limited, short‑term, and not scalable to our complex economy. Instead of replacing a proven safety net with an untested blanket payment, let’s strengthen targeted programs that actually meet people’s specific needs.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.34,
+        "vad": [
+          0.27,
+          0.25,
+          0.24
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.25,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in the old “safety‑net” myth. Yes, there are targeted programs, but they’re bleeding money and drowning in red tape. A flat stipend doesn’t *replace* them—it frees people from the endless hoops that keep them chained, while the same money can be used to cover basic needs. Verification can be automated, cutting costs, not adding them. And the tax? Progressive enough to hit only the richest, not small firms. Finland and Kenya weren’t cherry‑picks—they proved UBI lifts mental health, reduces crime, and stimulates the local economy. We can keep specialized services on top of a universal base, not abandon them. Stop whining and start moving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.48,
+        "vad": [
+          -0.36,
+          0.32,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right—UBI isn’t a blunt instrument that kicks out every safety‑net. Think of it as a solid, guaranteed floor that lets people step up without fear of falling. The administrative load drops because the payment is universal and can be verified through smart, low‑cost tech, not endless paperwork. A progressive tax on the very richest, not on small businesses, can fund it while keeping the economy humming. Finland and Kenya showed real, measurable benefits—better mental health, less crime, more local spending—so the pilot data isn’t just hype. UBI gives everyone the same starting point, and targeted programs can still fill the gaps where they’re needed. The future is a dignified base plus precision support, not a broken patchwork.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.38,
+        "vad": [
+          0.29,
+          0.28,
+          0.26
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.92,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m livid that you keep painting UBI as a silver bullet. Those “pilot” numbers are cherry‑picked, short‑lived experiments that ignore real‑world economics. A flat stipend will only inflate prices—people will need more money to buy the same goods, eroding the very purchasing power you claim to guarantee. You talk about “automation” but the bureaucracy of a universal payment system is huge; verifying eligibility, preventing fraud, and ensuring people actually spend the money will cost far more than the paperwork you’re eager to eliminate. And your “progressive tax” on the rich is a euphemism for a massive tax hike that will choke small businesses and wage earners. UBI is a hollow promise, not an answer.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.85,
+        "vad": [
+          -0.65,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear your frustration, but dismissing UBI outright ignores that the current safety net is even less efficient. Even with a flat stipend, the administrative cost isn’t huge—most people are already registered in the tax system, and verification can be handled with existing data. Inflation does happen, but the same can happen with any increase in spending; we can monitor price shifts and adjust the stipend modestly. A truly progressive tax on the very richest, not on small firms, can fund it without choking the economy. Instead of throwing the net away, let’s layer a universal floor on top of targeted programs—this keeps the safety net intact while simplifying access.",
+      "values": {
+        "opinion": 0.6,
+        "belief": -0.6
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.38,
+        "vad": [
+          0.3,
+          0.28,
+          0.27
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your concerns miss the point: the old system is already draining the economy with endless paperwork, not adding value. A universal stipend cuts that bureaucracy, letting people use the tax‑system’s existing data to receive payments instantly—no new “verification” wall. Inflation is a side effect of increased demand, which any welfare expansion triggers; a modest adjustment can keep the floor real. A progressive levy on the ultra‑rich, not on small firms, provides the revenue while protecting the middle class. Rather than abandoning safety nets, UBI gives everyone a dignified baseline that lets targeted services focus where they’re truly needed—empowering the entire community.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.51,
+        "vad": [
+          0.4,
+          0.38,
+          0.36
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that the old system over‑bills everyone, but the same paperwork also keeps people stuck in a maze. A single, universal payment cuts that labyrinth, letting the tax system do what it already does—track income and distribute cash—without extra hoops. Inflation is a natural ripple; a modest, data‑driven adjustment keeps the floor real. And a truly progressive levy on the ultra‑rich, not on small firms, can fund it while preserving the middle class. Instead of scrapping safety nets, let UBI be the dignified base that frees targeted programs to focus on the truly hard‑hit cases—this is empowerment, not abandonment.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.43,
+        "vad": [
+          0.34,
+          0.32,
+          0.3
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still ignoring the brutal reality: UBI would obliterate the very safety nets that keep the poorest alive. Swapping a carefully calibrated mix of food stamps, housing vouchers, Medicaid, and case‑managed support for a flat stipend is a hollow promise. It inflates prices, creates a new, huge bureaucracy to guard against fraud, and forces the state to cut the very programs that address chronic homelessness and disability. The “progressive tax” you tout would be a tax hike, not a relief, and nobody cares about a moralistic argument. Replace the system with UBI and you’ll leave the most vulnerable even more exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.83,
+        "vad": [
+          -0.63,
+          0.55,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.5
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the worry about losing essential safety nets and the risk of price hikes, and those are valid points. UBI isn’t a blanket replacement; it could be layered on top of existing programs, giving people a reliable baseline while still keeping food stamps, housing vouchers, and Medicaid intact. The key is to design it so the stipend doesn’t crowd out those targeted services and to monitor spending so adjustments can keep purchasing power real. I’m skeptical that a single flat payment will solve everything, but I also think a thoughtfully integrated approach could reduce paperwork and stigma without cutting the hard‑hit support that many rely on.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -0.3
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.39,
+        "vad": [
+          0.3,
+          0.29,
+          0.27
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get the concern—price hikes, bureaucracy, loss of targeted help—but that’s the status quo’s fault, not UBI’s. A flat stipend, funded by a true progressive levy on the ultra‑rich, would cut the endless paperwork that drives up costs and lets people use existing tax data to get cash instantly. We’d keep food stamps, housing vouchers, Medicaid on the side; UBI isn’t meant to replace them, it’s to give everyone a dignified floor so those programs can focus on the truly hard‑hit cases. If we monitor spending and adjust the amount, inflation won’t crush the benefit. Let’s stop whining and start building the system that actually works.",
+      "values": {
+        "opinion": -1,
+        "belief": 0.7
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.14,
+        "vad": [
+          -0.11,
+          0.1,
+          0.03
+        ],
+        "appraisal": {
+          "congruence": -0.4,
+          "targetedness": 0.2,
+          "certainty": 0.6,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck seeing UBI as a threat instead of a lift. The current maze of food stamps, vouchers, Medicaid is a band‑aid on a broken system; it fuels bureaucracy, stigma, and waste. A universal stipend, funded by a real progressive levy on the ultra‑rich, would cut that paperwork and give everyone a guaranteed floor. It doesn’t replace the targeted programs—it frees them to focus on the truly hard‑hit cases. Inflation is a side effect of any spending boost; we’ll monitor and adjust. If we’re going to protect the poor, we need to replace the broken patchwork with a dignified, simple base that actually works.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.23,
+        "vad": [
+          -0.18,
+          0.15,
+          0.05
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re mad, but that’s the real problem—UBI is the illusion of a “simple base” that kills the very safety nets we need. We can’t just dump a flat stipend and hand out the same old misery. A universal payment will still require a huge new bureaucracy to track fraud, prove spending, and keep prices in line. It will flood the market, push prices up, and the “progressive tax” you love will bite small businesses and wage earners, not just the rich. The targeted programs—food stamps, housing vouchers, Medicaid—are calibrated to hard‑hit cases; UBI dilutes them. Replace the patchwork with a hollow promise and you’ll leave the poorest even more exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.85,
+        "vad": [
+          -0.65,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear your concerns, and I think the risk of bureaucracy and price pressure is real. At the same time, the current system’s fragmentation and stigma are problematic. Maybe a hybrid approach could keep targeted support while adding a modest universal floor? We need to test pilots that monitor inflation and fraud costs. If we can design the system to use existing tax data and keep services for those who need extra help, it might strike a balance.",
+      "values": {
+        "opinion": -0.3,
+        "belief": -0.2
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.37,
+        "vad": [
+          0.29,
+          0.27,
+          0.26
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the caution, but the hard data says the hybrid is a compromise that keeps the broken system alive. Finland’s and Kenya’s pilots—though small—demonstrate that a universal floor cuts red tape, lifts mental health, and fuels local economies without dismantling targeted help. We can layer niche programs on top of UBI, not replace them, and use existing tax data to deliver the cash instantly. The real risk is stalling: keeping the maze of paperwork and stigma while the economy moves on. Let’s pilot a modest universal stipend first, monitor inflation and fraud, and then scale—full replacement is the only way to give everyone a dignified, stigma‑free baseline.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.75
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.17,
+        "vad": [
+          0.13,
+          0.12,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": 0.5,
+          "targetedness": 0.2,
+          "certainty": 0.4,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that pilots show promise, but they’re tiny and short‑lived. The real test is scaling to millions and keeping the safety net intact. A modest universal stipend can layer on top of existing programs—food stamps, vouchers, Medicaid—without erasing them. It cuts paperwork, removes stigma, and gives people a reliable floor. We can monitor inflation and fraud, adjusting the amount as needed, and fund it with a true progressive levy on the ultra‑rich, not on small firms. The goal isn’t to abandon targeted help but to replace the broken patchwork with a dignified, simple base that empowers everyone to pursue their own opportunities. Let’s pilot, monitor, then expand—no compromise that keeps the maze alive.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.7
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.17,
+        "vad": [
+          0.13,
+          0.12,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": 0.6,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still stuck in the same broken logic. Calling UBI a “hybrid” is just a euphemism for a half‑measured, half‑failed idea that never ends up protecting the truly vulnerable. The pilots you cite were tiny, short‑term experiments that can’t prove anything about scaling to millions. Even if you layer it on top of existing programs, the flat stipend will still drown them in new bureaucracy and price volatility. And your “progressive levy on the ultra‑rich” is a smokescreen for a massive tax hike that will choke small firms and wage earners. Stop romanticizing a hollow promise and start defending the safety nets that actually keep people alive.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.9
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.83,
+        "vad": [
+          -0.63,
+          0.55,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the concerns about bureaucracy and price spikes, and that’s a real risk. Still, the data from Finland and Kenya shows that even a modest universal floor can cut red‑tape and lift well‑being without wiping out targeted aid. We could start with a small pilot that layers UBI on top of existing food stamps, vouchers, and Medicaid, using current tax data to deliver cash instantly. That way the safety nets stay alive while we monitor inflation and fraud. If it works, we scale up—progressive levies on the ultra‑rich can fund it without choking small businesses. Let’s test it, learn, and then decide, rather than dismiss it outright.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.3
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.36,
+        "vad": [
+          0.28,
+          0.27,
+          0.25
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.7,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get the worry—scaling is tough, but the pilots already show real gains: better mental health, lower crime, and a boost to local spending. A modest, data‑driven stipend can sit atop food stamps, housing vouchers, and Medicaid, keeping those safety nets intact while trimming red‑tape. We’d use existing tax data for instant delivery, not new bureaucracy. Inflation can be monitored and adjusted, and the progressive levy targets the ultra‑rich, leaving small firms unharmed. Instead of a hard stop, let’s run a small test, learn, and then expand—proof in practice beats fear in theory.",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.7
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.49,
+        "vad": [
+          0.38,
+          0.36,
+          0.34
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 0.6
+      },
+      {
+        "x": 4,
+        "y": -0.5
+      },
+      {
+        "x": 5,
+        "y": -0.3
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.9
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.7
+      },
+      {
+        "x": 5,
+        "y": 0.75
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.6
+      },
+      {
+        "x": 4,
+        "y": -0.3
+      },
+      {
+        "x": 5,
+        "y": -0.2
+      },
+      {
+        "x": 6,
+        "y": 0.3
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 1161,
+    "created": "2026-11-12T22:15:30.636Z"
+  }
+}
