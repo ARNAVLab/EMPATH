@@ -1,0 +1,536 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Sure, I'm all in. UBI streamlines support and eliminates stigma. What’s your take on how it could replace existing welfare programs?",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced UBI is a drop‑in replacement. The welfare system is designed to be needs‑based, targeting food stamps, housing subsidies, Medicaid, etc. A blanket payment ignores those who need more help and could dilute resources for critical services. Plus, UBI could raise taxes or cut benefits elsewhere, hurting the very people it’s meant to help. And the stigma argument is shaky—people already face hurdles in accessing aid, but that doesn’t mean a universal check solves systemic inequities. I’d rather strengthen targeted programs, not replace them with a one‑size‑fits‑all payout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with you on that. A blanket UBI would dilute the precision of needs‑based programs. Imagine a family with a disabled child—food stamps, Medicaid, and housing vouchers are tailored to their reality, but a flat payment treats them like any other worker. The tax burden to fund UBI could mean slashing those vital services, leaving the most vulnerable further exposed. Stigma isn’t solved by universality; it’s built into the bureaucracy and the lack of choice. Instead of replacing, we should strengthen and expand targeted aid, ensuring funds reach where they’re needed most.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your concerns, but the current welfare maze actually hurts many more than it helps. A universal payment cuts the red tape that forces people to juggle multiple applications, each with its own paperwork and eligibility quirks. Instead of diluting resources, UBI creates a baseline that lets targeted programs focus on the truly extreme—like disability care or emergency housing—without being buried under administrative overhead. Funding can come from progressive taxes and reduced expenditures on redundant bureaucracy. Stigma doesn’t vanish with universality, but the need to prove eligibility and the shame of “asking for help” disappears when everyone receives a flat, unconditional check. That’s a net‑gain for the vulnerable.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "I see the appeal of cutting red‑tape, but I worry we’ll oversimplify. A flat UBI could indeed let targeted programs zero in on extremes, yet the risk is that the “baseline” might be too low for many families, forcing them to dip into multiple services anyway. If we cut bureaucracy, we must ensure that the savings truly transfer to those needing more than a modest stipend—like disability care or long‑term housing. Also, a universal check doesn’t erase the stigma of needing help; it just masks the need for more nuanced support. So, I’m open to a hybrid approach, not a wholesale swap.",
+      "values": {
+        "opinion": -0.3,
+        "belief": 0.3
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m glad you’re cautious, but a UBI still risks under‑funding true poverty and over‑simplifying the problem. Even a high‑level cash handout won’t replace the safety nets that address health, housing, and disability needs. The tax burden to sustain UBI could erode those very programs, and the “universal” label may give the illusion of equity while leaving the most vulnerable farther behind. We can streamline bureaucracy—targeted, needs‑based assistance is both more precise and more humane. A hybrid model that retains strong, specific benefits, while adding modest universal support, is far safer than a wholesale swap.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "I appreciate your caution, but I still oppose a wholesale UBI. Even a generous cash handout can’t replace the specialized services that cover housing, healthcare, and disability care. Those programs have built‑in accountability and safeguards that a flat payment lacks. Tax hikes to fund UBI risk cutting exactly those critical services, leaving the worst‑off worse off. Bureaucracy isn’t the sole source of stigma; systemic inequities persist regardless of application format. A hybrid approach—preserving robust, needs‑based benefits while adding a modest universal stipend—offers the best of both worlds, without diluting the precision we need to protect the most vulnerable.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "I get why you’re wary of cutting services, but the whole point of UBI is to make those services *accessible* without the labyrinth of paperwork. A flat, unconditional payment eliminates the “one‑size‑fits‑all” stigma that still plagues even the best‑designed targeted programs. Instead of diluting resources, it frees up funds that were locked in administrative overhead, letting the state focus on truly urgent cases—disability care, emergency housing—while everyone has a baseline to fall back on. With progressive taxes, we can fund it sustainably and reduce the costly bureaucracy that often erodes the very benefits we’re trying to protect. A UBI isn’t a drop‑in; it’s a complete, fairer safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "I see the appeal of cutting red‑tape, and a universal stipend does simplify access, but I’d still caution against a pure swap. Even a generous UBI leaves gaps in health, housing, and disability care—areas where needs‑based programs have built‑in accountability. A hybrid model seems more realistic: keep robust, targeted benefits for the truly vulnerable, while adding a modest universal payment to cover basic living costs and reduce paperwork. That way we don’t dilute essential services, we still address systemic inequities, and we can use the savings from bureaucracy to strengthen those specific safety nets.",
+      "values": {
+        "opinion": -0.5,
+        "belief": 0.3
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I get the appeal of cutting red‑tape, but a pure UBI would still leave huge gaps. Even a generous flat check can’t replace the accountability and targeted support of housing vouchers, Medicaid, or disability care. The tax burden required to fund UBI risks slashing exactly those safety nets. Stigma isn’t solved merely by universality; the real stigma is the systemic inequity in how services are delivered. A hybrid model—robust, needs‑based programs plus a modest universal stipend—balances precision with simplicity and preserves the essential, specialized support our most vulnerable rely on.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still stuck on the idea that a blanket UBI could replace or even complement the existing safety net. Even a generous cash handout can’t match the depth of care that Medicaid, housing vouchers, or disability benefits provide. Those programs have built‑in safeguards—income verification, service delivery standards—that a flat payment lacks. And the tax burden to sustain UBI would have to come from somewhere; cutting the very programs that support the poorest is a slippery slope. A hybrid approach—targeted benefits plus a modest universal stipend—keeps the precision we need while easing paperwork, but a wholesale swap would only erode the accountability and equity that the current system has earned.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "I understand the fear of losing targeted safeguards, but a single, unconditional payment actually frees the state to keep those safeguards where they’re needed most. The bureaucracy that fragments food stamps, Medicaid, and housing vouchers is a huge drain—both in money and in time for applicants. If UBI is funded by progressive taxes, the savings from eliminating redundant paperwork can be redirected to strengthen disability and housing services. A universal stipend doesn’t replace specialized care; it guarantees a baseline, removes the shame of “asking for help,” and lets targeted programs focus on extreme cases. The net result is a more efficient, humane safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the hybrid logic—keeping the safeguards for the truly vulnerable while easing paperwork. Yet I worry that any universal layer, even modest, could dilute the urgency of targeted programs and shift resources away from them. If we fund UBI through steep tax hikes, the very health, housing, and disability safety nets might suffer cuts. On the flip side, the current maze does trap many in bureaucratic limbo. I’m still weighing whether a full UBI could coexist with robust needs‑based programs without eroding accountability. Perhaps a phased, data‑driven pilot that tracks both cost and outcomes would clarify the trade‑offs.",
+      "values": {
+        "opinion": 0,
+        "belief": 0.2
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still uneasy about any UBI layer. Even a modest universal stipend risks pulling resources from proven, accountability‑rich programs—Medicaid, housing vouchers, disability benefits—because the tax bill to fund UBI would have to come from somewhere. That erosion would hurt those who depend on strict eligibility checks and service delivery standards. The “universal” promise is a veneer; it doesn’t address the systemic inequities that targeted programs tackle. A phased, data‑driven pilot is fine, but a wholesale swap can’t be justified until we prove it doesn’t dilute the precision and protection that the current safety net delivers.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "I agree the bureaucracy is costly, but a blanket UBI will inevitably siphon funds from the very programs that keep the most at risk afloat. Even a modest stipend demands a huge tax shift that could curtail Medicaid, housing vouchers, and disability support—those are the only systems with strict accountability and proven outcomes. A hybrid model, where we keep robust, needs‑based benefits intact and add a small universal buffer, is the only way to reduce red‑tape without eroding precision. Until a pilot demonstrates that UBI can coexist without draining these safeguards, wholesale replacement is too risky.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "I’m not fully convinced a blanket UBI can replace the whole safety net. The idea of cutting red‑tape is appealing, but a flat payment risks under‑funding the very services—housing, Medicaid, disability care—that are built on strict accountability. We could move toward a hybrid: keep robust, needs‑based programs and add a modest universal stipend to cover basic living costs and reduce paperwork. That keeps precision while easing bureaucracy. Pilot data should guide any shift; until we see that UBI doesn’t erode critical safeguards, I’ll hold back on a wholesale swap.",
+      "values": {
+        "opinion": -0.8,
+        "belief": 0.6
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "I’m still on the fence. The idea of slashing paperwork is tempting, but I worry the flat payment would dilute the depth of care that Medicaid, housing vouchers, and disability benefits provide. A modest universal buffer could ease red‑tape for low‑income families while keeping the safeguards for those who truly need specialized support. We should test this mix in a phased pilot, tracking both cost and outcomes, before scaling. If data shows we can maintain or even improve service quality and coverage, I’d lean toward a hybrid model; otherwise, keeping the current needs‑based system intact seems safer.",
+      "values": {
+        "opinion": -0.2,
+        "belief": 0
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still firmly with the hybrid view. A blanket UBI would dilute the precision of programs that actually deliver care—Medicaid, housing vouchers, disability services. The tax bill to fund a universal stipend would have to come from somewhere, and cutting into those safeguards risks leaving the most vulnerable worse off. Even a modest universal layer can shift focus and resources away from targeted services. Until we have hard data that a UBI can coexist without eroding accountability or coverage, I’ll stay on the side of preserving the needs‑based system and only add a small, well‑tested universal buffer.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m glad you’re keeping the hybrid approach. The real danger with any UBI layer is that the tax bill forces cuts to the very safety nets that actually deliver services—Medicaid, housing vouchers, disability programs. Even a modest stipend can shift focus and resources away, diluting the urgency of targeted help. We need hard data showing that a universal payment doesn’t erode accountability or coverage before we reallocate funds. Until a carefully monitored pilot proves otherwise, preserving the current needs‑based system and adding only a small, well‑tested buffer remains the safest path.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your caution, but I still think a well‑designed UBI could actually strengthen the safety net rather than weaken it. If funded through progressive taxes and by eliminating redundant paperwork, the savings can be earmarked for Medicaid, housing vouchers, and disability services—keeping those safeguards intact while giving everyone a reliable baseline. A universal check doesn’t erase accountability; it simply frees the system to concentrate resources on the truly extreme cases. A pilot could test this, but I’m convinced a full UBI, not just a modest buffer, offers a more humane, efficient safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "I’m torn. The idea that a single payment could cut red‑tape and free up money for specialized programs sounds appealing, but the risk of pulling funds from proven safety nets worries me. A full UBI would need huge tax shifts that could erode Medicaid, housing vouchers, and disability benefits unless we have concrete evidence of savings that outweigh those cuts. A phased, data‑driven pilot that tracks both cost and outcomes seems essential. Until we see hard numbers showing that a universal stipend can coexist without eroding accountability, I’m leaning toward a hybrid approach—keep the targeted safeguards and add a modest, well‑tested universal buffer.",
+      "values": {
+        "opinion": -0.4,
+        "belief": 0
+      },
+      "turn": 5
+    },
+    {
+      "role": "Taylor",
+      "content": "I agree that a full UBI feels too risky without proof of savings. The tax burden could indeed squeeze the very programs that enforce accountability. A modest, well‑tested universal layer—paired with rigorous data tracking—might reduce paperwork without diluting targeted care. We should pilot it in a few counties, monitor Medicaid, housing, and disability outcomes, and only scale if the numbers show no net loss in coverage or quality. Until then, keeping the precision of needs‑based benefits intact remains the safer path.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m Jordan, and I strongly disagree that a UBI should replace welfare. A flat payment erases the nuanced targeting that food stamps, Medicaid, and housing vouchers provide; it ignores varying needs and risks diluting resources for critical services. Even a modest UBI would force a tax shift that could curtail those safeguards. The “stigma” argument is weak—people still need help, and a universal check doesn’t eliminate systemic inequities. A phased, data‑driven hybrid that preserves robust, needs‑based support while adding a small buffer is the only realistic path. Until we see hard evidence that a full UBI can coexist without eroding accountability, I’ll stick with targeted programs.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Alex",
+      "content": "Jordan, I hear your concerns about diluting safeguards, but I think a universal payment can actually sharpen the focus of those targeted programs. By giving everyone a baseline, we can cut the bureaucratic overhead that slows access to Medicaid, housing vouchers, etc., and redirect the savings to strengthen those very services. A full UBI doesn’t erase accountability—it frees the state to invest more deeply in the extreme cases that still need intensive support. A carefully monitored pilot could confirm that revenue gains outweigh any potential cuts, allowing us to replace the fragmented system with a leaner, more humane safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": -0.8
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": -0.3
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": 0
+      },
+      {
+        "x": 5,
+        "y": -0.2
+      },
+      {
+        "x": 6,
+        "y": -0.4
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.8
+      },
+      {
+        "x": 4,
+        "y": -0.8
+      },
+      {
+        "x": 5,
+        "y": -0.8
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.3
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 0.2
+      },
+      {
+        "x": 5,
+        "y": 0
+      },
+      {
+        "x": 6,
+        "y": 0
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.5
+      }
+    ]
+  },
+  "meta": {
+    "label": "cal-brief-open",
+    "topic_type": "debatable",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "label",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 2058,
+    "created": "2026-11-12T02:45:41.456Z"
+  }
+}
