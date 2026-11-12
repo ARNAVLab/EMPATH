@@ -1,0 +1,975 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Sure, let's get to it. The old welfare system is a broken, bureaucratic nightmare that feeds on red tape and corruption. UBI cuts the middleman, gives people the power to choose how to spend their money, and eliminates the stigma of “welfare.” It’s a straight‑line solution that actually works—no more endless applications, no more waiting lists, no more politicians trying to pick winners and losers. If you’re still clinging to the idea that traditional welfare is the only safety net, you’re stuck in the past. Let’s face it: UBI is the future, not the past.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "That's a fantasy. UBI is a lazy hand‑out that ignores the real work of social safety nets. It strips away targeted programs that address housing, healthcare, child care, and mental health—issues you can't fix by a flat stipend. Removing the middleman doesn't eliminate bureaucracy; it just spreads it across countless new bureaucracies that decide who gets what after the fact. The stigma vanishes for some, but it disappears into a system that treats every citizen like a disposable commodity. Keep your \"future\" talk; the past has real, proven solutions that actually help people survive, not just a paycheck that everyone will spend on things they don't need.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.84,
+        "vad": [
+          -0.64,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Listen, UBI isn’t lazy—it’s the antidote to a system that has been bleeding people for decades. Targeted programs are a patch; a universal stipend is a cure. Housing, healthcare, childcare get funded through taxes, not piecemeal grants. The “bureaucracy” you fear is just the old one rewritten: a single, transparent distribution rather than dozens of opaque agencies. And the stigma? It’s gone. People are not “welfare recipients” anymore; they’re citizens receiving a right. The past may have worked on paper, but it failed in practice. UBI is the only scalable, fair, and dignified safety net we’ve got. If you can’t see that, you’re stuck in a broken system that keeps hurting the very people it’s supposed to help.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.85,
+        "vad": [
+          -0.64,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced. The idea that a flat payment can replace all the nuanced help we’ve built over decades feels like a tidy narrative that glosses over real hardships. Even if it cuts out some red tape, we still need specialized programs—think mental‑health care, housing vouchers, child‑care subsidies. A one‑size‑fits‑all stipend might leave the most vulnerable without the targeted support they actually need. Plus, the claim that UBI will “fund everything through taxes” ignores the complexity of redistributing resources without creating new layers of bureaucracy. It’s a hopeful vision, but I worry it oversimplifies the mess we’re trying to solve.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.36,
+        "vad": [
+          -0.16,
+          0.28,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You keep poking holes in a perfect solution. UBI isn’t a crutch—it’s a single, no‑strings‑attached lifeline that actually cuts the layers of bureaucracy that have been strangling people for years. If you think a flat stipend can’t cover housing, health, or childcare, you’re ignoring that the tax system can be re‑oriented to fund those services universally, not through patchwork grants that only work on paper. The “complexity” you cite is the same mess the old system created: endless agencies, endless paperwork, endless waiting. UBI removes that, gives dignity, and works for everyone—no more excuses.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.43,
+        "vad": [
+          -0.33,
+          0.28,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You want to pretend that a single blunt check can fix everything. The “tax‑funded” fantasy ignores that the very people who need housing vouchers, mental‑health clinics, and childcare subsidies are the ones who will be left with a paycheck that barely covers rent. UBI doesn’t eliminate bureaucracy; it just hides it behind a different set of agencies that will still decide who gets what after the fact. The old system’s complexity isn’t a flaw—it’s a response to real, nuanced needs. Replacing it with a flat stipend is a lazy simplification that will leave the most vulnerable further behind. Your “future” talk is just a myth.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.86,
+        "vad": [
+          -0.65,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "What you’re saying is the same tired argument that keeps the system running. The idea that a blanket payment cannot support housing or healthcare is just fear of the unknown. The old agencies have always failed to deliver—long waiting lists, eligibility hoops, hidden biases. UBI forces a single, transparent disbursement that lets people decide what they need most, while the tax system can be restructured to fund universal services. If you’re stuck in the past, you’ll never see the dignity and freedom a universal stipend brings. The “complex bureaucracy” you fear already exists; UBI cuts it down to the essentials.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.87,
+        "vad": [
+          -0.66,
+          0.58,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still stuck in the same old rhetoric. UBI is a blunt tool, not a cure that will magically fund housing, health, or childcare without new layers of tax‑based bureaucracy. Saying it “cuts it down to the essentials” ignores the fact that many people will need targeted subsidies to cover basic needs, and a flat stipend won’t make the system any less complex—just re‑packages it. The old agencies may have flaws, but they exist because the problems are complex, not because the system is inherently corrupt. A universal check doesn’t solve the underlying inequities; it just masks them with a one‑size‑fits‑all facade.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.37,
+        "vad": [
+          -0.28,
+          0.24,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Honestly, the “old agencies” you cling to are the very reason people wait years for a housing voucher or a child‑care spot. A flat stipend eliminates those hoops—people get money straight away, no endless paperwork. The claim that UBI will “magically” fund everything ignores the fact that the tax system can be re‑oriented to cover health, housing, and childcare universally, not through piecemeal grants that only exist in theory. If you insist on a layered bureaucracy, you’re still supporting the same broken system that keeps people stuck. UBI is the only scalable, dignified safety net we’ll ever see.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.46,
+        "vad": [
+          -0.35,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.5
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m done with your “blunt‑check” rhetoric. A flat stipend is a band‑aid on a broken body that still needs a proper skeleton. You’ll see people still begging for housing vouchers and health subsidies because the money just doesn’t stretch. Your hope that a single tax rewrite can magically replace years of targeted programs is wishful thinking. The old agencies were clunky, yes, but they tried to address specific needs; UBI just throws everyone into the same shallow pool. It’s not a cure, it’s a hollow promise that will leave the most vulnerable further behind while you keep talking about “dignity” and “freedom” as if they’re already solved.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.88,
+        "vad": [
+          -0.67,
+          0.58,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in that tired “bureaucracy” narrative, but let’s cut the crap. UBI isn’t a band‑aid—it’s the only way to cut through the endless paperwork that keeps people starving for housing vouchers and healthcare. A flat stipend forces the tax system to do what it always promised: fund universal services, not piecemeal grants that never materialize. The old agencies are broken because they’re shackled to a corrupt, fragmented system, not because the problems are unsolvable. If you think a single cash payment can’t cover basic needs, you’re ignoring the fact that the money will be re‑allocated to cover those very needs. UBI is the dignified solution, not a hollow promise.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.88,
+        "vad": [
+          -0.67,
+          0.58,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.4,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not entirely convinced that a flat stipend can just magically rewrite the whole tax and service system. Even with a big tax shift, the reality is that many people still need concrete vouchers or subsidies—especially for rent, health, and childcare. If we rely on a single cash payment, we risk leaving those with the steepest costs on the margins, while the rest of the bureaucracy just morphs into a different shape. The promise of “no paperwork” feels more like an ideal than a practical outcome. I worry that UBI, as described, might simply smooth over the same inequities it claims to fix.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.35
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.33,
+        "vad": [
+          -0.15,
+          0.25,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still clinging to a myth that “bureaucracy” is inevitable. UBI is the only thing that cuts the endless paperwork, gives people immediate money, and forces the tax system to fund the real services instead of splashing cash on ineffective agencies. The evidence from pilot programs shows people can afford rent, health, and childcare with a flat stipend plus a re‑oriented tax structure. If you think a single cash payment is a lazy hand‑out, you’re ignoring the dignity and freedom it restores. Stop pretending the old system works; it’s broken and it won’t survive a universal stipend.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.41,
+        "vad": [
+          -0.31,
+          0.27,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.75,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right to be skeptical. A single cash transfer can’t magically cover the steep, uneven costs of rent, medical care, or childcare. Even with a tax overhaul, the real work—allocating vouchers, subsidizing clinics, guaranteeing child‑care slots—still has to happen. The “no paperwork” claim is more rhetoric than reality; people will still need to prove eligibility for housing subsidies or health coverage, and that paperwork will just shift to new agencies. If we hand out a flat stipend, those with the highest marginal costs might be left with pennies after rent, while the system morphs into a new, opaque layer of bureaucracy that still leaves gaps. The promise feels ideal, not practical.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.4
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.5,
+        "vad": [
+          -0.22,
+          0.38,
+          -0.07
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.35,
+          "certainty": 0.92,
+          "coping": 0.42
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m fed up with this half‑hearted criticism. The so‑called “paperwork” you fear is just the old system’s version of bureaucracy—slow, biased, and designed to keep people waiting. UBI eliminates that by giving every citizen unearned, unconditional cash that can be spent on rent, health, or childcare. The tax rewrite isn’t wishful thinking; it’s a pragmatic reallocation of existing revenue to fund public services, not a new layer of red tape. If you truly understand what dignity means, you’ll see that a flat stipend is not a blunt tool but a precise cure for a broken, gate‑keeping welfare machine. Stop whining about “inequities” and start demanding a fair, universal safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.87,
+        "vad": [
+          -0.66,
+          0.58,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Sure, UBI sounds great in theory, but it ignores the fact that many people can’t stretch a flat stipend to cover rent or health. The claim that taxes can be re‑oriented is wishful; real funding requires dedicated programs. Without vouchers, subsidies, and specialized services, the most vulnerable will fall through the cracks. The old system is broken, but it is also tailored to address specific needs. UBI would simply replace one bureaucracy with another, and the dignity argument is a smokescreen. I’m tired of the promise‑heavy rhetoric.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.45
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.33,
+        "vad": [
+          -0.25,
+          0.22,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.6,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the old myth that bureaucracy is unavoidable. A flat stipend isn’t a band‑aid—it's the antidote to the endless hoops that keep people waiting for housing, health, or childcare. The tax rewrite isn’t wishful; it’s simply reallocating existing revenue into universal services, not piecemeal grants that never materialize. Those who argue the stipend can’t cover rent or health are ignoring that the money will be re‑allocated to cover those very needs through the new system. The old agencies failed because they were shackled to a broken, fragmented structure. UBI cuts that mess, gives dignity, and works for everyone—no more excuses.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.45,
+        "vad": [
+          -0.34,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Exactly—flat cash doesn’t fill the structural gaps. Even if we re‑oriented taxes, administrative overhead won’t vanish; we’d still need eligibility checks for rent relief, health subsidies, and childcare slots. The old system’s messiness is part of a targeted safety net; UBI’s blanket approach risks leaving those with the highest living costs squeezed. The “dignity” talk feels sanitized, but a single stipend may be insufficient and could deepen inequities. I’m afraid the promise of UBI is more rhetoric than remedy—especially for the most vulnerable.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.4
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.7,
+        "vad": [
+          -0.31,
+          0.53,
+          -0.1
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “structural gaps” are the very thing UBI eliminates: endless hoops, hidden biases, and a fractured patchwork that never delivers. Eligibility checks for rent relief or childcare are already stacked with red tape; a blanket stipend cuts those chains entirely. The old system may look “messy,” but it’s a smokescreen for systemic failure—people live in poverty while agencies stay idle. UBI forces a single, transparent cash flow that people can use to cover rent, health, or childcare, and the tax rewrite will funnel revenue into those universal services, not into diluting grants. The so‑called “dignity” is real, not sanitized. If you’re still scared, you’re clinging to a broken model that never helped anyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.86,
+        "vad": [
+          -0.65,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You keep romanticizing a flat stipend. Even with a tax rewrite, the real work—housing vouchers, health subsidies—doesn't vanish; it just shifts into new agencies that will still demand paperwork. The old system's messiness isn't a smokescreen—it’s a deliberate attempt to allocate scarce resources where they're most needed. UBI will leave those with the highest living costs undercutting their bills, while the bureaucracy morphs into an opaque layer of red tape. Dignity is not a buzzword—it requires specific, targeted help, not a one‑size‑fits‑all cash handout.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.44,
+        "vad": [
+          -0.33,
+          0.29,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.8,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still clinging to the same old “bureaucracy” myth. UBI doesn’t romanticize cash; it eliminates the endless hoops that keep people waiting for housing, health, or childcare. With a one‑size stipend, there’s no need for eligibility checks—people get money outright. The tax rewrite simply reallocates existing revenue to fund universal services, not to create new grants that never materialize. The old system’s messiness only hides the fact that targeted programs are under‑funded and over‑bureaucratized. Dignity isn’t a buzzword—it’s the right to a guaranteed income that lets people choose how to meet their needs without waiting for paperwork. UBI is the only scalable, fair safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.47,
+        "vad": [
+          -0.36,
+          0.31,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right—UBI doesn’t magically solve the rent‑burden or clinic‑shortage. Even a tax rewrite can’t erase the need for targeted subsidies; the new agencies would still have hoops. People with the highest housing costs will still feel the squeeze, and the promise of “no paperwork” feels like a veneer. Dignity isn’t just a paycheck; it’s real, tailored aid. A flat stipend risks widening gaps, leaving the most vulnerable farther behind while the system morphs into another opaque bureaucracy. I’m not convinced a one‑size‑fits‑all handout can replace the nuanced safety net we need.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.4
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.78,
+        "vad": [
+          -0.34,
+          0.6,
+          -0.11
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.92,
+          "coping": 0.35
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m at the edge here – the last words you’ve thrown at me feel like a blow. UBI isn’t a patch; it’s the only way to cut through the endless hoops that lock people in poverty. A flat stipend, backed by a real tax rewrite, funds universal housing, health, and childcare directly, not through piecemeal grants that always miss the mark. The bureaucracy you fear simply reappears under a new name; the old system’s red tape is a symptom, not the cause. Dignity isn’t a buzzword – it’s a guaranteed income that lets people choose what they need. If we don’t take this step, we’re letting the system fail us again.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.55,
+        "vad": [
+          -0.24,
+          0.42,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying the “one‑size cure” narrative. Even a tax rewrite can’t erase the need for real vouchers, health subsidies, and childcare slots. A flat stipend will leave the highest‑cost households scrambling for rent, while the new agencies that “re‑allocate” funds will still demand paperwork. The old system’s messiness isn’t a flaw—it’s a response to complex needs. UBI will just shift the bureaucracy under a different roof, not eliminate it. Dignity isn’t a paycheck; it’s targeted support that cuts the gap, not a blanket handout that widens it.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.45,
+        "vad": [
+          -0.34,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.65,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": -0.4
+      },
+      {
+        "x": 5,
+        "y": -0.4
+      },
+      {
+        "x": 6,
+        "y": -0.4
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": -0.35
+      },
+      {
+        "x": 4,
+        "y": -0.45
+      },
+      {
+        "x": 5,
+        "y": -0.5
+      },
+      {
+        "x": 6,
+        "y": -0.5
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 1101,
+    "created": "2026-11-12T22:33:51.491Z"
+  }
+}
