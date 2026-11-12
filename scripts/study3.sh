@@ -5,12 +5,12 @@
 #   on, calm       emotion layer on, everyone starts calm
 #   on, angry      emotion layer on, everyone starts angry
 # Safe to stop and rerun: each condition only runs the debates it is missing.
-# Settings: N=8, RULES=strict|soft|none, UO=1, FORMAT=label|vad|description
+# Settings: N=8, RULES=strict|soft|brief|none, UO=1, FORMAT=label|vad|description
 source ~/.nvm/nvm.sh
 cd "$(dirname "$0")/.."
 N=${N:-8}; RULES=${RULES:-strict}; FORMAT=${FORMAT:-label}
-case "$RULES" in strict) SUF="-dr";; soft) SUF="-ds";; *) SUF="";; esac
-[ -n "$UO" ] && SUF="$SUF-uo"
+case "$RULES" in strict) SUF="-dr";; soft) SUF="-ds";; brief) SUF="-db";; *) SUF="";; esac
+case "$UO" in "") UOFLAG="";; self) SUF="$SUF-us"; UOFLAG="--update-opinion self";; *) SUF="$SUF-uo"; UOFLAG="--update-opinion";; esac
 OUT=results/study3
 mkdir -p "$OUT"
 FAIL=0
@@ -21,7 +21,7 @@ run_cell() {  # $1 emotion  $2 start
   have=$(ls "$OUT" 2>/dev/null | grep -c "_${label}_debatable_g")
   if [ "$have" -ge "$N" ]; then echo "skip $label (have $have)"; return; fi
   echo "run $label: groups $have..$((N - 1))"
-  npm run batch -- --emotion "$1" --start "$2" --format "$FORMAT" --rules "$RULES" ${UO:+--update-opinion} \
+  npm run batch -- --emotion "$1" --start "$2" --format "$FORMAT" --rules "$RULES" $UOFLAG --probe \
     --topics debatable --groups "$N" --skip "$have" --groups-file "$OUT/groups.json" \
     --outdir "$OUT" --label "$label" || FAIL=1
 }

@@ -4,6 +4,7 @@
 # setups, side by side. scripts/choose.py then picks one using these
 # baseline debates only (no emotion condition is looked at).
 #   strict + opinion update | soft + opinion update | soft | original prompt + opinion update
+#   then with the agent's own private answer as its opinion: strict | soft | brief
 # Settings: CAL_N=3 debates per setup. Safe to rerun.
 source ~/.nvm/nvm.sh
 cd "$(dirname "$0")/.."
@@ -27,6 +28,11 @@ run_var cal-soft-uo --rules soft --update-opinion &
 run_var cal-soft --rules soft &
 run_var cal-none-uo --rules none --update-opinion &
 wait
+# Second set: the agent's own private answer drives its opinion.
+run_var cal-strict-self --rules strict --update-opinion self &
+run_var cal-soft-self --rules soft --update-opinion self &
+run_var cal-brief-self --rules brief --update-opinion self &
+wait
 DONE=$(ls "$OUT" | grep -c "_cal-.*_debatable_g")
-echo "Calibration pass finished ($DONE of $((4 * N)) debates)."
-[ "$DONE" -ge $((4 * N)) ]
+echo "Calibration pass finished ($DONE of $((7 * N)) debates)."
+[ "$DONE" -ge $((7 * N)) ]

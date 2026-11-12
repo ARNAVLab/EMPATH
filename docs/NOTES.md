@@ -83,3 +83,7 @@
 - mac changed network -> vcl firewall refused me till Connect clicked again
 - 2080 ti speed: ~2.6 requests/min w/ 4 debates at once. 12 calibration debates ~3.7h
 - debates hit 9k+ tokens by late rounds. old runs at default ctx prob got cut. 16k now
+- BIG: late round prompts hit 16-19k tokens. over the limit ollama cuts the FRONT = agent loses its system prompt (side, rules, emotion). saw it happen at 16k
+- so old runs (study 0, pilots, default ctx) prob lost the system prompt in later rounds. could explain planning drift + everyone agreeing. need to rerun study 0 at 32k to check
+- ctx now 32k, saved in run meta (context_length). killed + restarted calibration at 4:08pm, 0 debates lost
+- dont pkill -f a pattern thats in the same ssh command, kills itself

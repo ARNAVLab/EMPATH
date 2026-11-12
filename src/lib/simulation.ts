@@ -129,7 +129,9 @@ async function processChunk(
   const messageText = messages[0].content;
 
   let conv = "";
-  const values: Record<string, number | null> = { opinion: null };
+  const values: Record<string, number | null> = { opinion: null, belief: null };
+  const speakerNow = characters.find((c) => c.name === nodeName);
+  if (speakerNow && speakerNow.last_belief != null) values.belief = speakerNow.last_belief;
 
   try {
     conv = messageText;
@@ -139,7 +141,7 @@ async function processChunk(
     // opinion for its next turn. Off by default, so the original code path
     // (opinion fixed at its starting value) is unchanged.
     const speaker = characters.find((c) => c.name === nodeName);
-    if (speaker?.update_opinion) speaker.opinion_strength = opinion;
+    if (speaker?.update_opinion === true) speaker.opinion_strength = opinion;
     console.log(
       `[processChunk] (${nodeName}) Opinion rating: ${JSON.stringify(opinion)}`
     );
@@ -150,9 +152,11 @@ async function processChunk(
   const turnIndex = roleTurnCounters[nodeName] ?? 0;
   roleTurnCounters[nodeName] = turnIndex + 1;
 
-  const emotionRecord = emotion
-    ? await emotion.afterTurn(nodeName, conv, values.opinion)
-    : null;
+  // The emotion layer tracks the agent's current position: its own belief in
+  // "self" update mode, otherwise the judge's score.
+  const position =
+    speakerNow?.update_opinion === "self" ? Number(speakerNow.opinion_strength) : values.opinion;
+  const emotionRecord = emotion ? await emotion.afterTurn(nodeName, conv, position) : null;
 
   return {
     role: nodeName,

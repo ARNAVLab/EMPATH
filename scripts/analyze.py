@@ -5,7 +5,8 @@
 Per condition (meta.label): debates, final opinion mean and spread, how far
 agents moved from their start, how often they argued their assigned side,
 emotion-check match rate, and share of list-style (bullet/number) messages.
-Also prints one emoji line per emotion debate (what each turn's agent felt).
+With --probe or self-update runs, also the agents' own private answers
+(belief). Also prints one emoji line per emotion debate.
 """
 import json, glob, os, re, sys, statistics as st
 from collections import defaultdict
@@ -32,7 +33,12 @@ def summarize(run):
     r1 = msgs[: len(side)]
     emo = [m["emotion"] for m in msgs if m.get("emotion")]
     checked = [e for e in emo if e.get("expressed")]
+    bel = run.get("beliefData") or {}
+    bfin = {k: v[-1]["y"] for k, v in bel.items() if v}
     return {
+        "bfinals": list(bfin.values()),
+        "bspread": st.pstdev(bfin.values()) if bfin else None,
+        "bmove": st.mean(abs(bfin[k] - side[k]) for k in side if k in bfin) if bfin else None,
         "finals": list(finals.values()),
         "spread": st.pstdev(finals.values()),
         "move": st.mean(abs(finals[k] - side[k]) for k in side if k in finals),
@@ -63,10 +69,11 @@ def main():
         key = (m.get("label") or m.get("condition", "?"), m.get("topic_type", "?"))
         by[key].append((r, summarize(r)))
 
-    print("| condition | topic | n | final mean | spread | moved | all same side | round-1 side held | side held | lists | emotion check |")
-    print("|---|---|---|---|---|---|---|---|---|---|---|")
+    print("| condition | topic | n | final mean | spread | moved | all same side | round-1 side held | side held | lists | emotion check | belief final | belief spread | belief moved |")
+    print("|---|---|---|---|---|---|---|---|---|---|---|---|---|---|")
     for (label, topic), rs in sorted(by.items()):
         s = [x[1] for x in rs]
+        b = [x for x in s if x["bfinals"]]
         hits = sum(x["match"][0] for x in s)
         tot = sum(x["match"][1] for x in s)
         print(
@@ -74,7 +81,12 @@ def main():
             f"{st.mean(x['spread'] for x in s):.2f} | {st.mean(x['move'] for x in s):.2f} | "
             f"{sum(x['same_sign'] for x in s)}/{len(s)} | {pct(st.mean(x['r1_hold'] for x in s))} | "
             f"{pct(st.mean(x['all_hold'] for x in s))} | {pct(st.mean(x['lists'] for x in s))} | "
-            f"{f'{hits}/{tot} ({pct(hits / tot)})' if tot else '-'} |"
+            f"{f'{hits}/{tot} ({pct(hits / tot)})' if tot else '-'} | "
+            + (
+                f"{st.mean(v for x in b for v in x['bfinals']):+.2f} | {st.mean(x['bspread'] for x in b):.2f} | {st.mean(x['bmove'] for x in b):.2f} |"
+                if b
+                else "- | - | - |"
+            )
         )
 
     print("\nEmotion per turn (😠 anger 😰 anxiety 😄 enthusiasm 😐 calm):")

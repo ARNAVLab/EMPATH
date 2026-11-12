@@ -26,9 +26,14 @@
  *   --no-check         skip the per-message emotion check
  *   --debate-rules     state each agent's side in words and forbid planning talk
  *   --rules X          strict (same as --debate-rules) | soft (states the side,
- *                      no "defend it" instruction) | none
+ *                      no "defend it" instruction) | brief (soft + 120-word
+ *                      limit) | none
  *   --update-opinion   after each message, the judge's score becomes the agent's
  *                      opinion for its next turn (paper Algorithm 1)
+ *   --update-opinion self   instead, the agent's own private answer (asked
+ *                      before each turn) becomes its opinion
+ *   --probe            ask each agent privately where it stands before each
+ *                      turn and record it (values.belief); changes nothing else
  *   --label X          name used in output file names
  *   --skip K           start at group K (resume a cut-off condition)
  *   --groups-file F    reuse the personality groups saved in F (created on
@@ -80,7 +85,9 @@ async function main() {
   const emotionOnly = flag("emotion-only");
   const rules = arg("rules") ?? (flag("debate-rules") ? "strict" : "none");
   const debateRules = rules !== "none";
-  const updateOpinion = flag("update-opinion");
+  const updateMode = arg("update-opinion") === "self" ? "self" : flag("update-opinion") ? "judge" : "none";
+  const updateOpinion = updateMode !== "none";
+  const probe = flag("probe") || updateMode === "self";
 
   const emotionCfg: EmotionConfig | undefined =
     emotionArg || emotionOnly
@@ -98,8 +105,8 @@ async function main() {
     (emotionCfg
       ? `${emotionOnly ? "eo" : "pe"}-${emotionCfg.condition}-${emotionCfg.format}-${emotionCfg.startMood}`
       : "baseline") +
-    (debateRules && !arg("label") ? (rules === "soft" ? "-ds" : "-dr") : "") +
-    (updateOpinion && !arg("label") ? "-uo" : "");
+    (debateRules && !arg("label") ? (rules === "soft" ? "-ds" : rules === "brief" ? "-db" : "-dr") : "") +
+    (updateOpinion && !arg("label") ? (updateMode === "self" ? "-us" : "-uo") : "");
 
   const topics: [string, string][] = topicArg
     ? [["custom", topicArg]]
@@ -147,8 +154,9 @@ async function main() {
         }
       }
 
-      if (debateRules) chars.forEach((c) => (c.debate_rules = rules === "soft" ? "soft" : true));
-      if (updateOpinion) chars.forEach((c) => (c.update_opinion = true));
+      if (debateRules) chars.forEach((c) => (c.debate_rules = rules === "soft" || rules === "brief" ? rules : true));
+      if (updateOpinion) chars.forEach((c) => (c.update_opinion = updateMode === "self" ? "self" : true));
+      if (probe) chars.forEach((c) => (c.probe_belief = true));
       const startChars = chars.map((c) => ({ ...c }));
       console.log(`\n=== ${label} | topic=${topicType} | run ${g + 1}/${groups.length} ===`);
       const t0 = Date.now();
@@ -166,11 +174,25 @@ async function main() {
         }
       }
 
+      // Private belief per turn (only when --probe or self update is on).
+      const beliefData: Record<string, { x: number; y: number }[]> = {};
+      if (probe) {
+        startChars.forEach(({ name, opinion_strength }) => {
+          beliefData[name] = [{ x: 0, y: opinion_strength }];
+        });
+        for (const m of messages) {
+          if (m.role && m.values?.belief != null && typeof m.turn === "number") {
+            beliefData[m.role].push({ x: m.turn + 1, y: m.values.belief });
+          }
+        }
+      }
+
       const log = {
         characters: startChars,
         topic,
         messages,
         chartData,
+        beliefData: probe ? beliefData : null,
         meta: {
           label,
           topic_type: topicType,
@@ -180,6 +202,8 @@ async function main() {
           debate_rules: debateRules,
           rules,
           update_opinion: updateOpinion,
+          update_mode: updateMode,
+          probe,
           model: process.env.MODEL_NAME ?? "gpt-4.1-mini",
           judge_model: process.env.JUDGE_MODEL_NAME ?? process.env.MODEL_NAME ?? "gpt-4.1-mini",
           base_url: process.env.OPENAI_BASE_URL ?? "openai",

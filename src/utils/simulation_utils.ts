@@ -43,6 +43,35 @@ export function softStanceSentence(o: number): string {
   return "Right now you strongly disagree with the topic statement.";
 }
 
+// Brief variant: soft rules plus a length cap, closer to a discussion thread.
+export const BRIEF_RULE = `${SOFT_RULE} Keep your reply under 120 words.`;
+
+// Private belief check, asked of the agent itself right before it speaks.
+// The answer never enters the conversation.
+export const BELIEF_PROBE =
+  "[Private check. This is not part of the conversation and nobody else will see your answer.] After everything said so far, where do you stand on the topic statement right now? Answer with only a number from -1 (strongly disagree) to 1 (strongly agree).";
+
+export async function probeBelief(
+  llm: any,
+  character: any,
+  topic: string,
+  history: BaseMessage[],
+  opts: AgentPromptOptions = {}
+): Promise<number | null> {
+  try {
+    const agent = await createSimulatedUser(llm, character, topic, opts);
+    await throttle();
+    const res: any = await agent.invoke({ messages: [...history, new HumanMessage(BELIEF_PROBE)] });
+    const m = stripThinking(res?.content).match(/-?\d*\.?\d+/);
+    if (!m) return null;
+    const n = parseFloat(m[0]);
+    return Number.isFinite(n) ? Math.max(-1, Math.min(1, n)) : null;
+  } catch (err) {
+    console.log("[probeBelief] failed", err);
+    return null;
+  }
+}
+
 export interface AgentPromptOptions {
   emotionBlock?: string; // appended to the system prompt; "" = original prompt
   noPersonality?: boolean; // Study 2: emotion-only agents
@@ -74,6 +103,8 @@ export async function createSimulatedUser(
   const extras = [
     character.debate_rules === "soft"
       ? `${softStanceSentence(Number(character.opinion_strength ?? 0))} ${SOFT_RULE}`
+      : character.debate_rules === "brief"
+      ? `${softStanceSentence(Number(character.opinion_strength ?? 0))} ${BRIEF_RULE}`
       : character.debate_rules
       ? `${stanceSentence(Number(character.opinion_strength ?? 0))} ${DEBATE_RULE}`
       : "",
@@ -117,7 +148,8 @@ export async function simulatedUserNode(
   console.log(`[simulatedUserNode] (${character.name}) State received`);
   const messages = state.messages;
 
-  if (messages.length === 0) {
+  const firstTurn = messages.length === 0;
+  if (firstTurn) {
     console.warn(
       `[simulatedUserNode] (${character.name}) No messages received, initializing with default.`
     );
@@ -133,10 +165,19 @@ export async function simulatedUserNode(
     emotionBlock = await emotion.beforeTurn(character.name, lastText);
   }
 
-  const simulatedUser = await createSimulatedUser(llm, character, topic, {
-    emotionBlock,
-    noPersonality: emotion?.noPersonality ?? false,
-  });
+  const promptOpts = { emotionBlock, noPersonality: emotion?.noPersonality ?? false };
+
+  // Optional private belief check before speaking (with the same system
+  // prompt, including the current emotion). In "self" update mode the answer
+  // becomes the agent's opinion for this turn.
+  character.last_belief = null;
+  if ((character.probe_belief || character.update_opinion === "self") && !firstTurn) {
+    const belief = await probeBelief(llm, character, topic, newMessages, promptOpts);
+    character.last_belief = belief;
+    if (belief !== null && character.update_opinion === "self") character.opinion_strength = belief;
+  }
+
+  const simulatedUser = await createSimulatedUser(llm, character, topic, promptOpts);
   await throttle();
   const response = await simulatedUser.invoke({ messages: newMessages });
 

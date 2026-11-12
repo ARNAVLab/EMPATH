@@ -2,7 +2,8 @@
 
 Setup: from the calibration debates (emotion OFF only). A setup is eligible
 if agents argue their assigned side in round 1 at least 75% of the time. Among
-eligible setups, take the one whose average opinion movement is closest to
+eligible setups, take the one whose average opinion movement (judge score, or
+the agent's own private answer when that drives its opinion) is closest to
 0.5, i.e. furthest from both "nobody moves" (0) and "everyone ends on one
 side" (about 1), so emotion can push the outcome either way.
 
@@ -14,12 +15,18 @@ Writes results/calibration/choice.json and choice.env.
 import glob, json, os, statistics as st
 from collections import defaultdict
 
-ORDER = ["cal-strict-uo", "cal-soft-uo", "cal-soft", "cal-none-uo"]
+ORDER = [
+    "cal-strict-uo", "cal-soft-uo", "cal-soft", "cal-none-uo",
+    "cal-strict-self", "cal-soft-self", "cal-brief-self",
+]
 FLAGS = {
     "cal-strict-uo": ("strict", "1"),
     "cal-soft-uo": ("soft", "1"),
     "cal-soft": ("soft", ""),
     "cal-none-uo": ("none", "1"),
+    "cal-strict-self": ("strict", "self"),
+    "cal-soft-self": ("soft", "self"),
+    "cal-brief-self": ("brief", "self"),
 }
 
 
@@ -35,7 +42,10 @@ def setup_stats():
         msgs = [m for m in j["messages"] if m.get("role") and m.get("values", {}).get("opinion") is not None]
         if len(msgs) < len(side):
             continue
-        finals = {k: v[-1]["y"] for k, v in j["chartData"].items()}
+        # Where each agent ends: its own last private answer when that drives
+        # its opinion ("self" mode), otherwise the judge's last score.
+        track = j["beliefData"] if j["meta"].get("update_mode") == "self" and j.get("beliefData") else j["chartData"]
+        finals = {k: v[-1]["y"] for k, v in track.items()}
         r1 = msgs[: len(side)]
         by[j["meta"]["label"]].append(
             {
@@ -81,7 +91,7 @@ def main():
         fmt = max(formats, key=lambda k: (formats[k]["match"], k == "label"))
 
     os.makedirs("results/calibration", exist_ok=True)
-    choice = {"setup": pick, "rules": rules, "update_opinion": bool(uo), "format": fmt, "setups": setups, "formats": formats}
+    choice = {"setup": pick, "rules": rules, "update_opinion": uo or "off", "format": fmt, "setups": setups, "formats": formats}
     json.dump(choice, open("results/calibration/choice.json", "w"), indent=2)
     open("results/calibration/choice.env", "w").write(f"RULES={rules}\nUO={uo}\nFORMAT={fmt}\n")
     print(json.dumps(choice, indent=2))
