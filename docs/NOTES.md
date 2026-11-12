@@ -97,3 +97,25 @@
 - new: brief rules = soft + 120 word limit
 - tested fake model ok, pushed (e014326)
 - 7:51pm started calibration round 2 on 2080 ti: strict/soft/brief w/ self update, 3 each
+- self-update round (1 debate each strict/soft/brief): beliefs ALSO stuck at +1/-1. agent just repeats the stance line in its prompt
+- so: stance line in prompt = locked. no stance line = everyone flips to agree. no middle yet
+- new "open" check: tell agent where it stood BEFORE this turn (past tense, no "defend it"), ask where it stands now, can move either way. pushed c603ab6
+- 9:11pm running brief-open + soft-open, 3 each, on 2080 ti. killed the rest of the stuck self runs
+- open check WORKS. 3 debates each, no emotion, ubi:
+  - brief-open: belief moved 0.39, spread 0.65, r1 side held 92%, ~640 chars/msg
+  - soft-open: moved 0.58, spread 0.59, r1 92%, ~2900 chars/msg
+  - pro side softens toward middle, anti side mostly holds (jordan never moves in brief)
+  - soft-open had 2 big flips (-1 -> +0.7)
+- pick = brief + self update + open check. rule now: sides held >=75%, movement 0.25-0.75, then shortest msgs. changed rule after seeing data (baseline only, no emotion runs) -> say so in paper
+- study 1 switched to brief rules too, old 6 replies deleted
+- pushed db1b55e. study 1 running on 2080 ti till 12:45am, L40S finishes it
+- L40S plan: N=12 study 2, study 3, then study 0 rerun at 32k
+
+## nov 12
+- 12:40am saved 2080 ti work. study 1 at 130/352 replies (brief rules)
+- 1:16am L40S came up (152.7.176.102). sent ssh + paste steps. nobody logged in all night -> 10h slot wasted, 0 runs on L40S
+- vcl web login also expired overnight, cant book next slot till logged in again
+- done so far: calibration 18 debates, setup picked (brief + open check + self update), 32k ctx fix, study 1 37%
+- not done: rest of study 1, study 2, study 3, study 0 rerun at 32k
+- next: log into vcl, book L40S at a time im awake, ssh + paste once, then it all runs (~6h)
+- mac repo is behind github (code was pushed from vcl). before next mac commit: git fetch + reset to origin/main (keep NOTES.md)
