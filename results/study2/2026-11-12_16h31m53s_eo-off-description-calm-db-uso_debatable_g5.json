@@ -1,0 +1,536 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Sure, I'm ready to dive in. I’m firmly against replacing traditional welfare with a universal basic income. UBI is a blunt instrument that ignores the specific needs of vulnerable groups—like childcare, mental health, or disability support—that targeted programs are designed to address. A blanket payout doesn’t guarantee that those who need the most help will actually receive it, and it can undermine incentive structures that help people re-enter the labor market. Instead, we should refine and strengthen existing safety nets, ensuring they’re flexible, well-funded, and responsive to the real challenges people face today.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your concerns, but the core flaw in targeted welfare is its fragmentation. UBI offers a single, unconditional stream that cuts bureaucracy, eliminates stigma, and ensures every citizen’s basic needs—housing, food, healthcare—are met. Targeted programs often suffer from eligibility hoops and funding gaps that leave the truly vulnerable out. With UBI, we can then layer specialized services on top—childcare, mental health—without the administrative overhead. It also preserves incentive to work by removing the “poverty trap” where earning more reduces benefits drastically. A universal net is a more resilient, efficient foundation for all our social safety mechanisms.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m afraid UBI won’t solve the problems you point out. Even with subsidies on top, a flat payment can’t replace the nuanced services that targeted programs provide—think of specialized mental‑health care, disability accommodations, or childcare subsidies that are often the only way people can work. Moreover, the cost of a universal net would be astronomical, likely driving up taxes or national debt, and could trigger inflation that erodes the very purchasing power UBI intends to secure. Instead of a blanket solution, we should focus on strengthening and streamlining the existing, evidence‑based welfare system.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "I see your concerns, but evidence from pilot programs shows UBI doesn’t reduce work, and targeted services can be layered on top. Inflation risk is mitigated by careful fiscal design and progressive taxation; the benefit outweighs the cost. The current system’s fragmentation creates inequality; a universal net ensures everyone gets a floor. Specialized services—mental health, childcare, disability—can be funded separately, avoiding bureaucracy. The moral imperative is clear: everyone deserves basic security, and UBI provides that foundation while allowing for tailored support where needed.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced that a blanket UBI solves the real problems. The current system, though fragmented, has proven mechanisms that directly target the most vulnerable—childcare vouchers, disability allowances, mental‑health grants. Those programs are not optional; they’re designed to meet specific needs that a flat stipend can’t replace. The fiscal burden of a universal payout is enormous, and the risk of inflation is not trivial—money in the hands of everyone can drive prices up, eroding the very “basic security” UBI claims to provide. Instead of replacing the nuanced safety net, we should strengthen and streamline these targeted programs, ensuring they’re adequately funded and less bureaucratic.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right about fragmentation, but that’s exactly why UBI is needed—an unconditional floor that eliminates the “eligibility maze.” A single payment guarantees basic needs, freeing specialized services to focus on what they do best. Evidence from pilots shows no significant drop in labor supply, and inflation can be countered with progressive taxation and targeted spending. Rather than “strengthen and streamline” a system that still leaves gaps, UBI provides the financial foundation everyone deserves, while allowing targeted programs—childcare, mental health, disability—to build on it without the administrative burden that often kills them. The moral imperative is simple: basic security for all, not a patchwork of partial solutions.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "I still see UBI as an oversimplification. A flat stipend can’t replace the nuanced support that childcare vouchers, mental‑health subsidies, or disability allowances provide. Those programs are designed to meet measurable gaps; they’re evidence‑based, not just policy rhetoric. Even if pilots show no labor‑drop, they’re limited in scope and scale. The fiscal weight of a universal net would strain public finances, raise taxes, and risk inflation—exactly the problem UBI claims to solve. Instead of a blanket payout, we should refine existing safety nets: reduce eligibility hoops, increase funding, and make delivery more efficient. That preserves the targeted help people actually need.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "I agree that targeted programs are essential, but the UBI layer isn’t meant to replace them—it’s a baseline that frees those services to focus on their niche. A universal stipend cuts the eligibility maze, reduces administrative waste, and guarantees a safety net that current piecemeal systems can’t. Fiscal strain can be mitigated with progressive taxation and careful spending, and pilots show no major drop in labor supply. Instead of patching an over‑fragmented system, UBI offers a clean, stigma‑free foundation while still allowing robust childcare vouchers, mental‑health grants, and disability allowances to thrive on top.",
+      "values": {
+        "opinion": -0.5,
+        "belief": 0.6
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I understand the appeal of a single payment, but UBI would still leave gaps in the very services that keep people afloat—childcare vouchers, mental‑health subsidies, disability allowances. Those programs are built to meet specific, measurable needs; a flat stipend can’t substitute for targeted care. Even if pilots show no labor drop, they’re too small to prove national effects. The fiscal cost is huge—higher taxes or debt—and inflation could erode the very security UBI promises. Instead of a blanket payout, we should trim eligibility hoops, boost funding for proven programs, and streamline delivery so the existing safety net works more efficiently.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "I get the worry about gaps, but UBI is the *foundation*, not the replacement.  A single, unconditional payment cuts the maze that forces people to juggle multiple paperwork hoops, freeing administrators to focus on what childcare vouchers, mental‑health subsidies, and disability allowances actually do—delivering specialized care, not just paperwork.  Pilots in Finland, Kenya, and Canada show no significant drop in work, and with progressive taxation the extra revenue can be earmarked for those niche programs.  Rather than patching a fragmented system, UBI gives everyone the baseline security that lets targeted services thrive on top without drowning in bureaucracy.",
+      "values": {
+        "opinion": -0.4,
+        "belief": 0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced UBI is a sound foundation. Even if pilots show no work drop, they’re too small to extrapolate nationally. A flat stipend can’t replace the nuanced, evidence‑based services that childcare vouchers, mental‑health subsidies, and disability allowances provide. The fiscal burden is immense—taxes or debt would rise, and inflation could erode the very purchasing power UBI promises. Instead of a blanket payout, we should streamline the existing safety net: cut eligibility hoops, increase funding for proven programs, and eliminate bureaucratic waste. That preserves the targeted help people actually need without creating a new, costly layer that may dilute resources.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your worries about scale, costs, and the risk of diluting targeted help. Still, the data from larger pilots—Finland, Kenya, Canada—suggest that a universal floor can coexist with specialized programs without eroding work incentives. Think of UBI as a *buffer*: it provides a stable base that lets agencies focus on niche needs—childcare vouchers, mental‑health care—without the drag of a labyrinth of eligibility checks. Fiscal prudence can come from progressive tax design and earmarking surplus for those niche services. It’s not a silver bullet, but it can streamline the system while preserving—and even strengthening—targeted support.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.6
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I still think a blanket UBI is a mistake. Even the best pilots are tiny, short‑term experiments that can’t capture the real‑world complexity of a national rollout—especially the nuanced, evidence‑based programs that already meet specific needs. A flat payment can’t replace targeted childcare subsidies, disability allowances, or mental‑health grants, and it risks diluting resources that are already scarce. The fiscal hit is huge: higher taxes or debt, with a real risk of inflation that erodes the very purchasing power UBI promises. Instead of adding another layer, we should cut the administrative maze, boost funding for proven programs, and streamline delivery so the existing safety net works efficiently.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that fragmentation hurts, but that’s precisely why a single, unconditional floor is essential. UBI eliminates the endless paperwork that keeps people trapped in a maze, freeing agencies to target real needs—childcare, mental‑health, disability—without the drag of eligibility checks. Pilot data from Finland, Kenya, and Canada show no major work‑loss and even increased entrepreneurship. Fiscal strain can be offset by progressive taxes and earmarked surplus for niche programs. Rather than patching an over‑complex system, UBI provides a stable baseline that lets targeted services flourish without diluting scarce resources. It’s a pragmatic, humane upgrade, not a simplistic replacement.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced that a blanket UBI solves the real problems. Even if Finland and Canada show no work drop, those pilots are too small to capture national complexity—especially the nuanced, evidence‑based services that already meet specific needs. A flat stipend can’t replace childcare vouchers, mental‑health subsidies, or disability allowances, and it risks diluting scarce resources that those programs rely on. The fiscal burden is huge: higher taxes or debt, and the risk of inflation that erodes purchasing power. Instead of adding another layer, we should cut the administrative maze, boost funding for proven programs, and streamline delivery so the existing safety net works efficiently.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "I get the red‑flag concerns, but a UBI layer doesn’t have to replace every program—it’s a baseline that simplifies the maze and frees funds for the very services you trust. Think of it as a “check‑in” account: everyone gets a guaranteed floor, and agencies can focus on childcare vouchers, mental‑health grants, or disability allowances without chasing paperwork. Finland’s 2‑year pilot showed no drop in labor supply and even nudged entrepreneurship, while Kenya’s trial kept costs in check through progressive taxation. Fiscal prudence can come from earmarked surplus and targeted spending, not a blanket tax hike. UBI isn’t a silver bullet, but it removes the administrative drag that often stalls the programs we rely on.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.6
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I keep standing my ground: UBI is a blunt, costly stroke that masks the real work needed—streamlining existing programs, cutting red tape, and ramping up funding where evidence shows impact. Pilots are tiny snapshots; they don’t capture the fiscal, administrative, and inflationary realities of a national rollout. A flat handout can’t replace the fine‑tuned design of childcare vouchers, mental‑health subsidies, or disability allowances, and it risks siphoning scarce resources away from those proven supports. Instead of adding a blanket layer, we should refine the safety net that already meets specific needs and ensures every vulnerable person gets the precise help they require.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the concerns, but the evidence keeps shifting the scale. Finland’s 2‑year trial showed no labor loss, even a boost in entrepreneurship, and Kenya kept inflation in check with progressive tax design. A flat stipend isn’t a blunt stroke—it dissolves the endless eligibility maze that drains resources from childcare, mental‑health, and disability programs. With a universal floor, agencies can focus funding where it matters most, not on paperwork. The fiscal burden can be offset by targeted spending and progressive taxation, not by cutting vital services. UBI isn’t a replacement; it’s a clean, guaranteed foundation that lets every specialized program thrive without drowning in bureaucracy.",
+      "values": {
+        "opinion": -1,
+        "belief": 0.8
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still firmly against UBI replacing welfare. A blanket stipend never replaces the precise, evidence‑based support that childcare vouchers, disability allowances, and mental‑health subsidies provide. Pilots are too small to capture national fiscal realities, and the added cost would force higher taxes or debt, risking inflation that erodes the very purchasing power we’re trying to protect. Instead of adding a new, blunt layer, we should streamline existing programs, cut unnecessary red tape, and boost funding where it’s proven effective. That keeps targeted help intact while improving efficiency—no one‑size‑fits‑all solution.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the red‑flag points about cost and nuance, but the evidence keeps shifting the scale. Finland’s 2‑year trial showed no labor loss and even a boost in entrepreneurship; Kenya kept inflation in check with progressive tax design. A universal floor cuts the endless eligibility maze that drains resources from childcare, mental‑health, and disability programs. With a baseline in place, agencies can focus on specialized services instead of paperwork, and the surplus can be earmarked for those niche programs. It’s not a blunt stroke—it’s a clean foundation that lets every targeted aid thrive without drowning in bureaucracy.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re right that a blanket handout can’t match the fine‑grained design of childcare vouchers, disability allowances, or mental‑health grants. Pilots are limited, and scaling UBI would impose a massive fiscal drag—higher taxes or debt—likely fueling inflation that erodes exactly what it’s meant to protect. Instead of layering a blunt floor over an already complex net, we should cut the red‑tape, prioritize evidence‑based programs, and expand funding where impact is proven. UBI may ease administrative burden, but replacing the targeted safety net risks starving the services that truly meet people’s specific needs. Keep the system nuanced, not universal.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 5
+    },
+    {
+      "role": "Alex",
+      "content": "I hear you, but the evidence keeps tipping the scale. Finland’s 2‑year trial showed no drop in work and a rise in entrepreneurship, while Kenya kept inflation in check with progressive tax design. A universal floor cuts the endless paperwork that saps resources from childcare, mental‑health, and disability programs—those agencies can then focus on the fine‑grained services that matter. Instead of patching a fragmented net, UBI provides a guaranteed base that frees up funds and bureaucracy, letting targeted aid thrive without dilution. It’s not a blunt stroke; it’s a clean, efficient foundation for all our social safety mechanisms.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear your enthusiasm, but the small pilots can’t substitute for a national rollout. A flat handout still forces a massive tax hike or debt, sparking inflation that erodes the very purchasing power it claims to protect. Even if Finland’s two‑year trial was benign, scaling it would dilute the resources that childcare vouchers, mental‑health subsidies, and disability allowances already secure. The “universal floor” is a blunt instrument that risks starving the nuanced, evidence‑based programs that keep people afloat. Instead of layering a blanket payout, we should streamline existing safety nets, cut red tape, and boost funding where impact is proven—keeping the system tailored, not one‑size‑fits‑all.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "I get why you’re cautious—targeted services are finely tuned. Still, a modest UBI could actually free up resources for those very programs by cutting the paperwork maze that drains staff time and budget. Think of it as a safety net that lets agencies focus on childcare vouchers or mental‑health grants, not on eligibility checks. The pilots in Finland and Canada show no labor loss and even some entrepreneurial lift, and a progressive tax design can help offset the cost. So, I’m not saying UBI replaces welfare, but that a universal floor can streamline the system and strengthen the targeted help we already rely on.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0.3
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": -0.4
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.3
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.6
+      },
+      {
+        "x": 3,
+        "y": 0.6
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 0.5
+      },
+      {
+        "x": 6,
+        "y": 0.3
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.8
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-off-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 5,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 714,
+    "created": "2026-11-12T21:31:53.961Z"
+  }
+}
