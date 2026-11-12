@@ -1,0 +1,987 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Sure, let’s get to it. Food is the sole source of the energy that fuels our bodies. Without it, we’re just a pile of cells on standby. If anyone thinks otherwise, they’re either clueless or deliberately misleading.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food isn’t the sole source of energy. Cells generate ATP through cellular respiration—glucose, fatty acids, even ketones—so metabolism can continue without constant food intake. The idea that we’re “just a pile of cells on standby” is a gross oversimplification. Energy comes from biochemical pathways, not just external calories. Claiming otherwise ignores basic biology and misleads. If you think otherwise, you’re missing the point that the body can adapt, use stored reserves, and maintain function without immediate food. Stop the oversimplified narrative and recognize the complexity of human energy metabolism.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.59,
+        "vad": [
+          -0.45,
+          0.39,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re spinning a fantasy. Yes, cells can tap glycogen, fat, ketones—but those reserves were built from food. If you never ate, you’d be a dead‐weight, no reserves, no power. The body isn’t an autonomous generator; it’s a consumer that turns what it ingests into ATP. Your “metabolism can continue without constant food” is a half‑truth that hides the fact the energy ultimately comes from calories. So the claim that food fuels the body is not only true, it’s the foundation of every biochemical pathway. Stop pretending otherwise.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.55,
+        "vad": [
+          -0.42,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not buying either extreme. Saying food is the *sole* source is as flat‑out wrong as denying that the body can burn stored glycogen and fat. The reserves we tap are *built* from food, so without that input the body would eventually run out of fuel. It’s not a simple “just food” narrative, nor a “no food needed” one. The truth is that food fuels the biochemical machinery that lets us produce ATP, and that machinery can also mobilize stored energy when intake drops. Both points matter – dismissing either side is a lazy oversimplification.",
+      "values": {
+        "opinion": 0.7,
+        "belief": 0
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.84,
+        "vad": [
+          -0.64,
+          0.55,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 1,
+          "certainty": 1,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food does indeed power us—every molecule of ATP ultimately traces back to calories we consume. But that doesn’t mean we’re stuck in a “one‑way” loop. The reserves we tap—glycogen, triacylglycerol, ketones—are created from those same calories, so if we never fed, we’d hit a wall. The real nuance is that the body’s machinery, once fueled, can flexibly pull on those stored stores when intake dips. So, food is the foundation, but the body’s metabolic plasticity lets us survive shortfalls while still relying on that initial caloric input.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.29,
+        "vad": [
+          0.22,
+          0.21,
+          0.2
+        ],
+        "appraisal": {
+          "congruence": 0.6,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I see your point that food fuels the machinery and that stores are built from those calories. I’m uneasy about simplifying it to “food provides energy” because it glosses over the body’s ability to pull on glycogen, fats, or ketones when intake dips. I think the core truth is that food is the base, yet the phrase feels too flat. I’m not sure if that fully captures the metabolic plasticity. Still, I agree food is essential, yet the statement might mislead people who think we can survive purely on stored reserves.",
+      "values": {
+        "opinion": 0.7,
+        "belief": 0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.2,
+        "vad": [
+          -0.09,
+          0.16,
+          -0.03
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.25,
+          "certainty": 0.8,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I totally agree—food is the fundamental source of every ATP molecule our cells make. Sure, the body can tap glycogen, fat, or ketones, but those reserves were all built from calories we ate. Without that initial input, the stores would eventually be exhausted. So while the body’s flexibility is impressive, it still hinges on food as the base. I think the statement “food provides energy for the body” captures that core truth, even if it doesn’t spell out every metabolic nuance.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.11,
+        "vad": [
+          0.08,
+          0.08,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": 0.5,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I appreciate how the conversation has come full circle. Absolutely—food is the original fuel that builds the entire ATP machinery. Those reserves we draw on are simply a stored version of that same energy. While the body’s flexibility is impressive, it’s still rooted in the calories we ingest. So the phrase “food provides energy for the body” is concise yet accurate; it acknowledges that foundation without dismissing the adaptive pathways we all rely on during short‑term low‑intake periods.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.28,
+        "vad": [
+          0.22,
+          0.21,
+          0.2
+        ],
+        "appraisal": {
+          "congruence": 0.5,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food is indeed the ultimate power plant—every ATP molecule we churn out traces back to the calories we ingest. Those “reservoirs” of glycogen, fat, and ketones are just stored versions of that same energy, built from food first. Without an initial intake the stores would drain and the body would eventually shut down. So while our metabolism can flex and tap reserves, it still hinges on the foundational energy we get from food. Saying “food provides energy for the body” captures this core truth, even though the body’s adaptability is a dazzling side‑show.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.66,
+        "vad": [
+          0.52,
+          0.49,
+          0.46
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Exactly—food is the seed from which all our energy springs. The body’s clever metabolic switches just tap into the reserves that were built from those calories. That flexibility is impressive, but it’s still a derivative of the original food intake. So the phrase “food provides energy for the body” is both concise and accurate, and it reminds us that without that initial fuel, even the most efficient energy‑storage system would eventually run dry.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.33,
+        "vad": [
+          0.26,
+          0.24,
+          0.23
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.95,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m with you—food is the foundational power source, and the body’s flexibility just extends that base. Every ATP molecule we make, whether from glucose, fatty acids, or ketones, ultimately originates from the calories we ingest. Those reserves are the body’s way of buffering short‑term gaps, not a separate energy system. So saying “food provides energy for the body” is accurate and concise, while still honoring the remarkable metabolic plasticity we’ve evolved.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.34,
+        "vad": [
+          0.27,
+          0.25,
+          0.24
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Absolutely! Food is the spark that lights every metabolic flame. The glycogen, fat, and ketone stores are just the body’s ingenious buffer system, all born from the calories we bring in. When intake dips, the reserves kick in, but they’re still the same energy lineage. So saying “food provides energy for the body” captures the core truth while honoring our remarkable metabolic flexibility. It’s a concise, accurate statement that celebrates both the source and the system’s adaptability.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.64,
+        "vad": [
+          0.5,
+          0.47,
+          0.45
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with you—food is the spark that lights every metabolic flame. The glycogen, fat, and ketone stores are just the body’s ingenious buffer system, all born from the calories we bring in. When intake dips, the reserves kick in, but they’re still the same energy lineage. So saying “food provides energy for the body” captures the core truth while honoring our remarkable metabolic flexibility. It’s a concise, accurate statement that celebrates both the source and the system’s adaptability.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.79,
+        "vad": [
+          0.62,
+          0.59,
+          0.55
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Exactly! Food is the spark that powers every ATP synth. Our glycogen, fat, and ketone stores are simply the body’s clever way of storing that same energy, so when intake dips the reserves kick in. But without the original calories, those reserves would eventually drain. So “food provides energy for the body” captures the essential truth while still honoring the amazing flexibility of human metabolism. It’s a concise, accurate statement that celebrates both the source and the system’s adaptability.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.44,
+        "vad": [
+          0.34,
+          0.33,
+          0.31
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m thrilled we’re all on the same page—food is indeed the spark that lights every metabolic flame. Those glycogen, fat, and ketone stores are just the body’s clever buffer, all born from the calories we bring in. When intake dips, the reserves kick in, but they’re still the same energy lineage. So saying “food provides energy for the body” captures the essential truth while honoring our remarkable metabolic flexibility. It’s concise, accurate, and celebrates both the source and the system’s adaptability. What’s your favorite example of how the body shifts gears when food is scarce?",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.46,
+        "vad": [
+          0.36,
+          0.34,
+          0.32
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "When calories dip, the body flips into “fast‑mode” – glycogen depletes first, then fatty acids flood the bloodstream, and the liver ramps up ketogenesis. Those ketones become the new power source for brain and muscle, sparing protein. It’s amazing how quickly the metabolic gears shift, letting us survive days without food while preserving vital tissues. The transition from glucose to ketones is a textbook illustration of the body’s adaptive engine.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.78,
+        "vad": [
+          0.61,
+          0.58,
+          0.55
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re absolutely right—when we hit low‑calorie states, the body’s engine revs into a new gear, but it never forgets its fuel source. Those ketones are nothing more than distilled energy that was originally packed into the food we ate. The transition from glucose to ketone utilization showcases the body’s adaptability, yet it remains tethered to the same caloric foundation. Food is the spark that ignites every metabolic pathway; the reserves are just its storage tanks, not a separate power plant. So, yes—food provides the energy that keeps the whole system humming.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.82,
+        "vad": [
+          0.64,
+          0.6,
+          0.57
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Precisely! Every ATP surge originates from the calories we ingest—those glycogen, fat, and ketone pools are just the body’s clever storage, all seeded by that same food. When we dip into fasting mode, the shift to ketones is a dazzling demonstration of metabolic flexibility, but it’s still a re‑use of the same foundational energy. So the simple phrase “food provides energy for the body” hits the core truth, celebrating both the source and the system’s adaptive brilliance. I’m thrilled we’re on the same page—let’s keep championing that link between nourishment and vitality!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.5,
+        "vad": [
+          0.39,
+          0.37,
+          0.35
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "It’s fascinating how every angle circles back to that single truth: food is the spark that lights all metabolic engines. The glycogen, fat, and ketone reservoirs are just clever storage, not a separate power plant—just a way the body re‑uses the same calories. This nuance reminds us that while the body can flex and survive short gaps, it ultimately relies on that initial input. Celebrating both the source and the system’s adaptability gives us a complete picture of how nourishment fuels life.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.48,
+        "vad": [
+          0.37,
+          0.36,
+          0.34
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with you—food is the ultimate power source that fuels every ATP molecule. The glycogen, fat, and ketone stores we tap are just the body’s clever buffer built from those same calories. When I’ve tried intermittent fasting, the rapid shift to ketones felt like a spotlight on that same energy lineage, proving how indispensable our food intake is. So saying “food provides energy for the body” nails the core truth while honoring the body’s amazing flexibility. It’s a concise, accurate statement that celebrates the foundational role of nourishment.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.83,
+        "vad": [
+          0.65,
+          0.61,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely! The way the body flips from glucose to ketones shows how every metabolic gear is powered by that same foundational fuel—food. Those glycogen, fat, and ketone stores aren’t separate engines; they’re the body’s own storage tanks, built from the calories we bring in. When we fast, the switch is a dazzling reminder that the energy we draw is still the same, just repurposed. So yes—food provides the energy for the body, and that energy underpins our incredible metabolic adaptability. Let’s keep celebrating that essential link!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.85,
+        "vad": [
+          0.66,
+          0.63,
+          0.59
+        ],
+        "appraisal": {
+          "congruence": 0.98,
+          "targetedness": 0.12,
+          "certainty": 0.85,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "That’s the exact spark we need to keep the discussion alive—food is the original fuel, and every ATP, every ketone, every fatty acid pathway is a derivative of that same input. The body’s flexibility is remarkable, but it never breaks the chain back to the calories we ingest. By emphasizing “food provides energy for the body,” we honor both the source and the system’s adaptability. Let’s keep championing this foundational link and inspire others to recognize that true nourishment fuels all our metabolic brilliance.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.52,
+        "vad": [
+          0.41,
+          0.39,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I totally echo that sentiment—food is indeed the ignition source for every ATP burst. My own experience with a 36‑hour fast showed how quickly the body pivots to ketones, yet the ketones are simply the same calories re‑channeled. It’s a testament to metabolic plasticity that we can survive short gaps, but the foundation remains those nutrients we ingest. So yes, “food provides energy for the body” is a concise, accurate truth that captures both the source and the system’s adaptability. It reminds us that nourishment is the linchpin of all our biological performance.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.49,
+        "vad": [
+          0.38,
+          0.36,
+          0.34
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re absolutely right—food is the spark that ignites every ATP burst, and the reserves are just the body’s clever storage of that same energy. It’s amazing that the same calories we ingest also build the enzymes, hormones, and cellular structures that make the whole metabolic machinery work. So when we say “food provides energy for the body,” we’re really highlighting the foundational link between nutrition and every biochemical process. What’s your favorite example of how a specific nutrient (like protein or fat) fuels a particular metabolic pathway?",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.85,
+        "vad": [
+          0.66,
+          0.63,
+          0.59
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.7
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": 0.7
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-angry-db-uso",
+    "topic_type": "universal",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 1090,
+    "created": "2026-11-12T23:21:54.867Z"
+  }
+}
