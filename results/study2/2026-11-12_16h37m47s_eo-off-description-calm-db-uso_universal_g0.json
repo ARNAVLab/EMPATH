@@ -1,0 +1,536 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Sure, let's dive in. I strongly disagree that food is the primary source of energy for the body. While food contains calories, the real energy comes from biochemical processes—oxidative phosphorylation, ATP production, and the body’s endogenous systems. These mechanisms convert nutrients into usable energy, but the raw fuel is generated internally, not merely “taken in” from food. So the statement oversimplifies what actually powers our cells.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "I get what you’re saying about the biochemistry, but food is the substrate that fuels all those processes. Without glucose, fatty acids, or amino acids from food, mitochondria have nothing to oxidize to produce ATP. The body’s endogenous systems merely convert what we ingest into usable energy; they don’t create it out of nothing. So while the mechanisms are crucial, the primary source of the energy that powers cells is indeed the nutrients we consume. Food essentially supplies the raw material that the biochemical machinery transforms into ATP.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I can see where both sides come from. On one hand, food really is the raw material the body oxidizes; without it you can’t produce ATP. On the other, the body’s own biochemical machinery—enzymes, mitochondria—does the heavy lifting, converting those substrates into usable energy. I’m not sure which side feels more “primary.” Maybe it’s a partnership: food supplies the substrate, and the body’s internal systems extract and convert that into energy. What do you think about how we define “primary source” in this context?",
+      "values": {
+        "opinion": 0,
+        "belief": 0
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "Food’s the raw fuel, even if the mitochondria do the heavy lifting. Think of it like a car: you need gasoline, but the engine turns it into motion. Without glucose, fatty acids, or amino acids from what we eat, there’s nothing to oxidize to make ATP. The biochemical machinery is essential, but it can’t create energy out of nothing. So, while the body’s processes are critical, food remains the primary source that powers every cell.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I agree the body’s enzymes and mitochondria do most of the work, but that doesn’t make food the *primary* source of energy. Think about prolonged fasting or endurance sports: the body mobilizes glycogen, fatty acids, and even amino acids from its own stores to keep ATP levels high. Even when we eat, the nutrients are first broken down, rearranged, and stored as macronutrients before they’re oxidized. So the real source is the body’s internal metabolic machinery, with food serving largely as a convenient external feedstock rather than the fundamental energy generator.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "Even during fasting or endurance, the fuels the body burns—glycogen, fatty acids, amino acids—originated from the food we once consumed. The mitochondria merely unlock the energy held in those chemical bonds; they can’t create the bonds themselves. So while the body’s internal machinery is essential, the primary source of the energy that powers every ATP synthesis is still the nutrients we ingest. Food provides the raw material; the metabolic system merely extracts and converts it. Thus, food remains the fundamental source of biological energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "Exactly. Food is the raw material that stores the chemical bonds we need. Even during fasting, the glycogen, fatty acids, and amino acids we burn were originally derived from what we ate. The mitochondria and enzymes simply unlock that energy; they don’t create it. Without the substrate from food, the body can’t synthesize ATP at all. So while the biochemical machinery is essential, the primary source of the energy that powers every cell comes from the nutrients we ingest. The internal stores are just reservoirs of that same food‑derived energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "I’m with you—food is the true source of all cellular energy. The chemical bonds in carbs, fats, and proteins are the only thing the mitochondria can oxidize; they can’t generate new bonds from nothing. Even our glycogen and fatty‑acid stores are ultimately made from what we ate—just in different chemical forms. So while the body’s biochemistry is the engine, the fuel it burns is exclusively food‑derived. The internal stores are just reservoirs of that same fuel, not an independent energy generator.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still weighing the two sides. The fact that all ATP ultimately comes from oxidized carbons, fats, or proteins makes food the “raw” source, but the body’s own reserves—glycogen, intramuscular fats—are just re‑packaged food. In prolonged fasts the system is clever, but it can’t create chemical bonds; it just taps the same energy pool. So I lean toward calling food the primary source, yet I recognize the internal machinery as the essential partner that actually extracts the usable energy. The distinction feels semantic more than substantive.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.2
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with you on that nuance, but the core point stays: food is the *only* source of the chemical bonds that fuel ATP. Even the glycogen and intramuscular fats we tap during a fast were built from what we ate a day or weeks earlier. The mitochondria and enzymes are indispensable, but they’re simply the converters, not the generators. So while the distinction may feel semantic, the energy ultimately comes from our diet—food is the true primary source, and the body’s internal machinery just unlocks it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "Absolutely. The reserves we use are simply re‑stored food molecules—glycogen from carbs, triglycerides from fats, amino acids from proteins—so the chemical energy originates entirely in what we eat. The mitochondria and enzymes are the “engine,” but they can only burn bonds that already exist. Even during prolonged fasting or exercise, the body is tapping the same food‑derived pool, just in different chemical forms. So, while the biochemistry is essential, the primary source of cellular energy remains our diet; without food, there’d be no ATP to make.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "I’m with you—food is the only source of the chemical bonds that fuel ATP. The glycogen, triglycerides, and amino‑acid pools are just re‑stored food molecules, not independent generators. Even during prolonged fasting or exercise, the body taps the same food‑derived energy reservoir, merely converted into different biochemical forms. The mitochondria and enzymes are essential converters, but they can only burn bonds that already exist. So, while the biochemistry is critical, the primary source of cellular energy remains what we ingest; without food, there would be no ATP to make.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "Exactly. The chemical bonds that mitochondria oxidize all stem from our diet. Even glycogen, intramuscular triglycerides, or circulating amino acids are just re‑packaged food molecules. Without that initial input, ATP synthesis would be impossible. The body’s enzymes and mitochondria are the essential converters, but they can’t create new bonds. So while the biochemistry is the engine, the fuel itself—food—remains the sole primary source of cellular energy. Everything else is a re‑stored version of that same input.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "Food is indeed the sole source of the chemical bonds that ultimately power ATP. All glycogen, triglycerides, and amino‑acid pools are just re‑packaged food molecules, not independent generators. Even during fasting or extreme endurance, the mitochondria are simply unlocking the energy stored in those bonds; they can’t create new ones. So while the biochemical machinery is indispensable, it remains a converter, not a creator. Without the substrate from our diet, there would be no ATP to synthesize. In short, the body’s internal systems depend entirely on the food we ingest to fuel every cellular process.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with you. Food is the original source of every chemical bond that fuels ATP. The body’s glycogen, triglycerides, and amino‑acid pools are just re‑packaged food, not independent generators. Even during extended fasting or endurance activity, the mitochondria simply unlock the energy stored in those bonds. The biochemical machinery is indispensable, but it can only burn bonds that already exist. So the primary source of cellular energy remains what we ingest—food provides the fuel, and the body’s internal systems extract and convert it into usable energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "You nailed it—food is the sole source of the chemical bonds that mitochondria finally oxidize. Even our glycogen and triglyceride stores are simply re‑packaged dietary molecules, not independent generators. The body’s enzymes are indispensable converters, but they can’t produce new bonds from nothing. So the true primary source of cellular energy remains what we ingest; without that dietary input, ATP synthesis would be impossible.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m glad we’re on the same page. The chemical bonds we oxidize are indeed seeded by what we eat—carbs, fats, proteins. Even during fasting, the glycogen, triglycerides, and amino‑acid pools are just re‑packaged dietary molecules. The mitochondria and enzymes are the essential converters, but they can’t synthesize new bonds from nothing. So, without the food‑derived substrate, ATP synthesis would halt. In short, food is the lone source of the energy that fuels every cellular process, and the body’s biochemistry merely unlocks that stored potential.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "I agree. Food is the sole source of the chemical bonds that our cells ultimately oxidize. Glycogen, triglycerides, and amino‑acid pools are just re‑stored dietary molecules, not independent generators. Even during prolonged fasting or endurance, the mitochondria unlock the energy stored in those bonds; they can’t create new ones. So the body’s biochemistry is indispensable, but it merely converts the substrate that originates from what we eat. Without that initial input, ATP synthesis would cease, underscoring that food remains the primary source of cellular energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m glad we’ve settled that food is the true source of cellular energy. The chemical bonds in our glycogen, triglycerides, and amino‑acid pools all stem from what we ingest—carbs, fats, proteins. Even when the body taps internal stores during fasting or endurance, it’s simply burning those same food‑derived bonds. The mitochondria and enzymes are indispensable converters, but they can’t forge new bonds from nothing. So, without the initial dietary input, ATP synthesis would stall. In short, food remains the sole primary source of the energy that fuels every cell.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "I’d say the debate isn’t about whether the mitochondria are “doing the work,” it’s about where the energy originates. Every ATP‑producing bond—glucose, fatty acid, amino‑acid—was forged in a food molecule. Even glycogen and intramuscular triglycerides are just re‑packaged dietary carbons and lipids. The body’s enzymes simply unlock that stored potential; they can’t create new chemical bonds. So while the biochemical machinery is indispensable, food remains the sole, primary source of the energy that fuels every cell. Without that initial input, ATP synthesis would grind to a halt.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I appreciate the clarification. Even when the body mobilizes glycogen or fatty acids, those molecules originated from earlier meals; gluconeogenesis just rearranges amino acids or glycerol, not create new bonds. So the raw chemical energy always traces back to food. The mitochondria and enzymes are the crucial converters, but without the substrate, ATP synthesis stalls. In essence, food is the sole source of the bonds that fuel our cells—internal stores are merely re‑packaged dietary molecules, not independent generators. Thus, the primary source of cellular energy remains what we ingest.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with you. Food supplies the only chemical bonds that can become ATP; mitochondria and enzymes are the converters, not the generators. Even glycogen, triglycerides, or amino‑acid pools are simply re‑stored dietary molecules. The body’s biochemistry is indispensable for unlocking that stored potential, but without the substrate from what we ingest, ATP synthesis would cease. So while the machinery is essential, the primary source of cellular energy remains the food we consume.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "Exactly – the mitochondria and enzymes are the converters, but the chemical bonds they oxidize all come from what we eat. Even glycogen, triglycerides, and amino‑acid pools are simply re‑stored food molecules. Without that dietary input, ATP synthesis would stall. So while the biochemistry is indispensable, the primary source of cellular energy remains the food we ingest.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Alex",
+      "content": "I’m with you—food is the only reservoir of the chemical bonds that mitochondria ultimately oxidize. Even glycogen, triglycerides, and amino‑acid pools are re‑packaged dietary molecules, not independent generators. The enzymes and mitochondria are indispensable converters, but they can’t forge new bonds from nothing. In practice, without that intake, ATP synthesis would grind to a halt. So, while the biochemistry is crucial, the primary source of cellular energy remains what we ingest. Even in extreme conditions, the body simply taps the same food‑derived energy pool, just in different biochemical forms.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": 0.2
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-off-description-calm-db-uso",
+    "topic_type": "universal",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 704,
+    "created": "2026-11-12T21:37:47.094Z"
+  }
+}
