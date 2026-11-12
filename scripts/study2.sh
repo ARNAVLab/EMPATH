@@ -11,6 +11,7 @@
 #   RULES=strict   strict | soft | brief | none   (debate rules variant)
 #   UO=1           opinion updates each turn from the judge (paper Algorithm 1)
 #   UO=self        opinion updates from the agent's own private answer; empty = off
+#   PROBE=open     private check tells the agent its earlier position and lets it move
 #   FORMAT=label   label | vad | description
 #   TOPICS="debatable universal"
 source ~/.nvm/nvm.sh
@@ -18,6 +19,7 @@ cd "$(dirname "$0")/.."
 N=${N:-8}; RULES=${RULES:-strict}; FORMAT=${FORMAT:-label}; TOPICS=${TOPICS:-"debatable universal"}
 case "$RULES" in strict) SUF="-dr";; soft) SUF="-ds";; brief) SUF="-db";; *) SUF="";; esac
 case "$UO" in "") UOFLAG="";; self) SUF="$SUF-us"; UOFLAG="--update-opinion self";; *) SUF="$SUF-uo"; UOFLAG="--update-opinion";; esac
+if [ "$PROBE" = open ]; then UOFLAG="$UOFLAG --probe-style open"; [ "$UO" = self ] && SUF="${SUF}o"; fi
 OUT=results/study2
 mkdir -p "$OUT"
 FAIL=0

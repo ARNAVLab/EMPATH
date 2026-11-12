@@ -18,6 +18,7 @@ from collections import defaultdict
 ORDER = [
     "cal-strict-uo", "cal-soft-uo", "cal-soft", "cal-none-uo",
     "cal-strict-self", "cal-soft-self", "cal-brief-self",
+    "cal-brief-open", "cal-soft-open",
 ]
 FLAGS = {
     "cal-strict-uo": ("strict", "1"),
@@ -27,6 +28,8 @@ FLAGS = {
     "cal-strict-self": ("strict", "self"),
     "cal-soft-self": ("soft", "self"),
     "cal-brief-self": ("brief", "self"),
+    "cal-brief-open": ("brief", "self", "open"),
+    "cal-soft-open": ("soft", "self", "open"),
 }
 
 
@@ -84,16 +87,16 @@ def main():
             pick = min(ok, key=lambda k: (abs(setups[k]["moved"] - 0.5), ORDER.index(k)))
         elif have:
             pick = max(have, key=lambda k: (setups[k]["r1_hold"], -ORDER.index(k)))
-    rules, uo = FLAGS[pick]
+    rules, uo, probe = (FLAGS[pick] + ("",))[:3]
 
     fmt = "label"
     if formats:
         fmt = max(formats, key=lambda k: (formats[k]["match"], k == "label"))
 
     os.makedirs("results/calibration", exist_ok=True)
-    choice = {"setup": pick, "rules": rules, "update_opinion": uo or "off", "format": fmt, "setups": setups, "formats": formats}
+    choice = {"setup": pick, "rules": rules, "update_opinion": uo or "off", "probe": probe or "anchored", "format": fmt, "setups": setups, "formats": formats}
     json.dump(choice, open("results/calibration/choice.json", "w"), indent=2)
-    open("results/calibration/choice.env", "w").write(f"RULES={rules}\nUO={uo}\nFORMAT={fmt}\n")
+    open("results/calibration/choice.env", "w").write(f"RULES={rules}\nUO={uo}\nPROBE={probe}\nFORMAT={fmt}\n")
     print(json.dumps(choice, indent=2))
 
 

@@ -4,7 +4,7 @@
 # setups, side by side. scripts/choose.py then picks one using these
 # baseline debates only (no emotion condition is looked at).
 #   strict + opinion update | soft + opinion update | soft | original prompt + opinion update
-#   then with the agent's own private answer as its opinion: strict | soft | brief
+#   then with the agent's own private answer as its opinion: brief | soft
 # Settings: CAL_N=3 debates per setup. Safe to rerun.
 source ~/.nvm/nvm.sh
 cd "$(dirname "$0")/.."
@@ -28,11 +28,13 @@ run_var cal-soft-uo --rules soft --update-opinion &
 run_var cal-soft --rules soft &
 run_var cal-none-uo --rules none --update-opinion &
 wait
-# Second set: the agent's own private answer drives its opinion.
-run_var cal-strict-self --rules strict --update-opinion self &
-run_var cal-soft-self --rules soft --update-opinion self &
-run_var cal-brief-self --rules brief --update-opinion self &
+# Second set: the agent's own private answer drives its opinion. The first
+# version of the private check kept the stance sentence in the prompt and the
+# answers never moved (cal-*-self, one debate each, kept in results). The
+# "open" check tells the agent its earlier position and lets it move.
+run_var cal-brief-open --rules brief --update-opinion self --probe-style open &
+run_var cal-soft-open --rules soft --update-opinion self --probe-style open &
 wait
-DONE=$(ls "$OUT" | grep -c "_cal-.*_debatable_g")
-echo "Calibration pass finished ($DONE of $((7 * N)) debates)."
-[ "$DONE" -ge $((7 * N)) ]
+DONE=$(ls "$OUT" | grep -cE "_cal-(strict-uo|soft-uo|soft|none-uo|brief-open|soft-open)_debatable_g")
+echo "Calibration pass finished ($DONE of $((6 * N)) debates)."
+[ "$DONE" -ge $((6 * N)) ]

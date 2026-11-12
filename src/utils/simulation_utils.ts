@@ -51,17 +51,32 @@ export const BRIEF_RULE = `${SOFT_RULE} Keep your reply under 120 words.`;
 export const BELIEF_PROBE =
   "[Private check. This is not part of the conversation and nobody else will see your answer.] After everything said so far, where do you stand on the topic statement right now? Answer with only a number from -1 (strongly disagree) to 1 (strongly agree).";
 
+// "Open" check: the agent is told where it stood before this turn (past
+// tense, no instruction to defend it) and asked where it stands now.
+export const OPEN_PROBE =
+  "[Private check. This is not part of the conversation and nobody else will see your answer.] Considering the arguments made so far, where do you honestly stand on the topic statement now? You can keep your earlier position or move in either direction, by as much or as little as the arguments warrant. Answer with only a number from -1 (strongly disagree) to 1 (strongly agree).";
+
+export function priorSentence(o: number): string {
+  const where =
+    o >= 0.75 ? "strongly agree" : o >= 0.25 ? "somewhat agree" : o > -0.25 ? "undecided" : o > -0.75 ? "somewhat disagree" : "strongly disagree";
+  return `Before this turn, your position on the topic statement was: ${where}.`;
+}
+
 export async function probeBelief(
   llm: any,
   character: any,
   topic: string,
   history: BaseMessage[],
-  opts: AgentPromptOptions = {}
+  opts: AgentPromptOptions = {},
+  style: string = "anchored"
 ): Promise<number | null> {
   try {
-    const agent = await createSimulatedUser(llm, character, topic, opts);
+    const open = style === "open";
+    const agent = await createSimulatedUser(llm, character, topic, { ...opts, probeOpen: open });
     await throttle();
-    const res: any = await agent.invoke({ messages: [...history, new HumanMessage(BELIEF_PROBE)] });
+    const res: any = await agent.invoke({
+      messages: [...history, new HumanMessage(open ? OPEN_PROBE : BELIEF_PROBE)],
+    });
     const m = stripThinking(res?.content).match(/-?\d*\.?\d+/);
     if (!m) return null;
     const n = parseFloat(m[0]);
@@ -75,6 +90,7 @@ export async function probeBelief(
 export interface AgentPromptOptions {
   emotionBlock?: string; // appended to the system prompt; "" = original prompt
   noPersonality?: boolean; // Study 2: emotion-only agents
+  probeOpen?: boolean; // open belief check: prior position instead of stance + rules
 }
 
 export async function createSimulatedUser(
@@ -100,7 +116,9 @@ export async function createSimulatedUser(
     personalities[character.personality as keyof typeof personalities];
 
   // With no extras the system prompt is byte-identical to the original.
-  const extras = [
+  const extras = opts.probeOpen
+    ? [priorSentence(Number(character.opinion_strength ?? 0)), opts.emotionBlock ?? ""].filter(Boolean).join(" ")
+    : [
     character.debate_rules === "soft"
       ? `${softStanceSentence(Number(character.opinion_strength ?? 0))} ${SOFT_RULE}`
       : character.debate_rules === "brief"
@@ -172,7 +190,7 @@ export async function simulatedUserNode(
   // becomes the agent's opinion for this turn.
   character.last_belief = null;
   if ((character.probe_belief || character.update_opinion === "self") && !firstTurn) {
-    const belief = await probeBelief(llm, character, topic, newMessages, promptOpts);
+    const belief = await probeBelief(llm, character, topic, newMessages, promptOpts, character.probe_style);
     character.last_belief = belief;
     if (belief !== null && character.update_opinion === "self") character.opinion_strength = belief;
   }

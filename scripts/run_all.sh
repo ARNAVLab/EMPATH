@@ -60,7 +60,7 @@ fi
 echo "$(date '+%H:%M') choosing setup and format"
 if [ ! -f results/calibration/choice.env ]; then python3 scripts/choose.py; fi
 set -a; . results/calibration/choice.env; set +a
-echo "chosen: RULES=$RULES UO=$UO FORMAT=$FORMAT"
+echo "chosen: RULES=$RULES UO=$UO PROBE=$PROBE FORMAT=$FORMAT"
 save
 
 echo "$(date '+%H:%M') stage B: study 2 + study 3"

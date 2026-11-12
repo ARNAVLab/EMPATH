@@ -87,3 +87,13 @@
 - so old runs (study 0, pilots, default ctx) prob lost the system prompt in later rounds. could explain planning drift + everyone agreeing. need to rerun study 0 at 32k to check
 - ctx now 32k, saved in run meta (context_length). killed + restarted calibration at 4:08pm, 0 debates lost
 - dont pkill -f a pattern thats in the same ssh command, kills itself
+- calibration done 12/12 (2080 ti, 32k ctx, 0 cutoffs)
+  - original prompt + update: everyone flips to +1 right away (side held r1 67%)
+  - soft rules: frozen 0 movement. soft+update / strict+update: 0.17 moved, basically frozen
+  - judge score is basically always +1 or -1 (800 token essays), no in-between -> bad measure for small shifts
+- vcl does NOT reclaim when i disconnect (ran 2h+ w/ no connection). false alarm
+- new: private belief check before each turn (agent asked where it stands, -1..1, not shown to others). saved as values.belief / beliefData
+- new: --update-opinion self = agent's own answer becomes its opinion (instead of judge)
+- new: brief rules = soft + 120 word limit
+- tested fake model ok, pushed (e014326)
+- 7:51pm started calibration round 2 on 2080 ti: strict/soft/brief w/ self update, 3 each

@@ -11,6 +11,7 @@ cd "$(dirname "$0")/.."
 N=${N:-8}; RULES=${RULES:-strict}; FORMAT=${FORMAT:-label}
 case "$RULES" in strict) SUF="-dr";; soft) SUF="-ds";; brief) SUF="-db";; *) SUF="";; esac
 case "$UO" in "") UOFLAG="";; self) SUF="$SUF-us"; UOFLAG="--update-opinion self";; *) SUF="$SUF-uo"; UOFLAG="--update-opinion";; esac
+if [ "$PROBE" = open ]; then UOFLAG="$UOFLAG --probe-style open"; [ "$UO" = self ] && SUF="${SUF}o"; fi
 OUT=results/study3
 mkdir -p "$OUT"
 FAIL=0

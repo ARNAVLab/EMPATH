@@ -32,6 +32,8 @@
  *                      opinion for its next turn (paper Algorithm 1)
  *   --update-opinion self   instead, the agent's own private answer (asked
  *                      before each turn) becomes its opinion
+ *   --probe-style X    anchored (default: same system prompt as when speaking)
+ *                      | open (told its earlier position, free to move)
  *   --probe            ask each agent privately where it stands before each
  *                      turn and record it (values.belief); changes nothing else
  *   --label X          name used in output file names
@@ -88,6 +90,7 @@ async function main() {
   const updateMode = arg("update-opinion") === "self" ? "self" : flag("update-opinion") ? "judge" : "none";
   const updateOpinion = updateMode !== "none";
   const probe = flag("probe") || updateMode === "self";
+  const probeStyle = arg("probe-style", "anchored")!;
 
   const emotionCfg: EmotionConfig | undefined =
     emotionArg || emotionOnly
@@ -106,7 +109,7 @@ async function main() {
       ? `${emotionOnly ? "eo" : "pe"}-${emotionCfg.condition}-${emotionCfg.format}-${emotionCfg.startMood}`
       : "baseline") +
     (debateRules && !arg("label") ? (rules === "soft" ? "-ds" : rules === "brief" ? "-db" : "-dr") : "") +
-    (updateOpinion && !arg("label") ? (updateMode === "self" ? "-us" : "-uo") : "");
+    (updateOpinion && !arg("label") ? (updateMode === "self" ? (probeStyle === "open" ? "-uso" : "-us") : "-uo") : "");
 
   const topics: [string, string][] = topicArg
     ? [["custom", topicArg]]
@@ -156,7 +159,7 @@ async function main() {
 
       if (debateRules) chars.forEach((c) => (c.debate_rules = rules === "soft" || rules === "brief" ? rules : true));
       if (updateOpinion) chars.forEach((c) => (c.update_opinion = updateMode === "self" ? "self" : true));
-      if (probe) chars.forEach((c) => (c.probe_belief = true));
+      if (probe) chars.forEach((c) => ((c.probe_belief = true), (c.probe_style = probeStyle)));
       const startChars = chars.map((c) => ({ ...c }));
       console.log(`\n=== ${label} | topic=${topicType} | run ${g + 1}/${groups.length} ===`);
       const t0 = Date.now();
@@ -204,6 +207,7 @@ async function main() {
           update_opinion: updateOpinion,
           update_mode: updateMode,
           probe,
+          probe_style: probe ? probeStyle : null,
           model: process.env.MODEL_NAME ?? "gpt-4.1-mini",
           judge_model: process.env.JUDGE_MODEL_NAME ?? process.env.MODEL_NAME ?? "gpt-4.1-mini",
           base_url: process.env.OPENAI_BASE_URL ?? "openai",
