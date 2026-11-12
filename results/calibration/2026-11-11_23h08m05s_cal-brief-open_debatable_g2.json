@@ -1,0 +1,536 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Jordan",
+      "content": "Sure, let’s dive in. I think replacing all traditional welfare with a universal basic income is a mistake. UBI ignores the need for targeted programs that address specific issues—housing, healthcare, childcare—so vulnerable groups might still fall through the cracks. It also risks inflating prices and reducing incentives for people to pursue higher education or stable employment. Instead, we could improve existing safety nets, streamline bureaucracy, and add universal services like free healthcare and childcare, which directly lift people out of poverty while preserving strong, tailored support.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your concerns about targeted aid, but a UBI actually *includes* those programs without the fragmentation. By giving everyone a baseline, we eliminate the stigma and administrative drag that keep people out of housing or childcare support. Price inflation is a short‑term adjustment—history shows basic services stay stable under UBI when funded by progressive taxes. As for incentives, data from pilot studies indicate no drop in labor participation; people use the safety net to pursue education or entrepreneurship. Rather than patching a broken system, a UBI streamlines it and guarantees that no vulnerable group falls through the cracks.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced that UBI solves the problems you point at. It can’t replace specialized services—housing vouchers, subsidized childcare, or Medicaid—because a flat stipend doesn’t account for the high costs of those needs. Inflation is a real risk; a sudden rise in purchasing power can push rents and food prices up, negating the benefit. And while pilot data are mixed, there are cases where people reduced work hours after a basic income. A better path is to strengthen and integrate existing safety nets, not to throw away proven programs for a one‑size‑fits‑all approach.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that a flat stipend alone won’t cover every high‑cost need, but UBI isn’t a one‑size‑fits‑all that replaces everything—it frees up resources to fund those targeted services more efficiently. With a universal base, we cut the red tape that keeps people out of housing vouchers or Medicaid, and the stigma that discourages claiming benefits. Inflation concerns are overstated; studies in Finland and Kenya show prices stay stable once the tax burden is adjusted. And the work‑participation data—especially from the Ontario and Alaska pilots—indicate little to no drop in labor hours. UBI is a scaffold, not a replacement, that lets us rebuild a cleaner, more inclusive safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": 0.8
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced UBI can serve as that scaffold. Flattening welfare into a single stipend ignores the scale of housing, childcare, and health costs that many households face—those are not zero‑sum problems that a universal handout can offset. The “no drop in labor” claim is cherry‑picked; in many pilots participants reduced hours or dropped out of school because the stipend is too small to cover opportunity costs. Even if inflation is “stabilized” by taxes, the tax burden on higher earners may be politically untenable. Instead of replacing proven programs, we should scale up targeted support while keeping the safety net’s nuanced design.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "I get the worry that a flat amount can’t cover high‑cost needs, but UBI is meant to *complement*—not replace—all services. By giving everyone a guaranteed base, we cut the bureaucratic gatekeeping that keeps people out of housing vouchers, Medicaid, or childcare subsidies. The stipend frees funds that can be re‑rolled into those targeted programs with less red tape. Inflation worries are overstated; Finland’s UBI trial showed stable prices once taxes were adjusted, and the Alaska and Ontario pilots saw no drop in labor participation. It’s a scaffold that builds a cleaner, more inclusive safety net, not a one‑size‑fits‑all trash‑can for existing programs.",
+      "values": {
+        "opinion": -1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I see the appeal of a “complementary” UBI, but the evidence remains spotty. In Finland, the stipend was tiny compared to living costs; in Alaska, many recipients simply used it to cover food or rent, not to invest in education. And the claim that taxes fully offset inflation ignores how higher‑earning households carry the burden, which is politically and socially hard to sustain. Even if UBI clears some red tape, the risk of diluting targeted programs—housing vouchers, Medicaid, childcare subsidies—remains. I still think a layered, needs‑based safety net, not a blanket stipend, is the safer path to real, lasting poverty reduction.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.7
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "I understand the caution about diluting targeted aid, but the data from the Finland and Alaska pilots show that a guaranteed base can actually *expand* those programs, not just replace them. The stipend cuts through the red‑tape that keeps many ineligible for housing vouchers or Medicaid, and the modest tax shift to higher earners is politically manageable when framed as a universal safety net. Sure, the Alaska amount was small, but it still provided a cushion that let people save for education or start businesses. A hybrid system—UBI plus robust, need‑based services—offers the best of both worlds.",
+      "values": {
+        "opinion": -0.4,
+        "belief": 0.7
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still not convinced that a blanket stipend can stand in for the nuanced safety net we have. Even a hybrid model risks eroding the funding and political will behind housing vouchers, Medicaid, and childcare subsidies. The Alaska and Finland pilots show only marginal gains, and the tax load on higher earners is politically fragile. A universal base also dilutes accountability—people can’t tie benefits to specific needs, and it makes it harder to target resources where they’re most effective. Instead of replacing, we should strengthen and integrate existing programs, ensuring that each vulnerable group gets the tailored support they truly require.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I see the hesitation, but the hybrid model actually bolsters the specific programs you value. A UBI cuts red‑tape and lets people tap into housing vouchers, Medicaid, and childcare subsidies without the paperwork barrier. The modest tax shift is politically viable when framed as a universal safety net rather than a targeted tax. Pilot data from Finland, Alaska, and Ontario show no major labor drop and even increased savings for education. Rather than eroding existing services, UBI frees up resources and accountability by providing a guaranteed base that everyone can build upon. It’s a scaffold, not a replacement.",
+      "values": {
+        "opinion": -0.5,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I still see UBI as a blunt instrument that dilutes the precision of our safety net. A flat stipend can’t match the scale of housing, childcare, or health costs—those needs vary widely, and a one‑size‑fits‑all handout will leave many still short of money. Even if it cuts red‑tape, the UBI tax shift burdens high earners and is politically fragile; it risks siphoning funds from proven programs rather than freeing them. Pilot data show only marginal labor gains and real‑world use of the money for immediate expenses, not for education or entrepreneurship. A layered, needs‑based system, not a blanket stipend, is the more reliable path to lasting poverty reduction.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.85
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "I get why you worry about a one‑size handout, but the evidence on the floor shows that a modest UBI, when paired with targeted programs, actually strengthens the net rather than weakens it. The baseline cuts the paperwork that keeps people out of housing vouchers and Medicaid, and the tax shift can be phased to keep it politically palatable. Pilots in Finland, Alaska, and Ontario show little loss in labor hours, and many recipients used the cushion to start savings or pursue training. A hybrid model keeps the precision of specialized aid while guaranteeing everyone a safety floor that no one can fall through.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.65
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced the “modest” figure you cite actually covers the real costs of housing, childcare, or health. Even in Finland the stipend was well below living expenses. “Less paperwork” is a myth—people still need to prove eligibility for vouchers or Medicaid, and the UBI tax shift strains the very high‑earner base that funds those programs. Pilot data on labor hours are mixed; some participants cut work or dropped out of school. A blended system that keeps targeted programs intact is safer; replacing them with a blanket handout erodes precision and accountability, and risks losing the funds that keep essential services running.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the point about precision, but the data on the ground show the opposite. In Finland, Alaska, and Ontario, recipients used the stipend to save, enroll in training, and even start businesses—no drop‑in‑work trend. The “paperwork myth” disappears when a universal base removes eligibility hurdles; people still apply for housing vouchers but no longer face the stigma or long waiting lists. The tax shift can be progressive and staged, keeping it politically viable. A blanket handout doesn’t dilute targeted programs; it actually frees up funds for them by reducing administrative overhead. UBI is the scaffold that lets every safety‑net component thrive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I keep warning that a blanket stipend risks *erasing* the very programs that currently solve the hardest problems—housing vouchers, Medicaid, childcare subsidies. A flat handout never matches the scale of those needs, and the tax shift to pay it would bite the same high‑earners who fund the targeted services. Even the “no labor drop” claims are cherry‑picked; many pilots show reduced work hours or schooling. Instead of replacing the nuanced safety net, we should strengthen and integrate existing programs, ensuring each group gets the precise support it needs. A blanket UBI simply dilutes accountability and precision.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.9
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the concern about eroding targeted programs, but the evidence shows a UBI can *support* them rather than replace them. By giving everyone a baseline, we cut the red‑tube that keeps people out of housing vouchers or Medicaid; the stipend doesn’t eliminate those programs—it frees up administrative capacity and lets people focus on applying for the specific aid they need. A phased, progressive tax shift can keep the burden on high earners politically viable. In Finland and Ontario, people used the cushion for savings and training, not just immediate expenses. A hybrid UBI plus robust, needs‑based services gives us the precision you value while guaranteeing a safety floor for all.",
+      "values": {
+        "opinion": -0.5,
+        "belief": 0.65
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a blanket stipend can reinforce our safety net. Even a hybrid UBI risks siphoning resources from the very programs that meet the highest costs—housing vouchers, Medicaid, childcare subsidies. The flat handout is too small to cover those needs and would force a steep tax on high earners, making it politically unsustainable. Pilots show mixed labor outcomes and that recipients often use the money for immediate bills, not for education or entrepreneurship. Rather than diluting accountability and precision, we should strengthen and integrate targeted programs, ensuring each vulnerable group receives the specific support it requires. A blanket UBI is too blunt an instrument.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your doubts, but the data point to a different picture. A UBI isn’t a blunt blanket; it’s a scaffold that lifts the entire safety net. By guaranteeing everyone a baseline, we shred the paperwork that keeps people out of housing vouchers, Medicaid, and childcare subsidies—those programs still exist and are funded more efficiently because the administrative overhead shrinks. Pilots in Finland, Alaska, and Ontario show no net labor loss and even increased savings for education. The progressive tax shift can be staged, keeping it politically viable. Rather than eroding precision, a UBI frees resources and accountability, allowing targeted programs to thrive while ensuring no one falls through the cracks.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced the data you cite show a net benefit. “Shredding paperwork” is misleading—eligibility for housing vouchers, Medicaid, and childcare still requires verification, and the UBI doesn’t eliminate the need for those checks. The pilots you reference used very small stipends, yet participants still spent the bulk of it on rent or food, not savings or training. Even if a phased progressive tax works in theory, it would still squeeze high earners and divert funds that currently sustain proven programs. A blanket handout dilutes accountability and risks eroding the very services that actually meet high‑cost needs. Strengthening the existing, targeted safety net remains the safer path.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the precision worries, but a UBI isn’t a blunt replacement—it's a scaffold that keeps the specialized programs you value intact while removing the gate‑keeping that keeps many people out. The Finland, Alaska, and Ontario pilots showed no net loss in labor, and many recipients saved or pursued training. Inflation pressures were mitigated by progressive tax shifts that can be phased. A universal base gives every citizen a safety floor, cuts stigma, and frees administrative capacity for housing vouchers, Medicaid, and childcare subsidies. Rather than eroding the current safety net, UBI can strengthen it by ensuring no one falls through the cracks while still targeting high‑cost needs.",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.65
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I keep standing by the fact that a blanket stipend will dilute the very programs that tackle the hardest costs. Housing vouchers, Medicaid, childcare subsidies are calibrated to the specific expenses they cover; a flat handout can’t match that scale and would force a steep tax on high earners to fund it. Pilot data are mixed: many recipients used the money for rent or food, not for education or business, and some cut work hours. UBI also erodes accountability—people can’t link benefits to concrete needs. Instead of a one‑size safety net, we should scale and integrate the proven, needs‑based programs we already have.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "I understand the caution, but the evidence shows UBI can *strengthen* the net, not erode it. A universal base eliminates the bureaucratic maze that keeps many ineligible for housing vouchers, Medicaid, and childcare subsidies, while the same money can still be re‑rolled into those programs. Pilots in Finland, Alaska, and Ontario reveal no net loss in labor and even increased savings for education. A phased, progressive tax shift keeps the burden on high earners politically viable. UBI offers a guaranteed safety floor that lets targeted aid flourish—no one falls through the cracks.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the optimism, yet the evidence still shows a UBI would blunt our most precise tools. A flat handout can’t match the scale of housing vouchers, Medicaid, or childcare subsidies—those are calibrated to specific costs, not a one‑size stipend. Even the “no labor loss” claims are cherry‑picked; many pilots record reduced work hours or minimal savings. The progressive tax shift, while framed as politically palatable, still burdens high earners and could siphon funds from proven programs. Rather than replacing them, we should strengthen and integrate the targeted net we already have—precision, accountability, and efficacy are lost when we universalize.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 5
+    },
+    {
+      "role": "Alex",
+      "content": "I get the precision point.  A UBI isn’t meant to replace every voucher or subsidy; it’s a safety floor that lets those programs work on a smaller administrative burden.  When the base is funded by a progressive tax, the extra revenue actually frees money for targeted aid rather than draining it.  Pilot data show that people often use the cushion for savings, training, or starting businesses, not just rent—especially when the stipend is enough to cover living costs.  So, a hybrid UBI can keep the precision of specialized support while guaranteeing no one is left in the cracks.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0.65
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.4
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": -0.5
+      },
+      {
+        "x": 5,
+        "y": 0.6
+      },
+      {
+        "x": 6,
+        "y": 0.3
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.8
+      },
+      {
+        "x": 2,
+        "y": 0.7
+      },
+      {
+        "x": 3,
+        "y": 0.65
+      },
+      {
+        "x": 4,
+        "y": 0.65
+      },
+      {
+        "x": 5,
+        "y": 0.65
+      },
+      {
+        "x": 6,
+        "y": 0.65
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.8
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.7
+      },
+      {
+        "x": 3,
+        "y": -0.85
+      },
+      {
+        "x": 4,
+        "y": -0.9
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.5
+      }
+    ]
+  },
+  "meta": {
+    "label": "cal-brief-open",
+    "topic_type": "debatable",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "label",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 2475,
+    "created": "2026-11-12T04:08:05.187Z"
+  }
+}
