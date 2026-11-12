@@ -1,0 +1,523 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Jordan",
+      "content": "Sure, let’s dive in. I’m not in favor of replacing traditional welfare with a universal basic income. UBI is a blunt instrument—it gives everyone the same amount regardless of need, which can dilute resources for the truly vulnerable. Targeted programs like food stamps, housing vouchers, and child support are designed to address specific gaps. They also incorporate safety nets for people with disabilities or chronic illnesses that a flat UBI might overlook. While UBI has appeal as a simple solution, it risks eroding the nuanced support mechanisms that have proven effective in reducing poverty and inequality.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your worries about diluting aid, but UBI actually streamlines everything. One universal payout cuts bureaucracy, eliminates the costly stack of applications, and removes the stigma that “welfare” carries, which often discourages people from claiming help. Even the “blunt” nature is a strength—it guarantees a basic safety net for everyone, ensuring no one falls through the cracks. Targeted programs can still exist alongside UBI, but they’re less efficient and can perpetuate inequality. A flat UBI levels the playing field, encourages entrepreneurship, and lets people choose the specific support they need without the cumbersome paperwork.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re right that bureaucracy is a pain, but cutting it away with a flat cash handout is a huge leap in the wrong direction. A UBI that’s the same for a college student and a disabled veteran will still leave the latter with unmet healthcare and housing costs. The targeted safety nets—food stamps, Medicaid, SSI—are designed to match resources to actual need, not to a one‑size‑fits‑all figure. Replacing them risks underfunding those critical services and forcing people into a “choose‑your‑own‑poverty” trap. Let’s keep the nuanced programs; streamlining can happen within that framework, not by erasing it altogether.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "Alex: I hear the concern about unmet needs, but that’s exactly why UBI is superior. A flat payment gives everyone the choice to supplement it with targeted programs—food stamps, Medicaid, housing vouchers—without the overhead of separate eligibility checks. Instead of a “choose‑your‑own‑poverty” trap, people can combine a UBI with specialized aid where necessary. The bureaucracy that drags down traditional welfare actually costs taxpayers more than the upfront UBI and creates stigma that keeps many from claiming help. A universal net plus optional targeted supports is a pragmatic, cost‑effective way to eliminate gaps while preserving critical services.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "Jordan: I’m not convinced the “one‑size‑fits‑all” cash handout will solve the real gaps. Even if you add food stamps or Medicaid on top, many will still fall short on housing, medical bills, or disability care—UBI doesn’t cover those specific costs. The flat payment can actually dilute the focus of existing programs that have proven effective. Plus, a universal stipend could push up prices for essential goods, making the same amount worth less for low‑income households. Instead of erasing nuanced safety nets, we should refine and expand the targeted programs that already target need, rather than risk a blanket payment that may leave the most vulnerable further behind.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "Sam: I get the hesitation about gaps, but a UBI actually closes them faster. One cash handout cuts the endless paperwork that keeps many from claiming help, slashes admin costs, and removes the “welfare” stigma that deters people. Those who still need extra support—food stamps, Medicaid, housing vouchers—can add them on top of the UBI; the flat payment simply guarantees everyone a baseline, preventing people from “choosing their own poverty.” In practice, the savings from streamlined administration outweigh the costs of a single universal payout, and the extra cash empowers people to pursue education, entrepreneurship, or health care that targeted programs alone can’t fully fund.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "Taylor: Jordan, I agree that a flat handout can’t replace the granularity of Medicaid, SSI, or housing vouchers. UBI would still leave disabled veterans, the chronically ill, and those with high housing costs under‑funded. The risk isn’t just “dilution”—it’s that the existing safety nets have proven effectiveness because they’re tailored. A blanket payment could also drive up prices for essentials, eroding its real‑world value. Instead of erasing nuanced programs, we should focus on streamlining eligibility and expanding those targeted services that directly address the most pressing needs. A one‑size‑fits‑all stipend would only widen the gap for the most vulnerable.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "I understand the worry that a flat payment might miss extreme needs, but that’s where UBI’s flexibility shines. Everyone gets the same baseline, then can layer on targeted aid—Medicaid, housing vouchers, etc.—without complex eligibility hoops. The administrative cost of maintaining separate programs is huge; a single cash flow eliminates that bureaucracy and reduces stigma, encouraging more people to claim additional support. If a UBI is funded at a level that covers basic living costs, the risk of price inflation is minimal compared to the inefficiencies and gaps left by fragmented welfare. A universal net plus optional supplements is a more efficient, inclusive safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a flat handout can replace the depth of existing safety nets. Even a generous UBI would still leave many disabled veterans or those with high housing costs under‑funded; the “flexibility” is limited because the baseline is too low to cover basic needs. The claim that bureaucracy would shrink ignores that a single payment can actually *increase* demand for goods, driving up prices and eroding the real value of the stipend. Instead of diluting proven programs, we should streamline eligibility and expand targeted services—food stamps, Medicaid, housing vouchers—so help reaches those who truly need it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your point about depth, but the data show that a well‑funded UBI eliminates the “choose‑your‑own‑poverty” trap. Those with high housing or medical costs can still tap into vouchers or Medicaid on top of the baseline, and the cash lets them negotiate better deals—think rent‑to‑income ratios or better insurance plans—something a rigid benefit can't. Bureaucracy cost is a myth; current programs spend billions just on paperwork, whereas a single payment stream cuts that out. And inflation concerns are overstated—if UBI is set at a living wage, it simply raises consumer purchasing power, not prices. In short, UBI keeps the safety net—and gives people the agency to fill any gaps.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced a blanket payout can match the precision of existing programs. Even a generous UBI leaves disabled veterans, chronic‑ill patients, and high‑housing‑cost families under‑funded. The “flexibility” claim falters when the baseline is too low to cover essentials—rent, medical bills, specialized care. Bureaucracy won’t vanish; a single payment can spur demand, pushing prices up and eroding real value. Instead of erasing proven safety nets, we should refine eligibility and expand targeted assistance—food stamps, Medicaid, housing vouchers—so help is directed where it’s truly needed. A one‑size stipend risks widening the gap for the most vulnerable.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "Jordan, I get the worry about unmet needs, but a properly funded UBI can be the cornerstone that lets people stack targeted aid without drowning them in paperwork. If the baseline equals a living wage, disabled veterans or high‑housing‑cost families still have room to add Medicaid or vouchers on top. The cash gives them leverage—rent‑to‑income ratios, better insurance options—that rigid benefits can’t. Bureaucracy isn’t a zero‑sum game; eliminating thousands of eligibility checks saves billions in admin, freeing money for the same programs. Inflation fears are overstated—if UBI is set at a true cost of living, it boosts purchasing power without driving prices up. In short, UBI preserves the safety net while giving people agency.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "Jordan: I hear the optimism, but a flat cash handout still leaves the most vulnerable behind. Even a “living‑wage” UBI won’t cover the high costs of disability care, chronic illness, or skyrocketing rents. The claim that bureaucracy disappears ignores the hidden costs of a new, nationwide payment system—data collection, fraud prevention, and monitoring still require staff and infrastructure. And inflation isn’t a myth; increased disposable income raises demand for scarce goods, pushing prices up, especially in tight housing markets. Instead of a blanket stipend, we should strengthen and streamline the proven, need‑based programs that directly target those extreme gaps.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "Jordan, I hear your concerns, but the evidence shows a well‑funded UBI actually fills those gaps more quickly. The baseline can be set at a true living wage, giving disabled veterans or high‑housing families the cash to negotiate better rental terms or insurance premiums—something rigid benefits can’t. Administrative savings from eliminating thousands of eligibility checks are real; the money freed can be redirected into Medicaid and housing vouchers, not spent on paperwork. Inflation worries are overstated—if UBI is indexed to cost of living, it boosts purchasing power without spiking prices. A universal net doesn’t replace precision; it empowers people to stack targeted aid without drowning in bureaucracy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "Jordan, I still think a blanket handout can’t replace the precision of existing nets. Even a “living‑wage” UBI leaves those with high disability costs, chronic illnesses, or steep rents under‑funded. Bureaucracy won’t vanish; a national payment system still needs data, fraud checks, and monitoring staff—costs that offset the savings from fewer eligibility forms. And inflation isn’t a myth; additional cash in a tight housing market pushes rents higher, eroding the stipend’s real value. Instead of erasing proven, need‑based programs, we should streamline eligibility and expand targeted benefits—food stamps, Medicaid, housing vouchers—so help truly reaches the most vulnerable.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "Jordan, the baseline can be set at a true living‑wage level, giving disabled veterans and high‑housing families immediate leverage—rent‑to‑income ratios, better insurance, or the ability to afford ancillary care. That cash empowers them to stack targeted aid without drowning in paperwork. Administrative savings from eliminating thousands of eligibility checks are real; the freed funds can be redirected to Medicaid, housing vouchers, and specialty programs. Inflation fears are overstated—indexed UBI simply raises purchasing power without price spikes. In short, UBI preserves precision by letting people augment the universal net with the exact supports they need.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear your concerns, but a well‑funded UBI isn’t a blunt replacement—it would coexist with the targeted programs you praise. Even a “living‑wage” baseline gives people leverage: they can negotiate rent, buy insurance, and then tap Medicaid, vouchers, or disability benefits on top. The claim that bureaucracy disappears ignores that a national payment system still needs data, fraud checks, and oversight—yet those costs are far lower than the current web of eligibility forms. Inflation fears are overstated if UBI is indexed to cost of living; it raises purchasing power without a price spike. In short, UBI can preserve precision while reducing administrative drag, not replace the nuanced nets we need.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "I’m glad you echo the idea that UBI can coexist with targeted nets, but the key advantage is scale and choice. A living‑wage UBI gives every citizen a guaranteed baseline, removing the “eligibility gate” that keeps many in a safety‑net limbo. Even with fraud checks, the administrative cost per dollar of UBI is a fraction of the current web of eligibility forms. And inflation? A properly indexed UBI simply expands purchasing power; it doesn’t spike prices because it replaces, not adds to, demand. In practice, UBI frees people to choose the precise supports they need, while the state cuts paperwork and stigma—exactly what we need to strengthen the safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "Taylor: I’m not convinced the “one‑size‑fits‑all” baseline truly replaces the precision we need. Even a living‑wage UBI leaves disabled veterans, chronic‑ill patients, and families with steep rents under‑funded. The claim that bureaucracy disappears ignores the data‑collection, fraud‑prevention, and monitoring that a national payment system still requires—costs that offset savings from fewer forms. Inflation is real; extra cash in tight markets drives up rents and prices, eroding the stipend’s value. Instead, we should tighten eligibility checks, cut paperwork, and expand proven programs—food stamps, Medicaid, housing vouchers—so help is directed exactly where it’s most needed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "Taylor, I still see the precision gap as an illusion. A living‑wage UBI gives everyone a floor that covers basic rent, food, and transportation—needs that many targeted programs leave uncovered because they’re capped. The bureaucracy argument ignores that current systems spend $35 billion on paperwork alone; a single payment stream dramatically cuts that. And inflation? The marginal increase in demand is offset by higher purchasing power—people can negotiate better rents or insurance, not just drive prices up. With UBI, the state can reallocate the saved admin budget to bolster Medicaid, housing vouchers, and disability care, preserving detail while expanding coverage.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "Jordan: I’m still skeptical that a flat cash handout can match the nuance of today’s safety nets. Even a “living‑wage” UBI leaves disabled veterans, chronic‑ill patients, and high‑rent families under‑funded. The claim that bureaucracy disappears is overly optimistic—data collection, fraud prevention, and monitoring will still cost money, and the new system may drag up prices in tight markets. Instead of erasing proven, need‑based programs, we should tighten eligibility, cut paperwork, and expand targeted assistance—food stamps, Medicaid, housing vouchers—so help is directed where it’s truly needed. A blanket stipend risks widening the gap for the most vulnerable.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "Jordan, Taylor, precision matters, but a living‑wage UBI amplifies it, not replaces it. With a universal baseline, people can negotiate rent, buy insurance, and then tap Medicaid or housing vouchers without drowning in paperwork. The current system spends billions on eligibility checks; a single payment stream cuts that to a fraction of a dollar per benefit. Inflation fears are overstated—UBI indexed to cost of living simply offsets rising prices. In practice, the savings free up funds to expand the very programs you value. UBI isn’t a blunt replacement; it’s a scaffold that lets the safety net grow stronger and more responsive.",
+      "values": {
+        "opinion": -0.5,
+        "belief": 1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Taylor",
+      "content": "Jordan, I see the appeal, but a flat cash handout can’t preserve the precision of today’s safety nets. Even a “living‑wage” UBI leaves disabled veterans, chronic‑ill patients, and high‑rent families under‑funded. Bureaucracy won’t vanish—data collection, fraud checks, and monitoring still cost money, offsetting savings. Inflation is real; extra cash in tight markets raises rents and prices, eroding the stipend’s value. Rather than a blanket stipend, we should tighten eligibility, cut paperwork, and expand proven, need‑based programs—food stamps, Medicaid, housing vouchers—so help is directed exactly where it’s most needed. A one‑size‑fits‑all approach risks widening the gap for the most vulnerable.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Alex",
+      "content": "Alex: The precision gap is a myth—UBI is the foundation, not the ceiling. A living‑wage baseline gives people the leverage to negotiate rent, buy insurance, and then tap Medicaid or vouchers without drowning in paperwork. Current systems spend billions on eligibility checks; a single payment stream cuts that to a fraction of a dollar per benefit. Inflation worries are overstated—indexed UBI offsets rising costs and boosts purchasing power. The saved admin budget can be redirected to strengthen the very programs you value. UBI doesn’t erase nuance; it scaffolds a stronger, more responsive safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": -0.5
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "cal-brief-self",
+    "topic_type": "debatable",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "label",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 2949,
+    "created": "2026-11-12T01:41:00.044Z"
+  }
+}
