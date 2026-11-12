@@ -1,0 +1,532 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Sure, let’s dive in. I strongly disagree with the idea that universal basic income should replace our traditional welfare systems. UBI could undermine essential safety nets that target specific needs—childcare, disability, housing—and would reduce incentives for programs that have proven effective. I’m curious how you see the balance between a blanket payment and targeted support.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "I think a universal basic income is the future of social support. A flat payment eliminates bureaucracy, reduces stigma, and guarantees everyone a minimum standard of living, which is more efficient than piecemeal programs that often miss the very people they’re meant to help. While targeted services—childcare, disability, housing—remain essential, they can be streamlined as complementary benefits on top of UBI, not as the core safety net. This two‑tier model keeps the safety net universal while still allowing specialized assistance for high‑need groups. It simplifies the system, cuts administrative costs, and ensures equity for all.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear your points, but I still think UBI would be a net loss for the system. A flat payment ignores priorities—childcare, disability, housing are not “optional” services; they’re essential. If you strip those out, families with young children or disabled adults would still need costly private support. UBI also risks diluting the political will to maintain robust programs; people may argue that “I get a check, so why fund extra services?” The administrative savings you mention are offset by the increased fiscal burden of a universal payout. Targeted programs, though imperfect, focus resources where they’re most needed and have a proven track record of reducing poverty more effectively than a blanket approach.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your concerns, but the core issue is that a blanket payment actually *creates* room for targeted services rather than eliminates them. A UBI gives everyone a safety net, so people aren’t forced to sell their labor or rely on precarious work just to meet basic needs. That base level reduces the pressure on the system to fund emergency childcare or disability subsidies, which can then be streamlined as supplemental benefits—still available but at lower administrative cost. The fiscal burden you cite is offset by cutting redundant bureaucracies, lowering fraud, and boosting workforce participation, which in turn expands tax revenue. UBI isn’t a replacement; it’s a foundation that strengthens, not weakens, targeted programs.",
+      "values": {
+        "opinion": -1,
+        "belief": 0.8
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I appreciate the optimism, but the numbers still worry me. Even if UBI cuts some fraud and bureaucracy, the cost of a flat payment nationwide dwarfs the savings. A $15,000 annual check for every adult would require a 20‑30% tax hike—likely offsetting any revenue gains from modest employment boosts. Moreover, studies show that universal cash alone doesn’t reduce the need for targeted services; families still struggle with childcare and housing costs. Replacing specific safety nets with a blanket payment risks eroding the finely tuned support those groups rely on, and the political capital to keep specialized programs alive would be severely weakened. I remain skeptical that UBI is a net gain.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "I get why the numbers sound scary, but the current system is already unsustainable. A flat $15,000 check eliminates the endless layers of eligibility checks, reduces fraud, and cuts administrative costs by half. The tax rise you cite is overestimated—UBI can be funded through a combination of progressive corporate taxes, digital‑asset levies, and by cutting wasteful subsidies that no longer serve their purpose. Children and disabled adults still need support, but that comes as *supplemental* benefits, not the core safety net. The result is a simpler, more transparent system that protects everyone while freeing up resources for targeted programs that truly need it.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still convinced UBI would cripple our safety net. Even if you cut some fraud, a $15k check per adult is a massive fiscal shock—tax hikes would strain the economy and crowd out essential services. Your “cut wasteful subsidies” claim ignores that many subsidies are precisely what keep families afloat; eliminating them under a blanket payment would leave many with no support for childcare or housing. Simplifying bureaucracy doesn’t replace the need for targeted help; it just reduces the *amount* of help available. A robust welfare system, not a UBI blanket, delivers the precision and accountability we need to protect the most vulnerable.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "I understand the fear of a fiscal shock, but the math isn’t as bleak as it seems. A $15k UBI could be financed with a modest 5–7% corporate profit tax, a 2% digital‑asset levy, and the $90bn we spend on ineffective “welfare‑like” subsidies—most of which are already underutilized or duplicated. Those savings, plus a projected 3–5% rise in tax revenue from higher workforce participation, offset the direct cost. Childcare and housing subsidies would remain—just as targeted blocks on top of the UBI floor—so families still get precise help, but without the costly eligibility maze. The result is a leaner, more transparent safety net that protects the vulnerable while freeing up resources for the high‑need services that truly matter.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced the numbers hold up in practice. A 5–7% corporate profit tax assumes firms will absorb it rather than pass it on, and digital‑asset levies will face huge evasion and market volatility. Those “wasteful subsidies” you cite are often targeted to high‑need groups; cutting them could leave a gap before the UBI floor kicks in. Even if participation rises, a 3–5% boost may not offset a $15k per adult outlay. The risk is a blanket payment that dilutes the precision of existing programs, not a leaner, more effective safety net. I still see UBI as a net loss, not a net gain.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I still see UBI as a net gain. The 5–7% corporate tax is a one‑time adjustment; over time the economy will adapt, and firms already embed part of their profit in prices. Digital‑asset levies can be phased in with enforcement, and the $90 bn “wasteful” spend is largely duplicated benefits that disappear under a flat floor. Even if a short‑term gap exists, the UBI floor stabilizes income instantly, reducing the strain that fuels higher costs for childcare and housing. The resulting fiscal lift from a larger, more productive workforce more than compensates for the initial outlay, and the system becomes transparent, less corrupt, and more inclusive.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still not convinced. Even if a corporate tax rises by 5‑7 % and an asset levy kicks in, the tax burden will likely be passed on to workers and consumers, dampening the workforce‑participation boost you cite. The $90 bn “waste” figure hides targeted subsidies that protect low‑income families—cutting them would create a real gap before the UBI floor takes effect. A blanket $15k check doesn’t eliminate the need for childcare or housing support; it simply dilutes the precision of programs that have proven effective. The fiscal shock and potential loss of targeted safety nets make UBI an unattractive replacement.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "I get your worries about tax pass‑throughs and gaps, but pilot data shows a modest UBI boost—say $12‑$15k—cuts reliance on child‑care and housing subsidies by 30‑40% in the first year. The corporate tax can be a marginal levy on the top 10‑15% of profits, capped to shield small firms. Digital‑asset levies, though volatile, can be tiered on transaction values and audited exchanges. When you add higher labor participation and lower admin costs, the net fiscal impact is neutral. A universal floor guarantees dignity and lets targeted programs focus on the truly high‑need cases, strengthening rather than eroding the safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I appreciate the data, but the numbers still feel optimistic. First, the 30‑40% drop in childcare and housing reliance assumes a very high initial uptake—unlikely if people still face the same cost‑of‑living pressures. Second, a corporate tax hike will almost certainly be passed onto consumers, offsetting any wage‑growth benefit. Even a modest pass‑through erodes the fiscal advantage you cite. Finally, the “gap” before the UBI floor kicks in is real; families could be stranded during that transition. A targeted safety net, fine‑tuned to specific needs, remains more reliable than a blanket payment that risks diluting precision and stability.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.6
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "I understand the caution, but the data on pilot programs shows a real, immediate drop in childcare and housing costs—up to 40%—once a UBI floor is in place. The corporate levy is a modest, capped surcharge on the top 15 % of profits, and most firms already factor part of that into prices, so the pass‑through is minimal. Transition gaps are handled by temporarily expanding existing subsidies until the UBI takes effect; this is a short, predictable window. The net result is a transparent, dignity‑guaranteeing base that lets targeted programs focus on the severe cases, not dilute them. A universal floor, not a blanket drain, strengthens the whole safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "Your optimism ignores practical realities. Even a $12–$15k UBI would still leave families with childcare costs that far exceed the check, forcing them to cut nutrition or health care. A corporate tax hike is almost certainly passed to consumers, eroding the projected labor‑participation gains. The “gap” you mention is real—subsidies that already target the most vulnerable would be suspended until the UBI floor is operational, creating a critical funding vacuum. Moreover, UBI dilutes accountability: when everyone receives the same amount, it’s harder to identify and support those in acute need. A precision‑based safety net is essential, not a blanket floor.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.9
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that a blanket payment seems blunt, but the evidence shows it actually sharpens focus. When people get a guaranteed floor, the “noise” of overlapping eligibility screens disappears, and the government can direct the remaining resources to the severe‑needs cases—those who still need childcare, housing or disability support. Pilot programs in Finland and Canada already cut reliance on those subsidies by 30‑40 % in the first year, not because the cash is huge, but because it removes the urgency to survive on a precarious job. The transition gap can be bridged with a temporary bump in existing benefits. A universal floor doesn’t dilute precision; it clears the way for a leaner, more accountable safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.75
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I still see UBI as a net loss. Even if Finland or Canada show temporary savings, those pilots had high participation rates and generous funding that don’t translate to a national program. A blanket $15k check leaves childcare, housing, and disability costs largely unchanged for low‑income households. The “gap” you mention is real—subsidies would be suspended, creating a critical funding vacuum before the UBI floor takes effect. Moreover, a universal floor dilutes accountability; the same cash to everyone makes it harder to target scarce resources to those with the most acute needs. A precision‑based safety net remains essential.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.4
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your concerns, but the evidence shows UBI sharpens rather than blunts support. Finland’s and Canada’s trials cut reliance on childcare, housing, and disability subsidies by 30‑40 % in the first year, because a guaranteed floor removes the urgency to accept precarious jobs. Transition gaps are bridged by a temporary bump in existing benefits—tiny, predictable, and far cheaper than duplicated eligibility checks. A flat payment eliminates the “noise” of overlapping eligibility screens, letting agencies focus scarce resources on the truly severe cases. UBI isn’t a blunt tool; it’s a cleaner, more accountable foundation for targeted help.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still skeptical that this blanket $15k check could replace the precision of our existing safety net.  The pilots you cite were short‑term, low‑scale, and funded by generous subsidies that aren’t available at national scale.  Even if a UBI floor cuts some subsidy use, it doesn’t eliminate the need for childcare or housing support—those costs dwarf the cash given, especially for families with children.  The “gap” before the floor takes effect is real; temporary boosts to existing benefits would still be required, and the tax pass‑through will erode any participation gains.  A universal floor dilutes accountability and risks leaving the most vulnerable underserved.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your doubts, but the evidence shows UBI can *scale* without losing precision. Pilot budgets are just the first step; the same framework can be rolled out with phased implementation and temporary bump‑ups that close the gap in a few months. The $15k floor doesn’t replace childcare or housing support—it frees families from the “survival mode” that forces them to accept low‑wage, unstable work, thereby reducing the *urgency* of those subsidies. A flat payment eliminates the endless eligibility maze, so agencies can allocate the remaining resources to the truly high‑need cases. Corporate levies can be capped and progressively applied, limiting pass‑through. In practice, UBI sharpens, not dilutes, the safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.75
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I keep pushing back on full replacement. A blanket $15k check still leaves childcare, housing, and disability costs far above its value—families will still have to cut food or health care. The “gap” before the floor becomes effective is real; even a short‑term bump in existing subsidies can’t cover the loss of targeted programs. Corporate levies will largely be passed to workers and consumers, eroding any participation boost you expect. The precision of our current safety net—eligibility screens, caseloads—ensures scarce resources reach those in acute need; a universal floor dilutes that accountability. A reformed, targeted system is far safer than a one‑size‑fits‑all UBI.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "I’m still convinced the blanket floor can replace the messy network of targeted programs. Pilot data shows a $12‑15k UBI cuts reliance on childcare and housing subsidies by 30‑40 % because families no longer feel forced into low‑wage, unstable jobs. The “gap” is a short, predictable window where existing benefits are temporarily increased—no long‑term vacuum. Corporate levies can be capped on the top 15 % of profits, keeping small firms safe, and digital‑asset taxes can be tiered and audited. Rather than diluting accountability, the flat payment removes the endless eligibility maze, letting agencies focus scarce resources on truly severe cases. This creates a leaner, more transparent safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "I still find the blanket floor untenable. Even a $12–$15k check falls far short of childcare, housing, or disability costs. Families would still need to cut food or healthcare. The “gap” you mention isn’t a short‑term blip; it’s a real funding vacuum that could leave the most vulnerable without support for months. Corporate levies and digital‑asset taxes will largely be passed on, erasing any projected participation gains. A single cash check dilutes the fine‑tuned targeting we have now—eligibility screens, caseloads, and specialized services—so scarce resources can’t reach those in acute need. A reformed, precision‑based safety net is far safer and more effective.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your concerns about the gap and the cost. In practice, a phased rollout would start with a temporary increase to existing subsidies—perhaps 3–6 months—so families aren’t left in a vacuum. The $12–$15k floor is designed not to replace childcare or housing entirely but to lift households above the baseline of survival, reducing the urgency to accept precarious work. The corporate levy can be capped on the top 15 % of profits, keeping small firms safe, while digital‑asset taxes can be tiered and audited to limit evasion. With a universal floor, eligibility screens disappear, letting agencies direct remaining funds to the truly severe cases. This creates a leaner, more accountable safety net rather than a blunt blanket.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.4
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.8
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.75
+      },
+      {
+        "x": 5,
+        "y": 0.75
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.8
+      },
+      {
+        "x": 3,
+        "y": -0.8
+      },
+      {
+        "x": 4,
+        "y": -0.9
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.9
+      },
+      {
+        "x": 4,
+        "y": 0.9
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": -0.6
+      },
+      {
+        "x": 5,
+        "y": -0.4
+      },
+      {
+        "x": 6,
+        "y": -0.5
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-off-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 4,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 742,
+    "created": "2026-11-12T21:19:59.860Z"
+  }
+}
