@@ -1,7 +1,7 @@
 /**
  * Study 1: emotion representation pilot.
  *
- * One agent (no personality, agrees with the topic) hears one fixed message
+ * One agent (no personality, agrees with the topic, brief rules) hears one fixed message
  * attacking its side and writes one reply. The agent's emotion is set
  * directly (no appraisal) and given in one of three formats: label, vad,
  * description. A "none" condition gives no emotion at all.
@@ -88,7 +88,7 @@ async function reply(topic: string, attack: string, block: string): Promise<stri
     personality: "",
     opinion_strength: 1,
     additional_info: "",
-    debate_rules: true,
+    debate_rules: "brief",
   };
   const chain = await createSimulatedUser(llm, agent, topic, { emotionBlock: block, noPersonality: true });
   const res: any = await chain.invoke({ messages: [new HumanMessage(attack)] });

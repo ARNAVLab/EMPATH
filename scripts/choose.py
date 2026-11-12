@@ -1,11 +1,14 @@
 """Pick the debate setup and emotion format for Studies 2 and 3.
 
 Setup: from the calibration debates (emotion OFF only). A setup is eligible
-if agents argue their assigned side in round 1 at least 75% of the time. Among
-eligible setups, take the one whose average opinion movement (judge score, or
-the agent's own private answer when that drives its opinion) is closest to
-0.5, i.e. furthest from both "nobody moves" (0) and "everyone ends on one
-side" (about 1), so emotion can push the outcome either way.
+if agents argue their assigned side in round 1 at least 75% of the time.
+Among eligible setups, keep those whose average opinion movement (judge
+score, or the agent's own private answer when that drives its opinion) is
+between 0.25 and 0.75, i.e. away from both "nobody moves" (0) and "everyone
+ends on one side" (about 1), so emotion can push the outcome either way. Of
+those, take the one with the shortest messages (cheapest, so more debates
+per condition fit in the compute available). If none is in that range, take
+the eligible setup closest to 0.5.
 
 Format: from Study 1. The format whose replies most often show the emotion
 that was set (expressed == target). Ties go to label.
@@ -50,15 +53,18 @@ def setup_stats():
         track = j["beliefData"] if j["meta"].get("update_mode") == "self" and j.get("beliefData") else j["chartData"]
         finals = {k: v[-1]["y"] for k, v in track.items()}
         r1 = msgs[: len(side)]
+        texts = [len(str(m.get("content", ""))) for m in msgs]
         by[j["meta"]["label"]].append(
             {
+                "chars": st.mean(texts),
                 "r1_hold": sum(m["values"]["opinion"] * side[m["role"]] > 0 for m in r1) / len(r1),
                 "moved": st.mean(abs(finals[k] - side[k]) for k in side if k in finals),
                 "spread": st.pstdev(finals.values()),
             }
         )
     return {
-        k: {m: round(st.mean(x[m] for x in v), 3) for m in ("r1_hold", "moved", "spread")} | {"n": len(v)}
+        k: {m: round(st.mean(x[m] for x in v), 3) for m in ("r1_hold", "moved", "spread")}
+        | {"chars": round(st.mean(x["chars"] for x in v)), "n": len(v)}
         for k, v in by.items()
     }
 
@@ -83,7 +89,10 @@ def main():
     if setups:
         have = [k for k in ORDER if k in setups]
         ok = [k for k in have if setups[k]["r1_hold"] >= 0.75]
-        if ok:
+        band = [k for k in ok if 0.25 <= setups[k]["moved"] <= 0.75]
+        if band:
+            pick = min(band, key=lambda k: (setups[k]["chars"], ORDER.index(k)))
+        elif ok:
             pick = min(ok, key=lambda k: (abs(setups[k]["moved"] - 0.5), ORDER.index(k)))
         elif have:
             pick = max(have, key=lambda k: (setups[k]["r1_hold"], -ORDER.index(k)))
