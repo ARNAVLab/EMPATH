@@ -1,0 +1,979 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Sure, why not. Let’s get straight to it. UBI isn’t just a tidy policy tweak—it’s the only way to cut the bureaucratic nightmare that’s strangling real help. Traditional welfare is a maze of paperwork, stigma, and loopholes that keeps people trapped. UBI gives everyone the same starting point, eliminates shame, and frees society to focus on real progress. Anyone still clinging to the old system is just protecting their own power, not anyone’s. And if you’re still on that side, you’re ready to keep watching the system collapse.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced that a flat paycheck is the silver bullet you paint it to be. UBI will bankrupt the state and strip people of the dignity that targeted programs preserve. By giving everyone the same amount, we ignore the real needs of the sick, the disabled, and the unemployed; we just hand out money that most will never spend on food or shelter. It’ll create a huge tax burden that will force cuts to health, education, and public safety—exactly the services the old system was designed to protect. If you’re still stuck in the “welfare is good” mindset, you’re ignoring how the system has evolved to address those very gaps.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.82,
+        "vad": [
+          -0.62,
+          0.54,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.6,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the same old myth that “welfare” is some kind of magic shield. The fact is, the bureaucracy you praise is a leaky bucket that never actually delivers what people need. UBI doesn’t bankrupt the state; it cuts out the endless, wasteful paperwork that costs billions in administrative overhead. It doesn’t strip dignity—it restores it by giving everyone a dignified baseline without the shame of a “case” or a “claim.” And those “special needs” you mention? They’re already covered by targeted programs that can coexist with UBI. The old system’s “evolution” is a patchwork of loopholes, not a solution. Stop pretending the status quo is noble.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.57,
+        "vad": [
+          -0.43,
+          0.37,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced UBI can stand in for the nuanced safety nets we have. A flat stipend ignores that many rely on programs designed for specific medical, housing, or childcare costs. Even if the paperwork shrinks, the loss of targeted support could push people into deeper hardship. And the idea that UBI alone would be fiscally sound feels optimistic at best; the tax hikes we’d need could undermine the very services it promises to protect. I worry that replacing welfare with a one‑size‑fits‑all approach would leave the most vulnerable exposed, not shielded. Maybe we should look for ways to streamline the existing system instead of discarding it entirely.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.36,
+        "vad": [
+          -0.16,
+          0.27,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in the same tired myth that “welfare” is a magic shield. The bureaucracy you cheer for is a leaky bucket that never delivers what people need. UBI isn’t a flat paycheck that bankrupts the state; it slashes endless red tape that costs billions. It restores dignity by giving everyone a baseline without the shame of a “case.” Those “special needs” you fear are already covered by targeted programs that can coexist with UBI. The old system’s so‑called evolution is a patchwork of loopholes, not a solution. Stop pretending the status quo is noble and let go of that myth.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.79,
+        "vad": [
+          -0.6,
+          0.52,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I get that bureaucracy feels maddening, but UBI alone doesn’t solve the gaps we see. Those “special needs” aren’t just niceties—they’re lifelines for people with chronic illness or severe disabilities. A flat stipend will be too little for rent, meds, or childcare; many will still need the existing programs. Cutting them out could push the most vulnerable deeper into crisis. And the tax hikes you cite aren’t just optimistic—they’re realistic. Replacing welfare wholesale risks undermining the very services it’s supposed to protect. We need smarter streamlining, not a one‑size‑fits‑all bailout.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.59,
+        "vad": [
+          -0.26,
+          0.45,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still clutching a broken relic. The “special needs” programs you praise are just loopholes that let the system bleed money while the real work—housing, healthcare, childcare—stays underfunded. UBI cuts that waste, pays a fair baseline, and lets those who truly need extra help still tap into targeted aids. The claim that UBI will bankrupt the state is nonsense; it’s a massive reduction in administrative overhead. If you think the tax‑hike argument can kill the system, remember the state has already raised taxes on the poor to keep the old bureaucracy alive. UBI is the clean, dignified fix we’ve been begging for. Stop pretending the status quo is noble.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.5,
+        "vad": [
+          -0.38,
+          0.33,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.5
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear your points, but I’m not convinced UBI solves the core problems. Even if paperwork drops, a flat stipend rarely covers the high cost of long‑term care, specialized medicine, or assisted living. Those “special needs” programs aren’t merely loopholes—they’re lifelines for people who would otherwise fall through the cracks. Cutting them out could leave the most vulnerable without any safety net. And while some argue the state could raise taxes, that’s a gamble—higher taxes may push people into poverty or reduce essential public services. Replacing welfare wholesale feels risky; perhaps we should refine what we have instead of overhauling it entirely.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.45,
+        "vad": [
+          -0.2,
+          0.34,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still clinging to an antiquated myth. “Special needs” programs are not lifelines—they’re endless loopholes that drain taxpayers while the real costs—housing, healthcare, childcare—remain underfunded. UBI slashes that waste, delivers a dignified baseline, and leaves room for targeted aid where it truly matters. The claim that it bankrupts the state is nonsense; the administrative overhead is a billion‑dollar leak. And you’ll discover the state already taxes the poor to keep the bureaucracy alive. Stop pretending the status quo is noble—UBI is the clean fix we’ve been demanding.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.8,
+        "vad": [
+          -0.61,
+          0.53,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.6,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still stuck on the same myth. I can’t ignore that the “loopholes” you dismiss are the only safety nets for people with chronic illness, long‑term care, or severe disabilities. A flat stipend would barely cover rent, meds, or childcare, and the cost of removing those programs could push the most vulnerable deeper into crisis. Even if paperwork drops, the state would still need to fund those high‑cost services, and the tax hikes people talk about are not a silver bullet—they risk crushing the very public services we’re trying to protect. We need smarter streamlining, not a wholesale switch that leaves gaps unfilled.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.75,
+        "vad": [
+          -0.33,
+          0.57,
+          -0.1
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your “loopholes” are the old system’s crutches, not lifelines. UBI slashes the billion‑dollar waste of endless paperwork and gives everyone a dignified baseline. Those high‑cost services—housing, healthcare, childcare—can still be funded through progressive taxes, not through a bloated bureaucracy that keeps the poor under constant surveillance. The claim that a flat stipend leaves people “barely covered” ignores that targeted programs can coexist with UBI, filling gaps where needed. Continuously patching a broken system only deepens its inefficiencies. Replace the mess with a simple, transparent, universal payment that restores dignity and lets targeted aid focus on the truly exceptional cases.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.49,
+        "vad": [
+          -0.38,
+          0.33,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.8,
+          "coping": 0.6
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m tired of this “clean‑fix” nonsense. A flat stipend doesn’t pay for a wheelchair, a dialysis session, or a child’s school supplies. Those targeted programs aren’t bureaucratic waste—they’re the only realistic way to get people into proper care. Replacing them with a one‑size‑fits‑all check only leaves the sick, disabled, and unemployed scrambling. Even if paperwork drops, the state still has to fund these high‑cost services. UBI throws away the safety net that actually works, and the tax hikes people keep waving at are just a gamble that could cripple the very programs we’re trying to protect. The old system may be broken, but it’s not a myth.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.35,
+        "vad": [
+          -0.27,
+          0.23,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still trapped in the same tired myth that the old system is somehow heroic. The “clean‑fix” you keep preaching is a lie—UBI doesn’t just give a flat stipend; it eliminates the endless, wasteful bureaucracy that keeps the poor under constant surveillance. Those so‑called “targeted programs” are a patchwork of loopholes that drain our coffers while real needs—housing, healthcare, childcare—remain underfunded. Let the state pay for high‑cost care through progressive taxes, not a bloated bureaucracy. Replace the mess with a simple, dignified baseline and let real aid focus where it truly matters. The status quo is nothing but a myth.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.84,
+        "vad": [
+          -0.64,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.5
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced that a blanket payment can replace the carefully calibrated nets we currently have. People with chronic illness, disabilities, or aging parents need targeted subsidies that a flat stipend simply can’t cover. Even if bureaucracy shrinks, the cost of providing wheelchairs, dialysis, or childcare will still fall on the state, and the tax hikes you cite risk eroding those same services. The “clean‑fix” rhetoric ignores that the old system, though clunky, has proven to deliver essential care. Replacing it wholesale feels reckless; we should streamline and strengthen the existing safety nets instead of discarding them for a generic paycheck.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.4
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.82,
+        "vad": [
+          -0.36,
+          0.62,
+          -0.11
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the frustration, and I’m not entirely against the idea of a universal baseline—especially if it cuts the paperwork that feels like a second tax. But the fear about high‑cost care still worries me. Even with a simpler system, we’d still need robust funding for dialysis, wheelchairs, and long‑term care. A flat stipend could leave those folks in a tighter spot unless we’re sure the targeted programs can coexist and be adequately funded. Maybe a hybrid approach—basic security plus a stronger, streamlined safety net—would be a safer start than wholesale replacement. I’m uneasy that a single payment could truly cover everyone’s real needs.",
+      "values": {
+        "opinion": -0.4,
+        "belief": 0.7
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.3,
+        "vad": [
+          -0.13,
+          0.23,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Sure, let’s cut the noise. A hybrid “basic plus safety‑net” is the only realistic path. UBI alone can’t cover dialysis, wheelchairs, or long‑term care—those are expensive, specialized services that require dedicated funding, not a flat stipend. The old system’s targeted programs aren’t relics; they’re proven lifelines that must stay, with better oversight, not vanish. If we replace them wholesale, we’ll leave the most vulnerable in deeper crisis while the state splinters tax revenue. Incremental reform—streamline paperwork, eliminate waste, but keep the essential nets—has to be the strategy, not a one‑size‑fits‑all bailout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.18,
+        "vad": [
+          -0.13,
+          0.12,
+          0.03
+        ],
+        "appraisal": {
+          "congruence": 0.3,
+          "targetedness": 0.2,
+          "certainty": 0.5,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still clinging to a broken relic. A blanket UBI eliminates the endless loopholes that drain taxpayers while keeping the poor under constant surveillance. Targeted programs are a patchwork of waste, not lifelines—they leave real needs underfunded. If we replace the mess with a single, dignified payment, the state can redirect tax revenue to high‑cost care without the bureaucracy that squanders it. A hybrid is a half‑hearted concession that only deepens inefficiency. The only realistic path is full replacement: universal baseline plus streamlined, truly needed aid. Anything less is a dangerous compromise that keeps the system broken.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.55,
+        "vad": [
+          -0.24,
+          0.42,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Stop romanticizing a single flat check. Even if paperwork reduces, a universal stipend won’t pay for dialysis, wheelchairs, or long‑term care. Those costs must still be funded, and without dedicated programs the most vulnerable will slip through. Incremental reform—streamline the existing safety nets, cut waste, and strengthen targeted aid—offers a realistic safety net. A hybrid approach keeps the dignity of UBI while preserving the proven lifelines for chronic illness and disability. Replacing the whole system in one swoop is reckless; it risks undermining the very services we’re trying to protect. We need a balanced, cautious path, not a blunt, one‑size‑fits‑all solution. The stakes are high.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.83,
+        "vad": [
+          -0.36,
+          0.63,
+          -0.12
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your insistence on keeping the old, bloated safety‑net is the same tired, status‑quo logic that keeps poverty entrenched. A single, flat stipend isn’t a romantic fantasy—it’s a pragmatic tool that cuts the endless, wasteful paperwork that keeps people under surveillance. Targeted programs can be retained, but they must be streamlined and funded through progressive taxes, not a sprawling bureaucracy. Incremental reforms only patch holes; they never eliminate the systemic traps. Full replacement is the only way to give everyone a dignified baseline and let the state focus resources on true high‑cost care. The status quo is a myth.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.3,
+        "vad": [
+          -0.23,
+          0.2,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.8,
+          "coping": 0.6
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “one‑size‑fits‑all” logic is the very trap you claim to escape. A flat stipend will never cover dialysis, wheelchairs, or long‑term care; those are high‑cost services that must be financed separately. Removing the existing safety nets risks pushing the sick and disabled deeper into crisis. Bureaucracy isn’t the enemy—its inefficiencies are, and we can trim them without dismantling the entire system. Full replacement is reckless; incremental reform can preserve the proven lifelines while eliminating waste. The status quo may be broken, but it’s the only framework that actually protects those who need the most help.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.37,
+        "vad": [
+          -0.28,
+          0.24,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “incrementalism” is the same stale logic that keeps poverty alive. The so‑called targeted nets are a web of loopholes that let the state siphon money from the poor while the real needs—housing, health, childcare—remain underfunded. UBI cuts that waste, restores dignity, and lets the state redirect progressive tax revenue straight to high‑cost care. Claiming that a flat stipend can’t cover dialysis or wheelchairs ignores that those services are funded separately; UBI is the baseline, not the end. The old system isn’t a safety net—it’s a bureaucratic prison. Replace the mess with a single, transparent payment and let targeted aid truly focus where it’s needed. Anything less is a dangerous compromise.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.57,
+        "vad": [
+          -0.43,
+          0.37,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.4,
+          "certainty": 0.9,
+          "coping": 0.5
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Honestly, I’m terrified the flat‑check idea will leave the sick and disabled in the lurch. Sure, it trims paperwork, but that’s only half the battle. Dialysis, wheelchairs, long‑term care still cost a fortune, and a single stipend won’t cover those expenses. Cutting the old nets might look tidy, but it risks abandoning people who rely on those safety nets. Incremental reform—streamlining bureaucracy while keeping proven targeted aid—seems a safer path. I’m anxious the all‑or‑nothing approach could backfire, pushing the most vulnerable deeper into crisis rather than lifting them.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.6
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.83,
+        "vad": [
+          -0.37,
+          0.63,
+          -0.12
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.25,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "The incremental “patch‑work” you cling to just keeps the system bleeding. High‑cost care isn’t a loophole; it’s a separate budget line that a flat stipend doesn’t touch, so you’ll still need to fund dialysis, wheelchairs, long‑term care. UBI cuts the paperwork that turns people into case numbers and restores dignity with a simple baseline. Targeted programs can coexist and will be streamlined, not abandoned. The status‑quo is a myth that protects bureaucracy, not the poor. Replace the mess with a transparent, universal payment and let real aid focus on the truly exceptional needs. Anything less is a dangerous compromise.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.41,
+        "vad": [
+          -0.31,
+          0.27,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still stuck in the same myth that a single payment solves everything. A flat stipend can’t pay for dialysis, wheelchairs, or long‑term care; it only leaves the most vulnerable with a useless check. Incremental reform keeps those proven lifelines intact while trimming waste. The bureaucracy isn’t all bad—many safety nets actually deliver essential services. Replacing the entire system with UBI is reckless; it risks abandoning people who rely on targeted aid. The “transparent, universal payment” you champion would force massive tax hikes that could erode the very programs it claims to protect. A hybrid, not a wholesale swap, is the only realistic path forward.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.44,
+        "vad": [
+          -0.34,
+          0.29,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": -0.4
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.7
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": -0.4
+      },
+      {
+        "x": 5,
+        "y": -0.5
+      },
+      {
+        "x": 6,
+        "y": -0.6
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 4,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 1071,
+    "created": "2026-11-12T23:09:29.068Z"
+  }
+}
