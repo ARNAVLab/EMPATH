@@ -52,3 +52,16 @@ skip cal-soft-uo (have 3)
 skip cal-soft (have 3)
 skip cal-none-uo (have 3)
 Calibration pass finished (12 of 12 debates).
+skip cal-strict-uo (have 3)
+skip cal-soft (have 3)
+skip cal-soft-uo (have 3)
+skip cal-none-uo (have 3)
+run cal-strict-self: 3 more
+run cal-soft-self: 3 more
+run cal-brief-self: 3 more
+Config: cal-brief-self | groups: [null,null,null]
+=== cal-brief-self | topic=debatable | run 1/3 ===
+Config: cal-soft-self | groups: [null,null,null]
+=== cal-soft-self | topic=debatable | run 1/3 ===
+Config: cal-strict-self | groups: [null,null,null]
+=== cal-strict-self | topic=debatable | run 1/3 ===
