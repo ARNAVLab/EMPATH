@@ -14,6 +14,7 @@
 #   PROBE=open     private check tells the agent its earlier position and lets it move
 #   FORMAT=label   label | vad | description
 #   TOPICS="debatable universal"
+#   CELLS="off:calm on:angry frozen:angry on:excited frozen:excited"  (setting:start mood)
 source ~/.nvm/nvm.sh
 cd "$(dirname "$0")/.."
 N=${N:-8}; RULES=${RULES:-strict}; FORMAT=${FORMAT:-label}; TOPICS=${TOPICS:-"debatable universal"}
@@ -35,11 +36,10 @@ run_cell() {  # $1 emotion  $2 start  $3 topic
     $UOFLAG --probe --topics "$3" --groups "$need" --outdir "$OUT" --label "$label" || FAIL=1
 }
 
+CELLS=${CELLS:-"off:calm on:angry frozen:angry on:excited frozen:excited"}
 for topic in $TOPICS; do
-  run_cell off calm "$topic"
-  for start in angry excited; do
-    run_cell on "$start" "$topic"
-    run_cell frozen "$start" "$topic"
+  for c in $CELLS; do
+    run_cell "${c%%:*}" "${c##*:}" "$topic"
   done
 done
 echo "Study 2 pass finished (fail=$FAIL)."

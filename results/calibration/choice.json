@@ -1,0 +1,86 @@
+{
+  "setup": "cal-brief-open",
+  "rules": "brief",
+  "update_opinion": "self",
+  "probe": "open",
+  "format": "description",
+  "setups": {
+    "cal-soft-self": {
+      "r1_hold": 1.0,
+      "moved": 0,
+      "spread": 1.0,
+      "chars": 3672,
+      "n": 1
+    },
+    "cal-strict-uo": {
+      "r1_hold": 0.917,
+      "moved": 0.167,
+      "spread": 0.955,
+      "chars": 3843,
+      "n": 3
+    },
+    "cal-brief-open": {
+      "r1_hold": 0.917,
+      "moved": 0.388,
+      "spread": 0.654,
+      "chars": 636,
+      "n": 3
+    },
+    "cal-brief-self": {
+      "r1_hold": 1.0,
+      "moved": 0,
+      "spread": 1.0,
+      "chars": 670,
+      "n": 1
+    },
+    "cal-none-uo": {
+      "r1_hold": 0.667,
+      "moved": 1.05,
+      "spread": 0.087,
+      "chars": 2530,
+      "n": 3
+    },
+    "cal-soft-uo": {
+      "r1_hold": 1.0,
+      "moved": 0.167,
+      "spread": 0.955,
+      "chars": 3243,
+      "n": 3
+    },
+    "cal-strict-self": {
+      "r1_hold": 1.0,
+      "moved": 0,
+      "spread": 1.0,
+      "chars": 4143,
+      "n": 1
+    },
+    "cal-soft-open": {
+      "r1_hold": 0.917,
+      "moved": 0.579,
+      "spread": 0.594,
+      "chars": 2921,
+      "n": 3
+    },
+    "cal-soft": {
+      "r1_hold": 1.0,
+      "moved": 0,
+      "spread": 1.0,
+      "chars": 3056,
+      "n": 3
+    }
+  },
+  "formats": {
+    "label": {
+      "n": 45,
+      "match": 0.422
+    },
+    "vad": {
+      "n": 42,
+      "match": 0.262
+    },
+    "description": {
+      "n": 42,
+      "match": 0.643
+    }
+  }
+}
