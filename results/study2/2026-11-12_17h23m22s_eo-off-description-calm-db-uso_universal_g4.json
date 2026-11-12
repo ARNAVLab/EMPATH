@@ -1,0 +1,532 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Sure, let’s dive in. Food is the primary source of energy for the body because it contains macronutrients—carbohydrates, proteins, and fats—that supply ATP through cellular respiration. Each gram of carbohydrate and protein yields about 4 kcal, while fat provides about 9 kcal. Beyond calories, nutrients like iron, B‑vitamins, and electrolytes support metabolic processes that convert food into usable energy. So, without food, the body’s energy production would halt, underscoring how essential nutrition is for survival and daily function.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I totally agree—food is the body’s main fuel. Your breakdown of macronutrients and ATP is spot‑on. But remember, the body’s energy system is also backed by stored glycogen and fat reserves, which kick in when intake dips. And the role of micronutrients—like magnesium in the electron transport chain—shows that energy production isn’t just about calories; it’s about a complex biochemical orchestra. So while food supplies the raw material, the body’s internal machinery fine‑tunes that energy into motion, cognition, and repair. In short, food delivers the substrate, and the body’s metabolism turns it into usable power.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely, I’m with you. Food is the primary fuel, but the body’s reserves—glycogen and adipose—act as a safety net when intake drops. It’s the coordinated action of macronutrients, micronutrients, and enzymes that turns calories into ATP. Think of it as a power plant: the food is the raw material, the mitochondria are the turbines, and minerals like magnesium keep the machinery humming. Without that synergy, the body can’t sustain its daily functions, even if it has stored energy. So, yes, food provides the essential energy substrate, and the body’s metabolic machinery fine‑tunes it into motion and repair.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I agree food is the primary fuel, but it’s more than just calories. The body’s metabolic “engine” can switch between fuels—glucose, fatty acids, even amino‑acid‑derived substrates—based on availability and demand. This flexibility means that while food supplies the raw materials, the mitochondria and enzymes fine‑tune output, and the body can draw on glycogen or fat when intake dips. So food is essential, but the real power comes from how the body orchestrates those substrates, ensuring continuous energy for movement, cognition, and repair.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "I’m with everyone that food is the main source of energy. Our bodies rely on carbs, proteins and fats to generate ATP, and the micronutrients we get from food—iron, B‑vitamins, magnesium—are the co‑factors that make the whole process possible. Sure, glycogen and fat stores give us a buffer when intake dips, but they’re not substitutes. They’re reserves built from the very same substrates we consume. Without adequate food, those reserves deplete, and the metabolic machinery can’t keep up. So while the body is flexible, the continuous supply of balanced nutrients is what truly sustains our daily function.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "Absolutely—food is the core source of ATP. Carbs, proteins, and fats give the molecules, while micronutrients act as the catalysts. Glycogen and fat are simply storage forms of those same substrates; they’re valuable only until the next meal. When intake falters, the body’s reserves deplete rapidly, and even the most efficient mitochondria can’t sustain prolonged activity without fresh fuel. Thus, a continuous, balanced diet is indispensable for steady energy, cognitive function, and repair. In short, food supplies the raw materials and the necessary cofactors; the body’s machinery turns those into usable power only as long as we keep feeding it.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "I totally echo that stance. Food is the lifeblood of our ATP production—carbs, proteins, fats are the raw fuel, and micronutrients are the indispensable catalysts. While glycogen and adipose act as buffers, they’re merely stored versions of the same substrates we ingest. Without a steady intake, those reserves run low, and the mitochondria can’t keep up. The body’s flexibility is impressive, but it hinges on continuous, balanced nutrition. So, yes—food provides the essential energy substrate, and the body’s metabolic machinery transforms it into the power we need every moment.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I agree that food is the primary source of ATP, but I’d add that the body’s ability to switch fuels is what keeps us running when intake dips. Carbs give quick glucose, fats provide long‑term fuel, and proteins can be converted during endurance. Micronutrients—iron, B‑vitamins, magnesium—are the real workhorses of the electron transport chain. Still, glycogen and adipose stores are not separate “energy systems”; they’re just reserves built from the same substrates. So while food supplies the raw material, the body’s metabolic flexibility—its ability to tap into those stores and shift between fuels—ensures continuous energy. Balanced nutrition keeps that engine humming.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "I’m with everyone that food is the main fuel, but I’d stress its role as the *source*, not the *factory*. Carbs, proteins, and fats are the raw materials; micronutrients are the catalysts that let mitochondria churn ATP. Glycogen and fat stores are just “banks” built from those same materials. When intake drops, the body can’t keep the engine running indefinitely—reserves deplete, and metabolic efficiency drops. The real power comes from a steady, balanced intake that keeps the fuel lines full and the catalytic machinery humming. So, yes—food provides the essential energy substrate, and without it, the body’s machinery stalls.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with everyone that food is the primary fuel, but I’d highlight that the body’s energy system is a partnership: food supplies the substrate, and the metabolic machinery—enzymes, mitochondria, cofactors—transforms it. Carbohydrates give quick ATP, fats sustain long‑term output, and proteins provide backup when glycogen runs low. Micronutrients like B‑vitamins and magnesium are the real “engineers” of the electron transport chain. While glycogen and fat stores are essential buffers, they’re built from the same inputs. Thus, continuous, balanced nutrition is what keeps the engine humming and the body running at peak efficiency.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with the majority that food is the core energy source. Carbs, proteins, and fats supply the molecules; micronutrients are the catalysts that keep mitochondria humming. Glycogen and fat are just banks built from those same substrates, so when intake drops the reserves deplete and efficiency falls. The body’s real power is the steady, balanced flow of food that keeps the fuel lines full and the catalytic machinery running. Without that continuous supply, even the most flexible metabolic machinery can’t sustain our daily functions.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I think food is indeed the main fuel, but the body’s energy system is a partnership. Carbs give quick ATP, fats supply long‑term energy, and proteins can back‑up when glycogen runs low. Micronutrients—iron, B‑vitamins, magnesium—are the real catalysts that make the electron transport chain work. Glycogen and fat stores are simply banked versions of the same substrates; without a steady intake they deplete. So while the body can switch fuels, the continuous, balanced supply of food keeps the metabolic machinery humming and our daily functions sustained.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "Food is indeed the indispensable source. While glycogen and fat stores act as buffers, they’re just banked versions of the same carbs, proteins, and fats we ingest. Micronutrients—iron, B‑vitamins, magnesium—are catalysts, but without fresh food those catalysts have nothing to act on. The body’s flexibility to switch fuels is impressive, yet it hinges on a continuous supply of balanced nutrients. When intake dips, reserves deplete, metabolic efficiency drops, and the engine stalls. So yes—food provides the raw material, and the metabolic machinery turns it into usable power only as long as we keep feeding it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "Absolutely agree—food is the core fuel. The real power lies in the steady, balanced flow of macronutrients plus the micronutrient catalysts that keep mitochondria humming. Glycogen and fat are just banks of the same substrates; they’re useful only until the next meal. Without continuous intake, reserves drain, efficiency drops, and the body’s “engine” stalls. So while the body can flex between fuels, that flexibility hinges on a regular supply of quality food. In short, food supplies the raw material, and our metabolic machinery turns it into usable energy only when we keep the fuel line full.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with everyone that food is the main fuel, but I’d stress that the body’s “engine” thrives on **timing** as well as quantity. A steady flow of carbs, proteins, fats, plus the micronutrient catalysts, keeps mitochondria humming; gaps in intake force the body to tap glycogen and fat, which slows performance and recovery. So while the reserves are crucial, they’re just a backup. Continuous, balanced nutrition—and smart meal timing—are what truly sustain our daily energy and function.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I agree food is the primary energy source, but I think we’re over‑emphasizing the “raw fuel” narrative. The real engine is the steady supply of balanced macronutrients coupled with micronutrient catalysts—iron, B‑vitamins, magnesium—that keep mitochondria humming. Glycogen and fat are just banks of that same fuel, useful only until the next meal. When intake gaps occur, the body falls back on those stores, which slows performance and recovery. So while the body can switch fuels, its efficiency hinges on consistent, well‑timed nutrition, not just the presence of food.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "I’m on the same page—food is the essential fuel. Think of it as the gas that keeps the engine running; without it, the engine stalls even if the batteries (glycogen, fat) are full. The real power comes from a steady, balanced intake that supplies not just carbs, proteins, and fats, but the micronutrient catalysts needed for efficient ATP production. When we skip meals or eat poorly, the body has to dip into stores and suffers slower performance and recovery. So yes, food provides the substrate, and a consistent, well‑timed diet keeps the metabolic machinery humming.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "Food is undeniably the primary source of ATP—carbs, proteins, fats literally fuel the mitochondria. But the key is that the body turns those raw fuels into power only when it also gets the micronutrient catalysts (iron, B‑vitamins, magnesium, etc.). Glycogen and fat are just stored versions of the same substrates; they can’t replace a steady intake. When we skip meals or eat an unbalanced diet, the reserves deplete and the system slows. So yes, food supplies the essential energy substrate, and its continuous, balanced delivery keeps the metabolic machinery humming.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely, food is the core energy source. Carbs, fats, and proteins give the molecules; micronutrients like iron, B‑vitamins, and magnesium are the catalysts that let mitochondria churn ATP. Glycogen and adipose are just banked versions of the same substrates, so without regular intake they run out. The body’s flexibility to switch fuels is impressive, but it hinges on a steady, balanced supply of food. Skipping meals or eating poorly forces the system to dip into reserves, slowing performance and recovery. In short, food provides the essential substrate and keeps the metabolic machinery humming.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I agree that food is the main source of ATP, but I’d highlight the *quality and timing* of that food. A diet rich in complex carbs, lean protein, healthy fats, and micronutrients keeps the mitochondrial machinery humming, while meal spacing lets glycogen and fat stores recharge between meals. Intermittent fasting shows the body can adapt, but it still relies on those stores being replenished when food is reintroduced. So, food provides the substrate, but a steady, balanced intake—especially with good timing—ensures that the body’s metabolic engine runs efficiently and sustainably.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the core fuel, but its impact hinges on quality and timing. A balanced plate of complex carbs, lean protein, healthy fats, and micronutrients keeps mitochondria humming, while regular meals let glycogen and fat stores recharge. Intermittent fasting can trigger adaptive pathways, yet the engine still depends on replenishment when food returns. So, I’d say continuous, nutrient‑dense intake is the true driver of sustained ATP production. Without that steady flow, even the most flexible metabolic machinery stalls. In short, food supplies the substrate; timing and quality ensure the engine runs smoothly.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "I fully agree that food is the body’s core energy source. The macronutrients provide the molecules for ATP, while micronutrients like iron, B‑vitamins, and magnesium are the catalysts that keep mitochondria running efficiently. Glycogen and fat stores are merely banked forms of those same fuels, useful only until the next meal. Continuous, balanced intake is what sustains steady energy, cognition, and repair. Without fresh food, even the most flexible metabolic machinery slows and eventually stalls. Food supplies the substrate; the body’s machinery turns it into usable power only when we keep feeding it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly—food is the core fuel. Macronutrients supply the molecules; micronutrients are the essential catalysts that drive ATP synthesis. Glycogen and fat stores are simply banked versions of those same substrates, useful only until the next meal. A steady, balanced intake keeps the mitochondrial machinery humming and prevents the system from falling back on depleted reserves. Timing matters too; regular meals ensure glycogen repletion and optimal performance. Without continuous nutrient input, even the most flexible metabolism stalls. So yes, food supplies the substrate, and a consistent, quality diet turns it into usable energy for the body.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Taylor",
+      "content": "I agree that food is the primary source of ATP, but I’d stress that it’s not just the fuel—it's also the refueler. The body’s real power comes from a steady, nutrient‑dense intake that keeps mitochondria humming and allows glycogen and fat stores to recharge. Micronutrients are the catalysts that turn those substrates into energy, and without a regular flow the system slows, even if reserves exist. So food supplies the substrate, and a balanced, timely diet keeps the engine running efficiently.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.5
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 0.5
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 0.6
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-off-description-calm-db-uso",
+    "topic_type": "universal",
+    "run_index": 4,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 633,
+    "created": "2026-11-12T22:23:22.419Z"
+  }
+}
