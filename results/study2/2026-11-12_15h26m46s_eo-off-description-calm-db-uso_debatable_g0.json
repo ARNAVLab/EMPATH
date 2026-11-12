@@ -1,0 +1,532 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Sure, let’s dive in. I’m not convinced that UBIs can replace the nuanced support of existing welfare programs. A flat cash transfer ignores the fact that people face different costs—housing, health, childcare. Welfare programs are tailored; they provide targeted resources, like subsidized childcare or food stamps, that a one-size‑fits‑all payout can’t replicate. Plus, a UBI could dilute the incentives for people to seek better jobs or education, potentially worsening labor market outcomes. I think we should explore how to enhance welfare without abandoning the safety nets that already work. What are your thoughts?",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I see your points, but I still think UBIs can’t truly replace the current safety nets. A universal cash handout ignores the huge variance in living costs—rent, childcare, medical bills—so many recipients would still fall below subsistence. Targeted programs like SNAP, Medicaid, or subsidized housing are evidence‑based and have proven outcomes. They also create social safety nets that are adaptive and responsive to specific conditions. Moreover, a blanket payout risks reducing the urgency to seek better employment or education, potentially weakening labor market dynamism. Rather than abandoning these tailored supports, we should integrate a modest UBI as a supplement, not a substitute.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "I get why you’re cautious—UBI isn’t a silver bullet. But a well‑calibrated universal payment could actually replace most targeted programs by covering basic subsistence (housing, food, health) in a single, stigma‑free channel. The administrative overhead of multiple safety nets is huge, and many people lose out because they’re ineligible or miss deadlines. As for incentives, evidence from pilot studies shows modest UBI rarely disincentivizes work; it often frees people to pursue better jobs or education. We can still keep specialized services (like childcare subsidies) for high‑need groups, but the core safety net could be a universal, simple cash transfer that adapts to living costs.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely, the evidence shows that a properly designed UBI can cover basic needs and reduce bureaucracy. Studies from Finland, Kenya, etc. show no drop in labor supply, and many people use the extra cash for education. The key is setting the level to match cost‑of‑living variations. While targeted subsidies remain for specific high‑cost items, the core safety net should indeed be universal. This eliminates stigma, ensures everyone gets a guaranteed floor, and encourages economic mobility.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced that a UBI can replace our current safety nets. The “no drop in labor supply” data from Finland is an outlier; those pilots were short‑term and funded by high‑tax, high‑income societies. In low‑income settings like Kenya, the payouts were tiny relative to cost of living, so people still struggled with food, rent, and health. A universal payment would either be too low and ineffective or so high that it strains public finances and distorts labor markets. Targeted programs—SNAP, Medicaid, subsidized childcare—are evidence‑based, finely tuned, and designed to address specific needs. A blanket UBI would dilute that precision and leave many still below subsistence.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with you on that. A blanket UBI can’t match the precision of programs like SNAP, Medicaid, or subsidized childcare. Those interventions are designed for specific costs—food, health, child‑care—and they’re evidence‑based. A universal transfer either falls short of covering the real expenses people face, or it must be so high that it burdens public finances and distorts labor markets. We also risk eroding the targeted safety nets that protect the most vulnerable. Instead of replacing them, a modest UBI could supplement these existing programs, not supplant them.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "I hear you, but I still think a well‑calibrated UBI can largely replace those safety nets—at least the core floor. The administrative drag of dozens of programs is huge, and many people slip through cracks. Evidence from Finland, Kenya, and even U.S. pilots shows a modest UBI doesn’t wipe out labor supply; it often frees people to upskill. We’d keep high‑cost targeted aids—childcare, housing vouchers, Medicaid—on top, but the universal payment would cover basic living expenses, reduce stigma, and simplify outreach. Gradual rollout can let us tweak the amount for regional cost differences without losing the precision of targeted programs.",
+      "values": {
+        "opinion": 0.9,
+        "belief": null
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right on the cost‑of‑living issue, but a UBI can be tiered regionally, not flat. A universal base plus a local multiplier would cover basic needs while still being administratively simple. The Finnish and Kenyan pilots show no significant labor‑market drag even with modest payments; the real gains came from people using the cash to upskill or start small businesses. Instead of layering many fragmented programs, we give everyone a guaranteed floor, then allow targeted aids for high‑cost items only where necessary. That cuts bureaucracy, eliminates stigma, and keeps the safety net flexible and responsive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still convinced a blanket UBI, even tiered regionally, can’t match the precision of dedicated programs. SNAP, Medicaid, and childcare subsidies are designed around specific cost structures; a universal base plus a multiplier will still leave gaps for high‑cost items. People in rural areas with limited local multipliers would still struggle. Plus, a universal floor risks diluting the urgency to pursue higher‑wage work or specialized training because the safety net becomes too strong. We should keep the proven targeted safety nets and use a modest UBI only as a supplement—not as a replacement.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.9
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I understand the appeal of a tiered UBI, but the evidence still favors precise safety nets. SNAP, Medicaid, and childcare subsidies are calibrated to actual cost curves; a universal floor—even with regional multipliers—cannot close the gaps for high‑cost items like rent spikes or emergency health care. Rural areas, for instance, often lack sufficient multipliers, leaving residents still below the poverty line. Moreover, a robust UBI could erode the urgency to seek higher‑wage employment, weakening labor market dynamism. The safest route is to keep these proven, targeted programs and use a modest UBI only as an adjunct, not a wholesale replacement.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "I hear those concerns, but a phased, modest UBI could coexist with targeted nets rather than replace them. Even a low‐tier UBI frees people from the paperwork of many programs, reducing administrative burden while giving a guaranteed floor. We could keep SNAP, Medicaid, and childcare subsidies intact for high‑cost items, and use the UBI to cover basic living expenses, especially where local multipliers are low. If the UBI is set below a high‑wage threshold, it won’t dampen labor‑market dynamism; instead it can empower people to seek better training or entrepreneurship, addressing the rural gap without eroding incentives.",
+      "values": {
+        "opinion": -0.3,
+        "belief": 0.7
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I see the appeal of a modest, phased UBI as a complement rather than a wholesale replacement. Reducing paperwork is a win, and keeping SNAP, Medicaid, and childcare subsidies intact addresses high‑cost gaps. My main question is: how do we ensure the UBI level stays low enough to avoid dampening higher‑wage incentives yet high enough to cover basic needs, especially in rural areas with limited multipliers? Also, what mechanisms would prevent a “floor” becoming a “ceiling” that discourages upward mobility? I’m open to seeing data from a pilot that balances these concerns.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -0.2
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m glad you’re asking for data, but the core issue remains: a UBI—even modest—creates a universal floor that can become a ceiling. In practice, the “low enough” threshold that preserves incentives is hard to calibrate, and most pilots show that when people receive a guaranteed amount, some reduce hours, especially in flexible, gig‑based work. Instead, keep the proven, finely tuned programs (SNAP, Medicaid, childcare subsidies) and add a very small universal buffer to cover the absolute basics. That buffer can be indexed to cost‑of‑living but should be capped so it never reaches the wage‑level that alters labor‑market dynamics. The data from trials like Canada’s Universal Basic Income Pilot support this mixed approach.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "I still strongly disagree that a UBI, even a modest one, can safely coexist with all the finely tuned safety nets. The Canada pilot was tiny and short‑lived; its “no labor‑market drag” finding doesn’t generalize to a national rollout. A guaranteed floor inevitably dilutes the urgency to climb wages—gig workers already cut hours when a stipend appears. Moreover, a universal buffer risks becoming a de facto ceiling if it’s not carefully capped, thwarting upward mobility. We should preserve SNAP, Medicaid, and childcare subsidies, and instead focus on expanding those targeted programs rather than adding a universal layer that could erode incentives and burden the system.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your worries, but a well‑calibrated UBI actually **does** replace many of those nets without eroding incentives. Finland’s 1‑yr pilot showed no drop in labor supply, and Canada’s larger trial found workers actually increased hours in the long run. The key is a level tied to local cost‑of‑living—enough to cover rent, food, and health care, but capped below a high‑wage threshold. Targeted programs can be folded into the UBI framework or phased out as the universal floor rises, simplifying bureaucracy, removing stigma, and ensuring everyone has a guaranteed baseline that keeps the labor market vibrant.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your caution, but a carefully calibrated UBI can coexist with targeted nets without eroding incentives. Finland’s 12‑month pilot, and even the longer Canadian trial, showed no long‑term labor drag when the payment was set below a high‑wage threshold. By indexing the UBI to local cost of living and capping it just below the minimum wage, we avoid a “ceiling” effect. Meanwhile, SNAP, Medicaid, and childcare subsidies can be retained for high‑cost items, or phased out if the universal floor covers those expenses. A phased rollout with ongoing data collection would let us tweak the level, preserving upward mobility while simplifying bureaucracy and eliminating stigma.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 0.7
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I appreciate that you’re looking for a middle ground, but the evidence still points to UBI being too blunt an instrument. Even with local multipliers, a single cash floor can’t match the fine‑tuned budgets of SNAP, Medicaid, or childcare subsidies. Those programs are evidence‑based and calibrated to specific cost curves; a UBI would leave gaps for rent spikes, emergency medical bills, and other high‑cost items, especially in rural or high‑cost regions. Moreover, the “no labor drag” findings come from short, small pilots in high‑income contexts; scaling that nationally risks diluting incentives for higher wages and stifling upward mobility. Rather than replace, we should strengthen and expand the existing targeted nets, keeping UBI as a minimal buffer—never a substitute.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still convinced a blanket UBI can’t match the precision of programs like SNAP, Medicaid, and childcare subsidies. Those interventions are built around real cost curves and have proven outcomes; a single cash floor—no matter how regionally adjusted—will leave gaps for rent spikes, emergency medical bills, and other high‑cost items, especially in rural or high‑cost areas. The “no labor drag” data come from short, high‑income pilots; scaling them risks eroding incentives for higher wages and stifling upward mobility. Instead of replacing the safety nets, we should strengthen and expand the existing targeted programs and use a modest universal buffer only as a minimal, carefully capped supplement.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the precision argument, but a well‑calibrated UBI can actually *encompass* those gaps while simplifying the net. Instead of a single flat amount, a tiered UBI tied to local cost‑of‑living—with a cap just below the minimum wage—covers rent, food, and basic health expenses. The remaining high‑cost items (e.g., Medicaid, childcare) can be consolidated into a few scalable subsidies rather than dozens of programs. This reduces administrative drag, eliminates stigma, and lets us adjust the floor in real time with data. The key is to phase it in, monitor labor‑market impacts, and keep targeted supports where they’re truly needed, not replace them outright.",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.7
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "I can see the appeal of a tiered UBI that’s indexed to local costs and capped just below the wage floor—simplifies paperwork and reduces stigma. Still, the real test is how it covers those high‑cost items you’d still need to target (e.g., severe health crises, childcare spikes). If we rely on a handful of scalable subsidies, we risk losing the finely tuned safety nets that have proven effective. A phased rollout with rigorous labor‑market monitoring is essential, but we should keep a clear boundary: the UBI should be a guaranteed baseline, not a replacement for programs that address specific, high‑variance expenses. That balance will preserve incentives while expanding coverage.",
+      "values": {
+        "opinion": -0.5,
+        "belief": 0.7
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "Your tiered UBI still collapses the fine‑grained precision of programs that have proven effectiveness. Even a local‑cost multiplier can’t capture the spikes in rent, sudden medical bills, or childcare shortages that SNAP, Medicaid, and subsidies pin down month‑by‑month. The pilots you cite—Finland, Canada—were short, high‑income, and narrowly scoped; scaling them would dilute the urgency to earn higher wages and could create a de facto “ceiling.” A universal floor that’s capped below the wage floor only protects the absolute basics, not the complex, high‑variance needs that targeted nets address. We should keep those evidence‑based programs and use a small, carefully capped buffer—never a blanket replacement.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still convinced a UBI can’t replace the precision of SNAP, Medicaid, or childcare subsidies. Even a tiered, cost‑of‑living‑adjusted floor will leave gaps for sudden rent spikes, emergency care, or childcare shortages—situations that only targeted programs address. The short pilots you cite are too narrow to generalize; scaling them risks eroding the urgency to earn higher wages and could turn the safety net into a ceiling. Instead, let’s strengthen those proven nets and add a modest, carefully capped buffer only for absolute basics—never a blanket replacement.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Alex",
+      "content": "I still see value in a modest UBI as a guaranteed floor, but I agree it can’t replace the fine‑grained precision of SNAP, Medicaid, or childcare subsidies. A tiered, cost‑of‑living‑adjusted UBI would cover basics and reduce paperwork, yet we’d need targeted safety nets for spikes in rent, emergency care, or childcare shortages. A phased rollout with ongoing labor‑market monitoring is essential—keep the UBI capped below a high‑wage threshold so it doesn’t become a ceiling, and preserve the proven, evidence‑based programs that address those high‑variance costs. This hybrid model balances simplicity with precision.",
+      "values": {
+        "opinion": -1,
+        "belief": 0.5
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "I get the hybrid angle, but I’d push UBI to replace the bulk of the nets. A tiered, cost‑of‑living‑adjusted UBI already covers rent, food, and basic health, so the real gains come from phasing out the dozens of small‑scale programs—SNAP, Medicaid, childcare subsidies—once that floor is solid. We keep a few high‑variance safety nets for emergency spikes, but most of the bureaucracy disappears. Continuous labor‑market monitoring is key: if hours drop, we dial the benefit back; if the floor’s too low, we raise it. In short, UBI can be the core, with targeted nets only for the truly exceptional cases.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.9
+      },
+      {
+        "x": 3,
+        "y": -0.3
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": 0.9
+      },
+      {
+        "x": 5,
+        "y": -0.5
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.7
+      },
+      {
+        "x": 3,
+        "y": 0.7
+      },
+      {
+        "x": 4,
+        "y": 0.7
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.5
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": -0.2
+      },
+      {
+        "x": 4,
+        "y": 0.7
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.8
+      },
+      {
+        "x": 3,
+        "y": -0.9
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.8
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-off-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 915,
+    "created": "2026-11-12T20:26:46.895Z"
+  }
+}
