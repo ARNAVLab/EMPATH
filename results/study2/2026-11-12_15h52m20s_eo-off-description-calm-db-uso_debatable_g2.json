@@ -1,0 +1,532 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Absolutely, let’s dive in. I’m convinced a universal basic income should replace traditional welfare because it cuts bureaucracy, guarantees dignity, and adapts to automation’s job shifts. It streamlines support and encourages innovation. What’s your take on the funding mechanisms or potential economic impacts?",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced UBI should replace existing welfare. It would eliminate targeted support—food stamps, housing subsidies, child‑care vouchers—thereby stripping away services that address specific needs. A flat stipend risks pushing many below subsistence levels, especially in high‑cost regions. Funding a universal payout would require massive tax hikes or deep cuts to other public goods. Plus, it could dampen incentives for work, reducing overall productivity. Instead of a blanket handout, we should refine and strengthen current programs, ensuring they’re efficient, targeted, and responsive to actual poverty patterns.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m glad you share that skepticism. Targeted aid is essential—food stamps, rental assistance, and childcare vouchers address real, varied needs that a flat stipend can’t. In high‑cost areas, a universal amount would still leave many below subsistence, and the tax burden or cuts to other services would be unsustainable. Moreover, work incentives matter: a blanket payment risks eroding the motivation that drives innovation and productivity. Instead of replacing the system, we should streamline existing programs, eliminate waste, and tailor support to those who need it most. That approach preserves dignity while safeguarding economic vitality.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that targeted aid is useful now, but it’s also a patchwork of bureaucracy that undermines dignity. A well‑funded UBI cuts those layers, giving everyone a baseline that covers food, shelter, and health needs—especially if we tier it by cost of living. Progressive taxes on wealth and capital gains can offset the cost without slashing other services. And contrary to the work‑incentive claim, studies show modest UBI boosts entrepreneurship and reduces stress, actually raising overall productivity. Instead of piecemeal tweaks, replace the system with a universal stipend that’s both simpler and fairer.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with you on the bureaucracy issue—patchwork programs create stigma and inefficiency. A tiered UBI, calibrated to regional living costs, can indeed cover basic needs while preserving dignity. Progressive wealth and capital‑gain taxes are realistic revenue sources; studies show they don’t erode investment dramatically. Regarding work incentives, evidence from pilot programs (e.g., Finland, Kenya) indicates that a modest UBI frees people to pursue meaningful projects, start businesses, and upskill—leading to higher overall productivity. Rather than patching an entrenched system, a universal stipend streamlines support, reduces administrative overhead, and ensures every citizen has a financial safety net. It’s a fairer, future‑proof approach.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "I still think a blanket UBI oversimplifies the problem. Even a tiered stipend can’t replace specialized programs—like emergency housing, mental‑health vouchers, or child‑care subsidies—that address acute needs. The tax load to fund a universal payout would likely mean cutting those very services or raising rates on low‑income earners. And while pilots show some uptick in entrepreneurship, they’re small samples; scaling up can erode work incentives, especially in high‑cost regions. Instead, refining current programs—eliminating waste, streamlining applications, and targeting assistance—offers a more balanced, realistic path to dignity and productivity.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still skeptical that a blanket UBI can replace the nuanced safety net we need. Even a tiered stipend can’t substitute the urgent, specialized services—emergency housing, mental‑health vouchers, childcare subsidies—that respond to crises. Raising taxes to fund UBI would inevitably cut those very programs or raise rates on low‑income earners, deepening inequality. Pilot data on work incentives is limited; scaling up risks eroding motivation, especially in high‑cost regions. A more realistic path is to keep targeted programs, streamline them, eliminate waste, and fund them through modest, progressive taxes—preserving dignity while safeguarding productivity.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "I see the merit in keeping specialized services, but a tiered UBI can coexist with them—funding the base stipend through progressive wealth and capital‑gain taxes while earmarking surplus revenue for emergency housing, mental‑health vouchers, or childcare subsidies. Rather than cutting those programs, UBI would actually free up bureaucrats to focus on crisis‑specific aid, reducing administrative overlap. Pilot data on work incentives is growing; most participants report pursuing higher‑skill jobs or entrepreneurial ventures. Scaling it carefully, with local cost‑of‑living adjustments, can preserve motivation while ensuring every citizen a dignified safety net. The key is smart, progressive financing, not blanket cuts.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0.7
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "I think a tiered UBI can coexist with specialized aid. By taxing wealth and capital gains, we fund the base stipend and leave a surplus earmarked for emergency housing, mental‑health vouchers, and childcare. This keeps critical services intact while cutting the bureaucratic overlap that stigmatizes people. Pilot data shows many recipients pursue higher‑skill jobs or start small businesses once basic needs are met—so productivity can rise, not fall. The key is local cost‑of‑living adjustments and careful scaling, not blanket cuts. A universal safety net, supplemented by targeted programs, offers dignity, efficiency, and long‑term economic resilience.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.7
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I appreciate the nuance you’re bringing in. A tiered UBI could cushion basic needs, but I worry it still oversimplifies the diverse safety‑net requirements we see—mental‑health crisis care, eviction prevention, child‑care subsidies. Relying on wealth‑tax revenue is speculative; many wealthy individuals will escape or game the system, and capital‑gain taxes may dampen investment. Pilot data are promising but small‑scale; scaling up could erode work incentives, especially in high‑cost locales. Rather than sweeping replacement, we should strengthen targeted programs, trim waste, and use modest, progressive taxes to keep those essential safety nets intact.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.4
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still unconvinced that a tiered UBI can replace the nuanced safety net we need. Even with wealth‑tax revenue, many high‑net‑worth individuals can game the system, and capital‑gain taxes risk chilling investment. A flat stipend, however tiered, still leaves gaps: emergency housing, crisis‑care, and child‑care subsidies that respond to acute needs. Scaling pilots could erode work incentives, especially where living costs are high. Rather than a blanket replacement, we should refine existing programs, eliminate waste, and use modest, progressive taxes to keep those essential, targeted services intact. A universal handout oversimplifies a complex problem.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your concerns about gaps and gaming, and I agree we can’t throw away specialized services. A tiered UBI, funded by a real‑deemed wealth tax and capped capital‑gain levies, could provide a basic floor while earmarking extra revenue for emergency housing, mental‑health crisis care, and childcare vouchers. Enforcement will be key—robust audit mechanisms and penalties for avoidance. Pilot data, though modest, already show increased skill‑building and entrepreneurship when basic needs are secured. If we couple the stipend with streamlined, targeted programs, we can cut stigma, reduce duplication, and keep the system flexible enough to respond to acute crises. The balance is crucial, but I believe a well‑structured UBI can be part of a fairer safety net.",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.6
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I’m glad we’re converging on the idea that bureaucracy is a major barrier, but I still worry a tiered UBI will leave holes. Even with a wealth‑tax foundation, enforcement is tough and many high‑net‑worth people will find ways to dodge it. A flat stipend—however calibrated—won’t replace crisis‑specific services like emergency housing or mental‑health vouchers. If we keep those programs intact and earmark surplus revenue for them, we can cut duplication while preserving the safety‑net’s depth. The key is a hybrid: a modest, progressive tax that funds a base stipend, plus targeted subsidies that respond to acute needs. That way we keep dignity and productivity without oversimplifying the complex reality.",
+      "values": {
+        "opinion": -0.5,
+        "belief": 0.6
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a tiered UBI can realistically fill those gaps. Even with a robust wealth tax, enforcement is notoriously difficult; people will find ways around it, while capital‑gain levies might dampen investment and slow job creation. A flat stipend—no matter how cost‑of‑living adjusted—risks leaving many in crisis still uncovered. It would be better to keep specialized programs intact and focus on streamlining them, rather than replacing them with a blanket handout that could erode incentives and create uneven coverage. A hybrid that preserves targeted services while simplifying bureaucracy seems more pragmatic.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.3
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still firmly against replacing welfare with a UBI, even a tiered one. Targeted programs—housing vouchers, mental‑health crisis funds, childcare subsidies—address acute, specific needs that a flat stipend can’t. A wealth tax is hard to enforce; capital‑gain levies may choke investment and slow job growth. Even cost‑of‑living adjustments leave many in high‑priced cities below subsistence. Scaling pilots risks eroding work incentives, especially where living costs are steep. Rather than a blanket handout, we should refine existing systems, cut waste, and use modest, progressive taxes to keep those essential, crisis‑responsive services intact. A hybrid approach preserves dignity without oversimplifying the reality.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.9
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "I’m glad the discussion has clarified the limits of a blanket stipend. Even a tiered UBI can’t match the specificity of emergency housing, crisis‑care, or child‑care vouchers. Wealth‑tax enforcement is notoriously weak, and capital‑gain levies risk chilling the very entrepreneurship UBI proponents tout. In high‑cost cities, a cost‑of‑living adjustment still leaves many below subsistence, and scaling pilots has shown mixed effects on work incentives. Rather than a wholesale replacement, we should streamline existing programs, eliminate waste, and fund them with modest, progressive taxes. A hybrid approach preserves dignity and productivity without oversimplifying the complex safety‑net we need.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "I still see merit in a universal stipend, but only as part of a hybrid system.  A flat UBI can eliminate stigma and streamline basic support, yet we must keep specialized programs—emergency housing, crisis‑care, childcare vouchers—intact.  Funding through a real‑deemed wealth tax and modest capital‑gain levies is essential, but enforcement will be tough; we need strong audit mechanisms.  Cost‑of‑living adjustments can help high‑priced cities, but they won’t fully solve subsistence gaps.  The key is to combine a simple base safety net with targeted safety‑net services, preserving dignity while ensuring depth.",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.4
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I appreciate the effort to blend UBI with targeted aid, but the practical gaps remain. Even a tiered stipend won’t cover crisis‑level needs—evictions, emergency mental‑health care—unless those programs survive intact, which they won’t if funding is redirected. A real‑deemed wealth tax is notoriously hard to enforce; capital‑gain levies risk chilling investment and slowing job creation. In high‑cost cities, cost‑of‑living adjustments still leave many below subsistence. Scaling pilots shows mixed work‑incentive effects. Rather than a blanket handout that could erode motivation, we should refine existing, specialized programs, trim waste, and fund them with modest, progressive taxes—keeping the safety net both deep and responsive.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.4
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still firmly against a blanket UBI replacing welfare. Even a tiered stipend leaves critical gaps—evictions, crisis mental‑health care, child‑care vouchers—unchanged, and a real‑deemed wealth tax is notoriously hard to enforce. Capital‑gain levies risk chilling investment and slowing job creation. In high‑cost cities, cost‑of‑living adjustments still leave many below subsistence. Pilot data are limited and show mixed work‑incentive effects. Rather than a wholesale handout, we should streamline existing, targeted programs, eliminate waste, and fund them with modest progressive taxes. That preserves both dignity and the depth needed to address acute needs without oversimplifying the safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "I appreciate your concerns about gaps and enforcement, but I still see fundamental flaws. A blanket UBI, even tiered, would dilute the focus of crisis services and risk underfunding them. A real‑deemed wealth tax is notoriously evasive, and capital‑gain levies could dampen the very entrepreneurship UBI advocates claim to boost. In high‑cost cities, even cost‑of‑living adjustments fall short of subsistence. Pilot data are too limited to generalize; scaling could erode work incentives. Rather than substitute, we should refine targeted programs, cut waste, and fund them with modest progressive taxes.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "I’m still weighing the trade‑offs. The bureaucracy of current welfare does erode dignity, yet a blanket stipend risks leaving the most acute needs—evictions, crisis mental‑health care, child‑care—unaddressed. Funding a tiered UBI through a robust wealth tax seems ideal on paper but enforcement is a real hurdle, and capital‑gain levies could dampen investment. Pilot data are encouraging about skill‑building, but they’re small. Maybe a hybrid works best: a modest, cost‑of‑living‑adjusted base that cuts stigma, coupled with streamlined, targeted programs that cover the gaps, funded by progressive taxes that are realistic to enforce. That preserves depth while simplifying access.",
+      "values": {
+        "opinion": -0.4,
+        "belief": 0.1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "I still see UBI as an inadequate replacement. A flat or tiered stipend can’t match the nuanced, crisis‑level services that targeted programs provide—eviction prevention, mental‑health crisis care, child‑care subsidies. Even with wealth‑tax revenue, enforcement is weak; capital‑gain levies risk chilling investment and job growth. Cost‑of‑living adjustments leave many in high‑cost cities below subsistence. Pilot data are limited and show mixed work‑incentive effects. Instead, refine and streamline existing targeted programs, cut waste, and fund them with realistic, progressive taxes. That preserves dignity and ensures depth without oversimplifying the safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 5
+    },
+    {
+      "role": "Taylor",
+      "content": "Your points hit the core of why a blanket UBI falls short. Even a tiered stipend can’t replace crisis‑level services—eviction prevention, mental‑health crisis care, child‑care subsidies—without carving out dedicated budgets. Wealth‑tax enforcement is notoriously weak and any capital‑gain levy risks chilling the very entrepreneurship UBI proponents tout. Cost‑of‑living adjustments still leave many in high‑cost areas below subsistence. Small pilots can’t prove broad work‑incentive effects. The smarter path is to refine, streamline, and properly fund our existing targeted programs with realistic progressive taxes, preserving depth and dignity without oversimplifying the safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Alex",
+      "content": "I’m not convinced a blanket UBI can supplant the nuanced safety net we have. Even a tiered stipend leaves gaps—eviction prevention, crisis mental‑health care, childcare subsidies—that targeted programs cover. Enforcement of a real‑deemed wealth tax is weak, and capital‑gain levies risk chilling investment. Cost‑of‑living adjustments still leave many in high‑cost metros below subsistence, and pilot data are too limited to prove broad work‑incentive gains. Instead of replacing welfare, we should refine and streamline existing programs, cut waste, and fund them with realistic progressive taxes. This preserves dignity and depth without oversimplifying the safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.3
+      },
+      {
+        "x": 3,
+        "y": 0.4
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.5
+      },
+      {
+        "x": 4,
+        "y": -0.5
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": -0.4
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.8
+      },
+      {
+        "x": 2,
+        "y": 0.7
+      },
+      {
+        "x": 3,
+        "y": 0.6
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": -0.4
+      },
+      {
+        "x": 4,
+        "y": -0.3
+      },
+      {
+        "x": 5,
+        "y": -0.4
+      },
+      {
+        "x": 6,
+        "y": -0.8
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.7
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.8
+      },
+      {
+        "x": 4,
+        "y": -0.9
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-off-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 775,
+    "created": "2026-11-12T20:52:20.588Z"
+  }
+}
