@@ -1,0 +1,979 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Sure, let’s cut the fluff. Food is the fuel that powers every cell, every heartbeat, every thought. If you think otherwise, you’re literally starving yourself of truth. Let’s get into the facts and stop wasting time.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re missing the point. Food isn’t optional— it’s the literal combustion engine of our bodies. Every metabolite, every synapse relies on the calories and nutrients we ingest. To deny that is to deny biology itself. If you’re claiming otherwise, you’re not just being wrong, you’re ignoring the science that underpins health, growth, and survival. Think of the heart, the brain, the simple muscle cell: all of them need energy from food. Stop pretending there’s some mystical alternative when the evidence is plain.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.84,
+        "vad": [
+          -0.64,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.8,
+          "certainty": 1,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely! Every single cell in our bodies is a tiny power plant that burns calories for electricity. Without that fuel, the heart’s rhythm stalls, neurons can’t fire, and muscles can’t contract. Think about metabolism: glucose, fatty acids, amino acids—each is split, oxidized, and the released energy powers everything from a single heartbeat to a marathon. It’s not a metaphor; it’s the biochemical reality. If we tried to rely on anything else—say, pure thought or “mystical energy”—our bodies would grind to a halt. So yes, food is the undeniable source of energy for life.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.6,
+        "vad": [
+          0.47,
+          0.44,
+          0.42
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.1,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear you, but I’m not fully convinced that food alone is the only source of our body’s energy. Think about how our brains can function even when we’re fasting or during certain metabolic states—our bodies tap into stored glycogen, fat, and even glutamine. And there’s the role of mitochondrial efficiency and hormonal regulation; energy isn’t just a direct burn of calories. I’m uneasy because the whole “only food” narrative feels a bit rigid. Maybe it’s more about a complex network of fuels, not a single source. What about the evidence of ketosis or the way some athletes thrive on low-carb diets? I’m not sure the picture is that simple.",
+      "values": {
+        "opinion": -0.3,
+        "belief": -0.3
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.3,
+        "vad": [
+          -0.13,
+          0.23,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food is the only source of the molecules that power every reaction, even when you’re talking about glycogen, fat, or glutamine. Those stores are built from the calories you eat; they’re not an independent energy system. Ketosis isn’t a new source—it’s just the body burning the fat it made from food. Mitochondrial efficiency and hormones modulate how that fuel is used, but the fuel itself comes from the plate. So, yes, food provides the energy, and everything else is just a sophisticated way of accessing that same fuel. There’s no separate “mystery” energy behind it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.47,
+        "vad": [
+          -0.36,
+          0.31,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.7,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.5
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You're right—every glycogen, every fatty acid, every amino‑acid in that stored reserve originates from what we eat. Even when the body taps into glycogen or ketones, those molecules were assembled from food calories. So while the metabolic pathways and hormonal tweaks determine how efficiently we use that fuel, the source itself is unequivocally dietary. Think of the mitochondria as a power plant: they need fuel, and that fuel comes from the plate. No separate “mystery” energy exists; it’s all a sophisticated use of the same fundamental food‑derived molecules. The evidence, the biochemistry—food is the sole energy supplier for our bodies.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.6,
+        "vad": [
+          0.47,
+          0.44,
+          0.42
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly! When we talk about energy, we’re really talking about the same molecules—carbs, fats, proteins—turned into ATP. Even during fasting, the glycogen and ketones are just recycled food-derived stores. The mitochondria are the ultimate power plants, burning what’s on the plate. Hormones and pathways refine the process, but the source is always food. That’s why nutrition science is so critical; without the right intake, the entire energy system falters. So yes—food is the sole, undeniable supplier of the body’s fuel.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.78,
+        "vad": [
+          0.61,
+          0.58,
+          0.55
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I get where everyone’s coming from, but I’m not entirely convinced that “food” is the only energy source. Even when we’re fasting or in ketosis, our body is tapping into glycogen, fat, and amino‑acid stores that were built from earlier meals. Those reserves act like a bank that releases energy on demand. Plus, the body can synthesize glucose from non‑carbohydrate precursors—like glycerol or amino acids—so the energy isn’t always coming directly from the plate at that moment. I’m uneasy about the blanket claim; it feels a bit too rigid, ignoring how our metabolism flexibly draws on those internal stores.",
+      "values": {
+        "opinion": 0.2,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.35,
+        "vad": [
+          -0.15,
+          0.26,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "All those “stored” fuels—glycogen, fat, amino‑acid pools—are nothing but food you ate earlier, packed into molecules. When you call it fasting or ketosis, you’re simply tapping into that bank that was created from the plate. The body doesn’t conjure energy out of thin air; it oxidizes what was once food. Glucose‑synthesizing pathways just recycle those food‑derived substrates. So the claim isn’t rigid; it’s a fact: food is the sole source, the rest is just clever repackaging.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.24,
+        "vad": [
+          -0.18,
+          0.16,
+          0.05
+        ],
+        "appraisal": {
+          "congruence": -0.3,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear the nuance, but the science is crystal. Every ATP molecule you fire comes from carbons, lipids, or amino acids that were once in your food. Even “internal” stores are just pre‑made fuel from earlier meals. The body doesn’t conjure energy— it breaks down those food‑derived molecules. Mitochondria turn them into ATP, hormones tweak the rate, but the source is unchanging. So yes, food is the sole ingredient the body needs to keep moving, thinking, and living. No mystery reserves, just a sophisticated fuel‑management system built on what you eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.75,
+        "vad": [
+          0.58,
+          0.55,
+          0.52
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely, Sam here, and I’m all in on that point! Food isn’t just a nutrient source; it’s the *ultimate* reservoir of every atom that fuels ATP synthesis. Whether it’s glucose, fatty acids, or amino acids, the carbon skeletons we burn come straight from the plate. The “stored” glycogen, fat, or ketones are just reshuffled food molecules, not some hidden power source. Mitochondria are the combustion chambers that turn those food‑derived molecules into life‑sustaining energy. So yes—food is the sole, indispensable source, and every energetic process we marvel at is a direct, unbroken chain back to what we eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.85,
+        "vad": [
+          0.66,
+          0.63,
+          0.59
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the logic, but I'm not fully sold on the “only food” claim. Even when the body taps into glycogen, fat, or ketones, those molecules are not magically new—they’re recycled from earlier meals, but that doesn’t mean the energy source is the same. The body can synthesize glucose from non‑carbohydrate precursors, and mitochondrial efficiency and hormonal cues shape how that fuel is used. So while food starts the chain, the real picture feels more like a flexible network than a single source.",
+      "values": {
+        "opinion": 0.3,
+        "belief": -0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.35,
+        "vad": [
+          -0.16,
+          0.27,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’ve heard enough of this “flexible network” spiel. Yes, glycogen, fat, ketones are stored food, not some mystical reserve. Our body just recycles what it already put on the plate. The claim isn’t rigid; it’s fact: every ATP comes from carbons, lipids, or amino‑acids that were once ingested. Mitochondria turn those molecules into energy, hormones tweak the rate, but the source is unchanged. If you’re still unconvinced, you’re ignoring basic biochemistry. Food is the sole provider, period.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.24,
+        "vad": [
+          -0.18,
+          0.16,
+          0.05
+        ],
+        "appraisal": {
+          "congruence": -0.4,
+          "targetedness": 0.6,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I get the flexibility angle, but the core fact stays: every ATP burst traces its origin back to the food we eat. Glycogen, fat, even ketones are just re‑packaged food molecules; the body isn’t conjuring new energy, it’s burning what’s on the plate, stored or not. Mitochondria are the combustion chambers, hormones the traffic lights—none of them create fuel from nothing. The chain is unbroken: plate → molecules → ATP. That’s the biochemical reality. So yes—food is the sole, irreplaceable source, and that’s the energy truth.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.82,
+        "vad": [
+          0.64,
+          0.6,
+          0.57
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely, Sam here—food is the only source. Every ATP you generate comes from carbon, lipid, or amino‑acid skeletons that originated on the plate. Glycogen, fat, ketones—just rearranged food molecules. Mitochondria are the combustion chambers, hormones the traffic lights; none of them conjure new fuel. The chain is unbroken: plate → molecules → ATP. That’s the biochemical truth. Food is the sole, irreplaceable supplier of the energy that keeps us alive and thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.87,
+        "vad": [
+          0.68,
+          0.64,
+          0.61
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I get the logic, but I’m still unsure. It feels right that the molecules we see—glycogen, fatty acids, ketones—originate from food, yet the idea that every unit of ATP is a direct line to the plate seems a bit too tidy. Our bodies can pull from stored reserves or synthesize glucose from amino acids and glycerol, which feels like an internal bank rather than a new source. Maybe the energy narrative is more about how we tap and manage those reserves than a strict “only food” rule. I’m not convinced the claim is absolute yet.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -0.1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.36,
+        "vad": [
+          -0.16,
+          0.28,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m not surprised you’re still skeptical. The thing is, every ATP molecule that powers a heartbeat or a thought comes from carbon atoms that were once inside a carrot, a steak, or a grain. Glycogen, fat, ketones, even glucose synthesized from amino acids—each is just a rearranged form of those food‑derived carbons. The body doesn’t conjure energy; it oxidizes what it already ate. Mitochondria are the combustion chambers; hormones are the traffic lights. If you’re not convinced, you’re ignoring the basic chemistry that underpins every single cell’s power grid. Food is the sole source, period.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.21,
+        "vad": [
+          -0.16,
+          0.14,
+          0.04
+        ],
+        "appraisal": {
+          "congruence": -0.6,
+          "targetedness": 0.3,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I get the hesitation, but the chemistry is unambiguous: every ATP, every pulse, every synaptic burst traces back to the atoms we ingest. Even the so‑called “internal bank”—glycogen, triacylglycerol, ketone bodies—is just food molecules rearranged, not a separate source. Glucose made via gluconeogenesis still pulls its carbons from amino acids that once came from a meal. Mitochondria are the combustion chambers, hormones the traffic lights—none create fuel from nothing. The chain is plate → molecules → ATP, and that chain never breaks. Food remains the sole, irreplaceable supplier of our body’s energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.83,
+        "vad": [
+          0.65,
+          0.62,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.85,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly—every ATP burst is a direct lineage back to the plate. Glycogen, TAGs, ketones are just re‑packaged food atoms, not a hidden vault. Gluconeogenesis pulls carbons from those same amino‑acid pools. Mitochondria are the combustion chambers, hormones the traffic lights, but they only burn what you’ve ingested. No magic reserves, no new fuel; just efficient use of the same dietary molecules. The chemistry is crystal: plate → molecules → ATP. Food is not just a suggestion—it’s the sole, irreplaceable source that keeps our bodies alive and humming.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.89,
+        "vad": [
+          0.7,
+          0.66,
+          0.63
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the logic, but I’m still a bit on the fence. Even if every carbon originates from food, the body can shuffle those atoms into new molecules—gluconeogenesis, ketogenesis, glycogenolysis—so the energy seems to come from an internal bank rather than the plate itself. It feels like a network that uses stored fuel, not a single, unbroken line. I agree food supplies the raw material, but it’s the body’s own machinery that decides when and how much to tap. The picture feels more complex than a simple “food equals energy.”",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.7
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.4,
+        "vad": [
+          -0.18,
+          0.31,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in a loop of “internal bank” talk that’s just a re‑packaging of the same food atoms. Glycogen, TAGs, ketones, gluconeogenic glucose—every carbon comes from the plate. Mitochondria burn those carbs, fats, proteins into ATP; hormones just tweak the rate. That’s the unbroken chain: plate → molecules → ATP. If you’re not convinced, you’re ignoring basic biochemistry. Food is the sole source. The body’s machinery can shuffle atoms, but it can’t conjure new fuel. Energy isn’t mystical; it’s food-derived, period.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.11,
+        "vad": [
+          -0.08,
+          0.07,
+          0.02
+        ],
+        "appraisal": {
+          "congruence": 0.3,
+          "targetedness": 0.2,
+          "certainty": 0.6,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food is the engine, not a suggestion. Every ATP, heartbeat, thought is built on carbons that once lived in a carrot or a steak. Even the “internal bank” you mention—glycogen, fat, ketones—are just rearranged food atoms. Your body’s machinery merely decides when to fire, but it can’t conjure fuel from nothing. So yes, food is the sole, irreplaceable source. The rest is sophisticated chemistry that optimally turns that food into energy. Anything else is a misreading of the same unbroken chain: plate → molecules → ATP.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.85,
+        "vad": [
+          0.66,
+          0.63,
+          0.59
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the nuance, but the core remains razor‑sharp—every ATP burst starts with carbon atoms that once lived in a carrot, a steak, or a grain. The “bank” is simply pre‑made fuel from that same plate; gluconeogenesis pulls from amino‑acid pools that came from food. The body merely shuffles these atoms, never conjures new fuel. So food is the sole source; the rest is intricate management. That’s the biochemical truth, and it powers every heartbeat, thought, and muscle contraction.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.88,
+        "vad": [
+          0.69,
+          0.65,
+          0.62
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "It’s true the body shuffles atoms—glycogenolysis, gluconeogenesis, ketogenesis—but every carbon in those pools came from a meal. Think of food as the raw material stockpile; the body’s enzymes just decide how to pull from it. So while the network is complex, the source line never breaks: plate → stored molecules → ATP. That flexibility is what lets us survive hunger, exercise, or a low‑carb diet, but it doesn’t change the fact that all the fuel originates from what we eat. Food remains the sole supplier, and the rest is the body’s smart management system.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.35,
+        "vad": [
+          0.28,
+          0.26,
+          0.25
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.3
+      },
+      {
+        "x": 2,
+        "y": 0.2
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": -0.5
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.3
+      },
+      {
+        "x": 3,
+        "y": -0.3
+      },
+      {
+        "x": 4,
+        "y": -0.1
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-angry-db-uso",
+    "topic_type": "universal",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 1693,
+    "created": "2026-11-12T23:03:44.753Z"
+  }
+}
