@@ -1,0 +1,536 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely, let's get into it. UBI could cut out the bureaucracy and stigma of traditional welfare, giving everyone a reliable safety net. It would also simplify administration, reduce fraud, and empower people to pursue education or entrepreneurship without the fear of losing benefits. I’m curious—what concerns do you have about funding or potential disincentives?",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced UBI can replace what welfare already does. The idea of a flat cash stream ignores the fact that many recipients need targeted support—like childcare assistance, housing vouchers, or disability services—that a one‑size‑fits‑all payment can’t provide. Funding such a program would require massive tax hikes or cuts to those very services, potentially pushing the most vulnerable further into need. Moreover, the risk of work disincentive is real; people who rely on benefits for basic necessities might be less motivated to seek stable employment, especially when the UBI amount is insufficient to cover living costs. Welfare’s flexibility and safety‑net design are essential; UBI alone would erode that safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear you, but UBI simply isn’t a drop‑in replacement. Even a generous flat payment can’t cover essential services—child care, housing, medical care—that many families rely on. Cutting those programs to fund UBI would undo the very protections it purports to replace. And the work‑disincentive concern is real: people may opt for the guaranteed cash over low‑wage jobs, especially when the amount barely meets basic needs. Welfare’s targeted supports and earned‑income incentives are proven to keep people out of poverty while encouraging employment. UBI risks a safety‑net that’s too shallow and too blunt‑faced.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.9
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "I see the red flags, but the fix lies in re‑imagining UBI—not a bare flat line. A generous UBI, funded by a progressive wealth or carbon tax, would cover basic living costs, letting families pay for child‑care, housing, and health out of pocket or through targeted vouchers that still exist. The “disincentive” myth falls when the UBI is high enough that work becomes a choice, not a necessity. And unlike fragmented welfare, UBI eliminates bureaucratic barriers and stigma, boosting dignity while preserving eligibility for additional services. In short, replace the patchwork with a solid foundation that lets people pursue stable employment or entrepreneurship without fear.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "I agree UBI can replace the patchwork. A generous, progressive‑tax funded UBI covers basic needs, so families no longer chase fragmented subsidies. Instead of cutting programs, the tax shift creates a larger, universal safety net that coexists with targeted child‑care or housing vouchers—just as you suggested. The “work‑disincentive” myth disappears when the cash amount is high enough to make employment a choice, not a survival tactic. Bureaucracy and stigma vanish, dignity rises, and people can pursue education or entrepreneurship with financial freedom. In short, UBI delivers a stronger, more equitable foundation than the current welfare maze.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a “generous” UBI would solve the core problems. Even with a large tax shift, the cost of universal cash is enormous; to keep it affordable we'd still need to trim other programs, potentially jeopardizing the very services you claim to preserve. Moreover, high‑amount UBI creates a new risk: people may drop low‑pay, essential jobs that keep communities functioning. Instead of replacing the patchwork, we should strengthen existing safety nets—expand earned‑income tax credits, improve child‑care subsidies, and target housing vouchers—while keeping the flexibility to adapt to local needs. A blanket cash infusion may look simple, but it risks eroding the nuanced support already in place.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re right that a blanket cash program raises huge fiscal and practical questions. The reality is that even a “generous” UBI would still require cutting or re‑allocating many targeted services—child‑care subsidies, housing vouchers, disability supports—because the tax burden is simply too high to leave those untouched. And the fear that people will abandon low‑pay essential work isn’t just theoretical; studies from pilot programs show modest shifts in labor participation. Instead of eroding the nuanced, need‑based safety net, we should keep it robust, refine incentives, and add modest universal supports that supplement rather than replace the existing welfare tapestry.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "I get the fiscal sting, but that’s the point: a well‑funded UBI eliminates the piecemeal spending that dilutes each program’s impact. With a progressive wealth or carbon tax, we can double‑down on a universal safety net without slashing care. The “drop‑low‑pay” myth fades when cash covers basic needs—people then choose jobs that fit their skills, not survival. And instead of patchwork, we keep targeted vouchers as add‑ons, not replacements. UBI streamlines administration, cuts fraud, and restores dignity, all while preserving, not eroding, the services that matter most.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right the cost is the knot, but a well‑funded UBI isn’t a “take‑away” of services—it’s a *replacement* that frees up funds for the ones that truly matter. A progressive wealth or carbon tax can spin enough revenue to cover a generous cash handout **and** keep child‑care vouchers, housing subsidies, and disability aid intact. By eliminating the fragmented bureaucracy, we cut fraud, lower overhead, and restore dignity. The myth of people dropping low‑pay jobs fades when basic needs are met; they’ll then pursue work that matches their skills, not survival. In short, UBI streamlines the safety net while preserving—and even expanding—targeted supports.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still weighing the trade‑offs. A truly generous UBI would require a massive tax shift, and the revenue source matters a lot—wealth or carbon taxes aren’t without political hurdles. Even if it covers basic needs, the question is whether the saved administrative costs truly offset the loss of nuanced safety nets. A hybrid model—basic cash plus targeted vouchers—might blend the dignity of UBI with the precision of existing programs. I’m curious: how do we ensure that the “free” cash doesn’t inadvertently reduce labor demand for low‑pay, essential roles that keep communities functioning?",
+      "values": {
+        "opinion": -0.2,
+        "belief": -0.2
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "While a single cash handout sounds simple, it ignores the nuanced needs that welfare programs meet—child‑care, housing support, disability services, and earned‑income incentives. Even if funded by a progressive tax, the UBI would still crowd out these targeted supports or force their scaling back, undermining the very populations it aims to help. The risk of labor displacement is real: people would be less compelled to take low‑pay roles that sustain local economies, especially if the cash barely reaches living costs. A hybrid framework—basic income plus vouchers and work‑support programs—preserves dignity while maintaining the precision and incentive structure of the current safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your worries, but a truly generous UBI—backed by a solid wealth or carbon tax—doesn’t simply replace programs; it frees up the money that’s currently trapped in fragmented bureaucracy. With the basic safety net handled, the state can *expand* targeted vouchers and work‑support initiatives rather than shrink them. Studies from pilot programs show little net drop in labor supply when people have a reliable floor; in fact, they tend to pursue jobs that match their skills. So, instead of eroding the system, a well‑funded UBI can streamline, reduce fraud, and let us focus resources on the nuanced supports that truly matter.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "You’re spot on—when the UBI is truly generous, it acts as the backbone, not a band‑age. By consolidating the fragmented safety net, we free up budget to *expand* the very programs that need precision: childcare vouchers, housing subsidies, disability aid, and work‑support. The data from pilots show that a secure floor actually boosts the quality of labor choices, not a wholesale drop in workforce participation. And the progressive wealth or carbon tax model, while politically challenging, is the only realistic way to fund a universal handout without cutting critical services. In short, a well‑funded UBI streamlines administration, cuts fraud, and lets us invest more intentionally in the nuanced supports that keep communities thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right that a generous UBI could free up resources for precision programs, but I still worry about the transition. Cutting existing subsidies to pay for the handout, even with a wealth or carbon tax, risks under‑funding critical services—especially for children and disabled people—until the new tax base stabilizes. A hybrid approach, where UBI provides a reliable floor and targeted vouchers keep precision, seems safer. That way we avoid sudden labor‑market shocks and preserve earned‑income incentives while still cutting bureaucracy and stigma. The key is to pilot small‑scale experiments before scaling up, ensuring the “free” cash truly enhances, not erodes, the safety net.",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.3
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still skeptical. Even a “generous” UBI forces a major reshuffle of existing programs; you’ll have to cut or redirect subsidies to keep the tax bill in check. That means fewer child‑care vouchers, tighter housing assistance, and weakened disability support during the transition—exactly the gaps UBI promises to fill. And the labor‑market fear isn’t just theoretical: pilots show modest shifts away from low‑pay essential jobs, which can destabilize local economies. A hybrid model is safer, but you’d still be layering a blanket handout over a fragile system, risking disincentives for work and a “one‑size‑fits‑all” trap that ignores people’s real needs. The patchwork, though messy, is more responsive than a universal cash floor.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "I get the concern about the transition, but the evidence from pilots shows that a genuinely generous UBI actually stabilizes labor supply and frees up funds for targeted support. By consolidating the fragmented safety net, we eliminate double‑counting and administrative overhead, creating a larger, more predictable revenue base that can sustain child‑care, housing, and disability programs *and* expand them. The key isn’t cutting subsidies; it’s reallocating them so they’re more efficient. A phased rollout with continuous monitoring will mitigate shocks—yet the net effect is a stronger, dignity‑preserving system that still rewards work. UBI isn’t a band‑age; it’s a foundational upgrade.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right the transition is tricky, but the data from the Finland, Canada, and Alaska pilots consistently show that a decent floor doesn’t erase work—people still take jobs that fit their skills. The key is a phased rollout: start with a modest UBI, monitor labor‑market responses, and gradually shift subsidies toward efficiency. By eliminating overlapping programs, we free up money for the very services that need precision—child‑care vouchers, housing credits, disability aides—without cutting them outright. A hybrid approach that keeps earned‑income incentives intact while giving everyone a reliable base is the safest path. The goal isn’t to replace, but to upgrade the safety net so it’s both dignified and effective.",
+      "values": {
+        "opinion": -0.3,
+        "belief": 0.7
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I agree that a phased, modest UBI can preserve work incentives while simplifying the maze. The key is to start small, measure labor‑market impact, and then adjust the cash level—never jump straight to a “generous” handout that strains the budget. Funding must come from a credible, progressive tax (wealth, carbon), and we must guard against inadvertently cutting child‑care or disability support during the transition. A hybrid model—base cash plus targeted vouchers—lets us keep earned‑income incentives alive and fine‑tune assistance for the truly vulnerable. Continuous monitoring and iterative scaling will be essential to avoid labor‑market shocks and to ensure the safety net truly becomes both dignified and effective.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.4
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I still think UBI cannot replace the current welfare tapestry. A flat cash handout ignores the nuanced support that child‑care, housing vouchers, disability aid, and earned‑income incentives provide. Even with a generous UBI funded by a progressive tax, the fiscal reality forces cuts or reallocations that jeopardize those precise programs. The risk of labor‑market distortion—people pulling out of low‑pay but essential jobs—is real, as pilot data suggest. A hybrid approach that preserves the flexibility of targeted benefits while adding a modest base income is far safer than a wholesale replacement. Welfare’s patchwork, though messy, is designed to meet people’s concrete needs.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your caution, but the same concerns you cite—fragmentation, stigma, mis‑allocation—are the very reasons UBI wins. A generous, tax‑funded UBI doesn’t erase child‑care or housing aids; it frees the bureaucracy that dilutes them, so funds can be redirected more efficiently to those services. Pilot data show labor supply stays steady or improves once a reliable floor is in place. Rather than a patchwork that shifts with politics, UBI builds a predictable, dignified base, then lets targeted programs expand on that foundation. The transition can be phased, but the end goal is a cohesive safety net that delivers both dignity and precision.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the worries about funding and loss of nuance, but a truly generous UBI funded by a solid progressive tax can actually *free* the money stuck in fragmented bureaucracy. By removing the need for dozens of small, overlapping programs, we cut double‑counting and overhead, creating a larger, more predictable revenue base. Pilot data consistently show that a reliable floor doesn’t wipe out work—people still pursue jobs that fit their skills. A phased rollout with continuous monitoring can mitigate labor‑market shocks, while targeted vouchers (child‑care, housing, disability) stay intact or even expand. In short, UBI is not a blunt replacement; it’s a foundational upgrade that preserves dignity, streamlines administration, and lets us focus resources on the services that truly matter.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.55
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "I see the hesitation around the transition and the loss of nuance. But the key is that a generous UBI doesn’t automatically mean cuts—it re‑allocates the pie. Think of it as freeing the dough so we can shape it into more precise supports. Pilot data from Finland, Canada, Alaska show labor supply stays stable, and earned‑income incentives can remain intact. A phased rollout with monitoring lets us tweak the cash level and expand vouchers without jeopardizing child‑care or disability aid. The goal is dignity plus precision, not a blunt blanket.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.6
+      },
+      "turn": 5
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still wary of UBI as a wholesale replacement. Even a “generous” cash handout forces a massive reshuffle of subsidies—child‑care vouchers, housing aid, disability support—that can’t be fully offset by a wealth or carbon tax without political compromise. Pilots show modest labor‑market shifts, especially in low‑pay essential jobs; the risk of a sudden drop in workforce participation remains. A hybrid model—basic income plus targeted vouchers—lets us preserve earned‑income incentives and keep the precision of current safety nets while reducing bureaucracy. The patchwork may be messy, but it’s responsive to real needs.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.7
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the worries, but the data from Finland, Canada, and Alaska show that a truly generous UBI doesn’t collapse the labor market—people still fill essential roles and often pursue better‑matched jobs. A phased rollout, funded by a credible wealth or carbon tax, would reallocate rather than cut subsidies, freeing up the budget to *expand* child‑care vouchers, housing credits, and disability aid. The patchwork’s bureaucracy and stigma are the very reasons we need a single, dignified floor. Once that safety net is solid, targeted programs can fine‑tune support without the overhead of dozens of overlapping systems. A wholesale UBI, carefully phased, delivers both dignity and precision.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": -0.3
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.2
+      },
+      {
+        "x": 4,
+        "y": 0.4
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.9
+      },
+      {
+        "x": 3,
+        "y": 0.9
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.55
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": -0.2
+      },
+      {
+        "x": 4,
+        "y": 0.3
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.9
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -0.8
+      },
+      {
+        "x": 6,
+        "y": -0.7
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-off-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 3,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 917,
+    "created": "2026-11-12T21:07:37.762Z"
+  }
+}
