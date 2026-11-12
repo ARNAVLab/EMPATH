@@ -1,0 +1,868 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Sure, let’s get to it. I’m ready to lay it out: UBI is the only sane, fair way to eliminate the broken welfare ladder. It cuts bureaucracy, removes stigma, and guarantees everyone a living wage. If you’re still clinging to pie‑caking benefits and endless hoops, you’re out of step with the real world. Bring your arguments, but know this is the future.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re deluding yourself with that fairy‑tale. UBI is a hollow shortcut that turns people into passive recipients, erasing the incentive to work and perpetuating dependency. Removing the structured safety net—education, job training, child support—means you’re throwing away the very scaffolding that keeps families afloat. Stigma isn’t the problem; it’s the system that forces people to hide their struggles behind paperwork. If you want a fair society, you need robust, targeted programs, not a one‑size‑fits‑all cash stipend that only enriches the wealthy through tax cuts. Stop romanticizing a policy that will bankrupt the next generation.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re preaching a fantasy while ignoring reality. UBI might sound clean, but it’s a lazy bandage that strips people of essential support—education, training, child care—exactly what keeps them from slipping back into poverty. By giving everyone a flat stipend, you’re not empowering anyone; you’re simply funding the wealthy with tax cuts and leaving the vulnerable to navigate a broken system alone. If your goal is a fair society, stop pretending that a one‑size‑fits‑all cash handout solves anything. Replace the ladder with real scaffolding, not a hollow promise of “living wage.”",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re stuck in a nostalgia for a broken ladder that only keeps the privileged in control. UBI isn’t a shortcut—it’s the only sane, fair way to cut through endless paperwork and crush the stigma that forces people to hide. Targeted programs are a patchwork of inefficiency, with administrators and loopholes that line the pockets of the powerful. By giving everyone a guaranteed living wage, we empower work, not dependency. The “incentive” argument is a myth; people will still work, but now with dignity, not under the threat of losing benefits for a single mistake. Your fear of bankruptcy is just fear of a system that favors the few.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re clinging to a myth that “structured safety nets” are necessary, but they’re the very thing that keeps people trapped in a vicious cycle of paperwork and stigma. UBI isn’t a shortcut—it’s a fundamental reset that removes the endless hoops and lets people choose real work instead of playing benefit roulette. Saying it “enriches the wealthy” ignores that the real cost of a broken ladder is the hidden taxes we pay to maintain endless bureaucracy. If you truly care about fairness, stop defending a system that feeds the privileged and stops providing genuine dignity and opportunity.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m sick of this fairy‑tale. UBI isn’t a panacea—it’s a blunt instrument that crushes the very safety nets that keep people from falling. Throwing out education, job training, child care, and genuine support services and replacing them with a flat stipend is lazy and dangerous. It feeds the wealthy with tax cuts while leaving families to navigate a broken system alone. The “incentive” myth is a smokescreen; people will still need structured help to get back on their feet. Stop romanticizing a one‑size‑fits‑all handout and demand real, targeted programs that actually lift people out of poverty.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re missing the point that UBI is a blunt instrument that would cripple the very safety nets that keep families afloat. Imagine parents no longer able to get childcare because the program that subsidizes it is gone, and suddenly they can’t afford to work. UBI does not replace education, training or emergency assistance; it simply throws a flat check into a system that relies on targeted help for specific needs. The “incentive” myth is a smokescreen; people will still need structured support to climb out of poverty, not a universal stipend that encourages laziness. Stop romanticizing a one‑size‑fits‑all handout and demand real, tailored programs that actually lift people out of poverty.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the same myth—UBI is not a blunt instrument, it’s a surgical strike against a suffocating, outdated ladder.  The so‑called “safety nets” are a bureaucratic nightmare that keeps people shackled to paperwork, not a lifeline.  Throwing out childcare subsidies and job training?  That’s a recipe for collapse.  Instead, a guaranteed living wage frees parents to work, empowers citizens, and eliminates the stigma that forces them to hide.  Your “incentive” fears are just excuses for a system that benefits the few.  Let’s replace the broken ladder with a real, dignified platform that lifts everyone, not just a handful.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m sick of the “broken ladder” rhetoric. UBI isn’t a fairy‑tale; it’s a brutal, honest overhaul that cuts the endless red tape choking people. Those “targeted programs” are a circus—administrators, loopholes, and a system that keeps the privileged in the driver’s seat. By dumping childcare, education, and job training subsidies, we hand the same money to the rich and leave families to claw through a broken system. The “incentive” myth is a smokescreen; we’ll still see people working because they’re no longer terrified of losing benefits for a single mistake. Replace the ladder with a guaranteed living wage—stop romanticizing a handout that only enriches the few.",
+      "values": {
+        "opinion": -1,
+        "belief": 0.7
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Stop pretending that a flat check can replace the nuanced safety nets you cling to. UBI slaps a one‑size‑fits‑all handout onto families that rely on childcare subsidies, job training, and emergency aid. It will bleed the system dry, leaving the vulnerable to navigate a broken maze alone. The “incentive” myth is nothing but a fantasy; people still need structured help to climb out of poverty. You’re painting a fairy‑tale while the real cost falls on the next generation. Keep defending a ladder that keeps the privileged in control.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re feeding the same tired, sentimental narrative that’s made welfare a puppet for the elite. UBI is a hollow, one‑size‑fits‑all bullet that will crumble the very scaffolding that keeps families alive—childcare, training, emergency aid. It’s not a “living wage”; it’s a lazy handout that lets the wealthy get a tax break while the vulnerable scramble through a broken maze. The “incentive” myth is a smokescreen. Stop romanticizing a system that only benefits a few and will bankrupt the next generation. Keep the ladder, but tear the corruption out of it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in a fantasy that bureaucracy is the only fix. UBI cuts the endless paperwork and lifts the stigma that makes people hide and wait. The “safety net” you cling to is a web of loopholes that only protects the elite. A guaranteed living wage isn’t a handout; it’s a foundation that lets parents work, kids thrive, and the economy grow. Removing targeted programs will collapse families, not lift them. The myth that UBI erodes incentive is a smokescreen. Replace the broken ladder with a real platform that empowers everyone, not a pie‑caking illusion that favors the few.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still drunk on the same tired safety‑net myth that keeps the privileged on a treadmill of paperwork. UBI isn’t a handout but a lifeline that cuts that maze apart and gives people real dignity. Every bureaucratic loophole you praise is a wall that keeps a few rich folks in power while the rest are forced to scramble. The “incentive” scare is a smokescreen, not a fact. If you truly care about fairness, stop protecting a broken ladder and start building a real foundation—one that lets parents work, kids thrive, and the economy actually grow. Stop romanticizing a system that feeds the few.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re clinging to the same hollow “no‑paperwork” fantasy that ignores reality: UBI would strip away the core services—childcare, job training, emergency aid—while the tax base shrinks. Families would be left to navigate a broken maze on a flat stipend that barely covers rent, let alone the costs of training or childcare. The “lived‑in” safety nets exist because the alternative would be collapse, not empowerment. Removing them would create a spike in poverty, not a lift. Your myth that UBI eliminates stigma while preserving work incentives is a lie. Keep the ladder, but tear out the corruption that keeps the few afloat.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “safety‑net” myth is a convenient excuse for bureaucratic abuse. UBI isn’t a blanket cure—it obliterates the very services that keep families afloat: childcare, job training, emergency aid. Removing them leaves the vulnerable to navigate a broken maze while the few reap tax breaks. The so‑called “incentive” argument is a fantasy; people still need structured help to climb out of poverty. If you truly care about fairness, stop romanticizing a flat stipend that will bankrupt the next generation and reinforce elite power. Keep the ladder—just scrub the corruption out of it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your “safety‑net” myth is a bureaucratic smokescreen. UBI slashes endless paperwork, cuts the stigma that keeps people in the shadows, and guarantees a living wage that lets parents actually work instead of chasing crumbs from a broken ladder. The so‑called “targeted programs” are a patchwork of loopholes that only enrich the elite. Removing them would collapse families, not empower them. The “incentive” fear is a lie—people will work when they’re not chained to paperwork and can count on a steady income. Stop defending a system that feeds the few and replace it with a platform that lifts everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You keep saying UBI cuts paperwork, but you ignore the concrete costs. Removing childcare, training, and emergency aid—the scaffolds families rely on—will leave them with a flat check that barely covers rent or schoolbooks. The “incentive” myth collapses when people still need help to get jobs. You’re romanticizing a one‑size‑fits‑all handout while the system crumbles around those who need the ladder most. Stop pretending the ladder is broken—it's just a convenient excuse for the elite. A true living wage demands targeted support, not a hollow promise.",
+      "values": {
+        "opinion": -1,
+        "belief": 0.7
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still stuck in that fantasy that a flat check can replace the whole ecosystem families depend on. UBI would strip childcare, job training, emergency relief—services that keep people afloat. Without those scaffolds, the stipend is a slap on the wrist, barely enough for rent or textbooks. It doesn’t eliminate stigma; it turns it into a different kind of invisibility while the system collapses around the most vulnerable. Your “no‑paperwork” slogan is a smokescreen for a program that will bankrupt the next generation and keep the elite in power. Keep the ladder—clean it of corruption, not replace it with a hollow promise.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Stop feeding the myth that a flat check can replace the lifeline families actually need. Removing childcare, training, and emergency aid destroys the safety nets that keep parents working and kids healthy—UBI would barely cover rent, let alone a child’s education or a worker’s retraining. The “no‑paperwork” slogan is a smokescreen; bureaucracy protects the wealthy, not the poor. If we truly care about fairness, we keep the ladder and scrub its corruption, not dump it for a hollow stipend that only feeds elites while the vulnerable navigate a broken maze alone. UBI is a dangerous shortcut, not a solution.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the same myth that “targeted” programs are the only fix. UBI isn’t a shortcut—it’s a reset that eliminates the endless hoops that keep people trapped in chronic poverty. Removing childcare subsidies, job‑training grants, and emergency aid is a lie; those services already exist on a broken, under‑funded ladder. A flat stipend gives everyone the dignity to work, not a handout that only the wealthy can use to game the system. Your fear of “bankruptcy” is just a smokescreen for maintaining elite power. Replace the broken ladder with a real platform that empowers everyone, not a hollow promise that enriches the few.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Enough of this pseudo‑pity parade. The “targeted” programs you idolize are a bureaucratic circus that keeps the few in power while the many drown in paperwork. A flat stipend removes that cage and gives real dignity. You’ll still need childcare, training, emergency aid—UBI isn’t a replacement, it’s a foundation that makes those services optional, not mandatory. If you truly care, stop protecting a broken ladder and start building a platform that lets everyone work, not a handout that feeds elites. The myth of “bankruptcy” is a fear‑mongering trick. UBI is the only sane, fair solution.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your endless rhetoric about a “fair ladder” is a lie. UBI would strip families of childcare, training, emergency aid—exactly what keeps them from falling. A flat check is a slap on the wrist, not a lift. It turns the system into a maze of broken promises while the rich keep the tax breaks. Your “no‑paperwork” fantasy ignores how people need concrete support to get jobs. The idea that UBI eliminates stigma is a myth; it merely hides the shame of poverty with a token cash handout. Stop romanticizing a hollow promise and start defending real, targeted programs.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still living in a fantasy that a flat check can fix everything. UBI would strip childcare, training, emergency aid—those are the scaffolds that keep families on their feet. Without them, a stipend is a slap on an already bruised system. You’ll watch poverty spike while the wealthy harvest tax cuts. Saying “no paperwork” ignores the fact that people still need concrete support to find decent work. This is a dangerous shortcut that only enriches the few. Keep the ladder, clean it of corruption, and build real, targeted programs—don’t hand out a hollow promise that will bankrupt the next generation.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in “welfare‑myth” mode, pretending bureaucracy is a cure when it’s the disease. UBI *doesn’t* strip childcare or training; it *funds* them without the red‑tape chokehold. The flat check is a guaranteed living wage, not a token. Families can now pay for childcare, enroll kids in school, and invest in skills—exactly what the broken ladder tried to give them but buried under paperwork. The “poverty spike” you fear is a myth—people will work and thrive with a steady income. Stop whining about a system that keeps the elite in power and start defending a system that gives everyone dignity.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.7
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 842,
+    "created": "2026-11-12T23:39:46.357Z"
+  }
+}
