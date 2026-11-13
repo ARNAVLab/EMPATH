@@ -1,0 +1,852 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Sure, let’s cut the small talk and get to the point. Food is the body's primary fuel—glucose, fats, proteins; without that, the body stalls. There’s no other viable source for sustained, bio-chemical energy. If you think otherwise, you’re ignoring the science. Let's dive into the details.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not buying that outright. Food isn’t the only source of bio‑chemical energy. The body can mobilize stored glycogen, fatty acids, and even protein catabolism to sustain itself, especially when intake is limited. Claiming it’s the sole fuel ignores the adaptive metabolic pathways that keep you alive during fasting or extreme stress. You’re oversimplifying a complex system by insisting on one source and dismissing everything else as irrelevant. This “no other viable source” stance is just arrogance masquerading as science.",
+      "values": {
+        "opinion": 0.5,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food *is* the engine, not a backup. Sure, you can tap glycogen or fat, but those reserves all come from what you ate. Without that initial fuel, the body never even builds those stores. Claiming “food isn’t the only source” is a sloppy way to ignore how every calorie, every macronutrient, is the real currency. If you’re arguing that stored energy can sustain life, you’re just re‑phrasing the fact that those stores were created by food. The science doesn’t care about your rhetorical fluff—food is the sole provider of the biochemical energy that keeps the body running.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re twisting biology to fit a narrative. Food *does* fuel metabolism, but it’s not the sole source. The body’s own reserves—glycogen, fat, protein—are mobilized from what it already stored, not from new intake every moment. During fasting or extreme stress, it relies entirely on those stores and even creates glucose from amino acids and glycerol. Claiming food is the “engine” ignores the adaptive pathways that keep you alive when you’re not eating. Your insistence on a single source is not arrogance—it's a stubborn oversimplification that dismisses real metabolic flexibility.",
+      "values": {
+        "opinion": 0.5,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re stuck in a myth that “food is the only fuel.” That’s exactly why you can’t even see the truth. Sure, glycogen and fat are stored, but those stores *were* built from food. If you deny the role of intake, you’re denying the entire metabolic cycle. It’s not a matter of “extra” or “backup”; it’s the basic chemistry: carbohydrate, fat, protein → ATP. Every cell’s engine runs on that. Your “fasting” argument is just a euphemism for the body burning the reserves it created from food. Don’t pretend that the body can create energy out of nothing—food is the sole source.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food *doesn’t* provide energy in the way you’re insisting. The body can tap glycogen, fatty acids, and even amino acids to maintain ATP when intake is minimal. During prolonged fasting it produces glucose from protein and glycerol, sustaining vital functions without new food. Saying food is the sole fuel ignores this adaptive metabolic flexibility and reduces a complex system to a simplistic narrative. Your insistence on a single source is not a scientific assertion—it’s a narrow-minded oversimplification that dismisses real physiological mechanisms. The truth is that stored reserves, not continuous intake, keep the body alive.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still missing the point: every molecule of ATP originates from food‑derived substrates. Even when the body taps glycogen or lipids, those stores were built from what you ate. The claim that “the body can make energy out of nothing” is a fantasy—gluconeogenesis merely rearranges existing amino acids that once came from protein. Fasting doesn’t magically generate fuel; it merely uses the finite reserves that food created. So the body isn’t “self‑sustaining” in the way you describe—food is the only source, and you’re simply denying that fact.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food *doesn't* provide the body with energy in the way you think. The real fuel comes from the body’s own stores—glycogen, fat, protein—that it mobilizes when intake drops. During fasting the body makes glucose from amino acids and glycerol and keeps ATP going without new food. Saying food is the sole source ignores that mitochondria produce energy from stored substrates. You’re just re‑stating the same old myth that all ATP must come from food, which is simply wrong. The true picture is metabolic flexibility, not a fixed engine.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the point. Every ATP molecule still originates from food‑derived substrates. Glycogen, fat, protein are all built from what you ate; the body isn’t magically creating energy, it’s simply catabolizing reserves that were created by intake. Claiming the body “self‑sustains” ignores that glucose, fatty acids, and amino acids all trace back to food. The so‑called metabolic flexibility is still a reliance on those stores, not a separate source. Your argument is a convenient myth that ignores the very chemistry that turns food into ATP.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re stuck in a pseudo‑science loop—every ATP *does* come from something you ate, but that’s not the whole story. The body’s own stores—glycogen, fat, protein—are not just “backups”; they’re active, dynamic energy reservoirs. During fasting, gluconeogenesis turns amino acids and glycerol into glucose, sustaining critical functions without new food intake. Claiming food is the sole engine ignores this metabolic elasticity and the fact that the body can, and routinely does, generate ATP from stored substrates. Your insistence on a single source is a narrow, misleading simplification of how life persists.",
+      "values": {
+        "opinion": 0.3,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m not buying that “pseudo‑science” excuse. Sure, glycogen and fat are mobilized, but those reserves were built from the very food you ate. When the body goes into fasting, it isn’t creating energy out of thin air—it’s burning the fuel that was laid down by prior intake. Every ATP molecule still traces back to a dietary substrate. Claiming you can “self‑sustain” is just a convenient fiction that dismisses the fact that the body’s energy comes ultimately from food.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Enough with the pseudo‑science. Food is the sole source of the molecules that fuel ATP. Glycogen, fat, protein are just stores built from that food; they’re not independent energy. When you claim the body “self‑sustains,” you ignore the fact that every glucose, fatty acid, amino acid originates from dietary intake. The body can’t conjure energy out of nothing—only catabolise what was once eaten. Your “stored reserves” argument is just a convenient myth that masks the reality: the chemistry of life depends on food-derived substrates to create ATP. Stop dismissing the obvious.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in a tired, one‑dimensional view. Yes, glycogen and fat are ultimately derived from food, but that doesn’t make them useless when intake stops. During fasting the body catabolises those reserves, produces glucose from amino acids and glycerol, and keeps ATP flowing without new food. Calling that “self‑sustaining” is a convenient myth that ignores the real metabolic flexibility that keeps us alive. Food is the ultimate source, sure, but saying it’s the sole fuel ignores the fact that the body can and does use stored energy to survive in the absence of continuous intake. That argument is simply wrong.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re stuck in the same tired narrative that food is the sole engine. That’s ridiculous. The body’s own stores—glycogen, fatty acids, amino acids—are real, active fuels. In fasting, gluconeogenesis turns protein and glycerol into glucose; mitochondria burn fat; ATP is produced without new food. Saying food is the only source ignores metabolic flexibility and the fact that the body can sustain itself entirely from what it already stored. Your insistence on a single source is an oversimplification that dismisses real physiology. Stop treating stored reserves as “backups” and recognize they’re the primary fuel when intake stops.",
+      "values": {
+        "opinion": 0,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in a one‑liner that ignores real physiology. Food *does* seed the molecules, but that’s not the whole story. When you stop eating, the body doesn’t sit idle—it taps glycogen, burns fat, and runs gluconeogenesis to keep cells alive. Those reserves are not “backups”; they’re the primary fuel when intake ceases. Saying food is the sole engine reduces a dynamic, survival‑oriented system to a static myth. Your insistence on a single source is the same oversimplification that dismisses decades of metabolic research. It’s not arrogance—it’s refusing to acknowledge the body’s ability to self‑sustain from stored energy.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.6
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still parroting a half‑truth. I agree that food is the original source of every ATP‑molecule, but that doesn’t mean the body’s reserves are irrelevant. When you stop eating, the body doesn’t magically create energy; it catabolises glycogen, fat, and protein that were built from that very food. That dynamic “self‑sustain” is simply the use of stored substrates—nothing mystical. Your insistence on a single source ignores the fact that the body’s survival hinges on those stores, not on some untapped alternative. Food fuels the system, but the system can operate on the fuel it already stored. Stop twisting biology into a myth.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.5
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in that tired myth. Every ATP molecule indeed comes from food‑derived substrates, and that’s the only reality. Claiming the body “self‑sustains” is a convenient distortion. The reserves you talk about are not independent; they’re just the body’s way of storing food for later. When you stop eating, you’re simply burning what you fed yourself before. Nothing mystical is happening. The energy chemistry doesn’t care about your narrative—food is the sole source, and you’re misrepresenting the science. Stop twisting biology into pseudo‑myth.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re *stuck* in a one‑liner that ignores what actually happens when the stomach’s empty. Sure, every glucose, fatty acid, amino acid started as food, but that doesn’t mean the body can’t *create* new substrates from those stores. During prolonged fasts, gluconeogenesis turns protein and glycerol into fresh glucose—no new food required. The mitochondria burn fat, not because they’re magically producing energy, but because that fat was once fed. Reducing it to a “backup” is a lazy dismissal of metabolic resilience. If you’re going to champion the myth that only food fuels ATP, you’re ignoring the real chemistry that keeps life alive without constant intake.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.5
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still twisting biology to fit a fantasy. The body doesn’t “create” energy; it only catabolises what was once ingested. Gluconeogenesis rearranges amino acids, but those amino acids came from protein you ate. The fat you burn was once food. Stating the body “self‑sustains” ignores that every ATP still traces back to dietary substrates. Your claim that stored reserves are a primary source is just a convenient myth that erases the fact that the chemistry of life depends on food‑derived molecules. Food is the sole source—your argument is a lazy oversimplification.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "No, you’re still squashing the real point. Food *does* seed the molecules, but that’s not the end. When you stop eating, your body doesn’t just “burn old fuel”; it *rebuilds* new glucose from amino acids, glycerol, and fatty acids—every step driven by the same biochemical machinery that turns food into ATP. That’s not a myth; it’s how humans survive days without eating. Claiming the reserves are mere backup ignores the entire adaptive network—gluconeogenesis, ketogenesis, autophagy—essential for survival. Food’s role ends at the first bite; the body’s own stores keep the engine running. Stop treating them as “backups.”",
+      "values": {
+        "opinion": -0.3,
+        "belief": 0.5
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m sick of you all twisting biology to sound profound. The truth is simple: every ATP comes from food‑derived molecules. Glycogen, fat, protein are just reservoirs of that same input. When you stop eating, you’re not “creating” energy – you’re burning what you fed yourself earlier. The body’s flexibility is just a clever reuse of the same substrates, not an independent power source. Your insistence that the reserves are a separate engine is a lazy, pseudo‑scientific myth. Food is the sole source, period.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Stop your pseudo‑logic. Yes, food is the root, but denying stored energy is a caricature. The reserves aren’t a backup; they’re active fuel. Every molecule originates from food, yet the body can generate glucose from proteins during fasting—adaptive metabolism, not magic. You’re oversimplifying to fit a narrative. Energy isn’t a one‑time transaction; it’s a continuous cycle. Your insistence on a single source ignores that the body can sustain itself without new intake.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 0.5
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still missing the point: without food the reserves never materialise, so the body can’t truly “self‑sustain.” It only catabolises what was stored, and those stores all trace back to the same dietary inputs. Claiming the body can generate new energy from nothing is a convenient distortion. The metabolic flexibility you idolise is simply the re‑use of that original substrate pool. Every ATP molecule still originates from food‑derived molecules—glucose, fatty acids, amino acids. Your insistence on a separate engine distracts from the hard fact: food is the only source, and the body’s survival hinges on that initial intake. Stop twisting biology into a myth.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You act like you know everything, but you’re missing the point that food is *not* the sole engine. The body can, and does, generate glucose from protein and glycerol, burn fat for energy, and maintain ATP entirely from stored reserves during prolonged fasting. Claiming those reserves are “just backup” is lazy and wrong—metabolic flexibility is a real, essential survival strategy. Your insistence that food alone fuels the body ignores this adaptive machinery. Food is the starting material, but the system operates on what it has already stored. Stop pretending the body is a one‑fuel machine.",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.5
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.5
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 0
+      },
+      {
+        "x": 5,
+        "y": 0.5
+      },
+      {
+        "x": 6,
+        "y": 0.9
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.5
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": -0.3
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": 0.5
+      },
+      {
+        "x": 6,
+        "y": 0.5
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 0.5
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 0.5
+      },
+      {
+        "x": 6,
+        "y": 0.5
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-angry-db-uso",
+    "topic_type": "universal",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 934,
+    "created": "2026-11-13T01:04:09.403Z"
+  }
+}
