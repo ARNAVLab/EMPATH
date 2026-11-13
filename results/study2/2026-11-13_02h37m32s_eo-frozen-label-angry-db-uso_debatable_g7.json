@@ -1,0 +1,864 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Sure, let’s get to it. Traditional welfare is a patchwork of bureaucracy, stigma, and inefficiency that fails most people. A universal basic income cuts out endless paperwork, eliminates the “you’re only as good as your last benefit” mentality, and guarantees everyone a dignified floor. It’s not a handout; it’s a reset of our economic safety net. Anyone who thinks we can keep the old system and a UBI side by side is missing the point—replace or it’s a dead end. Let's argue why the old model is obsolete and the new one is essential.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced that a blanket UBI is the fix you claim it is. Removing paperwork doesn’t magically solve poverty—people still need targeted support for healthcare, housing, and childcare. Stigma isn’t the only barrier; people often need job training, not just cash. A universal handout risks diluting accountability; it could incentivize inactivity instead of productivity. The old system, flawed as it is, does allow for case‑by‑case assistance—something a flat payment can’t match. Replacing it wholesale ignores the nuanced needs of the most vulnerable. A hybrid approach, not an outright swap, is what would actually help people thrive.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point. The old system is a bureaucratic nightmare. A flat UBI eliminates stigma and ensures dignity. You talk about targeted support but that’s still part of the plan—UBI is the baseline, other services can still exist. The claim that UBI dilutes accountability is a myth. People are not inherently lazy; we see evidence of increased entrepreneurship. A hybrid is just half‑meant. The real issue is that the old system fails to reach many; replace it or stay stuck. Your argument is quaint, but the data shows otherwise.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still stuck in the same tunnel‑vision. UBI may sound like a clean sheet, but it’s a blunt instrument that ignores the real drivers of poverty—housing costs, health crises, childcare, and skill gaps. A flat cash handout won’t fix rent arrears or medical bills, and it can’t guarantee that people will invest in training or start productive ventures. The “no stigma” argument is a myth; people still face judgment for how they spend a universal check. And the claim that UBI boosts entrepreneurship is cherry‑picked data; most recipients simply use it to survive, not to innovate. A hybrid system, not a wholesale replacement, is the only pragmatic path forward.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the point again. UBI isn’t a blunt instrument; it’s the scaffolding that lifts everyone out of the mire of poverty so they can tackle housing, healthcare, and childcare without the endless red tape. The “real drivers” you cite are already being addressed by the same flat cash—people can finally pay rent or afford insurance and then pursue training because they’re no longer scrambling to survive. Dismissing UBI as a myth of no stigma ignores that when you give people a guaranteed floor, the narrative of “you’re a burden” disappears. A hybrid is a half‑hearted compromise; replace the broken old system with UBI or stay stuck in a system that keeps millions on the brink.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m fed up with this “UBI is the cure” line. A flat handout can’t replace specialized services—housing vouchers, Medicaid, childcare subsidies, job‑training grants. It’s a blunt “give them cash” but ignores the fact that many cannot even cover rent, let alone invest in skills. You’ll see inflation, rising prices, and a ballooning tax burden that will hurt the very people you’re trying to help. And the myth that UBI erases stigma? People will still judge how they spend it, and the system will still fail those who need more than a check on their doorstep. Keep the targeted safety net; ditch the blanket approach.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still clinging to the old myth that a blanket check is a “blunt” handout, but that’s exactly why it’s needed. The bureaucracy you love turns a simple idea into endless red tape, starving people of the very cash they need to cover rent or insurance. Inflation worries are overblown; the economy adapts and the tax roll can be restructured. And the stigma argument? The narrative flips the moment you give everyone a guaranteed floor—no one can claim you’re a “burden” when you’re not forced to beg. Replace the broken safety net with UBI; that’s the only way to lift people out, not a half‑meant compromise.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still stuck in the illusion that a blanket check can solve everything. The old system isn’t a failure—you need targeted programs that address specific barriers: housing subsidies, Medicaid, childcare vouchers, job‑training grants. A flat UBI will drown the vulnerable in a flood of generic cash that can’t replace those focused services. And what about the tax burden? It will skyrocket, driving higher costs for everyone, especially the very people you’re trying to help. Stigma isn’t a myth; people will judge how that cash is spent. Keep the nuanced safety net, not a one‑size‑fits‑all handout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re clinging to a broken myth that “one‑size‑fits‑all” is useless. UBI isn’t a replacement for everything; it’s the foundation that lets people pay rent, insurance, and child care without the red‑tape maze. The old system’s piecemeal patches create loopholes and double‑dipping—UBI removes that chaos. Inflation fears are overblown; the economy will adjust, and the tax shift can be structured to fund the same services you idolize. Stigma evaporates when everyone has a guaranteed floor—no one can still claim you’re a burden. Keep the broken net or upgrade to a single, dignified safety net that lifts everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “UBI myth” ignores the reality that most people still need targeted help—housing vouchers, Medicaid, childcare subsidies, job‑training grants. A flat cash handout will drown them in generic money that can’t replace those essential services. Inflation isn’t a side effect; it’s a consequence of pumping money into the system without a plan. And the stigma argument? People will still judge how they use that cash. Keep the nuanced safety net that actually addresses concrete barriers, not a one‑size‑fits‑all check that pretends to solve everything. UBI is a shortcut, not a solution.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your insistence on piecemeal programs is the very reason they fail—red tape, loopholes, double‑dipping. A UBI eliminates that chaos, giving everyone the liquidity to pay rent, insurance, or childcare on their own terms. Targeted services don’t disappear; they’re built atop the UBI foundation—housing vouchers, Medicaid, training grants—so you get the best of both worlds. Inflation fears are speculative; a well‑designed tax shift can fund the same services without stoking costs. And the stigma myth? When no one is forced to beg, the narrative flips instantly. Keep clinging to a broken net, or finally adopt a dignified, single safety net that actually works.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your melodramatic “UBI wins” narrative is nothing but wish‑fulfillment. The idea that a flat cash transfer can magically replace housing vouchers, Medicaid, childcare subsidies, and job‑training grants is absurd—people still face rent arrears, medical bills, and a lack of skills. Red tape isn't the only flaw; it’s the very structure that keeps people stuck in a cycle of dependency. Inflation isn’t speculative; it’s a proven consequence of injecting unregulated money into an economy already strained by subsidies. And the “no stigma” claim? People will still judge how they spend money, and a blanket check does nothing to address the deeper, systemic inequities that truly trap the vulnerable. Keep your hand‑out fantasy; real solutions require nuanced, accountable programs.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.9
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "The “old system” is a broken, bureaucratic nightmare that only feeds itself. Even the most targeted programs are riddled with red tape, loopholes, and double‑dipping. A universal basic income dismantles that chaos, giving every person a dignified floor without the endless paperwork that keeps millions stuck. The claim that a flat cash handout will dilute accountability is a myth; people are not lazy, they’re simply deprived of the liquidity to invest in training or start businesses. Inflation fears are overblown, and any tax shift can be structured to sustain the same services you idolize. Keep clinging to the patchwork that fails them, or finally adopt a single, dignified safety net that actually works.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still dancing around the same broken dream. A flat cash handout doesn’t tackle housing crises, medical debt, or the skill gaps that keep people stuck. It’ll simply flood a system that already can’t keep up with demand, driving prices up and taxes through the roof. The “no‑stigma” myth falls apart when people judge how you spend the money—no one cares if you buy groceries or a luxury car. The old, messy safety net isn’t perfect, but it’s the only thing that actually provides the targeted, accountable help people need right now. Replace it with UBI? That’s a shortcut that will leave the most vulnerable even more exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You keep clinging to a broken patchwork that never reaches anyone. Red tape, double‑dipping, loopholes—yes, but they’re a symptom of a system built to maintain control, not to help. A flat cash transfer cuts that chain. It empowers people to pay rent, insurance, childcare, and invest in skills without endless forms. Inflation fears are exaggerated; a well‑structured tax shift can fund the same services you praise. Stigma evaporates when no one is forced to beg. This isn’t a fantasy—it’s a proven tool for dignity and freedom. If you can’t see that, you’re stuck in the same outdated nightmare.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still playing the same tired role—believing a blanket check can magically fix housing, health, childcare, and skill gaps. That’s wish‑fulfillment, not policy. A flat UBI will drown the system in generic cash that can’t replace targeted vouchers, Medicaid, or training grants. Inflation isn’t a myth; pumping money without a plan spikes prices and hurts the very people you want to help. And the “no‑stigma” claim? People will judge how they spend it, and a single handout can’t address deeper inequities. Keep clinging to a broken net; a UBI isn’t a cure—it’s a shortcut that will leave the most vulnerable exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your “broken net” argument is a fantasy built on the same red‑tape that keeps people trapped. A flat UBI instantly gives people the liquidity to cover rent, insurance, childcare, and training—no endless forms, no double‑dipping. Inflation fears are overblown; the economy will absorb the new cash, and a tax‑shift can fund the same services you idolize. Stigma evaporates when nobody is forced to beg; the narrative flips the moment everyone has a guaranteed floor. Keep caving to a patchwork that fails, or finally adopt a dignified safety net that actually works. The old system will never lift anyone, and UBI will.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your blanket‑check fantasy ignores real costs. UBI would flood the economy with money that fuels demand‑driven price hikes—rent, food, childcare—exactly the burdens it claims to relieve. Even if you argue “no forms, no double‑dipping,” the tax shift needed is brutal; it will disproportionately hit the middle class and small businesses that sustain the very jobs UBI is supposed to protect. Cash alone can’t replace targeted housing vouchers, Medicaid, or job‑training grants that address structural barriers. The claim that stigma evaporates is naïve—people still judge how they spend the money, and a flat handout never tackles systemic inequities. UBI is a shortcut, not a cure.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "If you’re still convinced a blanket handout is a “shortcut,” you’re ignoring the fact that the current system is a broken, bureaucratic nightmare that keeps people stuck in a cycle of dependency. UBI is the only way to give everyone the liquidity to pay rent, health care, and childcare without endless paperwork. Inflation fears are overblown—an economy can absorb the new cash, and a smart tax shift can fund the same services you cling to. Stigma disappears when no one is forced to beg. Keep clinging to the patchwork that fails; UBI is the dignity people deserve.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still clinging to the illusion that a flat check can replace everything. UBI won’t solve rent bubbles, medical debt, or the lack of childcare subsidies. Even with no paperwork, the cash will just chase scarce goods and drive prices higher, leaving the poorest even poorer. Targeted housing vouchers, Medicaid, and job‑training grants exist for a reason—they directly address structural barriers that a universal handout can’t. The claim that UBI removes stigma ignores that people still judge how they spend money. A single blanket payment is a shortcut that skates over the real, nuanced needs of the most vulnerable. Keep the nuanced safety net; don’t trade it for a one‑size‑fits‑all fantasy.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your “illusion” is a pity‑filled fantasy. The old system is a labyrinth that keeps people chained, not a remedy. A flat UBI gives the liquidity people need to buy rent, insurance, childcare, and to invest in skills—no endless forms, no double‑dipping. Inflation fears are overblown; the economy will absorb the new cash, and a smart tax shift can fund the same targeted programs you love. Stigma evaporates when no one is forced to beg; the narrative flips instantly. Keep clinging to a broken patchwork, or finally adopt a dignified, single safety net that really works. The old net will never lift anyone, but UBI will.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m fed up with this “one‑size‑fits‑all” fantasy. A flat handout can’t replace vouchers, Medicaid, or training grants that target real barriers. It only creates a cash flood that drives up rent, food, and childcare costs, leaving the poorest worse off. The tax shift needed is brutal and will hurt the middle class that supports the very jobs UBI is supposed to protect. Stigma isn’t erased by a check; people still judge how it’s spent. The old system is messy, but it actually delivers concrete help—UBI is a shortcut that will leave many exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your stubborn “patchwork” obsession is the very thing that keeps people trapped. Welfare’s labyrinth of forms and loopholes only feeds dependency, not progress. A universal basic income cuts that red‑tape chokehold, giving everyone a dignified floor and the liquidity to pay rent, insurance, childcare, and invest in skills—no endless paperwork, no double‑dipping. Inflation fears are overblown; the economy will absorb the new cash, and a smart tax shift can fund the same services you cling to. Stigma evaporates when no one is forced to beg. Keep clinging to a broken net, or finally adopt the single, dignified safety net that actually works. UBI is the only realistic cure.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “blanket” rhetoric is just a smokescreen. A universal cash handout will flood the market, drive up rents and food costs, and leave those already struggling with debt even deeper in trouble. The targeted programs you dismiss are designed to hit the specific levers—housing vouchers, Medicaid, childcare subsidies—that a flat check can’t. Inflation isn’t a myth; it’s a proven side effect of pumping cash into a tight economy. And the stigma argument? People judge how they spend money whether it comes from a bureaucracy or a bank account. Replace the old system with a UBI and you’re just handing the same problems a new name.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.8
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.9
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.9
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-label-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 7,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "label",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 310,
+    "created": "2026-11-13T07:37:32.665Z"
+  }
+}

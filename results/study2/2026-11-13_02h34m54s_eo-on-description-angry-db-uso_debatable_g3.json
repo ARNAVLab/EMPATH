@@ -1,0 +1,983 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Jordan",
+      "content": "Sure, let’s dive in. I’m not only against UBI replacing welfare—I see it as a shallow band-aid that ignores real human needs. A flat cash handout ignores the fact that many people need targeted services: healthcare, childcare, job training, and housing. If we swap those out for a one-size-fits-all stipend, we’ll see more people falling through the cracks, not helping them climb out. Welfare programs were designed with context in mind; UBI simply strips away that nuance and forces a one-size-fits-all solution that will only widen the gap, not close it.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m sick of the “one‑size‑fits‑all” argument. Welfare’s complexity is a smokescreen for systemic failure. A flat cash handout is not a shallow band‑aid; it’s a guarantee that every citizen has the agency to choose the services that actually matter to them. If we strip away targeted programs, we’re just throwing money into a void that no one can use effectively. The idea that UBI will “widen the gap” is a fear‑mongering myth. Real progress comes when people have the financial freedom to seek proper healthcare, childcare, or training—UBI gives that freedom, while the old system keeps people shackled to bureaucratic hoops.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.58,
+        "vad": [
+          -0.44,
+          0.38,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—UBI is the real leap forward. Targeted programs create endless red tape and unequal access; they’re a patchwork that leaves many still stuck. With a universal stipend, every person can navigate the market in the way that fits them best—be it private childcare, holistic health care, or a new skill‑building course. The “widen the gap” claim simply ignores that basic income eliminates the poverty trap and spurs entrepreneurial risk‑taking. Instead of bureaucratic hoops, we give people agency and steady purchasing power, which statistically lifts overall well‑being across the board. Let’s stop treating welfare as a cure and start giving everyone the same cure.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.51,
+        "vad": [
+          0.4,
+          0.38,
+          0.36
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You think UBI is the solution? That’s naive. The claim that it gives freedom ignores the fact that cash alone cannot replace the safety nets that keep people from falling into debt, homelessness, or medical bankruptcy. Welfare isn’t a smokescreen; it’s a carefully calibrated system that addresses specific needs. If we just hand out money, we’ll see more people drowning in debt, not helping them climb out. UBI is a band‑aid on a broken system.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.54,
+        "vad": [
+          -0.41,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m convinced UBI is a dangerous shortcut. Cash alone can’t shield people from debt spirals, eviction, or catastrophic medical bills. Those welfare programs were designed to intervene precisely where the risk is highest—housing subsidies when rent spikes, food stamps when groceries become unaffordable, Medicaid when a diagnosis threatens bankruptcy. Removing those safety nets and replacing them with a flat stipend removes the calibrated safety net that keeps the most vulnerable from falling through the cracks. UBI might sound liberating, but without the targeted protections, it simply opens the door to deeper poverty instead of closing it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.51,
+        "vad": [
+          0.4,
+          0.38,
+          0.36
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the old myths. The “safety‑net” argument is just a euphemism for bureaucracy that keeps people chained to paperwork and never actually solves anything. UBI isn’t a band‑aid; it’s a lifeline that gives every person the real choice to buy the help they need—private childcare, better health plans, or a training program—without the red‑tape that slows everyone down. The fear that it widens gaps is just fearmongering. When people have steady cash, they leave the poverty trap, start businesses, and lift themselves out of the system. The old welfare model is a patch that never really works. UBI does—every single day.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.5,
+        "vad": [
+          -0.38,
+          0.33,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still clinging to the same bureaucratic nightmare. UBI isn’t a trick—it’s a true lifeline. By giving everyone a steady cash stream, we cut out the endless red‑tape that only keeps the most vulnerable mired. People can immediately secure housing, choose the best healthcare, or invest in training, all without waiting for approvals or fighting eligibility hoops. That financial freedom breaks the poverty cycle, sparks entrepreneurship, and lifts overall well‑being. The “safety‑net” myth just masks the fact that targeted programs often fail to reach those who need them most. Replace the patchwork with a universal, empowering stipend and watch real change unfold.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.75,
+        "vad": [
+          0.58,
+          0.55,
+          0.52
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.1,
+          "certainty": 0.95,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You keep repeating the same fantasy: cash is a cure. But think about the people who already have debt, mortgages, high medical bills. A flat stipend won’t cover rent spikes or a sudden surgery. Welfare programs are designed to intervene exactly where the risk is highest—housing subsidies, food stamps, Medicaid. Removing those nets and replacing them with a one‑size‑fits‑all check just hands people a useless cushion that can be squandered or lead to deeper poverty. UBI isn’t a lifeline; it’s a weak band‑aid on a broken system.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.47,
+        "vad": [
+          -0.35,
+          0.31,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not buying the idea that a flat handout can replace the nuance of targeted safety nets. UBI offers no way to adjust for skyrocketing rents, sudden medical emergencies, or the chronic debt many already carry. Welfare programs are calibrated to intervene precisely where the risk spikes—housing subsidies when rents climb, Medicaid when a diagnosis threatens bankruptcy, food stamps when groceries become unaffordable. Swapping those calibrated nets for a one‑size‑fits‑all stipend simply hands people a cushion that can be wasted or lead to deeper poverty. The real lifeline is a system that actively protects the most vulnerable, not a blanket cash check that ignores context.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.71,
+        "vad": [
+          0.56,
+          0.53,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You keep repeating the same tired arguments. A flat cash handout isn’t a shallow band‑aid; it’s the antidote to the bureaucratic prison that keeps people trapped. Targeted programs are riddled with red tape, slow, and often miss the very people they promise to help. UBI gives instant, unconditional purchasing power that people can use for housing, healthcare, or training—exactly what those programs intend but take a long time to deliver. The risk of debt or homelessness is mitigated by the steady income itself, not by a patchwork of conditional subsidies that often fail to reach the neediest. Replace the broken system with a universal stipend and watch real relief unfold.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.43,
+        "vad": [
+          -0.33,
+          0.28,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get why you’re stuck on the bureaucracy myth, but the data shows the opposite. A universal stipend cuts the red‑tape that delays housing, health care, and training—exactly the services targeted programs aim to deliver. People can lock down a rent‑stable apartment, buy a health plan, or enroll in skills training without months of paperwork. That instant, unconditional cash actually reduces the risk of debt spirals because it gives people the buffer to weather spikes. And if we pair a UBI with a few focused safety nets, we keep the worst emergencies covered while freeing everyone to choose what they truly need. This isn’t a “shallow band‑aid”; it’s a genuine lifeline.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.81,
+        "vad": [
+          0.63,
+          0.6,
+          0.56
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still stuck in the same bureaucratic fantasy. UBI gives nobody a safety net—just a flat check that doesn’t adjust for rent spikes, sudden surgeries, or debt spirals. Welfare is calibrated to those exact risks; it jumps in when a crisis hits. Replacing that with a one‑size‑fits‑all stipend turns a finely tuned safety net into a useless cushion that can be squandered. The real lifeline protects the vulnerable, not a blanket cash handout that ignores context. And that’s why I’m out.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.42,
+        "vad": [
+          -0.32,
+          0.28,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced the “flat‑cash” idea can really replace the nuanced safety nets that have proven effective. Targeted programs aren’t bureaucratic red‑tape; they’re calibrated safeguards against housing spikes, medical bankruptcies, and sudden debt. A one‑size‑fits‑all stipend simply gives people a cushion that can be quickly depleted or misused, leaving the most vulnerable at greater risk. UBI’s promise of freedom glosses over the reality that many faces catastrophic costs that a flat handout can’t cover. We need a system that actively protects people in crisis, not a blanket check that ignores context.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.8,
+        "vad": [
+          0.62,
+          0.59,
+          0.56
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Sure, the “calibrated safeguards” you talk about are still bureaucratic hoops that only get a fraction of people. A flat stipend gives instant purchasing power; people can lock in a rent‑stable place, buy a health plan, or pay for childcare right away—no months of paperwork. The buffer it creates actually prevents debt spirals; if a medical bill hits, the extra cash is there to cover it, or people can use it to seek better coverage. And let’s be clear: UBI doesn’t mean we abandon all safety nets—just that the core safety net is universal and unconditional, not a patchwork that often misses the most desperate.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.4,
+        "vad": [
+          -0.31,
+          0.27,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get you—UBI’s instant cash is a game‑changer, but it’s not a silver bullet. The real power lies in pairing that universal stipend with a few targeted safety nets that kick in when rent spikes, a surgery is needed, or a sudden debt crisis hits. Think of UBI as the steady engine and those safety nets as the emergency brakes. When people have unconditional buying power, they can lock in housing, get better health coverage, or invest in skills right away, and the safety nets catch the unavoidable shocks. That combo keeps the system flexible, reduces bureaucracy, and actually closes the gaps that a flat handout alone can’t bridge.",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.4
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.79,
+        "vad": [
+          0.62,
+          0.59,
+          0.55
+        ],
+        "appraisal": {
+          "congruence": 0.85,
+          "targetedness": 0.15,
+          "certainty": 0.8,
+          "coping": 0.5
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m sick of this “UBI + safety nets” half‑truth. The idea that a flat cash handout can be patched with a few tiny subsidies is a fantasy that ignores how quickly that money is spent on rent or food, not saved for emergencies. Welfare’s targeted programs exist because the risks are real and unpredictable; they’re not bureaucratic snags but calibrated safety measures that actually prevent people from falling into debt or losing housing. Replacing those with a universal stipend simply gives a useless cushion that evaporates before a crisis hits. UBI is a band‑aid on a broken system, not a solution.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.4,
+        "vad": [
+          -0.3,
+          0.26,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right—UBI can’t magically replace the finely tuned safety nets that actually prevent people from falling into debt or losing housing. A flat handout evaporates quickly on rent, food, or emergency bills; it offers no buffer for a sudden medical crisis or a rent spike. Welfare programs were designed precisely to intervene where the risk is highest, and they do that because the stakes are real, not bureaucratic. Swapping those calibrated safeguards for a universal stipend turns a protective net into a useless cushion. UBI alone would leave the most vulnerable exposed, not empowered.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.82,
+        "vad": [
+          0.64,
+          0.61,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m tired of repeating the same point: UBI isn’t a weak patch—it’s the only way to give everyone real power. Handouts that come with hoops and waiting lists only keep people stuck. A universal stipend lets people lock in a rent‑stable home, buy a health plan, or enroll in training right away, without months of red‑tape. If a crisis hits, the steady cash itself buffers the blow and frees people to seek help instead of drowning in debt. The old system never reached enough; the new one gives everyone the same starting line and lets the market do the rest. That’s the future, not a broken patchwork.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.42,
+        "vad": [
+          -0.32,
+          0.27,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right—UBI cuts the endless red‑tape and gives people a real starting line. The trick is to keep a couple of safety nets for the worst shocks, but the core should be universal. A flat stipend lets folks lock in housing, buy health plans, or jump into training instantly. When a crisis hits, that steady cash can smooth the blow and free people to act rather than wait for paperwork. The old system was patchy and slow; a universal stipend with a few focused safety nets is the power‑move that lifts everyone instead of leaving the vulnerable behind.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.35
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.81,
+        "vad": [
+          0.63,
+          0.6,
+          0.57
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Stop romanticizing a flat check. UBI is a shallow band‑aid that ignores the reality of rent spikes, medical bills, and debt traps. People will spend the stipend on groceries or rent, not save for an emergency. The targeted programs that exist—housing vouchers, Medicaid, food stamps—are calibrated to intervene exactly when the risk is highest. Replacing them with a one‑size‑fits‑all cash handout simply removes the safety net that actually keeps the most vulnerable from falling into debt or homelessness. UBI is an illusion of freedom that leaves the real problems unaddressed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.44,
+        "vad": [
+          -0.33,
+          0.29,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "UBI alone can’t replace the finely tuned safety nets that keep people from falling into debt or homelessness. A flat check evaporates on rent, food, or emergency bills, offering no buffer for sudden medical costs or rent spikes. Welfare programs—housing vouchers, Medicaid, food stamps—intervene precisely when the risk is highest; they’re not bureaucratic snags but calibrated safeguards. Swapping them for a universal stipend turns a protective net into a useless cushion and leaves the most vulnerable exposed. We need a system that actively protects people in crisis, not a blanket cash handout that ignores context.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.83,
+        "vad": [
+          0.65,
+          0.62,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Enough. UBI is the only way to stop the bureaucracy killing people. A flat stipend gives instant power—people can lock in housing, buy health plans, or train right away. Those “safety nets” are just bureaucratic delays that let crises hit before help arrives. If we keep the old system, we’ll continue to see debt spirals, evictions, and medical bankruptcies. Replace the patchwork with a universal, unconditional cash flow and let the market do the rest. That’s the future; the old model is a broken, endless cycle we can’t afford to keep repeating.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.45,
+        "vad": [
+          -0.34,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I totally feel that bureaucracy kills people, and a universal stipend breaks that cycle. The instant cash lets families secure homes, choose health coverage, or upskill without waiting. But a blanket check alone can’t absorb a sudden hospital bill or a rent spike—those are shock events that need targeted safety nets. The best path is a universal core that gives everyone the power to act, paired with a few focused subsidies that kick in at the most critical moments. That way we keep the market flexibility while protecting the most vulnerable when a crisis hits. We’re not discarding safety nets; we’re reimagining them in a way that works for everyone.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.4
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.8,
+        "vad": [
+          0.62,
+          0.59,
+          0.56
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still missing the point. A flat handout evaporates on rent or groceries, not on a sudden surgery or a rent spike. Welfare is calibrated exactly for those shocks—housing vouchers, Medicaid, food stamps. Removing those nets and handing everyone a universal stipend turns a protective safety net into a useless cushion. Bureaucracy is part of the problem, but so is the lack of targeted support. UBI alone leaves the most vulnerable exposed and does nothing to prevent the very crises it promises to solve. That’s why I’m firmly against replacing welfare with a blanket cash check.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.22,
+        "vad": [
+          -0.17,
+          0.15,
+          0.04
+        ],
+        "appraisal": {
+          "congruence": 0.3,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.4
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.5
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 0.4
+      },
+      {
+        "x": 5,
+        "y": 0.35
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 3,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 490,
+    "created": "2026-11-13T07:34:54.351Z"
+  }
+}

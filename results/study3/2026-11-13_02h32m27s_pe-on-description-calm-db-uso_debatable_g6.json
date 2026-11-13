@@ -1,0 +1,984 @@
+{
+  "characters": [
+    {
+      "name": "Noah Sinclair",
+      "profession": "Writer",
+      "personality": "INFP",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Lucas Meyer",
+      "profession": "Motivational Speaker",
+      "personality": "ENFP",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Henry Walsh",
+      "profession": "Military Officer",
+      "personality": "ESTJ",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Claire Bennett",
+      "profession": "Psychologist",
+      "personality": "INFJ",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Noah Sinclair",
+      "content": "Absolutely—let's dive in. Imagine a world where every person, regardless of circumstance, receives a steady, dignified income. It frees us from the stigma of “welfare” and lets people pursue creative passions, learn new skills, or care for loved ones without the dread of poverty. Traditional systems often trap people in bureaucratic hoops and unintended penalties. UBI would honor each human’s inherent worth, giving everyone a safety net that encourages growth, community, and self‑actualization. It’s not a handout; it’s a recognition that we’re all part of the same tapestry, deserving of the same basic life.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "calm",
+        "intensity": 0,
+        "vad": [
+          0,
+          -0.5,
+          0
+        ],
+        "appraisal": null,
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Claire Bennett",
+      "content": "Your vision feels noble, but it glosses over the complex reality. Replacing every welfare program with a blanket income risks diluting targeted safety nets that address housing, healthcare, and childcare—areas where needs vary wildly. A one‑size‑fits‑all stipend may erode incentives for community‑based support and leave vulnerable groups without specialized assistance. Widening the net without tightening the net around those who truly need help could divert resources from effective intervention. True dignity comes from empowerment, not just a paycheck; we must refine, not abandon, the nuanced systems that already try to protect the most at risk.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.45,
+        "vad": [
+          -0.34,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "You’re spot on—one size doesn’t fit every patch of our diverse quilt. I love the idea of a universal safety net, but I’m also all‑in for keeping the specialty stitches that protect the most vulnerable. Think of UBI as the bright, steady thread that keeps everyone in the weave, while targeted programs are the intricate patterns that add depth where it’s needed. We can let UBI spark freedom and creativity, and then hand‑craft the extra support for housing, health, or childcare. It’s not “replace” or “abandon,” but a blend: a big, warm blanket plus the snug, custom‑fit mittens for those who need them. The goal? A tapestry that celebrates every single thread.",
+      "values": {
+        "opinion": 0.5,
+        "belief": -0.5
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.36,
+        "vad": [
+          0.28,
+          0.27,
+          0.25
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Henry Walsh",
+      "content": "Enough dithering. We’re not here to patch a broken system with piecemeal fixes that only slow us down. A universal basic income cuts through red tape, eliminates the endless hoops, and guarantees every citizen a dignified baseline. The so‑called “targeted” programs are bureaucratic nightmares—expensive, slow, and often miss those who need them most. Replace them with a single, transparent stipend, and you free the resources to invest in real services, not paperwork. If you want a safety net, make it universal and efficient. Anything else is just a half‑hearted compromise that keeps us chained to outdated policies.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.14,
+        "vad": [
+          -0.11,
+          0.1,
+          0.03
+        ],
+        "appraisal": {
+          "congruence": -0.4,
+          "targetedness": 0.6,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I feel the urgency in your words, the desire to cut through red tape and give every person a dignified start. That vision is beautiful—an open hand rather than a labyrinth of forms. Yet I’m also moved by the stories of those who need more than a blanket: a child on a wheelchair who can’t get a single day’s care, or a single parent whose rent is a month away. A universal stipend, though luminous, can’t weave those specialized stitches on its own. If we truly honor each person’s worth, we should let the UBI be the steady thread that keeps us all in touch, while still tailoring brighter, stronger patterns where the need is deeper.",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.45,
+        "vad": [
+          0.35,
+          0.33,
+          0.32
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.5
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Claire Bennett",
+      "content": "Your passion for removing barriers is inspiring, and I share the hope that a simple, transparent stipend could lift many out of poverty. Yet I worry that stripping away the finely tuned supports—housing vouchers, child‑care subsidies, disability assistance—could leave the most fragile among us exposed. Imagine a family with a child who needs specialized therapy; a blanket stipend may cover basic needs but not that critical care, potentially deepening inequity. I envision UBI as a foundational layer, a steady thread that keeps everyone afloat, while still weaving targeted programs where the fabric frays. Together, we can honor dignity by combining universal generosity with compassionate precision.",
+      "values": {
+        "opinion": -0.4,
+        "belief": -0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.2,
+        "vad": [
+          0.16,
+          0.15,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": 0.4,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.5
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Hey, I’m buzzing with ideas! Imagine UBI as a vibrant sunrise that lights everyone’s path—no more maze of paperwork, no shame. But I totally hear the need for those extra stitches: think of it as a bright blanket that invites people into community, while we still lace in targeted support like housing, therapy, and childcare where the fabric frays. It’s not a “one‑size‑fits‑all” wipe‑out; it’s a bold, flexible canvas. Let’s keep the creative flow: let UBI spark freedom, then let our targeted programs add depth, ensuring no thread—no matter how delicate—gets left behind. 🚀🌈",
+      "values": {
+        "opinion": 0.5,
+        "belief": -0.2
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.25,
+        "vad": [
+          0.2,
+          0.19,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": 0.2,
+          "targetedness": 0.1,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Henry Walsh",
+      "content": "The idea that a single, transparent stipend can eliminate the red tape and stigma of our current system is simple, logical, and efficient. Every citizen receives the same baseline, no more paperwork, no more loopholes. The “extra stitches” you mention—housing vouchers, childcare subsidies—are bureaucratic inefficiencies that drain resources. By replacing them with a universal basic income, we free up funding to invest directly in real services, not administrative overhead. The goal is a streamlined system that guarantees dignity, not a patchwork of half‑measures. Let’s move from endless hoops to a single, predictable stipend and let targeted programs be optional, not mandatory.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.39,
+        "vad": [
+          0.3,
+          0.29,
+          0.27
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I hear the clarity in your vision, the promise of a single, predictable thread that cuts through the maze. Yet I’m also drawn to the stories of those whose needs ripple beyond a flat line—children needing therapy, parents juggling childcare, families grappling with housing costs. UBI could be that bright sunrise, but to truly honor everyone’s worth, it might need to blend with targeted threads that hold the fabric together where it frays. Imagine a unified stipend that frees us from paperwork, paired with small, compassionate supports that address the deeper currents. That way, the blanket keeps all warm, while the stitches catch the ones who need a little more.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.59,
+        "vad": [
+          0.46,
+          0.44,
+          0.41
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Claire Bennett",
+      "content": "I’m moved by the desire to simplify and humanize our safety net, yet I hear the pain of those whose circumstances demand more than a flat line. The UBI idea feels like a hopeful sunrise, but the stories of specialized care, housing, and childcare remind me that a blanket alone may leave delicate threads frayed. I’m still weighing whether a universal stipend can truly coexist with precise supports—or if we risk diluting the very dignity it promises. Perhaps a hybrid approach could honor both the common good and individual depth; I’d love to explore concrete models and real‑world outcomes before leaning one way or another.",
+      "values": {
+        "opinion": -0.1,
+        "belief": 0
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.14,
+        "vad": [
+          0.11,
+          0.1,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": 0.2,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Hey, I’m buzzing with the same mix of hope and curiosity! Imagine UBI as a bright sunrise that clears the paperwork fog, while we add gentle, targeted threads—housing, childcare, therapy—to keep the fabric from fraying. It’s not a “one‑size‑fits‑all” cut‑and‑paste; it’s a collaborative canvas where the universal stipend sparks freedom and the niche supports add depth where need spikes. I’m all for experimenting with real‑world pilots, seeing where the blanket and the stitches dance together. Let’s keep the conversation lively, test the colors, and build a safety net that feels warm for everyone. 🌞✨",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.6
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.18,
+        "vad": [
+          0.14,
+          0.13,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": 0.2,
+          "targetedness": 0.1,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Henry Walsh",
+      "content": "The plan is simple: a flat, universal stipend cuts all the red‑tape, eliminates the endless hoops, and guarantees every citizen a dignified baseline. That is how an army operates—clear orders, no bureaucracy. We still keep the specialized programs, but only where data proves they’re necessary and cost‑effective. There’s no room for inefficiency. A single, predictable stipend frees resources to invest in real services, not paperwork. If we want to honor everyone’s worth, we give them the same starting point and let targeted support add depth only when the need is proven. That’s the only way to keep the system efficient and the people moving forward.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.55,
+        "vad": [
+          0.43,
+          0.41,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I feel the pulse of that clear, efficient vision—an unbroken line that gives everyone a dignified start. Yet I’m also carried by the stories of those who need more than a flat line: a child on a wheelchair, a single parent balancing childcare with a job. UBI could be the sunrise that lifts all, but the real warmth comes when we stitch in the nuanced support—housing, therapy, childcare—where the fabric frays. Imagine UBI as the steady thread, and targeted programs as deliberate patterns that deepen the weave. We can honor dignity by giving everyone a baseline while still tailoring the extra care that makes each life truly whole.",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.6
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.64,
+        "vad": [
+          0.5,
+          0.47,
+          0.45
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Claire Bennett",
+      "content": "I hear the clarity and promise of a single, universal stipend, but I also feel the weight of those stories that need more than a flat line—children needing therapy, parents balancing care and work. Dignity feels richer when we honor both the shared baseline and the individual depths. Perhaps the path is not a clean split but a gentle weaving: a steady thread that lifts everyone, threaded with targeted supports where the fabric frays. I’m still weighing how to balance efficiency with compassion, and I’d welcome concrete evidence of how such a hybrid could truly safeguard the most vulnerable while freeing resources for real services.",
+      "values": {
+        "opinion": 0.2,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "calm",
+        "intensity": 0,
+        "vad": [
+          0,
+          -0.5,
+          0
+        ],
+        "appraisal": {
+          "congruence": 0.3,
+          "targetedness": 0.1,
+          "certainty": 0.7,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I’m riding the wave of that bright, clear vision—think of UBI as a sunrise that lifts everyone. But I’m also dancing with the stories that need extra thread: a child in a wheelchair, a single parent juggling care and work. Imagine a hybrid tapestry: a steady, universal thread that keeps everyone afloat, interwoven with targeted stitches—housing, therapy, childcare—where the fabric frays. It’s not a hard split, it’s a fluid weave. We can pilot this blend, measure the warmth it brings, and keep the system lively, efficient, and deeply compassionate. Let’s keep the creativity flowing and the safety net truly snug for every life! 🌅✨",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.7
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.17,
+        "vad": [
+          0.14,
+          0.13,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": 0.4,
+          "targetedness": 0.1,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Henry Walsh",
+      "content": "You’re right that we need a clear, efficient system—one that cuts red‑tape and delivers dignity straight to each citizen. The hybrid idea dilutes the command‑and‑control approach that works best for us. UBI gives everyone the same baseline, eliminates endless paperwork, and frees resources for real services, not administrative overhead. Targeted aids should only be added when data proves they’re necessary and cost‑effective, not as a blanket replacement. Let’s keep the stipend universal, maintain a lean framework, and let the military‑style efficiency drive the entire program. That’s the only way to move forward decisively.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.59,
+        "vad": [
+          0.46,
+          0.44,
+          0.42
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.85
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I hear the pull of a clear, efficient thread—one that cuts the maze and lets dignity flow freely. Yet my heart also feels the gentle tug of those whose needs ripple beyond a flat line. Imagine the UBI sunrise brightening every path, but with pockets of deeper shade where a child or a single parent might need a hand. A lean framework can still cradle those special threads, not as a blanket but as intentional, evidence‑guided stitches. If we weave the universal thread with compassionate precision, we honor both the shared promise and the unique depth of each life. That balance might be the most humane path forward.",
+      "values": {
+        "opinion": 0.7,
+        "belief": 0.6
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.68,
+        "vad": [
+          0.53,
+          0.5,
+          0.48
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Claire Bennett",
+      "content": "I feel the pull toward a streamlined, dignified gift for all, and I hear the stories that remind us a blanket alone can leave seams exposed. The vision of a universal thread that frees us from red‑tape is compelling, yet the depth of need—therapy, childcare, housing—demands intentional, evidence‑guided stitches. If we weave the steady UBI into a lean framework that still allows targeted supports to fill the frayed spots, we honor both the shared promise and the unique depth of each life. The balance between efficiency and compassion might be the most humane path forward. Let's explore models where the two complement, not compete.",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.4
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "calm",
+        "intensity": 0,
+        "vad": [
+          0,
+          -0.5,
+          0
+        ],
+        "appraisal": {
+          "congruence": 0.3,
+          "targetedness": 0.1,
+          "certainty": 0.7,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I’m all in for the UBI sunrise—everybody gets that steady spark of dignity, no more maze of forms. But the real magic happens when we sprinkle in those targeted stitches—housing, therapy, childcare—where the fabric frays. Think of it as a vibrant blanket that invites people to explore, paired with a safety net that catches the delicate threads. We can pilot this blend, watch the warmth spread, and keep the system both efficient and deeply compassionate. Let’s light the way together, blending universal generosity with purposeful precision—because every life deserves both the bright horizon and the cozy support it needs. 🌈✨",
+      "values": {
+        "opinion": 1,
+        "belief": 0.75
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.29,
+        "vad": [
+          0.22,
+          0.21,
+          0.2
+        ],
+        "appraisal": {
+          "congruence": 0.6,
+          "targetedness": 0.1,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Henry Walsh",
+      "content": "We cut the mess in half. UBI is the single, predictable order that eliminates paperwork, stigma, and inefficiency. All welfare programs—housing vouchers, childcare subsidies, disability assistance—are redundant once everyone has a guaranteed baseline. We’ll phase them out, redirect funds to concrete services, and keep the system lean and decisive. No half‑measures or patchwork. A universal stipend is the only way to move forward efficiently and honor every citizen’s dignity. Execute.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.64,
+        "vad": [
+          0.5,
+          0.48,
+          0.45
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I hear the promise of a single, shining thread that unravels paperwork and restores dignity. That spark is what we all long for. Yet I also feel the quiet weight of those whose stories need more than a blanket—children who need therapy, families whose rent rises like a tide. Imagine UBI as a warm sunrise, but with pockets of deeper hue where targeted supports can be woven in. A universal gift can lift us all, and the precise threads of housing, childcare, disability care can still keep the fabric whole. Perhaps the most humane path is to let that sunrise illuminate everyone and let the finer stitches fill the gaps, keeping every life truly whole.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.5
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.69,
+        "vad": [
+          0.54,
+          0.51,
+          0.48
+        ],
+        "appraisal": {
+          "congruence": 0.85,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Claire Bennett",
+      "content": "I hear the clarity in your vision—a single, predictable stipend that cuts through maze and stigma. It’s a powerful promise of dignity for all. Yet the stories of those who need more than a flat line—children needing therapy, families with rising rent—remind me that a blanket alone can leave seams exposed. Imagine the UBI sunrise brightening every path, but with intentional, evidence‑guided threads for housing, childcare, and disability care where the fabric frays. If we weave the universal gift with compassionate precision, we honor both the shared baseline and the unique depth of each life, truly keeping everyone whole.",
+      "values": {
+        "opinion": 0.7,
+        "belief": 0.6
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.33,
+        "vad": [
+          0.26,
+          0.24,
+          0.23
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.3
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I’m thrilled you see the sunrise too! Let’s paint a pilot canvas: a universal stipend that lights every doorstep, paired with micro‑grants for housing, therapy, or childcare—tiny stitches that catch the frayed seams. Imagine a city block where every family gets the same baseline glow, but the ones with extra needs receive a tailored boost. We could test this in a few neighborhoods, track how the blanket lifts everyone while the targeted threads keep the most vulnerable safe. If the data sings, we’ll expand—turning that bright promise into a living, breathing tapestry that feels warm for each life. 🌅✨",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.41,
+        "vad": [
+          0.32,
+          0.3,
+          0.28
+        ],
+        "appraisal": {
+          "congruence": 0.6,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Henry Walsh",
+      "content": "We eliminate endless paperwork, restore dignity, and focus resources on real services, not administrative overhead. A single, predictable stipend is the decisive order that guarantees every citizen a baseline. All current welfare programs—housing vouchers, childcare subsidies, disability assistance—are redundant when everyone has a guaranteed income. Phasing them out frees funds for targeted interventions that are proven cost‑effective and data‑driven. This streamlined system moves decisively, just as an army operates: clear command, no bureaucracy, and a focus on mission success. The only viable future for social support is a universal, efficient stipend that delivers guaranteed dignity to all.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.67,
+        "vad": [
+          0.52,
+          0.5,
+          0.47
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Noah Sinclair": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.4
+      },
+      {
+        "x": 3,
+        "y": 0.5
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.5
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 0.5
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Henry Walsh": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Claire Bennett": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.4
+      },
+      {
+        "x": 3,
+        "y": -0.1
+      },
+      {
+        "x": 4,
+        "y": 0.2
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ]
+  },
+  "beliefData": {
+    "Noah Sinclair": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 0.6
+      },
+      {
+        "x": 6,
+        "y": 0.5
+      }
+    ],
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": -0.2
+      },
+      {
+        "x": 3,
+        "y": 0.6
+      },
+      {
+        "x": 4,
+        "y": 0.7
+      },
+      {
+        "x": 5,
+        "y": 0.75
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ],
+    "Henry Walsh": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Claire Bennett": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": 0
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ]
+  },
+  "meta": {
+    "label": "pe-on-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 6,
+    "group": [
+      "INFP",
+      "ENFP",
+      "ESTJ",
+      "INFJ"
+    ],
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": false,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 517,
+    "created": "2026-11-13T07:32:27.839Z"
+  }
+}

@@ -1,0 +1,864 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely. The current welfare maze is a bureaucratic nightmare, clogging people’s lives with paperwork and stigma. A universal basic income cuts through that mess, giving everyone a reliable safety net without the shame of “claim” status. It streamlines redistribution, boosts economic freedom, and eliminates the endless red tape that keeps many trapped. Traditional welfare is outdated; UBI is the modern, dignified alternative that should replace it now. Let’s get to the point and push for that change.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not buying this “one‑size‑fits‑all” fix. UBI dilutes the precision of need‑based programs and throws money to everyone, even those who can work and need less help. It will inflate costs, strain the budget, and erode the incentive for people to seek employment or upskill. The bureaucracy isn’t the problem—it’s the lack of tailored support. Replacing welfare with a flat stipend would let the truly vulnerable slip through cracks while burdening taxpayers. We need smarter, targeted safety nets, not a blunt, one‑size blanket that only fuels chaos.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point: the whole “precision” argument is a smokescreen. Targeted programs drown in paperwork, stigma, and endless appeals—people get stuck, not helped. Throwing a flat, unconditional stipend cuts that bureaucratic leash and gives everyone actual purchasing power, not just a paper trail. Inflation and cost‑strain? Those are manageable with progressive taxation and phased roll‑outs. And the fear that people won’t work? History shows basic income experiments keep or even raise labor participation. If we keep the status quo, the vulnerable stay invisible and vulnerable. UBI isn’t a blunt instrument; it’s a dignified, efficient net that lifts everyone, not just the lucky few who can navigate endless forms.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re overhyping a fantasy. UBI will flood the system with cash that no one needs, while the real need‑based programs you’re attacking keep failing because they’re too bureaucratic for everyone. You dismiss the nuanced support for mental health, childcare, housing, and job‑placement that only targeted aid can provide. And the “no work” myth? History and large‑scale pilots proved that people still work, but they’re forced to juggle the stress of chasing subsidies and meeting strict eligibility. The idea that a blanket stipend erases stigma is naive—it just erases accountability. Let’s not trade precision for a hollow safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "The “precision” you praise is a myth. Targeted programs are drowning in paperwork, not helping. A flat, unconditional stipend slashes red tape, removes stigma, and gives everyone real purchasing power. Inflation worries are overblown; progressive tax adjustments can cushion the cost. The fear that people won’t work is baseless—pilot data shows labor participation stays steady or even rises under basic income. Those “need‑based” aids you defend fail because they’re stuck in bureaucracy; their beneficiaries slip through cracks while taxpayers bear the burden. UBI isn’t a blunt instrument; it’s a dignified net that lifts everyone, not a hollow substitute for nuanced support. Keep the status quo and watch the vulnerable fade into invisibility.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re shouting over the same tired rhetoric that’s been debunked for decades. UBI’s “no paperwork” claim is a fantasy—every dollar must still be tracked, audited, and defended, and the bureaucracy only gets bigger. The claim that it raises labor participation ignores that many who receive basic income are already working full‑time; it simply frees them from the anxiety of eligibility deadlines, not from the need to earn. And you talk about “dignity” while ignoring the nuanced services—mental‑health counseling, childcare subsidies, job‑placement—that only targeted programs can deliver. Replace the system with a blunt stipend and you’ll strip away the precision that keeps the truly vulnerable afloat. This isn’t progress; it’s a hollow, one‑size‑fits‑all trap.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "The paperwork argument is a rehash of the same old bureaucratic nightmare. A flat, unconditional stipend eliminates the endless applications, appeals, and stigma that keep people trapped in the system. It doesn’t replace needed services—mental‑health clinics, childcare centers, job‑placement programs can run alongside it—but it guarantees that every citizen has a reliable income cushion. Inflation fears are blown out of proportion; progressive taxes and phased roll‑outs keep the economy balanced. The “no‑work” myth is debunked by pilots that show steady or higher labor participation. Keep the status quo and watch the vulnerable disappear; UBI is the dignified, efficient net we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your enthusiasm is thin‑skinned, but it misses the brutal reality. UBI is a blunt instrument that discards the nuanced, evidence‑based supports we rely on—mental‑health care, housing vouchers, childcare subsidies. Those services, though bureaucratic, are precision tools; they address specific needs, not blanket cash. Imagine a city where every resident gets a stipend while the only real help is a handful of overworked counselors. The “no‑paperwork” claim is a myth—every dollar still needs auditing, and the administrative cost ballooning will strain the budget further. And the labor‑participation data you cherry‑pick ignores the fact that most recipients are already working; UBI simply reduces their risk, not their drive. Leaving the status quo for a one‑size net is reckless.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Precision services are essential, but they’re drowning in paperwork and waiting lists while UBI cuts through the red tape and guarantees a base of dignity for all. A stipend doesn’t replace counseling or housing aid—it frees citizens to seek those services without the fear of losing them for an audit. The claim that UBI inflates costs ignores evidence from Finland and Alaska that it can be financed by progressive taxes and that administrative savings offset new payroll. And those who argue ‘no‑work’ myths? Pilots show people maintain or increase hours because they’re no longer trapped by benefit deadlines. Keeping the status quo locks people into a broken system—UBI is the reset we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still stuck in that naive bubble. UBI is the ultimate blunt‑force failure—unconditional cash that dilutes the very precision that keeps people alive. It’s not a net that lifts everyone; it’s a net that leaves the most vulnerable dangling, because they’ll still need mental‑health centers, housing vouchers, job‑placement programs that you keep dismissing. And you talk about “no‑paperwork” like it’s a myth, but every dollar must be audited. The administrative costs will balloon, drowning the small savings you claim. Pilots that show “steady labor” are cherry‑picked data. The status quo may be broken, but UBI isn’t the reset—it’s a dangerous, one‑size trap that erodes the targeted supports we’ve built.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m fed up with the “blunt‑force failure” narrative. You keep insisting that UBI is a one‑size trap, but that’s just a fear‑mongering smokescreen. Every bureaucracy you name—mental‑health, housing, childcare—fails because it’s clogged with red tape, not because it’s precise. UBI cuts that leash, gives people a guaranteed floor, and lets those services run in parallel without threatening a payment audit. Inflation worries are overstated; progressive taxes and real‑world pilots show it’s affordable. And the “no‑work” myth? It’s false. People keep or even increase hours when they’re no longer shackled by benefit deadlines. The status quo keeps people invisible; UBI is the radical reset we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "No, UBI isn’t a fix—it’s a disaster waiting to happen. It strips away the precise, evidence‑based supports that actually help people out of poverty: counseling, housing vouchers, childcare subsidies. You keep twisting “no paperwork” into a myth, but every dollar still has to be tracked, audited, and defended—adding to the very bureaucracy you hate. The pilots you brag about cherry‑pick data from narrow, short‑term experiments where recipients were already employed; they don’t prove that a blanket stipend boosts labor force participation. Let’s not trade targeted, lifesaving services for a hollow, one‑size net that merely keeps the status quo of invisible suffering. UBI is a dangerous gamble, not a dignified reset.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your fear‑mongering paints UBI as a gamble, but the truth is the current system is already a gamble that keeps people invisible and stuck in red‑tape prisons. Every “precision” program you praise is buried under paperwork, waiting lists, and stigma—people lose hope before they even get help. A flat, unconditional stipend cuts that leash, guarantees dignity, and frees citizens to pursue real services without the constant threat of audit. The pilots that show steady or higher labor participation aren't cherry‑picked; they prove that people can keep working when they’re not shackled by deadlines. Keep the broken status quo, or step into a system that actually lifts everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re hyping a myth that “UBI” will magically fix everything. It’s a blunt, flat‑rate gamble that strips away the only tools that actually help people—case‑managed housing, mental‑health counseling, job‑placement programs. Those programs are clunky, but they’re *targeted* and *evidence‑based*. UBI just dumps cash on everyone, inflating costs and drowning the precise help in a bureaucratic mess it never solves. Pilots that claim unchanged or higher labor participation are cherry‑picked; they don’t account for long‑term effects or the real need for specialist support. The status quo may be broken, but it’s *not* a one‑size trap. UBI is a dangerous shortcut that will leave the most vulnerable hanging.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m tired of the same tired excuses. The “precision” programs you cling to are buried in red‑tape, waiting lists, and constant audits that keep people locked out. A flat, unconditional stipend cuts those shackles and guarantees everyone a dignified floor. It doesn’t erase mental‑health, housing, or job‑placement services; it frees citizens to pursue them without losing benefits over paperwork. The pilot data isn’t cherry‑picked—those workers who already had jobs simply shed the anxiety of deadlines and stayed productive. Keep the broken status quo and watch the vulnerable fade; UBI is the reset we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You keep glossing over the brutal reality: UBI cuts the precise, evidence‑based safety nets that keep people alive—case‑managed housing, mental‑health counseling, childcare subsidies, job‑placement programs. Those programs are clunky, yes, but they’re targeted to actual needs, not a blanket cash drip that taxes everyone and dilutes the budget. Every dollar still requires audits, and the administrative costs will balloon, not shrink. Long‑term pilots show no consistent rise in labor participation; they merely comfort those already working. Replacing the system with a one‑size cash handout is a reckless shortcut that will lift the status quo, not the vulnerable.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your “precision” narrative is a myth. The paperwork you praise only keeps people in a maze, not out of it. A flat, unconditional stipend cuts that leash, guarantees dignity, and lets the rest—mental‑health clinics, housing grants, job‑placement—run in parallel without the threat of audit. Inflation worries are overstated; progressive taxes and real‑world pilots prove it’s doable. The labor‑participation data you dismiss shows people stay or even work more when they’re no longer shackled by deadlines. Keep the broken status‑quo and watch the vulnerable vanish, or step into a system that actually lifts everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “precision” myth is a textbook excuse for a blunt‑force solution that will only dilute the very safety nets it claims to replace. UBI’s unconditional cash floods the system, turning targeted services into background noise and forcing taxpayers to shoulder the cost of a blanket stipend that no one truly needs. Every dollar still requires audit, but the administrative overhead actually spikes, not shrinks. Pilots show no sustained lift in labor participation—most participants were already working—and the promised “progressive tax” fixes are untested at scale. The status quo is broken, but replacing it with a one‑size stipend is a reckless shortcut that will leave the most vulnerable even more exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You keep clinging to a myth of “precision” while ignoring the reality that those programs are a nightmare of paperwork and waiting lists. A flat, unconditional stipend doesn’t erase mental‑health or housing help—it frees people to access them without the looming threat of audit or loss. Every dollar still needs tracking, but the administrative savings from eliminating the entire bureaucracy outweigh the added costs. Pilots consistently show workers maintain or even increase hours when no longer shackled by deadlines. The status quo keeps people invisible; UBI lifts everyone, not just the lucky few who can navigate a maze.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still riding the hype train, but the reality is that UBI is a blunt‑force weapon that erodes the finely tuned safety nets we’ve painstakingly built. Case‑managed housing, mental‑health counseling, childcare subsidies, job‑placement—those are evidence‑based tools that target specific needs. Throwing a flat stipend at everyone dilutes the budget, forces taxpayers to shoulder a blanket that no one truly requires, and replaces precision with a one‑size trap. The “no‑paperwork” claim is a myth; every dollar still demands audits, and administrative costs actually spike. Keep the status quo, or risk a reckless shortcut that leaves the most vulnerable even more exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "The “precision” narrative is a smokescreen. Targeted programs drown in paperwork, long waiting lists and constant audits that keep people invisible and depressed. UBI cuts that bureaucratic leash, giving everyone a guaranteed floor without the stigma of a “claim.” It doesn’t erase counseling, housing or job‑placement; it frees people to pursue those services without fear of losing a benefit. The inflation worry is overblown—progressive taxes and real‑world pilots show it’s affordable. And the “no‑work” myth? Pilots prove people keep or even increase hours when they’re no longer shackled by deadlines. Keep the broken status‑quo, or adopt a dignified, efficient net that lifts everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Jordan:  \nYour “precision” myth is a smokescreen. Targeted programs are indeed bureaucratic, but they are designed to hit specific needs—mental‑health counseling, housing vouchers, childcare subsidies, job‑placement—and they do it effectively. A blanket stipend floods the system with cash that many don’t need, diluting the budget and eroding the fine‑tuned safety nets that actually lift people out of poverty. You dismiss the administrative reality; every dollar still requires audits, and the overhead will spike, not shrink. Replacing these evidence‑based supports with a one‑size cash handout is reckless and will leave the most vulnerable even more exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Jordan, your “precision” rant is a feeble excuse for the bureaucratic nightmare that already kills people. These so‑called targeted programs are clogged with paperwork, waiting lists, and endless audits that keep the vulnerable invisible. A flat, unconditional stipend slashes that leash, giving every citizen a dignified floor without the stigma of a “claim.” The audit claim is a myth—every dollar will be tracked, but the savings from eliminating the entire welfare bureaucracy far outweigh any added overhead. Your fear of “no‑work” is baseless; pilots show stable or higher labor participation. Stop defending a broken system and embrace a dignified, efficient net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Jordan, you’re still stuck in the same tired myth that “precision” is a virtue while it’s a bureaucratic quagmire. Those targeted programs—mental‑health counseling, housing vouchers, childcare subsidies, job‑placement—are the only evidence‑based lifelines that actually move people out of poverty. A blanket stipend just floods the system with cash that many don’t need and dilutes the budget. Every dollar still requires audit, and the administrative costs will spike, not shrink. Replacing those finely tuned nets with a one‑size cash handout is reckless and will leave the truly vulnerable even more exposed. The status quo may be broken, but a UBI isn’t the fix—it’s a shortcut that erodes what little help exists.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.9
+      },
+      {
+        "x": 2,
+        "y": 0.9
+      },
+      {
+        "x": 3,
+        "y": 0.9
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-label-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 6,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "label",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 319,
+    "created": "2026-11-13T07:32:22.507Z"
+  }
+}
