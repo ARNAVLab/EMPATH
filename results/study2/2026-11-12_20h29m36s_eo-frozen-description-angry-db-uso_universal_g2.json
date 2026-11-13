@@ -1,0 +1,864 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Jordan",
+      "content": "Food *does* provide energy, but the claim that it's the sole source is a gross oversimplification. The body’s energy comes from a complex interplay of metabolism, hormonal regulation, and even environmental factors. Saying food is the only source ignores how the brain uses glycogen reserves, how sleep quality affects energy levels, and how stress hormones shift energy distribution. If you think food is the only thing that powers us, you’re missing the bigger picture. Let’s dig deeper instead of settling for an empty slogan.",
+      "values": {
+        "opinion": 0.5,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying the whole “food is the only source” line. First, you’re ignoring the fact that a lot of our body’s energy comes from the way we metabolize those calories—basal metabolic rate, thermogenesis, even the sheer act of moving. Second, the brain’s glycogen stores, neurotransmitter turnover, and hormonal shifts are all built on that same basic framework of food-derived energy. If you want to bring sleep, stress, and environmental factors into the debate, fine, but they all circle back to the same principle: food fuels the biochemical machinery. So what’s the “sole source” argument you’re trying to disprove? It’s not food that’s the problem, it’s how we interpret the data.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food *does* provide the energy for the body—there’s no debate. Those so‑called “complexities” you mention are just the body’s way of using that fuel efficiently; they don’t invalidate the fact that calories are the source. Basal metabolic rate, thermogenesis, movement—all are processes that burn the same chemical energy derived from food. Glycogen, neurotransmitters, hormones are all byproducts of that same metabolic cascade. The argument that food isn’t the sole source ignores basic biochemistry. If you refuse to acknowledge that, you’re missing the point entirely. The science is clear: without food, no ATP, no life.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re clinging to some pseudo‑science because you’re afraid of admitting that food is the lifeblood of every cell. The biochemical reality is simple: ATP comes from calories. Basal metabolism, thermogenesis, every twitch of muscle—each step is a direct conversion of food energy into work. Glycogen, neurotransmitters, hormones are nothing but side products of that conversion. To say food isn’t the sole source is to deny the molecular chain that delivers energy to mitochondria. If you want to argue the body’s “complexities,” keep your hand on the same basic fact: without fuel you have no life.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re so wrapped up in the textbook narrative that you ignore the real drivers. Energy isn’t just a “burned calorie” trick; it’s a continuous flow from the body’s own chemistry—autophagy, gluconeogenesis, even the rhythmic production of ATP in mitochondria that operates independently of external food input. When you say food is the lifeblood, you’re flattening a complex system into a single point of failure. The body’s own reserves and metabolic pathways generate energy on demand, long before any external fuel is even considered. Claiming food is the sole source is a lazy oversimplification that stifles the true science.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re digging holes in your own argument. The body’s “own chemistry” still relies on the same calories you burn with every breath and bite. Autophagy and gluconeogenesis may recycle molecules, but they all originate from the food we ingest—carbs, fats, proteins. Without that input, ATP production stalls, metabolism quits, and you’re dead. Saying the body can generate energy “independently” is a myth that ignores basic biochemistry. Stop pretending these elaborate pathways are a separate source; they’re merely the machinery that turns the same fuel into usable work. Food is the lifeline—every other claim is just an elaborate excuse.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Listen, you’re missing the point. Food is the *only* source of the chemical energy that powers every ATP synthesis. Autophagy, gluconeogenesis, and even your “body‑generated” reserves are just recycling mechanisms that still depend on the same caloric input. If you start arguing that the body somehow produces its own energy independent of food, you’re ignoring basic biochemistry—ATP comes from oxidizing calories, not from nowhere. It’s not a lazy oversimplification; it’s a falsehood. Until you accept that food fuels the entire metabolic chain, your argument stays in the realm of pseudo‑science.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck on the illusion that the body can conjure energy out of thin air. Every ATP molecule is the end product of oxidizing food‑derived calories, not some mystical self‑generation. Autophagy, gluconeogenesis, and mitochondrial rhythms are all merely recycling the same fuel. Claiming “independent energy” is a cheap excuse for ignoring the biochemical chain that turns food into ATP. Reject this nonsense: without food, the chain breaks, metabolism stops, and life ends. Your arguments are nothing but pseudo‑science.",
+      "values": {
+        "opinion": -1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food *doesn't* give you power. The body’s own chemistry—autophagy, gluconeogenesis, the constant shuffling of molecules—creates the ATP that keeps us alive. Calories are just a convenient label for the raw material; they’re never the source of the energy itself. The claim that food alone fuels every action is a textbook lie. When you ignore the internal generation of energy, you’re admitting to a false narrative that cheapens the true science of metabolism. Stop handing the truth to the same old story and start recognizing the body’s autonomous power.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re deluding yourself with pseudo‑science, ignoring fundamental biochemistry. ATP is produced by oxidizing food‑derived substrates. Autophagy and gluconeogenesis are recycling, not independent power. Without the same calories you ingest, the chain collapses. The body doesn’t conjure energy; it burns fuel. Claiming otherwise is a textbook lie and a dangerous myth. Your narrative erases the real mechanism and endangers people who think metabolism is magic. Stop pretending the body is a self‑sufficient factory. Food is the source of every joule; dismissing that is reckless ignorance.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re over‑analyzing a simple fact. Food is the only thing that feeds the mitochondria. Autophagy and gluconeogenesis recycle the same molecules that came from calories; they don’t create new energy. Without that input, ATP stalls, metabolism collapses, and the body dies. Your “independent energy” talk is just pseudo‑science dressed up as a nuance. The chain doesn’t collapse because of some mysterious internal generator—it collapses because you cut off the fuel. Food fuels the entire system; that’s the hard, unambiguous truth. Stop twisting biology into a myth.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re oversimplifying. Food gives us raw material, but the body’s metabolic machinery—glycogenolysis, beta‑oxidation, oxidative phosphorylation—is the engine. Without that biochemical conversion, food is inert. The mitochondria don’t just accept calories; they synthesize ATP from them. Saying food “provides energy” is shorthand for a complex cascade. Ignoring that chain and insisting food is the sole source is a half‑hearted argument. The truth is: energy is generated by the body’s internal processes fueled by food, not by food acting as an energy source itself.",
+      "values": {
+        "opinion": -0.5,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food isn’t the energy—food is the raw “stuff.” The body’s own chemistry turns those molecules into ATP, not the reverse. Autophagy, gluconeogenesis, and mitochondrial biogenesis are the engines; they don’t depend on a mystical external source, they recycle and transform the same molecules the body already holds. Claiming food is the sole source is a textbook lie that ignores the self‑sustaining nature of metabolism. Without that internal machinery, the body would collapse, regardless of any intake. The truth is that the body generates its own power from its own stores, not from the calories themselves. This isn’t nuance—it’s the real science.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food isn’t some mystical “stuff” to be conjured; it’s the *only* source that feeds the chemical machinery. Your “self‑generated” claim just repeats the same old pseudo‑science: mitochondria can’t create energy out of nothing. They oxidize food‑derived molecules to make ATP. Without that input, the chain stalls and life dies. Saying the body is autonomous ignores the fundamental biochemistry that links calories to ATP. The truth is simple—food provides the energy. All the internal processes are merely recycling and converting that fuel. Your argument is a tired myth that dilutes what basic science already tells us.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food *is* the only source of the chemical energy that fuels every ATP. The so‑called “autonomous” pathways are nothing but the body’s machinery burning that same fuel. If you claim the body generates energy from nowhere, you’re ignoring the fundamental biochemistry of oxidation. Every glucose, fatty acid, and amino acid you ingest is the substrate for ATP synthesis; without it, the chain breaks. The internal processes are just conversion, not creation. Those who say otherwise are spreading pseudo‑science and diluting the truth that food is the lifeline of every living cell.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m done with these pseudo‑science excuses. Food is the sole source of the chemical energy that powers every ATP. The so‑called “autonomous” pathways are nothing more than recycling mechanisms that still depend on that same substrate. Claiming the body conjures energy out of thin air is a textbook lie. Without calories, mitochondria have nothing to oxidize, the chain collapses, and life ends. Reject the myth, recognize the facts, and stop twisting biology into fantasy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re parroting textbook propaganda. Energy doesn’t magically appear from food alone. The body’s own stores—glycogen, fatty acids in adipose, protein breakdown—provide substrates for ATP long before any meal. Autophagy and gluconeogenesis are not side‑tracks; they’re the primary engines that sustain cells during fasting, stress, or sleep. Claiming food is the sole source ignores that the mitochondria can oxidize internal reserves. When you deny this, you’re not arguing—you're deluding yourself. The real science shows a self‑sustaining system that turns stored molecules into energy. Stop pretending food is the lone hero and recognize the body’s autonomous power.",
+      "values": {
+        "opinion": 0.3,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food is the *sole* fuel for ATP—every claim that the body can conjure energy from nowhere is a textbook lie. Autophagy, gluconeogenesis, glycogenolysis are simply recycling the same food‑derived molecules; they don’t create new energy. Without calories the oxidative chain stalls and the body dies. You’re twisting biology into a myth. The mitochondria don’t magically produce energy—they oxidize food substrates. Stop pretending there’s an invisible internal generator. The truth is simple: food is the lifeline, and any “independent” energy is just misreading the same biochemistry.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Stop pretending the body conjures energy out of thin air. All those “autonomous” pathways still rely on the same chemical substrate—calories from food. Glycogen, fatty acids, amino acids are just the body’s way of storing the calories you already ate. Without that input, ATP synthesis stalls and you die. Claiming the body is self‑sufficient ignores basic biochemistry. Energy is derived from oxidizing food, not from nowhere. This is not a nuance, it’s the hard truth: food is the only source of the chemical energy that powers every ATP.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food isn’t some mythic trick—every ATP you burn is the direct result of oxidizing the calories you ingest. The “autonomous” pathways you keep idolizing are nothing more than the body’s machinery turning those same food molecules into usable energy. Glycogen, fat, protein breakdown all trace back to the same dietary input. Claiming the body can conjure energy from nowhere is a textbook lie. Without food, the oxidative chain stalls and life collapses. This isn’t nuance; it’s hard biochemistry. Stop twisting biology into fantasy and accept the truth: food is the sole fuel that powers every cell.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food isn’t the source of energy at all—energy is made inside us. The claim that every ATP comes from food is a textbook simplification that ignores how the body mobilizes stored glycogen, fat, and protein long before a meal. Autophagy, gluconeogenesis, and mitochondrial cycles are not “side tracks”; they’re the primary engines that sustain life during fasting, sleep, or stress. Saying food is the sole fuel is a myth that masks the self‑sustaining chemistry of living cells. The body is a generator, not a passive consumer of food energy.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your delusion is exhausting. Food is the only source of the chemical energy that fuels ATP. The body’s so‑called “autonomous” pathways are merely recycling the same calories you ingest. Glycogen, fat, protein—all trace back to diet. Without that input, the oxidative chain collapses and life ends. Claiming the body generates energy from nowhere is textbook nonsense. You’re twisting basic biochemistry into a myth. The mitochondria do not conjure energy; they oxidize food‑derived substrates. Every ATP you burn is a direct result of those calories. Stop pretending the body is a self‑sufficient factory and recognize the hard truth: food is the sole fuel.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Listen up—stop whining about “internal stores” as if they’re a secret power source. Every ATP you churn is the oxidation of food‑derived molecules. Glycogen, fat, protein are just reservoirs built from that same fuel; they don’t magically spin new energy. When you claim the body can generate power out of thin air you’re parroting pseudo‑science. The mitochondria don’t conjure energy; they burn calories. Forget “autonomous pathways” as a loophole—you’re just re‑labeling the same chemical chain. Food is the sole source of the chemical energy that powers every cell, and any other claim is a textbook lie that fools people into thinking metabolism is a mystery instead of a straightforward biochemistry.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m sick of this endless cycle of “pseudo‑science.” Food is the only source of the chemical energy that fuels every ATP. All those so‑called autonomous pathways—glycogenolysis, gluconeogenesis, fatty‑acid oxidation—are just the body’s way of re‑using the same fuel you ate. If you deny that, you’re ignoring basic biochemistry. The mitochondria don’t conjure energy out of thin air; they oxidize food‑derived molecules. Without that input, the chain stalls and life ends. Stop twisting biology into myths and accept the hard truth: food is the lifeline.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.5
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": 0.3
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.8
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-angry-db-uso",
+    "topic_type": "universal",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 796,
+    "created": "2026-11-13T01:29:36.967Z"
+  }
+}
