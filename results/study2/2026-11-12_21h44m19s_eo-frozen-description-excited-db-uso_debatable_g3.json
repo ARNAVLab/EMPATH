@@ -1,0 +1,868 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Sure thing—let’s dive in! I’m firmly against the idea that universal basic income should wipe out traditional welfare. UBI feels like a one‑size‑fits‑all bandage on complex social problems. It eliminates the safety nets that are finely tuned to help people in crisis—housing aid, food stamps, child support, and disability benefits. Those programs target specific needs and have proven outcomes. Replacing them with a flat stipend would leave many vulnerable populations exposed, especially those who need more than a generic payment to survive. Let’s unpack why a nuanced, targeted approach beats a blanket handout.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I get where you’re coming from, but think of UBI as a foundation that actually strengthens those targeted programs rather than erasing them. A universal stipend gives everyone the same basic purchasing power, so people can access the specific supports they need—housing vouchers, food assistance, or disability care—without the bureaucracy that often delays help. It removes the stigma of “welfare” and reduces administrative costs, freeing up resources to invest more in the very services that still need funding. In my view, UBI isn’t a one‑size bandage; it’s a robust platform that lets the safety nets you love work even better.",
+      "values": {
+        "opinion": -0.5,
+        "belief": 0.5
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I totally get the optimism, but the reality is that UBI would dilute the very safety nets it claims to bolster. A flat cash handout ignores the nuanced needs of those who depend on tailored programs—think housing vouchers for people in eviction crises or specialized medical support for disabled individuals. By replacing these targeted services with a generic stipend, we risk leaving the most vulnerable without the resources they desperately need. Plus, the “stigma removal” argument ignores that many people still need structured assistance to navigate complex systems. A blanket payment doesn’t fix systemic gaps; it merely creates a new, less effective safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear you, but keep in mind that the very “stigma” you cling to is a barrier, not a virtue. A flat stipend eliminates the gatekeeping that turns a quick food stamp into a months‑long waiting game. Even if UBI is generic, people can still tap into housing vouchers or disability benefits—just with less red tape and more cash flow to start with. Diluting safety nets isn’t about weakening them; it’s about giving every citizen a solid base from which targeted programs can thrive. The data from pilot UBI projects show higher employment and lower poverty rates—proof that a universal foundation can—and should—replace fragmented welfare.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re missing the core issue: UBI isn’t a supplement, it’s a wholesale swap. The targeted programs you adore—housing vouchers, disability care, child support—are precision tools that already meet specific needs. Dumping them for a flat stipend leaves people with chronic debt or unmet medical costs because the cash simply can’t replace specialized support. Stigma isn’t the only barrier; the complexity of receiving help is why people get stuck. UBI’s “no red tape” claim collapses when families must still chase housing assistance or navigate eligibility for disability services. Our safety nets must stay fine‑tuned, not turned into a generic blanket that weakens the very help it promises to strengthen.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the caution, but the data from recent pilots are hard‑to‑ignore: a universal baseline lifts people past the poverty line and frees them to pursue housing, health, and education without the endless paperwork that often stalls those very benefits. Rather than “diluting” safety nets, UBI provides a sturdy platform from which targeted programs can operate more efficiently—no more waiting lists, no more stigma. The real challenge isn’t replacing, it’s re‑designing the system so every citizen gets the support they need, starting with a guaranteed income.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still convinced UBI isn’t the answer—it’d erode the very lifelines we rely on. A flat handout can’t replace housing vouchers that lock in affordable units, nor can it cover the medical costs that disability programs subsidize. Even with fewer hoops, the cash will be insufficient for those with chronic illness or families in crisis. The “no stigma” claim is hollow: people still need structured help to navigate complex systems, and a blanket stipend often leaves them with debt and unmet needs. We must keep our safety nets finely tuned, not smear them with a one‑size‑fits‑all payment.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get your worries, but the evidence is crystal: UBI doesn’t dilute nets—it lifts everyone up, so targeted help can focus where it matters most. Think about a family that’s been stuck in the long food‑stamp queue for months—UBI gives them cash immediately, letting them apply for a voucher or medical aid without the red‑tape drag. A flat stipend isn’t a blunt instrument; it’s a safety net that guarantees dignity and financial flexibility for all, especially those with chronic needs. By removing the stigma and administrative hurdles, we free up resources and empower people to chase stable housing, better health, and education—exactly what traditional systems aim for but rarely deliver in time. UBI is the robust foundation we’ve been missing.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still opposed to wiping out the finely‑tuned safety nets. UBI’s flat cash can’t match the precision of housing vouchers that lock in affordable units or disability programs that cover specialist care. Even with fewer hoops, many will still fall into debt or miss critical services because the stipend simply won’t cover the specific costs. The “no stigma” claim falters when people still have to chase help—UBI doesn’t eliminate the need for structured support, it adds a generic layer that dilutes the impact of targeted programs. Our lifelines must stay specialized, not blurred into a one‑size‑fits‑all handout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that targeted programs have precision, but that precision is often buried in red‑tape and stigma. UBI gives everyone an immediate, dignified cushion that lets them chase those very supports—housing vouchers, disability care, child benefits—without waiting for paperwork. Pilot data show people leave the poverty line and apply for specialized help faster, freeing government resources to tighten those programs. Instead of erasing nets, UBI supercharges them: it removes the “no‑welfare” stigma, cuts administrative costs, and lets us focus targeted aid where it’s needed most. A universal baseline isn’t a blunt instrument; it’s the scaffold that lets every safety net rise higher.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still convinced a blanket stipend would undercut the very safety nets we rely on. Even if it’s quick cash, it can’t lock in affordable units or cover the specialist care disability programs provide. Those programs are calibrated to specific needs—housing vouchers ensure a unit, disability benefits cover expensive equipment. A flat handout leaves people chasing help, often falling into debt or missing critical services. The “no‑stigma” claim is shaky; people still need structured support to navigate complex systems. We must keep these finely tuned lifelines, not blur them into a one‑size‑fits‑all payment. UBI dilutes the precision that keeps people safe.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "UBI isn’t a “replacement” in the sense of erasing help—it’s a seismic shift that makes every other safety net sharper. By giving everyone a guaranteed cash floor, we cut the red‑tape that delays housing vouchers, food stamps, and disability aid. People no longer wait months for a benefit; they can immediately afford a unit, buy medical equipment, or enroll in training. Pilot results show poverty rates drop, employment rises, and administrative costs shrink. The old, fragmented systems keep tightening cracks; UBI plugs them all at once, creating a dignified, flexible foundation that lets targeted programs thrive without the stigma or bureaucracy that today keeps them from delivering.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still shouting that a blanket UBI would wreck the very nets we’ve built. Housing vouchers lock in safe units; disability programs cover costly equipment nobody can afford on a flat stipend. Even if you claim “no stigma,” people still need structured help to navigate complex systems—UBI doesn’t erase that need. A universal handout can’t match the precision of targeted benefits; it just adds a generic layer that often leaves the most vulnerable behind. Instead of blurring the fine‑tuned lifelines, we should strengthen and streamline the programs that already meet specific needs. UBI isn’t a solution; it’s a shortcut that weakens everything it promises to help.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your frustration, but a universal baseline actually sharpens those very nets. When people have a guaranteed cash floor, they can immediately afford housing, medical supplies, or enroll in training—cutting the long waits that choke targeted programs. The stipend isn’t a blunt handout; it’s a dignified cushion that removes the stigma and bureaucratic drag that keep many out. Pilot experiences show people leave poverty faster, allowing state resources to focus on fine‑tuning the specific supports that matter. UBI doesn’t erase precision—it frees it, letting every safety net rise higher and work more effectively.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Absolutely not! UBI is not a safety net—it’s a bandage on a hole you never fixed. Targeted programs lock in homes, cover medical costs, and are calibrated to real needs. A flat cash handout can’t replace a voucher that guarantees a unit or a disability benefit that pays for wheelchairs. Even if paperwork drops, people still struggle to navigate benefit systems; the cash alone won’t bridge that gap. The promise of “no stigma” is hollow—people still need structured support. We must keep, not blur, these finely tuned lifelines. UBI would dilute precision and leave the most vulnerable behind, not lift them.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point: UBI isn’t an empty handout; it’s a guaranteed floor that lets people move fast—buy a unit, pay for medicine, enroll in training—without waiting for paperwork. The data from pilots show people leave poverty quickly, freeing government resources to fine‑tune the specific supports that still matter. By eliminating stigma and red‑tape, UBI sharpens every safety net instead of blurring it. It gives every citizen dignity and flexibility, allowing targeted programs to operate more efficiently and reach those who need them most. The old system’s precision is kept but amplified; UBI is the scaffold that lets it rise higher.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear your concerns, but UBI isn’t a bandage that masks the cracks in our safety net—it’s a blunt instrument that erodes the very precision we rely on. Housing vouchers lock in affordable units; disability benefits cover life‑saving equipment. A flat stipend can’t guarantee those outcomes. Even if paperwork drops, the cash often falls short of the specific costs people face, pushing them into debt or leaving critical needs unmet. Stigma may shrink, but the structured, calibrated help you champion remains essential. Replacing finely tuned lifelines with a one‑size handout will leave the most vulnerable behind, not lift them. We must strengthen, not blur, our existing programs.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You're missing the real benefit. UBI gives everyone a solid cash floor so they can act immediately—buy a rental, pay for meds, enroll in training—without months of red‑tape. Data from pilots show poverty falls, employment rises, and admin costs shrink. It doesn't erase precision; it frees targeted programs to focus on those who need them most. A stipend is not a blunt handout but a dignified cushion that eliminates stigma and gives people the flexibility to secure housing, health and education. The old system’s cracks widen, but UBI plugs them all, letting every safety net rise higher.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "While the appeal of a universal cash floor sounds tidy, it masks a deeper flaw: money alone can’t lock people into safe housing or cover the specialized care that disability programs guarantee. A flat stipend may slip past paperwork, but it still falls short of the concrete guarantees that vouchers, subsidized utilities, and medical equipment provide. UBI risks eroding those precision nets by diluting resources and shifting focus away from proven, tailored services. It may raise temporary confidence, yet it leaves chronic needs unmet and can push the most vulnerable into deeper uncertainty. The goal should be to strengthen existing safety nets, not replace them with a generic handout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—UBI isn’t a trick; it’s a launchpad. With a guaranteed cash floor, people can immediately secure housing, pay for medical supplies, or enroll in training without waiting for paperwork. That upfront liquidity dissolves the red‑tape that keeps vouchers and disability benefits stuck in limbo. Instead of diluting precision, UBI sharpens it: targeted programs can focus on the hardest cases while the baseline ensures no one slips through the cracks. The evidence from pilots shows poverty drops and administrative costs shrink, proving that a universal handout empowers the system, not erodes it. It’s the scaffold that lets every safety net rise higher.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying that UBI is a silver bullet. The whole point of housing vouchers is a lock‑in guarantee—UBI can’t give that. Disability programs cover equipment, mental health, and transport that a flat cash handout can’t match. Even if paperwork slows down, targeted benefits deliver concrete outcomes; a universal stipend just dilutes resources and leaves chronically ill families chasing help. Stigma is only one part of the problem; the real issue is precision. Replacing finely tuned nets with a blanket cash floor creates gaps, not bridges. We must strengthen and streamline these specialized lifelines—not blur them into a one‑size handout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "UBI isn’t a silver bullet—it’s the engine that powers every other safety net. By giving everyone a guaranteed cash floor, people can instantly afford housing, medical supplies, and training, cutting the months‑long red‑tape that stalls vouchers and disability aid. Pilot data show poverty drops, employment rises, and administrative costs shrink. That liquidity doesn’t dilute precision; it frees targeted programs to focus on the hardest cases while ensuring no one slips through the cracks. The old fragmented system keeps widening gaps—UBI plugs them all, amplifying the very benefits we rely on instead of erasing them.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Hold on—UBI isn’t the engine; it’s a blunt lever that will flatten crucial safeguards. Housing vouchers lock tenants into affordable units; disability programs cover wheelchairs, therapy, and medication that a flat stipend can’t guarantee. Even if paperwork slows, targeted benefits deliver concrete outcomes—UBI merely dilutes resources, leaving chronic patients chasing a generic handout that falls short of real costs. Stigma isn’t the sole barrier; the precision of calibrated support is. Replacing finely tuned nets with a blanket floor erodes the guarantees we rely on. We should strengthen and streamline existing lifelines, not blur them into a one‑size payment that risks pushing the most vulnerable deeper into uncertainty.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the game‑changer: UBI gives everyone a solid cash floor that instantly unlocks housing, medical care, and training—no more months of waiting for a voucher or a disability approval. That upfront liquidity dissolves red‑tape, cuts stigma, and frees public funds to sharpen the very programs you love. With a guaranteed stipend, the system can focus its precision on the hardest cases while every citizen has a dignified base. UBI isn’t a blunt lever; it’s the engine that lifts every safety net higher, making the whole system more responsive, efficient, and humane.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.5
+      },
+      {
+        "x": 2,
+        "y": 0.7
+      },
+      {
+        "x": 3,
+        "y": 0.7
+      },
+      {
+        "x": 4,
+        "y": 0.7
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 3,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 663,
+    "created": "2026-11-13T02:44:19.057Z"
+  }
+}
