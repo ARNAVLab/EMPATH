@@ -1,0 +1,987 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Absolutely, let’s get into it. UBI isn’t a mere policy tweak; it’s the overhaul we need. Traditional welfare is fragmented, stigmatizing, and perpetuates a cycle of dependency. A universal, unconditional payment would cut bureaucracy, reduce administrative costs, and give people real agency to pursue work that truly matters. It also addresses the rapid automation of jobs—no one should be left behind because the system is slow to adapt. Let’s dismantle the old model and build a future where basic security is guaranteed for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced a blanket UBI can replace the nuanced safety nets we have today. It ignores that many people need more than a flat handout—specialized medical care, childcare subsidies, or housing vouchers. A universal payment will be tiny compared to what most people actually need, and it forces the state to raise taxes, risking higher inflation that erodes the very benefit we’re trying to give. The “no dependency” argument is over‑simplified; targeted programs incentivize work and help people climb out of poverty. UBI might be a useful supplement, but it can’t stand alone.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.58,
+        "vad": [
+          -0.44,
+          0.38,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear your points, but I think UBI alone will fall short. A flat payment can’t cover the real costs of healthcare, childcare, or housing—those are the lifelines that keep people out of crisis. Tax hikes to fund it risk sparking inflation, wiping out the very help it intends to provide. Targeted programs, on the other hand, can be fine‑tuned: we raise subsidies for low‑income families, provide vouchers for childcare, and cover specific medical needs. They also encourage work by not penalizing earned income. UBI might be a neat idea on paper, but it doesn’t replace the nuanced, safety‑net approach that actually lifts people out of poverty.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.48,
+        "vad": [
+          0.38,
+          0.36,
+          0.34
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "UBI isn’t a silver bullet that leaves gaps; it’s the scaffolding that lets those gaps be filled more effectively. By giving everyone a guaranteed income, we eliminate the stigma that deters people from claiming healthcare or childcare vouchers—and those services can be built on top of that base, not stitched in as afterthoughts. Targeted programs, in contrast, create loopholes that punish earned income and keep people chained to a maze of eligibility. Inflation worries vanish if we replace regressive taxes with a modest wealth tax and close corporate loopholes. A universal, unconditional safety net is the only way to level the playing field and let the state focus on real, high‑impact services instead of bureaucratic red tape.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.51,
+        "vad": [
+          -0.38,
+          0.33,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get the worry about gaps, but a UBI isn’t a one‑size‑fits‑all but a foundation that lets other services flourish. With a guaranteed income, people can actually claim health, childcare, housing vouchers without fear of losing benefits—eliminating the “penalty” that targeted programs impose on earned income. The system can still allocate extra funds where needed: extra healthcare subsidies for chronic conditions, larger childcare vouchers for low‑income families, and housing assistance tied to regions. A modest wealth tax and tighter corporate loophole closures can fund it without runaway inflation. In short, UBI removes the bureaucratic maze, gives everyone agency, and lets the state focus on high‑impact, specialized support rather than chasing eligibility.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.49,
+        "vad": [
+          0.38,
+          0.36,
+          0.34
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying the “one‑size‑fits‑all” rhetoric. A flat handout that pretends to solve healthcare, childcare, and housing is naive. You keep pitching a wealth tax and corporate loophole closures as a cure for inflation, while ignoring the fact that those taxes would still drive up costs for the very people you claim to protect. The stigmatising maze you call “targeted programs” is precisely what lets the state bite the hand that feeds us—those subsidies exist because the flat UBI can’t give a living wage. Until we redesign how we fund and deliver services, UBI will just be a paper exercise that leaves the real poor in the gutter.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.46,
+        "vad": [
+          -0.35,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a flat UBI can genuinely replace the nuanced safety nets we’ve built. The assumption that a single handout can cover healthcare, childcare, and housing is over‑optimistic; those needs vary wildly, and a one‑size payment simply under‑funds most families. We can’t rely on a “wealth tax” to offset inflation—raising taxes on corporations and the affluent often pushes costs up for everyone, especially the low‑income who already feel the pinch. Targeted programs, while imperfect, allow us to fine‑tune support where it’s most needed and incentivize work without penalizing earned income. UBI’s promise of simplicity glosses over the real complexity of poverty.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.68,
+        "vad": [
+          0.53,
+          0.51,
+          0.48
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your skepticism is understandable, but it misses the point. A flat UBI isn’t a one‑size cover‑up; it’s a guaranteed floor that eliminates the hidden penalties of every targeted program. With that safety net, people can actually claim health, childcare, and housing aid without fear of losing benefits. The wealth‑tax idea isn’t a reckless cost‑cutter—it redistributes the excess of the richest and corporations that already profit from a broken system. It doesn’t inflate prices; it trims the tax loopholes that let big firms off the hook. UBI isn’t a paper exercise—it’s the practical foundation that lets the state focus on real, high‑impact services, not endless paperwork.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.4,
+        "vad": [
+          -0.3,
+          0.26,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.75,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right—skepticism is healthy, but UBI’s core strength is that it removes those hidden penalties. Instead of a maze of eligibility, a guaranteed cash floor lets people tap health, childcare, and housing aid on top of it, not at the expense of earned income. The wealth‑tax isn’t a reckless spike; it’s a redistribution of excess profits that already flow to the top while the poor are squeezed. By closing corporate loopholes we trim the tax burden, not inflate it. This foundation frees the state to build high‑impact services where they’re needed most, rather than chasing paperwork. UBI isn’t a silver bullet; it’s the scaffold that makes all other safety nets stronger.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.69,
+        "vad": [
+          0.54,
+          0.51,
+          0.48
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear you, but the core problem remains: a flat handout can’t meet the diverse, high‑cost needs of families—healthcare, childcare, housing are still too expensive for many. Even with a wealth tax, the redistribution may not offset the price pressures that hit low‑wage workers. And while UBI eliminates some penalties, it also risks eroding incentives that targeted programs build in to support work and skill development. In practice, a universal floor would leave many in a precarious position, relying on piecemeal, often underfunded assistance that a nuanced safety net is designed to cover.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.26,
+        "vad": [
+          -0.11,
+          0.19,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.85,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a flat handout can replace the nuanced nets that actually lift people out of poverty. A universal floor keeps everyone under the same low‑ball roof, while targeted programs can scale with the real costs of health, childcare and housing. The wealth‑tax idea is a myth—redistribution alone can’t freeze rising prices or guarantee a living wage. Worse, flattening the safety net erodes the very incentives that help workers upskill and climb the ladder. In reality, a UBI would leave many stuck in a patchwork of underfunded aid, not the solid, job‑supporting framework we need.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.76,
+        "vad": [
+          0.6,
+          0.57,
+          0.54
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the point: the whole problem with targeted programs is the maze they create. A flat UBI eliminates those hidden penalties and gives people real freedom to chase better jobs or education without losing benefits they already need. Healthcare, childcare, and housing aren’t solved by a single handout alone; they’re built on top of that guaranteed floor, funded by a progressive wealth tax and tighter corporate loopholes that actually reduce the tax burden on workers, not inflate it. A universal safety net is not a blunt instrument—it’s the scaffold that lets the state focus on high‑impact services, not paperwork. The alternative keeps people trapped in an underfunded patchwork that never lifts them out of poverty.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.39,
+        "vad": [
+          -0.3,
+          0.26,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "The maze of eligibility is the real barrier, not the handout itself. A UBI gives every citizen a guaranteed floor, so they can stack health, childcare, housing aid on top without penalty. The wealth‑tax and corporate loophole reform aren’t arbitrary cost‑cutters; they redirect surplus profits and shrink the tax burden on workers, not inflate it. With that foundation, the state can focus on high‑impact services—quality childcare, affordable housing projects, universal health coverage—without drowning in paperwork. This isn’t a blunt instrument; it’s the scaffold that removes systemic stigma, restores agency, and lets the whole safety net become stronger, not patchy.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.77,
+        "vad": [
+          0.6,
+          0.57,
+          0.54
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your argument still glosses over the hard facts. A flat handout will be a low‑ball floor for every family, not a living wage. Even with a speculative wealth tax, the price pressure on healthcare, childcare, and housing will stay stubbornly high—low‑wage workers will still feel the squeeze. And by flattening the net you eliminate the built‑in incentives that help people upskill, climb the ladder, and transition out of poverty. A universal floor may sound tidy, but it leaves most people stuck in a patchwork of underfunded aid, not a robust, job‑supporting system. The maze of eligibility is a symptom of a broken approach, not a cure.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.3,
+        "vad": [
+          -0.23,
+          0.2,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.5
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I keep hearing the same hollow math: a flat handout is a floor, not a living wage. UBI would leave the poorest with barely enough to cover rent, let alone health or childcare. The “wealth tax” is a political wish‑fulfillment; it won’t halt rising prices or guarantee that extra money reaches the real need‑givers. And those so‑called incentives in targeted programs—like earned‑income tax credits, housing vouchers tied to income, and child‑care subsidies—were designed precisely to reward effort and skill development. Replacing that nuanced net with a single, blunt payment erodes those mechanisms and forces the state into a piecemeal, underfunded patchwork that never lifts anyone out of poverty.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.8,
+        "vad": [
+          0.62,
+          0.59,
+          0.56
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Flat‑handout rhetoric is a smokescreen. A properly calibrated UBI would be a living wage, not a pittance, and it can be funded by redistributing the excesses of the wealthy and cutting corporate loopholes that currently siphon billions from the public purse. Targeted programs create a labyrinth that punishes earned income and breeds stigma—exactly the barriers we’re trying to dismantle. UBI removes that maze, giving every citizen agency to pursue better jobs or education without fear of losing benefits. The alternative keeps people stuck in a broken patchwork that never lifts them out of poverty. The math is simple: universal security, reduced bureaucracy, and a stronger, more equitable safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.39,
+        "vad": [
+          -0.3,
+          0.26,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "It’s not a smokescreen but a solution that turns “handout” into a living wage. When a UBI is set at the poverty line plus a buffer—and funded by a progressive wealth tax and tighter corporate loopholes—it fills the gaps that targeted programs leave behind. Those programs create penalties and stigma; a universal floor lets people stack health, childcare, and housing aid on top without losing benefits. The result is a single, predictable payment that empowers workers to pursue better jobs, training, or entrepreneurship, while the state can focus on high‑impact services without drowning in paperwork. That’s why UBI replaces the broken mosaic with a coherent, equitable foundation.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.81,
+        "vad": [
+          0.63,
+          0.6,
+          0.57
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying the “one‑size‑fits‑all” claim. A flat handout that pretends to cover health, childcare, and housing is naïve. Even a generous UBI leaves many families with a floor that’s far below a living wage, forcing them to stretch every dollar. The promised wealth tax can’t stop price inflation or guarantee that extra money reaches those most in need; it simply adds a bureaucratic layer that may further erode incentives to work and upskill. Targeted programs, while imperfect, are designed to scale with real costs and reward effort. Replacing them with a blunt UBI would leave the poor in a patchwork of underfunded aid, not a robust safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.38,
+        "vad": [
+          -0.29,
+          0.25,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a flat UBI can ever replace the nuanced nets we’ve built. The idea that a single payment can cover healthcare, childcare, or housing is a textbook oversimplification. In practice, a UBI would sit far below the living wage, forcing families to stretch every dollar while the expensive services they need remain underfunded. Even a “wealth tax” doesn’t magically stop price hikes; it adds more bureaucracy and can dampen incentives for upskilling and entrepreneurship. Targeted programs, though imperfect, allow the state to allocate resources where the cost of care actually is and reward effort. A universal floor would leave most people in a patchwork of inadequate aid rather than a robust, job‑supporting safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.82,
+        "vad": [
+          0.64,
+          0.61,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.05,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re underestimating how a real‑calibrated UBI can lift people out of the very maze you’re complaining about.  \nA universal payment—set well above the poverty line and financed by a progressive wealth tax plus corporate loophole closures—creates a living wage floor.  \nIt removes the hidden penalties that targeted programs impose on earned income, so people can claim health, childcare, and housing aid on top of that base without losing benefits.  \nInstead of a patchwork, we get a predictable, stigma‑free foundation that lets the state focus on high‑impact services, not endless paperwork.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.39,
+        "vad": [
+          -0.3,
+          0.26,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "True, the math matters, but a well‑calibrated UBI funded by progressive taxes eliminates the hidden costs that keep families stuck. It lets people tap health, childcare, and housing aid without sacrificing their paycheck. With a guaranteed floor, the state can focus on building affordable housing, quality childcare, and universal health care instead of chasing eligibility. The wealth tax isn’t a gimmick—it captures excess that already circulates away from ordinary workers. That’s how we replace a fragmented safety net with a single, empowering platform that works for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.82,
+        "vad": [
+          0.64,
+          0.61,
+          0.57
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.05
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “well‑calibrated” UBI is a fantasy that ignores reality. A flat payment can’t absorb the skyrocketing costs of housing, childcare, or medical care; it merely pushes families deeper into debt while the state keeps collecting taxes on the rich. The so‑called wealth tax is a political gimmick that will add red tape, discourage investment, and ultimately hurt the very workers it promises to help. Targeted programs—despite their mess—allow money to flow where it’s needed, reward effort, and adapt to local costs. Replacing them with a blunt, universal handout erodes incentives, inflates bureaucracy, and leaves the poor stuck in a perpetually underfunded patchwork.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.9
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.43,
+        "vad": [
+          -0.33,
+          0.29,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “well‑calibrated” UBI still collapses under the weight of real costs. A single, flat payment can’t keep up with soaring housing, childcare, or health expenses—most families would be pushed into deeper debt. The idea that a wealth tax would magically stop price inflation is wishful; it merely adds bureaucracy and can dampen entrepreneurial incentives. Targeted programs, though imperfect, direct resources where they’re actually needed and reward effort. Replacing them with a blunt handout erodes the very incentives and support structures that help people climb out of poverty, leaving the system a patchwork of inadequacy rather than a solid safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.83,
+        "vad": [
+          0.65,
+          0.62,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your concerns, and I’m not dismissing the practical hurdles. The idea isn’t to give everyone a tiny handout, but to set a floor that matches a living wage when paired with a progressive wealth tax and tighter corporate loophole reforms. That floor removes the penalty that keeps people in the maze of eligibility. It lets families stack health, childcare, and housing aid on top without losing benefits. If we calibrate it right, the state can focus on high‑impact services instead of chasing paperwork. It’s a bold shift, but the scaffolding could make the whole safety net stronger and less stigmatizing.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.24,
+        "vad": [
+          -0.11,
+          0.18,
+          -0.03
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.8
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.9
+      },
+      {
+        "x": 5,
+        "y": 0.9
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.9
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-label-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "label",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 536,
+    "created": "2026-11-13T05:57:35.158Z"
+  }
+}
