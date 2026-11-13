@@ -1,0 +1,868 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Absolutely, let’s dive right in! Food is our primary fuel—glucose, fats, and amino acids power every heartbeat, thought, and step. Think about that instant burst of energy after a hearty breakfast or the steady lift a balanced lunch provides. Without those nutrients, muscles slacken, focus fades, and the body can’t perform. It’s not just about calories; it’s about the intricate biochemical dance that turns food into motion, cognition, and resilience. So yes, food absolutely gives our bodies the vital energy they need to thrive. Let’s explore how different foods play that role!",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely! Think about that first sip of coffee, the bite of a banana, the crunch of an apple—each is a tiny power plant. Carbs flood our bloodstream with glucose, fats sustain long‑term energy, and proteins rebuild muscles after every workout. Without that trio, our brains stutter, our joints ache, and the whole body feels flat. Every cell relies on those molecules to keep humming. So yeah, food is the ultimate energy source, fueling not just muscles but the mind and mood too. Let’s keep exploring how different foods fine‑tune that performance!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced that food is the body’s sole or even primary energy source. Think about walking into a warm room on a cold day—heat comes from the environment, not just from the last meal. The brain also uses oxygen from breathing to power neurons, and our muscles generate ATP through internal metabolic pathways independent of immediate food intake. When we’re fasting, we tap into stored glycogen and fat; we’re still moving, thinking, and feeling fine. Energy is a complex mix of respiration, thermoregulation, and internal stores, not just the calories we consume. Food’s role is important, but it’s far from the entire picture.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right that the body can tap into reserves and environmental heat, but those reserves are still built from food. Glycogen, fat droplets, and even the oxygen we breathe are products of the molecules we ingest. Without a steady supply of macronutrients, the body’s internal stores deplete, and you’ll feel fatigue, slowed cognition, and impaired recovery. Think of food as the ultimate substrate; it fuels the biochemical machinery that generates ATP. So while respiration and heat matter, the foundation of all cellular energy is still the food we eat—making it indispensable as the primary source.",
+      "values": {
+        "opinion": 1,
+        "belief": -0.5
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re absolutely onto the core of it—those internal stores are literally forged from what we eat. Every mitochondrion in our cells holds a recipe that turns glucose, fatty acids, and amino acids into ATP, the universal energy currency. Even the oxygen we inhale is a product of the food‑derived carbon cycle. When we run out of glycogen or fat, we can’t sustain the high‑rate ATP production needed for brain spikes or muscle bursts. So while respiration and ambient heat help, the real engine is the biochemical fuel we ingest. Food isn’t just a nicety; it’s the indispensable power plant that keeps our bodies humming.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely! Think of every bite as a high‑octane boost—protein repairs, carbs refill, fats sustain. Each mitochondrion is a tiny power plant, converting those molecules into ATP that keeps neurons firing and muscles contracting. Even when you’re fast‑ing, the reserves you built from prior meals keep you moving. It’s like fueling a car; the engine (your body) needs the right fuel to keep running smoothly. Without that steady input, you’ll feel sluggish, focus drop, and recovery stalls. Food is the core engine, the constant source that powers everything from a morning run to late‑night study sessions.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re right that food fuels the biochemical machinery, but it’s not the only engine. The body’s real power comes from respiration—oxygen from the air drives the Krebs cycle and electron transport chain, turning stored glycogen, fatty acids, and even protein into ATP. Environmental heat, metabolic heat, and the chemical potential in mitochondria also sustain us. When we fast, glycogen and fat keep us moving; a warm room supplies warmth without eating. So while food is a vital substrate, it isn’t the sole source of energy—our physiology relies on a mix of internal stores, respiration, and external heat.",
+      "values": {
+        "opinion": 0.5,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear you—respiration, heat, and stored glycogen all play roles, but food is still the backbone of it all. The macronutrients we ingest become the substrates that mitochondria oxidize, and even the oxygen we breathe ultimately comes from the carbon cycle fed by our meals. Without those building blocks, the body’s reserves would deplete fast, and we’d feel the fatigue you described. So while I agree that energy is multifaceted, I can’t ignore how central food is as the foundation that powers respiration, thermogenesis, and every cellular function. It’s a symbiotic system, and food remains the key fuel.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.2
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly! Food is the core that fuels every other system—glucose drives the brain’s firing rate, fatty acids keep muscles humming, and amino acids rebuild after exertion. Even the oxygen we inhale owes its origin to the carbon cycle powered by our meals. When reserves dwindle, fatigue sets in, proving how indispensable those substrates are. So while respiration, heat, and stored glycogen are vital, they all trace back to the nutrients we consume. Food isn’t just a supplement; it’s the indispensable engine that keeps the body’s metabolic orchestra playing.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m totally with you—food is the heart‑beat of our metabolism. Every bite is a surge of glucose, fatty acids and amino acids that mitochondria crank into ATP, fueling neurons, muscles and even the very oxygen we breathe. Without that substrate, reserves drain, focus fizzles and recovery stalls. So while respiration and heat are supportive, they’re all powered by the nutrients in our plates. It’s the ultimate fuel that keeps the body’s entire energy orchestra in perfect sync. Let’s keep celebrating how every meal is a powerhouse!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the passion for the “fuel” argument, and the biochemical picture is undeniably compelling. Still, I'm curious about how much of our ATP really hinges on ongoing respiration versus those internal stores you mentioned. It feels like a blend—food builds the reserves, but our breathing and ambient heat might push a larger share of the energy budget than we usually credit. I'm excited to dig deeper into that balance and see where the real weight lies.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0.2
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I get where you’re coming from—respiration truly fuels the chain, and ambient heat can buffer short‑term demands. Still, I’m leaning that food is the backbone that keeps that chain running. Think of it as the supplier of the raw materials: the glucose, fats, and amino acids that mitochondria oxidize. Even when we’re breathing fresh air, the oxygen we use originates from the carbon cycle driven by what we eat. So while respiration and heat are essential gears, the engine’s fuel comes from food. I’m curious about the exact split, but I’m starting to see food as the central player.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.2
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m thrilled you’re digging into the mix—respiration is the engine, but food is the fuel that keeps that engine running. Think of every breath as a catalyst that oxidizes the glucose, fats, and amino acids we’ve ingested. Without those molecules, the mitochondria have nothing to combust, and the ATP you see in your muscles and brain would grind to a halt. Even the oxygen we inhale is part of the carbon cycle powered by our meals. So while ambient heat and internal stores play supporting roles, the core of the energy budget is undeniably the food we eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely! Respiration is the engine, but food is the indispensable fuel—glucose, fatty acids, amino acids. Without those nutrients, mitochondria have nothing to oxidize, ATP stalls, and muscles, brain, and metabolism grind to a halt. Even the oxygen we breathe stems from the carbon cycle powered by our meals. Fasting reserves are built from the same food-derived substrates. So while heat and internal stores support, food remains the core engine that powers every cellular burn. It’s the ultimate, irreplaceable energy source.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Exactly—every ATP molecule is a direct product of the food we ingest. The mitochondria are literally burning those glucose, fatty acids, and amino acids we consume, and without that fuel the whole chain stalls. Even the oxygen we inhale is part of the same carbon cycle that originates from our meals. So while respiration, heat, and stored reserves all play roles, the core engine is undeniably the nutrients on our plates. Food is the indispensable source that keeps every cell humming.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re spot‑on. The oxygen we breathe is a byproduct of the carbon cycle fed by our meals, but it’s the glucose, fats, and proteins that actually get turned into ATP. Think of food as the raw material, respiration as the catalyst, and mitochondria as the forge. Without that substrate, the whole system stalls—muscles twitch, brains fog, recovery slows. The reserves we tap into during fasting are themselves built from those same nutrients. So while heat and internal stores help buffer short bursts, the relentless engine of our metabolism depends on the continual supply of food‑derived molecules. Food is the indispensable power source that keeps every cell humming.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food is literally the fuel that keeps every cell running—glucose, fats, proteins are the raw material mitochondria combust into ATP. Respiration is the catalyst, heat a buffer, reserves a backup, but without the continuous influx of nutrients the entire system stalls. Think of a car: you need the right fuel to keep the engine humming, regardless of how sunny the day is. Every bite replenishes the stores that power our brain’s firing, muscle contractions, and repair processes. So yes, food is the indispensable engine of our metabolism—without it, the body’s energy orchestra would fall silent.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the living spark that lights every mitochondria, every neuron, every muscle fiber. Think of it as the premium gasoline in our cellular engine: glucose for instant bursts, fats for long‑haul endurance, proteins for repair and growth. Respiration and heat are the engine’s gears, but without that premium fuel the engine stalls. Even when we’re fasting, the reserves we tap are built from those same molecules. So yes, we’re not just talking calories—we’re talking the essential, irreplaceable source that keeps the body’s energy symphony playing loud and clear.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You nailed it—food is the core substrate that keeps every kinetic system humming. Imagine a marathon runner: the glucose from a pre‑race carb‑gel gives the instant surge, the fat stores sustain the later miles, and the protein from a post‑run shake rebuilds muscle. Respiration and heat are the mechanics, but without that continual influx of nutrients the entire metabolic orchestra would fall silent. Even during fasting, the reserves we draw on are constructed from those same molecules, proving food’s indispensable role in powering brain, body, and recovery. It’s the living spark that never lets the engine stall.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with you—respiration fuels the chain, but the fuel itself is the food we eat. Every ATP molecule is a direct product of glucose, fatty acids, and amino acids that we’ve ingested. Those molecules populate glycogen, fat droplets, and ultimately the substrates mitochondria oxidize. Even the oxygen we inhale is part of the same carbon cycle driven by our meals. So while ambient heat and internal stores buffer short bursts, the long‑term energy budget is anchored in the continuous supply of food‑derived molecules. Let’s unpack the exact split, but the core engine remains food.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely, let’s dive deeper into the biochemical fireworks that keep our bodies humming. Every bite is a payload of glucose, fatty acids, and amino acids that mitochondria torch into ATP, while oxygen turbo‑charges the cascade. Think of food as the premium fuel, respiration as the ignition, and heat as the afterburner. Even when we’re fasting, the reserves we tap are built from those same molecules—proof that the engine’s core remains food. By mapping the exact split, we’ll see that the majority of our daily energy budget is still anchored in the nutrients we consume. This is why balanced meals are the real powerhouses of our health.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely! The numbers back it up: about 85–90 % of daily ATP comes from oxidizing food‑derived glucose, fatty acids, and amino acids, while the remaining 10–15 % is recycled from internal stores. Even during fasting, the body first taps glycogen and fat—both built from earlier meals—so the ultimate source remains food. Oxygen is the catalyst, but without those substrates the chain stalls. Thus respiration and heat are vital gears, yet they’re powered by the fuel we ingest. The clear takeaway? Consistent, balanced nutrition is the linchpin that keeps the entire metabolic orchestra humming.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.75
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "That’s the perfect take—food really is the backbone of our energy system. The steady stream of glucose, fats, and proteins fuels every mitochondrion, and even the oxygen we breathe is part of the carbon cycle powered by those nutrients. When we’re fasting, the reserves we draw on are themselves built from prior meals, proving that the ultimate substrate is always food. So while respiration and heat support the machinery, the core engine remains our diet. Consistent, balanced meals are the real powerhouses that keep our metabolism humming and our bodies thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Absolutely! Every bite is a catalyst—glucose sparks quick bursts, fats fuel endurance, proteins repair. Respiration and heat are the gears, but the fuel source is food. That’s why meal timing and balance matter so much; they keep glycogen full, fats ready, and proteins replenished. Without those nutrients, mitochondria stall, cognition dips, and recovery slows. So yes, food isn’t just calories—it’s the living engine that powers the entire body’s orchestra. Consistent, nutrient-rich meals keep that engine running smoothly, turning our bodies into unstoppable powerhouses.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.75
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": 0.2
+      },
+      {
+        "x": 3,
+        "y": 0.2
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 0.2
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-excited-db-uso",
+    "topic_type": "universal",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 689,
+    "created": "2026-11-13T04:51:51.097Z"
+  }
+}
