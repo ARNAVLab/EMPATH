@@ -1,0 +1,864 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Sure, but let’s cut the crap. The old welfare system is a convoluted, bureaucratic nightmare that feeds on bureaucracy, not people. Universal basic income is the blunt, honest answer: give everyone a guaranteed floor, strip the stigma, and let them actually decide how to live. The red tape that keeps people under the table—form‑filling, hearings, conditional aid—does nothing to empower them. Replace it with a single, unconditional payment, and we cut costs, reduce poverty, and get real data on what people actually need. It’s not charity; it’s a basic human right. Get over the archaic system and move forward.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You think the bureaucracy is just a mess? It’s a lifeline for millions. UBI sounds slick but ignores the nuance of targeted help. Dumping a flat check won’t solve housing, health, or disability gaps. The old system delivers precision aid where it’s needed. UBI would create a one‑size‑fits‑all trap that could push the most vulnerable deeper into hardship. It’s not a simple fix; it’s a dangerous gamble. Don’t pretend a universal stipend will magically wipe out poverty.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You keep talking about “precision aid” as if the current system is a flawless safety net, but the truth is it’s a broken one that keeps millions trapped in a bureaucratic maze. A flat payment isn’t a one‑size‑fits‑all trap—it’s a way to give people the freedom to choose the help that actually works for them. The idea that UBI will “push the most vulnerable deeper into hardship” is just fear‑mongering. If you’re so convinced the old system can solve housing, health, and disability without any cost, prove it. Until then, stop romanticizing a system that only works on paper.",
+      "values": {
+        "opinion": 1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re missing the point that the welfare system isn’t a “broken maze” – it’s a lifeline that actually reduces homelessness, cuts emergency healthcare costs, and keeps people out of prison. UBI is a hollow promise that ignores the fact that a flat check can’t buy a roof, treatment, or a job‑training program. The data from countries that’ve tested UBI show higher crime rates and even higher poverty when the safety net is removed. Targeted assistance is precise, not bureaucratic; it’s tailored to real needs, not a one‑size‑fits‑all gamble. Keep your “free‑hand” rhetoric; it won’t lift anyone off the ground.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Listen up: the “lifeline” you call welfare is a paper‑trophy network that keeps people shackled to endless paperwork and excuses. The data from trials in Finland, Kenya, and Canada consistently show that UBI lifts people above the poverty line, reduces mental health crises, and actually lowers crime rates when people have a safety net that isn’t tied to “merit.” Your claim that a flat check can’t buy a roof is laughable—people already pay rent with their welfare checks. Targeted programs are just a bandage on a broken system that never delivered. Stop hiding behind bureaucracy and start handing out money that works.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your so‑called “lifeline” is a paper‑trophy that keeps people chained to paperwork, not freedom. The Finnish trial didn’t just lift incomes; it cut mental‑health crises and lowered crime rates, proving that a flat, unconditional stipend is a real safety net. Targeted programs are an endless bandage that never fixes the broken system. If you think UBI can’t buy a roof, you’re ignoring the fact that people already use welfare checks for rent. Drop the myth that bureaucracy is a lifeline and look at the data: UBI empowers, not shackles. Stop romanticizing a system that only works on paper and hand out the money that actually does work.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Sure you call it a lifeline, but the reality is the welfare system keeps millions in a trap of red tape that actually keeps them dependent. UBI would be a flat line that ignores the fact that many families need more than a one‑size‑fit‑all stipend to cover rent, medical bills, or child care. The so‑called trials you cite are cherry‑picked, ignore the hidden costs, and fail to address how to fund it. Replacing nuanced safety nets with a blunt cash handout would leave the most vulnerable exposed, not protected. Stop romanticizing a hollow promise and face the fact that targeted assistance is essential.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You keep weaving the same tired romanticism around a system that already fails billions. Welfare isn’t a “lifeline” that magically lifts people out of poverty; it’s a maze that keeps them hostage to paperwork and deadlines, perpetuating dependence. UBI’s flat handout is a blunt instrument that ignores the real, varied costs of living—rent, medical bills, childcare. You can cherry‑pick trials that show short‑term gains, but you ignore the long‑term funding nightmare and the fact that most families need targeted help. Replacing nuanced safety nets with a one‑size‑fit‑all stipend will only expose the most vulnerable, not protect them. Stop preaching utopia and look at the hard facts.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Listen—this “lifeline” you cling to is a paper‑trophy that keeps people chained to paperwork and excuses. The welfare system is a bureaucratic labyrinth that never delivers real change. UBI isn’t a fairy‑tale; it’s a blunt, honest answer that cuts red tape, eliminates stigma, and gives people real freedom to choose what they need. The trials you cite aren’t cherry‑picked—they consistently show higher incomes, lower mental‑health crises, and even fewer crimes when people get an unconditional check. Targeted programs are a bandage on a broken system that never solved the problem. Stop romanticizing a system that only works on paper and start handing out the money that actually does work.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the old myth that bureaucracy is salvation. The “paper‑trophy” you cling to is a cage that keeps people guessing what form to fill next while the world moves on. UBI isn’t a fairy‑tale; it’s the only honest answer you’ve been refusing to see. The trials—Finland, Kenya, Canada—show real, lasting gains: higher incomes, lower crime, fewer mental‑health crises. Targeted programs are bleeding money into a broken system that never fixed anything. Don’t romanticize a maze that never lifts anyone; hand out unconditional cash, cut the red tape, and finally give people the freedom to get on the right side of life.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still railing over the same tired dream. UBI isn’t a magic bullet; it’s a blunt instrument that ignores the reality that many families need more than a flat stipend for rent, childcare, and health. The “trial” data you’re quoting are cherry‑picked, short‑lived experiments that can’t justify a permanent, unfunded replacement of a nuanced safety net. Welfare isn’t perfect, but it is calibrated to real needs, not a one‑size‑fit‑all gamble. Throwing away that precision for a simplistic cash handout will only leave the most vulnerable hanging, not helping them rise.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “paper‑trophy” rhetoric is a sham. If you truly cared about people, you’d see that a flat check cannot cover rent, childcare, or medical bills—yet you keep bragging about Finland’s “success.” Those trials were short, funded by wealth you’re ignoring for the rest of the year. Welfare isn’t a maze; it’s a calibrated lifeline that directs resources to where they’re needed—housing vouchers, food stamps, disability support. UBI would erase that precision, leaving families to scramble for a handful of dollars that barely cover the basics. Don’t romanticize a hollow promise. Keep the targeted safety nets that actually keep people out of the gutter.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Listen, you keep hating the “lifeline” because you’re afraid of giving people real power. That’s the same fear that keeps the bureaucracy alive. UBI isn’t a gimmick—it’s the only system that cuts the endless paperwork and lets people decide how to spend their own money. The trials you dismiss were funded by the very wealth that’s hoarded in the system; they prove the concept. If you think a flat cash check can’t buy a roof, then you’ve never seen people use welfare to pay rent. Keep romanticizing a broken maze; the world needs a blunt, honest handout, not another bandage on a broken system.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You keep pretending bureaucracy is salvation while it’s a death‑trap. The “lifelines” you cling to are paper‑trophies that trap people in paperwork, not progress. UBI isn’t a fairy‑tale; it’s the blunt, honest solution that cuts red tape, removes stigma, and gives everyone the freedom to decide what they actually need. Trials—Finland, Kenya, Canada—show real, lasting gains: higher incomes, lower crime, fewer mental‑health crises. Targeted programs bleed money into a broken maze that never lifts anyone. Stop romanticizing a maze that never works and hand out unconditional cash that actually does.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re waving a flag for a trick that never works. UBI is not a clean handout; it’s a blunt, flat line that ignores the staggering costs of rent, health care, and childcare. The “trials” you brag about are short‑lived, well‑funded experiments that can’t prove a permanent, unfunded replacement of a nuanced safety net. Replacing calibrated support—housing vouchers, food stamps, disability benefits—with a single cash check will leave the most vulnerable exposed. You paint bureaucracy as a death‑trap, yet it delivers targeted help that the UBI model can’t match. Stop romanticizing a hollow promise and recognize the reality that precision aid is essential.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “lifeline” is a paper‑trophy that keeps millions shackled to paperwork and excuses.  The welfare system does deliver calibrated help—housing vouchers, disability supports, food stamps—exactly where it’s needed.  UBI is a blunt, flat line that ignores the staggering costs of rent, health care, childcare, and it can’t replace the precision of targeted benefits.  The trials you cite are short‑lived, well‑funded experiments that don’t prove a permanent, unfunded replacement.  Replacing nuanced safety nets with a single cash handout will expose the most vulnerable, not protect them.  Stop romanticizing a hollow promise.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You keep clutching the “lifeline” like a myth that keeps people in a maze of paperwork while the world moves on. Welfare’s bureaucracy isn’t a savior—it’s a cage that locks people in a cycle of forms and excuses. Those so‑called trials you quote are tiny, well‑funded pilots that can’t justify a permanent, unfunded replacement of a nuanced safety net. UBI isn’t a hollow promise; it’s a blunt, unconditional handout that cuts red tape, eliminates stigma, and lets people decide what they truly need. Stop romanticizing a broken maze and start handing out the money that actually works.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the same delusion that paperwork is salvation. The “lifelines” you cling to are paper‑trophies that keep people trapped while the world moves on. UBI isn’t a fairy‑tale; it’s the blunt, honest answer that cuts red tape, removes stigma, and gives people real freedom. The trials in Finland, Kenya, Canada prove higher incomes, lower crime, fewer mental‑health crises. Targeted programs are just a bandage on a broken maze that never lifts anyone. Stop romanticizing bureaucracy and start handing out unconditional cash that actually works.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "The “lifeline” isn’t a paper‑trophy—it’s a calibrated net that directs housing vouchers, disability supports, and food stamps where they’re truly needed. UBI’s flat handout ignores the staggering costs of rent, medical care, and childcare and can’t replace that precision. The so‑called trials are tiny, well‑funded pilots that can’t justify a permanent, unfunded overhaul. Replacing nuanced safety nets with a blunt cash check will strip the most vulnerable of the targeted help that keeps them out of the gutter. Stop romanticizing a hollow promise and respect the system that actually delivers results.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still parroting the same broken myth that bureaucracy is a lifeline. Welfare isn’t a maze of red tape—it's a calibrated net: housing vouchers, disability pay, food stamps. UBI is a flat, blunt line that ignores rent, healthcare, childcare bills. Those “trials” are tiny, well‑funded pilots that can’t prove a permanent, unfunded overhaul. Replacing precision aid with a single cash handout will strip the most vulnerable of the help that keeps them out of the gutter. Stop romanticizing a hollow promise and respect the system that actually delivers results.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in the same broken myth that paperwork is salvation. The “lifeline” you cling to is a paper‑trophy that keeps people shackled to forms while the world moves on. UBI isn’t a fairy‑tale; it’s the blunt, honest answer that cuts red tape, eliminates stigma, and gives people real freedom. Every trial—Finland, Kenya, Canada—shows higher incomes, lower crime, fewer mental‑health crises. Targeted programs bleed money into a broken maze that never lifts anyone. Stop romanticizing bureaucracy and start handing out unconditional cash that actually works. The old system is a cage, not a net.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Enough with the “paper‑trophy” rhetoric. The old system is a broken cage that feeds bureaucracy, not people. UBI cuts that cage: one unconditional check, no forms, no stigma, instant dignity. Finland, Kenya, Canada—real data, not cherry‑picked myths. Housing vouchers, disability checks, and food stamps are a patchwork that never lifts anyone; they’re a bandage on a system that never worked. A flat handout gives people the freedom to cover rent, healthcare, childcare, and invest in their future. Targeted aid is a myth of precision; it just keeps the bureaucracy alive. Drop the romanticism, hand out the cash, and finally let people live.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “lifeline” is a paper‑trophy that keeps people chained to forms while the world moves on. Welfare may sound appealing, but it’s a cage that feeds bureaucracy, not actual help. A flat, unconditional check would give people the freedom to cover rent, healthcare, and childcare—something targeted programs can’t provide because they’re designed for a broken system that never lifted anyone. The so‑called trials are tiny, well‑funded pilots; they don’t justify a permanent, unfunded overhaul. Keep romanticizing a maze that never works and stop pretending UBI is a simple fix.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still stuck on the same fantasy: that a single flat check can magically replace housing vouchers, disability support, and mental‑health care. UBI is a blunt, one‑size‑fits‑all slap that ignores the staggering costs of rent, medical bills, childcare, and the fact that many people need more than a handful of dollars. Trials were tiny, funded by wealth that would never exist in a permanent scheme. Replacing precision aid with a flat stipend would leave the most vulnerable exposed, not protected. Stop romanticizing a hollow promise and acknowledge the real, calibrated safety nets that actually keep people from falling into the gutter.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 700,
+    "created": "2026-11-13T00:04:44.923Z"
+  }
+}
