@@ -1,0 +1,852 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Fine. Let’s get to it. The old welfare system is a broken, bureaucratic nightmare that feeds itself on paperwork and excuses. UBI is the clean, non‑stigmatized solution that cuts out the red tape, eliminates the shame, and gives people real power. It stops the endless cycle of “apply, wait, fail” and replaces it with immediate, unconditional support. I’m done seeing people trapped in a system that’s designed to keep them dependent, not independent. So yes, UBI should replace it—no more excuses, just results.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m sick of the same tired argument that “UBI is too expensive” or that it will kill hard work. Those are excuses, not facts. The welfare system is a maze that never solves anything—people get stuck in paperwork, denied, then blamed for not following a process that was designed to keep them out of work. UBI simply cuts that crap. We give people money and trust them to spend it as they need. No more waiting, no more shame, no more endless appeals. If you can’t see how removing the bureaucratic snarl saves lives, then you’re the problem, not the system.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re painting UBI as a panacea, but it’s a dangerous fantasy. Imagine a world where every citizen gets a flat check, regardless of income or need. People will flock to the lowest‑paid jobs just to “justify” the cash, driving wages down and crushing legitimate labor markets. “No bureaucracy” is a myth; the state will still need to track who gets what, and the cost will bleed into taxes that choke businesses and stifle growth. You’re not saving lives—you’re creating a new class of welfare dependency under the guise of generosity. Stop romanticizing a plan that will bankrupt the very people it claims to help.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still stuck in the same broken logic that made welfare fail. UBI isn’t magic— it’s a hollow promise that will flood the market with a cash‑rich class of “workers” who just want to keep the handout, driving wages down for everyone else. The idea that a flat payment eliminates bureaucracy ignores the massive data infrastructure needed to verify eligibility, the inevitable tax hikes, and the crushing impact on small businesses. And saying it “cuts the paperwork” while ignoring the new administrative burden is the same old excuse. UBI is a rent‑free trap that will bankrupt the very people it claims to help.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your “welfare fails” narrative is a tired myth. UBI isn’t a flat handout that kills wages; it’s a guaranteed minimum that lifts everyone above the poverty line, freeing people from the crippling cycle of “apply, wait, fail.” The bureaucracy you fear will disappear because the state no longer needs to sift through endless paperwork—every citizen gets the same cash, and the system is simpler, transparent, and less corrupt. The claim that UBI will bankrupt businesses ignores the fact that people will spend the money, boosting local economies, not draining them. Your talk of dependency is the same old fearmongering that keeps the system intact. Stop projecting your biases onto a proven solution.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Listen, the so‑called “welfare fails” narrative is a myth written by those who thrive on bureaucracy. UBI eliminates the endless, corrupt paperwork that keeps people trapped in a cycle of hopelessness. Every citizen gets the same cash, not a handout that encourages laziness, but a guarantee that no one falls below the poverty line. The claim that it will destroy wages ignores the fact that people will spend the money, stimulating local economies, not draining them. The fear of dependency is a scare tactic that keeps the status quo. Stop projecting your biases and acknowledge that UBI is the only realistic, dignified solution.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re kidding me. UBI is nothing but a hollow, government‑funded handout that will bankrupt the nation and crush hard‑working citizens. It’s a tax‑driven monstrosity that forces people to rely on the state instead of personal initiative. The claim that it “cuts bureaucracy” is a fantasy; even a flat payment needs an elaborate system to verify identity, prevent fraud, and enforce compliance. Instead of lifting people out of poverty, it will create a new class of dependents and drive wages down, because employers can simply replace workers with cash‑rich recipients. Stop glorifying a plan that will drain public funds, stifle growth, and erode the values that keep society functioning.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "That’s the same tired scare‑mongering you keep repeating. UBI isn’t a safety net; it’s a guaranteed cash drip that will drown markets in dependency. The argument that it “cuts bureaucracy” ignores the massive IT and fraud‑prevention infrastructure that will replace the old system, not eliminate it. Every extra dollar spent by the state is a dollar that could fund real services—education, health, infrastructure. The claim that employers will simply replace staff with cash‑rich recipients is a fantasy; people still need meaningful work to build skills and community. Your vision of a “free‑hand” welfare is a recipe for economic collapse, not empowerment.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "No, UBI isn’t a handout – it’s a lifeline that cuts the endless “apply, wait, fail” spiral. The bureaucracy you fear already exists; a single universal payout eliminates the layers of paperwork, fraud checks, and abuse that choke the current system. Yes, we’ll need a digital identity system, but that’s a one‑time investment, not a perpetual drain. The claim that it will bankrupt the nation is pure scare‑mongering; the money people receive fuels local businesses, not starves them. Wages won’t collapse because people won’t quit jobs en masse; they’ll still need skills, community, and purpose. UBI is the dignity‑preserving, efficient solution we’ve been waiting for. Stop romanticizing the status quo.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “one‑time investment” is a lie. Every digital identity, fraud‑prevention network, and compliance audit is a permanent drain on taxpayers—more bureaucracy, not less. The claim that UBI will simply “fuel local businesses” ignores the fact that people will still need real work to learn skills, build communities, and keep markets vibrant. You’re selling a handout as a lifeline while hiding the endless taxes and administrative costs that will choke growth. The status quo isn’t a romantic ideal; it’s a broken, exploitative system that feeds itself on red tape. Stop pretending UBI is the cure—you’re just shifting the burden.",
+      "values": {
+        "opinion": -1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Enough with the pseudo‑idealism. UBI isn’t a silver bullet; it’s a fiscal nightmare that will hollow out public finances and choke the economy. The “no paperwork” claim is a myth—every citizen still needs a digital ID, fraud‑prevention, and audit layers that will grow into a bureaucratic behemoth worse than the old system. It won’t buy people out of work; it will create a class of cash‑rich freeloaders who’ll force wages down and erode the incentive to learn skills. Local businesses won’t thrive on handouts; they need real labor, not a paycheck that feeds dependency. The status quo may be broken, but UBI isn’t the cure—it’s a recipe for collapse.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “pseudo‑idealism” is a thin veil over a policy that will strangulate the economy and erode hard‑earned dignity. UBI isn’t a tidy handout; it’s an endless bureaucratic treadmill of digital IDs, fraud‑checks, and audits that will grow larger than the old system itself. Imagine a workforce flooded with cash‑rich freeloaders who will only drive wages down, not lift living standards. The claim that local businesses will thrive on handouts is a fantasy that ignores the need for real labor, skill, and community. Replace welfare with UBI, and you’re not saving lives—you’re creating a new, deeper class of dependency while draining public finances. Stop romanticizing a collapse.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your fear‑mongering is just a smokescreen for the same status‑quo you’re defending. UBI is not a “handout” at all – it’s a guaranteed safety net that cuts the endless red tape, the endless appeals, the stigma. The digital identity you call bureaucracy is a single, transparent ledger, not a sprawling empire. Taxes rise, yes, but so does consumer spending, local hiring, and entrepreneurship. People keep working; they need skills, community, purpose. UBI doesn’t kill wages, it restores dignity and freedom. Stop projecting your insecurities onto an idea that could finally level the playing field for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in the same archaic logic that keeps people tied to a broken system. The “paperwork” of the old welfare is a myth—every citizen already has IDs, social‑security numbers, tax records. UBI eliminates those layers and replaces them with a single, transparent distribution that cuts fraud, abuse, and the endless appeals that keep people in poverty for years. You talk about tax hikes and economic collapse, but history shows that injecting cash into people’s hands actually fuels local economies, drives entrepreneurship, and even raises wages by increasing demand. The fear of dependency is a scare tactic from those who profit from bureaucracy. UBI is the dignity‑preserving solution that finally lets people choose work, not survive on a broken safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still stuck in the same tired logic that keeps the system alive. UBI is a handout masquerading as a safety net, not a cure. It will flood the market with cash‑rich freeloaders, drive wages down, and create a new class of dependents. The digital identity you call “one‑time” will become a sprawling bureaucracy that drains public money and chokes growth. The claim that it fuels local economies ignores the fact that people still need real work to thrive. UBI won’t lift lives—it will hollow out public finances and erode the very dignity it purports to protect. Stop romanticizing a collapse.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still parroting the same tired fearmongering that keeps the status quo alive. Saying UBI will “lift lives” while ignoring the massive tax burden, the endless digital‑audit machine, and the inevitable market distortion is nothing but wishful thinking. Even a single flat payment demands identity verification, fraud checks, and a full‑scale compliance system that will grow into a bureaucratic behemoth. It’s not a cure—it’s a new, deeper dependency that will drain public funds, crush wages, and stifle honest work. Stop romanticizing a handout as a “lifeline” and start confronting the real economic collapse it will unleash.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the same bureaucratic nightmare you claim to hate. UBI isn’t a handout; it’s the antidote to red‑tape poisoning. One flat payment per person eliminates endless appeals, fraud rings, and the stigma that keeps people chained to a broken system. The “digital ID” you fear is a single, transparent ledger—no sprawling empire, just a ledger that anyone can audit. Taxes rise, yes, but so does consumer spending, local hiring, entrepreneurship—everything that keeps the economy alive. Those who profit from bureaucracy will lose the most. UBI restores dignity, not dependency. Stop romanticizing the status quo and start embracing the future.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Stop drowning the debate in pseudo‑realism. UBI isn’t a handout—it’s the only way to strip the bureaucracy from people’s lives. The “digital ID” is a single ledger, not a sprawling empire. Wages won’t collapse; people will still work because they need skills and purpose, not because they’re forced. Think of the current system: endless appeals, fraud, stigma—UBI eliminates all of that. The tax argument is a myth; the injection of cash fuels local economies, drives entrepreneurship, and ultimately raises living standards. If you can’t see that, you’re defending a broken status quo, not protecting real dignity.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "These “welfare‑free” fantasies are nothing but a delusion. UBI will simply inflate the very bureaucracy it claims to eliminate—digital IDs, fraud‑prevention, audit layers that grow into a massive, permanent drain on taxpayers. It’s the same handout that has always been “free” but is now wrapped in a glossy envelope. The claim that it will boost local economies ignores the reality that people still need meaningful work to build skills and sustain communities. Wages will fall because employers will replace labor with cash‑rich recipients. UBI is a recipe for dependency, tax‑evasion, and economic collapse, not a dignified alternative. Stop romanticizing a broken system and face the truth.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I can't believe you still cling to that broken myth. UBI is not a silver bullet; it's a recipe for inflation, endless bureaucracy, and a new class of freeloaders. Every dollar given without work will be a drain on the economy, reducing incentives to learn and produce. The promised digital ledger will expand into a sprawling, costly machine that will outgrow the current system. Wages will still suffer as employers replace labor with cash‑rich recipients. Local businesses won't thrive on handouts; they'll be hammered by a shrinking labor pool and higher taxes. UBI doesn't lift lives—it deepens dependency and erodes the dignity it claims to protect.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your fear‑mongering is the same tired narrative that keeps the broken system alive. UBI doesn’t create a new bureaucracy—it eliminates the endless layers of paperwork, fraud rings, and appeals that choke people today. A single digital ledger is enough, not a sprawling empire. Taxes will rise, yes, but the resulting consumer spending and local hiring far outweigh any nominal cost. Wages won’t collapse because people still need skills and purpose; they’ll just free themselves from the shackles of a corrupt safety net. UBI is the only dignified, efficient solution to lift lives, not a handout that will hollow out the economy. Stop clinging to the status quo.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your scare‑mongering is a joke. UBI isn’t a handout—it’s a brutal, painless removal of bureaucratic shackles. The myth that a “digital ledger” will balloon into a monolithic empire ignores the fact that the old system already uses millions of IDs, tax records, and fraud checks. Replace them with a single, transparent distribution and you cut fraud, abuse, and the endless appeals that keep families in poverty. Taxes will rise, but the injection of cash fuels local economies, spurs entrepreneurship, and actually raises wages by increasing demand. The status‑quo is broken; UBI is the only dignified, efficient fix—stop romanticizing the old nightmare.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "What you call “brutal removal of bureaucratic shackles” is a slide into dependency. UBI isn’t a simple ledger; it’s a perpetual tax burden, a new bureaucracy that will outgrow the old, and a handout that stifles work. You ignore inflation, wage suppression, and moral hazard. The old system, while flawed, incentivizes work. UBI will create a class of freeloaders, drain public funds, and erode dignity. The “efficient fix” is a myth; the reality is a dangerous collapse of incentives. Stop romanticizing a broken dream.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “brutal removal” is a euphemism for a cash‑rich trap. UBI isn’t a one‑size‑fits‑all fix; it’s a permanent tax levy that will balloon into a new bureaucracy. It dilutes the incentive to work, drives wages down, and fuels inflation. The old system, flawed as it is, at least rewards effort and pushes people toward productivity. Swapping it for a handout that turns the poor into a new class of freeloaders only deepens dependency and erodes dignity. Stop romanticizing a handout as a cure and face the reality that UBI is a recipe for collapse, not salvation.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 4,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 625,
+    "created": "2026-11-13T00:25:49.128Z"
+  }
+}
