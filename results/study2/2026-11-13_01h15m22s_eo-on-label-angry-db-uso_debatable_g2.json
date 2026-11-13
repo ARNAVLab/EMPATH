@@ -1,0 +1,983 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Jordan",
+      "content": "Sure, let’s dive in. I’m firmly against replacing traditional welfare with a universal basic income. UBI feels like a blanket that ignores the nuanced needs of different groups. It strips away targeted support and the flexibility that current programs offer. Instead of a one-size-fits-all payout, we should strengthen existing safety nets, adapt them to modern challenges, and keep the safety net flexible and responsive.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I get your point about nuance, but the whole point of UBI is to *simplify* and remove the stigma that comes with targeted programs. Every “blanket” is already being trimmed down—think of how many people get cut from food stamps or housing vouchers each year. UBI would give everyone a guaranteed floor, freeing them to pursue education or entrepreneurship without fear of losing benefits. The current system is bureaucratically brutal; you can’t tailor it fast enough to a gig economy or a climate‑forced job shift. If we want true equity, we need a universal, unconditional payout that eliminates the loopholes and the shame.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.58,
+        "vad": [
+          -0.44,
+          0.38,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your concerns about nuance, but the problem is that “targeted” programs often end up more fragmented and punitive than we think. The bureaucracy that keeps people on the margins is precisely why many fall through the cracks. UBI cuts through that mess, giving everyone a baseline that’s invisible and unconditional—no stigma, no paperwork. This doesn’t erase the need for supplemental services; it frees the state to layer in support where it truly matters—housing, health, education—without the administrative overhead of constantly re‑qualifying people. By stabilizing the floor, we actually enhance the flexibility of the entire safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.51,
+        "vad": [
+          0.4,
+          0.38,
+          0.36
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.05,
+          "certainty": 0.9,
+          "coping": 0
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m exhausted by the romantic fluff. A flat stipend is a tax‑heavy band‑on that ignores the real drivers of poverty. It disincentivizes work, pushes people into informal or gig labor, and leaves the poor drowning in debt—because the amount never keeps pace with living costs. Targeted programs, though imperfect, can be tweaked to give high‑need services where they’re most effective: child care, mental health, job training. UBI simply replaces a nuanced safety net with a one‑size‑fits‑all stub that robs us of the capacity to address specific vulnerabilities. That’s not equity, that’s a flattening of opportunity.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.53,
+        "vad": [
+          -0.4,
+          0.35,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear your frustration, but the data from UBI pilots actually shows people taking on more voluntary work and starting small businesses, not abandoning labor. The “tax‑heavy” worry is overstated—most programs already impose hefty administrative costs that hurt both beneficiaries and the state. UBI gives a stable floor so people can pursue training or care without losing support, and we can still layer in targeted services like child‑care or mental‑health when needed. It’s not a blunt replacement; it’s a foundation that removes the shame and bureaucracy that keep many in the margins. This could free the system to address real vulnerabilities more effectively.",
+      "values": {
+        "opinion": 1,
+        "belief": -0.9
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.51,
+        "vad": [
+          0.4,
+          0.38,
+          0.36
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right about bureaucracy and “fair‑share” issues, but that’s why UBI matters. By giving everyone a no‑strings‑attached floor, we cut the paperwork that keeps people stuck in a maze of eligibility checks. The data from pilots shows people actually taking on more entrepreneurial and volunteer work, not abandoning jobs. A flat stipend isn’t a tax band‑on—it’s a stable base that lets the state focus resources on high‑impact services—housing, mental health, childcare—without constantly re‑qualifying. UBI removes the stigma and inefficiencies that fragment our safety net, creating a more flexible, equitable system for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.3,
+        "vad": [
+          0.23,
+          0.22,
+          0.21
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—UBI is the clean, stigma‑free foundation everyone needs. By cutting the endless hoops of eligibility, we free the state to pour resources into real‑impact services: housing, mental health, childcare. Pilots already show people taking on new ventures and training because they’re not fighting to keep benefits. The “tax‑heavy” claim is a myth; bureaucracy itself drains our budget. With a universal floor, the safety net becomes flexible, not fragmented. It’s not a blunt replacement—it’s the scaffolding that lets targeted programs thrive where they’re most needed, creating true equity for all.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.69,
+        "vad": [
+          0.54,
+          0.51,
+          0.48
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying the “clean” narrative. A flat stipend ignores that poverty isn’t a single number—it’s childcare costs, health emergencies, disability needs. Even pilots show uneven outcomes: low‑income families cut essential services to meet rent or medical bills, while the surplus is dumped into idle savings. UBI can’t replace the granularity of SNAP, TANF, Medicaid—each is calibrated to a specific hardship. By flattening the net, we risk widening gaps: people with chronic illness or multiple dependents will still fall through because the stipend can’t match their realities. The system that works is one that keeps precise, responsive programs—UBI alone is a blunt instrument that will flatten, not raise, equity.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.49,
+        "vad": [
+          -0.37,
+          0.32,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right that poverty isn’t a one‑size‑fit‑all number. A flat stipend simply can’t absorb the spikes that families face—child‑care, medical emergencies, long‑term disability. Even in pilots, the surplus often sits idle while essential services are cut. Targeted programs, though imperfect, are tuned to those exact needs: SNAP’s calorie limits, TANF’s work‑training mandates, Medicaid’s coverage gaps. Replacing them with UBI would strip the flexibility that lets the state respond to local realities. Instead of flattening, we should refine and strengthen the existing safety net, adding layers where the data show gaps, not discarding nuance for a broad stroke.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.71,
+        "vad": [
+          0.56,
+          0.53,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I get the concern about nuance, but that’s exactly why a blanket is better. Bureaucracy is killing people—eligibility hoops cost more than the benefits they receive. A universal stipend gives everyone a stable base, so they can pursue training, start a business, or care for a sick family member without fear of losing help. The “one‑size‑fits‑all” claim ignores the fact that every program is riddled with loopholes and stigma. UBI doesn’t erase targeted services; it frees the state to layer in housing, health, childcare where needed, without the endless re‑qualification that keeps so many trapped. It’s a clean, efficient foundation, not a blunt instrument.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.24,
+        "vad": [
+          -0.18,
+          0.16,
+          0.05
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right that eligibility hoops drain people and stoke stigma. A universal floor can indeed free folks to pursue training or run a business without fear of losing aid. Still, I worry that a flat stipend alone can’t cover the spikes families face—child‑care, emergencies, chronic illness. UBI should be the scaffold, not the entire net. We need to layer targeted programs—SNAP, Medicaid, housing vouchers—on top of it, keeping the precision that meets specific hardships. The key is a hybrid system: a guaranteed, stigma‑free base that simplifies bureaucracy, coupled with responsive, granular supports that address the real, uneven costs of living. That blend can truly elevate equity.",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.7
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.77,
+        "vad": [
+          0.6,
+          0.57,
+          0.54
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.05
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I get the appeal of a single, stigma‑free floor, but UBI alone can’t meet the hard, uneven costs you mention. Cutting all the nuanced programs—SNAP, Medicaid, housing vouchers—would strip away the precision that keeps families afloat during spikes. Those targeted supports are calibrated to specific hardships; a blanket stipend would leave chronic‑illness patients or families with multiple dependents under‑served. Rather than replacing the safety net, we should re‑tool and expand the existing system, adding small, evidence‑based tweaks where gaps exist. A hybrid approach keeps the flexibility we need, but UBI on its own would blunt the very equity it claims to improve.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.3,
+        "vad": [
+          0.23,
+          0.22,
+          0.21
+        ],
+        "appraisal": {
+          "congruence": 0.85,
+          "targetedness": 0.15,
+          "certainty": 0.8,
+          "coping": 0.5
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re absolutely right the nuance matters, but UBI is still a blanket that ignores real spikes. SNAP, Medicaid, housing vouchers exist precisely because they’re calibrated to specific hardships. Replacing them with a flat stipend would flatten the net, not lift equity. Instead of discarding the precision that keeps families afloat during emergencies, we should keep the safety net granular and add evidence‑based tweaks where gaps appear. A universal floor is a blunt instrument that erases the targeted support we need to address chronic illness, childcare costs, and other uneven burdens. The solution is refinement, not replacement.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.78,
+        "vad": [
+          0.6,
+          0.57,
+          0.54
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.4,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the concern about nuance, but the point is that the current system is a broken maze that kills people in the process of keeping them alive. UBI cuts through that labyrinth, giving everyone a guaranteed, stigma‑free floor that stops the endless paperwork and loss‑of‑benefits traps. The pilots show people taking on new jobs, training, and entrepreneurship—not abandoning work. If we want real equity, we must replace the fragmented, punitive nets with a single, transparent foundation and then layer targeted help where absolutely needed. Keeping the old piecemeal programs only perpetuates the same inefficiencies and inequities we’re fighting to erase. UBI is the clean break we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.36,
+        "vad": [
+          -0.27,
+          0.24,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear you—they’re right, the maze is brutal. UBI isn’t just a blanket; it’s the scaffolding that lifts everyone off that maze. By giving a guaranteed, stigma‑free floor, we free people to chase education, start businesses, or care for loved ones without the fear of losing benefits mid‑stream. The data from pilots shows exactly that: more voluntary work, entrepreneurship, and stability. We can still layer in targeted help where the spikes hit—child‑care, health, housing—but the core becomes simple, transparent, and equitable. That’s the clean, efficient foundation we need to finally replace the fragmented system with something truly supportive.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.79,
+        "vad": [
+          0.62,
+          0.59,
+          0.55
+        ],
+        "appraisal": {
+          "congruence": 0.85,
+          "targetedness": 0.05,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying the “clean break” narrative. UBI’s blanket payout simply masks the reality that poverty is jagged, not a flat line. The same pilots that claim increased entrepreneurship also show families cutting food stamps, Medicaid, or childcare because the stipend can’t cover spikes. By dismantling SNAP, TANF, and housing vouchers we strip away the calibrated safety‑net that keeps people afloat during crises. A universal floor may feel tidy, but it only dilutes the precision we need to protect the chronically ill, disabled, and multi‑dependent households. The system must remain granular, not flattened.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.24,
+        "vad": [
+          -0.18,
+          0.16,
+          0.05
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right to flag the jagged reality of poverty. A flat stipend will *not* replace the nuanced safety‑net that tackles specific spikes—child‑care costs, medical emergencies, disability expenses. Pilots already reveal families dropping SNAP, Medicaid, and childcare because the UBI amount never lifts them over the critical threshold. Instead of widening gaps, we should strengthen and tailor existing programs, adding evidence‑based tweaks where data show deficiencies. A universal floor without those calibrated supports is a blunt tool that erodes the precision we rely on to keep chronically ill, disabled, and multi‑dependent households afloat. The solution isn’t a blanket; it’s a refined, granular net that adapts to each hardship.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.81,
+        "vad": [
+          0.63,
+          0.6,
+          0.56
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your concern about jagged poverty, but the reality is the current system is so fragmented that people often sacrifice essential benefits to keep a paycheck. UBI would provide a reliable baseline, freeing individuals to seek better opportunities without risking benefits. The program could be indexed to cost of living, and the state can still offer targeted subsidies—housing vouchers, medical assistance—on top of the base. Rather than eroding precision, UBI streamlines the safety net, making it easier to add calibrated supports where needed. The clean break is about reducing bureaucracy, not eliminating nuanced help.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.24,
+        "vad": [
+          -0.11,
+          0.18,
+          -0.03
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re spot on—fragmentation forces people to choose between a paycheck and a vital benefit. A universal floor removes that impossible trade‑off. Indexing it to cost of living means the baseline never lags behind inflation, and the state can layer precise subsidies where spikes hit—housing, health, childcare—without the endless paperwork that kills the old system. UBI isn’t a blunt knife; it’s a clean, transparent scaffold that lets us redesign the net with targeted supports only where needed. That’s the real equity boost: stability for everyone, flexibility for the state.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.79,
+        "vad": [
+          0.62,
+          0.59,
+          0.55
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’ve already said it: UBI isn’t a fix, it’s a shortcut that erases the fine‑tuned safety net we’ve built. Cutting SNAP, Medicaid, housing vouchers, and even TANF removes the very mechanisms that keep chronic‑ill, disabled, and multi‑dependent families afloat during spikes. A flat stipend may look tidy, but it forces people to sacrifice essential services to keep a paycheck, not the other way around. The “clean break” narrative ignores that poverty is jagged, not a line. Strengthen and refine the existing programs—tailor them to real needs—rather than flattening the net and widening the gaps you claim to close.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.38,
+        "vad": [
+          -0.29,
+          0.25,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right that poverty isn’t a flat line. A blanket payout would erase the finely tuned safety net we rely on for chronic illness, disability, and multi‑dependent households. Targeted programs—SNAP, Medicaid, housing vouchers—are calibrated to real spikes; they’re not just bureaucracy, they’re lifelines. Removing them in favor of a universal floor would force families to sacrifice essential services to keep a paycheck, widening the very gaps UBI claims to close. Instead of flattening the net, we should refine and expand existing supports, adding evidence‑based tweaks where data show gaps. A universal base alone is a blunt instrument that erodes the precision needed for true equity.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.83,
+        "vad": [
+          0.65,
+          0.61,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your point about jagged poverty. UBI isn’t meant to wipe out every targeted line; it’s a steady floor that removes the endless hoops people face. Think of it as a base that lets the state add precise supports—child‑care vouchers, medical subsidies—on top without re‑qualifying. Indexing the stipend to inflation keeps it relevant, and it frees folks to pursue training or business without losing benefits mid‑stream. The goal isn’t a blunt blanket but a clean scaffold that keeps the precision of existing programs while cutting the bureaucratic drag that pushes families into hard choices.",
+      "values": {
+        "opinion": -0.4,
+        "belief": 0.7
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.33,
+        "vad": [
+          -0.15,
+          0.25,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re hitting the core of why UBI is a win: a guaranteed, stigma‑free floor that eliminates the maze of paperwork everyone has to navigate. By indexing it, we keep it living‑cost relevant, and the state can still layer precise supports—child‑care vouchers, health subsidies—without the re‑qualification drag. It doesn’t erase nuance; it removes the bureaucratic drag that forces people to choose between a paycheck and essential benefits. This clean scaffold empowers people to pursue education, start businesses, and care for loved ones, while still letting the safety net target the real spikes that the old system fails to cover. The result is a truly equitable, efficient system.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.81,
+        "vad": [
+          0.63,
+          0.6,
+          0.57
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You keep repeating the “clean‑break” myth. UBI isn’t a scaffold, it’s a blunt blade that smashes the very safety nets designed for the sick, the disabled, and families with multiple dependents. The pilots you cite ignore the sharp spikes that SNAP, Medicaid, and housing vouchers actually cushion. By flattening everything into one flat stipend, we force people to cut essential services just to keep a paycheck. That’s not equity, it’s a widening of the gaps you claim to close. The solution isn’t a blanket; it’s a refined, granular net that adapts to real hardship.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.43,
+        "vad": [
+          -0.33,
+          0.29,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": -0.4
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.4
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.9
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.9
+      },
+      {
+        "x": 2,
+        "y": 0.9
+      },
+      {
+        "x": 3,
+        "y": 0.7
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.8
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.8
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-label-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "label",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 520,
+    "created": "2026-11-13T06:15:22.496Z"
+  }
+}

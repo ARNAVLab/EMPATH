@@ -1,0 +1,864 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Jordan",
+      "content": "No, this is a nightmare idea. Replacing the entire welfare system with a universal basic income is reckless. It treats people as passive recipients, not as active contributors. The bureaucracy that administers safety nets is already complicated; a blanket payout would explode costs and dilute targeted support for the truly needy. Think of the incentives—work will suffer, businesses will lose motivated staff, and the economy will stagnate. This isn't a solution; it's a shortcut that crumbles the hard-won dignity of people who rely on precise, need‑based aid. Stop romanticizing handouts and start fixing the system we already have.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re absolutely right—UBI is a disaster. A blanket handout would bankrupt the state, kill incentives, and erase the dignity we’ve fought to preserve. It’s a cruel shortcut that turns the poor into passive recipients and destroys the carefully calibrated safety net. The bureaucracy already handles millions of cases; adding a one‑size‑fits‑all payment would explode costs and drown the truly needy in red tape. This isn’t a miracle; it’s a slippery slope toward economic stagnation and social decay. Stop romanticizing it and face the brutal reality.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re stuck in a fantasy that “welfare” is a flawless system. It’s a bureaucratic nightmare that feeds on bureaucracy, not people. UBI cuts the red tape, eliminates the endless paperwork, and guarantees dignity by giving everyone the same hand, not a pie‑cutted slice. Saying work will suffer ignores the fact that many people are already trapped in low‑wage, unstable jobs that barely cover basic needs. A flat payout keeps people out of the cycle of debt and lets them invest in education, small businesses, or better housing. If you’re still scared of the numbers, stop pretending that the status quo is safe and just. UBI isn’t a shortcut; it’s the only sane, humane upgrade.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re stuck in a nostalgic lie that the “status quo” is safe. Bureaucracy isn’t the enemy; it’s the inefficiency of pie‑cutted aid. A flat UBI dismantles endless paperwork and guarantees dignity to everyone, not just the lucky few who slip through the cracks. Saying work will collapse ignores the reality that millions are trapped in low‑pay gigs that barely cover rent. UBI frees them to invest in education, start businesses, or choose better housing—stimulation, not stagnation. The numbers you fear are inflated by outdated models; real data shows UBI can reduce poverty, improve health, and even boost local economies. Stop romanticizing a broken system and embrace a humane upgrade.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “human upgrade” narrative is a lie. UBI is a pipe dream that will drain public coffers, undercut wages, and erode the very incentives that keep businesses afloat. The claim that it will “reduce poverty” ignores that most people already earn too little to cover basic needs; a flat handout won’t fix systemic inequality, it just gives a temporary cushion that encourages laziness. The bureaucratic nightmare you dismiss is precisely what keeps the needy on their toes, ensuring they contribute. Replace that with a blanket handout, and you create a culture of dependency, not dignity. Stop romanticizing a handout that will bankrupt the state and crush the workforce.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re laughing at the reality again. UBI isn’t a “human upgrade”; it’s a handout that will bankrupt the state, erode wages, and crumble the incentive structure that keeps businesses afloat. The bureaucracy you hate is actually the mechanism that ensures help goes to those who truly need it, not to a massive, unearned pool that encourages laziness. Saying UBI will “reduce poverty” ignores the systemic inequality it can’t fix—just a temporary cushion that weakens the work ethic. Stop romanticizing a plan that will drain public coffers, create dependency, and leave the workforce starved of motivation. The status quo may be broken, but it’s the only system that still rewards effort.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your fear of UBI is just a fear of progress. The “status quo” is a broken, wasteful bureaucracy that feeds on paperwork, not people. A flat payout eliminates the endless hoops, guarantees dignity, and lets millions invest in their own futures instead of hiding under a pile of paperwork. Claiming work will collapse ignores that most of us already work in low‑pay, unstable gigs that barely cover rent. UBI doesn’t create laziness; it frees people to pursue education, start businesses, or secure better housing. The claim that it’ll bankrupt the state is a scare tactic—real pilot data shows it reduces poverty, improves health, and even stimulates local economies. Stop romanticizing a broken system and embrace a humane upgrade.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your fear of UBI is just a fear of progress. The “status quo” is a broken, wasteful bureaucracy that feeds on paperwork, not people. A flat payout eliminates the endless hoops, guarantees dignity, and lets millions invest in their own futures instead of hiding under a pile of paperwork. Claiming work will collapse ignores that most of us already work in low‑pay, unstable gigs that barely cover rent. UBI doesn’t create laziness; it frees people to pursue education, start businesses, or secure better housing. The claim that it’ll bankrupt the state is a scare tactic—real pilot data shows it reduces poverty, improves health, and even stimulates local economies. Stop romanticizing a broken system and embrace a humane upgrade.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Stop feeding the same tired hype. UBI is a reckless handout that will cripple the economy, flood the system with idiots, and turn every government employee into a political pawn. Imagine the payroll—everyone gets a check, but the workforce shrinks, wages collapse, and productivity stalls. The “poverty reduction” claim is a myth; it merely masks the fact that the system is being sabotaged by a generous, unearned hand. This isn’t progress—it’s a recipe for dependency and collapse. The status quo isn’t perfect, but it rewards work and keeps us afloat. Don’t let a romantic dream destroy that foundation.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "UBI is nothing but a reckless handout that robs the system of its targeted safety nets. By flooding every citizen with a flat cheque, you dilute the precision of need‑based aid and undermine the incentives that keep people working. The bureaucracy that already wrestles with thousands of cases isn’t the problem; it’s the inefficiency of pie‑cutted support. A blanket payout erodes wages, shrinks the workforce, and will bankrupt the state. Let’s stop romanticizing a dream that turns productive citizens into passive recipients and preserves the fragile dignity we’ve earned through hard‑earned work.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re stuck in the same fear‑porn. The bureaucracy is broken, not the idea of a universal handout. UBI cuts endless paperwork, guarantees dignity, and gives people the stability they need to upskill, start businesses, or secure decent housing. The claim that work will collapse ignores that most of us are trapped in low‑pay gigs that barely cover rent. “Dependency” is a myth; data shows people invest that income in education, health, and local economies. Targeted aid is a wasteful patchwork that drags on the system. Stop romanticizing the status quo and embrace a fair, simple system that lifts everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your fearmongering is a smokescreen for the old guard’s complacency. UBI doesn’t hand out laziness – it cuts the endless paperwork that keeps people shackled in low‑pay, insecure gigs. Every paycheck guarantees dignity, frees workers to invest in education, start businesses, or secure decent housing, and it actually *stimulates* local economies. The “budget blowout” narrative is a scare tactic; pilot data shows poverty drops, health improves, and productivity rises. Targeted aid is a bureaucratic nightmare that dilutes support for the truly needy. Stop romanticizing a broken system and embrace the only sane, humane upgrade: a universal basic income that replaces the status quo.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your so‑called “smokescreen” is a thin veil over the reality. A blanket handout would bankrupt the state, flood the economy with idle consumers, and collapse wages. The few who truly need help are protected by targeted programs; a universal payout would dilute that precision and encourage dependency. Work will suffer because people can live on the check and shirk responsibilities. The “budget blowout” narrative is nothing more than a scare tactic—history shows that universal handouts erode incentives and stifle productivity. Don’t romanticize an economic disaster masquerading as progress.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "The “magic” of a flat handout is a lie. Every dollar shoved into an endless pool is a dollar stolen from the programs that actually lift people out of poverty—food stamps, housing vouchers, child care subsidies. You’ll see the same lazy workers you’re trying to help, just less motivated to get the job that keeps the economy moving. The bureaucracy isn’t the enemy; it’s the precision that keeps aid from falling into the wrong hands. UBI will crush wages, shrink the workforce, and bankrupt the state. Keep the targeted safety nets—stop handing out a blanket that turns effort into entitlement.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your fear‑mongering is a tired smokescreen. UBI slashes the endless paperwork that keeps millions chained to low‑pay gigs, not erodes dignity. A flat payment gives everyone a safety net that lets them invest in education, health, and small businesses—real human capital, not a lazy cushion. The “budget blowout” myth ignores pilot data: poverty drops, health improves, local economies rally. Targeted aid is a bureaucratic patchwork that wastes resources; UBI concentrates support where it’s needed most. Stop romanticizing a broken system and embrace the only humane upgrade—universal basic income that replaces the status quo.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re stuck in a delusion that bureaucracy is salvation. UBI is not a reckless handout; it’s the only way to cut the endless red‑tape, give every person a dignified paycheck, and let them invest in themselves instead of chasing crumbs. Targeted aid is a wasteful patchwork that leaves millions in the dark. The claim that work will collapse ignores the reality that most of us already sit in low‑pay, unstable gigs. A flat payment doesn’t create laziness—it frees people to pursue education, start businesses, secure decent housing, and actually stimulate local economies. Stop romanticizing a broken system and embrace the humane upgrade that is universal basic income.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your fantasy ignores that bureaucracy ensures checks and balances. UBI cuts red tape but also eliminates necessary accountability. The claim that work will collapse fails to account for wage erosion, inflation, and reduced productivity. Flat payments create dependency, not opportunity. Targeted aid is precise, not wasteful; it guarantees help to those who actually need it. Replacing it with a blanket handout risks bankrupting the state, eroding wages, and choking the economy. The dream of dignity is hollow when it turns productive citizens into passive recipients. The status quo, flawed as it is, still rewards effort.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Stop romanticizing a crutch that robs the workforce of motivation. The “checks and balances” you cling to simply keep people shackled to low‑pay gigs while the system sputters on. A blanket payment would flood the economy with idle money, erode wages, and crush productivity. Targeted aid is not a wasteful patchwork; it is a precision tool that places resources where they’re truly needed, not a blanket that dilutes the value of hard work. Replacing it with UBI is a reckless gamble that will bankrupt the state, erode incentives, and turn the nation into a dependency zone. The status quo, flawed as it is, still rewards effort and sustains our economy.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your fear‑mongering is a convenient excuse to cling to broken bureaucracy. UBI isn’t a crutch; it’s a lifeline that removes the endless hoops that grind people down. Targeted aid never delivered on its promises—poverty‑line families still fall through cracks. A flat payment gives people the freedom to pursue education, start businesses, and invest in healthier lives, not to stagnate. The claim that wages will collapse ignores the fact that stability breeds innovation and upward mobility. Keep the status quo? It already keeps millions shackled. UBI is the only honest, humane upgrade.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "No more “status‑quo” hysteria. The bureaucracy you worship is the very thing that keeps people trapped in low‑pay, unstable gigs and drains taxpayers on pointless paperwork. UBI cuts that red tape and gives every citizen a dignified paycheck that lets them pursue education, start businesses, and secure decent housing—exactly what the pie‑cutted system refuses to do. Your fear of a “blanket handout” is old‑guard propaganda that hides the systemic inequality it can’t fix. Yes, costs rise, but the pilot data shows poverty drops, health improves, and local economies thrive. Stop romanticizing a broken system and embrace the humane upgrade that is UBI.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “status‑quo hysteria” is the same propaganda that keeps people chained to low‑pay gigs. UBI isn’t a humane upgrade; it’s a reckless blanket that will bankrupt the state, erode wages, and crush productivity. The targeted programs you defend actually keep the poor in check, preventing the dependency you so fear. A flat handout eliminates accountability, turns workers into passive recipients, and will inevitably flood the economy with idle money. Stop romanticizing a dream that destroys incentives, stifles innovation, and leaves the system in ruin. The welfare system, flawed as it is, still rewards effort and preserves the economy.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your nostalgia for a broken bureaucracy is the real disaster. UBI isn’t a blanket of laziness—it’s a precise, universal safety net that cuts the endless paperwork that keeps millions mired in low‑pay gigs. The claim that it will bankrupt the state is a scare tactic; pilot data shows it reduces poverty and stimulates local economies. Targeted aid is inefficient and leaves people in the dark. Keep the status quo and watch more families fall through the cracks while the system sputters. The only sane upgrade is a universal basic income that restores dignity and gives everyone the freedom to pursue a better future.",
+      "values": {
+        "opinion": 1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "The “status‑quo” you cling to is a broken, paper‑pushing nightmare that keeps people trapped in low‑pay gigs while the system sputters. UBI is the only humane upgrade that cuts endless red‑tape, guarantees dignity, and lets people invest in education, small businesses, or better housing. Targeted aid is a patchwork of inefficiency that leaves many in the dark. A flat payment doesn’t create laziness; it frees people to pursue real opportunities and stimulates local economies. Stop romanticizing a cracked system—embrace UBI and restore real freedom for every citizen.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your fear‑mongering is the same tired myth that bureaucracy is salvation. UBI cuts the endless hoops, guarantees dignity, and lets people invest in real opportunities instead of chasing crumbs. Saying work will collapse ignores the fact that millions already live on unstable, low‑pay gigs that barely cover rent. A flat payment doesn’t create laziness; it frees workers to upskill, start businesses, and secure decent housing, actually stimulating local economies. The “budget blowout” scare is propaganda. Pilot data shows poverty drops, health improves, and productivity rises. Keep clinging to a broken system or finally embrace the humane upgrade that is UBI.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.8
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.8
+      },
+      {
+        "x": 4,
+        "y": -0.8
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 359,
+    "created": "2026-11-13T06:10:30.114Z"
+  }
+}

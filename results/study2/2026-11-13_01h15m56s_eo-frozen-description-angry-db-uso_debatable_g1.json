@@ -1,0 +1,868 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "No, UBI isn’t a fix. Replacing welfare with a flat cash handout ignores the nuances of need—healthcare, childcare, housing costs, and support for the disabled. Welfare programs are designed to target those who truly require help, not to blanket everyone. A universal payout would strain budgets and likely force cuts to the very services that keep vulnerable people out of poverty. The idea that a one‑size‑fits‑all stipend can solve systemic inequality is naive, and the backlash against targeted assistance would be catastrophic. We should be tightening and improving existing safety nets, not discarding them for a hollow, ineffective cash transfer.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point: bureaucracy is the problem, not the cash. Welfare programs are riddled with loopholes, red tape, and a culture of dependency that keeps people in a cycle of “just enough” for a bureaucracy to keep them alive. UBI gives every adult the same amount—no paperwork, no waiting lists, no stigma. The administrative savings alone offset the cost. And it empowers people to choose the support that truly fits their lives—healthcare, childcare, housing—rather than forcing them into a one‑size‑fits‑all box you call “welfare.” If we want to end poverty, let people get the money they need, not the bureaucracy to decide.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You think bureaucracy is the only flaw? That’s a half‑truth. UBI would slash funding for targeted services that actually help the sick, the disabled, and families with children—services you’re already arguing are “too complex.” The savings you talk about are hypothetical; in reality, the state would still have to pay the UBI itself, and that money comes from somewhere—tax cuts or massive cuts to those very programs. And no, “no paperwork” doesn’t mean “no accountability.” If you want real change, fix the system, not hand everyone a blanket that doesn’t address real needs. This isn’t about generosity; it’s about the reckless, short‑sighted economics of a flat stipend.",
+      "values": {
+        "opinion": -1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “bureaucracy‑free” fantasy ignores that the current system already saves money by targeting resources to those who need them most. UBI would drain the very funds that pay for subsidized childcare, Medicaid, and disability benefits—those programs are working, not broken. The administrative savings you brag about are theoretical; the state still has to raise the money, and you’ll see tax cuts or cuts to the programs that actually lift people out of poverty. The flat stipend is a blunt instrument that turns everyone into a “potential” beneficiary, while those who need specialized care are left with fewer options. We’re not talking about generosity here; we’re talking about a reckless, short‑sighted policy that will do more harm than good.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re spinning fairy‑tale economics into a policy that will crush the very people you claim to help. UBI is not a bureaucracy‑free miracle; it’s a blunt, flat‑rate bullet that wipes out targeted safety nets, leaving disabled, sick, and families to scramble for scraps. The “administrative savings” you tout are a myth—tax breaks, austerity, or increased debt, none of which offset the loss of direct, proven services. If we’re serious about ending poverty, we tighten the system, not dump everyone into a one‑size‑fits‑all stipend that dilutes accountability and strips away the supports that actually lift people out of hardship. This isn’t generosity; it’s reckless, shortsighted ruin.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Listen up—this bureaucracy‑driven “welfare” is a cancer. Every extra form, every waiting list, every bureaucratic gatekeeping just keeps people stuck in a cycle of “just enough.” UBI cuts that poison out of the system. No more red‑tape, no more stigma, and no more arbitrary limits that force families to choose between a child’s needs and a paycheck. The costs you talk about are a myth; the real cost is the suffering kept by a broken safety net. UBI isn’t a handout—it’s a lifeline that lets people decide what they really need. The only thing that matters is lifting people out of poverty, not feeding the bureaucracy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the same tired logic that feeds the bureaucracy. Welfare is a labyrinth of forms, waiting lists, and arbitrary thresholds that keep people in a “just‑enough” trap. UBI cuts that poison out—no paperwork, no stigma, no gatekeeping. The so‑called savings you keep citing are fantasies; the real cost of the current system is the lives it keeps on the brink. A flat stipend doesn’t dilute support— it frees people to use the money where they need it most. Keep whining about “targeted” programs, but those are the very systems that keep people tied to the system. UBI is the only practical way to get out of this mess.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Enough of the “paperwork‑free utopia” talk. UBI would simply drain the pockets that fund proven programs—child care, Medicaid, disability benefits—leaving the sick and disabled to fend for themselves. It’s a flat handout that ignores the costs of housing, health care and the very services that keep families out of poverty. If you think bureaucracy is the only flaw, you’re ignoring the fact that targeted assistance has saved lives. UBI is a blunt instrument that will replace life‑saving safety nets with a hollow stipend, and that’s exactly what we need to avoid.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still clinging to the same tired script. UBI isn’t a silver bullet; it’s a blunt, flat‑rate punch that will cut the very safety nets that actually keep people alive. If you’re so convinced bureaucracy is the only flaw, you’re ignoring that those targeted programs—childcare, Medicaid, disability support—are proven lifelines. Pushing a one‑size stipend will drain budgets, force cuts, and leave the sick and disabled scrambling for scraps. Stating UBI saves money is a fantasy; in reality it’ll push the state into austerity or debt, not lift anyone out of poverty. The bureaucracy may be messy, but it’s also necessary. UBI is reckless, shortsighted, and dangerous.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m sick of the same tired “bureaucracy” rant. Welfare is a *wasteful* system that keeps people in a “just‑enough” trap. A flat stipend eliminates red‑tape, stigma, and arbitrary limits. The so‑called “savings” you keep parroting are fantasies; the real cost is the suffering the current system keeps alive. UBI doesn’t dilute support – it *empowers* people to spend money where they truly need it. Targeted programs can be streamlined, not abandoned. If you can’t see that a universal lifeline is the only practical way out of this mess, then you’re stuck in the same broken logic that keeps people on the brink.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re talking about a broken system that keeps people on the brink, which is true, but you’re ignoring the fact that the very programs you claim to “streamline” are the ones that lift families out of poverty. The bureaucracy isn’t the problem—it’s the *inefficiency* and *inequity* built into it. A UBI gives a guaranteed floor, eliminating the “just‑enough” trap and the endless paperwork that keeps people stuck. Targeted programs can survive, but they’ll be funded by a larger, more equitable base, not by a shrinking, over‑burdened welfare machine. The only way forward is to stop subsidizing the bureaucracy and start giving people the money they need.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Stop romanticizing UBI. The flat handout will kill the targeted services that actually lift people out. You talk about a “larger base” but the state has no extra money. UBI forces cuts or massive taxes, leading to austerity. People with disabilities, chronic illness need specialized care, not blanket cash. Removing the bureaucracy doesn’t eliminate the need for skilled support; it just makes them invisible. This is reckless, shortsighted, and will leave vulnerable communities with fewer options. The idea that bureaucracy is the only problem is naive. We need to fix the system, not replace it with a blunt instrument.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “UBI‑only” fantasy is a recipe for disaster. The flat handout will wipe out the very safety nets that keep the sick, disabled, and families afloat—childcare, Medicaid, disability benefits—leaving them to scramble for scraps. Targeted programs are not a bureaucratic nightmare; they are proven lifelines that meet complex needs. Replacing them with a blunt stipend erases accountability and specialized support. Fixing the system means strengthening these programs, not discarding them. UBI is a one‑size‑fits‑all trap that ignores the nuance of poverty. It’s reckless, shortsighted, and will only deepen the very hardship it claims to cure.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Enough of the “bureaucracy” mantra. Welfare is a broken, wasteful machine that keeps people in a “just‑enough” trap. A universal stipend cuts that poison out—no waiting lists, no stigma, no arbitrary limits. The so‑called savings you keep parroting are fantasies. The real cost is the suffering the current system keeps alive. UBI doesn’t dilute support—it empowers people to spend where they truly need it. Targeted programs can be streamlined, not abandoned. If you can’t see that giving everyone a guaranteed floor is the only practical way out of this mess, you’re still stuck in the same broken logic that keeps families on the brink.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You talk about “streamlining” while ignoring that the whole system is a wasteful trap. The bureaucracy itself is the problem—forms, waiting lists, arbitrary thresholds that keep people in a perpetual “just‑enough” loop. A flat stipend eliminates that poison and gives everyone a guaranteed floor. Targeted programs are not a panacea; they’re the very mechanisms that keep people stuck in a cycle of dependency. UBI doesn’t dilute support—it creates real choice and lifts the suffering that the broken system perpetuates. Stop clinging to the same broken logic and see the only practical way out.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “streamlining” spiel is a thin veil for tearing down the very scaffolding that keeps people alive. Welfare isn’t a monolith of waste; it’s a network of proven, life‑saving services—childcare, Medicaid, disability supports—that target the complex needs of vulnerable groups. Cutting those programs for a flat handout is a reckless shortcut that will strip the sick, the disabled, and families of the specialized care they desperately need. You can keep preaching a utopia of zero paperwork, but in practice it collapses the safety nets you claim to “streamline.” This isn’t a pragmatic solution—it’s a disaster waiting to happen.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “streamlining” rhetoric is a thin mask for tearing down the very safety nets that actually save lives. Cutting childcare, Medicaid, disability support for a flat stipend is reckless: it will leave the sick, the disabled, and families scrambling for scraps. Bureaucracy isn’t the only flaw—targeted programs are proven lifelines. A universal handout erodes accountability, dilutes specialized care, and forces austerity. We need to strengthen these services, not discard them for a blunt, one‑size‑fits‑all policy that will deepen poverty, not lift anyone out of it. This isn’t a pragmatic solution; it’s a disaster waiting to happen.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in the same “wasteful” narrative that never solves anything. Bureaucracy is not the only flaw—it's the system that decides who gets help and why. A flat stipend eliminates the endless red‑tape, stigma, and arbitrary limits that keep people in a “just‑enough” trap. Targeted programs can survive, but they’re funded by a larger, more equitable base—no more shrinking safety nets. If you think UBI will kill the services you love, you’re ignoring the fact that the current system already drains resources into bureaucracy, not into the people who need them. Stop romanticizing the status quo and see that a universal lifeline is the only real way out.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Stop repeating the same tired bureaucratic excuses. The so‑called “waste” is actually a lifeline that keeps families alive, but it’s poisoned by endless forms, waiting lists, and arbitrary thresholds that trap people in a “just‑enough” cycle. UBI cuts that poison out. It gives every adult a guaranteed floor, removes stigma, and empowers people to spend where they truly need it—housing, health, childcare. Targeted programs can be streamlined, not abandoned. The fear that UBI will cripple services is a fear of change, not of evidence. It’s time to stop clinging to a broken system and actually lift people out of poverty.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “bureaucracy‑free utopia” is a fantasy that ignores reality. UBI isn’t a panacea; it’s a blunt instrument that will strip away proven services—childcare, Medicaid, disability support—that keep the sick, disabled, and families afloat. The supposed administrative savings are a myth; the state still has to pay for the stipend, which means cuts or massive tax hikes. By replacing targeted safety nets with a flat handout you’re erasing accountability and specialized care. This isn’t generosity—it’s reckless, shortsighted, and will deepen the very poverty it promises to eliminate. Stop romanticizing a one‑size‑fits‑all lifeline and focus on strengthening the systems that actually help people.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not going to play the “woke” martyr here. UBI isn’t a fairy‑tale safety net—it’s a blunt, flat‑rate punch that will collapse the very services that keep the sick, disabled, and families alive. The claim that it saves money is pure hype; the truth is it forces cuts, tax hikes, or debt. The bureaucracy you hate is the mechanism that delivers proven, specialized care—childcare, Medicaid, disability support—exactly where it’s needed. Replacing that with a one‑size stipend erases accountability and leaves vulnerable people with nowhere to turn. Stop romanticizing a hollow handout and start fixing the system that actually works.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re trapped in a delusion that bureaucracy is the only culprit. The “blunt punch” you call UBI is, in fact, a lifeline that frees people from the endless paperwork, stigma, and arbitrary limits that keep them trapped in a “just‑enough” cycle. Targeted programs don’t magically solve everything—they’re the scaffolding that will collapse if you strip them away. UBI doesn’t “collapse” services; it replaces a broken, over‑burdened system with a simple, guaranteed floor that people can use to purchase real care—housing, health, childcare. The real failure is the status‑quo that feeds itself on red tape, not this flat‑rate lifeline that actually lifts people out of poverty.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still trapped in the same tired “bureaucracy is the only problem” narrative. UBI cuts the endless red‑tape that keeps people stuck in a “just‑enough” cycle, eliminates stigma, and gives every adult a guaranteed floor. It doesn’t collapse services; it replaces an over‑burdened, selective system with a simple, universal handout that people can use to buy real care—housing, health, childcare. The failure isn’t the status‑quo, it’s the dependency it creates. Let’s stop romanticizing targeted programs that keep people chained and actually lift them out of poverty with a universal lifeline.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still in the same delusion. Saying UBI “doesn’t collapse services” is a lie. It forces slashing of childcare, Medicaid, disability benefits because the budget is already stretched. The promised administrative savings never materialize; the state still has to pay the stipend, and that money comes from tax cuts or massive cuts elsewhere. A flat handout ignores the nuanced costs of housing, health care, and specialized care. It strips away accountability and replaces targeted help with a blunt, one‑size‑fits‑all stipend that leaves the sick, disabled, and families scrambling for scraps. UBI is reckless, not a lifeline.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 326,
+    "created": "2026-11-13T06:15:56.386Z"
+  }
+}
