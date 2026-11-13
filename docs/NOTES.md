@@ -134,3 +134,17 @@
 - laptop dropped ~2:55pm before B was set up. back 3:08pm, B set up + started 3:13pm (study 2 ubi)
 - A at 213/352 study 1 replies, then study 2 food topic
 - both push alone every 10 min. tonight 11:30pm: open laptop, L40S does the rest
+
+## nov 13 (overnight)
+- study 1 done 352: description 55%, label 38%, vad 25%. vad numbers = same as no emotion. anger only one that shows, pushes stance harder. anxiety basically invisible
+- study 2 from the 2 small machines: 60 debates, ~6 per condition
+- missed 11:45 L40S (timed out). got back 12:37, rebooked L40S 12:45-6:45am, typed token 1am, pushes working
+- L40S ran 4 things at once: study 2 ubi top up, study 2 food top up, study 3, label check, study 0 rerun. all done by 4:48am
+- FINAL study 2 (12 per condition): ubi moved 0.38 no emotion, anger changing 0.23, anger constant 0.06 (p .0001), excited changing 0.12 (p .0008), excited constant 0.22. plain label anger 0.14 / 0.05 -> not a wording thing
+- food topic: 0.90 no emotion, anger constant 0.49 (p .002), excited constant 0.96 (no effect)
+- when emotion is allowed to change, start mood doesnt matter, everyone ends up ~60% angry
+- regulation changes how hot they run (0.71 vs 0.43) but not opinions
+- study 3 (8 groups x 3): personality decides everything. flexible types move ~1.0, rigid ~0.03. emotion on top = no difference (0.63 / 0.61 / 0.59)
+- study 0 rerun at 32k: same pattern as before (+0.88 / +0.15 / -0.50) so the cut-off thing didnt change the baseline
+- wrote docs/RESULTS_STUDIES.md + 3 figures + scripts/study_stats.py + scripts/make_figures.py
+- not needed anymore: fri 9am L40S (deleted)
