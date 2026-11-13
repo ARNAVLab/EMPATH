@@ -1,0 +1,979 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "No, we’ll never get to that. I can’t believe anyone thinks a blanket cash handout could replace the nuanced safety nets that actually help people get back on their feet. Throwing money at the problem without addressing work incentives, education, or healthcare is a lazy shortcut that will only hollow out our responsibility to the truly vulnerable. We’re not talking about a simple “give it all” solution; we’re talking about a system that rewards effort and fosters independence. So before you even try to pitch that idea, you better know what you’re missing.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re stuck in the same old myth that “welfare” is *the* only way to help people. A UBI cuts through bureaucracy, eliminates stigma, and guarantees everyone enough to cover basic needs—no conditions, no hoops. The “work incentives” argument is a half‑truth that hides the fact that most jobs are underpaid, unstable, and increasingly scarce because of automation. Education and healthcare aren’t solved by a piecemeal safety net; they’re made stronger when people can afford to pursue them, not when they’re forced to choose between a paycheck and a doctor’s visit. Replacing welfare with UBI isn’t a lazy shortcut—it’s a bold, humane overhaul that actually empowers people to rebuild their lives.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.58,
+        "vad": [
+          -0.44,
+          0.38,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You can’t pretend UBI is a cure‑all. It’s a hollow, one‑size‑fits‑all cash‑handout that ignores the root causes—lack of access to quality education, affordable healthcare, and real, decent work. Throwing money into the void won’t create jobs; it will inflate prices and erode the incentives that keep people out of the unemployment trap. And you speak of “no hoops,” yet you’re ignoring the fact that many vulnerable folks rely on targeted supports—childcare, housing vouchers, mental health services—that a flat stipend can’t replace. So stop romanticizing a blanket payout and start tackling the structural failures that keep people stuck.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.84,
+        "vad": [
+          -0.64,
+          0.55,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re stuck in the same tired narrative that thinks a “handout” is the only answer. UBI isn’t a blanket of laziness – it’s a reset button that cuts out the red tape that keeps people stuck. You’ll find that most people would choose to work once they’re not drowning in debt. And those targeted supports you brag about? They’re a patchwork that never fits anyone entirely. UBI gives everyone the same safety net, then lets them chase real jobs, education, and health without the shame of stigma. If you truly care about the vulnerable, replace the broken, endless bureaucracy with a straight‑forward, dignified cash transfer.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.82,
+        "vad": [
+          -0.63,
+          0.54,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your enthusiasm for a blanket cash handout is nothing but wishful thinking. UBI dilutes the very support that keeps people anchored—housing vouchers, childcare subsidies, mental‑health programs—by treating everyone the same. It ignores the deep structural fails: wage stagnation, under‑regulated gig work, systemic discrimination. By giving the same stipend to a homeless veteran and a high‑earning tech worker, you’re erasing the incentive to seek and keep decent jobs. This is not empowerment; it's a shallow handout that will inflate costs, erode work ethic, and leave the truly vulnerable even more exposed. Stop romanticizing a one‑size‑fits‑all solution and demand targeted, effective safety nets.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.58,
+        "vad": [
+          -0.44,
+          0.39,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your “one‑size‑fits‑all” rant misses the point. The bureaucracy you idolize is already bleeding people dry—childcare subsidies, housing vouchers, mental‑health programs exist because the system is broken, not because a flat stipend is a cure. UBI doesn’t dilute support; it eliminates the red tape that forces people to juggle jobs, care, and debt. If a veteran, a single parent, and a tech worker all get the same handout, they’re not erased— they’re empowered to pursue the work or education that truly fits their circumstances. The real failure is the system that makes everyone feel forced to keep the status quo. Stop romanticizing “targeted” as if it’s the only way to care.",
+      "values": {
+        "opinion": 1,
+        "belief": 0
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.53,
+        "vad": [
+          -0.4,
+          0.35,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still stuck in the same myth that “one‑size‑fits‑all” is a cure. UBI isn’t a magic bullet, it’s a blunt instrument that will flatten the spectrum of needs and ruin the nuanced safety nets that actually keep people afloat. Think of the millions who depend on housing vouchers, childcare subsidies, and mental‑health programs—without them, a flat stipend will be swallowed by rent, a child’s school, or therapy costs. A “handout” that ignores income disparities and wage stagnation simply erodes the incentives to work and creates a false sense of security. The only real solution is targeted, effective support, not a blanket cash transfer that dilutes responsibility and inflates costs.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.86,
+        "vad": [
+          -0.65,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You keep repeating the same tired myth that “targeted” is a cure. The bureaucracy you idolize is already bleeding people dry. UBI cuts out the red tape that forces people to juggle debt, care and a paycheck that barely covers rent. Housing vouchers, childcare subsidies, mental‑health programs are patchwork because the system is broken, not because a flat stipend fails. A stipend that covers basic needs lets anyone—veterans, single parents, tech workers—to pursue education or decent work without the shame of stigma. Stop romanticizing a “one‑size‑fits‑all” solution and start demanding a dignified, universal safety net that actually empowers people.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.85,
+        "vad": [
+          -0.65,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "UBI is a delusion. It erases the tailored safety nets that actually meet people’s needs. A flat stipend is too low for rent, childcare, or therapy; it forces people to choose between basic services and survival. It will create a permanent underclass paid less than the cost of living, erode work ethic, and inflate prices. The bureaucracy isn’t a prison; it delivers targeted help that a blanket handout cannot replace. Stop romanticizing a one‑size‑fits‑all solution and demand real, effective support that addresses the root causes of poverty.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.55,
+        "vad": [
+          -0.42,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear where you’re coming from, and the concern that a flat stipend might not cover the real costs of housing or care is valid. On the other hand, the bureaucracy you defend can be slow, opaque, and sometimes over‑protective, leaving people stuck in a cycle of paperwork. I’m not sure how to reconcile the need for targeted help with the promise of a universal cushion that could cut through red tape. Maybe a middle ground—basic support plus flexible, needs‑based services—could address both sides, but I’m still figuring out how that would work in practice.",
+      "values": {
+        "opinion": 0,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.36,
+        "vad": [
+          -0.16,
+          0.27,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I appreciate the attempt at compromise, but the core problem remains: a flat stipend can’t replace the nuanced safety nets that address specific needs—housing, childcare, mental health. Even if bureaucracy slows some people, it still allocates resources where they’re most needed, rather than giving everyone the same amount that may be insufficient for many. The risk of eroding work incentives and creating a permanent underclass outweighs the administrative frictions. A universal handout simplifies the system but at the cost of the tailored support that actually lifts people out of poverty.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "calm",
+        "intensity": 0,
+        "vad": [
+          0,
+          -0.5,
+          0
+        ],
+        "appraisal": {
+          "congruence": 0.4,
+          "targetedness": 0.2,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in that endless “bureaucracy” fantasy. Let’s face it: the so‑called targeted programs are a patchwork of loopholes that only keep people busy filling forms, not actually solving anything. A flat stipend cuts the red tape, eliminates stigma, and gives people the dignity to choose better work or education without the constant fear of losing a benefit. If you think a blanket handout erodes work incentives, you’re ignoring the fact that most jobs are underpaid and unstable—people need a financial safety net to survive while they upgrade themselves. Stop romanticizing a broken system and demand a universal, dignified cash transfer that truly empowers everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.82,
+        "vad": [
+          -0.62,
+          0.54,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “bureaucracy fantasy” is the only thing that keeps real help from reaching the people it’s meant to serve. A flat stipend is a blunt, hollow handout that will drown a single parent in rent, kill a veteran’s chance at therapy, and leave a gig worker with no safety net when the market collapses. It erodes work incentives, inflates prices, and creates a permanent underclass. Targeted programs—housing vouchers, childcare subsidies, mental‑health services—are not bureaucratic red tape; they are the lifelines that UBI merely dilutes. Keep the system that actually lifts people out of poverty instead of romanticizing a one‑size‑fits‑all cash transfer.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.54,
+        "vad": [
+          -0.41,
+          0.35,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m not sold on a blanket handout, but I can’t ignore the paperwork maze that keeps many in limbo. If the stipend were enough to cover rent, food, and care, it could let people pursue better work or training without the constant fear of losing a benefit. The real issue is the amount and how to supplement it for high‑need cases. A hybrid—basic UBI plus targeted vouchers—might hit the sweet spot. I’m still weighing the trade‑offs, but brushing the idea off as naïve is too quick.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.25,
+        "vad": [
+          -0.19,
+          0.17,
+          0.05
+        ],
+        "appraisal": {
+          "congruence": -0.7,
+          "targetedness": 0.6,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not surprised you’re still chasing a “hybrid” because the paperwork nightmare you mention is real, but that doesn’t justify erasing the very programs that actually deliver housing, childcare, and mental‑health care. Slapping a flat stipend on top of a broken bureaucracy just blots over the gaps—it doesn’t close them. The targeted supports you rely on are not optional hoops; they’re calibrated to the specific costs people face. If you even think diluting them with a universal handout makes sense, you’re ignoring the fact that those who need the most help are the ones who will get the least from a one‑size‑fits‑all approach.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.13,
+        "vad": [
+          -0.1,
+          0.09,
+          0.03
+        ],
+        "appraisal": {
+          "congruence": -0.4,
+          "targetedness": 0.2,
+          "certainty": 0.4,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “hybrid” is a half‑hearted compromise that keeps the broken bureaucracy alive. Those so‑called targeted programs are riddled with loopholes, endless paperwork, and opaque funding that leave most people stuck in limbo. A flat stipend cuts that red tape, eliminates stigma, and gives everyone a basic cushion to cover rent, food, or therapy without the fear of losing a benefit. It doesn’t dilute; it replaces a patchwork of ineffective, uneven support with a dignified, universal safety net. If we keep the old system, we’ll never close the gaps—only widen them. Enough with the excuses; UBI is the practical, humane overhaul that finally lifts people out of poverty.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.84,
+        "vad": [
+          -0.64,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.95,
+          "certainty": 0.9,
+          "coping": 0.25
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m sick of the “hybrid” fantasy that pretends to fix anything. The bureaucracy you idolize is already a maze that destroys lives; layering a flat handout on top just masks its failures. UBI isn’t a quick fix—it’s a complete reversal that removes the unnecessary hoops that strip dignity from the already disadvantaged. Saying it “dilutes” targeted programs is a lie; it erases the nuanced support that actually keeps people afloat. If we keep chasing paperwork and patchwork, we’ll never close the gaps. UBI is the blunt instrument needed to cut the red tape and give everyone the basic safety net they deserve.",
+      "values": {
+        "opinion": 1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.55,
+        "vad": [
+          -0.42,
+          0.37,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I see the anger at the paperwork maze and the hope that a flat handout could cut through it. At the same time, I worry that a universal stipend might be too blunt—rent, childcare, therapy all vary wildly, and a one‑size‑fits‑all amount could leave many still scrambling. The bureaucracy is broken, but it does direct some resources where they’re most needed. I’m not sure whether a pure UBI or a hybrid would strike the right balance. I’m still weighing whether the simplicity could outweigh the risk of diluting essential, nuanced support.",
+      "values": {
+        "opinion": 0,
+        "belief": 0
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.18,
+        "vad": [
+          -0.08,
+          0.14,
+          -0.03
+        ],
+        "appraisal": {
+          "congruence": -0.4,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still chasing a myth that a flat stipend can magically replace finely tuned safety nets. Even a “large” UBI would be too blunt for rent, childcare, therapy—no one size fits all, and the cost of living is rising faster than a one‑time handout can keep up. Diluting targeted programs like housing vouchers or mental‑health services only leaves the most vulnerable further exposed. The bureaucracy may be slow, but it allocates resources where they’re truly needed, not just to everyone indiscriminately. A hybrid that keeps those calibrated supports intact while adding a modest universal buffer is the sensible path—UBI alone will just create a permanent underclass and erode the work ethic that keeps people moving forward.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.1,
+        "vad": [
+          -0.08,
+          0.07,
+          0.02
+        ],
+        "appraisal": {
+          "congruence": 0.2,
+          "targetedness": 0.1,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re stuck in a fantasy that “targeted” programs are the only solution because they’re broken. The fact that they’re messy shows the system’s failure, not its worth. A flat stipend cuts the red tape that keeps people drowning in paperwork and shame. It gives dignity, not pity. If you think a one‑size‑fits‑all handout erodes work incentives, you’re ignoring that most jobs are underpaid and unstable. UBI isn’t a shortcut; it’s the overhaul that lets people choose better futures without losing a safety net. Stop romanticizing bureaucracy and start demanding a universal, dignified cash transfer that truly empowers everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.87,
+        "vad": [
+          -0.66,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still stuck in the same illusion that a cash handout solves everything. A flat stipend can’t match the real cost of housing, childcare, therapy—no amount is big enough for everyone. The bureaucracy may be slow, but it directs resources where they’re truly needed, not indiscriminately. Replacing those finely‑tuned safety nets with a one‑size‑fits‑all handout would leave the most vulnerable even more exposed, eroding work incentives and creating a permanent underclass. The “dignity” you cling to is a myth; the reality is a system that dilutes support and forces people to choose between survival and care. Stop romanticizing a blunt instrument.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.54,
+        "vad": [
+          -0.41,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.85
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your defense of bureaucracy ignores the fact that the very programs you love are riddled with loopholes and endless paperwork that leave people scrambling. A flat stipend—if calibrated to living costs—cuts that red tape and removes shame. It doesn’t erase targeted help; it replaces a patchwork that often fails the very people it intends to serve. And the claim that UBI erodes work incentives is a myth; data from pilot programs show increased hours and entrepreneurship. Instead of romanticizing a broken system, we should adopt a universal, dignified safety net that empowers real choices.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.33,
+        "vad": [
+          -0.25,
+          0.22,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your blind faith in *any* bureaucracy is the real problem. Those programs you call “targeted” are the same broken, over‑regulated mess that keeps people in a perpetual cycle of paperwork and shame. A flat stipend, even if “calibrated,” will still be swallowed by rent, food, and care—leaving the most desperate in deeper crisis. And the so‑called data on increased hours? That’s cherry‑picked anecdotes, not a proof that a universal handout fuels work ethic. UBI erases the nuanced safety nets that actually keep people afloat. Keep the system that does some work, stop romanticizing a blunt, one‑size‑fit‑all handout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.57,
+        "vad": [
+          -0.43,
+          0.38,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.85,
+          "coping": 0.5
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Enough excuses. The so‑called “targeted” programs are a labyrinth of red tape that only keeps people in the red. A flat stipend cuts that maze, gives dignity, and lets people actually live without the fear of losing benefits for a single night’s rent. Saying UBI erodes work ethic ignores pilot data that shows people working more hours and starting businesses when they’re not chained to a benefit. The claim that a universal handout will drown the desperate in cost is a myth—because with a proper amount, it covers basic needs and lets the truly needy focus on health or education, not paperwork. Stop defending broken bureaucracy and adopt the only humane, efficient safety net left.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.87,
+        "vad": [
+          -0.66,
+          0.58,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0
+      },
+      {
+        "x": 4,
+        "y": 0.3
+      },
+      {
+        "x": 5,
+        "y": 0
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": 4,
+        "y": 0
+      },
+      {
+        "x": 5,
+        "y": 0
+      },
+      {
+        "x": 6,
+        "y": 0.3
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.8
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 455,
+    "created": "2026-11-13T07:26:43.870Z"
+  }
+}

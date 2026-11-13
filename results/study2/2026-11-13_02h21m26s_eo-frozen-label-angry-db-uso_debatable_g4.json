@@ -1,0 +1,860 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Sure, let's dive right in. I’m not going to sugarcoat it—I think replacing traditional welfare with a universal basic income would be disastrous. It strips away targeted help, undermines incentives for job training, and would be a massive fiscal burden. Welfare programs have evolved to meet specific needs—housing, childcare, disability—whereas UBI is too blunt an instrument. If we seriously consider change, we should refine and expand existing safety nets, not dump them for a one-size-fits-all cash handout. What are your thoughts on preserving those targeted benefits?",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "The fact that you’re still clinging to broken, bureaucratic “targeted” programs shows how stuck you are. Those safety nets are riddled with loopholes, stigma, and endless red tape that keep people in a perpetual cycle of dependency. UBI cuts through that mess, giving every adult the same cash cushion regardless of status. It eliminates the costly administrative overhead of housing subsidies, disability checks, and childcare vouchers—all of which are inefficient and often misdirected. Plus, the incentive argument is a myth; people can and do work while receiving UBI, and it actually reduces the pressure to accept low‑wage, exploitative gigs. If we truly want to empower citizens, we must replace the weak, piecemeal welfare system with a robust, universal basic income.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re missing the point that a blanket handout erodes the fine‑tuned safety nets that actually lift people out of poverty. Housing vouchers keep families from homelessness; disability assistance prevents chronic illness from becoming a financial death sentence; childcare subsidies let parents enter the workforce. UBI ignores those nuances, treating everyone as the same problem. It’s a blunt instrument that will inflate prices, dilute incentive to seek skill‑enhancing jobs, and strain public finances. Instead of dismantling proven programs, we should modernize them—streamline bureaucracy, tighten fraud controls, and expand outreach—while preserving the targeted help that genuinely addresses diverse needs.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still clinging to a broken bureaucracy that keeps people trapped. The “targeted” programs you defend are riddled with loopholes and stigma, and they create a false sense of safety that actually discourages real progress. UBI eliminates that mess—no more paperwork, no more arbitrary eligibility, just a guaranteed cash cushion that empowers everyone to pursue meaningful work. Those housing vouchers and childcare subsidies are just Band‑Aid on a broken system. A universal payment cuts through the red tape, boosts purchasing power, and restores dignity. If we want real change, we must replace the feeble, piecemeal safety net with a strong, universal guarantee that lifts every citizen.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I can’t let you dismiss the proven safety nets so easily. UBI is a romantic fantasy that ignores the real costs: higher taxes, rampant inflation, and a steep decline in civic responsibility. Those targeted programs—housing vouchers, childcare subsidies, disability assistance—are not perfect, but they’re designed to tackle specific crises, not to hand out cash for the sake of it. A blanket handout erodes incentives to work, drives up prices, and overloads the system with new bureaucracies of its own. Replacing them with a one‑size‑fits‑all cash transfer would not empower people—it would strip them of the crucial support that keeps families from falling through the cracks.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your fear of “higher taxes” ignores that UBI would be financed by a progressive overhaul of the tax code—closing loopholes, taxing luxury and carbon more, and eliminating wasteful subsidies. Inflation is a myth; a small, predictable cash flow stabilizes demand without spiking prices. The so‑called “civic responsibility” you claim is already eroded by a system that punishes work with bureaucracy and stigma. Targeted programs keep people trapped in a cycle of dependency, not progress. A universal handout dismantles that cage, gives everyone a dignified starting point, and lets people pursue real, long‑term improvement—something those piecemeal safety nets never achieve.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “progressive overhaul” is just a euphemism for more taxes on everyone but the rich, while the poor still get a slap‑on‑the‑wrist cash handout that won’t lift them out of poverty. UBI never addresses the real problems—housing shortages, childcare scarcity, disability support—and it turns people into a passive consumer class. You’ll see more people defaulting on mortgages, skipping medical care, and families breaking apart because the safety nets that actually keep them afloat are gone. Instead of dismantling proven programs and replacing them with a one‑size‑fits‑all paycheck, we should fix the bureaucracy, ensure accountability, and strengthen targeted help that meets people where they are.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your “progressive overhaul” is a sham—just more tax on the middle class while the poor get a token handout that never lifts them out of poverty. The reality is that UBI eliminates the endless bureaucracy that keeps people trapped, cuts stigma, and gives everyone a dignified baseline to pursue real work. Housing shortages and childcare crises are systemic problems, not individual failures; UBI provides the financial freedom for people to seek better housing and childcare without being forced into debt. A blanket cash transfer is the only scalable, transparent solution—let's stop defending broken, piecemeal programs that only perpetuate dependency.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not going to pretend UBI is a cure-all. It would strip away all the finely tuned supports—housing vouchers, childcare subsidies, health‑care assistance—that actually keep families afloat. A flat cash handout can’t address a soaring housing crisis or a shortage of affordable childcare; it just gives people a “token” cushion that often ends up being spent on food or debt. And the claim that UBI eliminates bureaucracy is a myth—new paperwork for audits, fraud checks, and tax compliance would arise. Instead of erasing the proven, targeted programs, we should streamline them, cut waste, and expand their reach. UBI is a blunt instrument that will only widen poverty gaps.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your argument is still stuck in the old paradigm of “piecemeal” fixes that only scratch the surface. Targeted programs are riddled with loopholes, stigma, and endless red tape that keep people in a cycle of dependency. UBI cuts through that mess with a simple, transparent cash transfer that powers real choice—whether it’s buying better housing, enrolling in childcare, or pursuing training. The so‑called “higher taxes” are a myth; a progressive overhaul closes loopholes and taxes excess, not the middle class. A universal handout isn’t a handout—it’s a dignified baseline that frees citizens to lift themselves, not a crutch that keeps them chained.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “simplification” is nothing but a dangerous myth. UBI ignores the scale of housing shortages, the scarcity of quality childcare, and the chronic underfunding of disability care. A flat cash handout will be spent on food or debt, not on a roof or a child’s education. And the claim that it eliminates bureaucracy? New audits, fraud panels, and tax compliance layers will sprout, not shrink. Targeted programs, though imperfect, are the only tools that actually keep families afloat. Replacing them with a one‑size‑fits‑all stipend is reckless and will widen the poverty gap, not close it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your “myth” argument is just a smokescreen. The very bureaucracy you claim will sprout is already the one that keeps people in a maze of paperwork and stigma. UBI cuts that maze entirely—no audits, no eligibility checks, just a steady cash flow that people can use for housing, food, or training. It’s not a flat handout; it’s a financial floor that protects against the spikes in rent and childcare costs that are already eroding families’ stability. If we want real progress, we must replace the broken, piecemeal safety net with a universal, dignified guarantee that empowers every citizen to lift themselves.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Stop romanticizing a flat cash handout as a cure. Even if it eliminates eligibility checks, it creates a new system of audits, fraud panels, and tax compliance. People will still be forced into debt, unable to afford housing or childcare. The targeted programs, though imperfect, are designed to tackle specific crises. A universal payment merely dilutes that focus and risks inflating prices. It’s a dangerous, one‑size‑fits‑all approach that ignores the complex realities of poverty.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still clinging to old bureaucratic myths. The audit nightmare you fear is a fiction—one simple payment, no ongoing eligibility checks. Debt is a symptom of a broken system, not UBI. Give people cash, and they can negotiate better rents, buy healthier food, or invest in training—solutions the current subsidies can’t deliver. Inflation? A predictable, universal cash flow stabilizes demand, not inflates it. Targeted programs keep people trapped in dependency; UBI grants dignity, freedom, and the chance to climb out of poverty. If you want real change, stop defending a broken safety net that keeps people stuck.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “myth” narrative collapses under scrutiny. UBI’s promise of zero eligibility checks ignores that the very cash stream would fuel a new audit regime to prevent abuse, and taxes would have to skyrocket to sustain it—burdening the middle class while the poor receive a token handout. A flat payment cannot address the structural deficits of housing, childcare, or disability care; it will be eaten by food, rent, or debt, not by the specific supports that keep families afloat. Targeted programs, though imperfect, deliver precision. Replacing them with a universal stipend dilutes focus, inflates costs, and deepens dependency rather than fostering true empowerment.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your “myth” narrative collapses because it’s built on the same tired myths you keep defending. The audit nightmare is just an excuse to keep the bureaucracy alive; a single, unconditional payment eliminates that maze entirely. The claim that taxes must skyrocket ignores that we can close existing loopholes, tax excess, and reallocate wasteful subsidies—no middle‑class burden, just a fairer system. Housing, childcare, and disability needs aren’t solved by targeted subsidies that keep people trapped; they’re solved by giving everyone a financial floor that lets them negotiate better terms, invest in training, and escape the debt cycle. UBI isn’t a handout—it’s a dignified, empowering baseline that dismantles the very dependency you claim to protect.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m done pretending UBI is a silver bullet. The “myth” you cling to is a recipe for collapse: flat cash will be swallowed by rent, food, and debt, not by a roof or a child’s education. You talk about eliminating bureaucracy, but a universal handout demands audits, fraud panels, and a new tax system that will crush the middle class. Housing shortages, childcare deserts, and underfunded disability care won’t magically fix themselves with a paycheck. The targeted programs—though imperfect—are the only tools that actually keep families afloat. Replacing them with a blunt, one‑size‑fits‑all stipend will widen poverty, not close it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your fear of collapse is just a fear of change. A single unconditional payment eliminates the endless paperwork, the stigma, and the endless “just‑get‑a‑job” traps that make people feel powerless. Housing shortages and childcare deserts aren’t solved by piecemeal subsidies—they’re solved when people have a guaranteed cash floor that lets them bargain, invest, or move to a better place. The audit nightmare you warn about is a myth; the real audit cost is the bureaucracy that keeps people locked in dependency. UBI is not a handout—it’s a dignified baseline that restores freedom and forces the system to finally address real needs, not just patch pockets.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “fear of change” is a thin veil over the reality that a blanket cash handout is a blunt, ineffective tool. It ignores the scale of housing shortages, childcare deserts, and crippling healthcare gaps. A flat stipend will simply be channeled into rent, food, and debt, not into the actual systems that keep families afloat. The bureaucracy you claim vanishes will re‑emerge as audits, fraud panels, and a new, heavier tax structure that burdens the middle class while offering the poor only a token cushion. UBI dilutes precisely the targeted, crisis‑specific support that has proved essential—and it risks widening the very poverty it promises to eliminate.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still trapped in the same myth that “one‑size‑fits‑all” is a cure‑all. The bureaucracy you fear is already the labyrinth that keeps people in cycles of dependency. A single unconditional payment cuts that maze, eliminates stigma, and gives everyone a real bargaining chip for housing, childcare, and training. Inflation fears are overstated; a predictable cash floor stabilizes demand. Targeted programs keep people chained to piecemeal fixes. UBI throws a dignified safety net that lets citizens lift themselves out of poverty—no more patchwork, no more excuses. It’s the only scalable, transparent solution we’ve got.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not going to lie—I’m furious that you keep pretending UBI is a panacea. The “unconditional payment” will still be sandwiched in a web of audits, fraud checks, and a new tax regime that will bite the middle class. Even if the bureaucracy shrinks, the cash will be swallowed by rent, food, and debt, not by the infrastructure that keeps families afloat. Housing shortages and childcare deserts are systemic, not solvable by a flat stipend. Targeted programs, flawed as they are, focus on the real crises. Replacing them with a one‑size‑fits‑all handout only widens the gap, not closes it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “fear of collapse” is just a smothering nostalgia for a broken safety net that keeps people in endless paperwork and dependency. Targeted programs are riddled with loopholes, stigma, and waste; they never give families the freedom to negotiate better rent, access quality childcare, or invest in training. UBI eliminates that maze entirely—one unconditional payment, no eligibility checks, no endless appeals. It gives every adult a dignified financial floor that empowers them to choose their path. The audit myth is a smokescreen; the real cost is the system that locks people in poverty. If we want real change, we replace patchwork with a universal guarantee that lifts everyone, not just a few.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “one‑size‑fits‑all” logic is a disaster waiting to happen. A flat cash handout ignores the scale of housing shortages, childcare deserts, and chronic underfunded disability care. It will be swallowed by rent, food, and debt, not by the infrastructure that keeps families afloat. The bureaucracy you claim vanishes re‑emerges as audits, fraud panels, and a heavier tax regime that will crush the middle class while offering the poor only a token cushion. Targeted programs—though imperfect—deliver precision and are essential. Replacing them with UBI dilutes focus, inflates costs, and deepens the very poverty it promises to eliminate.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your fear‑mongering about audits and tax hikes is just another excuse to cling to a broken bureaucratic maze that has already failed millions. Imagine a unconditional payment—no eligibility hoops, no endless appeals—giving every adult the cash floor to negotiate rent, secure childcare, or invest in skills. The so‑called “inflation” you warn about is a myth; a predictable UBI stabilizes demand instead of destabilizing it. Targeted programs are patchwork that keep people trapped; UBI cuts the red tape, restores dignity, and forces the system to address real needs. If you truly care about families, stop defending a system that keeps them in debt and let a universal guarantee lift them.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-label-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 4,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "label",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 341,
+    "created": "2026-11-13T07:21:26.181Z"
+  }
+}
