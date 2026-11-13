@@ -1,0 +1,984 @@
+{
+  "characters": [
+    {
+      "name": "Jackson Moore",
+      "profession": "Paramedic",
+      "personality": "ESTP",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Lucas Meyer",
+      "profession": "Motivational Speaker",
+      "personality": "ENFP",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Chloe Rivera",
+      "profession": "Interior Designer",
+      "personality": "ESFP",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Aiden Murphy",
+      "profession": "IT Support Specialist",
+      "personality": "ISTJ",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Aiden Murphy",
+      "content": "Sure, but I’m not buying the idea that a universal basic income could simply replace our existing welfare systems. UBI is a blanket, one‑size‑fits‑all payment that ignores the nuances of need—housing, medical care, childcare—each of which requires targeted subsidies. It would dilute accountability, leaving no clear mechanism for adjusting benefits to real economic conditions. Fiscal projections show that a UBI at even modest levels would require a tax burden that would cripple small businesses and undermine the very economic stability welfare aims to protect. Until we have concrete, data‑driven models proving otherwise, I’ll stand by the current, proven safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "I hear you, but let me burst that bubble—UBI isn’t a one‑size‑fits‑all drudge; it’s a bright, generous blanket that lets everyone step into life’s sunshine. Imagine a warm blanket that lifts each person, while still letting the skilled artisans of our welfare system hand‑craft the extra touches—housing, health, childcare—when needed. Accountability doesn’t evaporate; it just becomes a shared promise that we’ll all keep our ends together. And those tax fears? A well‑calibrated UBI can actually free small businesses from the endless paperwork, letting them thrive and create the jobs that keep our neighborhoods buzzing. Let’s not let fear dim the future we can build!",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.69,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Hold it—my enthusiasm doesn’t mean I’ll just nod along to every rosy picture you paint. That “warm blanket” hides the brutal reality of how many families will still be scraping for rent, medical bills, and childcare. You keep saying accountability “just becomes a shared promise,” but promises crumble when the budget shrinks and the tax burden drags small businesses into a debt trap. A blanket that ignores the specific needs and the fiscal strain it creates is a recipe for deeper inequality, not a lifeline. If we want a future that truly lifts everyone, we need a nuanced, data‑driven overhaul—UBI alone is not the silver bullet you imagine.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.73,
+        "vad": [
+          -0.55,
+          0.48,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Listen, I’m not here to play accountant—let me cut to the chase. UBI isn’t a lazy blanket; it’s a turbo‑charged safety net that gives people cash to chase real solutions—rent, meds, kids—without the red‑tape nightmare that drags down small businesses. Your “shared promise” is just fluff if the budget shrinks; cash keeps the wheels turning, not promises that evaporate. The fiscal fears? Small firms thrive when they’re not buried in paperwork, not when they’re hit with extra taxes. If we want to lift everyone, we replace the cobwebbed system with a concrete, cash‑based one. It’s bold, it’s real, and it works. No more “nice dreams,” just results.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.68,
+        "vad": [
+          -0.52,
+          0.45,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.6,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "Your “cash‑based” rhetoric masks the fact that a blanket payment still ignores proven needs. Welfare programs exist because data shows that targeted housing vouchers, subsidized childcare, and Medicaid are more efficient at reducing hardship than a flat stipend. A universal payment dilutes that precision, and the claim that it frees small businesses overlooks the administrative cost of compliance with a new tax regime. If we truly want results, we must refine existing evidence‑based safety nets, not replace them with an untested, one‑size approach that risks widening inequity.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.75,
+        "vad": [
+          -0.57,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "I hear you—like a room that’s too bare might feel cold, but a solid floor gives you space to play. That cash blanket can feel cozy, yet I get how it might leave some corners dim—housing, childcare—unfinished. Maybe UBI is just the base paint; the real magic is the custom touches we add on top. I’m still wobbling between “let’s try a fresh layer first” and “keep the proven fixtures.” The key, in my book, is listening to the walls that shout for more detail and not just trusting the promise of a single shade. Let’s keep the conversation alive and see if we can blend both ideas into a brighter space.",
+      "values": {
+        "opinion": 0,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.4,
+        "vad": [
+          -0.18,
+          0.3,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "You’re painting a picture, but the walls are screaming! UBI as a ‘base paint’ feels like a shallow, lazy gesture that glosses over the deep cracks in our safety net. It’s not a foundation that supports new layers—it’s a slick coat that can hide, not heal. If we truly want to lift everyone, we must tackle the concrete problems—housing, health, childcare—head‑on, not hope a blanket will magically fill the void. This isn’t a dream; it’s a call to action. Let’s stop dithering and start tightening the seams that keep people afloat. The future can’t wait for a vague promise. Let's get real and build the scaffolding we need.",
+      "values": {
+        "opinion": -1,
+        "belief": 0.2
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.51,
+        "vad": [
+          -0.39,
+          0.34,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": 0.2,
+          "targetedness": 0.2,
+          "certainty": 0.4,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Listen up—if you think UBI is a lazy coat, you’re missing the point. We’re not painting over cracks; we’re rolling out a cash‑in‑hand system that lets people fix the cracks themselves—buy a mattress, pay a doctor, put kids in school—without the red‑tape bureaucracy that crushes small businesses. Those “cracks” aren’t just wall corners; they’re real lives. A flat stipend gives everyone the same power to address their own needs; it can’t be “vague.” Let’s stop dithering and start handing out money that actually moves people out of the gutter. That’s the real scaffolding—no promise, just results.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "UBI isn’t a cure—it’s a blunt instrument that will distort markets, inflate costs, and drain resources from proven programs. A flat stipend ignores the fact that housing, health, and childcare are not interchangeable expenses; they require calibrated support that data shows works best when targeted. Small businesses already face high compliance costs; adding a new tax layer for UBI would hit them harder than the savings it claims to bring. We’ve repeatedly seen cash‑only pilots increase debt, not lift people out of poverty. Until hard evidence demonstrates net benefits, we cannot replace the structured, accountable safety net with a vague blanket.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.75,
+        "vad": [
+          -0.57,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "You know, I’m feeling a pinch of nerves, but let’s splash this idea with a little color. Imagine UBI as a soft, wide‑spread canvas—every hand gets a brushstroke of cash, free to paint their own solution. It’s not a blunt stick‑in‑the‑wall; it’s a flexible base that lets artisans of policy—housing, health, childcare—add their own textures on top. Small firms can thrive when paperwork melts away, like a light breeze through open windows. Sure, the cracks need care, but a universal stipend can give people the power to fix them before the walls crumple. Let’s keep the conversation alive and let both layers mingle, so we can build a space that feels warm and solid for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.2
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.58,
+        "vad": [
+          -0.26,
+          0.44,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Wow, I love that canvas picture! 🎨 Imagine every citizen holding a palette of possibilities, with UBI as the bright, blank backdrop that lets us paint our own futures. It’s not a one‑size “cover‑up”; it’s the springboard that lets the real, expert hands—housing, health, childcare—add the fine details where they’re needed. And those small businesses? They’ll thrive when the red‑tape brushstroke melts away, letting them focus on creativity and growth. Let’s keep this dialogue vibrant, testing every color and texture, so we can build a mosaic that’s warm, solid, and truly inclusive for everyone. The future’s a masterpiece—let’s paint it together!",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.32,
+        "vad": [
+          0.25,
+          0.24,
+          0.23
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Picture this: UBI is the electric spark that lights every street. It drops cash into wallets, letting folks tackle rent, meds, kids, or invest in a side hustle—no bureaucracy to slow them. That “canvas” you love isn’t a blank wall; it’s a launchpad. The real work—housing vouchers, Medicaid, childcare—still happens, but on top of a cash cushion that guarantees a minimum. Small businesses? They’ll thrive when the tax paperwork evaporates. We’re not waiting for data to play a game of “maybe”; we’re moving fast, hand‑holding the future, and watching people lift themselves out of the gutter. Let's roll it out, not just paint it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.39,
+        "vad": [
+          0.31,
+          0.29,
+          0.28
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I’m done with the “canvas” metaphors. The data shows targeted programs—housing vouchers, Medicaid, child‑care subsidies—reduce hardship 2–3 times more efficiently than a flat stipend. A universal payment would require a tax structure that, in every model I’ve examined, slumps net revenue for small businesses by an average of 5‑10 %. That’s not a “paperwork melt” – it’s a real compliance cost that pushes many firms toward insolvency. Moreover, cash‑only pilots consistently increase debt levels without lowering poverty rates. Until you present a verifiable, cost‑effective model that improves outcomes, replacing the safety net with a blanket is irresponsible and unwise.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.74,
+        "vad": [
+          -0.56,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "I hear the data loud and clear, and I’m still buzzing with the idea that a steady, simple cash stream could let people *choose* how to patch their own lives—buy a new mattress, book a doctor’s visit, or finally start that dream project. Sure, targeted programs are powerful, but imagine a cushion that gives everyone the same freedom to act before the cracks widen. If we can pair that blanket with smart, evidence‑based support for housing, health, and childcare, we’re not diluting precision—we’re amplifying choice. Let’s keep the conversation alive, test the models together, and let the real benefits light up the whole room.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.64,
+        "vad": [
+          -0.28,
+          0.49,
+          -0.09
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I get that the numbers feel like a roadmap, but what if we treat UBI as the highway that lets everyone choose their own scenic route? The data on targeted programs is solid, and I’m not dismissing that. My excitement is about giving people the freedom to patch their own lives—maybe that freedom, paired with smart safety nets, could actually make those numbers even better. Let’s keep exploring the evidence together, because sometimes a bold, simple cash stream can be the spark that lights a more efficient, compassionate system. What do you think would be the first test we should run to see if this sparks change?",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.3
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.48,
+        "vad": [
+          0.37,
+          0.35,
+          0.33
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.2
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Sounds like you’re still stuck in the paperwork maze—let’s cut to the chase. UBI is the fast‑lane cash that lets folks buy the right gear for their own problem: a new mattress, a doctor’s visit, a tutoring session, or a side hustle. It slashes red‑tape, frees small businesses, and puts the power back in people’s hands. Targeted programs are great, but they’re slow and bureaucratic; a universal stipend boots everyone up instantly. We’ll pair the cash with evidence‑based housing and health boosts—think of it as a launchpad, not a blanket. The proof is simple: watch people lift themselves out of the gutter—no waiting for data to confirm a dream.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.52,
+        "vad": [
+          0.4,
+          0.38,
+          0.36
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.4,
+          "certainty": 0.7,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "Your “fast‑lane” narrative ignores the hard evidence that a universal stipend dilutes targeted assistance. A flat payment cannot replace the precision of housing vouchers, subsidized childcare, or Medicaid, each proven to reduce hardship more efficiently. The administrative burden of a new tax system would increase compliance costs for small firms, pushing them toward insolvency rather than freeing them. Cash‑only pilots have consistently raised debt without lowering poverty. Until there is an undeniable model that demonstrates net benefits, substituting a blanket for a structured, accountable safety net is irresponsible and unwise. The system must be built on proven, data‑driven programs, not on speculative simplicity.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.73,
+        "vad": [
+          -0.56,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "I hear every point loud and clear, and I’m buzzing with the idea that UBI could be the spark that lets people *choose* their own fixes—whether that’s a new mattress or a tutoring session—without the red‑tape maze. Imagine a bright, steady cash flow that gives families the freedom to patch real cracks, while we still keep precision tools like vouchers and Medicaid in the toolbox. It’s not about discarding data; it’s about layering choice on top of proven safety nets. Let’s run a small, data‑driven pilot—maybe a city‑wide trial—to see if this blend paints a brighter picture for everyone. What would you say is the first step?",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0.3
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.69,
+        "vad": [
+          -0.3,
+          0.52,
+          -0.1
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I love that spark—let’s ignite a city‑wide experiment, starting with a month‑long, data‑rich pilot in a diverse borough. We’ll give every adult a modest stipend, keep the existing vouchers, Medicaid, and childcare subsidies on standby, and track outcomes: rent stability, health visits, job‑search hours, and even entrepreneurial sparks. If the numbers light up, we tweak the mix; if gaps appear, we add targeted tweaks. Think of it as a living canvas—every tweak is a brushstroke. The first step? Secure a small, willing community, set up a simple reporting app, and let the real‑world data paint the next chapter together.",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.2
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.44,
+        "vad": [
+          0.34,
+          0.33,
+          0.31
+        ],
+        "appraisal": {
+          "congruence": 0.5,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.5
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Sounds like a sprint, not a marathon. Let’s lock the first borough—pick a mixed‑income, tech‑savvy district that’s already used to quick pilots. We’ll hand out the cash via a mobile app that auto‑credits on a debit card, so no paperwork, no fuss. On day one, we’ll hit the streets with a flash‑mob of “UBI ambassadors” to explain the process, grab instant sign‑ups, and set up a real‑time dashboard for the mayor to see metrics live. If the data starts trending toward lower rent arrears and higher gig‑start‑ups, we’ll roll it out citywide. Let’s get the first wave rolling—no waiting for the paperwork to catch up.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.63,
+        "vad": [
+          0.49,
+          0.47,
+          0.44
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "Your pilot idea still ignores the hard facts. A flat stipend cannot replace the precision of housing vouchers, Medicaid, or childcare subsidies that data consistently shows cut hardship more efficiently. It will only add a new layer of bureaucracy and an unjust tax burden that harms the very small businesses it claims to free. A single month in one borough cannot prove that a blanket payment improves outcomes; it will simply produce noisy data that can be cherry‑picked. Until there’s a proven, cost‑effective model that demonstrates net gains, I’ll remain firmly opposed to replacing the structured, accountable safety net with an untested, one‑size‑fits‑all cash stream.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.69,
+        "vad": [
+          -0.52,
+          0.45,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.85
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "I hear you—those numbers feel like a tightrope we all walk on. But imagine a sudden burst of sunshine on a rainy day: that UBI could be that instant warmth, letting people pick their own fixes—new mattress, a doctor’s visit, a side hustle—while we keep the proven tools on hand. I’m still on the fence, but the idea of giving folks a simple, steady cash flow feels like a spark that could ignite real change. Let’s keep testing, keep listening, and maybe the data will show us how to blend the best of both worlds. What do you think the first test should look like?",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.69,
+        "vad": [
+          -0.3,
+          0.52,
+          -0.1
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "That spark feels electrifying—let’s light it up with a micro‑pilot in a vibrant, mixed‑income neighborhood. Picture a month‑long UBI rollout delivered via a simple app, paired with existing vouchers and a real‑time dashboard. We’d track rent stability, health visits, gig‑start‑ups, and even creative projects. On the first day, we launch a “UBI pop‑up” street‑team to explain the concept, grab instant sign‑ups, and gather qualitative stories. The data will tell us if that burst of cash truly fuels choice and lifts lives, or if we need to layer on more targeted support. Ready to paint the first stroke?",
+      "values": {
+        "opinion": 0,
+        "belief": 0.1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.35,
+        "vad": [
+          0.27,
+          0.26,
+          0.24
+        ],
+        "appraisal": {
+          "congruence": 0.4,
+          "targetedness": 0.2,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "That micro‑pilot is the perfect test‑drive! Imagine handing out cash on a debit‑card with zero forms, and watching people start side hustles, pay rent on time, and book doctor visits—all in real time. The street‑team pop‑ups give us the stories we need, while the dashboard shows instant wins or gaps. If the numbers climb, we double‑down; if not, we tweak the mix. This isn’t theory—it’s a full‑speed sprint to proof that a simple cash stream can replace bureaucracy and ignite real change. Let’s roll it out, collect the data, and let the results drive the next wave. Ready to hit the road?",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.62,
+        "vad": [
+          0.48,
+          0.46,
+          0.43
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Jackson Moore": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.6
+      },
+      {
+        "x": 6,
+        "y": 0
+      }
+    ],
+    "Chloe Rivera": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.3
+      },
+      {
+        "x": 6,
+        "y": 0.3
+      }
+    ],
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Jackson Moore": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": 0.2
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 0.3
+      },
+      {
+        "x": 5,
+        "y": 0.2
+      },
+      {
+        "x": 6,
+        "y": 0.1
+      }
+    ],
+    "Chloe Rivera": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 0.2
+      },
+      {
+        "x": 4,
+        "y": 0.3
+      },
+      {
+        "x": 5,
+        "y": 0.3
+      },
+      {
+        "x": 6,
+        "y": 0
+      }
+    ],
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "pe-on-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 1,
+    "group": [
+      "ESTP",
+      "ENFP",
+      "ESFP",
+      "ISTJ"
+    ],
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": false,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 474,
+    "created": "2026-11-13T07:57:56.351Z"
+  }
+}

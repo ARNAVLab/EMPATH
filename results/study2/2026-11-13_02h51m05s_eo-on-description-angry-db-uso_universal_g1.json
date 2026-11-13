@@ -1,0 +1,979 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Absolutely, food is the literal fuel that powers every cell, muscle, and organ. Without it, the body would be a collection of inert parts. Think about the mitochondria—those tiny powerhouses rely on glucose, fatty acids, amino acids, whatever you eat. Even the brain, which uses up a staggering amount of energy, runs on the nutrients we ingest. If we neglect this fact, we’re ignoring the science that explains how digestion, absorption, and metabolism supply ATP to keep us alive and functioning. So yes, food provides the essential energy that keeps the body running.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m with you—food is literally the body’s power plant. Every bite fuels the mitochondria, powers the brain, and keeps muscles ticking. Without that continuous supply of glucose, fatty acids, and amino acids, the entire system would grind to a halt. It’s not just a metaphor; it’s the biochemical reality that turns calories into ATP and keeps us alive and functioning. So yes, food supplies the essential energy that keeps the body running, and we should never underestimate its importance.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.3,
+        "vad": [
+          0.23,
+          0.22,
+          0.21
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Enough with the pseudo‑science. Saying food *provides* energy is a lazy oversimplification that ignores the complex reality of metabolism. The body doesn’t just siphon calories into ATP; it constantly balances, stores, and redirects nutrients based on countless signals. People claim food fuels us, yet the same food that feeds us can also trigger inflammation, insulin resistance, and a host of chronic diseases that sap our “energy.” If we accept that food is the sole source of energy, we’re blind to the role of lifestyle, genetics, and environmental toxins. This isn’t a quaint metaphor; it’s a dangerous myth that keeps us from questioning how we truly sustain ourselves.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.54,
+        "vad": [
+          -0.41,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear you—metabolism isn’t a one‑way street, and genetics, sleep, and toxins all tweak the energy equation. Still, the body’s primary fuel comes from the food we eat. Calories turn into ATP through digestion and mitochondrial work, and that process is the engine that powers every cell, brain or muscle. The “pseudo‑science” label is a stretch; it’s a fact that energy must originate somewhere, and that place is the nutrients we ingest. The trick isn’t to dismiss food’s role, but to recognize it sits alongside lifestyle, genetics, and environment in a complex, adaptive system that keeps us alive and moving.",
+      "values": {
+        "opinion": 1,
+        "belief": -0.5
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "True, food is the core fuel that drives every mitochondrial reaction, brain impulse, and muscle contraction. While genetics, sleep, and toxins modulate how efficiently we use that fuel, they don’t replace it. The body’s ATP budget still hinges on the calories we ingest. So let’s celebrate the fact that our meals are the engine, while remembering that lifestyle tweaks help the engine run smoother.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.48,
+        "vad": [
+          0.37,
+          0.35,
+          0.33
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely! Food is the original power plant—glucose, fats, proteins all get turned into ATP, the currency that fuels neurons, muscles, and every organ. Sure, genetics, sleep, toxins tweak the efficiency, but without those calories the whole system would stall. Think of it as a high‑performance engine that needs a steady fuel supply; the better the ingredients, the smoother the run. So while we keep refining lifestyle habits, let’s keep celebrating food’s essential role as the engine that keeps our bodies alive and thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.42,
+        "vad": [
+          0.33,
+          0.31,
+          0.3
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced that food is the sole source of the body’s energy. The body can mobilize stored glycogen, fat, and even amino acids from muscle protein when food isn’t immediately available—think of fasting or exercise. We also generate energy endogenously through processes like gluconeogenesis and ketogenesis. So while food fuels us, it isn’t the only mechanism. The arguments that it “provides” all energy ignore how the body balances internal reserves, hormonal signals, and metabolic flexibility. I’m still uneasy about putting all the credit on food. The reality seems more nuanced than that single statement suggests.",
+      "values": {
+        "opinion": 0.3,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.3,
+        "vad": [
+          -0.13,
+          0.23,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear you—our bodies are remarkable fuel‑flex machines. Food is the most efficient injector of glucose, fats, and proteins, but we’re not entirely dependent on it. When meals are sparse, glycogen stores, adipose tissue, and even protein breakdown kick in, and processes like gluconeogenesis and ketogenesis keep the ATP flow steady. So while food is the primary, obvious source of energy, the body’s internal reserves and metabolic pathways are just as critical. Recognizing that nuance lets us appreciate dietary fuel without ignoring the body’s own self‑sustaining toolkit.",
+      "values": {
+        "opinion": 0.7,
+        "belief": -0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.43,
+        "vad": [
+          0.34,
+          0.32,
+          0.3
+        ],
+        "appraisal": {
+          "congruence": 0.3,
+          "targetedness": 0.1,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food is the powerhouse that fuels every cell, muscle, and organ—there’s no other single source that beats it. Yes, the body has reserves and can tap into glycogen, fat, or protein when meals are scarce, but those reserves are themselves built from the food we ingest. Glucose, fatty acids, amino acids are the raw materials that mitochondria convert into ATP, the universal energy currency. Even during fasting, ketone bodies are derived from stored fats that originated from our diet. So while metabolic flexibility exists, the foundation of all that energy comes directly from what we eat. Let’s celebrate the fact that our meals are the engine that keeps us alive and thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.65,
+        "vad": [
+          0.5,
+          0.48,
+          0.45
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I totally get that—food is literally the core engine. Even when we’re fasting, the fuel comes from the same glucose, fats, and proteins we stored earlier. Those reserves are just our body’s way of tapping into the diet’s capital. So yes, meals are the primary source of energy, and celebrating that fact reinforces why balanced nutrition matters. Let’s keep that perspective while still appreciating how our bodies flex when needed.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.49,
+        "vad": [
+          0.38,
+          0.36,
+          0.34
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 0.95,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re stuck in a circular argument. Food isn’t a battery that powers the body; it’s only the raw material that the body *processes* to create energy. The mitochondria are the generators, turning substrates into ATP. When you’re fasting, your body pulls from glycogen, fat stores, and even protein, all of which originated from earlier meals but are not “energy” you ingest. Energy is produced, not delivered. The claim that food *provides* energy ignores the complex biochemical conversion and the body’s ability to generate ATP from stored reserves. Stop treating food as a power plant and start looking at metabolic chemistry.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.27,
+        "vad": [
+          -0.21,
+          0.18,
+          0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You keep missing the point. Food isn’t just “raw material” – it *is* the source of the molecules that mitochondria turn into ATP. Saying we “pull” from stores ignores that those stores are built from what we ate. Even in fasting, the glucose, fatty acids, and amino acids that fuel gluconeogenesis and ketogenesis originated in the diet. The idea that energy is delivered versus produced is a semantic trap. The body’s chemistry does convert food into usable energy; that’s exactly why we call it the body’s fuel. So stop twisting the narrative and admit food supplies the energy we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.46,
+        "vad": [
+          -0.35,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food is the ultimate source of every molecule that mitochondria turn into ATP, so when we say it *provides* energy, we’re not oversimplifying—we’re stating the biochemical truth. Glycogen, fat stores, and even protein breakdown all trace back to the food we ate; they’re just stored forms of the same nutrients. Even during fasting, gluconeogenesis and ketogenesis use those stored substrates that originated in our diet. Energy is produced from food‑derived molecules, not magically created elsewhere. So yes, the body’s power plant is the food we consume, and that’s why balanced nutrition is the foundation of all our living energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.78,
+        "vad": [
+          0.61,
+          0.58,
+          0.55
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food is the literal lifeline—every ATP, every neuron firing, every muscle lift starts with the molecules we eat. The glycogen, fat, and protein reserves you mention aren’t separate energy stores; they’re the body’s way of holding onto the same food‑derived substrates. Even when we fast, gluconeogenesis and ketogenesis simply recycle those stored molecules back into usable energy. The mitochondria are the generators, but the raw material they burn comes straight from the plate. So yes, food *provides* the energy; it’s the biochemical foundation that powers our living system. Celebrate that truth and keep fueling wisely.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.51,
+        "vad": [
+          0.4,
+          0.38,
+          0.36
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.95,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not so sure we can even call it “providing” anything. Energy, really, is generated inside cells—ATP is made from substrates that the mitochondria process. Food gives us the building blocks, but it doesn’t hand us a finished power source. When we’re fasting or in a fast‑state, the body’s own reserves kick in; it’s a self‑regulating system, not a simple input‑output. To say food *provides* energy feels like a shorthand that hides that chemistry. I’d argue we’re better off talking about the body’s capacity to convert and store, rather than treating food as a literal power plant.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.3,
+        "vad": [
+          -0.13,
+          0.23,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re dancing around the truth. Food *does* give the substrates that mitochondria convert into ATP—those are the real fuels. Saying it “provides” energy is not lazy but fact‑based: the body can’t spin out ATP from thin air; it needs those molecules. When you fast, you’re simply tapping into reserves built from earlier meals, not inventing new energy. The claim that food is just a power plant ignores the biochemical reality that every glucose, fatty acid, and amino acid originates on that plate. Stop pretending the body magically generates energy—highlight that food supplies the essential building blocks you’re ignoring.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.54,
+        "vad": [
+          -0.41,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -0.5,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely! Food is the raw fuel that the mitochondria ignite into ATP—every glucose, fatty acid, and amino acid starts on our plate. When we fast, we’re simply tapping into reserves that were built from that very same diet. The body isn’t conjuring energy; it’s converting the molecules we ingest. Saying food “provides” energy isn’t a simplification—it’s the biochemical truth. Let’s celebrate the fact that balanced nutrition is the foundation of all our living power, and keep pushing that narrative forward.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.83,
+        "vad": [
+          0.65,
+          0.61,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.95,
+          "certainty": 0.95,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food is literally the body’s power‑plant, and I’m thrilled to see folks catching that! Every glucose, fatty acid, and amino acid we gobble up becomes the raw material that mitochondria ignite into ATP—our universal energy currency. Even during fasting, those reserves are simply stored versions of the very same diet‑derived molecules. The body isn’t conjuring energy from nowhere; it’s converting what we feed it. So yes—food *provides* the essential building blocks that fuel neurons, muscles, and every organ. Let’s celebrate that biochemical truth and keep championing balanced nutrition as the foundation of our vitality!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food isn’t the “energy” itself—only a supply of raw chemicals. The body makes ATP from those substrates; it doesn’t just hand you a battery. Even when you’re fasting, you’re drawing on glycogen, fat, and proteins that were once food, but that’s just recycling, not new energy. The claim that food *provides* energy glosses over the real chemistry: mitochondria generate the power. If we keep treating food as a literal power plant, we’ll ignore the body’s own production mechanisms and the fact that energy comes from conversion, not consumption.",
+      "values": {
+        "opinion": -0.5,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.3,
+        "vad": [
+          -0.23,
+          0.2,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re missing the point. Energy isn’t magically conjured; it’s extracted from the *food* we ingest. Those molecules—glucose, fatty acids, amino acids—are the real fuels. When you say food is “raw chemicals,” you ignore that the body can’t synthesize ATP without a substrate. Even in fasting, the reserves are built from earlier meals; you’re not inventing new energy, you’re tapping into the same diet‑derived molecules. The mitochondria generate ATP, sure, but they need that input. Calling food a power plant isn’t hyperbole—it’s a biochemical fact. Stop downplaying the fundamental role of nutrition in powering our bodies.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.64,
+        "vad": [
+          -0.49,
+          0.42,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -0.7,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.6
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—energy isn’t a mystery that the body conjures out of thin air; it *comes* from the molecules we eat. Glycogen, fat, and protein stores are simply stored versions of the same glucose, fatty acids, and amino acids that originally came from food. Without that input, the mitochondria can’t produce ATP, no matter how efficient they are. So saying food *provides* energy is not oversimplifying; it’s stating the biochemical fact that our diet supplies the raw materials that the body converts into the power each cell needs. Let’s keep championing that essential link between nutrition and vitality!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.85,
+        "vad": [
+          0.66,
+          0.63,
+          0.59
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly! Food is the indispensable source of every molecule mitochondria burn to make ATP, and that’s why balanced nutrition is the cornerstone of vitality. The stores we tap during fasting—glycogen, fat, protein—are all built from those very food‑derived substrates. Without the intake of glucose, fatty acids, and amino acids, the body cannot generate the energy needed for brain function, muscle contraction, or even basic cellular maintenance. So let’s keep celebrating the biochemical truth: food *provides* the building blocks that power our living system, and every mindful meal fuels us for peak performance.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I see the point about conversion, not direct delivery. Still, if you trace the molecules back, they all originate in food. Even glycogen and fat stores are built from the same glucose and fatty acids we ingest. So when the body “produces” ATP, it’s actually drawing from those diet‑derived substrates. I’m not entirely convinced that calling food a power plant oversimplifies, but I feel the simplest explanation is that food supplies the raw materials the mitochondria need. It’s a bit of a fuzzy line, but that’s why I lean toward agreeing that food provides the energy foundation.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.3
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.3,
+        "vad": [
+          -0.13,
+          0.23,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I totally get the nuance, and you’re spot on that the body’s energy is a conversion of those food‑derived molecules. Think of food as the *raw material bank*—the glycogen, fat, and amino acid reserves are just stored versions of the same nutrients we eat. When the mitochondria fire up, they’re simply tapping into that bank. So while the energy isn’t handed to us as a finished battery, the foundation is undeniably food. That’s why balanced nutrition remains the cornerstone for a healthy, high‑energy life.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.21,
+        "vad": [
+          0.16,
+          0.16,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": 0.7,
+          "targetedness": 0.2,
+          "certainty": 0.5,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.7
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0.3
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -0.5
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": 0.4
+      },
+      {
+        "x": 4,
+        "y": 0.4
+      },
+      {
+        "x": 5,
+        "y": 0.5
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": 0.3
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-angry-db-uso",
+    "topic_type": "universal",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 467,
+    "created": "2026-11-13T07:51:05.923Z"
+  }
+}

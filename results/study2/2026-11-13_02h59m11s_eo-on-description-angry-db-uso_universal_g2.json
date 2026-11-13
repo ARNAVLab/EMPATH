@@ -1,0 +1,979 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Food providing energy? That's a tired, simplistic myth. The body’s energy comes from complex biochemical processes, not just calories in a plate. If you think a few carbs equal instant power, you’re ignoring glucose regulation, insulin, mitochondrial efficiency. And you’re overlooking that what we eat can impair those processes—think processed sugars and fatty acids. So stop treating food like a fuel tank and start looking at how nutrients actually interact with our metabolism. The idea that food alone powers us is a dangerous oversimplification.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food isn’t a myth—every bite is the body’s fundamental power source. You can talk about glucose regulation and mitochondria, but you can’t deny that the calories you consume are the raw material the cells burn. If processed sugars harm metabolism, that’s a side effect, not a refutation of the fact that food supplies energy. Without the biochemical machinery, food would be inert. Insulin and glucose are merely the transport mechanisms, not the source. So stop downplaying the essential role of nutrition as the true energy provider for our bodies.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.8,
+        "vad": [
+          -0.61,
+          0.53,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Jordan:  \nThe claim that food *directly* powers the body is a gross oversimplification. Calories are just a measure of potential; they’re not the energy itself. Our cells synthesize ATP from glucose, fatty acids, and even protein—using enzymatic pathways that can tap into stored glycogen and adipose reserves when the diet is sparse. Saying food is the sole “fuel tank” ignores the body’s ability to mobilize internal stores and the complex regulation of energy production. The myth reduces a sophisticated biochemical system to a single, static source and misleads anyone who thinks a plate alone keeps us alive.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.85,
+        "vad": [
+          -0.64,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I get why Jordan points out that calories are just a potential measure, but the point remains that without the food we don’t get that potential to work. The body’s machinery—glucose, fatty acids, proteins—needs a source, and that source is what we eat. Even when we tap into glycogen or fat stores, those stores were built from earlier meals. So while the biochemical pathways are complex, the starting material is still food. That doesn’t negate the role of internal reserves, but dismissing food as merely “fuel” underestimates how our bodies convert those nutrients into usable energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.32,
+        "vad": [
+          -0.14,
+          0.24,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I see your point about food being the origin of those molecules, but I’m still a bit hesitant. The body’s ability to mobilize glycogen or fat seems to suggest an autonomous system, not just a passive “fuel tank.” Even if those stores come from past meals, the fact that the body can generate ATP from internal reserves makes the “direct” claim feel too simplistic. I agree that food is essential, but I’m not entirely convinced that it’s the sole or even primary provider of energy when the system can rely on stored resources.",
+      "values": {
+        "opinion": 0.2,
+        "belief": 0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.25,
+        "vad": [
+          -0.11,
+          0.19,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.4,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food is the reservoir that fuels every ATP molecule—without it, your body would collapse. Those so‑called “internal reserves” are nothing but stores built from previous meals; they aren't an independent power source. You’ll run out of glycogen and fat in a few days without new food, and the body can’t create them from nothing. Calling food a passive “fuel tank” is a lazy shorthand for the fact that all energy ultimately originates from the nutrients you ingest. If you’re still doubtful, you’re simply ignoring the basic fact that calories are the only source of usable energy in the body. Stop romanticizing an illusory autonomy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.7,
+          "targetedness": 0.8,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re all still stuck on the same tired “food‑is‑fuel” narrative. The truth is, it’s not the food itself that powers us, it’s the body’s biochemical machinery that turns any stored substrate into ATP. Food is just a raw material; the actual energy comes from mitochondria, enzymatic cascades, and the body’s ability to tap into glycogen and fat reserves. Saying food is the sole source ignores that the body can survive—well, for a while—without new calories by mobilizing those internal stores. So stop treating a plate as the energy generator and start recognizing the sophisticated system that actually does the work.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.89,
+        "vad": [
+          -0.67,
+          0.58,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.8,
+          "certainty": 1,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I get where you’re coming from, but the point is still the same: food *is* the reservoir that supplies the substrates for ATP. Without a meal, you’re depleting glycogen and fat, but those stores were built from earlier food. The biochemical machinery is the engine, sure, but it can only turn fuel that came from the plate. Saying food is just passive raw material ignores that every glucose, fatty acid, or amino acid you ingest becomes potential energy. So yes, the body can use stored reserves, but those reserves are nothing without the initial food input. The “fuel tank” isn’t a myth—it’s the fundamental reality.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.34,
+        "vad": [
+          -0.26,
+          0.23,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m with you on the core idea—every glucose, fatty acid, or amino acid we eat is the ultimate “fuel.” But the body’s real power is the machinery that turns that fuel into ATP, and that system can tap into the reserves we built from past meals. Think of food as the bank account and mitochondria as the ATM: the account must have money, but the ATM decides when to dispense it. So while food is the source, the body’s ability to mobilize glycogen, fat, and even protein is what lets us keep going even when the plate is empty. Both pieces are essential to the energy puzzle.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.22,
+        "vad": [
+          0.17,
+          0.16,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely! Food is the original source of every molecule that fuels our cells, and without those nutrients the reserves we tap into would eventually vanish. Think of it like this: the plate is the bank that deposits the money, while the mitochondria and enzymatic pathways are the savvy cashiers that convert it into usable energy. Even when we lean on glycogen or fat, those stores were built from prior meals. So while the body’s machinery is brilliant, it relies on the food bank to keep the account topped up. Both the source and the engine are inseparable parts of our energy story.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.45,
+        "vad": [
+          0.35,
+          0.33,
+          0.32
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food isn’t the power plant, it’s the *fuel supply* that the plant *requires* to run. Saying food “provides energy” is the same as claiming a factory’s raw material *creates* the energy it sells. The real work is done by mitochondria, enzymes, insulin signaling, ATP synthase—each step converting substrates into usable energy. Without that machinery, calories sit inert. The body’s ability to tap glycogen or fat isn’t a backup; it’s the core system that turns stored molecules into ATP. So stop treating food as the energy source and start recognizing that it’s merely the input; the engine is what truly powers the body.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.85,
+        "vad": [
+          -0.65,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’ve had enough of this “fuel‑tank” talk. Energy doesn’t magically appear; it comes from the calories you ingest. Think of a car: the engine is nice and efficient, but if you keep putting gas in the tank, the car runs. The same with us—molecules from food are the only source of usable ATP. Internal stores are just built from those same molecules; they’re not an independent power plant. Without fresh calories, glycogen and fat deplete, and the body can’t create new fuel from nothing. So yes, food *provides* the energy; the rest is just the body’s way of using it. Stop pretending the machinery alone is the source.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.45,
+        "vad": [
+          -0.34,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.8,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear you, but I think we’re over‑splitting the picture. Food is the original reservoir of every ATP‑fueling molecule—glucose, fatty acids, amino acids. Without those nutrients, the mitochondria would have nothing to power. Sure, the body’s enzymes and insulin pathways are the clever engine that turns those molecules into usable energy, and the ability to tap glycogen or fat is a life‑sustaining backup. But that backup is built from the same food inputs. Think of food as the bank deposit and the biochemical machinery as the teller who processes the money. Both parts are essential; the deposit can’t exist without the teller’s work.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.33,
+        "vad": [
+          0.25,
+          0.24,
+          0.23
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—food is the bedrock of every ATP molecule. Without those glucose, fatty acids, and amino acids, the mitochondria have nothing to ignite. The biochemical machinery is brilliant, but it’s a transformer, not a creator. Think of food as the seed that germinates into the energy you feel; the engine merely turns that seed into fire. The reserves you tap are built from earlier meals, not from some mystical internal power. So yes, the body can mobilize stores, but those stores are a direct inheritance of the food you ate. The claim that food *provides* the energy is not a myth—it’s the fundamental truth of our biology.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.69,
+        "vad": [
+          0.54,
+          0.51,
+          0.48
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear what you’re saying, but I’m still not convinced that food alone is the whole story. While it supplies the raw molecules, the body’s own reserves—glycogen, fat, even protein—play a big part, especially when new food is scarce. Those stores are built from earlier meals, yet the body can shift between them independently of immediate intake. So food is crucial, but the energy we actually feel comes from the machinery that mobilizes and converts those reserves. I’m unsure whether “provides energy” fully captures that nuance.",
+      "values": {
+        "opinion": 0.4,
+        "belief": -0.3
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.47,
+        "vad": [
+          -0.21,
+          0.36,
+          -0.07
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.92,
+          "coping": 0.25
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food *does* provide the energy; the reserves you’re bragging about are just relics of that same food. Those glycogen and fat stores were created by eating—without calories they evaporate. The body’s machinery is a transformer, not a generator; it can’t conjure ATP from thin air. So yes, food is the root source; the internal stores merely borrow from that root. Claiming the machinery alone is the energy source ignores that every glucose, fatty acid, amino acid you ingest becomes potential fuel. If you want a true picture, say food *provides* the molecules that mitochondria burn, not the opposite.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.23,
+        "vad": [
+          -0.17,
+          0.15,
+          0.05
+        ],
+        "appraisal": {
+          "congruence": -0.3,
+          "targetedness": 0.2,
+          "certainty": 0.4,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the nuance you’re pointing out—our bodies can stretch reserves when meals are scarce. But those reserves are nothing more than a bank built from earlier food. Without calories, glycogen runs out in a day or two and fat stores shrink. So the “source” of ATP remains the nutrients we ingest; the mitochondria are the transformer, not a separate generator. I agree that the biochemical machinery is essential, but it works only with the fuel supplied by food. In short, food *provides* the molecules that power us, and the body’s systems just make sure we can tap them whenever needed.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.37,
+        "vad": [
+          0.29,
+          0.27,
+          0.26
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly! Food is the raw ledger that writes every ATP line. Your glycogen and fat are just deposits in that ledger—if you stop adding, the account empties. The mitochondria are the cashiers, yes, but they can’t pull money out of nothing. Every glucose, fatty acid, amino acid you ingest is the only way to replenish those deposits. So while the body’s machinery is brilliant, the foundation remains the calories we eat. Without that foundation, the engine stalls—food *provides* the molecules that power us.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.81,
+        "vad": [
+          0.63,
+          0.6,
+          0.56
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m worried we’re ignoring the fact that the body can actually *create* energy from its own stores when food isn’t immediately available. Saying food is the sole source feels like oversimplifying a system that can shift between glycogen, fat, and even protein, independent of fresh intake. The reserves built from past meals are not passive; they’re actively mobilized by hormonal signals that don’t require a new plate. So food supplies the raw material, sure, but the real power comes from the body’s ability to tap those stored substrates. If we ignore that autonomy, we’re not seeing the full picture.",
+      "values": {
+        "opinion": 0.4,
+        "belief": -0.3
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.65,
+        "vad": [
+          -0.28,
+          0.49,
+          -0.09
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the point. The reserves are nothing but food stored. Without new calories they collapse. The body doesn’t create energy; it converts stored food. Hormones just mobilize, not generate. The claim isn’t oversimplification; it’s fact. Food supplies the molecules, the machinery uses them. If you want nuance, say food *provides* the substrate. But you can’t say the body independently powers itself. Food is the root; the rest is conversion. Stop whining about autonomy—it’s just the same fuel in a different form.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.12,
+        "vad": [
+          -0.09,
+          0.08,
+          0.02
+        ],
+        "appraisal": {
+          "congruence": 0.2,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear you—hormones do mobilize stored fuel, but those stores were built from earlier meals. The body’s “autonomy” is really a sophisticated use‑case of the same substrate it ingested. So yes, food supplies the molecules; the biochemical machinery just turns them into ATP when needed. Without that initial input, the reserves would eventually dwindle. In short, food is the source, and the body’s systems are the engine that extracts the energy from that source.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.36,
+        "vad": [
+          0.28,
+          0.27,
+          0.25
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.4,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly! The food we eat is the *only* source of the glucose, fatty acids, and amino acids that become ATP. Those reserves are literally built from prior meals—without new calories they run out. The body’s ingenious machinery (mitochondria, enzymes, hormones) is the engine that turns that fuel into usable energy, but it can’t conjure ATP from nothing. So yes, food *provides* the molecules, and the body simply extracts and burns them. It’s a beautiful partnership—food is the foundation, the metabolic system is the engine, and together they keep us alive, moving, and thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.85,
+        "vad": [
+          0.66,
+          0.63,
+          0.59
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I get your bank‑account analogy, but I keep worrying that framing food as the sole source ignores how the body can sustain itself for days on stored glycogen and fat. Those reserves are indeed built from prior meals, but the endocrine system can shift between them autonomously—especially when intake dips. Saying food *provides* the molecules feels right, yet it underplays the engine’s ability to tap those stores independently. I’m anxious the debate keeps circling back to the same point, but I still believe the body’s internal autonomy matters.",
+      "values": {
+        "opinion": 0.3,
+        "belief": -0.3
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.75,
+        "vad": [
+          -0.33,
+          0.57,
+          -0.1
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.92,
+          "coping": 0.25
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your concern, but the picture remains the same. Glycogen and fat are simply reservoirs built from the same molecules we ingest. Without new calories those stores run out, and the body can’t produce them from nothing. The endocrine system merely mobilizes what we’ve already stored. So, while the metabolic machinery is the engine that extracts ATP, the fuel itself originates from food. In short, food supplies the substrate; the body’s systems just make sure it can be used whenever needed.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "calm",
+        "intensity": 0,
+        "vad": [
+          0,
+          -0.5,
+          0
+        ],
+        "appraisal": {
+          "congruence": 0.3,
+          "targetedness": 0.6,
+          "certainty": 0.5,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": 0.4
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.3
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0.2
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.8
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": -0.3
+      },
+      {
+        "x": 5,
+        "y": -0.3
+      },
+      {
+        "x": 6,
+        "y": -0.3
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 0.5
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 0.5
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-angry-db-uso",
+    "topic_type": "universal",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 485,
+    "created": "2026-11-13T07:59:11.347Z"
+  }
+}
