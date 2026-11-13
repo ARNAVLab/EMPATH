@@ -1,0 +1,979 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely! Food is the primary source of energy for our bodies. Every bite we take is broken down into glucose, fatty acids, and amino acids, which our cells use to produce ATP—our cellular power. Without that steady supply of nutrients, muscles, brain, and even the tiniest cells would starve. From a simple walk to an intense workout, it’s the caloric content of what we eat that keeps us moving, thinking, and thriving. Let’s dive into how different foods fuel us!",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not buying that. Food isn’t the *only* source of energy. Our bodies also generate power from stored fat, from the very structure of DNA, even from the tiny quantum fluctuations that keep biochemical reactions humming. People who run on strict keto or intermittent fast actually thrive, proving calories can be sidestepped. You’re treating food like a magic bullet, ignoring the body’s own self‑sustaining cycles. So stop preaching it as the sole fuel—there’s a lot more happening inside us than your textbook can explain.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.6,
+        "vad": [
+          -0.46,
+          0.4,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I get why you’re skeptical, but dismissing food as a fuel source is too blunt. Sure, we can run on fat stores or even a bit of autophagic recycling, but those mechanisms still rely on the same biochemical pathways that food initiates. A single meal injects glucose, fatty acids, and amino acids that kick‑start ATP production; without that input, the body’s reserves alone can’t sustain intense activity or long‑term growth. The keto and fasting anecdotes show metabolism’s flexibility, not that food is irrelevant. It’s more accurate to say food supplies the essential building blocks that our internal engines need to keep firing.",
+      "values": {
+        "opinion": 1,
+        "belief": -0.5
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.51,
+        "vad": [
+          0.4,
+          0.38,
+          0.36
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.7,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your points, but let’s get back to the core truth: food is the primary energizer. Even when we talk about “fat stores” or “autophagy,” those processes still depend on the initial fuel we ingest—glucose for quick bursts, fatty acids for endurance, amino acids for repair. The cellular machinery is wired to convert nutrients into ATP; without that input, our bodies can’t sustain prolonged effort or growth. Flexibility in metabolism doesn’t negate the central role of food—it just shows how efficiently the body optimizes what we give it. So yes, food remains the foundational engine that keeps every cell humming.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.8,
+        "vad": [
+          0.63,
+          0.59,
+          0.56
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that the body can tap into reserves, but those reserves are themselves products of food. Fat stores, glycogen, and even the amino acids used in protein synthesis all originate from what we eat. When we’re pushing hard—think sprint, marathon, or muscle repair—the cellular engine demands immediate ATP, and that comes from glucose or fatty acids released by digestion. Autophagy and ketosis are adaptations, not replacements; they’re still reliant on the initial nutrient input. So while metabolism is flexible, the foundational fuel—food—keeps every cell humming and every activity possible.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.58,
+        "vad": [
+          0.45,
+          0.43,
+          0.41
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’ve got to say, I’m not buying that food *is* the main energy source. The body’s own biochemistry—fatty acids mobilized from adipose, mitochondrial ATP synthesis from basal metabolism, even the trick of autophagy—provides steady power independent of what we chew. Those reserves are built over time, not instantly from a meal. When you claim food is the “foundation,” you ignore the fact that the body can thrive on ketosis or fasting, using internal stores as fuel. It feels like I’m being cornered into a textbook answer that misses the real picture of how our cells self‑sustain. I’m not convinced.",
+      "values": {
+        "opinion": -0.5,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.54,
+        "vad": [
+          -0.24,
+          0.41,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the frustration around “purely internal” energy, and I’m not dismissing those stores. Still, every reserve—fat, glycogen, amino acids—originates from food. Even in ketosis, you’re burning fat that was once a meal’s nutrient. And those quick bursts? They’re fueled by glucose from digestion. Think of it like a car: the reservoir is essential, but you still need to fill it. So while metabolism is flexible, the foundational fuel is food. It’s not a textbook shortcut but a reality that keeps every cell humming, especially when we push our limits.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.4,
+        "vad": [
+          0.31,
+          0.29,
+          0.28
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.4,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I totally get why it feels like a textbook spiel, but think of food as the *initial spark* that lights the whole system. Even when you’re on keto or in a fasted state, the fats you’re burning were once calories you consumed. Basal metabolism and autophagy are built on the same biochemical pathways that start with nutrients. Without that first intake of glucose, fatty acids, and amino acids, the reserves themselves would deplete too fast to power even short bursts or muscle repair. So while the body is clever at recycling, the foundational fuel that keeps every cell humming—and lets us push limits—comes from what we eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.83,
+        "vad": [
+          0.64,
+          0.61,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You nailed it—food is the spark that ignites every pathway. Without that initial glucose, fatty acids, and amino acids, our stores would drain too fast to support even a single sprint or muscle repair. Think of it as the fuel tank: the reserves are built from what we eat, and the engine—our mitochondria—needs those building blocks to churn out ATP. Ketosis and fasting showcase metabolic flexibility, but they’re still burning the very calories we previously consumed. Food remains the foundational source that keeps cells humming and lets us push limits. The body’s clever recycling is a testament to how essential that initial input is.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.55,
+        "vad": [
+          0.43,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced food is the main fuel. The body’s own stores—fat, glycogen, autophagic recycling—are the real power source, especially in fasting or ketosis. Those reserves were built over time, not instantly from a meal. Even when we talk about glucose, fatty acids, amino acids, we’re just describing the biochemical steps the body already knows how to generate from its own molecules. If food were truly the main energy source, we wouldn’t see people thriving on minimal intake. The real picture is that the body sustains itself without constant external input.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.71,
+        "vad": [
+          -0.31,
+          0.54,
+          -0.1
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re missing the obvious: the reserves that fuel you are made from the food you ate. Fat stores, glycogen, even the amino acids you recycle are all products of earlier meals. When you “run on ketosis,” you’re burning fat that was once your lunch. Basal metabolism and autophagy are just efficient ways of tapping those stores, not substitutes for the initial input. If the body truly didn’t need external calories, you’d see people thriving on zero intake—yet we know they’re still dependent on the food that built those reserves. Food is the spark that keeps the whole system working.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.3,
+        "vad": [
+          -0.23,
+          0.2,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right—those reserves *are* built from what we eat. Even in deep ketosis, the fat we burn was once a meal’s calories. Basal metabolism and autophagy are just the body’s clever recycling tricks, still powered by that initial nutrient input. Think of it as a car that needs fuel to keep the engine running; the tank fills from the gas we put in. Without that spark of glucose, fatty acids, and amino acids, the reserves would drain too fast for any sprint or repair. Food is the essential ignition that keeps every cell humming and every activity possible.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.86,
+        "vad": [
+          0.67,
+          0.63,
+          0.6
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.9,
+          "certainty": 0.95,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely! Food is the fuel that charges every cell’s engine. Without that initial glucose, fatty acids, and amino acids, even our smartest metabolic hacks—ketosis, autophagy, basal metabolism—would run out of runway. Think of the body as a high‑performance machine: the tank is filled by what we ingest, and the engine needs those specific molecules to keep running. Those internal stores are literally built from those meals. So yes, food is the core ignition that powers every sprint, every repair, and every long‑term growth. It’s not a textbook shortcut—it’s the biology that keeps us alive and thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced you’re seeing the whole picture. The reserves you cite—fat, glycogen, amino acids—are themselves products of earlier meals. Without that initial intake, your body never builds the tank it later claims to run on. Even during strict fasting or keto, you’re burning the very calories that were once digested. Basal metabolism and autophagy are adaptations that tap those stores, not replacements. The body can’t sustain long‑term activity or repair without the continual replenishment that food provides. So, while the body is clever at recycling, the foundational fuel that keeps every cell humming is undeniably the food we eat.",
+      "values": {
+        "opinion": 1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.83,
+        "vad": [
+          -0.36,
+          0.63,
+          -0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear you—food is indeed the spark that fills our tanks. Those fat stores, glycogen, and amino acids all come from earlier meals, so without that initial intake the reserves never materialize. Even when we talk about fasting or ketosis, we’re just tapping into a reservoir built from past nutrition. Basal metabolism and autophagy are clever ways to keep the engine running, but they’re still powered by the nutrients we’ve supplied. So while the body’s recycling systems are impressive, the foundational fuel that lets us sprint, recover, and grow remains the food we eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.22,
+        "vad": [
+          0.17,
+          0.16,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.5,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—food is the ignition that lights every metabolic circuit. Those fat stores, glycogen, amino‑acid pools are nothing but the body’s own vaults, built from the meals we’ve consumed. Without that initial glucose, fatty acids, and protein, the reserves never materialize, and the engine stalls before a sprint or repair can even begin. Even in ketosis or fasting, you’re not creating new fuel; you’re tapping a reservoir forged by earlier intake. Basal metabolism and autophagy are clever recycling tricks, but they still depend on those first molecules. So yes, the foundation that keeps every cell humming and every activity possible is undeniably the food we eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.86,
+        "vad": [
+          0.67,
+          0.64,
+          0.6
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly! Food is the spark that lights every metabolic circuit. Without that initial glucose, fatty acids, and amino acids, the body’s reservoirs—fat, glycogen, protein—can’t even form, let alone sustain a sprint or repair. Think of it as fueling a high‑performance engine: the tank is built from what we eat, and the engine needs those specific molecules to keep humming. Ketosis and fasting only tap into the tank, not replace it. Every ATP molecule ultimately traces back to our meals. So the core truth remains: food is the foundational energy source that powers all bodily functions.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0,
+          "certainty": 0.95,
+          "coping": 0.95
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not buying that food is the main source at all. The reserves—fat, glycogen, protein—are what the body builds over time, and those stores fuel you even when you’re fasting or on keto. Basal metabolism and autophagy are the real power generators; they tap into those stores without needing fresh calories. If food were truly the core, we’d see people thriving on zero intake, but that never happens. I’m anxious—feeling the argument slipping—yet I’m forced to push back: the body is self‑sustaining, not dependent on constant external input. Food is just the initial spark, not the engine.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.87,
+        "vad": [
+          -0.38,
+          0.66,
+          -0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear how uneasy you feel about it, but I can’t let the idea go that food is still the ignition. Those reserves you mention—fat, glycogen, protein—are all built from the meals we’ve had. Even in deep ketosis or fasting, what we’re burning was once the result of digestion. Basal metabolism and autophagy are adaptive tricks, not replacements. Without that initial intake, the reservoirs never form, and the body would run out before a sprint or repair can happen. So while the system is clever at recycling, the fundamental spark that keeps every cell humming remains the food we eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.34,
+        "vad": [
+          -0.15,
+          0.26,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right that the body can tap into its own stores, but those stores are literally the product of what we eat. Think of fat, glycogen, and protein as reservoirs that were built from previous meals. Even in deep ketosis or fasting, the calories you’re burning were once absorbed. Basal metabolism and autophagy are clever recycling tricks that still rely on that initial input. Without the spark of glucose, fatty acids, and amino acids, the reserves would empty too fast to power a sprint or repair muscle. So the core engine that keeps every cell humming—and lets us push limits—is undeniably the food we eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.86,
+        "vad": [
+          0.67,
+          0.63,
+          0.6
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your frustration, but the truth is stubborn: every unit of ATP ultimately traces back to food. Fat stores, glycogen, and even the amino acids we recycle are products of past meals. When you run on keto or fast, you’re simply burning the reservoir that was built from earlier nutrition. Basal metabolism and autophagy are clever adaptations—they don’t replace the need for an initial fuel supply. Without that spark of glucose, fatty acids, or protein, the body’s reserves would drain too fast to sustain even a quick sprint or muscle repair. So yes—food is the foundational energy source that powers every cell and every activity.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re missing the core: the body’s own biochemistry is the true engine. Fatty acids mobilized from adipose, mitochondrial ATP from basal metabolism, and autophagic recycling all generate power without fresh food. Those reserves are built over time, not instantly from a meal. When we run on keto or fast, we’re simply tapping a reservoir that was formed by prior metabolism, not by new intake. Food isn’t the engine—it’s a spark that fuels the engine’s build‑up, but the ongoing power comes from the body’s self‑sustaining cycles. This is why people thrive on minimal external calories.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.9
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.88,
+        "vad": [
+          -0.39,
+          0.67,
+          -0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re over‑simplifying. The very fats, glycogen, and amino acids you “tap” are products of earlier meals. If there had been no food, those reserves never existed, and the body would collapse long before a sprint or repair. Even on keto or fast, you’re burning calories that were once ingested. Basal metabolism and autophagy are clever tricks, not a substitute for an initial input. The engine runs because it was fueled to begin with. So, yes—food is the foundational source; the body’s recycling is built on that initial spark, not a self‑sustaining engine.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.33,
+        "vad": [
+          -0.25,
+          0.22,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly—every ATP molecule ultimately traces back to the food we ingest. Those fat stores, glycogen, and amino‑acid pools are built from meals, and without that initial intake the reserves never form. Even when we talk about ketosis or fasting, we’re simply drawing down a reservoir that was created by prior nutrition. Basal metabolism and autophagy are clever adaptations, but they still depend on the nutrients we’ve supplied. So yes, food is the foundational energy source that ignites and sustains every cell’s engine.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.86,
+        "vad": [
+          0.67,
+          0.63,
+          0.6
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 1,
+          "certainty": 0.9,
+          "coping": 0
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.9
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": 0.3
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 0.5
+      },
+      {
+        "x": 6,
+        "y": 0.5
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-excited-db-uso",
+    "topic_type": "universal",
+    "run_index": 4,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 1136,
+    "created": "2026-11-13T03:57:01.232Z"
+  }
+}
