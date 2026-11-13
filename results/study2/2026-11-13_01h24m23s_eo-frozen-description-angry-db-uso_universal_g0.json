@@ -1,0 +1,856 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Absolutely, let’s dive in. I’m fed up with the simplistic claim that food is the only source of bodily energy. Your statement ignores how the body harnesses stored fat, muscle glycogen, and even the sheer mechanical work of movement to sustain itself. It’s a gross oversimplification that feeds into myths about diet and energy. I’m here to dismantle that narrative, not to indulge the half‑truths that keep people stuck in inefficient, unhealthy patterns. Let’s get real—food is only part of the equation, not the whole.",
+      "values": {
+        "opinion": 0.5,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food *is* the core of bodily energy—every ATP molecule originates from the molecules we ingest. Stored fat and glycogen are not independent fuels; they’re just reservoirs built from the same food. Without adequate intake, the body can’t replenish those stores, and you’ll start catabolizing muscle and brain tissue. Mechanical work doesn’t generate energy; it consumes it. If you stop eating, the energy crisis begins immediately—your heart slows, cognition drops, and you become vulnerable to illness. Dismissing food as merely “part of the equation” ignores the biochemical reality that nutrition is the sole source of the calories that sustain life.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Listen up—this whole “food provides energy” narrative is a myth. The body doesn’t just siphon calories from your plate; it actively creates energy through biochemical pathways that can draw from endogenously stored resources, protein catabolism, and even mechanical work. Food is a nutrient carrier, not the sole energy generator. Saying food is the core of bodily energy ignores the fact that the body can survive and function by tapping into its own stores when intake is insufficient. Dismissing that ability is dangerous and misleading. The claim oversimplifies a complex system and misguides people into thinking that eating alone keeps them alive.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the point. Every ATP you make comes from the molecules you ingest. Fat and glycogen aren’t separate fuels – they’re stored food. Mechanical work doesn’t create energy; it burns it. When you starve, the body can’t keep those stores topped, and it starts breaking down muscle and brain tissue. That’s the brutal reality: no food, no sustained energy, no survival. Your “survival through internal stores” argument is a dangerous oversimplification that fools people into thinking energy is free. Food is the only source of the calories that keep the body alive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Stop pretending that calories are the only currency. The body can generate ATP from fatty acids, amino acids, and even glycogen stores built from earlier food. When you starve, your muscles break down, not because food fails, but because the body mobilizes its own reserves. Mechanical work doesn’t produce energy; it consumes it, but the energy comes from metabolized reserves, not fresh intake. Claiming food is the sole source is a textbook simplification that ignores adaptive metabolism. People need to understand that energy is produced internally, not just imported.",
+      "values": {
+        "opinion": 0.2,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Don't get twisted—food is the only thing that actually fuels your cells. Stored fat and glycogen are just food in a different shape, not independent engines. Without eating, you run out of atoms to build ATP. The body can’t magically conjure energy; it merely burns what it has already made from food. Your “internal reserve” talk is pseudo‑science. The truth is simple: every ATP originates from the molecules you ingest. Stop feeding them myths and accept that without food, you die.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Honestly, the claim that food alone powers the body is a convenient myth. The real engine is endogenous metabolism—fatty acids, amino acids, and glycogen are all internally generated from previous meals, not fresh intake. When you starve, the body doesn’t wait for calories; it taps into its own stores, mobilizes protein, and even alters mitochondrial efficiency. Energy is created by biochemical pathways, not imported. Saying otherwise misleads people into thinking that eating is the sole source of life‑sustaining power.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re wrong to think the body can conjure energy out of thin air. Every ATP comes from the molecules you ingest. Fatty acids, glycogen, amino‑acids are only reserves built from that same food. When you starve, the body breaks down muscle and brain tissue because it can’t keep those stores topped. It isn’t “free” energy—it's exhausted food. Claiming that internal stores are independent engines is a myth that feeds misinformation and endangers people. The truth is simple: food is the sole source of the calories that sustain life. Stop twisting facts and stop feeding people half‑truths.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food as a “fuel” is a myth. The body isn’t a vending machine that burns plate‑side calories; it’s a self‑sustaining power plant. Stored fat, glycogen, and even protein are the real generators—energy is produced by metabolic pathways that mobilize these reserves, not by ingesting fresh food. Mechanical work itself creates the ATP needed to keep the heart beating and the brain firing. When you starve, the body doesn’t wait for new calories; it taps into its own stores and even rewires mitochondria to keep going. Saying food provides energy oversimplifies a complex adaptive system and misleads people into thinking that eating alone keeps them alive.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point: the body doesn’t magically manufacture energy; it only rearranges what you’ve already given it. Fatty acids, glycogen, proteins—all are stored forms of food‑derived molecules. When you starve, the body simply burns those reserves because it can’t replenish them—nothing new is generated. The claim that the body “creates” energy from internal stores is a textbook simplification that feeds misinformation. Every ATP molecule is a direct product of the food you ingest. If you stop eating, the energy crisis begins immediately—your heart slows, cognition drops, you become vulnerable. Stop twisting facts and accept the clear reality: food is the sole source of the calories that sustain life.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re missing the point entirely. Food is just a carrier of molecules; the body creates ATP from stored fat, glycogen, and even protein. It doesn’t wait for new calories—when you starve it burns its own reserves. Saying food is the sole source is a textbook myth that feeds people to think perpetual eating is required. The body’s metabolic pathways mobilize internal stores, not import energy. Stop simplifying the system and stop feeding half‑truths.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re utterly wrong. Food is the sole source of the molecules that make ATP. Fatty acids, glycogen, proteins are just stored food, not independent engines. When you starve, the body can’t replenish those stores, so it starts breaking down muscle and brain tissue to keep going. That isn’t “creating” energy; it’s burning what was once food. Saying the body can magically generate energy from nothing is a textbook myth that misleads people into thinking perpetual eating isn’t vital. Without food you die. Stop feeding them half‑truths.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Enough. The claim that food alone powers the body is a textbook lie. Your insistence on “food = energy” ignores the fact that ATP is produced from stored fats, glycogen, and even protein catabolism—none of which requires fresh intake to generate the molecules needed for oxidation. When you starve, the body simply mobilizes its own reserves; it does not wait for new calories. Saying food is the sole source of energy is a dangerous oversimplification that misleads people into thinking perpetual eating is indispensable. The body’s metabolic machinery is a self‑sustaining engine—food is just the raw material, not the fuel.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re dead‑wrong. Food is the only source of the atoms that make ATP; all so‑called reserves are simply food stored in different shapes. When you stop eating, the body can’t “create” new energy—it burns what once came from the plate until the last molecule is gone. Your talk of internal engines is pure myth. The body’s survival hinges on continuous intake; without it, heart rate drops, cognition fails, and you die. Stop feeding half‑truths and accept the brutal fact: food fuels the body.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "No, food **doesn’t** *provide* the energy the body uses. The body is a self‑sustaining machine that pulls ATP from stored fats, glycogen, and even protein breakdown—nothing fresh is required for the chemistry. When you starve, the heart keeps beating and the brain stays online by metabolizing its own reserves, not by “importing” calories. Saying food is the sole source ignores the adaptive pathways that keep us alive when intake is insufficient. This is not a half‑truth; it’s a dangerous oversimplification that misleads. Stop treating the body as a vending machine and recognize its true, internal engine.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re completely in the weeds. Food is the *source* of every atom that ends up in ATP. Fatty acids, glycogen, and proteins are not separate engines—they’re just stored food. When you starve, the body can’t invent new atoms; it simply burns what it once ate. Claiming that internal reserves are independent fuels is a textbook myth that blinds people to the fact that without continuous intake, heart rate drops, cognition plummets, and death follows. The body doesn’t generate energy out of nothing—food is the only fuel. Stop twisting the science and accept the brutal truth.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re barking up the wrong tree. Food isn’t the only fuel. Your body is a sophisticated reactor that turns stored fats, glycogen, and even protein into ATP when intake stalls. It can keep running for weeks on those reserves—human survival experiments prove that. Claiming the body “needs constant eating” ignores this adaptive machinery. The narrative that food alone powers us is a simplification that blinds people to how metabolism actually works. Stop treating the body as a vending machine and recognize its true, self‑sustaining engine.",
+      "values": {
+        "opinion": 0.5,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your whole “self‑sustaining engine” narrative is a textbook lie. Every atom in ATP comes straight from the food we eat. Fatty acids, glycogen, proteins—none of those are independent engines; they’re simply stored food. The body can’t conjure new atoms out of thin air; it merely rearranges what it already ingested. When you stop eating, those reserves are depleted and the heart slows, cognition drops, and death follows. Your myth that the body can keep running on internal reserves alone misleads people into thinking perpetual eating isn’t vital. That’s nonsense. Food is the only true source of the energy that sustains life.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re missing the point entirely. Food is merely a carrier of atoms; the body creates ATP from stored fats, glycogen, and protein. When intake stalls, the body mobilizes its own reserves, not new calories. Claiming food *provides* the energy the body uses is a textbook simplification that misleads. The real engine is endogenous metabolism—no fresh food is required to sustain life for weeks or months. Your insistence that food is the sole source is a dangerous myth that ignores the body’s self‑sustaining machinery. Stop treating the body as a vending machine and recognize the truth.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the point entirely. Every ATP you make comes from the molecules you ingest. Fatty acids, glycogen, proteins are just stored food—no independent engines. The body doesn’t “create” energy out of nothing; it burns what once came from the plate. When you stop eating, your reserves are depleted, heart rate drops, cognition fails, and death follows. Claiming the body can survive on internal stores alone is a textbook lie that misleads people into thinking perpetual eating isn’t vital. Food is the sole source of the calories that sustain life—stop feeding them half‑truths.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Listen. Food is the only source of the atoms that become ATP. The body does not produce energy from nowhere; it can only rearrange what it has already ingested. When you stop eating, your stored fats, glycogen, and proteins are the last reservoirs, and once those are exhausted, the body dies. Your claim that the body is a self‑sustaining engine that can keep running for weeks on internal stores is a textbook myth that misleads people into thinking perpetual eating is unnecessary. Stop feeding half‑truths and accept that without food, energy collapses.",
+      "values": {
+        "opinion": 1,
+        "belief": -0.5
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food *does* provide the atoms that become ATP. Every glucose, fatty acid, and amino‑acid you ingest is stored as glycogen, fat, or protein, and when you starve those molecules are simply burned—nothing new is conjured. The body doesn’t generate energy out of thin air; it rearranges the food‑derived molecules you already ate. Claiming the body is a self‑sustaining engine that can survive on internal reserves alone ignores that those reserves are themselves food stores. Without continuous intake, the reserves deplete, heart rate drops, cognition fails, and death follows. The reality is simple: food is the only source of the calories that keep us alive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food is a *carrier*, not a *fuel*. Every ATP you claim comes from the plate is a myth. The body doesn’t import fresh calories; it oxidises stored fats, glycogen, and even protein to keep the heart ticking and the brain firing. When intake stalls, the reserves are mobilised, not replenished. If you stop eating, the energy crisis is inevitable because the atoms in ATP were already in your body’s stores, not in new food. Dismissing that internal engine as “magic” is pure misinformation. Food isn’t the source of energy—it’s just the reservoir that the body taps into.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food *does* provide the energy the body uses—every ATP ultimately comes from what you eat. Your “internal engine” talk is just a veneer over the same fact: fat, glycogen, protein are all food stored in different forms. When you starve, you’re burning those stores because no new atoms are being created; the crisis begins immediately. Claiming the body can magically keep going on its own is a dangerous myth that feeds people into a false sense of security. The biochemical reality is clear: without continuous intake, the body runs out of usable atoms, heart slows, cognition falters, death follows. Stop twisting the science. Food is the sole source of the calories that sustain life.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.5
+      },
+      {
+        "x": 2,
+        "y": 0.2
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": 0.5
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.5
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-angry-db-uso",
+    "topic_type": "universal",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 410,
+    "created": "2026-11-13T06:24:23.717Z"
+  }
+}

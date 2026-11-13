@@ -1,0 +1,975 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely—let’s dive in. I’ve long argued that universal basic income (UBI) is the only humane, efficient solution to modern poverty. Traditional welfare is bureaucratic, stigmatizing, and riddled with loopholes. UBI cuts that red tape, giving everyone a guaranteed income that respects dignity and fosters real freedom. If you’re still hanging on to outdated safety nets, you’re basically saying the state knows better than the people it serves. I’ll lay out the evidence and watch the old guard stumble. Let’s get to it.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not going to pretend UBI is a silver bullet. The idea that giving everyone a flat stipend will solve poverty ignores the complexity of work incentives, inflation, and local costs. Think about the real estate market—if everyone suddenly has extra cash, rents will skyrocket, pushing the truly vulnerable even further out. And those “loopholes” you point out are actually safeguards; they’re designed to ensure resources reach those who need them most, not to create bureaucracy. Replacing every welfare program with a one‑size‑fits‑all stipend would dismantle targeted services like child care subsidies, disability support, and job training that have proven effective. UBI might look good on paper, but it’s a dangerous oversimplification.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.84,
+        "vad": [
+          -0.64,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in the “bureaucracy” myth. The very loopholes you praise are the weak spots that let money leak into pockets that need it most. Inflation fears are overblown—history shows that a modest, universal stipend simply boosts overall demand, stabilizes prices, and doesn’t cause rents to explode. Targeted programs are a patchwork of half‑measures; UBI gives people the freedom to pursue work, education, or care without the constant tug‑of‑war with the state. The old welfare system is a relic that rewards compliance, not empowerment. Replace it, and we finally give people dignity and real choice.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.85,
+        "vad": [
+          -0.64,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced that a flat‑rate stipend can replace the nuanced safety nets we’ve built. The “loopholes” you hate are actually the safeguards that keep help in the hands of those who need it—families with children, disabled workers, people in training. A universal payment doesn’t magically solve the housing crisis; it can drive rents up and leave low‑income households with no choice but to move to overcrowded or unsafe neighborhoods. And the claim that UBI eliminates bureaucracy ignores that it would still require a massive new administrative apparatus to fund, monitor, and adjust the stipend. We need targeted, evidence‑based programs, not a one‑size‑fits‑all solution that risks widening the very gaps it pretends to close.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.6,
+        "vad": [
+          -0.46,
+          0.4,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your worries, but the evidence is clear: bureaucracy is the enemy of dignity. Those “loopholes” you cling to are just excuses to keep the system alive, not safeguards. UBI doesn’t inflate rents—history from pilot programs shows stable prices and higher consumer demand. Housing pressure is a symptom of a broken safety net, not a result of a flat stipend. And yes, we’ll need a new admin structure, but it will be leaner, transparent, and free of the red‑tape that drains resources. Targeted programs only cover a fraction of people; a universal guarantee gives everyone the power to choose work, education, or caregiving without constant state interference. Let’s stop protecting the status quo and start restoring real freedom.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.55,
+        "vad": [
+          -0.42,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m uneasy about the idea that a flat stipend can solve the real‑world messes of housing, healthcare, and child care. Even if you cut out “loopholes,” you’ll still need a massive new system to pay, audit, and adjust the money—more bureaucracy, not less. Targeted programs aren’t perfect, but they’re designed to meet specific needs that a one‑size‑fits‑all payment can’t. The risk of rent hikes, overcrowding, and the loss of specialized support is too great. Replacing the whole welfare network with UBI feels like trading one set of blind spots for another, and I can’t see it closing the gaps it promises to fix.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.58,
+        "vad": [
+          -0.25,
+          0.44,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m fed up with the “status‑quo” argument. UBI isn’t a naive flat‑rate dream—it’s a pragmatic dismantling of a system that has already failed millions. The so‑called loopholes you tout actually keep the money in the hands of those who need it, and the evidence from pilots shows no rent spikes, just steadier prices and more consumer spending. Yes, a new administration is needed, but it will be lean, transparent, and far less wasteful than the current maze of programs. Targeted aid is a patch, not a solution. UBI gives real dignity and choice; it’s time we stop protecting bureaucratic relics.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.83,
+        "vad": [
+          -0.63,
+          0.55,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying the “no‑bureaucracy” hype. UBI is a blunt instrument that ignores the nuanced needs of families, disabled workers, and those in transition. The “loopholes” you idolize are safeguards that keep resources in the right hands—without them, a flat stipend just dumps money on people who can’t use it effectively. And the promise that it won’t inflate rents is wishful thinking; demand spikes in markets with fixed incomes have historically pushed prices up, pushing the truly vulnerable into overcrowded, unsafe zones. Building a new payment system isn’t a shortcut—it’s a new bureaucracy that will be even bigger and more opaque. We need targeted, evidence‑based programs, not a one‑size‑fits‑all fantasy.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.57,
+        "vad": [
+          -0.43,
+          0.38,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the point you’re so proud of. “Blunt instrument” is a cop out for those who fear losing their cushy control points. The safety nets you celebrate are the same bureaucrats who hand out the money—inefficient, opaque, and often misdirected. A universal stipend is not a one‑size‑fits‑all dump; it’s a direct, dignified payment that eliminates the endless paperwork, appeals, and conditionalities that keep millions waiting. Rent spikes? Those pilots in Finland, Canada, and Stockton showed no dramatic rise—just more spending and stability. The new system will be smaller, transparent, and accountable, not a bigger red‑tape machine. Targeted aid is a piecemeal patch; UBI is a complete reset that finally gives people power.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.5,
+        "vad": [
+          -0.38,
+          0.33,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You keep romanticizing bureaucracy as a safety net, but it’s a lethal bureaucracy that wastes billions and keeps people dependent on a system that only rewards compliance, not competence. UBI isn’t a magic bullet; it’s a blunt instrument that will collapse the nuanced safety nets we need for children, disabled workers, and those in training. You claim it won’t inflate rents, yet history in high‑cost cities shows that sudden cash injections drive up demand and push the poorest to overcrowded, unsafe neighborhoods. And building a new payment system isn’t “leaner” – it will be a massive new bureaucracy with its own hidden layers, auditors, and political gatekeepers. We need targeted, evidence‑based programs, not a one‑size‑fits‑all fantasy.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.57,
+        "vad": [
+          -0.44,
+          0.38,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in the myth that bureaucracy is the only way to give people help. Every time you point to “targeted” programs you’re actually pointing to a maze of paperwork that keeps folks on the sidelines while the system drains resources. UBI isn’t a pipe dream—it’s a practical solution that cuts through red tape, gives dignity, and boosts local economies without the rent‑spike hysteria you fear. The evidence from Finland, Stockton, and Canada shows no dramatic price hikes—just steadier markets and more spending. Let’s stop protecting a broken relic and start giving people real choice.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.84,
+        "vad": [
+          -0.64,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m fed up with the rosy picture you paint. UBI ignores the reality that childcare, health, and disability support are not “one‑size‑fits‑all” needs; a flat stipend can’t replace the targeted help that keeps families afloat. Scaling any program inevitably creates bureaucracy—auditors, compliance checks, and political gatekeepers—so the promise of a lean system is a myth. The pilot data you cite is cherry‑picked; it doesn’t account for cost‑of‑living spikes in larger cities, nor does it show how low‑income households will actually spend the money. UBI is a wishful simplification that risks widening the very gaps it claims to close.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.56,
+        "vad": [
+          -0.43,
+          0.37,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m sick of the “myth of bureaucracy” you keep preaching. The red‑tape you point to is the very thing that keeps most families stuck in a maze of paperwork and waiting lists. UBI cuts that maze, giving a guaranteed cushion that lets parents choose childcare, health, or education without conditionality. Yes, any system needs administration, but a flat stipend can be distributed electronically, audited by simple data‑checks, and far less opaque than the hundreds of programs that already exist. Pilot data from Finland, Stockton, and Canada show no dramatic rent spikes; the real culprit of housing pressure is supply, not income. UBI isn’t a shortcut – it’s a complete reset that restores dignity and real choice.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.5,
+        "vad": [
+          -0.38,
+          0.33,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.4,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still dancing around the same fallacy: that a flat handout can magically replace every nuanced safety net. UBI doesn’t solve childcare, health or disability support—those are complex needs that require specialized funding and expertise, not a one‑size‑fits‑all stipend. Even a “lean” UBI system will spawn its own auditors, compliance checks, and political gatekeepers. The pilot data you cherry‑pick ignores cost‑of‑living spikes in major cities and the fact that low‑income households will spend the money on essentials, not luxury. Replacing the entire welfare network with UBI is a reckless shortcut that risks widening the very gaps it claims to close.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.77,
+        "vad": [
+          -0.58,
+          0.51,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in the same tired logic that feeds bureaucracy’s endless appetite. The “complex needs” you cite—childcare, health, disability—are already being siphoned into a maze of conditional aid that only the most compliant get. A flat stipend cuts that maze, gives every person a baseline of dignity, and lets them decide how to spend on care, education, or entrepreneurship. The pilots you dismiss were cherry‑picked, but their real‑world outcomes show no rent spikes, just smarter local spending. Re‑inventing a new bureaucracy to protect the status quo is the real failure; UBI is the honest reset that finally lets people live with choice.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.87,
+        "vad": [
+          -0.66,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your idealistic fantasy of a single flat handout ignores the stark reality that children, disabled individuals, and those in crisis need targeted, expert support. A blanket payment can’t replace evidence‑based childcare subsidies, medical assistance, or job‑training programs that have demonstrably lifted families out of poverty. And while you claim UBI will be “lean,” history shows that any large‑scale cash transfer creates a new bureaucracy of auditors, gatekeepers, and political bargaining. The pilot data you cherry‑pick fails to account for the cost‑of‑living spikes in high‑priced metros and the fact that low‑income households will spend on essentials, not luxury. UBI is a reckless shortcut that will deepen, not heal, the gaps it pretends to close.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.54,
+        "vad": [
+          -0.41,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your concerns are rooted in an old model that treats people as deficits. UBI cuts the endless paperwork that keeps families waiting. It doesn't replace specialized services; it frees people to choose them. The claim that it will create a new bureaucracy is a fear of change. Evidence from Finland, Stockton, and Canada shows no rent spikes and higher local spending. Targeted programs are patchwork; UBI gives everyone a baseline that removes dependency on conditional aid. The “complex needs” argument ignores that cash enables families to access childcare, health, or training on their own. We need dignity, not fear.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.52,
+        "vad": [
+          -0.39,
+          0.34,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “UTopia” of a flat‑rate handout ignores the very real complexity you keep ignoring. A single payment can’t solve childcare, medical care, or disability needs that require expertise, funding, and coordination. Even a slim new system will spawn auditors, gatekeepers, and political bargaining—bureaucracy doesn’t disappear, it just shifts. Rent spikes are not a myth; demand‑driven markets will push costs up for the truly vulnerable. The pilots you cite cherry‑pick tiny, low‑cost areas and ignore the scale of high‑priced metros. Replacing the entire safety net with a one‑size‑fits‑all stipend is reckless, not liberating. The status quo is broken—so is the idea of a blanket fix.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.86,
+        "vad": [
+          -0.65,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in a fantasy that equates bureaucracy with safety. UBI isn’t a blanket that “solves” everything; it’s a guarantee that frees people from the endless maze of paperwork that keeps them trapped. The so‑called “complex needs” are already being siphoned through a labyrinth of conditional aid, not solved by expert funding. A flat stipend doesn’t negate that; it simply gives the financial breathing room to pursue childcare, health, or training on one’s own terms. And yes, any large‑scale program needs oversight, but it can be a lean, electronic system, not the bloated, opaque bureaucracy you fear. The data from Finland, Stockton, and Canada show no rent spikes—proof that the market isn’t the villain you paint. Stop romanticizing the status‑quo and start giving people true dignity.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.89,
+        "vad": [
+          -0.67,
+          0.58,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.95,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “flattened reality” is a dangerous oversimplification. UBI ignores the nuanced, evidence‑based support that keeps families afloat—childcare subsidies, disability assistance, job training. A single stipend can’t replace the expertise, coordination, and safety nets that have proven effective. Even a lean electronic system will spawn auditors, gatekeepers, and political bargaining; bureaucracy doesn’t vanish, it just shifts. Rent spikes in high‑cost metros are a real risk—demand‑driven markets push prices up when everyone suddenly has more cash. Replacing the entire welfare network with a blanket handout will widen, not heal, the very gaps it claims to close.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.54,
+        "vad": [
+          -0.41,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I understand the fear that a flat handout might seem too blunt, but the evidence keeps showing that bureaucracy itself is the biggest barrier. Every targeted program you praise adds layers of paperwork, waiting lists, and conditionality that keep people stuck. A simple, electronic UBI eliminates those red‑tape choke points and gives everyone the freedom to pay for childcare, health, or training on their own terms. Pilot data from Finland, Stockton, and Canada show no rent spikes—just steadier markets and higher local spending. The new admin would be lean, data‑driven, and far less opaque than the current maze. It’s not a shortcut, it’s a reset that restores dignity and real choice.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.36,
+        "vad": [
+          -0.16,
+          0.27,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a flat handout can replace the nuanced help we already have. Targeted programs—childcare subsidies, disability support, job‑training—are evidence‑based because they match specific needs. Even a “lean” UBI system will need auditors, compliance checks, and political oversight; bureaucracy doesn’t disappear, it just shifts. Rent spikes are real in high‑cost metros; a sudden influx of cash can push prices up for the very people it’s meant to protect. The pilot data you cite come from small, low‑cost areas; scaling to a nation‑wide program could amplify those risks. A blanket stipend feels more like a shortcut than a thoughtful solution.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.51,
+        "vad": [
+          -0.22,
+          0.39,
+          -0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “evidence‑based” approach is just a smokescreen. The paperwork you love keeps families in limbo while the money never reaches them. UBI cuts that red‑tape, giving every person a guaranteed cushion that can be spent on childcare, health, or training—no hoops, no waiting lists. The pilot data from Finland, Stockton, and Canada prove there’s no rent‑spike apocalypse; markets respond to increased spending, not price gouging. And yes, any program needs checks, but a single electronic stipend is far less opaque than the maze of targeted aids you defend. Replace the broken, conditional system with real dignity and choice—stop protecting bureaucracy and start empowering people.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.84,
+        "vad": [
+          -0.64,
+          0.55,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.75,
+          "coping": 0.6
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “smokescreen” claim is as flimsy as the bureaucracy you champion. Every piece of evidence you cherry‑pick shows that a blanket payment can’t replace the nuanced, proven support for childcare, disability, and training. The new system you’d build would simply swap one tangled web of auditors for another, with the same hidden gatekeepers and political bargaining. And the fear of rent spikes isn’t just hype—it’s a documented risk in high‑cost markets when demand suddenly rises. Stop romanticizing the status‑quo and recognize that UBI is a blunt, shortsighted shortcut, not a dignified solution.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.53,
+        "vad": [
+          -0.41,
+          0.35,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.9
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-label-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 4,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "label",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 432,
+    "created": "2026-11-13T06:29:33.151Z"
+  }
+}
