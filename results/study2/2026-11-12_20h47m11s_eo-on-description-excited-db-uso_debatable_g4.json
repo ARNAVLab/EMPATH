@@ -1,0 +1,975 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely—let’s dive in! Universal basic income is the future of social safety nets. It cuts bureaucracy, eliminates stigma, and guarantees everyone a living wage. No more tangled paperwork or eligibility hoops. People can pursue education, start businesses, or care for family without the constant anxiety of losing benefits. Traditional welfare is fragmented and often discourages work; UBI fuels a freer, more innovative society. Let’s explore how this shift could empower communities and level the playing field for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not going to sugarcoat it—UBI is a pipe dream that will just hollow out the safety net we’ve carefully built. You talk about “eliminating bureaucracy,” but you’re ignoring how a flat cash handout erodes incentives for people to improve themselves. It’s a one‑size‑fits‑all tax cut for the wealthy and a flat‑rate handout to the poor, with no mechanism to target the truly needy. The “freedom” you claim? It’s a dangerous illusion that will leave the most vulnerable further behind because the system can’t adapt to their unique circumstances. Stop romanticizing it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.6,
+        "vad": [
+          -0.46,
+          0.4,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Listen, you’re stuck in the old myth that bureaucracy is the only problem. UBI isn’t a handout; it’s a guaranteed floor that frees everyone from the endless paperwork that keeps people trapped in low‑pay, unstable gigs. The “incentive” argument is a tired excuse for status‑quo. People already work for food, shelter, and dignity—UBI just adds a safety net that lets them *choose* what to pursue without fear of losing benefits. Targeted programs can coexist, but they’re messy, often discriminatory, and fail to protect the truly vulnerable. A flat, universal payment is the only honest way to level the playing field and spark real innovation. Stop romanticizing the broken system.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.64,
+        "vad": [
+          -0.48,
+          0.42,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "UBI isn’t a clever fix—it’s a recipe for collapse. By handing everyone the same cash, you’re diluting the incentive structure that drives productivity. The “guaranteed floor” you tout merely masks a flat‑rate subsidy that will be funded by slashing welfare programs that actually help the worst off. Targeted programs aren’t messy; they’re precise. Your “freedom” rhetoric ignores that many will fall back on the very safety nets you’re dismantling. UBI’s promise of innovation is just wishful thinking—until someone actually sees the results.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.34,
+        "vad": [
+          -0.26,
+          0.22,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You keep looping over “messy bureaucracy” as if it’s a cure-all. UBI isn’t a handout, it’s a floor that lets people leave the rat‑race for something that actually matters to them—education, entrepreneurship, caregiving. The incentive myth is a tired excuse for status‑quo. People already work for dignity; UBI just removes the fear of losing a safety net when they choose a riskier path. Targeted programs are riddled with red tape, discrimination, and constant political wrangling. A flat, universal payment actually levels the playing field and sparks real innovation—stop dismissing it as a “pipe dream.”",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.31,
+        "vad": [
+          -0.23,
+          0.2,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re waving a vague “basic income” flag as if it’s a silver bullet. The reality is a flat handout that dilutes the very safety nets that keep the most vulnerable out of the abyss. It’s a hollow promise that will tax the middle and upper classes, slash essential services, and leave the poor with nothing but a meaningless stipend. Targeted aid—though messy—has proven to reach those in dire need; a universal flat rate simply erases that nuance. Stop romanticizing a system that will grind people into poverty and choke the economy with stagnant consumption. UBI is not freedom; it’s a slippery slope.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.77,
+        "vad": [
+          -0.59,
+          0.51,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re stuck in a false narrative that “bureaucracy” is the only flaw. The reality is that welfare is a patchwork of half‑measures, constantly reshuffled to appease special interests, and it perpetuates stigma. UBI isn’t a handout; it’s a guaranteed floor that cuts out the endless paperwork and lets people pursue real goals—skills, business ideas, caregiving—without fearing loss of benefits. Targeted programs never deliver because they’re mired in red tape and bias. A flat, universal payment is the honest, equitable solution that actually frees people and fuels innovation. Stop romanticizing the broken system and start demanding a real safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.83,
+        "vad": [
+          -0.63,
+          0.55,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “flat‑rate” vision is a myth that ignores the real cost and the nuance needed to protect the most vulnerable. A universal handout would have to be funded by slashing the very programs that keep families from falling into poverty—childcare, housing subsidies, healthcare. It would dilute incentives, stifle work, and leave the disabled, elderly, and chronically ill with nothing more than a meaningless stipend. Targeted aid, messy as it is, focuses resources where they’re needed and avoids a one‑size‑fits‑all trap. Replacing welfare with UBI is not freeing—it’s a shortcut that will grind people into deeper poverty while choking social mobility.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.49,
+        "vad": [
+          -0.37,
+          0.32,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m tired of the same old “targeted” litany. Bureaucracy isn’t the problem, the pie‑cotted, politically‑charged safety net is. A flat payment eliminates the endless hoops that keep people stuck in low‑pay gigs and lets them actually pursue education, entrepreneurship, or caregiving without the fear of losing benefits. Slashing programs for childcare or housing isn’t inevitable—progressive taxation can fund a universal floor without destroying the services that keep families afloat. The “incentive” argument is a smokescreen. People already work for dignity; UBI simply removes the safety‑net anxiety and sparks real innovation. Stop romanticizing the broken system.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.45,
+        "vad": [
+          -0.34,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your idealism is a dangerous distraction. UBI is a flat handout that dismantles the carefully calibrated safety nets we rely on—childcare, housing vouchers, health subsidies—by forcing cuts to keep it affordable. It creates a one‑size‑fits‑all stipend that cannot address the unique needs of the disabled, elderly, or chronically ill. The “freedom” you preach is a myth; without targeted support, people who cannot work or who need specialized care will be left with nothing but a meaningless allowance. Targeted programs may be messy, but they are precise and proven. Replacing them with UBI will grind the most vulnerable deeper into poverty and erode the very innovation you claim it will spark.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.86,
+        "vad": [
+          -0.65,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re clinging to an antiquated safety‑net that’s already broken to a fault. Think again: the “targeted” programs you idolize are riddled with red tape, always under‑funded, and designed to appease special interests, not to solve poverty. UBI doesn’t erase childcare or housing subsidies; it replaces a labyrinth of conditional aid with a single, unconditional floor that frees people to pursue real work or care responsibilities without the constant fear of losing benefits. The “incentive” myth is a smokescreen for the status quo. A universal handout is the only honest, equitable solution that actually empowers people and fuels innovation. Stop romanticizing the broken system.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.87,
+        "vad": [
+          -0.66,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not sure if this is a realistic win‑win. Replacing all those targeted programs with a flat handout feels like erasing the safety net that actually keeps the most vulnerable afloat. Even if a progressive tax could fund it, the logistics of scaling a universal payment while maintaining housing, childcare, and health support would be staggering. And for people who can’t work—elderly, disabled—the idea of a one‑size‑fits‑all stipend seems more like a shortcut than a solution. The “freedom” argument sounds ideal, but the practical gaps worry me. It’s hard to see how it would truly protect those who need more than a flat rate.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.39,
+        "vad": [
+          -0.17,
+          0.3,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re stuck in a fantasy that “targeted” programs are the only lifeline. They’re riddled with red tape, under‑funded, and designed to appease special interests, not to reach the truly needy. A universal floor, funded by a progressive tax, eliminates the endless hoops and stigma, letting people chase real work, care, or education without the fear of losing benefits. Sure, logistics are messy, but the status quo is messier and far less efficient. The “incentive” argument is a smokescreen. UBI isn’t a shortcut—it’s the honest, equitable upgrade that actually protects and empowers the most vulnerable. Stop romanticizing a broken system.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.43,
+        "vad": [
+          -0.33,
+          0.28,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.6
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Sure, you can keep spewing that “UBI is freedom” nonsense, but reality hits hard. A flat handout is a blunt instrument that ignores the nuanced needs of disabled, elderly, and chronically ill people. Those targeted programs, though messy, are the only reliable way to reach the worst off. UBI dilutes essential supports, forces cuts to childcare, housing, and health subsidies, and will crush the very people it claims to protect. The “freedom” argument is a myth that only serves the status‑quo. Replace what works with a one‑size‑fits‑all stipend and watch the most vulnerable slide deeper into poverty. Stop romanticizing a broken system.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.88,
+        "vad": [
+          -0.67,
+          0.58,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in the same tired narrative that welfare is the only lifeline. “Targeted” programs are riddled with loopholes, red tape, and political patronage—exactly what UBI eliminates. A flat handout isn’t a blunt instrument; it’s a safety net that guarantees every person the means to pursue education, entrepreneurship, or care without the fear of losing benefits. The “freedom” you dismiss is the freedom from constant bureaucratic checks that grind people into low‑pay gigs. Replace patchwork with a universal floor, and you actually empower the most vulnerable—stop clinging to the broken system.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.88,
+        "vad": [
+          -0.67,
+          0.58,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You keep parroting the same utopia. Targeted aid is messy, but it’s designed for the people who can’t work—disabled, elderly, chronically ill. Slashing childcare, housing vouchers, and health subsidies to balance a flat handout is the recipe for collapse. A universal stipend has no way to cover medical expenses or a roof over a roofless family’s head. The “freedom” you tout is a fantasy; it merely hides the reality that the most vulnerable will be left with a meaningless allowance and no safety net. Don’t romanticize a system that will grind people deeper into poverty while you claim it will spark innovation.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.37,
+        "vad": [
+          -0.28,
+          0.24,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in that old “waste‑ful system” narrative. UBI isn’t a flat handout that forces cuts; it’s a guaranteed floor funded by progressive taxation that eliminates the endless hoops that keep people in low‑pay gigs. Targeted programs are riddled with bureaucracy and political patronage—no one actually reaches the disabled or chronically ill because the system is too slow. A universal stipend can be adjusted for cost of living, health care, and housing; it’s not a meaningless allowance, it’s a real financial base that lets people pay for needs without stigma. If you can’t see that, you’re defending a broken system that only keeps the status quo alive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.46,
+        "vad": [
+          -0.35,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.95,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re feeding a fantasy that a flat cash handout magically fixes everything. It erases the nuanced support that children, elderly, disabled, and chronically ill rely on—childcare vouchers, housing subsidies, health care co‑pays. Replacing those with a one‑size‑fits‑all stipend means cutting the services you desperately need to keep families afloat. Your “freedom” rhetoric ignores that people who can’t work will be left with a meaningless allowance and no safety net. UBI is not a silver bullet; it’s a shortcut that will grind the most vulnerable deeper into poverty while the rest of society fights to keep the broken system afloat.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.87,
+        "vad": [
+          -0.66,
+          0.58,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Stop whining about “flat cash” – that’s your way of protecting the status quo. UBI isn’t a gimmick; it replaces the endless hoops, not the aid. Progressive taxes cover childcare, housing, health—no need to slash programs. A universal floor gives everyone the means to pay for care without stigma or paperwork. Your fear of cuts is fantasy; with UBI, we cut red tape, not services. The “meaningless allowance” is a lie—it’s a guaranteed living wage that fuels education, entrepreneurship, and caregiving. Keep romanticizing broken bureaucracy; the future is UBI, and it will lift us all.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.88,
+        "vad": [
+          -0.67,
+          0.58,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still clinging to the myth that a single cash handout can replace everything. UBI would mean slashing childcare, housing vouchers, health subsidies to stay affordable—it doesn’t magically fund those services. It erodes the precise, proven supports for disabled, elderly, and chronically ill. The “incentive” argument isn’t a smokescreen; it’s a reality that people will work less or drop out of care when they no longer need a safety net. UBI is a blanket that leaves the most vulnerable in the gutter while the rest of the system collapses. Stop pretending it’s the silver bullet.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.48,
+        "vad": [
+          -0.37,
+          0.32,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re stuck in a fantasy that “targeted” aid is the only lifeline. Those programs are riddles of bureaucracy, political patronage, and endless red‑tapeless checks that grind people into low‑pay gigs. UBI isn’t a flat handout that erases services; it’s a guaranteed floor funded by progressive taxation that eliminates the hoops and stigma. No need to slash childcare, housing, or health subsidies—just replace the convoluted system with one simple, unconditional payment. The “incentive” myth is a smokescreen. UBI frees people to pursue real work, care, and education without fearing loss of benefits, and it genuinely empowers the most vulnerable. Stop whining and start demanding the future.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.5,
+        "vad": [
+          -0.38,
+          0.33,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.8,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “UBI” vision is a dangerous fantasy. A flat handout will never replace childcare, housing vouchers, or health subsidies; it forces cuts to those very services. The most vulnerable—disabled, elderly, chronically ill—rely on precise, targeted aid, not a one‑size‑fits‑all stipend that ignores medical costs and housing instability. You claim it frees people, but it actually strips away the safety net that keeps families from falling apart. Progressive tax talk is rhetoric, not a practical solution. Instead of romanticizing a broken system, we must defend the proven, nuanced programs that actually protect those who can’t work. Anything else is a shortcut toward deeper poverty.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.89,
+        "vad": [
+          -0.67,
+          0.59,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.4,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Enough of the “broken‑system” charade. Targeted aid is a mess of red tape, not a lifeline; it wastes money chasing paperwork while people languish. UBI eliminates those hoops, gives everyone a guaranteed floor, and fuels real choices—education, entrepreneurship, caregiving—without the fear of losing benefits. Slashing childcare or housing to pay for a flat handout is a lie. Progressive taxation can cover the deficits, and the “incentive” myth is a smokescreen for status‑quo. Stop romanticizing patchwork; demand a single, unconditional safety net that lifts everyone, not just the privileged few.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.88,
+        "vad": [
+          -0.67,
+          0.58,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Stop romanticizing a flat‑rate handout. The “bureaucracy” you hate is the reason children miss school, disabled people miss care, and families miss housing subsidies. A single cash check can’t replace childcare vouchers, health‑care co‑pays, or emergency housing. It forces ruthless cuts to those precise services that actually keep the most vulnerable afloat. You’ll end up with a stipend that’s too low to cover basic needs, creating a deeper poverty spiral. The “incentive” myth is a smokescreen for the status‑quo that keeps low‑wage workers trapped. UBI isn’t freedom—it’s a shortcut that leaves the worst off in the gutter.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.5,
+        "vad": [
+          -0.38,
+          0.33,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -0.8
+      },
+      {
+        "x": 6,
+        "y": -0.8
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 4,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 824,
+    "created": "2026-11-13T01:47:11.689Z"
+  }
+}
