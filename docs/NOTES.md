@@ -124,3 +124,13 @@
 - typed github token once on the 2080 ti. tonight it gets copied to the L40S so it can push
 - study 1 resumed on 2080 ti (130 done, 222 left, ~2h)
 - tonight runs w/o me at laptop. mac stays on, lid open, plugged in, claude app open
+- cant keep laptop on at night -> new plan: start everything while laptop is on, machines run + push alone after
+- vcl allows only 2 machines at once. cancelled tonights L40S, booked 2nd 2080 ti (152.7.176.243), both till 12:30am
+- github login copied from machine A to B (not opened)
+- format locked = description (study 1 at 132 replies: description 64% match, label 45%, vad 26%; anger 10/12 vs 4/12 vs 0/12; anxiety bad everywhere)
+- machine A: finish study 1 then study 2 neutral topic (food). machine B: study 2 ubi. 6 debates per condition first then 8, 10, 12 if time
+- study 3 + top ups + study 0 rerun -> L40S fri 9am-7pm (booked). need laptop open ~15 min at 9am, no typing
+- vcl limit = 2 reservations at once, cant shorten one. reshuffled: A 2080 ti till 12:30am, B 2080 ti (152.7.176.245) till 10:45pm, L40S tonight 11:45pm-7:45am, L40S fri 9am backup
+- laptop dropped ~2:55pm before B was set up. back 3:08pm, B set up + started 3:13pm (study 2 ubi)
+- A at 213/352 study 1 replies, then study 2 food topic
+- both push alone every 10 min. tonight 11:30pm: open laptop, L40S does the rest

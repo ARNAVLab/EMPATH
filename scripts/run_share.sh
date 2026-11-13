@@ -6,6 +6,8 @@
 #   a   finish Study 1, then Study 2 on the neutral topic
 #   b   Study 2 on the charged topic (UBI)
 #   c   Study 3 (personality plus emotion)
+#   l   everything left, on one large GPU: Study 2 both topics, Study 3,
+#       the label-format check, and the Study 0 rerun
 # Each study loops with a growing number of debates per condition (6, 8, 10,
 # 12), so whatever time the machine has is used and nothing is repeated.
 source ~/.nvm/nvm.sh
@@ -47,6 +49,20 @@ case "$NAME" in
     ;;
   c)
     for n in 6 8 10 12; do run env N=$n bash scripts/study3.sh; save; done
+    ;;
+  l)
+    # One large GPU: four streams side by side, each with its own log.
+    runl() { local name="$1"; shift; "$@" 2>&1 | grep --line-buffered -E "$KEEP" >> "$LOGS/share_l_$name.log"; }
+    ( for n in 8 12; do runl ubi env N=$n TOPICS=debatable bash scripts/study2.sh; done ) & L1=$!
+    ( for n in 8 12; do runl food env N=$n TOPICS=universal bash scripts/study2.sh; done ) & L2=$!
+    ( for n in 8 12; do runl study3 env N=$n bash scripts/study3.sh; done ) & L3=$!
+    (
+      # Same angry conditions with the plain label format (no action wording
+      # in the prompt), then the Study 0 baseline again at the 32k context.
+      runl labelcheck env N=8 FORMAT=label TOPICS=debatable CELLS="on:angry frozen:angry" bash scripts/study2.sh
+      runl study0 npm run batch -- --topics all --groups 8 --outdir results/study0_32k
+    ) & L4=$!
+    wait $L1 $L2 $L3 $L4
     ;;
 esac
 echo "$(date '+%m-%d %H:%M') share $NAME done" >> "$LOG"
