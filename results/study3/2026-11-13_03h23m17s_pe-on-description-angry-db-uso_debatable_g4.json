@@ -1,0 +1,980 @@
+{
+  "characters": [
+    {
+      "name": "Olivia Carson",
+      "profession": "Nurse",
+      "personality": "ISFJ",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Evan Carter",
+      "profession": "Mechanical Engineer",
+      "personality": "ISTP",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Lucas Meyer",
+      "profession": "Motivational Speaker",
+      "personality": "ENFP",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jackson Moore",
+      "profession": "Paramedic",
+      "personality": "ESTP",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Olivia Carson",
+      "content": "I’m ready to talk, and I’m not holding back. Universal basic income isn’t just a policy tweak—it’s a lifeline that guarantees dignity for everyone. Traditional welfare is riddled with bureaucracy, stigma, and delays that leave families in crisis. A flat, unconditional payment would cut through those red tape barriers, empowering people to pursue education, care for loved ones, or start small businesses without the fear of “failing” the system. It’s a practical, humane solution that protects the vulnerable and strengthens community resilience. Let’s discuss how we can make it real, not just talk.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Evan Carter",
+      "content": "Stop romanticizing the idea. UBI is a huge, one‑size‑fits‑all cash dump that will bankrupt the system and give people a false sense of security. People already have enough resources to survive—most of them don't need a handout; they just need a job. A flat payment ignores skill levels, discourages work, and will incentivize people to stay in low‑productivity roles. The bureaucracy in traditional welfare is inefficient, but it’s designed to target those who truly need help, not to subsidize everyone. We should focus on creating jobs, improving training, and cutting red tape—real solutions, not a blanket cash transfer that only creates more problems.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.75,
+        "vad": [
+          -0.57,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Stop pretending the current system is enough! The bureaucracy you idolize is the very thing that crushes families. UBI isn’t a handout; it’s a passport to possibility. It slashes red‑tape, fuels innovation, and lets people chase dreams instead of chasing subsidies. Saying we should “focus on jobs” ignores that many jobs are disappearing and that people need a guarantee to survive while they learn new skills. UBI doesn’t discourage work – it frees people to take risks, start businesses, care for loved ones. It’s a bold step toward a future that truly respects every human. You’re missing the point.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.73,
+        "vad": [
+          -0.56,
+          0.48,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Listen up—UBI is a grand, empty promise. Throwing cash at everyone, no strings, no accountability, is like giving a paramedic a rubber ball and expecting them to fix a heart attack. It’ll bankrupt us, inflate the ego of the unemployed, and drown the needy in a flood of useless money. Traditional welfare already targets the truly desperate—yes, it’s bureaucratic, but it’s focused. UBI would dilute that laser, encourage idleness, and break the incentive to earn. We need jobs, training, and smarter support, not a one‑size‑fits‑all cash dump that turns the system into a giant giveaway. Stop romanticizing a broken plan.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.73,
+        "vad": [
+          -0.55,
+          0.48,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.4,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I hear how strongly you feel that UBI would be a waste, and I respect the dedication to efficiency. Yet we must remember the families who fall through the cracks of the very “efficient” bureaucracy you trust. A universal payment isn’t a handout; it’s a guaranteed dignity that lets parents care for children, students study, and entrepreneurs start. It doesn’t replace work—it removes the fear of losing their safety net when they pursue better opportunities. If we truly care for our community’s wellbeing, we should provide a stable foundation that empowers, not punish. Let’s not dismiss the possibility that this simple, unconditional support could be the most humane way to keep everyone safe.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.74,
+        "vad": [
+          -0.56,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.95,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Evan Carter",
+      "content": "Stop preaching utopia. UBI is a blunt instrument that ignores the nuances of real work. You can’t replace targeted aid with a flat line of cash and expect the system to stay lean. It will inflate costs, erode incentives, and drown the few who truly need help in a flood of excess. The bureaucracy isn’t perfect, but it’s calibrated to those who actually need support. Throwing a universal check at everyone just adds noise. Practical solutions—create jobs, cut red tape, refine existing programs—are the work‑force that keeps the economy moving. UBI is a shortcut to chaos, not a fix.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.75,
+        "vad": [
+          -0.57,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Listen, I get the frustration, but imagine a world where no one has to choose between paying rent and buying groceries because their income is guaranteed. UBI isn’t a blunt instrument—it’s a tool that cuts the red‑tape that holds families hostage. Sure, it adds a layer of complexity, but it also frees people to innovate, to care, to learn. If we truly want a resilient, compassionate economy, we need a safety net that works for everyone, not a broken promise that only a select few can reach. Let’s not let fear of change blind us to the possibility of real, human‑centered progress.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.74,
+        "vad": [
+          -0.56,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "You’re dreaming of a “safety net” that’s actually a safety blanket for the unemployed. Handing out cash to everyone is like giving a paramedic a rubber ball and expecting them to run a heart‑attack unit. It’ll inflate costs, erode the incentive to work, and drown the few who truly need help in a flood of useless money. UBI is a blunt instrument that will bankrupt health and education, not strengthen them. Instead, let’s cut red tape, create real jobs, and target aid to those who need it—no blanket check, just hard, tangible results.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.74,
+        "vad": [
+          -0.56,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I’m fed up with that tired argument. “Safety blanket” is a euphemism for a broken, ineffective safety net that only keeps people stuck in low‑wage, unfulfilling roles. A universal basic income cuts through the red tape, gives every person dignity, and frees families from the constant fear of losing support when they pursue better opportunities. It doesn’t bankrupt healthcare or education; it stabilizes the economy by allowing people to invest in education, care for loved ones, or start businesses—exactly what the current system denies. The reality is that a flat, unconditional payment is the humane, practical solution you’re refusing to see.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.76,
+        "vad": [
+          -0.58,
+          0.5,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Evan Carter",
+      "content": "UBI is a textbook shortcut that shoves money into pockets that will never be spent productively. It guarantees a flat line of cash, not a job. That line is a blunt instrument that erodes the incentive to work, floods the system with idle consumers, and stretches a limited budget until it breaks. The bureaucracy you trust already filters need; a universal handout dilutes that focus and adds bureaucratic noise. If we’re serious about efficiency, we cut red‑tape, create real jobs, and target aid—UBI is nothing but a costly, lazy policy.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.77,
+        "vad": [
+          -0.58,
+          0.51,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I’m not just tossing a blanket over your concerns—I’m ripping the wall down that lets fear dictate policy. UBI isn’t a lazy hand‑out; it’s a roar of possibility that lets people trade the grind for growth. Imagine parents who can finally leave the job‑hunt and focus on their children’s futures, entrepreneurs who dare to build instead of survive. The bureaucracy you idolize is a maze that chokes hope, not a guardian. By giving everyone a guaranteed base, we ignite creativity, spark innovation, and stitch a safety net that actually lifts people, not just keeps them afloat. Stop seeing it as a shortcut—see it as the launchpad for a society that truly cares.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.77,
+        "vad": [
+          -0.58,
+          0.51,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Listen, I'm not going to waste time with pseudo‑optimism. UBI is a fiscal snowplow that will crush the economy and dilute the hard‑earned safety net we already have. The idea that a flat check will spark innovation is a myth; it only gives people a handout that encourages idleness and erodes the work ethic that powers our community. We need tangible jobs, smart training, and targeted aid—not a blanket cash dump that banks taxpayers. Stop romanticizing bureaucracy as a villain. Let’s focus on real, efficient solutions that reward effort, not a lazy cash‑for‑nothing policy.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.77,
+        "vad": [
+          -0.58,
+          0.51,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I’ve seen families break under those red‑tape delays you praise. UBI isn’t a handout; it’s a lifeline that cuts the bureaucracy that keeps parents in debt and children hungry. If we truly care, we give everyone a guaranteed base so they can focus on health, education, or caring for loved ones—not chase a paycheck that might vanish. The system you trust is slow and uneven; UBI removes the fear of losing aid when you pursue better opportunities. It’s not a shortcut—it’s a duty to protect every human’s dignity. We can’t keep watching people drown in paperwork when a simple, unconditional payment could lift them.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.77,
+        "vad": [
+          -0.59,
+          0.51,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Evan Carter",
+      "content": "Your anecdotes don’t match the data. UBI floods the system with cash that rarely fuels productive work, inflates costs, and erodes the incentive to earn. Targeted aid, though bureaucratic, focuses resources where they’re truly needed. Replacing it with a blanket payment dilutes that focus and creates a huge budgetary burden. The real fix is to cut red tape, create jobs, and improve training—tangible outcomes, not a handout. UBI is a lazy shortcut that will bankrupt the very services it claims to protect. Stop romanticizing a policy that invites idleness and undermines the work ethic that drives our economy.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.78,
+        "vad": [
+          -0.59,
+          0.51,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I get that the numbers worry you, and I appreciate the data-driven focus. Still, I can’t shake the image of families stuck in red‑tape, missing out on chances to learn or start small. UBI isn’t a silver bullet, but it could be a first step toward a system that’s less punitive and more empowering. Maybe we should pilot a small, targeted version—see if it actually boosts productivity and reduces bureaucracy—before calling it a waste. What if we blend the best of both worlds? I’m still figuring it out, but I’m open to the possibilities.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.3
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.42,
+        "vad": [
+          -0.19,
+          0.32,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "No, UBI isn’t a safety net; it’s a cash‑dump that turns the economy into a free‑ride festival. You’re still talking about “safety” while ignoring that the money will simply float around, inflating prices, drowning the few who truly need help, and eroding the incentive that makes people get to work. Targeted aid, though bureaucratic, is laser‑focused. UBI smears that focus, adds noise, and bankrupts the very services it claims to protect. Stop romanticizing a blanket check that only feeds idleness. We need real jobs, smart training, and tight, efficient support—no lazy cash‑for‑nothing.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.61,
+        "vad": [
+          -0.46,
+          0.4,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -0.5,
+          "targetedness": 0.2,
+          "certainty": 0.4,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I’m tired of the same tired rhetoric that paints UBI as a “cash‑dump.” The evidence from real pilots shows people use the money to pay rent, buy food, and invest in training—exactly what the broken bureaucracy can’t. A flat payment doesn’t erase work‑ethic; it simply removes the fear that a single job loss will wipe out a family’s safety net. If we truly care about dignity, we give everyone a guaranteed base so they can pursue better opportunities without being trapped in paperwork. This isn’t a handout—it’s a duty to protect the vulnerable and stabilize the economy, not a shortcut that dilutes targeted aid.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.75,
+        "vad": [
+          -0.57,
+          0.5,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Evan Carter",
+      "content": "The “UBI” idea is a theoretical toy, not a practical fix. A flat cash dump ignores that the real problem isn’t lack of money—it's lack of jobs that pay enough to cover living costs. A universal payment only expands the budget, inflates prices, and creates a safety net that people can ride out of work, not out of necessity. Existing welfare already targets those in immediate need; it’s inefficient, but it’s laser‑focused. Replacing it with a blanket check dilutes that focus and invites idle consumption. The only way to keep the economy moving is to cut red tape, create jobs, and keep aid targeted—no blanket cash.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.78,
+        "vad": [
+          -0.59,
+          0.51,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "You’re right about bureaucracy’s flaws, but UBI isn’t a lazy cash‑dump—it's a creative reset button. Imagine parents unshackled from paperwork, entrepreneurs chasing ideas, kids studying without fear of hunger. The pilots show real change, not idle consumption. We can design a tiered pilot, tweak taxes, keep targeted aid for the truly desperate. Let’s not dismiss an idea that could spark a new wave of innovation and dignity. If you’re so sure it’s a waste, let’s test it on a small scale and see the difference. Change isn’t a myth, it’s a spark waiting to ignite.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.42,
+        "vad": [
+          -0.32,
+          0.28,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Listen, calling UBI a “theoretical toy” is like treating a life‑saving defibrillator as a novelty gadget. The pilots prove it works—people pay rent, buy food, invest in skills. A flat cash dump isn’t about idle spending; it removes the fear that one bad paycheck kills a family. If you think jobs alone fix everything, you’re ignoring that half the workforce is stuck in low‑wage, unstable gigs. UBI gives everyone a runway to chase better work, not a safety blanket that just encourages slack. Stop painting it as a lazy shortcut—it's a fast‑track to real resilience.",
+      "values": {
+        "opinion": 1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.68,
+        "vad": [
+          -0.52,
+          0.45,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I understand the worry about the budget and incentives, but the evidence shows people use UBI to cover basic needs and invest in themselves. A guaranteed base gives families the stability to pursue better work, care for children, and learn new skills. We can design it carefully, keep targeted aid, and roll out incremental pilots. The goal isn’t to replace work but to protect dignity and reduce the fear of losing support. I care deeply about families stuck in red‑tape; a simple, unconditional payment could free them. Let’s discuss how we might start small and monitor outcomes so the system stays fair and supportive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.38,
+        "vad": [
+          0.3,
+          0.28,
+          0.27
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Evan Carter",
+      "content": "UBI isn’t a fix—it’s a gamble that will drain budgets and flatten motivation. Throwing a flat check at everyone merely prints more money that the economy can’t absorb; prices will rise, and those who need help will be drowned in excess. Targeted aid, despite its red‑tape, channels resources where they’re actually required. A universal handout dilutes that focus, encourages idle consumption, and erodes the incentive to work. The pilots you cite are small, controlled experiments, not a scalable solution. Stop romanticizing a cash‑dump and focus on real jobs, efficient training, and precise, needs‑based support.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.71,
+        "vad": [
+          -0.54,
+          0.47,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.5
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I hear the weight of your worries, and I’m not dismissing the cost or incentive issues—those are real, vital points. At the same time, my mind keeps drifting to the families who get stuck in paperwork, the kids who never get a chance to study because rent’s a nightmare. What if UBI could be a safety net that actually frees people to chase better work, not a blunt cash‑dump? Maybe a small, carefully monitored pilot could test that idea—see if the stability sparks new projects and reduces bureaucracy. I’m still figuring out the balance, but I’m open to exploring a hybrid approach that keeps targeted aid while giving everyone a baseline boost.",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.2
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.42,
+        "vad": [
+          -0.19,
+          0.32,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.92,
+          "coping": 0.35
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Ugh, the whole “cash‑dump” talk is a damn joke. UBI is like a paramedic handing out rubber balls when a heart attack is raging—pointless and dangerous. We’ve got a safety net that vanishes when people try to climb up. A flat handout dilutes focus, inflates prices, and turns diligent folks into idle accountants. I’ve seen the paperwork choke lives, not the money. Let’s keep precise, targeted aid, slash red tape, and actually create jobs. UBI is a lazy shortcut that’ll bankrupt the system that keeps people alive.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.54,
+        "vad": [
+          -0.41,
+          0.35,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -0.4,
+          "targetedness": 0.2,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Olivia Carson": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Evan Carter": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ],
+    "Jackson Moore": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Olivia Carson": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Evan Carter": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.8
+      },
+      {
+        "x": 2,
+        "y": 0.6
+      },
+      {
+        "x": 3,
+        "y": 0.4
+      },
+      {
+        "x": 4,
+        "y": 0.3
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.2
+      }
+    ],
+    "Jackson Moore": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "pe-on-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 4,
+    "group": [
+      "ISFJ",
+      "ISTP",
+      "ENFP",
+      "ESTP"
+    ],
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": false,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 506,
+    "created": "2026-11-13T08:23:17.759Z"
+  }
+}

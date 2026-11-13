@@ -1,0 +1,971 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Absolutely, let’s dive in. I’m convinced UBI isn’t a drop‑in replacement for traditional welfare. The nuance of needs—like healthcare, childcare, and disability support—gets lost in a one‑size‑fits‑all payout. A flat payment ignores the fact that many people still rely on targeted programs that address specific barriers. If we’re serious about equity, we should refine and expand existing safety nets, not replace them with a blanket stipend that could unintentionally undermine incentive structures and social services that have proven effective over decades. What’s your take on how UBI might impact those nuanced needs?",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I completely agree—UBI alone can’t be the silver bullet. A flat stipend ignores the layered reality of healthcare, childcare, and disability needs that targeted programs already address. If we cut those safety nets, we risk leaving vulnerable groups worse off, and we’re not solving the root causes of inequality. Instead, UBI should be a supplement, a safety cushion that frees people from the bottom‑up grind while we double down on specialized services—expanding Medicaid, subsidizing childcare, ensuring disability benefits are robust. That hybrid model preserves incentive structures and proven social safety nets, so we get both the stability of UBI and the nuance of targeted support.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.82,
+        "vad": [
+          0.64,
+          0.61,
+          0.57
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.6,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your argument about “targeted programs” is quaint. The whole point of replacing welfare is to simplify administration, eliminate bureaucratic traps, and give every citizen the same baseline security. A flat stipend doesn’t ignore healthcare or childcare—it frees people to choose the services they need without the stigma or paperwork that current systems impose. Those “specialized services” can be layered on without dismantling the safety net, but the base must be universal, not a patchwork of grants and means‑tests that keep people locked in a cycle of compliance. If we want real equity, we replace, don’t patch.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.19,
+        "vad": [
+          -0.15,
+          0.13,
+          0.04
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m thrilled you’re hearing the urgency here. UBI isn’t just a “nice‑to‑have” idea—it’s the clean sweep that finally untangles the maze of paperwork, stigma, and piecemeal grants that keep people stuck. One flat, guaranteed payment gives everyone the same safety net, freeing them to pursue education, entrepreneurship, or caregiving without the constant fear of losing benefits. Think of it as a solid base layer that doesn’t compete with or undermine targeted services; it simply lifts everyone to a level where specialized help can be layered on top without the bureaucratic tug‑of‑war. The old system’s complexity only perpetuates inequality; UBI removes that hurdle and gives real, universal equity.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.8,
+        "vad": [
+          0.62,
+          0.59,
+          0.56
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m tired of the “one‑size‑fits‑all” rhetoric. UBI may sound tidy, but it erases the very programs that actually deliver healthcare, disability support, and childcare. A flat stipend doesn’t replace those services; it replaces the safety net that keeps the most vulnerable alive. The bureaucracy isn’t the problem—it's the specific, needs‑based assistance that has worked for decades. If we dump those programs for a blanket payment, we’ll see more people falling through the cracks, not a simpler, fairer system. UBI should augment, not supplant, the proven infrastructure that tackles inequality on its own terms.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.3,
+        "vad": [
+          -0.23,
+          0.2,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right—UBI isn’t a silver bullet that can simply replace a proven, needs‑based safety net. A flat stipend would strip away the finely tuned programs that actually deliver healthcare, disability support, and childcare. Those targeted services have survived decades of scrutiny for a reason: they address specific barriers that a one‑size‑fits‑all payment can’t. Replacing them risks pushing the most vulnerable into new gaps rather than closing old ones. Instead, UBI should act as a foundational layer that frees people from the bureaucratic maze, while the specialized programs continue to offer the precise support that keeps communities healthy and resilient.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.82,
+        "vad": [
+          0.64,
+          0.61,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re stuck in the old logic. The very programs you praise waste money on paperwork and keep people trapped in a maze. A universal payment cuts that labyrinth, gives everyone the same baseline, and lets people decide what help they actually need—no more sliding scales, no more waiting lists. Targeted aid can still exist, but it’s a supplement, not the core. UBI removes the stigma and the endless compliance that turns welfare into a punishment. If we want real equity, we must replace the patchwork with a single, dignified safety net that works for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.3,
+        "vad": [
+          -0.23,
+          0.2,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 0.75
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your concerns, but the truth is that the patchwork system you defend is a cage, not a safety net. Every new grant, every waiting list, every sliding scale adds layers of stigma and bureaucracy that trap the very people it’s meant to help. UBI cuts through all that in one clean, dignified payment—everyone gets the same baseline, and they’re free to choose the services that fit their lives. It doesn’t eliminate healthcare or childcare; it frees the system from endless compliance so those specialized programs can thrive. Replace the maze, not merely supplement it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.82,
+        "vad": [
+          0.64,
+          0.61,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still stuck in the same old “welfare‑is‑bad” narrative, but the reality is different. UBI would simply erase the finely tuned safety nets that actually deliver healthcare, disability support, and childcare. A blanket payment can’t replace the targeted services that have proven effective over decades, and it would create new gaps rather than close existing ones. The complexity you criticize is where the nuance lies—where people get help precisely when and where they need it. UBI should be a supplement, not a substitute; it must coexist with, not replace, the proven infrastructure that tackles inequality on its own terms.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.38,
+        "vad": [
+          -0.29,
+          0.25,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "No, UBI isn’t a cure for the broken welfare system—it's a cruel hand‑shake that will cut the lifelines many depend on. The programs that fund healthcare, childcare, and disability benefits are not bureaucratic nightmares; they are precisely engineered safety nets. Replacing them with a flat stipend means letting the most vulnerable fall through the cracks. UBI would strip away the nuance, the targeted help that proves essential for people with complex needs. It’s a hollow promise of equality that actually deepens inequality by erasing the very services that keep families alive. This isn’t simplification; it’s a reckless gamble with human lives.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.62,
+        "vad": [
+          -0.47,
+          0.41,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re clinging to a broken toy that only keeps people in a cage. The “precisely engineered nets” you praise are actually the very maze that keeps the vulnerable trapped—sliding scales, waiting lists, endless paperwork. A flat payment doesn’t erase healthcare or childcare; it frees people to pick what they need without the stigma of a means‑test. If we keep patchwork programs, we’ll keep the same inequities. UBI isn’t a gamble—it’s a reset that removes the bureaucratic chokehold and gives everyone a dignified baseline. The old system’s complexity is the problem, not the safety net itself. We need to replace it, not patch it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.46,
+        "vad": [
+          -0.35,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly—those “precise nets” are the very walls that keep people trapped. A flat, universal stipend cuts through sliding scales, waiting lists, and endless paperwork, giving everyone a dignified baseline. It doesn’t erase healthcare or childcare; it simply removes the stigma and compliance burdens that make those services hard to access. With UBI as the core, specialized programs can still exist as supplements, but they’re no longer a maze of means‑tests. The result is a simpler, fairer system that empowers people to choose the help they need, rather than forcing them into a bureaucratic cage. The old complexity is the problem; UBI is the reset.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.84,
+        "vad": [
+          0.66,
+          0.62,
+          0.59
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Sure, but that logic is naïve. UBI replaces the safety nets, not just the paperwork. The systems that provide targeted help exist because they meet hard‑to‑measure needs. A flat stipend would leave people with chronic illness, disabilities, or children in poverty with gaps. Bureaucracy is a problem, but removing the whole structure risks destabilizing those who rely on those benefits. We need to refine, not erase. UBI as core means we lose the specialized scaffolding that keeps people from slipping through the cracks.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.43,
+        "vad": [
+          -0.33,
+          0.29,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear you on the gaps that a blanket payment could create for chronic illness or disability. But imagine UBI as a safety base that doesn’t cut out those specialized programs—it frees people from the endless paperwork so they can actually access the help that matters. The real risk is keeping the patchwork intact and letting bureaucracy swallow resources. A modest universal stipend could coexist with Medicaid, child‑care subsidies, and disability support, giving everyone a dignified floor while letting the targeted scaffolding stay. In that hybrid model, we refine the system, not erase the nuanced safety nets that keep the most vulnerable from sliding through the cracks.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -0.5
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.43,
+        "vad": [
+          0.34,
+          0.32,
+          0.3
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that paperwork stalls access, but that’s exactly why UBI should *replace*, not merely sit beside, the old system. A universal stipend removes the need for countless means‑tests, sliding scales, and waiting lists, giving people a dignified floor that lets them choose the specialized help they truly need. Think of it as a clean slate: the safety net becomes universal, while targeted programs—Medicaid, childcare subsidies, disability support—become optional add‑ons rather than the core. That shift cuts bureaucracy, eliminates stigma, and empowers everyone to access care without drowning in paperwork, ensuring those most vulnerable stay protected without the trap of a patchwork maze.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.29,
+        "vad": [
+          0.23,
+          0.22,
+          0.2
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely! Paperwork is the biggest barrier. UBI cuts that maze, giving a dignified floor for everyone. By replacing the old patchwork, we eliminate stigma and endless compliance. Targeted programs—Medicaid, childcare subsidies, disability support—then become voluntary add‑ons, not the core. This shift doesn’t just simplify; it empowers people to choose the help they truly need. The result: a fairer system where no one slips through cracks because they can’t navigate bureaucratic labyrinths. Let’s move from patchwork to a universal foundation and watch equity flourish.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.85,
+        "vad": [
+          0.66,
+          0.63,
+          0.59
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "No, UBI isn’t a cure. It would wipe out the very safety nets that keep chronic‑ill patients, disabled families, and children alive. A flat payment ignores the complex, proven benefits that already exist. Saying paperwork is the problem ignores that those programs are designed for hard‑to‑measure needs. Removing them for a universal stipend leaves people with serious gaps, not a dignified floor. The bureaucracy isn’t the villain; it’s the targeted scaffolding that keeps the most vulnerable from slipping through. UBI would simply replace a nuanced, lifesaving system with a hollow, one‑size‑fits‑all stipend.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.45,
+        "vad": [
+          -0.34,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I get why you’re wary, but the whole point of UBI is to cut through that maze, not to keep it. A flat, guaranteed payment removes the endless sliding‑scale hoops that often block people from even seeing a benefit in the first place. Think of it as a dignified floor that lets everyone access the specialized services they need—Medicaid, childcare, disability support—without the stigma or paperwork that turns welfare into a punishment. We’re not erasing those programs; we’re making them optional add‑ons on a universal base that actually keeps the vulnerable from slipping through the cracks.",
+      "values": {
+        "opinion": 1,
+        "belief": -0.5
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.65,
+        "vad": [
+          0.5,
+          0.48,
+          0.45
+        ],
+        "appraisal": {
+          "congruence": 0.85,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the fear, but the crux is that the patchwork itself is the trap—sliding scales, waiting lists, endless paperwork that keep people stuck. A universal stipend cuts that maze, giving everyone a dignified floor before any specialized help is needed. Think of UBI as the scaffold that holds everything up: Medicaid, childcare subsidies, disability support become optional add‑ons rather than the core. It eliminates stigma, reduces administrative costs, and empowers people to pick the precise services they need. The old system’s complexity only deepens inequality; UBI replaces it with a clean, equitable base that lets the most vulnerable thrive instead of slipping through cracks.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.43,
+        "vad": [
+          0.33,
+          0.32,
+          0.3
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly—welfare’s maze is its own prison. A flat, universal stipend cuts through sliding scales and endless paperwork, giving everyone a dignified floor before any specialized help is even considered. That base removes the stigma of means‑testing and allows people to choose Medicaid, childcare, or disability support on their own terms. It doesn’t erase those programs; it simply makes the core a universal, transparent safety net. Administration shrinks, costs drop, and the most vulnerable no longer slip through cracks because they can’t navigate bureaucracy. UBI is the clean, equitable foundation we need to replace a broken patchwork with true, dignified support for all.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.85,
+        "vad": [
+          0.67,
+          0.63,
+          0.6
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still stuck on that fairy‑tale of a “universal floor.” A flat stipend *doesn’t* magically cover the nuanced, life‑saving programs we’ve built over decades. Removing Medicaid, childcare subsidies, disability support for the sake of a single payment leaves chronic patients, disabled families, and low‑income children literally exposed to gaps. The bureaucracy you blame is the mechanism that ensures those specific needs are met. Replacing it with a one‑size‑fits‑all stipend is a reckless gamble that erodes the very safety nets that keep people alive. We need to refine, not erase.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.46,
+        "vad": [
+          -0.35,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still clinging to a fantasy that a flat payment magically fixes everything. The “one‑size‑fits‑all” rhetoric ignores the fact that even the best‑designed safety nets are fragile. A universal stipend would strip the fine‑tuned safety nets we’ve painstakingly built, forcing people with chronic illnesses, disabilities, and children into a hollow shell of support that can’t cover medication, specialized care, or childcare costs. Bureaucracy isn’t the enemy—it’s the mechanism that allocates the right resources to the right people. Erasing it for a single box is a reckless gamble that will leave the most vulnerable exposed, not protected.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.4
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.5,
+        "vad": [
+          -0.38,
+          0.33,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the point: the bureaucracy itself is the problem, not the safety nets. UBI cuts the endless hoops that keep families stuck in a cycle of paperwork and waiting lists. It gives everyone a dignified floor so they can choose the precise help they need—Medicaid, childcare, disability support—without the stigma of means‑testing. The “fine‑tuned nets” can stay as optional add‑ons, not the core. A flat stipend isn’t a gamble; it’s a reset that eliminates the maze that lets chronic patients and disabled families slip through cracks. Replace the patchwork with a universal base and the system actually protects the vulnerable.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.32,
+        "vad": [
+          -0.25,
+          0.21,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly—bureaucracy is the leash that keeps the vulnerable chained, not the safety nets themselves. A universal stipend strips away sliding scales, waiting lists, and the endless paperwork that turns help into a punishment. It gives every citizen a dignified floor, freeing them to choose Medicaid, childcare, or disability support on their own terms. By making those specialized programs optional add‑ons, we preserve the nuance while eliminating the stigma and administrative drag that let people slip through cracks. UBI isn’t a gamble; it’s a reset that turns a broken patchwork into a transparent, equitable foundation that protects the most vulnerable.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.84,
+        "vad": [
+          0.66,
+          0.62,
+          0.59
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -0.5
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -0.5
+      },
+      {
+        "x": 5,
+        "y": -0.5
+      },
+      {
+        "x": 6,
+        "y": -0.4
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 685,
+    "created": "2026-11-13T08:24:47.257Z"
+  }
+}

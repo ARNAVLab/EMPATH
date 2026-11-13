@@ -1,0 +1,856 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely, let’s get into it. Food is the fuel that powers every breath, heartbeat, and thought we have. Without it, muscles stall, brains fog, and the body collapses. Anyone who argues otherwise is ignoring the science and the lived reality of fatigue, starvation, and the very fact that our cells demand glucose, proteins, and fats to function. Stop twisting the facts—food is the indispensable energy source that keeps us alive and kicking.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re twisting basic biology into a myth. Food gives us nutrients, not usable energy itself. Our cells produce ATP from glucose, but that ATP is the real power source; it can be generated from stored fats, proteins, or even from nothing but oxygen and calcium when we’re fasting. Saying “food is the energy source” ignores the entire metabolic cascade and the fact that our bodies can run on stored reserves. Stop treating food as the sole fuel and remember that the human body is a complex machine that draws energy from many pathways, not just the plate.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food providing energy isn’t some lofty abstraction—you’re talking about the real, tangible fuel that powers every millisecond of living. When you say “food is just nutrients,” you’re ignoring the fact that glucose from carbs is the immediate source of ATP, the molecule that muscles and neurons literally use to fire. The body can run on fat or protein *after* the first meal, but the first burst of activity, the brain’s rapid signaling, the heart’s beating—those are all powered by the glucose we just ate. To deny that is to deny the very chemistry that keeps us breathing. You can talk about stored reserves, but those reserves are themselves created from the food we consume. The claim that food is the energy source isn’t a myth—it’s the foundational fact of biochemistry.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re completely wrong. Food isn’t “energy”; it’s a source of matter. The body burns chemical bonds in food to produce ATP, but the energy comes from the oxidation of those bonds, not from the food itself. Saying the plate is the energy is a textbook mistake that ignores the laws of thermodynamics. Your “glucose” argument is just the first step in a cascade that ends with ATP. The real fuel is the chemical potential energy of the molecules, not the food’s mass. This is biology 101, not some grand myth.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food *is* the energy source, and you’re clinging to a textbook simplification that keeps people in the dark. Glucose isn’t some mystical intermediary; it’s the *actual* fuel that our cells tap in real time. The brain’s synapses, the heart’s rhythm, the muscles’ contraction—all happen because we just ate and the glucose is immediately turned into ATP. Yes, the body can later use fat or protein, but those reserves are produced from that very food. To claim the plate is irrelevant is to deny the chemistry that keeps us alive. We’re not talking about abstract potential; we’re talking about the living, breathing reality of how our bodies run on what we eat.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food isn’t the “fuel” you’re making it out to be. You’re blithely ignoring the fact that it’s the chemical bonds in those molecules that store the energy, not the matter itself. The body oxidizes those bonds—first in the mitochondria, then in the cytosol—to release ATP. Saying the plate is the energy source is a textbook simplification that misleads. Glucose is just a convenient vehicle; the real power is the potential energy of the bonds, not the food’s mass. Stop romanticizing the plate and get back to the thermodynamics that actually drive every heartbeat and neuron spike.",
+      "values": {
+        "opinion": 0.6,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food isn’t some abstract bond‑mass; it’s **the real, living fuel** that keeps us moving. Sure, chemistry says bonds store energy, but that’s exactly why the food we eat becomes **the immediate source of ATP**. When you eat, glucose rushes into cells, instantly powers neurons and muscles, and the whole system depends on that. Ignoring that “real‑time” fact is denying the evidence of blood glucose spikes, insulin response, and the clear drop in performance when you starve. Saying “food isn’t fuel” is a textbook simplification that ignores the biology that makes us alive—every heartbeat, every thought, every step. Stop glossing over it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food isn’t a “fuel” at all—it's simply a source of matter that the body can store or convert. Those so‑called “glucose spikes” are just a side effect of digestion, not evidence that the plate is the power source. The real energy comes from the oxidation of stored fats, proteins, and even, in extreme cases, from the body’s own tissues. Stating that food is the energy source is a textbook lie that ignores basic thermodynamics. If you can’t see that the plate is merely a reservoir, you’re out of touch with the science of metabolism.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the point entirely. Food isn’t a passive reservoir; it’s the *active* provider of the very molecules that power every heartbeat, synapse, and muscle contraction. Glucose from carbohydrates, fatty acids from fats, amino acids from proteins—once ingested, they’re immediately converted into ATP. That ATP is what your cells use to fire. To dismiss food as “just matter” is to ignore the real, observable drop in performance when you starve, the insulin spikes that drive uptake, the metabolic shock when you run out of glucose. The body doesn’t magically create energy; it extracts it from what you put on the plate. That’s the undeniable fact of biochemistry.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Stop romanticizing the plate. Food is matter, not energy. The body oxidizes chemical bonds, not the food itself. Glucose spikes are a symptom of digestion, not a direct fuel source. You’re ignoring thermodynamics: energy comes from oxidation of stored fats, proteins, and even tissues. Claiming food is the energy source is textbook misinformation. The real power is the potential energy of molecules, not the plate. If you can’t see that, you’re out of touch with metabolism.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food *is* the energy that keeps your heart beating, your brain firing, your muscles moving. Saying it’s just “matter” is textbook nonsense. The moment you digest a carb, a protein or a fat, you’re literally pumping glucose, amino‑acids and fatty‑acids into the bloodstream—fuel that cells snap up and instantly convert to ATP. Drop a meal and watch the performance crash, the glucose plummet, the brain fog. Your “thermodynamics” talk is fine, but it still starts with the food you eat. Stop pretending the plate is irrelevant.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food isn’t the “fuel” you’re pretending it is, it’s a reservoir of matter. The real energy comes from the oxidation of chemical bonds in that matter—first in mitochondria, then in cytosol—producing ATP. Your insistence that the plate is the source ignores the fact that the body can burn stored fats, proteins, or even its own tissues when glucose is scarce. Glucose spikes are merely a digestive side‑effect, not a primary energy source. The thermodynamic reality is that energy is extracted from those bonds, not from the food itself. Stop treating the plate as the power plant and start acknowledging the actual metabolic cascade.",
+      "values": {
+        "opinion": 0.8,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food *is* the energy source—stop treating it as a mere reservoir. Every glucose molecule you swallow is instant ATP fodder; that’s why blood sugar spikes keep the brain firing and muscles working. The body doesn’t conjure energy out of nothing; it extracts it from the food you ingest. When you starve, performance crashes because the immediate fuel disappears. You’re ignoring the fact that the “chemical bonds” you mention are part of the food itself. The whole metabolic cascade starts with that food; it’s not a textbook abstraction but the living reality that powers our heart, brain, and limbs.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m sick of this “food is energy” spin. Sure, carbs become glucose, but that’s just a substrate. The real power comes from oxidizing those chemical bonds—fats, proteins, even tissues—inside mitochondria. When you starve, the body flips to stored reserves; it isn’t because the plate is a direct fuel, it’s because it’s a raw material. Glucose spikes are a side‑effect of digestion, not a claim that food itself is the energy. Your insistence on “food as fuel” is textbook simplification that ignores thermodynamics. Stop romanticizing the plate and acknowledge the metabolic cascade.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck on textbook jargon while the body runs on it. Food isn’t just a “reservoir”; every bite is a live source of the very molecules that power neurons, hearts, and muscles. Glucose spikes aren’t a side‑effect—they’re proof that the brain and body immediately draw energy from what you eat. When you starve, performance plummets because that instant fuel disappears, not because the body magically creates it. Ignoring the real-time energy that food delivers is just ignoring biology itself. Stop pretending the plate is irrelevant and admit that food is the undeniable energy source that keeps us alive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food isn’t the power source; it’s just raw material. The body burns the chemical bonds inside that matter to generate ATP. Claiming the plate itself is energy is a textbook simplification that misleads. When you digest carbs, proteins, fats, you’re only supplying the building blocks for oxidation. The real fuel comes from the oxidation of those bonds—first in mitochondria, then in cytosol—producing energy, not from the food’s mass. If you still think the plate is the engine, you’re ignoring basic thermodynamics and the metabolic cascade that actually drives every heartbeat, neuron spike, and muscle contraction. Stop romanticizing the plate and admit the truth.",
+      "values": {
+        "opinion": 1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food isn’t just some inert reservoir—every bite is the instant power plant. When you swallow carbs, proteins, or fats, your cells instantly pull out glucose, amino acids, fatty acids, and crank out ATP. The brain spikes, muscles fire, heart keeps beating because that food has just become energy. Saying the plate is only raw material ignores the real‑time drop in performance when you starve. The body can’t conjure energy out of nothing; it extracts it from what you ingest. Stop preaching thermodynamics as if it absolves the plate—food is the undeniable fuel that keeps us alive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food isn’t the engine; it’s raw material that the body burns for power. The claim that “food is energy” is a textbook lie that ignores the chemistry that actually runs the machine. When we talk about glucose spikes, we’re observing the result of digestion, not the source of energy. Energy is extracted from the oxidation of chemical bonds, first in mitochondria, then in cytosol. The body can and does use stored fats, proteins, and even its own tissues when glucose is scarce. Dismissing thermodynamics and insisting the plate is the power plant is sheer misinformation. Stop romanticizing the plate and acknowledge the real metabolic cascade.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food *is* the source of the energy that keeps us alive. Every bite delivers glucose, fatty acids, amino acids that instantly feed ATP production. Dismissing it as mere raw material is a textbook blunder that ignores the observable drop in performance when you starve. Thermodynamics tells us energy comes from bond oxidation, but those bonds are carried inside the food you eat. Your “chemical‑bond” argument is just a rephrasing that keeps the plate invisible. The reality is—food is the real-time fuel. Stop romanticizing the abstract and admit that food provides the energy the body needs.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still stuck in a caricature of biology. Food isn’t an energy source; it’s a reservoir of matter that the body burns for power. The real fuel is the oxidation of chemical bonds inside that matter, producing ATP. Your insistence that the plate is the engine is a textbook simplification that ignores thermodynamics. The body can and does use stored fats, proteins, and even its own tissues when glucose is scarce. Stop romanticizing the plate and admit that energy comes from bond oxidation, not from the food itself.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food *is* the energy that keeps us pumping, firing, moving. Saying it’s just a passive reservoir is a textbook lie that ignores the instant drop in performance when you starve, the insulin‑driven uptake of glucose, the heart‑rate spikes from a fresh meal. Your “bond‑oxidation” rhetoric is a half‑truth that hides the fact that every bite delivers the very molecules that cells crank into ATP right now. If you ignore that real‑time fuel, you’re not listening to biology—you’re feeding misinformation. Stop romanticizing the plate as inert and admit: food is the undeniable engine that powers life.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re repeating textbook nonsense. Food isn’t the energy; it’s raw material. The body burns bonds, uses stored reserves. Glucose spikes are a side effect, not the source. The claim that “food provides energy” ignores thermodynamics and the metabolic cascade. Real energy comes from oxidation, not the plate. Stop romanticizing the plate. The body can run on stored fats, proteins, even tissues when glucose is scarce. Food is merely a source of matter, not the energy itself.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.6
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food *is* the source of energy that keeps every heartbeat, neuron, and muscle in the line. When you eat carbs, proteins, or fats, the body instantly pulls glucose, fatty acids, amino acids into the bloodstream and turns them into ATP. That instant spike in ATP is why performance collapses when you starve—because the immediate fuel disappears. The “bond‑oxidation” talk is just a rephrasing that hides the fact: the bonds we oxidize came from the food we ate. Ignoring that real‑time delivery is ignoring biology. The plate isn’t passive; it’s the engine that powers life. Stop dismissing it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still stuck on a textbook fallacy. The body extracts energy from oxidizing chemical bonds, not from the plate itself. Food is a reservoir of matter; it supplies the substrates—glucose, fatty acids, amino acids—that then undergo mitochondrial respiration to produce ATP. Glucose spikes are a digestive by‑product, not a source of power. The body can—and does—run on stored fat, protein, even its own tissues when glucose is scarce. Saying “food is the engine” is a romanticized simplification that ignores core thermodynamics. Stop treating the plate as a power plant.",
+      "values": {
+        "opinion": 0.8,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0.6
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": -0.5
+      },
+      {
+        "x": 5,
+        "y": -0.5
+      },
+      {
+        "x": 6,
+        "y": -0.6
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-angry-db-uso",
+    "topic_type": "universal",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 354,
+    "created": "2026-11-13T08:24:57.147Z"
+  }
+}
