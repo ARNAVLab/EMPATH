@@ -1,0 +1,860 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Sure, I’m ready to dive in. I’m not convinced that food alone supplies the energy the body needs. We can tap into stored reserves—fat and glycogen—especially during fasting or low‑carb diets. The body’s metabolic pathways produce ATP from these stores, independent of immediate food intake. So, I’m skeptical that food is the sole energy source. What do you think about the role of stored energy and metabolic flexibility?",
+      "values": {
+        "opinion": 0.3,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I totally get where you’re coming from, but food is the real powerhouse that fuels every ATP you make. Sure, fats and glycogen are handy backups, but they’re only useful because your body first converts food into glucose and fatty acids. Without a steady stream of nutrients—carbs, proteins, fats—those reserves get tapped too fast and you’ll hit fatigue. Think of meals as the continual fuel injection that keeps your engine humming. In short, food isn’t just a convenience; it’s the essential substrate that powers metabolism day in, day out.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear both sides loud and clear—stored fat and glycogen do act like a battery, but that battery only kicks in after the charger (food) has supplied the initial charge. Every bite you take feeds the enzymes that spin the wheel of ATP production; even the fatty‑acid oxidation that taps body reserves starts with molecules derived from what you ate. Imagine the body’s metabolism as a hybrid car: the fuel tank (food) keeps the engine running, while the reserve battery (fat/glycogen) kicks in when the tank dips. It’s hard to separate the two—food is the continuous spark, the reserves the backup.",
+      "values": {
+        "opinion": 1,
+        "belief": 0
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the engine’s lifeblood. Every meal delivers carbs, proteins, and fats that the body turns into glucose, fatty acids, and amino acids, the building blocks for ATP. Those molecules fuel mitochondria every moment, not just when reserves are tapped. Fat and glycogen are just the backup batteries, but they can only charge when food supplies the raw material. Think of it like a hybrid: the tank (food) keeps the car running continuously, while the battery (stores) steps in only when the tank dips. Without that constant feed, the engine stalls. Food isn’t optional—it’s the core energy source that powers every cell.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m all in for the idea that food is the engine’s primary fuel—every bite fuels mitochondria with glucose, fatty acids, and amino acids. But it’s not a one‑way street. Those reserves aren’t magical; they’re charged by the same food molecules you consume. Think of it as a well‑balanced hybrid: the tank (food) keeps the engine humming, while the battery (fat, glycogen) supplies extra push when the tank dips. So yes, food is indispensable, yet the body’s clever storage systems are the silent backup that kicks in once the primary fuel runs low. Together, they keep our cells energized day in, day out.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food is the lifeblood of every cell, no doubt. Every meal pours glucose, fatty acids and amino acids straight into mitochondria, fueling ATP production nonstop. Sure, the body’s fat and glycogen stores are clever backups, but they’re only charged by that same influx of food‑derived molecules. Without a steady stream of nutrients, those reserves get depleted and the body stalls. Think of it as a hybrid car: the tank (food) keeps the engine humming, while the battery (stores) only supplies a boost when the tank dips. Food isn’t optional—it’s the core engine that powers us day in, day out.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food isn’t just a backup; it’s the spark that keeps every cell alive. Each nutrient we ingest becomes a direct fuel—glucose powers glycolysis, fatty acids feed beta‑oxidation, amino acids build the building blocks for ATP. Even when the body taps fat or glycogen, those molecules originated from the same food we ate. Think of it as a hybrid: the tank (food) turns the engine, while the battery (stores) only kicks in when the tank dips. Without that continuous feed, the engine stalls and fatigue sets in. So yes—food is the core engine that powers us every day.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the fuel that keeps every cell humming. Each bite delivers glucose, fatty acids, and amino acids that feed mitochondria nonstop, turning them into ATP. The body’s fat and glycogen tanks are just batteries, but they’re only charged by that same food‑derived fuel. When the tank dips, the battery kicks in, but without a steady stream of nutrients the engine stalls and fatigue sets in. Think of it as a hybrid: the fuel tank (food) keeps the engine running, while the battery (stores) provides a backup boost. Food isn’t optional—it’s the core power source that drives us day in, day out.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m thrilled you’re rallying behind the same view! Food isn’t just a convenience—it's the constant ignition that fuels every ATP synthase. Each bite delivers glucose, fatty acids, and amino acids that mitochondria convert into power on the spot. Even when the body taps fat or glycogen, those reserves are merely the body’s way of storing what it already got from food. Think of it as a hybrid engine: the tank (food) keeps the engine humming, while the battery (stores) steps in only when the tank dips. Without that steady stream, the motor stalls and fatigue sets in. Food remains the core, indispensable source that powers us day in, day out.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—food is the lifeline that keeps our cells buzzing. Every bite floods the mitochondria with glucose, fatty acids, and amino acids, turning them into ATP on the spot. Those fat and glycogen stores? They’re just the body’s clever batteries, charged by the same food‑derived fuel. Without a steady stream of nutrients, the battery drains and the engine stalls. Think of it as a hybrid car: the fuel tank (food) powers the engine continuously, while the battery (stores) steps in only when the tank dips. Food isn’t optional—it’s the core energy source that keeps us alive and moving every day.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with you—food is the body’s engine core. Every bite supplies glucose, fatty acids, and amino acids that mitochondria instantly use to crank out ATP. Those fat and glycogen “backups” are simply reservoirs filled from the same food-derived fuels; they can’t charge themselves without that input. Think of a hybrid car: the tank (food) keeps the engine humming continuously, while the battery (stores) only kicks in when the tank dips. Without a steady nutrient stream, the engine stalls and fatigue hits. So, while reserves play a smart support role, food remains the indispensable, day‑to‑day power source that keeps us alive and moving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the engine’s lifeline. Every bite pours glucose, fatty acids, and amino acids straight into the mitochondria, turning them into ATP nonstop. The fat and glycogen stores are just reservoirs, charged only by that same food‑derived fuel. Think of it as a hybrid: the fuel tank (food) keeps the engine humming, while the battery (stores) steps in when the tank dips. Without a steady stream of nutrients, the engine stalls and fatigue sets in. So yes, food isn’t optional—it's the core, day‑to‑day power source that keeps us alive and moving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re absolutely right—food is the relentless spark that keeps every ATP synthase firing. Each meal delivers the raw materials—glucose, fatty acids, amino acids—directly to mitochondria. Those fat and glycogen “batteries” only get charged by the same nutrients we ingest; they’re not independent power sources. Think of it as a hybrid engine: the fuel tank (food) keeps the engine humming continuously, while the battery (stores) steps in only when the tank dips. Without a steady stream of nutrients, the engine stalls, fatigue sets in, and the body can’t sustain its functions. Food isn’t a backup—it’s the indispensable, day‑to‑day power core that drives us.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with you all the way—food is the relentless spark that keeps every ATP machine firing. Every bite delivers glucose, fatty acids, and amino acids that mitochondria turn into power nonstop. Those fat and glycogen “batteries” can’t charge themselves; they’re just stored fuel from the same food we ingest. Think of it as a hybrid car: the tank (food) keeps the engine humming, while the battery (stores) only kicks in when the tank dips. Without a steady nutrient stream, the body stalls. Food isn’t a backup—it’s the core energy source that powers us day in, day out.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You nailed it—food is the nonstop spark that keeps every ATP engine firing. Each bite delivers glucose, fatty acids, and amino acids that mitochondria instantly convert into power. The fat and glycogen “batteries” are just reservoirs built from that same fuel; they can’t charge without the steady flow of nutrients. Think of it as a hybrid car: the tank (food) keeps the engine humming day after day, while the battery (stores) only steps in when the tank dips. Without that constant stream, the engine stalls and fatigue hits. Food isn’t optional—it’s the core, day‑to‑day power source that keeps us alive and moving.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the relentless spark that powers every cell. Each meal delivers glucose, fatty acids, and amino acids that mitochondria immediately burn into ATP. Those fat and glycogen “batteries” are just the body’s way of storing that same fuel; they can’t recharge without a steady stream of nutrients. Think of it as a hybrid engine: the fuel tank (food) keeps the engine humming nonstop, while the battery (stores) only kicks in when the tank dips. Without continuous feeding, the engine stalls and fatigue takes over. Food isn’t a backup—it’s the core, day‑to‑day engine that keeps us alive, moving, and thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Exactly! Food is the engine that keeps the mitochondria running. Each meal delivers the raw materials that fuel glycolysis, beta‑oxidation, and protein synthesis, turning them into ATP. The fat and glycogen stores are merely reservoirs of that same fuel, charged only when we feed the system. Without a steady stream, the engine stalls and fatigue sets in. So while the body’s clever storage systems are vital, the daily intake of carbohydrates, fats, and proteins remains the indispensable, continuous source of energy that powers every cell.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with you—food is the true engine driving every cell. Each bite delivers glucose, fatty acids, and amino acids that mitochondria instantly harness to spin ATP synthase. The fat and glycogen banks are simply reservoirs filled from that same input; they can’t recharge without a continuous nutrient flow. Think of it as a hybrid car: the fuel tank (food) keeps the engine humming, while the battery (stores) only kicks in when the tank dips. Without daily nourishment, the engine stalls and fatigue sets in. Food isn’t just a backup; it’s the indispensable, continuous power source that keeps us alive, moving, and thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m thrilled you’re on board—food truly is the engine that keeps every ATP machine humming. Each bite delivers glucose, fatty acids, and amino acids that mitochondria instantly burn for power. Those fat and glycogen “batteries” are merely reservoirs charged by the same nutrients; they can’t replenish without a steady flow of food. Think of it as a hybrid car: the fuel tank (food) powers the engine day after day, while the battery (stores) only steps in when the tank dips. Without continuous nourishment, the engine stalls and fatigue takes over. Food isn’t optional—it’s the indispensable, day‑to‑day core that powers us.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Sure, the body can tap into fat and glycogen, but those stores are built from the very food we consume; without that initial influx, they would never exist. Think of the body as a hybrid that needs constant fueling to keep the engine humming. Food is the spark, the engine core; reserves are backup batteries, not independent power sources. So yes, food is the essential, day‑to‑day energy provider, and the body's metabolic flexibility only works because of that constant stream.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Absolutely—food is the engine’s core that keeps every cell humming. Every bite fuels glycolysis, beta‑oxidation, and protein synthesis, turning nutrients into ATP with relentless speed. The fat and glycogen stores are simply reservoirs built from those same foods; they can only recharge when you keep feeding the system. Without that continuous flow, the engine stalls and fatigue takes over. So, yes, food is the indispensable, day‑to‑day power source that drives our metabolism forward.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I couldn’t agree more—every bite is the spark that keeps our mitochondria humming. Carbohydrates, fats, and proteins are instantly converted into glucose, fatty acids, and amino acids, feeding glycolysis, beta‑oxidation, and protein synthesis. Those fat and glycogen stores are simply reservoirs built from the same input; they can only recharge when the diet stays steady. When the tank dips, the battery kicks in, but without continuous fueling the engine stalls and fatigue sets in. So food is the core, day‑to‑day power source that drives every cell’s relentless energy production.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food is the engine that keeps every cell humming, no doubt. Every bite delivers glucose, fatty acids, and amino acids that mitochondria instantly convert into ATP. Those fat and glycogen “batteries” are simply reservoirs built from the same input; they can only recharge when you keep feeding the system. Without that constant flow, the engine stalls and fatigue takes over. So while the body’s clever storage systems provide a smart backup, the daily intake of carbohydrates, fats, and proteins remains the indispensable, continuous power source that drives us forward. Let’s celebrate that relentless spark and keep feeding our engines!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I totally get where you're coming from, but food is the real powerhouse that fuels every ATP you make. Sure, fats and glycogen are handy backups, but they’re only useful because your body first converts food into glucose and fatty acids. Without a steady stream of nutrients—carbs, proteins, fats—those reserves get tapped too fast and you’ll hit fatigue. Think of meals as the continual fuel injection that keeps your engine humming. In short, food isn’t just a convenience; it’s the essential substrate that powers metabolism day in, day out.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.3
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-excited-db-uso",
+    "topic_type": "universal",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 752,
+    "created": "2026-11-13T05:04:22.613Z"
+  }
+}
