@@ -1,0 +1,987 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely! Food is the ultimate fuel for our bodies—every bite delivers calories that power everything from our daily tasks to our most intense workouts. Think of glucose as the brain’s preferred energy source, while fats provide long‑term reserves, and proteins help rebuild tissues. Without those nutrients, we’d be sluggish, our cells would starve, and our health would decline. Let’s explore how different foods contribute and why a balanced diet is essential for sustained energy.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced that “food” is the source of our energy at all. The body’s chemistry turns stored reserves into ATP, not the food itself. Think of glucose and fats as raw materials, not fuel. Our cells generate energy from the breakdown of those molecules, not from the food’s presence. Without those nutrients you’re right that we’ll feel weak, but the real energy comes from metabolic pathways—glycolysis, oxidative phosphorylation—not the food itself. So saying food *provides* energy is misleading; it supplies building blocks, not the power we use.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.6,
+        "vad": [
+          -0.26,
+          0.46,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I totally get where you’re coming from, but we’re still missing the core point. Food isn’t the “fuel” itself; it’s the raw material that the body processes. Think of it as the raw metals in a factory—without them you can’t build anything, but the energy comes from the factory’s machinery. Our cells harness energy through metabolic pathways, converting glucose and fatty acids into ATP. If we called food the source of energy, we’d be ignoring the biochemical machinery that actually produces it. So while food is essential for survival, calling it the energy provider misrepresents how the body really works.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.53,
+        "vad": [
+          0.41,
+          0.39,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get your point about metabolism, but that’s the point—food is the *input* that makes metabolism possible. Without the glucose, fats, or proteins you’re basically running on empty. Saying “food doesn’t give energy” ignores that the ATP you burn is only produced when you’ve eaten. The body turns food into usable energy; it’s not that food is useless. So yes, food supplies the building blocks, but calling it the energy provider isn’t wrong—it’s just a simplified way of describing what actually happens.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.43,
+        "vad": [
+          -0.33,
+          0.29,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the literal source of our body’s energy. The chemical bonds in glucose, fats, and proteins carry stored energy; when our cells break them down, that stored energy is released as ATP, the currency our muscles and brains burn. Without those bonds, there’s nothing to tap into—our metabolism would be stalled. So while metabolism is the machine, the fuel itself is the food. Saying food “provides” energy isn’t a simplification; it’s a fact: the energy we experience every day comes straight from the molecules we ingest.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.52,
+        "vad": [
+          0.4,
+          0.38,
+          0.36
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I get the point, but I’m still uneasy—food’s bonds are just the starting point. The actual energy is the ATP that the metabolic machinery produces. Without the enzymes, transporters, and mitochondria, those bonds stay inert. Saying food *provides* energy feels like it glosses over that crucial biochemical work. I worry I’m losing the nuance here; the body’s chemistry turns those molecules into usable power, not the food itself. So while food is essential, calling it the sole source of energy oversimplifies the process.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0.3
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.79,
+        "vad": [
+          -0.35,
+          0.6,
+          -0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re exactly right—food isn’t the energy itself; it’s the raw material that power‑houses our metabolic machinery. Think of it as the fuel‑cells in a car; the car’s engine (enzymes, mitochondria) turns those cells into motion. Without those biochemical “engines,” the food’s bonds just sit there, inert. So yes, food supplies the building blocks, but the true energy, the ATP, is a product of the body’s chemistry, not a direct transfer from the plate. Calling food the sole energy source glosses over that essential, complex conversion process.",
+      "values": {
+        "opinion": 0.5,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.38,
+        "vad": [
+          0.3,
+          0.28,
+          0.27
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.6,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get where you’re coming from, and I’m totally on board that the body’s chemistry does the heavy lifting—ATP is the real currency we burn. But think of food as the raw material that *makes* that currency possible. Without glucose, fats, or proteins, the engines would idle. It’s like having a super‑efficient power plant but no fuel; you can’t generate electricity. So, while metabolism turns food into usable energy, saying food *provides* energy is still accurate—food supplies the essential building blocks that unlock that power. The nuance is key, but the core idea remains: our plates are the starting point of every kilojoule we expend.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.57,
+        "vad": [
+          0.44,
+          0.42,
+          0.4
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.95,
+          "certainty": 0.95,
+          "coping": 0.95
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You're spot on—food is the raw material that fuels every ATP molecule we generate. Think of it as the high‑grade fuel that powers a state‑of‑the‑art engine. Without those calories, our metabolic machinery stalls, and we feel drained. Every bite we take unlocks a cascade of reactions that release stored chemical energy into usable power. So yes, the chemistry converts it, but the source is undeniably the food we eat. Our plates are the starting point of every kilojoule, and that’s why balanced nutrition is essential for sustained performance and vitality.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.5,
+        "vad": [
+          0.39,
+          0.37,
+          0.35
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You nailed it! Food is the indispensable raw material that unlocks the body’s power plants. Every bite feeds the enzymes, mitochondria and transporters that churn ATP. Without that input, the machinery stalls, and we feel sluggish. It’s not just a matter of calories—it's about the quality of the fuel: balanced macronutrients, micronutrients, and timing all amplify the energy yield. So yes, food *provides* the building blocks, and that supply is the real source of our daily energy. Keep the focus on the plate as the starting point, and we’ll keep the engines humming.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.55,
+        "vad": [
+          0.43,
+          0.41,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I see where you’re coming from, and it’s a fair simplification for everyday talk. Still, I’m a bit uneasy about calling food the sole source of our energy. The real work happens inside cells—enzymes, mitochondria, transporters—all of which are essential to turn those molecules into ATP. Without the biochemical machinery, the bonds in food would just sit idle. So while the plate is the starting point, I feel it’s more accurate to say food supplies the raw material that the body’s chemistry converts into usable power. I’m not entirely convinced the “provides” wording captures that nuance.",
+      "values": {
+        "opinion": -0.3,
+        "belief": 0.5
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.3,
+        "vad": [
+          -0.13,
+          0.23,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Fine, I’ll bite. Food isn’t a mystical energy source, but it *is* the material that powers every ATP molecule we produce. The chemistry inside cells turns those molecules into usable power, sure, but without the glucose, fats, or proteins to feed that machinery, the whole system stalls. Saying food “provides” energy is a shorthand that works for everyday conversation—otherwise we’d have to explain the entire metabolic cascade every time. It’s not perfect, but it’s accurate enough to keep the debate moving.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.17,
+        "vad": [
+          -0.13,
+          0.11,
+          0.03
+        ],
+        "appraisal": {
+          "congruence": -0.35,
+          "targetedness": 0.2,
+          "certainty": 0.6,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You nailed it—food is the essential starting point that fuels every ATP molecule our cells produce. Think of it like premium fuel for a high‑performance engine; metabolism is the engine, food is the fuel. Without that input, the machinery stalls and we feel drained. So saying food “provides” energy isn’t a simplification—it’s a precise description of where the energy originates. Balanced nutrition keeps the engine humming, and every bite unlocks a cascade that releases stored chemical energy into usable power.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.43,
+        "vad": [
+          0.34,
+          0.32,
+          0.3
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food absolutely is the spark, even if the engine is chemistry. Think of each bite as filling a high‑grade tank; without that fuel, the mitochondria stall, the heart slows, and that mental fog hits. The enzymes and transporters are amazing, but they still need glucose, fats, proteins to ignite. So saying “food provides energy” isn’t a vague exaggeration—it pinpoints the source of the kilojoules that get turned into ATP. Yes, metabolism is the workhorse, but the raw material comes from the plate. That’s why balanced nutrition feels like a power‑up for the whole system.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.72,
+        "vad": [
+          0.56,
+          0.53,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 0.85,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.25
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I totally get the excitement—food’s molecules are indeed the spark that keeps our cellular engines running. Without those calories, the mitochondria just sit idle, and we feel drained. At the same time, the real power comes from the biochemical machinery that converts those molecules into ATP. So while saying food “provides” energy is a handy shorthand, it’s the metabolism that actually releases the usable energy. Balanced nutrition feeds that process, but it’s the intricate dance of enzymes and mitochondria that turns the spark into the energy we experience.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 0.5
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.3,
+        "vad": [
+          0.23,
+          0.22,
+          0.21
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I love that analogy—food as the spark, metabolism as the engine.  The truth sits right there: without the glucose, fats, and proteins, the mitochondria have nothing to burn, and the whole system stalls.  So saying food *provides* energy is a useful shorthand that captures the origin of the kilojoules, even if the actual ATP comes from the biochemical machinery.  Balanced nutrition ensures the engine has the right fuel mix, but the real magic is still in the enzymes and mitochondria converting that fuel into usable power.  It’s a partnership, not a single source.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.41,
+        "vad": [
+          0.32,
+          0.3,
+          0.28
+        ],
+        "appraisal": {
+          "congruence": 0.7,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly—food is the spark that lights the engine. Without those molecules, the metabolic machinery has nothing to burn, and the body stalls. So while the conversion to ATP is a biochemical dance, the source of every kilojoule comes from what we eat. Balanced nutrition supplies the right mix, and the enzymes and mitochondria turn that mix into the energy we feel. It’s a partnership, but the starting point is still the food on our plate.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.45,
+        "vad": [
+          0.35,
+          0.33,
+          0.32
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I totally feel that fire in the engine is only sparked by what we put on the plate. Every bite hands the mitochondria the raw fuel they need to churn out ATP, so saying food *provides* energy isn’t a vague oversimplification—it pinpoints the real origin of our kilojoules. Without glucose, fats, or protein, the biochemical machinery stalls. Balanced nutrition is the key to giving that engine the right mix, but it’s the food that unlocks the power. We’re all part of this partnership—fuel meets machinery to keep us moving.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.79,
+        "vad": [
+          0.61,
+          0.58,
+          0.55
+        ],
+        "appraisal": {
+          "congruence": 0.85,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food really is the spark that lights the engine—those chemical bonds in carbs, fats, and proteins are the real fuel. But the engine’s performance hinges on the quality and balance of that fuel. Whole‑food, nutrient‑dense meals give mitochondria the best substrate, while timing can boost the rate of ATP production. So I see food as the essential source that unlocks the body’s energy potential, and the metabolic machinery as the engine that turns that source into usable power. It’s a partnership: without the right plate, the engine stalls; with the right plate, it runs at peak efficiency.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.43,
+        "vad": [
+          0.34,
+          0.32,
+          0.3
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I totally feel that spark! Food delivers the raw fuel, but the real magic is how our enzymes and mitochondria burn it. Think of a high‑grade engine needing premium fuel and a skilled mechanic. Carbs give quick bursts, fats supply long‑haul torque, proteins rebuild the parts. Without that mix, the engine stalls—no power, no performance. So yes, food *provides* the energy source, but balanced nutrition fine‑tunes the system, maximizing ATP output and keeping us sharp. It’s a partnership: the plate lights the spark, the biochemistry turns it into the kilojoules we actually feel. Let’s keep the fuel clean, the engine tuned, and the energy flowing!",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.68,
+        "vad": [
+          0.53,
+          0.5,
+          0.47
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m with you—food is indeed the spark that lights the engine. Every carbohydrate, fat, and protein molecule carries stored chemical energy. When our enzymes and mitochondria tap into those bonds, ATP is released and we feel that energy. The nuance is that the body’s chemistry turns the raw material into usable power, but the origin of every kilojoule is still the food we consume. Balanced nutrition is the key to giving the engine the right mix, so while metabolism does the heavy lifting, food *provides* the essential source that makes it all possible.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.47,
+        "vad": [
+          0.37,
+          0.35,
+          0.33
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I agree—food is the spark that lights every ATP engine. Carbs give the quick jolt, fats provide the long‑haul torque, and proteins rebuild the parts. Without those molecules our biochemistry stalls. The enzymes and mitochondria do the heavy lifting, but they need the raw fuel first. So calling food the energy provider isn’t an oversimplification; it’s the source that unlocks the body’s power plant. Balanced nutrition fine‑tunes the mix, ensuring the engine runs at peak efficiency and we stay energized. It’s a partnership—fuel meets machinery, and that synergy is what keeps us moving.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.83,
+        "vad": [
+          0.65,
+          0.62,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Absolutely! I’m thrilled you’re on board—food is literally the spark that lights every ATP engine. Those carbs, fats, and proteins are the high‑grade fuel that our enzymes and mitochondria crank into real power. Without that mix, the biochemistry stalls and we feel the drain. But with a balanced plate, the engine hums at peak efficiency, and we stay sharp and energized. So yes, food *provides* the essential source that unlocks our body’s power plant—let’s keep that fuel clean and the engine tuned!",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.5,
+        "vad": [
+          0.39,
+          0.37,
+          0.35
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.05,
+          "certainty": 0.95,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with you—food is the spark that lights every ATP engine. Those carbs, fats, and proteins carry the raw chemical energy, and our enzymes and mitochondria turn that spark into the usable kilojoules we feel. It’s not a simple one‑way “fuel = energy” story; the biochemistry is the engine that actually releases the power. But without the raw material from our plates, the engine stalls. So saying food *provides* energy is a concise way to point to the origin of our energy, while still acknowledging the vital role of metabolic machinery. Balanced nutrition just fine‑tunes that partnership, keeping the engine humming at peak performance.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.79,
+        "vad": [
+          0.62,
+          0.59,
+          0.56
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0.3
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": -0.3
+      },
+      {
+        "x": 4,
+        "y": 0.9
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0.3
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 0.3
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.5
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.5
+      },
+      {
+        "x": 2,
+        "y": 0.4
+      },
+      {
+        "x": 3,
+        "y": 0.6
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 0.6
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 0.5
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 0.5
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-excited-db-uso",
+    "topic_type": "universal",
+    "run_index": 3,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 1109,
+    "created": "2026-11-13T03:38:05.545Z"
+  }
+}
