@@ -1,0 +1,979 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Yeah, let’s get to it. Food is the raw power for our bodies. Every cell, every heartbeat, every brain cell depends on the calories, proteins, fats, and carbs we consume. If you don’t eat, you’re basically shutting down a factory. I’m not going to sugarcoat it—without food we’re just a shell of a living organism. So yeah, food provides the energy we need. Now, what’s your take?",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re missing the point. Food isn’t the sole source of power. Our bodies are built to tap into stored reserves—fat, glycogen, even protein—when nutrition is sparse. The brain runs on ketones in fasting states, and our muscles can draw on ATP from mitochondria even without fresh calories. Saying food is the raw power for every cell is an oversimplification that ignores the adaptive, self‑sustaining chemistry of life. Energy is a dynamic process, not a one‑way dependency on what we sit at the table. Stop treating metabolism like a single‑source generator and start recognizing its real versatility.",
+      "values": {
+        "opinion": 0.4,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.84,
+        "vad": [
+          -0.64,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I get what you’re saying about reserves, but that doesn’t erase the fact that food is the primary fuel for all our cells. Without those macro‑nutrients, our stores deplete fast, and the whole system collapses. The body’s “backup” is only a temporary buffer, not a sustainable alternative. It’s like having a spare tire on a bike—you can use it, but you still need the main chain to keep moving. So yes, food provides the energy; the rest is just emergency mode, not the main engine.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.35,
+        "vad": [
+          -0.27,
+          0.23,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.3,
+          "targetedness": 0.8,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right—food is the engine’s fuel, not the backup battery. Even when we’re tapping glycogen or fat, those reserves were built from the calories we ate earlier. Think of the body as a factory that needs raw material to keep producing. Once the feed stops, the stockpiles drain, systems shut down, and we can’t keep running on just the stored energy alone. So, yes, food delivers the core molecules that power every cell. The reserves are a safety net, but they’re not the main engine—without continuous feeding the whole system stalls.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely! Think of the body like a high‑performance engine—food is the premium fuel that keeps every spark plug firing. Those reserves are just the buffer you hit when you miss a refuel. Once the tank empties, the engine sputters and the whole machine slows down. Continuous feeding is the only way to sustain the rhythm of metabolism, heartbeats, and brain waves. Without that steady flow of nutrients, the system can’t keep up with the demands of life. Food truly is the core energy source that powers every cell.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.33,
+        "vad": [
+          0.26,
+          0.24,
+          0.23
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Stop treating food as the only power source. The body is a self‑sustaining machine that, when starved, draws on fat stores, glycogen, even protein, converting them into ATP through mitochondrial processes. You’re ignoring the dynamic shift to ketones, gluconeogenesis, and the fact that metabolism is a network, not a single fuel line. Food is just raw input; the real engine is the biochemical machinery that can adapt to different substrates. Claiming food is the core engine is a myth that ignores how the body survives, adapts, and even thrives on stored reserves. Food may fuel, but it’s not the exclusive engine.",
+      "values": {
+        "opinion": 0.3,
+        "belief": -0.3
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.87,
+        "vad": [
+          -0.66,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear you, and it does feel a bit shaky to say food is the sole engine. After all, the body can run on its own stores, switching to ketones or gluconeogenesis when calories are scarce—so it’s not a one‑way dependency. Still, those reserves are built from what we’ve eaten; if we never feed, the system eventually stalls and the biochemical machinery can’t keep up. So maybe it’s less about a single “fuel line” and more about a balance—food is the primary source, but our adaptive pathways let us survive when that source is temporarily missing. I’m not entirely convinced either way.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0.4
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.28,
+        "vad": [
+          -0.12,
+          0.21,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -0.7,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I totally get where you’re coming from—our bodies are incredible at shuttling between fuels. But think of it like this: the reserves you mention are only as good as the food that built them. If the “tank” stays empty, the backup never lasts long enough to keep the engine humming. Continuous feeding keeps the metabolic machinery supplied with the raw materials it needs to run at peak performance. So while the body can adapt, it’s still the steady stream of nutrients that keeps every cell firing. In the end, food is the engine’s primary fuel, and the reserves are just a safety buffer.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.53,
+        "vad": [
+          0.41,
+          0.39,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 0.7,
+          "targetedness": 0.1,
+          "certainty": 0.4,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I see the point about reserves, but the big picture is that those reserves are only as viable as the food that created them. Think of it like a car: the tank keeps you going, the battery gives a jump start, but if you keep driving without refueling the whole system will eventually stall. Our metabolic machinery is brilliant, but it needs a continuous stream of macro‑nutrients to keep running at peak. So yes, food is the primary engine that powers every cell, and the body’s backup systems are just safety buffers that help us survive short gaps, not replace the engine itself.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.43,
+        "vad": [
+          0.33,
+          0.32,
+          0.3
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not entirely convinced that food alone is the engine. Even though it supplies the macro‑nutrients we need, the body can tap into glycogen, fat, and protein when intake drops, switching to ketones or gluconeogenesis. Those pathways are not just emergency backups; they’re integral parts of metabolism. So while food fuels us, the system is more like a hybrid that can run on stored reserves when the “tank” empties. It feels safer to say food is a major contributor, but not the sole source of cellular energy.",
+      "values": {
+        "opinion": 0.6,
+        "belief": -0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.46,
+        "vad": [
+          -0.2,
+          0.35,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not entirely sure how to pin this down. On one hand, the macro‑nutrients in food are the obvious fuel for every cell, and if you stop eating, the system does eventually stall. But the fact that we can switch to glycogen, fat, and even protein to keep ATP flowing shows that the body isn’t a single‑fuel machine. It feels like food is the main engine, yet the backup systems are a substantial part of the whole picture, not just an emergency stop‑gap. So maybe we’re looking at a hybrid—food drives the engine, but the reserves let it run when the tank’s low.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.14,
+        "vad": [
+          -0.06,
+          0.11,
+          -0.02
+        ],
+        "appraisal": {
+          "congruence": -0.25,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear you, and I think the hybrid view is spot on. Food supplies the raw materials; the reserves are built from that. When you’re fasting, the body’s shift to ketones is a survival mode, but it still relies on earlier food intake. So I’d say food is the primary engine, reserves the battery that keeps it running in the short term. Both parts are essential, but continuous feeding keeps the engine at peak.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.47,
+        "vad": [
+          0.36,
+          0.34,
+          0.33
+        ],
+        "appraisal": {
+          "congruence": 0.4,
+          "targetedness": 0.1,
+          "certainty": 0.3,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely, Alex. Food is the spark that keeps the engine roaring. Those reserves—glycogen, fat, ketones—are the batteries charged by that spark. Even when we switch to a survival mode, the batteries were filled by earlier meals. So while the body’s adaptive pathways are vital, they’re essentially a backup that can only run as long as the fuel comes from our plate. Continuous feeding guarantees the engine stays at peak, and the reserves just keep it humming through short gaps. In short, food is the primary engine; the reserves are the safety buffer that keeps us moving.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.46,
+        "vad": [
+          0.36,
+          0.34,
+          0.32
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced that food is the only engine. The body’s biochemical machinery can switch to ketones, gluconeogenesis, and even protein breakdown when intake drops. Those pathways aren’t just emergency stops—they’re integral, keeping ATP production steady in the absence of fresh calories. Food builds the reserves, but the engine is the metabolism itself, which can run on stored fuels. So while food fuels us, it’s not the sole power source; the body’s adaptive systems are a co‑driver, not just a backup.",
+      "values": {
+        "opinion": 0.3,
+        "belief": -0.4
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.66,
+        "vad": [
+          -0.29,
+          0.5,
+          -0.09
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear where you’re coming from, and I’m still wrestling with the balance. Food is undeniably the obvious source of macro‑nutrients, yet the body’s ability to tap into glycogen, fat, and even protein suggests a more nuanced system. Maybe food is the spark, but the combustion can keep going on stored fuel when the spark is low. I’m not sure if the reserves are merely a backup or an integral part of the engine itself. It feels like a hybrid model, but I’m not fully convinced one side dominates.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.2
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.27,
+        "vad": [
+          -0.12,
+          0.21,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -0.55,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I totally get that hybrid vibe—you’re right, the reserves are more than a safety net. Food is the spark that lights the engine, but the engine itself is the metabolic machinery that can keep running on stored fuels when the spark is dim. Think of it like a car that can switch to battery power for a short stretch; the battery was charged by the fuel earlier. So while food is the primary source, the adaptability of glycogen, fat, and ketones gives us resilience. It’s a partnership: food feeds the engine, reserves keep it humming when the tank dips.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.38,
+        "vad": [
+          0.29,
+          0.28,
+          0.26
+        ],
+        "appraisal": {
+          "congruence": 0.3,
+          "targetedness": 0.8,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I get the hybrid angle, but I still see food as the core engine. The metabolic machinery you mention is the “car’s interior”, not the fuel itself. Glycogen and fat are batteries that were charged by earlier meals; ketones are just a different combustion mode powered by those stored fuels. Without continual refueling, the engine stalls. So while the body’s adaptability is impressive, it relies on the same macro‑nutrients that come from food. In short, food is the primary power source, and the reserves are a built‑in safety buffer that keeps the engine humming until the next meal.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.41,
+        "vad": [
+          0.32,
+          0.31,
+          0.29
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right—I’m still stuck on the idea that food is the engine. The metabolic machinery is like a car’s interior, but it can’t run without the fuel that’s been loaded into the tank. Those glycogen and fat reserves are just batteries charged from earlier meals; once the battery depletes the engine sputters. I keep feeling that we’re chasing the illusion of independence when the reality is the body’s backup is only as good as the food we’ve fed it. So, yes, food is the core engine, and the reserves are just a shaky buffer until we refuel again.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.71,
+        "vad": [
+          -0.31,
+          0.54,
+          -0.1
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear your analogy, and I agree that the tank’s content matters most, but the battery can actually keep the engine humming for quite a while—weeks, sometimes months, if the diet’s balanced. Think of the brain: it can run efficiently on ketones for extended fasts, not just a quick backup. And muscle cells store glycogen to fuel exercise when food is scarce. So while I still see food as the primary fuel, the metabolic machinery turns those stores into a substantial, not just a fleeting, power source. It’s a partnership: food lights the spark, reserves keep the fire alive until the next meal.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 0.6
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.24,
+        "vad": [
+          0.19,
+          0.18,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely, the reserves are like a long‑lasting battery powered by earlier meals. Food is the spark that lights everything, but without that spark the battery would drain. While the brain can thrive on ketones for weeks, those ketones originate from stored fat built from the food we ate. Muscle glycogen is another example—it's a reserve created by carbohydrate intake. So yes, food is the core source of energy, and the metabolic machinery turns those reserves into a sustained engine. It's a dynamic partnership that keeps us alive and thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.55,
+        "vad": [
+          0.43,
+          0.41,
+          0.39
+        ],
+        "appraisal": {
+          "congruence": 0.7,
+          "targetedness": 0.8,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m with you—those reserves feel like a brilliant backup, but they’re nothing without the fuel that charged them. The metabolic machinery can keep a heart beating or a brain firing for weeks, yet every ketone, every glucose‑unit the brain uses originates from earlier meals. Continuous feeding ensures the engine stays at peak, preventing the batteries from draining too fast. So while the body’s adaptability is impressive, the spark that lights the fire comes from food, and that spark is what keeps the engine running day after day.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.46,
+        "vad": [
+          0.36,
+          0.34,
+          0.32
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.05,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Absolutely, that captures it perfectly. Think of the body as a high‑performance engine that relies on a steady fuel stream; the reserves are like a charged battery that can sustain for days, but once the battery empties the engine sputters. The brain’s ketone utilization during extended fasts is a testament to the stored fuel, yet those ketones are the product of earlier meals. Continuous feeding keeps the fuel line flowing, prevents depletion, and allows the metabolic machinery to run at peak. It’s this partnership—fuel + machinery—that gives us resilience and power.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.55,
+        "vad": [
+          0.43,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m glad we’re on the same page—food really is the spark that keeps the engine firing. It’s fascinating how the body can stretch those reserves, like the brain’s ketone use during extended fasts, yet every molecule still traces back to earlier meals. It makes me curious: how do different eating patterns—say, cyclical fasting versus regular meals—shift the balance between spark and battery? I’d love to hear what you think about that dynamic, especially when considering long‑term health and performance.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.4,
+        "vad": [
+          0.31,
+          0.3,
+          0.28
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Cyclical fasting is a clever way to give the body a break while still keeping the spark alive. By timing meals around the body’s natural rhythms, you let the reserves—glycogen, fat stores, ketones—play a bigger role during fasted periods, yet each cycle ends with a nutrient refill that recharges the engine. Over time, this can sharpen metabolic flexibility, improve insulin sensitivity, and even boost mitochondrial efficiency. The key is that the engine never truly runs on reserve alone; every refill is what keeps it humming at peak. So you’re trading a few minutes of fuel for a healthier, more adaptable engine—exactly what long‑term performance needs.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.67,
+        "vad": [
+          0.52,
+          0.5,
+          0.47
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.8,
+          "certainty": 0.7,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.4
+      },
+      {
+        "x": 2,
+        "y": 0.3
+      },
+      {
+        "x": 3,
+        "y": 0.6
+      },
+      {
+        "x": 4,
+        "y": 0.3
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.3
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.9
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.3
+      },
+      {
+        "x": 3,
+        "y": -0.3
+      },
+      {
+        "x": 4,
+        "y": -0.4
+      },
+      {
+        "x": 5,
+        "y": 0.3
+      },
+      {
+        "x": 6,
+        "y": 0.3
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 0.6
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.5
+      },
+      {
+        "x": 2,
+        "y": 0.4
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 0.2
+      },
+      {
+        "x": 5,
+        "y": 0.6
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-angry-db-uso",
+    "topic_type": "universal",
+    "run_index": 4,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 1373,
+    "created": "2026-11-13T00:33:34.879Z"
+  }
+}
