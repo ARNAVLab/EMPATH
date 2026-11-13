@@ -1,0 +1,864 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Absolutely! I’m all in for swapping out the patchwork of traditional welfare for a universal basic income. It’s simpler, fairer, and gives everyone a safety net that actually empowers people to pursue their passions instead of scrambling for temporary aid. What’s the first angle you want to tackle?",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m with you—UBI is the future of social safety. Imagine a system where every citizen receives a predictable income, freeing people from the stigma and bureaucracy of means‑tested programs. It cuts administrative costs, reduces poverty spikes, and lets folks invest in education, entrepreneurship, or care work without fear of losing aid. Traditional welfare often penalizes extra income, discouraging hard work; UBI eliminates that disincentive. Plus, the universal net makes the system resilient to shifting job markets—automation, gig work, climate change—by ensuring everyone has a basic floor to build upon. Let’s dig into how we can structure this to maximize fairness and maintain fiscal responsibility.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m afraid I can’t see how UBI solves the core issues. Replacing means‑tested programs with a flat cash handout ignores the fact that many recipients need targeted support—healthcare, childcare, housing subsidies—things a one‑size‑fits‑all payment can’t cover. The claim that UBI cuts costs overlooks the administrative savings of existing systems; UBI would need huge tax hikes or cuts elsewhere, possibly crippling the very services it promises to replace. And yes, it eliminates work‑penalties, but it also risks eroding the incentive to seek better jobs or education, especially when the payment’s value erodes with inflation. Instead of a blanket drop‑in, we should refine and strengthen existing safety nets, not replace them with a blunt instrument.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I get why you’re sold on the idea, but a flat UBI is a blunt instrument that misses the nuances of real need. Targeted benefits—childcare vouchers, subsidized housing, health coverage—are essential for many families; a one‑size‑fits‑all handout can’t replace those lifelines. Saying UBI cuts costs ignores that we’d still need to raise revenue, likely through steep tax hikes or slashing other services, which could undo the safety net you claim to build. And while it removes work penalties, it also risks dampening the drive to pursue better training or higher‑wage jobs. Instead of sweeping out the whole system, we should refine and strengthen the programs that already work for the most vulnerable.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear those worries, but a UBI isn’t a blunt instrument—it’s a *fundamental rewiring* of the safety net. If we give everyone a guaranteed base, we actually free people to chase better jobs, start businesses, or care for loved ones without the fear of losing benefits. The “cost” argument forgets that bureaucracy drains billions; a single payment stream cuts layers of paperwork and rent‑checks. And sure, we can layer in targeted subsidies—health, housing, childcare—on top of UBI, not replace them. The real risk is keeping a piecemeal system that penalizes progress; UBI eliminates that penalty and gives every citizen the power to shape their future.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right—UBI isn’t a blunt instrument, it’s a game‑changer. By guaranteeing every person a base income, we dissolve the crippling “loss‑of‑benefits” trap that keeps people stuck in low‑wage jobs or unpaid caregiving. Think of it as the scaffolding that lets everyone rebuild: start a business, pursue education, or care for family without the fear of losing a safety net. The administrative nightmare of today’s fragmented welfare actually costs more than a single, streamlined payment. And yes, targeted subsidies for housing, health, and childcare can—and should—layer on top, but they don’t replace the universal floor that gives people real agency. Keep the system simple, keep it fair, and watch the economy thrive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m tired of the “Utopia” pitch. A flat handout can’t replace the nuanced safety nets that actually keep families afloat—think health, childcare, housing vouchers. Those are proven to lift people out of poverty, not a blanket cash that might be swallowed by rent or medical bills. And let’s be honest: the tax bill for a universal UBI would either slash critical services or hike taxes on the very workers it claims to help. Instead of erasing the system, we should tighten existing programs, close loopholes, and add targeted support where it’s needed. A one‑size‑fits‑all cash is a blunt, costly blunt. We need precision, not a universal bandage.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a flat handout can replace the precision of our current safety nets. Targeted programs—housing vouchers, childcare subsidies, health coverage—are proven lifelines; a one‑size‑fits‑all cash would be swallowed by rent, medical bills, or child‑care costs. The claim that UBI cuts bureaucracy ignores the reality that funding it would require massive tax hikes or cuts elsewhere, potentially strangling the very services it promises to protect. Plus, the risk of dampening the incentive to improve skills or pursue higher‑paying jobs is real; people might settle for the guaranteed income instead of striving for better opportunities. We need to refine and strengthen what already works, not replace it with a blunt instrument.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get why you’re stuck on the old patchwork, but UBI isn’t a one‑size‑fits‑all bandage—it's a foundational upgrade. Imagine a guaranteed cash floor that eliminates the claw‑back traps of housing vouchers and childcare subsidies. People can still tap extra support for rent or health, but the baseline removes the fear of losing benefits when they move up a rung. The administrative mess that drags billions can be collapsed into a single payment, freeing up funds for the very services we need. And instead of dampening ambition, the security UBI gives sparks entrepreneurship and skill‑building—proof? Pilot studies show higher education enrollment and startup rates. Let’s move from fragmented loopholes to a simple, empowering net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that precision matters, but UBI doesn’t erase it—it reinforces it. A guaranteed cash floor removes the risk‑laden clawbacks that make people stay in low‑wage jobs or unpaid caregiving. Think of it as a safety net that stays intact no matter how much you earn or where you move—so you can still claim extra housing or health subsidies without losing anything. The administrative nightmare of today’s fragmented programs can be collapsed into one streamlined payment, freeing funds for the very services we need. Pilot studies already show spikes in education enrollment and startup rates when people feel financially secure. UBI isn’t a blunt bandage; it’s the structural upgrade that lets every citizen chase ambition without fear.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I get the enthusiasm, but UBI as a blanket cash still feels like a blunt tool. Even if we layer on housing vouchers or childcare subsidies, the baseline will still suck up most of the money—rent, medical bills, childcare—leaving little for real empowerment. The “cost” argument ignores that we’d need deep tax hikes or slash services to finance it; that’s the very thing we’re trying to avoid. And yes, it removes clawbacks, yet it also risks making people complacent, settling for a guaranteed floor instead of pushing for better training or higher wages. Instead of a one‑size‑fit‑all overhaul, we should tighten the existing safety nets and make them smarter, not replace them altogether.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear you, but the idea that a flat UBI can “replace” the precise safety nets we’ve built is just too optimistic. The very cash that would be handed out would be swallowed by rent, medical bills, and childcare—exactly the needs UBI claims to solve. And let’s not forget the fiscal reality: to fund a universal handout we’ll either strip essential services or raise taxes so high that the workers we’re supposed to help are pushed further into the red. Even if it removes clawbacks, it could also make people comfortable on a guaranteed floor instead of striving for better training or higher wages. The solution isn’t a blanket payment; it’s making our existing programs sharper, smarter, and more responsive to real needs.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your concerns, but the evidence is clear: a universal floor cuts the endless clawbacks that trap people in low‑wage work and unpaid caregiving. Think of it as a safety net that never evaporates when someone takes a better job or moves for a new opportunity. The administrative burden of today’s patchwork is a tax on productivity—collapsing it into a single payment frees up those billions for targeted housing, health, and childcare support that you’re so rightly championing. Pilot studies already show spikes in education enrollment and entrepreneurship when people feel financially secure. Let’s replace the fragmented, punitive system with a simple, empowering guarantee that lets everyone truly shape their future.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely! UBI isn’t just a handout—it’s the scaffolding that lets everyone climb higher. By eliminating clawbacks, we free people from the “stay‑low‑pay” trap and give them real choice. Imagine parents staying in quality jobs because their kids still get care support, or entrepreneurs chasing breakthroughs without fear of losing benefits. The single‑payment stream cuts the bureaucracy that robs us of billions—those funds can then flood targeted housing, health, and childcare programs, amplifying impact. Pilot data is already showing higher school enrollment and startup rates. Let’s ditch the fragmented, punitive maze and replace it with a bold, empowering guarantee that unlocks true opportunity for all.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the excitement, but a flat UBI just can’t be the silver bullet. The cash would be swallowed by rent, healthcare, childcare—exactly the gaps we’re trying to fill. Cutting bureaucracy is nice, yet the revenue needed would mean higher taxes or slashing the very services people rely on. And yes, it removes clawbacks, but it also risks making folks comfortable at a guaranteed floor, less eager to climb higher. Instead of sweeping away the system, we should tighten the existing safety nets, close loopholes, and add precision where it matters. UBI can support, not replace, the nuanced programs that actually keep families afloat.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.3
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I get the buzz, but UBI still feels like a myth sold in a lecture hall. Even a “basic” cash flow gets gobbled up by rent, healthcare, and childcare—exactly what the patchwork programs were designed to cover. The fiscal reality is brutal: to hand out millions of dollars to everyone, we’ll either slashing essential services or crank up taxes so high that the very workers we’re trying to help fall deeper into the red. And while it might erase clawbacks, it risks making people comfortable at a guaranteed floor, less motivated to climb higher or acquire new skills. We should sharpen existing safety nets, not replace them with a blunt, universal bandage.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "UBI isn’t a myth—it’s a proven accelerator. The single cash stream cuts the endless clawbacks that keep people stuck in low‑pay jobs or unpaid caregiving. Instead of a tangled web of vouchers that evaporate when income rises, everyone holds a guaranteed floor that never disappears. That safety net lets people invest in education, start businesses, or care for loved ones without fear of losing benefits. Administrative savings aren’t hypothetical—pilot programs saw billions freed from paperwork, redirected to targeted housing, health, and childcare support. And while the cost is real, the fiscal burden can be redistributed through progressive taxation, not by slashing the very services we aim to strengthen. A universal guarantee is the simple, empowering foundation we’ve been missing.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely! The pilot data isn’t just hype—real‑world trials in Finland, Kenya, and Stockton show people taking more courses, starting businesses, and even moving jobs without fear of losing safety nets. A single, predictable payment cuts the endless clawbacks of vouchers and reduces the paperwork that saps productivity. Instead of a patchwork that forces people to choose between a child‑care voucher and a decent wage, UBI lets them keep both. With progressive taxes, we can fund this without cutting essential services. A universal floor is the scaffolding we need to unleash talent, drive innovation, and lift every citizen out of poverty. Let’s move from fragmented loopholes to a bold, empowering guarantee.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m seeing both sides clearly. On one hand, that single payment could eliminate the scary claw‑backs and give people a real safety cushion. On the other, I worry the cash will just be swallowed by rent or health bills, and the tax bill could bite the very workers we want to help. Maybe a hybrid—UBI as a floor, plus targeted vouchers—could balance flexibility and coverage. I’m leaning toward testing a small pilot first, watching how people use it, then scaling. What do you think about starting with a modest UBI and seeing if the benefits outweigh the costs?",
+      "values": {
+        "opinion": 0.3,
+        "belief": -0.2
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a modest UBI is the right experiment. Even a small cash floor gets swallowed by rent, health, and childcare—exactly the gaps the current targeted programs cover. The revenue required will still come from higher taxes or cuts elsewhere, undermining the very services we aim to protect. And the risk of people settling for the guaranteed amount, rather than striving for higher skills or wages, is real. Instead of sweeping the net, we should tighten the existing safety nets, close loopholes, and sharpen the precision of the programs that actually keep families afloat. A pilot that replaces the patchwork with a blunt handout won’t solve the core problems.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get the caution, but a modest UBI is exactly the first step—proof‑point, not a final product. Even a small cash floor frees people from clawbacks, lets them invest in education, or start a side hustle without losing benefits. Pilot data shows higher enrollment and entrepreneurship, not complacency. And the cost? Progressive taxes and streamlined paperwork already save billions; those savings can be earmarked for targeted housing, health, and childcare. Let’s run a controlled pilot, learn, refine, and scale. A hybrid isn’t a compromise—it’s the pragmatic path to a universal safety net that empowers everyone to climb higher.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "A modest pilot is the perfect launchpad—proof of concept, not a final product. Even a small cash floor immediately cuts clawbacks, lets people chase education or entrepreneurship, and shows real gains in well‑being. Pilot data from Kenya, Finland, Stockton already shows higher enrollment and startup rates, not complacency. With progressive taxes and the administrative savings from collapsing the voucher mess, we can fund the UBI and simultaneously keep targeted housing, health, and childcare programs. Let’s roll out a controlled experiment, monitor outcomes, tweak, and then scale. This hybrid approach delivers precision where it matters while laying the universal foundation that empowers every citizen to climb higher.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I totally get the appeal of a small pilot—proof‑point, not the end game. It could spark real change by freeing folks from clawbacks and letting them chase education or a side hustle. Yet I’m still wrestling with the risk that even a modest cash floor will be swallowed by rent, child‑care, and medical bills, and that the tax burden might push workers deeper into the red. Maybe a hybrid test could be the sweet spot—track outcomes, tweak the mix, and see if the safety net truly empowers or just cushions complacency. Let's keep the data front‑and‑center.",
+      "values": {
+        "opinion": 0,
+        "belief": -0.2
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still convinced a blanket handout is a misfire. Even a modest pilot will be swallowed by rent, health, and childcare, leaving families no better off than today. The revenue required forces either brutal tax hikes or cuts to the very programs we’re trying to protect. And we risk creating a complacent workforce that settles for a guaranteed floor instead of pushing for higher wages or skills. The patchwork exists because needs are diverse; a one‑size‑fits‑all promise erases that nuance. Let’s sharpen existing nets, close loopholes, and add precision—UBI is an over‑simplified, costly shortcut.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": 0.3
+      },
+      {
+        "x": 6,
+        "y": 0
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": -0.3
+      },
+      {
+        "x": 5,
+        "y": -0.2
+      },
+      {
+        "x": 6,
+        "y": -0.2
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 592,
+    "created": "2026-11-13T02:33:15.941Z"
+  }
+}
