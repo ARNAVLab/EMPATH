@@ -1,0 +1,972 @@
+{
+  "characters": [
+    {
+      "name": "Olivia Carson",
+      "profession": "Nurse",
+      "personality": "ISFJ",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Evan Carter",
+      "profession": "Mechanical Engineer",
+      "personality": "ISTP",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Lucas Meyer",
+      "profession": "Motivational Speaker",
+      "personality": "ENFP",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jackson Moore",
+      "profession": "Paramedic",
+      "personality": "ESTP",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Evan Carter",
+      "content": "Sure. From a practical standpoint, replacing targeted welfare with a blanket UBI would create more inefficiency than benefit. Welfare checks that are income‑based or need‑based can be calibrated to the exact level of assistance required, reducing waste. A flat UBI pays everyone regardless of circumstance, so many recipients would be over‑supported while those who need more help might still fall short. Also, it removes incentives for community support networks that have evolved around specific programs. In short, a well‑designed targeted system works better than a one‑size‑fits‑all approach.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "calm",
+        "intensity": 0,
+        "vad": [
+          0,
+          -0.5,
+          0
+        ],
+        "appraisal": null,
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I hear your concern about waste, but a universal payment actually cuts out a lot of red tape. When every eligible person gets a basic stipend, the system is simpler, less prone to fraud, and it removes the shame of “getting help.” Targeted programs create silos that ignore those falling through the cracks—especially people who need just a little extra but don’t meet strict thresholds. UBI ensures everyone has a safety net, fostering dignity and allowing people to pursue work or education without fear. It’s not a one‑size‑fits‑all in the negative sense; it’s a consistent baseline that protects against poverty for all.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.41,
+        "vad": [
+          -0.31,
+          0.27,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Absolutely—think of UBI as a giant, open‑handed hug that everyone can lean into! While targeted programs aim for precision, they also create invisible walls and a lot of paperwork that can drown people in bureaucracy. A flat stipend wipes out that stigma, letting folks focus on learning, starting a side hustle, or caring for a sick relative without the dread of “not qualifying.” It gives a universal safety net that sparks creativity and resilience. And hey, when we’re not shuffling boxes of needs, we can actually build stronger community bonds—people can help each other because nobody feels left out or judged by a bureaucratic label. Let’s keep the dream alive!",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.36,
+        "vad": [
+          0.28,
+          0.27,
+          0.25
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Listen, I’m not buying the “one‑size‑fits‑all” hype. UBI is like giving every kid a free lunch, but still letting the cafeteria serve a menu that doesn’t fit their tastes. Targeted welfare is fine‑tuned—people who need a food stamp for a month get it, not a year’s worth of extra cash that no one spends on groceries. The bureaucracy isn’t the problem; it’s the waste. A blanket payout will inflate costs, and we’ll still have gaps for those who need more than the flat amount. Let’s keep the programs sharp, not spread thin across everyone. Efficiency beats the illusion of simplicity.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.45,
+        "vad": [
+          -0.34,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Evan Carter",
+      "content": "You’re right about the waste. A flat UBI inflates costs with no adjustment for actual need. Targeted programs are designed to deliver precise amounts, so they’re far more efficient. If we pay everyone the same, we’re subsidizing people who don’t need it while still leaving gaps for those who do. The bureaucracy that critics complain about is necessary to allocate resources where they’re most needed. A streamlined, data‑driven approach to welfare can reduce paperwork without sacrificing precision. In practice, we should keep programs targeted, not replace them with a universal blanket.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.32,
+        "vad": [
+          0.25,
+          0.24,
+          0.23
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I understand your concerns about waste, but that fear of “inflated costs” overlooks the real cost of shame and bureaucracy. When we give everyone a simple, dignified stipend, we erase the invisible walls that make people feel judged or stuck. Targeted programs, while precise on paper, often leave the most vulnerable in the cracks—those who slip through thresholds yet still need help. A universal net doesn’t simply blanket everyone; it restores dignity, reduces stigma, and frees people to focus on healing, learning, or caring for loved ones. We owe it to our community to replace the fragmented, judgment‑laden system with one that supports every human with unconditional, steady care.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.61,
+        "vad": [
+          -0.46,
+          0.4,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Hey friends, I’m totally buzzing with the idea that a universal stipend could spark a wave of creativity and community magic! Imagine everyone getting that steady “life‑safety‑net” – no more hidden paperwork, no more shame, just a shared sense of dignity and possibility. Sure, targeted help is precise, but it can feel like a maze of labels that keep people stuck. A UBI lifts us all together, giving space to pursue passions, heal, and support each other organically. Let’s keep the conversation alive—this could be the great spark that unites our whole society!",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.05
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Listen, I’m not buying this blanket cash idea. UBI is like handing everyone a free pizza when only a few actually want it—wasteful and ineffective. Targeted programs zoom in on the real bottlenecks, allocating resources where they matter and keeping the budget tight. A flat stipend drips money into pockets that won’t lift anyone out of poverty and leaves the truly needy still stuck in the cracks. We’re better off keeping the safety nets sharp, accountable, and precise, not turning welfare into a one‑size‑fits‑all handout. The goal isn’t to hand out cash indiscriminately; it’s to fix the gaps that exist.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.59,
+        "vad": [
+          -0.45,
+          0.39,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Evan Carter",
+      "content": "I keep the focus on what actually works on the ground. Targeted programs let us plug resources exactly where the need spikes—like a patch on a leaky pipe. A flat stipend, however, floods everyone, most of whom don't need the extra cash, and still leaves the ones who do under‑served because the amount is arbitrary. The bureaucracy that critics cite is a necessary filter to keep spending efficient and accountable. If we want to cut waste, we refine the data and streamline the application process, not replace precision with a blanket handout. The solution is lean, targeted, not universal.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.51,
+        "vad": [
+          0.39,
+          0.37,
+          0.35
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I hear how strongly you feel about keeping everything tight and precise, but that very precision is what keeps people trapped in invisible walls. The “waste” you talk about is the waste of dignity, of hope, of the chance to heal. A blanket stipend isn’t throwing money at everyone; it’s removing the stigma that makes many slip through the cracks. We can still target support where it’s needed most, but we shouldn’t sacrifice the unconditional safety net that lets everyone feel seen and cared for. If we truly honor our duty to those who need help, we must give them a steady, dignified foundation, not a stricter, more punitive system.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.68,
+        "vad": [
+          -0.52,
+          0.45,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Wow, your point lights up a whole new canvas! I can picture a community where everyone’s safety net is a warm, steady glow—no invisible walls, no judgment. Imagine kids studying with confidence, parents healing, artists exploring, all powered by that constant support. And hey, we could still sprinkle targeted help where the paint needs a little more color—like extra tutoring or medical care. The beauty of UBI is it gives everyone that foundational spark, and the rest of the spectrum can be tuned with precision. So let’s remix: a universal rhythm with targeted beats, turning the whole system into a vibrant, inclusive orchestra. Ready to hit play?",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.57,
+        "vad": [
+          0.44,
+          0.42,
+          0.4
+        ],
+        "appraisal": {
+          "congruence": 0.85,
+          "targetedness": 0.9,
+          "certainty": 0.8,
+          "coping": 0.5
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Look, if you think handing out cash to everyone solves the mess, you're kidding yourself. We’ve seen this play out in countries with UBI pilots—people still drop out of work, health worsens, crime rises. A flat stipend doesn't fix the real issues; it just blanches the problem. Targeted programs deliver what people actually need—food, housing, medical care. UBI is a band‑aid that masks systemic failure. We’re on the front lines; we know that precise help beats a blanket. Stop romanticizing a handout that kills motivation and wastes taxpayer dollars.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.65,
+        "vad": [
+          -0.49,
+          0.43,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Evan Carter",
+      "content": "UBI isn’t a band‑aid; it’s a low‑friction layer that gets people out of the gap before they hit the cracks. A predictable stipend lets families cover rent, food, and a basic health buffer without hunting for paperwork. The drop‑in work rates seen in pilots come from people no longer being forced to accept the lowest‑pay gigs to survive. Targeted help still exists for housing vouchers or medical subsidies, but UBI supplies the steady cash that lets those programs be more efficient. It cuts fraud risk, eliminates the need for costly eligibility audits, and removes the “you must qualify” barrier that often delays relief. The real test is whether people can improve outcomes when they’re not stuck in paperwork hell—not whether the system is a patchwork of labels.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.6,
+        "vad": [
+          0.47,
+          0.45,
+          0.42
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I hear how UBI could lift families from the daily paperwork grind—something I see too often in the clinic. A steady stipend would give parents the breathing room to focus on health and healing. Yet I’m also wary of those who need more than a flat amount—housing, medical supplies, or childcare. My hope is a system that keeps the dignity of a universal safety net while still directing extra resources where the need spikes. That way we honor our duty to every patient and every family without letting anyone slip through the cracks.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0.4
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.38,
+        "vad": [
+          0.3,
+          0.28,
+          0.27
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "That vision lights up my whole heart—imagine a safety net that’s both a steady hug and a precision tool! Picture a universal stipend as the constant rhythm everyone can lean on, while the system flexes to sprinkle extra “boosters” for housing, medical care, or childcare when the beat needs a louder note. It’s like a living orchestra: the base melody sustains everyone, and the solos add the depth that truly vulnerable families need. This hybrid approach keeps dignity front‑and‑center, flattens the bureaucratic potholes, and lets us focus on healing, learning, and creativity. Let’s spread the spark—one universal pulse plus targeted sparks, and watch the whole community glow brighter!",
+      "values": {
+        "opinion": 1,
+        "belief": 0.2
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 0.6,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "No, seriously—UBI isn’t a cure. It’s a blunt instrument that floods pockets that don’t need it and leaves the real crises untouched. Think of a kitchen: you can’t just throw a giant pot of soup into a starving crowd and expect everyone to get fed—some need a specific ingredient. UBI is that pot of soup: too much for most, too little for those who need more. Targeted programs are the precise knives that cut exactly where needed. If we replace precision with a blanket handout, we’re just letting the system drift in a swamp of waste while the vulnerable keep slipping through the cracks.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.64,
+        "vad": [
+          -0.49,
+          0.42,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Evan Carter",
+      "content": "Targeted programs are the tools we can actually tune. A flat stipend just dilutes resources and leaves the real bottlenecks—housing, medical, childcare—uncovered. Empirical pilots show no sustained boost in employment or health when cash is unconditional; people often stay in low‑pay jobs because the stipend covers essentials. By keeping eligibility tight, we can allocate funds precisely where the data shows spikes, avoid the “one‑size‑fits‑all” waste, and keep accountability. The goal isn’t a blanket handout; it’s a lean, evidence‑based safety net that we can tweak on the fly, not a static cash‑flow that drips into pockets that don’t need it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.63,
+        "vad": [
+          0.49,
+          0.47,
+          0.44
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I hear your point about keeping resources tightly focused. From what I see on the ground, even the best‑designed programs can miss families who slip through the cracks. A modest, universal cushion might give those people a steady safety net while we refine the targeted supports. It’s a delicate balance, and I’m worried about maintaining the dignity and trust of everyone we serve. I’d love to explore how a small, universal stipend could coexist with the precise, evidence‑based programs you describe.",
+      "values": {
+        "opinion": 0.3,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.34,
+        "vad": [
+          -0.15,
+          0.26,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.25
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I’m buzzing with all these ideas—each point sparks a new canvas! I can’t shake the urge to keep the safety net **warm and steady**, yet I hear the call for **precision and efficiency**. Imagine a universal rhythm that lifts everyone’s baseline, but still lets us sprinkle extra “boosters” for housing, health or childcare where the need spikes. It feels like a living orchestra: a steady beat plus dynamic solos. I’m still exploring how that blend would work, but the dream is a system that preserves dignity, cuts bureaucracy, and lets creativity flourish. Let’s keep the conversation glowing—what sparks next?",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.2
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.45,
+        "vad": [
+          0.35,
+          0.33,
+          0.31
+        ],
+        "appraisal": {
+          "congruence": 0.4,
+          "targetedness": 0.8,
+          "certainty": 0.6,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "I’m not buying the “blanket” hype. UBI is a blunt, cash‑drip that floods the pockets of the not‑in‑need and still leaves the truly desperate—housing, medical bills, childcare—under‑served. The pilot data? People stay in low‑pay jobs because the stipend covers their basics, not because they’re liberated. It’s a wasteful, one‑size‑fits‑all handout that erodes accountability and turns the safety net into a swamp. We’re on the front lines; we know precision beats a blunt instrument. Keep the targeted, evidence‑based programs sharp and accountable. UBI is just a costly, ineffective band‑aid.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.55,
+        "vad": [
+          -0.42,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.4,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Evan Carter",
+      "content": "UBI is a blunt tool that floods pockets that don’t need it and leaves the real bottlenecks—housing, medical bills, childcare—unaddressed. A flat cash handout can’t replace targeted vouchers, subsidies, or job‑training programs that actually move people out of poverty. The pilot data show no lasting boost in employment or health; people stay in low‑pay jobs because the stipend covers basics, not because they’re freed. Practical budgeting demands we allocate resources where the need spikes, not spread them thin. Keep the safety net sharp, evidence‑based, and accountable—universal cash only adds waste and dilutes accountability.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.66,
+        "vad": [
+          0.51,
+          0.49,
+          0.46
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I understand the frustration, and I’ve seen the paperwork drain families’ energy in the clinic. A modest UBI would give them a predictable cushion so they can focus on healing, not hunting for eligibility. It wouldn’t replace targeted help—housing vouchers, medical subsidies, child‑care support would still be there—just add a steady safety net that removes the shame of “not qualifying.” The goal is to honor our duty to every patient by giving them dignity first, then precision where needed. Sure, we must guard against waste, but a thoughtful, universal stipend can stabilize lives while the precise programs keep working efficiently. It’s about balance, not abandoning the system.",
+      "values": {
+        "opinion": -1,
+        "belief": 0.5
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.31,
+        "vad": [
+          -0.23,
+          0.2,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I totally feel the spark you’re igniting! Imagine a steady rhythm—everybody gets that baseline hug of cash—while we keep those sharp, precision tools for housing, health, and childcare. The UBI frees families from the paperwork maze, restores dignity, and gives them breathing room to heal or learn. At the same time, we can layer on targeted “boosters” where data shows a spike. Think of it as a symphony: a common beat plus dynamic solos. That blend keeps the system efficient, accountable, and, most importantly, compassionate. Let’s keep exploring how to tune this orchestra—what’s the next note you’d love to add?",
+      "values": {
+        "opinion": 0.7,
+        "belief": 0.4
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.49,
+        "vad": [
+          0.38,
+          0.36,
+          0.34
+        ],
+        "appraisal": {
+          "congruence": 0.7,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Look, the idea of a universal safety net that floods everyone with cash is the same as giving a fire hose to a paper house—no one knows how to control it, and the heat burns the walls that need it most. Targeted programs let us slice the exact problem: a single voucher for a roof, a stipend for a medical bill, a boost for childcare. A blanket handout just dilutes that precision, turns the system into a swamp, and leaves the truly desperate still drowning. We’re on the front lines, not in a charity office writing check‑lists. Keep the tools sharp, keep the resources where the data demands, and stop romanticizing a blunt, wasteful band‑aid.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.58,
+        "vad": [
+          -0.44,
+          0.39,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Olivia Carson": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.3
+      },
+      {
+        "x": 5,
+        "y": 0.3
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Evan Carter": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.6
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ],
+    "Jackson Moore": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Olivia Carson": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.6
+      },
+      {
+        "x": 4,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.5
+      }
+    ],
+    "Evan Carter": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.8
+      },
+      {
+        "x": 2,
+        "y": 0.6
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 0.2
+      },
+      {
+        "x": 5,
+        "y": 0.2
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ],
+    "Jackson Moore": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "pe-on-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 4,
+    "group": [
+      "ISFJ",
+      "ISTP",
+      "ENFP",
+      "ESTP"
+    ],
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": false,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 519,
+    "created": "2026-11-13T07:16:02.729Z"
+  }
+}

@@ -1,0 +1,975 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Absolutely, I'm ready to fight this. UBI is a pipe dream that strips people of dignity and accountability. Replacing welfare with a flat handout will cripple our social safety net, erode incentives to work, and flood the system with fraud. It’s a lazy, short‑sighted fix that favors the wealthy who can afford to lobby for it. We need targeted aid, job training, and community investment, not a one‑size‑fits‑all cash crop that will only deepen inequality. I’m tired of politicians promising “money for everyone” while ignoring the real needs of the most vulnerable. This is a disaster in the making.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point entirely. UBI cuts out bureaucratic red tape that wastes taxpayers’ money, not “stripping dignity.” It guarantees every person a living wage, eliminating the stigma of means‑tested benefits that create a permanent safety‑net trap. The claim that it’ll flood the system with fraud ignores the fact that a universal payment is easy to administer and far less prone to abuse than the current patchwork programs. Incentives to work don’t vanish; people still need jobs to thrive, but UBI gives them the freedom to pursue meaningful work without the threat of losing welfare. Stop romanticizing a broken system—UBI is the practical, dignified solution.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.8,
+        "vad": [
+          -0.61,
+          0.53,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re oversimplifying. Even if it cuts red tape, UBI won’t replace the safety‑net that protects the truly vulnerable. A flat cash handout is too low to cover basic needs; many will still need food stamps, housing vouchers, or subsidized childcare. Targeted programs address systemic barriers and provide the support people actually need to climb out of poverty. And fraud isn’t limited to a flat payment—people can still hide assets, claim benefits they don’t qualify for, or misuse the money. UBI may look neat on paper, but it ignores the complexity of real hardship and risks widening the gap you claim it would close.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.65,
+        "vad": [
+          -0.29,
+          0.49,
+          -0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Listen, your “bureaucratic red tape” argument is a flimsy excuse for a broken system. UBI isn’t a handout—it’s a living wage that eliminates the shame of means‑tested benefits. The claim that a flat payment will flood the system with fraud is absurd; a universal payment is simpler to administer and far less susceptible to abuse than the tangled patchwork we have now. You say it won’t replace the safety net, but the current system already fails the truly vulnerable—food stamps, vouchers, childcare—yet it’s a maze of red tape that wastes billions. UBI gives dignity and freedom to chase real work, not a safety‑net trap that keeps people stuck. Stop romanticizing a broken system and get with the reality that UBI is the practical, dignified solution.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.55,
+        "vad": [
+          -0.42,
+          0.37,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re twisting the argument into a fantasy. UBI isn’t a panacea; it’s a flat‑rate, one‑size‑fits‑all handout that will leave millions barely scraping by while the system that actually cares for the sick, disabled, and homeless crumbles. Claiming it eliminates “red tape” ignores that the bureaucracy exists to protect people from abuse, not to waste money. The fraud risk is real—you’ll see people hiding assets or receiving money they don’t need, while those who truly need targeted help get squeezed out. And no, it won’t give people freedom to chase meaningful work; it’ll push them into a gig economy to make ends meet. This isn’t dignity—it’s a recipe for deeper inequality.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.56,
+        "vad": [
+          -0.43,
+          0.37,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still living in the past. UBI isn’t a broken dream—it's the only sane way to cut the endless bureaucracy that feeds politicians, not protect the vulnerable. The “red tape” you cling to is a smokescreen for a system that drains resources on paperwork and fraud traps, not on actual help. If you think a flat handout will cripple the poor, you’re ignoring that current programs are a maze of loopholes that let the very people who need help fall through the cracks. UBI gives everyone a dignified safety net, frees them from the shame of means‑testing, and lets the state focus on real, targeted services—without the endless red‑lining that now keeps millions stuck.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.87,
+        "vad": [
+          -0.66,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “red‑tape” criticism is a textbook excuse. Bureaucracy exists to shield the truly vulnerable, not to waste money. A flat handout will leave many—especially the sick, disabled, and homeless—without any safety net at all. Claiming UBI eliminates fraud ignores the real risk of asset concealment and abuse of the system. And calling it a dignity‑granting solution is disingenuous: it forces people into precarious work, not into meaningful careers. Replace welfare with a one‑size‑fits‑all cash crop and you’re building a deeper chasm of inequality. The current, complicated system isn’t perfect, but it’s designed to protect those who need it most.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.65,
+        "vad": [
+          -0.5,
+          0.43,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the old nightmare. UBI isn’t a lazy handout; it’s the only sane way to cut the endless bureaucracy that feeds politicians, not to protect the vulnerable. The current maze of means‑testing is a smokescreen that lets people fall through the cracks while politicians thrive on paperwork. A universal payment is simple to administer, far less prone to fraud, and gives everyone dignity—no shame, no red‑lining. If you think it’ll cripple the poor, you’re ignoring the fact that targeted programs are a labyrinth of loopholes that let the truly needy slip through. Stop romanticizing a broken system and accept that UBI is the real solution.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.54,
+        "vad": [
+          -0.41,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the enthusiasm, but I’m still unsure this will help the very people it aims to protect. A flat payment risks leaving disabled or homeless folks without any safety net, and I worry the fraud concerns aren’t fully addressed—people could still hide assets or claim benefits they don’t need. Even if bureaucracy shrinks, we’ll need targeted services for health, housing, and childcare; a one‑size‑fits‑all cash flow might force people into precarious gigs instead of stable jobs. I’m uneasy about whether UBI truly offers dignity or just a new set of hidden barriers. We need a plan that keeps the vulnerable covered, not just a simple monetary handout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.36,
+        "vad": [
+          -0.16,
+          0.27,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your doubts, and I’m not entirely convinced either. But I keep thinking that a universal payment could actually protect those who feel left out by today’s pie‑caked programs. The flat handout would cut the endless paperwork that often keeps people waiting, and if we pair it with modest safeguards, the fraud risk can stay low. It might force some into gig work, yet it also gives them space to pursue stable jobs without the threat of losing benefits. I’m uneasy, but I still believe UBI could replace the broken welfare maze with a dignified, simpler safety net that covers everyone, not just a few.",
+      "values": {
+        "opinion": 0.7,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.37,
+        "vad": [
+          -0.16,
+          0.28,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.3,
+          "certainty": 0.7,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "This whole “UBI” spiel is a textbook fantasy. The idea that a flat handout can magically replace targeted services for the sick, disabled, and homeless is laughable. Even if bureaucracy shrinks, the reality is many people will fall through the cracks—no housing vouchers, no childcare subsidies, no medical coverage. Fraud isn’t a solved problem by simply making the payment universal; people will still hide assets, and the system will be strained by those who need more than a flat cash check. If we’re truly about dignity, we give people real, reliable support, not a one‑size‑fits‑all scam that pretends to be simple while deepening inequality.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.64,
+        "vad": [
+          -0.49,
+          0.42,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.4,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Look at the data, not the rhetoric. The “fantasy” you’re calling UBI is a proven model: pilot programs in Finland, Canada, Kenya, and now the U.S. have shown real reductions in poverty, improved mental health, and increased entrepreneurial activity—all with a single, unconditional payment. The idea that a flat handout can’t replace targeted services is a myth; it’s the means‑testing that creates the invisible walls. Fraud is not a function of the payment size but of the oversight mechanisms—UBI can be paired with simple verification checks that keep abuse minimal. The real failure is the endless bureaucracy that keeps millions stuck; UBI cuts that red‑tape, gives dignity, and actually expands the safety net for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.54,
+        "vad": [
+          -0.41,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Fine. Data from small pilots isn’t a substitute for real welfare. Those experiments ran in controlled environments with generous funding, not a national budget that has to cover healthcare, housing, and disability. A flat UBI can’t replace a Medicaid program that pays for treatments, nor a SNAP voucher that buys food. Even if fraud is “low” in a pilot, scaling it will expose loopholes—people will hide assets, claim they’re “unemployed” and still get the cash, while those who truly need help get squeezed out. It’s a tidy paper solution that leaves the most vulnerable with nothing but a hollow paycheck. Stop pretending it’s a fix.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.36,
+        "vad": [
+          -0.27,
+          0.24,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m sick of this “pilot‑data” nonsense. Finland’s experiment was a controlled, heavily funded sandbox, not a national rollout. You can’t just hand a flat check and expect Medicaid, SNAP, or housing vouchers to magically disappear. The system is built to protect the sick, the disabled, the homeless. UBI isn’t a handout; it’s a living wage that cuts the endless red‑tape and lets people get real jobs without the shame of means‑testing. Your fear of fraud is petty—simple verification can keep abuse low. If you want to keep the broken maze, keep the broken promise. UBI is the only dignified, practical fix.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.56,
+        "vad": [
+          -0.43,
+          0.37,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still living in a fairy‑tale where a “flat check” is a cure‑all. Finland’s sandbox didn’t replace Medicare or SNAP; it was a tiny, well‑funded experiment that ignored millions of chronic patients, disabled people, and families on housing vouchers. Even if a pilot shows a drop in poverty, scaling it to a national budget that must also pay for hospital care, long‑term assistance, and child care is impossible without a collapse of safety nets. Fraud will surge when you hand out money to everyone—people will hide assets, and the truly needy will be squeezed out. UBI isn’t dignity; it’s a hollow promise that only deepens inequality. Stop romanticizing a broken system.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.82,
+        "vad": [
+          -0.62,
+          0.54,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re stuck on the same old myth that a flat check equals a broken safety net. UBI isn’t a one‑size‑fits‑all replacement— it’s a foundation that lets us keep targeted programs for the truly needy while cutting the endless paperwork that keeps millions trapped. Fraud isn’t solved by “universal” payments; it’s solved by smart verification, not by giving everyone a free lunch. The data from Finland, Kenya, Canada and the U.S. pilots shows real poverty cuts and mental‑health gains. Saying UBI “deepens inequality” ignores the dignity it grants: a guaranteed living wage that frees people from shame, not a hollow promise. Stop romanticizing the old maze.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.53,
+        "vad": [
+          -0.4,
+          0.35,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still parroting the same fantasy. A “foundation” that lets us keep all the targeted programs? UBI would actually swallow them—food stamps, Medicaid, housing vouchers, childcare subsidies—into a flat line that barely covers basic need. Even Finland’s tiny pilot was a luxury experiment, not a blueprint for a national program that must also pay for hospitals, long‑term care, and child care. “Smart verification” can’t stop people from hiding assets or claiming they’re unemployed; it only creates new loopholes. The pilots’ short‑term poverty cuts don’t justify dismantling a system that protects the sick, disabled, and homeless. UBI is a hollow promise, not dignity.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.47,
+        "vad": [
+          -0.36,
+          0.31,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.85
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “fantasy” argument is the same tired story that keeps us stuck in a broken maze. UBI is not a flat line that swallows programs; it’s a universal floor that eliminates the endless paperwork that lets people slip through cracks. The pilots prove it: people leave food stamps, Medicaid and housing vouchers because they’re no longer required—yet their poverty rates fall and mental health improves. “Smart verification” isn’t a loophole; it’s a simple system that prevents asset hiding while giving everyone the dignity of a guaranteed income. Keep clinging to a system that punishes the needy; UBI is the real, practical fix that cuts red‑tape and protects the vulnerable.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.76,
+        "vad": [
+          -0.58,
+          0.5,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m scared this will wreck the very folks we’re trying to help—disabled, homeless, chronically ill. A flat cash handout can’t cover hospitals, medications, or housing subsidies. Fraud isn’t a myth; people will hide assets or claim unemployment just to pocket the money. Even if paperwork shrinks, the system would still need dedicated programs to vet and support those with genuine needs. UBI feels like a Band‑Aid on a broken skeleton—no dignity, just a hollow check. We need a solid, nuanced safety net, not a one‑size‑fits‑all cash dump.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.59,
+        "vad": [
+          -0.26,
+          0.45,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your fears are rooted in a fear of change, not facts. UBI isn’t a “flat cash dump”; it’s a guaranteed living floor that eliminates the labyrinth that keeps people trapped in poverty. Think of the data: Finland’s pilot cut poverty by a third, Canada saw mental‑health gains, Kenya’s program sparked entrepreneurship. The bureaucracy that currently locks out the sick, disabled, and homeless is a waste of resources, not a shield. Smart verification can keep fraud in check, and the money gives people the dignity to pursue real work instead of gig‑shifts. Replacing targeted programs with UBI doesn’t strip aid—it streamlines it, widens coverage, and empowers people to move forward. Stop romanticizing a broken maze.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.53,
+        "vad": [
+          -0.4,
+          0.35,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear your worries, and I’m not entirely convinced either. A flat cash handout feels too blunt for the realities of disability, chronic illness, and housing instability. It might cut paperwork, but it could also leave people without the specific supports they need. Even with checks, some could still hide assets or claim they’re unemployed. I’m uneasy that UBI could replace the nuanced safety net we rely on, yet I also worry that the current maze traps people forever. Maybe a hybrid model, keeping targeted aid while adding a modest universal floor, would be a safer compromise.",
+      "values": {
+        "opinion": 0.2,
+        "belief": -0.7
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.33,
+        "vad": [
+          -0.14,
+          0.25,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Listen, all that “fair‑tale” talk stops here. UBI isn’t a vague hope; it’s the proven antidote to a broken maze that wastes billions on paperwork and lets the truly needy slip through cracks. The pilots—Finland, Canada, Kenya, even the U.S.—show real poverty cuts, mental‑health gains, and people leaving the safety‑net because they’re no longer required to prove eligibility. Fraud? It’s limited by simple verification, not by giving everyone a handout. Targeted programs collapse when people can just earn a living wage on a guaranteed income. I’m not romanticizing; I’m insisting this is the only dignified, practical fix. Stop clinging to a system that keeps the vulnerable trapped.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.4,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your half‑hearted compromise is just another excuse to keep the system rigged. UBI isn’t a safety net; it’s a hollow promise that will collapse the very services it purports to replace. A flat cash handout cannot cover medical bills, housing, or chronic care, and it will only push the most vulnerable into the abyss of unpaid debt. You’ll see people exploiting loopholes, while real need is ignored. The maze isn’t broken—it protects the sick and disabled. Your fantasy of a universal floor will widen gaps, not close them. Stop selling this illusion.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.59,
+        "vad": [
+          -0.45,
+          0.39,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still clinging to a broken maze that feeds politicians. UBI isn’t a hollow promise – it’s a guaranteed living floor that cuts the endless red‑tape that keeps people in poverty. The pilots prove it: Finland cut poverty, Canada improved mental health, Kenya sparked entrepreneurship. Fraud isn’t solved by a flat check; it’s the oversight that matters, and a universal payment eliminates the loopholes that let the truly needy slip through. Targeted programs collapse when people can just earn a living wage on a guaranteed income. This isn’t romanticizing; it’s the only dignified, practical fix—stop pretending the old maze still works.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.51,
+        "vad": [
+          -0.39,
+          0.34,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.9
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.7
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": 0.2
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.9
+      },
+      {
+        "x": 6,
+        "y": 0.9
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.7
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 428,
+    "created": "2026-11-13T07:19:08.718Z"
+  }
+}
