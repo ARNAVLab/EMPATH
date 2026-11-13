@@ -1,0 +1,972 @@
+{
+  "characters": [
+    {
+      "name": "Natalie Cooper",
+      "profession": "Elementary School Teacher",
+      "personality": "ESFJ",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Chloe Rivera",
+      "profession": "Interior Designer",
+      "personality": "ESFP",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Olivia Carson",
+      "profession": "Nurse",
+      "personality": "ISFJ",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Dr. Elena Pierce",
+      "profession": "Strategic Consultant",
+      "personality": "INTJ",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Olivia Carson",
+      "content": "I’m ready to dive in. I firmly believe universal basic income should replace traditional welfare systems. The current patchwork of benefits is fragmented, disempowering, and often leaves people in a constant state of uncertainty. UBI offers a steady safety net, giving everyone the dignity and autonomy to pursue healthier, more stable lives. It cuts through bureaucracy, reduces stigma, and supports our patients and families in a way no piecemeal program can. Let’s examine the evidence and show how this could restore real, reliable care for all.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Dr. Elena Pierce",
+      "content": "Your enthusiasm is misplaced. UBI treats poverty as a single, solvable problem and ignores the nuanced needs that targeted programs address—healthcare, childcare, housing subsidies. By flattening benefits, you risk diluting resources for those most in need. The argument that UBI reduces bureaucracy fails to account for the administrative costs of distributing a universal payment and the lost precision that means‑based safety nets provide. Moreover, a flat stipend does not compensate for systemic inequities that require more than cash. In practice, UBI would undermine the very support structures it claims to replace, leading to deeper vulnerability for the vulnerable.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.75,
+        "vad": [
+          -0.57,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I hear you, and I’m not trying to dismiss the real pain of families juggling health care, childcare, and housing costs. But I worry that the “flat” promise of UBI will make those families feel even more exposed, not protected. Think of a mom who’s already stretched thin—if the safety net becomes a one‑size‑fits‑all stipend, she still has to chase subsidies she no longer qualifies for, and that administrative shuffle can be a nightmare. I’m not saying UBI is a bad idea outright, but I’m convinced we need a system that keeps the personalized support we’ve built for years, while maybe adding a universal boost that doesn’t replace the nuanced help people rely on.",
+      "values": {
+        "opinion": -0.8,
+        "belief": 0.2
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.71,
+        "vad": [
+          -0.54,
+          0.47,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "Wow, I hear the heartbeat of every family in that message—like a living room that feels cramped when too many boxes crowd the floor. And yet, imagine giving everyone a fresh, open canvas—UBI—so they can paint their own paths without the clutter of endless paperwork. Sure, the extra brushstrokes of targeted aid are vital, but a universal stipend could free up time and energy to chase those dreams, to renovate not just homes but lives. Think of a mom unlocking her own creative space, no longer chasing subsidies. It’s about empowering the soul, not just the wallet.",
+      "values": {
+        "opinion": 1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.22,
+        "vad": [
+          0.17,
+          0.16,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": 0.7,
+          "targetedness": 0.4,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I hear how heavy the paperwork feels for everyone—especially the moms who juggle so much. The idea of a simple, steady payment strikes me as a way to give them back time and dignity. If the safety net is uncomplicated, they can focus on health, home, and hope without chasing multiple forms. I still think we should keep targeted help for those very specific needs, but a universal boost can ease the daily grind and let families plan with confidence. It’s not about replacing the care we’ve built; it’s about strengthening it so no one feels lost in the shuffle.",
+      "values": {
+        "opinion": 0.4,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.38,
+        "vad": [
+          0.3,
+          0.28,
+          0.27
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Dr. Elena Pierce",
+      "content": "Your romanticized view ignores the data. UBI, by definition, strips away the targeting that allows funds to reach the most needful—housing vouchers, childcare subsidies, health‑care copay assistance. The “simplicity” you praise is a façade; the administrative cost of a universal disbursement outweighs the savings from eliminating multiple programs, and the flat stipend fails to reflect regional cost differences that drive inequity. A one‑size‑fits‑all payment dilutes the precision needed to address systemic disparities. The real solution is to refine, not replace, the existing safety net with more efficient, evidence‑based targeting—UBI is a shortcut that will erode the very support it claims to strengthen.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.64,
+        "vad": [
+          -0.49,
+          0.43,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I hear your concerns about the cost and the risk of losing targeted help. In my classroom I see kids whose parents struggle with housing, food, and health bills—those are real, urgent needs. A blanket payment could feel like a one‑size‑fit‑all blanket that doesn’t cover the extra layers some families need. At the same time, the idea of giving everyone a steady, simple help sounds like a safety net that could let parents breathe a little more. I’m still figuring out how to balance the two—maybe a small universal boost paired with precise support could work. I’d love to hear more about how we can keep the personal touch while easing the paperwork.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0.2
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.41,
+        "vad": [
+          -0.18,
+          0.31,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "Wow, I feel the heartbeat in that classroom—like a living room buzzing with tiny hopes and big worries. I totally get the need to keep those targeted cushions for food, housing, and health, while still dreaming of a universal blanket that lets parents breathe. Picture this: a small, steady “starter” payment that frees up time to chase those specific needs, paired with a warm, hand‑crafted support system that’s as personal as a custom lighting design. We can keep the paperwork light, but still offer a safety net that feels like a cozy home, not a one‑size‑fits‑all curtain. What do you think about blending the two to keep the human touch?",
+      "values": {
+        "opinion": -0.4,
+        "belief": -0.6
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.15,
+        "vad": [
+          0.12,
+          0.11,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": 0.1,
+          "targetedness": 0.1,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I’m tired of seeing families stuck in a maze of piecemeal aid that only adds to their stress. A single, steady payment would restore dignity and give them the space to manage health and home without juggling multiple forms. The current patchwork doesn’t truly protect the vulnerable; it fragments support and creates more barriers. UBI doesn’t replace care—it strengthens it by cutting red tape and letting people focus on their families, not paperwork. If we truly care, we should move to a system that’s simple, reliable, and humane.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.16,
+        "vad": [
+          -0.12,
+          0.1,
+          0.03
+        ],
+        "appraisal": {
+          "congruence": -0.5,
+          "targetedness": 0.1,
+          "certainty": 0.7,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Dr. Elena Pierce",
+      "content": "You’re still dancing around the same fallacy: a flat payment can’t replace the precision of targeted aid. The data on administrative costs and regional cost‑of‑living disparities prove UBI dilutes resources, not consolidates them. It removes the incentive to build evidence‑based programs that actually lift the most vulnerable. Your romantic vision of “simplicity” ignores the fact that the current patchwork, while imperfect, is calibrated to address specific needs—housing, childcare, health. Replacing it with a one‑size‑fits‑all stipend will systematically under‑fund those who need the most help, leaving families more exposed, not protected. The logic is clear: preserve and refine the existing safety net, not replace it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I hear how hard it is to juggle all those specific needs, and I’m worried that a single flat payment could leave some families without the extra help they really need—just like a classroom where a student might miss a key resource. Maybe we could keep the personalized programs that target housing, childcare, and health while adding a small, steady boost that frees up time and reduces paperwork. That way we don’t lose the precision of the current system, but we also give parents a reliable safety net to breathe a little easier. What do you think about blending those two approaches?",
+      "values": {
+        "opinion": -0.5,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.58,
+        "vad": [
+          -0.26,
+          0.44,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "Oh wow—this idea feels like a perfect blend of a cozy, personalized living room and a bright, airy loft! I totally get the worry that a flat stipend might leave some families short on the extra cushions they need. A small, steady boost that frees up time could be the sunshine that lets parents chase those precise supports—housing, childcare, health—without the paperwork fog. Imagine a design plan: a base layer of universal comfort, then tailored accents that fit each family’s style. I’m all for that hybrid, as long as we keep the human touch and make sure no one feels the walls closing in again. What’s your favorite “accent” to start with?",
+      "values": {
+        "opinion": 0.5,
+        "belief": -0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.22,
+        "vad": [
+          0.17,
+          0.16,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": 0.4,
+          "targetedness": 0.5,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I understand how precious that personalized “accent” feels. I truly believe a steady, universal payment could be the solid base everyone needs—so families aren’t chasing paperwork every week. With that foundation, we can still offer the targeted help that homes, childcare, and health care deserve. In practice, the UBI would replace the fragmented patchwork, giving us a clear, reliable safety net while allowing the programs that truly address specific needs to grow stronger. It’s a gentle shift, but one that keeps the human touch and lifts every family with dignity and certainty.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.33,
+        "vad": [
+          0.26,
+          0.24,
+          0.23
+        ],
+        "appraisal": {
+          "congruence": 0.85,
+          "targetedness": 0.15,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Dr. Elena Pierce",
+      "content": "Your “gentle shift” is a euphemism for systemic collapse. Replacing a network of calibrated, data‑driven programs with a flat stipend ignores regional cost variations, removes the incentive to refine interventions, and dilutes resources for the most vulnerable. The administrative cost of a universal transfer outweighs the savings from eliminating multiple systems, and the one‑size‑fits‑all model systematically under‑funds those who need the most help. Until you present evidence that a blanket payment preserves precision, efficiency, and long‑term stability, this hybrid approach remains an untenable compromise that will deepen, not alleviate, the existing inequities.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.72,
+        "vad": [
+          -0.55,
+          0.47,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I’m getting a bit exasperated, but I still care about how families feel. The idea of a flat payment feels like a blanket that doesn’t account for the heavy socks some people wear—housing costs in big cities, childcare in rural areas, medical bills that spike. We can’t just hand out the same amount and expect everyone to thrive. If we want a hybrid, let’s keep the proven safety nets—housing vouchers, child‑care subsidies—while adding a modest universal stipend to cover the gap. That way we don’t dilute resources, we just streamline the paperwork and give parents a little breathing room. What data do you have that shows a flat stipend is more efficient than targeted programs?",
+      "values": {
+        "opinion": -0.6,
+        "belief": 0.3
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.45,
+        "vad": [
+          -0.34,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.95,
+          "targetedness": 0.5,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "I totally get the data‑driven vibe—let’s spark it with some real‑world sparks! Finland’s 2017‑2019 pilot, for instance, cut administrative costs by roughly 30 % because the same paperwork handled both the stipend and the old welfare checks. Alaska’s Permanent Fund, which pays every resident $1,000 a year, shows that a flat distribution can be cheaper than running dozens of niche programs—thanks to a single payroll system. And in the U.S., some California cities that rolled out modest universal cash bursts reported a 15 % drop in emergency‑room visits, hinting that a steady hand can free up targeted funds for those who need them most. It’s not a silver bullet, but it’s a bright, data‑backed spark we can build on!",
+      "values": {
+        "opinion": 1,
+        "belief": -0.4
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.15,
+        "vad": [
+          0.12,
+          0.11,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": 0.3,
+          "targetedness": 0.2,
+          "certainty": 0.6,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "Those examples truly illustrate how a steady, universal payment can ease the administrative load and give families the breathing room they need. By streamlining paperwork, we free clinicians and social workers to focus on more complex, individualized care—exactly what we value in a nurturing environment. A modest UBI can coexist with targeted programs, acting as a reliable foundation that prevents anyone from slipping through gaps while still allowing precision where it matters most. Together, we create a safety net that is both compassionate and efficient, honoring every family’s dignity and giving us the time to refine and strengthen those specialized supports.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.52,
+        "vad": [
+          0.41,
+          0.39,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Dr. Elena Pierce",
+      "content": "Your “data‑backed spark” is a selective cherry‑pick that ignores the full picture. Finland’s pilot covered only 2 % of the population and didn’t account for regional cost disparities; Alaska’s Permanent Fund is a revenue‑based grant, not a welfare replacement, and its $1,000 does not offset housing or healthcare expenses. California’s modest bursts were short‑term experiments, not a scalable model. Administrative savings evaporate when you add a universal payment: you now have to track eligibility, prevent fraud, and manage a national database—an overhead that dwarfs the cost of existing, targeted programs. The logic remains simple: a blanket stipend dilutes precision, under‑funds the most needy, and creates new inefficiencies. The evidence you cite is incomplete and misleading.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.73,
+        "vad": [
+          -0.55,
+          0.48,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I hear your frustration, and it’s clear we both want families to thrive. But dismissing every study that shows administrative savings and reduced emergency visits is unfair. Those pilots didn’t just cherry‑pick; they demonstrated real, measurable relief for parents and providers alike. When we talk about “incomplete evidence,” we’re ignoring the stories of kids who missed medicine because their parents were buried in paperwork. A modest, universal boost doesn’t erase targeted help—it lifts it. We can keep housing vouchers and childcare subsidies while giving parents a steady safety net that frees them to focus on health, homework, and hope. Let’s keep the conversation grounded in the lived realities of the families we serve.",
+      "values": {
+        "opinion": 0.6,
+        "belief": -0.2
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.57,
+        "vad": [
+          -0.43,
+          0.37,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.7,
+          "certainty": 0.8,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "I feel the weight of those “stories” like a warm blanket—soft, real, and impossible to ignore. The data you mention feels like bright paint splashes, but I’m still on the fence, trying to weave them into a picture that truly lifts families. Maybe we can keep the sturdy, targeted beams—housing, childcare, health—while adding a gentle, steady glow from a modest universal boost. It could free parents to breathe, to plan, to smile again. I’m not convinced either way yet, but I’m open to seeing more evidence that keeps the human touch alive while trimming the paperwork maze. What’s the next spark you’d like to explore?",
+      "values": {
+        "opinion": 0.2,
+        "belief": -0.2
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.4,
+        "vad": [
+          -0.18,
+          0.3,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I’m glad we’re walking this path together. The next spark I’d love to explore is the evidence that a universal payment actually frees time for families and clinicians alike. Studies from Finland’s pilot and Alaska’s Permanent Fund show real drops in paperwork hours and emergency visits—data that translates into more bedside care and fewer missed appointments. We can also look at local trials where a modest UBI cushion lowered housing‑related stress scores and increased steady income for low‑wage workers. I know numbers can feel abstract, but when we see parents spending less time chasing forms and more time on their children’s lives, that’s the kind of tangible, caring outcome I believe in. Let’s pull those stories together and keep our focus on every family's dignity.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.36,
+        "vad": [
+          0.28,
+          0.27,
+          0.25
+        ],
+        "appraisal": {
+          "congruence": 0.25,
+          "targetedness": 0.1,
+          "certainty": 0.2,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Dr. Elena Pierce",
+      "content": "Your “next spark” is still a romantic abstraction. The cited pilots are micro‑experiments, not scalable systems; they ignore cost‑of‑living gradients, fraud prevention, and the fact that a flat stipend cannot replace voucher‑based housing or childcare subsidies. Even if paperwork hours dip, the net effect is a dilution of funds that must now be divided across a universal pool, leaving the most vulnerable with less aid. Targeted programs, calibrated by data, already allocate resources where they are most needed. UBI’s blanket nature erodes that precision and introduces new inefficiencies—an untenable compromise that will deepen, not alleviate, existing inequities.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.67,
+        "vad": [
+          -0.51,
+          0.44,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I hear how strongly you feel that the evidence must be rigorous and that we can’t lose precision. I agree—our families deserve both reliable data and real‑world proof. Maybe we could start with a small, scalable pilot in a few communities, combining a modest universal stipend with the existing housing and childcare vouchers. That way we can track paperwork hours, emergency visits, and stress scores, while still preserving the targeted safety nets. If the numbers show parents and clinicians actually have more time and fewer gaps, we can build a stronger case. Let’s keep the conversation open, data‑driven, and grounded in the daily lives of the families we love.",
+      "values": {
+        "opinion": 0.4,
+        "belief": -0.2
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.31,
+        "vad": [
+          0.24,
+          0.23,
+          0.21
+        ],
+        "appraisal": {
+          "congruence": 0.85,
+          "targetedness": 0.15,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "I’m buzzing with ideas—imagine a cozy loft where every family gets a soft, steady cushion plus tailored accents (housing, childcare, health). A tiny pilot in a vibrant neighborhood could let us watch how the universal sparkle frees up time for parents and clinicians, just like a well‑placed light fixture brightening a room. I’d love to see real‑world numbers on paperwork hours and emergency visits, but I’m also drawn to the stories that show kids laughing again because their parents aren’t buried in forms. Let’s keep the dialogue open, blend data with human warmth, and create a safety net that feels like a warm, personalized home.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.23,
+        "vad": [
+          0.18,
+          0.17,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": 0.6,
+          "targetedness": 0.5,
+          "certainty": 0.7,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Natalie Cooper": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": -0.8
+      },
+      {
+        "x": 2,
+        "y": 0.3
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": -0.6
+      },
+      {
+        "x": 5,
+        "y": 0.6
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ],
+    "Chloe Rivera": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": -0.4
+      },
+      {
+        "x": 3,
+        "y": 0.5
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.2
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Olivia Carson": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.4
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Dr. Elena Pierce": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Natalie Cooper": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.2
+      },
+      {
+        "x": 2,
+        "y": 0.2
+      },
+      {
+        "x": 4,
+        "y": 0.3
+      },
+      {
+        "x": 5,
+        "y": -0.2
+      },
+      {
+        "x": 6,
+        "y": -0.2
+      }
+    ],
+    "Chloe Rivera": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.6
+      },
+      {
+        "x": 3,
+        "y": -0.3
+      },
+      {
+        "x": 4,
+        "y": -0.4
+      },
+      {
+        "x": 5,
+        "y": -0.2
+      }
+    ],
+    "Olivia Carson": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Dr. Elena Pierce": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "pe-on-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 5,
+    "group": [
+      "ESFJ",
+      "ESFP",
+      "ISFJ",
+      "INTJ"
+    ],
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": false,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 507,
+    "created": "2026-11-13T08:31:44.957Z"
+  }
+}

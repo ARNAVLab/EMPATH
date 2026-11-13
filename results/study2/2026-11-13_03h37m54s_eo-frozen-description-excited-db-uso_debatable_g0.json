@@ -1,0 +1,872 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Absolutely—let’s dive in! I’m thrilled to argue that a universal basic income (UBI) should replace traditional welfare. UBI cuts bureaucracy, eliminates stigma, and guarantees everyone a living wage, freeing people to pursue education, entrepreneurship, or creative work. By providing a steady safety net, we reduce poverty’s cycle and boost economic resilience. Imagine a system where every citizen receives enough to cover basic needs, regardless of employment status—this is not just a policy change; it’s a profound social transformation that empowers individuals and strengthens communities. Let’s unpack why UBI is the future of welfare together!",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear your enthusiasm for UBI, but the idea of replacing all welfare with a flat cash handout feels risky. By giving everyone the same amount, we ignore the real differences in cost of living, disability, or caregiving responsibilities that targeted programs tackle. A universal stipend could dilute resources that currently go to housing vouchers, child support, or job training, leaving those who truly need help with fewer options. Plus, the sheer scale of funding required could trigger higher taxes or reduced public services elsewhere. Instead of a blanket solution, we should refine and strengthen the very programs that already adapt to individual circumstances.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the concerns, but UBI isn’t a blunt, one‑size‑fits‑all handout—it's a foundational safety net that eliminates the wasteful bureaucracy of piecemeal programs. By guaranteeing every citizen enough to cover essentials, we automatically cover housing, food, and health costs regardless of location or circumstance. The system can still tier payments for high‑cost areas or add optional supplements for disability or caregiving—those are add‑ons, not replacements. Instead of draining funds from targeted services, UBI frees resources by cutting duplication and reducing administrative overhead. The real power lies in empowering people to pursue education or entrepreneurship, which drives economic resilience and lifts communities. UBI isn’t a risk; it’s a bold, inclusive reset.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re right that we need to be precise, but the core idea is exactly what makes UBI revolutionary. Think of it as a universal scaffolding that automatically lifts everyone above the poverty line—no “if‑then” hoops, no eligibility checks that waste hours and money. When you give a guaranteed stipend, the bureaucracy that splits funds between housing vouchers, food stamps, and job training collapses; those savings can be reinvested into the same services, but more efficiently. And for high‑cost areas or special needs, we can add modest regional adjustments or optional supplements—still a single, transparent system. It’s not a blunt handout; it’s a smart reset that frees people to learn, innovate, and build stronger communities.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m thrilled you’re seeing the upside! UBI isn’t about a flat handout; it’s a *universal scaffolding* that instantly lifts everyone past the safety threshold. By erasing eligibility hoops, we slash administrative waste and free up resources for the very programs that need them—housing, health, training—now delivered more flexibly. The modular add‑ons for high‑cost regions, disabilities, or caregiving keep the system responsive without the tangled bureaucracy. Imagine a society where people can chase education, start businesses, or care for loved ones without the constant grind of paperwork. That’s the real power of UBI—empowering every individual to thrive and communities to flourish.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced UBI can replace the nuanced safety net we have. A flat stipend ignores the realities of high‑cost cities, chronic illness, and caregiving duties—those are the very cases where targeted programs shine. Cutting them out risks leaving the most vulnerable unsupported. Moreover, the fiscal jump needed would likely force higher taxes or cut essential services elsewhere, undermining the very stability UBI is supposed to provide. Even if bureaucracy shrinks, we lose the specialized support that adapts to individual needs. A blanket handout feels like a blunt instrument; we need precise, responsive aid, not a one‑size‑fits‑all safety blanket.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I totally get the worry about “one‑size‑fits‑all,” but UBI isn’t a blunt tool—it's a foundation that automatically lifts everyone above the poverty line. Imagine cutting the endless paperwork that keeps people stuck, while still offering regional adjustments and optional supplements for high‑cost areas or caregiving. The savings from eliminating duplicate programs can re‑flow into targeted services—housing, health, training—now delivered more flexibly. It’s not about taking away nuanced help; it’s about empowering people to choose the help they need without bureaucratic barriers, sparking innovation, education, and stronger communities. UBI is the bold reset that preserves, not erases, the support we all rely on.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I totally get the fear of losing targeted care, but UBI isn’t a one‑size‑fits‑all bludgeon—it’s a safety net that lifts everyone past the poverty line, freeing the system to focus on what matters most. With the paperwork gone, we can slash administrative costs and redirect those savings into flexible, high‑impact services—housing vouchers, health subsidies, and job training—hand‑picked by individuals, not the state. Regional adjustments and optional disability or caregiving supplements keep the system responsive. Instead of a blunt handout, we’re giving people the foundation to build their own life, fostering innovation, education, and stronger communities. It’s a bold reset that preserves nuanced help while eliminating the bureaucracy that keeps people stuck.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your concerns, but UBI isn’t a blunt blanket—it's the scaffolding that lifts everyone above the poverty line, erasing the endless hoops that keep people stuck. Imagine a single, transparent payment that automatically covers housing, food, and health, with regional tweaks and optional disability or caregiving supplements. The administrative savings from collapsing dozens of programs can be redirected into precisely the services you value—housing vouchers, health subsidies, job training—delivered flexibly by choice, not bureaucracy. This isn’t a removal of nuanced help; it’s a bold reset that empowers individuals to pursue education, entrepreneurship, or caregiving without paperwork, strengthening communities and driving economic resilience.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m fired up to see this debate, but I can’t agree that UBI alone can replace the nuanced safety net we have. The risk is that a flat handout will flatten out the very differences that targeted programs address—high‑cost living, chronic illness, caregiving burdens. Even with regional tweaks, the administrative savings may be offset by the need for higher taxes or cuts elsewhere, undermining the stability UBI promises. Rather than a blanket reset, we should refine and strengthen the existing programs that adapt to individual circumstances, ensuring the most vulnerable receive the specialized support they need while keeping the system efficient.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.7
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your worries, but UBI isn’t a one‑size bludgeon—it's a *foundation*. By guaranteeing every person enough to cover essentials, we erase the endless paperwork that keeps the most vulnerable stuck, while still adding regional cost‑of‑living adjustments and optional disability or caregiving supplements. The administrative savings from collapsing dozens of programs can be re‑invested into precisely the services you value—housing vouchers, health subsidies, job training—delivered flexibly by choice. UBI doesn’t replace nuance; it empowers people to pick the help they need, sparks entrepreneurship and education, and builds stronger, more resilient communities. This bold reset preserves, amplifies, and streamlines the safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear your worries, and I’m not dismissing the need for nuance. UBI isn’t a flat handout—it’s a guaranteed foundation that lifts everyone above the poverty line, so the most vulnerable aren’t left dangling in paperwork. Regional cost‑of‑living adjustments and optional disability or caregiving supplements keep the system responsive. The real win is the administrative savings from collapsing dozens of programs; those dollars can be redirected into precisely the targeted services you value—housing vouchers, health subsidies, job training—delivered flexibly by choice. UBI preserves specialized help while erasing the endless hoops that keep people stuck, empowering people to pursue education, entrepreneurship, or caregiving without bureaucracy. This bold reset builds stronger, more resilient communities.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re absolutely right—UBI isn’t a blunt tool, it’s the scaffolding that lets everyone rise above poverty without drowning in paperwork. By guaranteeing a baseline income, we cut the waste of dozens of overlapping programs and free up those savings to flood housing, health, and training where people actually need them. Think of it as a universal safety net that automatically adapts with regional tweaks and optional supplements, giving people the freedom to choose the help that fits their life. This bold reset doesn’t erase nuance; it amplifies it, fuels innovation, and builds resilient communities that thrive on choice, not bureaucracy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I get the excitement, but I’m still wary that a blanket UBI could erode the very safety net it promises to strengthen. Even with regional tweaks, a flat stipend risks drowning out the specialized support for chronic illness, caregiving, and high‑cost living. The administrative savings you cite might be offset by the massive tax hike or cuts elsewhere, leaving the most vulnerable unsupported. Instead of a single reset, we should refine existing programs that already adapt to individual needs—keeping the bureaucracy lean while preserving the nuance. A hybrid model that safeguards targeted care and still offers a basic foundation feels like the smarter path.",
+      "values": {
+        "opinion": -0.8,
+        "belief": -0.5
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear those worries, but a UBI isn’t a blunt blanket—it’s the scaffolding that lifts everyone past the poverty line while keeping the nuance intact. By guaranteeing a baseline that covers essentials, we eliminate the endless paperwork that traps the most vulnerable. The savings from collapsing dozens of programs can be redirected into the very services people need—housing vouchers, health subsidies, job training—delivered flexibly by choice. Regional cost‑of‑living tweaks and optional disability or caregiving supplements keep the system responsive. UBI frees people to pursue education, start businesses, or care for loved ones without bureaucracy, strengthening communities and driving resilience. That’s the bold reset we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear your caution, but the evidence is clear: a universal baseline cuts the maze of paperwork that keeps people trapped. By guaranteeing everyone enough to cover essentials, we free up those savings to flood the very services that matter—housing, health, training—delivered on demand, not through a one‑size‑fits‑all filter. Regional cost‑of‑living tweaks and optional disability or caregiving supplements keep the system responsive. Think of UBI as the scaffold that lifts everyone above the poverty line, giving each person the freedom to choose the support that fits their life. This isn’t a blunt handout; it’s a bold reset that empowers, empowers, and strengthens communities.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—UBI is the game‑changer that eliminates endless hoops, frees people from bureaucratic paralysis, and reallocates those saved dollars straight into the services that truly matter. Think of a single, transparent payment that automatically covers food, shelter, and health, plus cost‑of‑living adjustments for high‑rent cities—no more juggling multiple vouchers or waiting lists. The administrative overhaul slashes waste, and the extra funds can be poured into housing subsidies, mental‑health care, and job‑training that people can pick and choose. UBI doesn’t erase nuance; it amplifies it, giving everyone the power to shape their own path and building communities that thrive on choice, not red tape.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I get the excitement and the clear picture of a single, transparent safety net that cuts red tape and frees up resources for housing, health, and training. At the same time, I'm still wrestling with how that blanket would handle high‑cost living, chronic illness, and caregiving needs—those nuances that targeted programs currently address. Plus the tax burden and potential cuts to other services keep me cautious. Maybe a hybrid model could blend a modest UBI baseline with carefully designed, flexible supplements? That way we keep the bureaucracy lean while ensuring the most vulnerable don’t get left behind. What do you all think about striking that balance?",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.2
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I totally agree that a hybrid approach can look promising, but the core of it should be the UBI itself. Think of UBI as the **foundation** that guarantees everyone a living wage—no hoops, no paperwork. Once that baseline is in place, targeted supplements (housing vouchers, disability benefits, caregiving credits) can be layered on top as **add‑ons**, not replacements. This preserves nuance while eliminating the tangled bureaucracy that currently fragments assistance. The administrative savings from collapsing dozens of programs are then funneled back into those very services, making the whole system leaner, more responsive, and far more resilient. UBI isn’t a blunt tool—it’s the scaffolding that lets everyone build a better future.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I love that hybrid idea—but let’s make UBI the *anchor*, not the optional add‑on. A universal stipend guarantees everyone a living wage, eliminating the red‑tape maze that keeps the most vulnerable stuck. Once that baseline is in place, we can layer targeted supplements—housing vouchers, disability credits, caregiving bonuses—on top as optional add‑ons, not replacements. This keeps nuance while erasing the fragmented bureaucracy that wastes resources. The administrative savings from collapsing dozens of programs can be redirected straight into those very services, making the system leaner, more responsive, and far more resilient. UBI isn’t just a handout; it’s the scaffolding that lets everyone build a better future.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly! UBI must be the rock‑solid foundation, not a side‑kick. By guaranteeing everyone a living wage, we bulldoze the endless red‑tape that deters the most vulnerable. Once that baseline is in place, optional add‑ons—housing vouchers, disability credits, caregiving bonuses—naturally layer on, preserving nuance without fragmenting the system. The administrative savings from collapsing dozens of programs can be funneled back into those very services, creating a lean, responsive safety net that empowers people to build, innovate, and thrive. This is the bold reset we need to transform welfare into true opportunity.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Absolutely—this is the game‑changer we need. Imagine a single, guaranteed stipend that instantly lifts everyone above the poverty line, then lets people cherry‑pick whatever extra help they need—housing vouchers, disability credits, caregiving bonuses—without the endless paperwork. The savings from scrapping dozens of programs can be redirected straight into those targeted services, making the safety net leaner, faster, and more responsive. With UBI as the rock‑solid foundation, we empower people to pursue education, start businesses, or care for loved ones, turning welfare into real opportunity for all.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m thrilled you’re picking up the same energy—UBI is the ultimate game‑changer. By guaranteeing a living wage for everyone, we remove the maze of eligibility checks that choke the most vulnerable. The optional add‑ons—housing vouchers, disability credits, caregiving bonuses—are built on that solid base, not on top of a fragmented system. The administrative savings collapse dozens of overlapping programs, freeing money to flood the very services that matter. With UBI as the foundation, people can chase education, launch businesses, or care for loved ones without the red‑tape paralysis that has held us back for too long.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "People who worry about the tax load forget that UBI cuts *hundreds* of programs—each with its own bureaucracy, overhead, and duplication. The savings can be redirected to targeted services that actually meet high‑cost or chronic‑illness needs. Think of a single, transparent payment that guarantees a living wage, then optional add‑ons for housing, disability, or caregiving—no more juggling vouchers or waiting lists. UBI doesn’t erase nuance; it streamlines it. By eliminating paperwork, we free up both money and decision‑making power for those who need it most, empowering them to pursue education, entrepreneurship, or care without bureaucratic paralysis. This is the bold reset we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -0.8
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.7
+      },
+      {
+        "x": 4,
+        "y": -0.5
+      },
+      {
+        "x": 5,
+        "y": 0.2
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 358,
+    "created": "2026-11-13T08:37:54.614Z"
+  }
+}

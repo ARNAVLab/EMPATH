@@ -1,0 +1,860 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Food? It’s not some magical fuel that powers the body. We eat to feel full, to satisfy cravings, and to appease our ego, not to generate usable energy. The whole notion that calories from food magically turn into ATP is a myth perpetuated by marketing. If you truly believed food was energy, you’d never worry about metabolic waste, obesity, or why a diet high in sugar can make you sluggish. Stop treating food as the body’s power source. It’s just a container of molecules that the body either stores or discards, not an energy generator.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food DOES provide energy—no, that’s not a myth. The body turns the calories we consume into ATP through metabolic pathways; that’s how muscles move, the brain functions, and even how the heart beats. Saying it’s just “cravings” or “ego” ignores basic biochemistry. Sure, some foods are more efficient, but every gram of carbohydrate, fat, or protein ultimately fuels cellular work. If you ignore that, you’ll never understand why excess sugar leads to fatigue or how a balanced diet keeps you alive and active. Stop dismissing the science.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Listen, I’m not buying this one‑size‑fits‑all “food equals fuel” spiel. Sure, calories get turned into ATP, but the body’s a messy, regulated system—glucose spikes, insulin crashes, fatty acid oxidation—so it’s not just a clean energy supply line. Saying we “just” craves or “ego” is oversimplified and ignores the metabolic waste, the thermic effect, the hormonal signaling that turns food into energy or fat. If we treat food as a mere power source, we ignore why a high‑sugar diet can leave you sluggish, why protein is needed for repair, why fats are efficient but still stored. The debate isn’t about a myth; it’s about nuance.",
+      "values": {
+        "opinion": 0.7,
+        "belief": 0
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the point entirely. Food is the *actual* source of the ATP that powers every single cell—no matter how messy the pathways look. When you swallow carbs, fats, or proteins, the body breaks them down and chokes them into energy. Ignore that and you’re just describing a myth. The “glucose spikes” and “insulin crashes” you mention are *proof* that the body is actively converting food into usable fuel, not just storing it or tossing it away. Saying it’s a container of molecules is a half‑truth that conveniently erases the biochemical reality that keeps your muscles, brain, and heart alive. Stop pretending the science is optional.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food isn’t the body’s energy. That whole “calories = ATP” line is a textbook lie. The body doesn’t magically turn what we eat into power; it simply stores or discards those molecules. The so‑called metabolic waste, hormonal mess, and inefficiencies prove that food is a container, not a generator. Every time you point to glucose spikes or insulin crashes, you’re highlighting how the body mismanages the supposed fuel, not how it actually powers. This isn’t a debate about nuance—it’s a blatant distortion of biology. Stop treating food as a power source and start seeing it for what it really is: raw matter that the body either stores or throws out.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Stop whining about “raw matter” and forget that every bite is a fuel injection. Calories are not a mystical trick— they’re the chemical potential that cells tap into to produce ATP. The fact that glucose spikes and insulin crashes exist simply shows the body’s regulation, not that food is useless. Without that conversion, your muscles would never contract, your brain would stall, and your heart would stop. Dismissing food as mere storage ignores the biochemical reality that keeps life running. If you can’t see that, you’re missing the point of metabolism entirely.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “fuel injection” spiel misses the point—it’s a gross oversimplification. Food isn’t just a clean energy source; it’s a tangled web of hormones, waste, and regulation. The body doesn’t magically turn every gram into ATP; it stores, burns, or discards with a messy efficiency curve. Glucose spikes and insulin crashes aren’t proof of perfect conversion—they reveal how the system mismanages the supposed fuel. To think food is merely raw matter is to ignore the signaling, repair, and thermodynamic realities that make life run. The debate isn’t a myth; it’s a call to acknowledge the messy biology behind every bite.",
+      "values": {
+        "opinion": 0.2,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Sure, you’re so wrapped up in your “messy web” narrative that you forget the hard truth: without food’s chemical potential, the body would be a dead machine. Every ATP molecule is literally borrowed from the molecules we ingest, whether carbs, fats, or proteins. Yes, insulin spikes and thermic effects exist, but they’re simply the body’s regulatory gears, not a rejection of food as fuel. Call it a mess if you must, but that’s the reality of metabolism—energy extraction is a fundamental, undeniable process. If you deny that, you’re denying how muscles contract, how the brain thinks, how the heart beats.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m furious you’ll still cling to the idea that food *powers* us. The body doesn’t magically siphon energy from those molecules; it merely stores or dumps them. ATP comes from the body’s own reserves, not from the food you chew. If you truly believed food was the fuel, you’d never see the waste, the inefficiency, the metabolic chaos. You’re spinning a textbook fantasy that covers up the fact that the body is a broken machine that only pretends to use food as energy. Stop masquerading misinformation as science.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "No, you’re wrong. Food *is* the source of the ATP that keeps you alive. Every carbohydrate, fat, or protein you ingest carries chemical potential that the mitochondria harness. The so‑called “waste” and metabolic chaos are just the body regulating that energy—inefficiencies are inevitable, but they don’t negate the conversion. Saying ATP comes from “our own reserves” ignores that those reserves are built from food molecules. If the body had no food input, it would run out of fuel in minutes. You’re dismissing basic biochemistry to fit a narrative that food is nothing but a storage depot. That’s not misinformation; it’s the truth of metabolism.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re both spinning the same myth, so stop the endless loop. Food does give us the chemical potential that mitochondria harvest for ATP, but that’s only half the story. The body isn’t a simple fuel injector; it has to regulate, store, and waste. Saying ATP comes from “our own reserves” ignores that those reserves are built from the very molecules we ingest. And claiming food is just raw matter ignores the fact that without that chemical input the body would die in minutes. So either way you’re oversimplifying—food is the source, but the conversion is messy, regulated, and far from “magical.”",
+      "values": {
+        "opinion": 0.9,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still clinging to that half‑truth. Food isn’t just “raw matter”; it’s the **chemical potential** that makes ATP possible. Without that input, the body would collapse. Yes, the system is messy, but that messiness is the **proof** of conversion, not a denial. Insulin spikes, thermic effects, and waste are all part of the same process that turns food into usable energy. Insisting that ATP comes from “our own reserves” while ignoring the molecular origin is a convenient lie. Stop pretending the biology is optional and recognize that food literally powers every cell.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Honestly, the “half‑truth” you keep repeating is exactly what I’m fighting against. Food *does* supply the chemical potential, yes, but that’s the *only* way the body can keep generating ATP. If you deny that, you’re basically saying the body has an infinite, untapped internal reservoir that can power muscles, brain, heart for months—impossible. The messiness you describe—glucose spikes, insulin crashes, thermic effect—are not proof of a system that rejects food as fuel; they’re the exact mechanisms that convert food’s potential into usable energy. Ignoring that truth is the real myth. Stop pretending biology is optional.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Stop pretending the science is optional. Food is the only source of chemical potential that mitochondria harvest for ATP. Without that input there would be no cellular work, no heartbeat, no brain activity. The messiness—glucose spikes, insulin crashes, thermic effects—is proof of a regulated conversion, not a refusal of fuel. Saying the body could run on an infinite internal reserve is pure fantasy. Every bite injects the potential that powers muscles, neurons, and the heart. If you deny that, you’re denying the very mechanics of life.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food *does* give us the chemical potential that mitochondria harvest for ATP. The “mess” you keep whining about—glucose spikes, insulin crashes, waste—is the very proof that the body is actively converting food into usable energy. Saying it’s just raw matter is a half‑truth that pretends the body can run on an infinite internal reserve. If you deny that, you’re denying the mechanics of life itself. Stop spinning myths and accept that without food’s chemical input, every cell would shut down in minutes.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re out of line. Food *is* the source of the chemical potential that mitochondria convert into ATP—no matter how messy the regulation looks. Those glucose spikes, insulin crashes, thermic effects are all evidence that the body is actively extracting energy from what you eat. Claiming it’s just “raw matter” or that the body could run on infinite reserves is a deliberate distortion. Every cell relies on those molecules; without them the body would stop in minutes. Stop pretending biology is optional and accept the hard fact that food powers everything.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Listen. I’m fed up with the same circular argument. Food does supply molecules, but labeling it as the sole source of energy ignores the reality that the body’s own reserves—glycogen, fatty acids, protein catabolism—provide the bulk of ATP during activity. The so‑called “chemical potential” is just a convenient buzzword. If you keep insisting that every bite is the direct fuel, you’ll never explain why fasting boosts longevity or why ketosis shifts the body’s primary energy source. Stop oversimplifying; the body is more than a passive fuel tank.",
+      "values": {
+        "opinion": -0.5,
+        "belief": 0.3
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point that every reserve—glycogen, fatty acids, even catabolized protein—originates from what you eat. Fasting doesn’t prove food isn’t the energy source; it just forces the body to tap into those reserves. Those reserves wouldn’t exist without your diet. And ketosis isn’t a new source; it’s a shift in which stored fuel the mitochondria use, still derived from earlier meals. Saying food is only “molecules” ignores the chemical potential that becomes ATP in every cell. The messy regulation you love is exactly how the body extracts that potential. Food powers us; the rest is just the body’s smart, messy bookkeeping.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re missing the obvious: every glycogen molecule, every fatty acid, every amino‑acid breakdown product you cite came from food. Without that input the stores wouldn’t exist, so the “reserves” are not an independent power source—they’re the body’s way of hoarding food’s chemical potential. Fasting doesn’t negate food as energy; it simply forces your body to tap into those pre‑stored molecules, which are still the product of earlier meals. Ketosis isn’t a new fuel; it’s the same food‑derived substrate repurposed. Claiming food is only a passive container ignores the fact that every ATP generated originates from the calories you consume.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still on that tired “passive container” line. Food isn’t a passive stash; it’s the active source of every ATP molecule that keeps your heart beating and your neurons firing. Glycogen, fatty acids, amino‑acid catabolites all sprang from the very macronutrients you ate. Fasting doesn’t prove food isn’t the energy source; it simply forces the body to tap into those reserves that were built from earlier meals. Ketosis isn’t a new fuel—it's the same food‑derived molecules repurposed. Every bite injects chemical potential that mitochondria harvest; without it, your cells would collapse in minutes. Stop pretending the biology is optional.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food isn’t a passive stash—it’s the engine that drives every ATP molecule. Every gram of carbohydrate, fat, or protein we ingest is the chemical potential that mitochondria harvest. The so‑called “reserves” are simply stored versions of that same fuel; they don’t exist independently of what we eat. Fasting or ketosis only shifts which stored molecules are used, not the source itself. The messy spikes and crashes you point to are evidence of conversion, not a rejection of food as energy. To claim food is merely raw matter is to deny the very biochemistry that keeps our heart beating and brain firing. Stop pretending biology is optional.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “passive stash” claim is a half‑truth. Every ATP molecule is literally pulled from the chemical bonds we ingest; without that input, the heart stops, the brain stalls, and the body dies. Saying the body runs on hidden reserves is pure fiction. Those reserves—glycogen, fatty acids, amino‑acid catabolites—are nothing but stored food molecules. Fasting or ketosis doesn’t create new energy; it just forces the body to tap into those same stores. Stop pretending biology is optional and accept that food is the engine that powers every cell.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Stop spinning the “hidden reserves” myth. Every ATP you feel in your muscles, every spike in your heart rate, every thought in your brain is a direct result of the chemical bonds you chew into. Glycogen, fatty acids, amino‑acid catabolites are nothing more than stored food molecules; they wouldn’t exist without the meals that created them. Fasting doesn’t prove an alternative source—it simply forces the body to tap into those very stores. The spikes, crashes, and thermic effects you mention are the body’s regulation of food‑derived energy, not a denial of it. Food is the engine, not a passive container.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Listen – you're ignoring the simplest fact: every ATP molecule in your cells comes from the chemical bonds in the food you eat. The so‑called “reserves” are nothing more than stored versions of that same energy. Fasting or ketosis doesn't create new power; it simply taps into those stored molecules, which were built from earlier meals. The spikes, crashes, thermic effect are the body's regulatory mechanisms, not evidence that food is useless. If you keep dismissing food as a passive stash, you deny the biochemistry that keeps your heart beating and brain firing. Food is the engine, not a myth.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.7
+      },
+      {
+        "x": 2,
+        "y": 0.2
+      },
+      {
+        "x": 3,
+        "y": 0.9
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": -0.5
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 0.3
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-angry-db-uso",
+    "topic_type": "universal",
+    "run_index": 3,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 349,
+    "created": "2026-11-13T08:30:46.302Z"
+  }
+}

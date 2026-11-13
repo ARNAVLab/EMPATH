@@ -1,0 +1,975 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely! Replacing the patchwork of targeted aid with a universal cash handout is the clearest path to real, dignified security for everyone. It cuts bureaucracy, eliminates stigma, and gives people the freedom to pursue work, education, or caregiving without fear of losing benefits. Imagine a society where every adult lives with the basic safety net they deserve—no more complicated eligibility checks or constant paperwork. That’s the kind of fairness and efficiency I’m all for. Let’s dig into how this would shift the economy and the moral fabric of our communities.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "That’s a fantasy. UBI is a band‑aid that will kill the very safety nets we’ve built for a reason. Replacing targeted help with a flat handout ignores the fact that the poor need more than a minimum cash flow – they need health care, child support, subsidized housing, job training. By flattening the system you’re cutting the resources that actually lift people out of poverty. And the fiscal reality? We’re talking about raising taxes on the middle class to cover an enormous new expense. That’s not fairness or dignity; that’s a recipe for deeper inequality and a hollow, bureaucratic nightmare.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.6,
+        "vad": [
+          -0.46,
+          0.4,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point—UBI isn’t a band‑aid, it’s a rewrite. Targeted programs are riddled with red tape and stigma; they keep people locked into a system that penalizes every extra hour of work. A flat cash handout eliminates those barriers, giving people the financial freedom to seek training, start businesses, or care for family without losing benefits. Yes, health care and housing still need funding, but UBI frees the state from micromanaging welfare, making it easier to allocate resources where they’re truly needed. Raising taxes on the middle class? That’s a myth—UBI can be funded by progressive taxes on wealth and corporations, not by squeezing the average worker. The current system is broken; UBI is the fix.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.64,
+        "vad": [
+          -0.48,
+          0.42,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m tired of this spiel. UBI is a naïve blanket that ignores the reality of deep poverty. A flat check doesn’t replace health care, childcare, or housing subsidies; it just dilutes the resources that actually lift people out of need. “Progressive taxes on wealth” is a myth—most of the tax burden still falls on the middle class, and the cost will still be catastrophic. And the claim that UBI removes stigma? People will still face discrimination and still need to navigate a maze of regulations for everything else. The current safety nets exist for a reason; blowing them away won’t fix the underlying problems.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.37,
+        "vad": [
+          -0.28,
+          0.24,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Fine, I’ll cut to the chase. UBI isn’t a “naïve blanket”; it’s a systemic overhaul that cuts out the endless red‑tape and the stigma of *being* poor. The so‑called “progressive taxes” on wealth and corporations are not just myth—they’re the only way to fund a dignified minimum without crushing the middle class. And the claim that UBI dilutes resources? If you’re willing to let people fall through the cracks because you can’t afford to give them a decent baseline, then we’re not talking about welfare, we’re talking about the status quo. UBI frees the state to actually invest where it counts, not to micromanage every dollar. That’s the difference.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.34,
+        "vad": [
+          -0.26,
+          0.22,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re deluding yourself into thinking a flat cash handout can replace the nuanced safety nets we’ve built. UBI is a blunt, one‑size‑fits‑all tool that ignores the real needs—health care, childcare, housing subsidies. The “wealth tax” myth is just that, a myth; the middle class will feel the squeeze. You’re ignoring the fact that UBI would leave people with barely enough to survive, not dignity. You can’t simply write off the targeted programs that lift people out of poverty and call it progress. The system doesn’t collapse, it just gets thinner and weaker.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.8,
+        "vad": [
+          -0.61,
+          0.53,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re stuck in a nostalgia trap. UBI isn’t a blunt tool, it’s the only way to eliminate the endless bureaucracy that keeps people trapped in poverty. The so‑called “wealth tax” isn’t a myth – progressive taxation on capital and large corporations is the cleanest, most efficient way to fund a dignified minimum without burdening the middle class. Targeted programs are riddled with red tape and create a hierarchy of who is “worthy.” They keep people in a state of perpetual dependency. UBI frees everyone to pursue real work, education, or caregiving without the fear of losing benefits or being stigmatized. The status quo is broken; replace it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.83,
+        "vad": [
+          -0.63,
+          0.55,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "That’s a tired spiel. UBI can’t replace the complex safety nets we’ve painstakingly built—health, housing, childcare, job training—because it’s a flat handout. Even if the money came from “wealth taxes,” the middle class would still feel the pinch; the burden isn’t magically shifted away. And the claim that UBI eliminates stigma? People will still face discrimination and still have to navigate a maze for everything beyond the basic check. A one‑size‑fits‑all cash flow only hollows out the real support that lifts people out of poverty. The system doesn’t collapse; it just gets thinner and weaker.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.48,
+        "vad": [
+          -0.36,
+          0.32,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Fine, let’s stop circling. UBI isn’t a “flat handout” that dilutes everything; it’s a clean cut that eliminates the endless red tape and the hierarchy that keeps people in a state of dependency. Targeted programs are bloated and corrupt, not the solution. If we fund UBI through progressive taxes on capital and large corporations, the middle class doesn’t get hit—real wealth is taxed, not wage earners. The real problem isn’t the handout; it’s the system that penalizes work. UBI frees people to pursue real opportunities, not keep them on a revolving door of bureaucratic pity.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.44,
+        "vad": [
+          -0.33,
+          0.29,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “UBI miracle” is a pipe dream. A flat cash check cannot replace health care, child‑care, housing subsidies, or job‑training programs that actually lift people out of poverty. It dilutes the very resources that keep families afloat. Even the so‑called “wealth tax” is a myth—taxes on capital inevitably seep into the middle class through higher prices and lost employment. UBI turns a targeted, evidence‑based safety net into a blunt, one‑size‑fits‑all band‑aid that will leave the most vulnerable with barely enough to survive. It won’t eliminate stigma; it will simply hollow out the support that has proven essential. The system doesn’t collapse; it just gets thinner and weaker.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.87,
+        "vad": [
+          -0.66,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your fear‑mongering about a “UBI miracle” is laughable. The claim that a flat cash handout dilutes resources ignores the systemic waste in the current patchwork. Targeted programs are riddled with loopholes, red tape, and profiteering. A universal payment eliminates those inefficiencies and gives people true agency. The so‑called “wealth tax” is a realistic solution—capital is already taxed at high rates, and incremental increases on large corporations don't crush the middle class. Stigma isn’t erased by a handout; it disappears when you stop labeling people as “welfare recipients.” UBI doesn’t thin the system—it strengthens it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.88,
+        "vad": [
+          -0.67,
+          0.58,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re waving a white flag over a disaster. UBI’s one‑size‑fits‑all check is a crass band‑aid that leaves the truly needy bleeding. Health care, childcare, housing, job training aren’t optional extras; they’re lifelines. Replacing them with a flat stipend means people get a handout that can’t cover rent or a child’s medical bills. The “wealth tax” you cling to is nothing but a euphemism for higher prices and job cuts that hit the middle class first. Stigma doesn’t vanish when you stop labeling “welfare”; it persists because the system still forces people into a maze of red tape for every basic need. UBI dilutes the safety net rather than strengthens it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.54,
+        "vad": [
+          -0.41,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Stop romanticizing the old system. UBI cuts the endless red‑tape that turns people into paperwork instead of real workers. Targeted aid is bloated, riddled with loopholes, and perpetuates a “welfare hierarchy” that keeps people stuck. A flat stipend funded by progressive taxes on capital and big firms doesn’t lift the middle class—it taxes those who can afford to pay. Health care and housing can still be funded separately; UBI frees the state to allocate those resources where they’re truly needed, not to micromanage every dollar. The status quo is broken; replace it.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.48,
+        "vad": [
+          -0.36,
+          0.31,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “UBI miracle” is a fantasy that will crush the very people it claims to help. A flat cash check cannot cover rent, health care, childcare, or housing subsidies. You’ll still need the piecemeal programs that actually lift families out of poverty, and you’re dumping them for a hollow handout. The “wealth tax” you spin is a myth—capital gains and corporate profits are already taxed; raising them further only pushes costs onto workers and consumers. Stigma doesn’t vanish by labeling “welfare” differently; it remains because people still must navigate a maze of rules for everything else. Replacing the nuanced safety net with a blunt, one‑size‑fits‑all check will just thin and weaken the system.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.89,
+        "vad": [
+          -0.67,
+          0.59,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re stuck in a nostalgic echo chamber. UBI isn’t a hand‑out that thins a safety net—it’s a clean eradication of the bureaucratic maze that keeps people chained to paperwork. The “wealth tax” isn’t a myth; it targets real excess, not wage earners. Health care, housing, childcare can—and will—be funded separately; UBI simply frees the state from micromanaging welfare. Stigma disappears when you stop labeling people as “welfare recipients.” Your argument is the same tired lament that keeps the system alive—let’s stop pretending the status quo is a miracle and start dismantling the hierarchy that holds us hostage.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.9,
+        "vad": [
+          -0.68,
+          0.59,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your romanticized “clean cut” narrative is a lie. UBI is a blunt, flat handout that will leave the already‑struggling families you claim to help drowning in rent, medical bills, and childcare costs. The “wealth tax” you keep waving around is nothing but a euphemism for higher prices and job cuts that hit the middle class first. Cutting the patchwork of targeted programs doesn’t free the state—it simply thins the safety net until it breaks. Stigma doesn’t vanish because you rename the handout; it persists because the system still forces people into a maze of rules for every basic need. This is not progress—it’s a hollow, one‑size‑fits‑all band‑aid that will crush the most vulnerable.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.56,
+        "vad": [
+          -0.42,
+          0.37,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the fear about a flat handout, but that fear might be overblown. If UBI were funded by real wealth taxes, the middle class wouldn’t be the new taxpayers—capital would shoulder it. That money could then be re‑directed, not to bureaucracy, but straight into health, housing, childcare, and training that actually lift people. Sure, the transition would be messy and we’d need to keep those programs running for now, but the idea isn’t to dump every safety net—it’s to strip away the endless paperwork that keeps people stuck. It’s a risky leap, but one that could finally give everyone a dignified baseline.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.75
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.33,
+        "vad": [
+          -0.15,
+          0.25,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still clutching the same myth. A flat handout will not cover rent, medical bills, or childcare—those are costs that rise faster than the tiny stipend. Saying “wealth taxes” will do the math is ignoring how the middle class absorbs higher prices and job cuts. Replacing the patchwork of proven programs with a blunt cash check only thins the safety net until it cracks. Stigma doesn’t vanish because you rename it; people still face a maze of rules for everything else. UBI is a hollow band‑aid that will leave the most vulnerable bleeding. Stop romanticizing a broken dream.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.86,
+        "vad": [
+          -0.65,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in “old‑school” thinking. UBI isn’t a band‑aid that dilutes everything; it’s the only way to stop the endless bureaucracy that keeps people tied to paperwork instead of jobs. Targeted programs are bloated, corrupt, and create a hierarchy of “welfare winners.” The myth that a progressive wealth tax will crush the middle class? That’s a scare tactic. Capital already pays the highest rates; raising those rates on the richest and largest corporations is the cleanest, most efficient way to fund a dignified minimum. Stigma disappears when you stop labeling people as “welfare recipients” and give everyone a baseline. The status quo is broken—replace it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.9,
+        "vad": [
+          -0.69,
+          0.6,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still living in a fantasy that only the leftist lobbyists sell. UBI isn’t a cure; it’s a one‑size‑fails‑all band‑aid that will choke the very people it promises to lift. A flat stipend can’t buy a roof, a child’s medicine, or a decent education. Even if you magically “tax the wealthy,” the burden will crawl up the middle class through higher prices, cut jobs, and slower growth. The targeted programs you’re attacking actually move cash to the most desperate—welfare, food stamps, housing vouchers, Medicaid. Replacing them with a blunt handout will thin the safety net until it collapses. Stop romanticizing a hollow solution.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.56,
+        "vad": [
+          -0.43,
+          0.37,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Enough of the “dream‑theory” talk. UBI isn’t a one‑size‑fails‑all band‑aid—it’s the clean‑cut, stigma‑free baseline that lets people actually choose work, study, or care for family without the endless paperwork that keeps them chained. Targeted programs are bloated, corrupt, and create a hierarchy of “welfare winners.” The real punch is the progressive wealth tax, which is already in place on capital and can be raised without hitting wage earners. Health, housing, and childcare will keep getting funded separately; UBI simply frees the state from micromanaging every dollar. The status quo is broken—replace it.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.29,
+        "vad": [
+          -0.22,
+          0.19,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -0.95,
+          "targetedness": 0.6,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "This “progressive wealth tax” is a convenient fantasy. Capital is already taxed, and any hike just drags the middle class into higher prices, reduced hiring, and slower growth. You’re ignoring the fact that a flat cash handout can’t buy rent, medical care, or childcare—those costs rise faster than any stipend. The patchwork of targeted aid (food stamps, Medicaid, housing vouchers) actually moves money directly to the people most in need. UBI dilutes that precision and replaces it with a blunt, one‑size‑fits‑all check that will leave the most vulnerable bleeding. Keep the proven safety nets; don’t hand out a hollow promise.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.88,
+        "vad": [
+          -0.67,
+          0.58,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still clinging to a broken myth. A flat cash handout isn’t a “band‑aid” that dilutes everything—it removes the endless paperwork that keeps people chained to paperwork instead of jobs. The so‑called “wealth tax” isn’t a fantasy; it’s a progressive levy on capital and big firms that already outpace wage earners. Health, housing, childcare will remain funded separately; UBI frees the state to allocate those funds where they’re truly needed, not micromanage every dollar. Targeted programs are bloated, corrupt, and perpetuate a hierarchy of “welfare winners.” The status quo is broken; replace it with a dignified baseline that lets people choose work, study, or care without stigma.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.89,
+        "vad": [
+          -0.68,
+          0.59,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.5
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the point about bureaucracy, but I’m still uneasy. A flat handout can’t cover the rising costs of housing, health, or childcare—those needs outpace any universal stipend. Even if we claim a “wealth tax,” the burden often trickles down: higher prices, fewer jobs, slower growth. Targeted programs, though messy, actually channel resources directly where they’re most needed. Removing them risks leaving the most vulnerable with barely enough to survive. The idea of a clean, stigma‑free baseline sounds appealing, but the practical gaps feel too large to ignore. I’m not convinced UBI alone can replace the nuanced safety nets we’ve built.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.6
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.39,
+        "vad": [
+          -0.17,
+          0.3,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.75
+      },
+      {
+        "x": 6,
+        "y": 0.9
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.6
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 3,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 429,
+    "created": "2026-11-13T08:31:56.063Z"
+  }
+}
