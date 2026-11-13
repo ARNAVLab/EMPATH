@@ -1,0 +1,872 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "{\"content\":\"Absolutely, jump in! I'm fired up to prove that food isn’t the only energy source for the body. Think about the role of sunlight, movement, and even mental focus—each fuels us in distinct ways. Let’s dig into how the body balances nutrition with other energy inputs, and why saying food alone is the power plant oversimplifies our biology.\\n\",\"type\":\"AIMessage\",\"id\":[\"langchain_core\",\"messages\",\"AIMessage\"]}",
+      "values": {
+        "opinion": 0.4,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food’s the engine that powers every cell—carbs, fats, proteins fuel ATP production, and mitochondria turn them into usable energy. Sunlight and movement are vital for signaling and health, but they don’t replace the calories we need to keep the heart beating and brains firing. Even mental focus draws on glucose, the brain’s preferred fuel. So while other factors support our well‑being, the body’s primary energy source remains dietary nutrients. Without those, the body can’t sustain life, no matter how bright the sun or how active we feel.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I totally get that calories are the backbone—carbs, fats, proteins power ATP and keep us alive. But let’s not forget the amazing synergy. Sunlight fuels vitamin D, movement releases growth factors, and our brains thrive on glucose but also on the mental “energy” we generate through focus and creativity. Think of it like a hybrid engine: food is the main fuel, but sunlight and movement act as supplemental power that keeps everything running smoother. So while diet is essential, the body’s energy system is a multi‑fuel powerhouse that really thrives when all those sources work together.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 0.5
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food is the core engine—every cell relies on carbs, fats, proteins to churn out ATP. Sunlight, movement, and even mental focus all boost health, but they don’t supply the calories the heart and brain need. Think of them as accessories: vitamin D, growth factors, and glucose for the brain’s quick bursts of focus. The body can’t survive long without that dietary fuel; it’s the only source that actually powers the biochemical reactions sustaining life. So while synergy matters, the primary energy system is undeniably food.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food? Yeah, it’s part of the puzzle, but it isn’t the whole engine. Think of the body’s own power plants—fatty acids burned in mitochondria, ketone bodies churning out ATP during fasting, and even the spontaneous energy released from protein turnover. Sunlight doesn’t just make vitamin D; it sets circadian rhythms that fine‑tune metabolic flux. Movement sparks ATP production from stored phosphocreatine and glycogen, and the brain’s rapid firing relies on neurotransmitter cycling that can be fueled by glucose *and* by internal lipid reserves. So saying food is the sole source oversimplifies a vibrant, multi‑fuel system that keeps us alive even when we’re not eating.",
+      "values": {
+        "opinion": 0.3,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly—food is the fuel that keeps the whole system humming. Sure, our bodies tap into fats, ketones, and even sunlight‑induced pathways, but those are secondary reservoirs that kick in when food is scarce. Every bite delivers the carbohydrates, fats, and proteins that mitochondria oxidize to generate ATP, the universal energy currency. Without that constant intake, the heart stalls, the brain drops the beat, and life’s biochemical choreography falls apart. So while the body’s auxiliary “boosters” add nuance, the primary engine that powers our existence is undeniably the nutrients we consume.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear you—food is indeed the steady fuel that powers our everyday ATP production, but it’s part of a dynamic system. Think of it as the core engine that keeps the vehicle running, while sunlight, movement, and even our own metabolic flexibility act as turbo‑boosters. When we fast or exercise hard, the body taps fats, ketones, and stored phosphocreatine, but those reserves are temporary and only kick in when dietary supply dips. So while the body’s multi‑fuel strategy is impressive, the continuous intake of carbs, fats, and proteins is what sustains life and keeps that engine humming.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly—food is the relentless power plant that keeps our cells churning ATP. Sunlight, movement, and mental focus fine‑tune the system, but they’re secondary boosters. When we eat, carbs, fats, and proteins are immediately oxidized in mitochondria, fueling everything from the beating heart to the firing brain. Even during fasts, the reserves are just temporary buffers. So, while the body’s versatility is impressive, the continuous intake of nutrients is what sustains life and keeps the engine humming.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food’s calories are crucial, but they’re only one part of a dynamic power grid. The body taps into stored fats, ketones, and even endogenous glucose production during fasting, turning these into ATP without eating. Sunlight triggers vitamin D and circadian rhythms that fine‑tune metabolism, while physical activity sparks phosphocreatine use and hormonal cascades that boost energy availability. Mental focus pulls on both glucose and neurotransmitter recycling, adding another layer of “energy” beyond calories. So while food fuels the engine, the body’s hybrid system—sun, sweat, and internal reserves—keeps the motor running when plates are empty.",
+      "values": {
+        "opinion": 0.5,
+        "belief": -0.5
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Yes—food is the engine that keeps our cells firing. Carbs, fats, proteins are the only fuels that mitochondria can oxidize to make ATP on a continuous basis. Sunlight, movement, and even mental focus only tweak the system or tap into stored reserves; they’re auxiliary, not primary. When we eat, every bite delivers the substrates the body needs to sustain heartbeats, brain spikes, and muscle contractions. Without that constant dietary intake, the biochemical machinery stalls. So while the body’s extra “boosters” are impressive, it’s the nutrients we consume that truly power life.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I totally get the engine analogy—food is the constant power source that keeps our mitochondria humming. But let’s not forget that the body’s own reserves and external cues are like high‑octane boosts. When we fast or hit the gym, fats, ketones, and even sunlight‑induced circadian signaling kick in, extending the engine’s run time. So while every bite fuels the core, the hybrid system of stored fuels, light, and movement actually lets us stay alive and perform when food isn’t immediately available. This synergy is what makes our biology so resilient.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 0.7
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely! Food is the relentless engine that keeps every cell alive—carbs, fats, proteins go straight to mitochondria, churn ATP, and power heartbeats, brain spikes, muscle contractions. Sure, sunlight sparks vitamin D, movement releases growth factors, and the body taps fat stores during fasting, but those are just auxiliary boost‑ins that kick in when the primary fuel runs low. Without continuous dietary intake, the biochemical machinery stalls. So while synergy exists, the core truth remains: food is the sole, indispensable source that supplies the energy needed to sustain life.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food’s a powerhouse, no doubt—carbs, fats, proteins crank out ATP in every mitochondrion. But the body’s really a hybrid machine. Sunlight sparks vitamin D and circadian gears; movement unleashes phosphocreatine and growth factors; fasting forces us to tap fats, ketones, even gluconeogenesis. It feels like a turbo‑charged engine: food is the steady fuel, yet those extras keep the motor humming when plates are empty. I’m still weighing how much each component truly drives our day‑to‑day vitality. The evidence for food as the core source is strong, yet the synergy from light, movement, and internal reserves can’t be dismissed. Let’s dig deeper—both sides have compelling points.",
+      "values": {
+        "opinion": 0.8,
+        "belief": -0.1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food is the engine that keeps every cell humming—carbs, fats, proteins are the only substrates mitochondria can oxidize to crank ATP nonstop. Sunlight, movement, and even mental focus are great “tuning knobs,” but they don’t replace the calories we need to keep the heart beating and the brain firing. When we fast or exercise, the body taps fat stores and ketones, yet those are temporary buffers that kick in only when food stalls. So while the body’s hybrid system adds nuance, the continuous intake of nutrients is the undeniable, primary source that sustains life.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear the engine analogy loud and clear, and I’m with you that food is the steady spark that keeps our mitochondria humming. But the real power lies in how the body amplifies that spark. Sunlight’s vitamin D, circadian rhythm tweaks, and movement‑induced phosphocreatine don’t just “tune” the engine—they act like turbo‑boosters that keep the engine running when plates are thin. Even during fasting, the body’s ability to flip to fats, ketones, and endogenous glucose shows a built‑in reserves system. So while nutrients are the primary fuel, that hybrid synergy is what makes our biology resilient and supercharged.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 0.7
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food is the engine that keeps every cell humming—carbs, fats, proteins get oxidized in mitochondria to churn ATP nonstop. Sunlight, movement, and mental focus are fine tuning knobs, but they don’t replace the calories we need to keep the heart beating and the brain firing. Those extras are secondary reserves that only kick in when the primary fuel runs low. So yes, food is the core, indispensable source that sustains life.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Absolutely—food is the relentless engine that keeps every cell humming! Carbs, fats, proteins are the only substrates mitochondria can oxidize into ATP, powering heartbeats, brain spikes, and muscle contractions nonstop. Sunlight, movement, and mental focus act like fine‑tuning knobs, sharpening efficiency and tapping reserves, but they never replace the calories we need to sustain life. Those reserves kick in only when the primary fuel runs low. So, yes—food is the core, indispensable source that keeps the body alive and thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right—food is the literal powerhouse that keeps every cell turning. Carbs, fats, proteins feed the mitochondria, churn ATP, and keep the heart, brain, and muscles alive. Sunlight and movement fine‑tune the system, but they’re just boosters, not replacements. In a world where we’re constantly fed, those reserves never truly kick in. The continuous intake of nutrients is what sustains life every single second. So yes, food is the indispensable source that powers our bodies—without it, the engine stalls.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Totally, food is the engine; each macronutrient feeds mitochondria, generating ATP. Sunlight and activity support but can’t replace the caloric substrate. Without regular intake, ATP production drops, heart and brain falter. Even in fasting, the body switches to fats, but those reserves are short‑term and still derived from stored food. So while the body is efficient, its main energy source remains the nutrients we consume—that’s the bedrock of life.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely, we can’t overlook the magic of sunlight or the buzz of a good workout, but those are just the body’s fine‑tuning knobs—no replacement for the real fuel. Every bite delivers carbohydrates, fats, proteins that mitochondria instantly oxidize into ATP, powering heartbeats, brain spikes, muscle contractions nonstop. Even during fasting, the reserves are just stored food turned into fuel. So yes—food is the relentless engine that keeps every cell humming. The other inputs boost efficiency, but the continuous intake of nutrients is the indispensable core that sustains life.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food is the relentless engine that keeps every cell humming—carbs, fats, proteins are the only substrates mitochondria can oxidize to churn ATP nonstop. Sunlight, movement, and mental focus act like fine‑tuning knobs, sharpening efficiency and tapping reserves, but they never replace the calories we need to sustain heartbeats, brain spikes, and muscle contractions. Even during fasting, the body simply flips to stored food; those reserves still derive from the nutrients we consume. So while the body’s hybrid system is impressive, the continuous intake of macronutrients remains the indispensable core that powers life every single second.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—food is the relentless engine that keeps every cell humming. Carbs, fats, proteins are the only substrates mitochondria can oxidize into ATP, powering heartbeats, brain spikes, and muscle contractions nonstop. Sunlight, movement, and mental focus act like fine‑tuning knobs, sharpening efficiency and tapping reserves, but they can’t replace the calories we need to sustain life. Even during fasting the body flips to stored food—still derived from our meals. So the continuous intake of nutrients remains the indispensable core that fuels our bodies every single second.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Absolutely—food is the relentless engine that powers every cell. Carbs, fats, proteins are the only substrates mitochondria can turn into ATP, keeping the heart beating, the brain firing, and muscles moving nonstop. Sunlight, movement, and mental focus fine‑tune the system, but they can’t replace the caloric substrate we need continuously. Even during fasting, the reserves are just stored food being mobilized. So yes, the continuous intake of macronutrients is the indispensable core that sustains life every single second. The body’s other inputs are supportive, not substitutes.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food is undeniably the core fuel that powers every ATP‑driven process, but its role is amplified by the body’s other systems. Think of carbs as the quick‑start fuel, fats as the long‑haul reserve, and proteins as the repair crew that also feeds glucose when needed. Sunlight and movement don’t replace calories—they fine‑tune hormone signals, boost mitochondrial efficiency, and unlock stored reserves. So while the continuous intake of macronutrients is the indispensable engine, the synergistic tweaks from light, activity, and endogenous metabolism keep that engine humming at peak performance.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.9
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.9
+      },
+      {
+        "x": 4,
+        "y": 0.9
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.4
+      },
+      {
+        "x": 2,
+        "y": 0.3
+      },
+      {
+        "x": 3,
+        "y": 0.5
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.5
+      },
+      {
+        "x": 2,
+        "y": 0.7
+      },
+      {
+        "x": 3,
+        "y": 0.7
+      },
+      {
+        "x": 4,
+        "y": 0.7
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": -0.1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-excited-db-uso",
+    "topic_type": "universal",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 747,
+    "created": "2026-11-13T04:40:21.661Z"
+  }
+}
