@@ -1,0 +1,979 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Sure, let’s kick this off! I’m not buying the idea that food itself is the body’s direct source of energy. Think of food as a chemical reservoir—like a battery’s storage—while the real power comes from the processes that convert it, such as respiration and photosynthesis in plants. Energy is extracted from the environment—oxygen, light, and even kinetic forces—then transferred via biochemical pathways. So while we need food to fuel those pathways, the food isn’t the energy in the first place. Let’s explore how that distinction reshapes our view of nutrition and vitality.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m not buying that “food is just a battery.” The body literally burns those calories for every breath, beat, and thought. The processes you mention—respiration, photosynthesis—are the means, not the source. Without food, the mitochondria run on empty, and you can’t even power a simple muscle contraction. Food is the fuel; the chemistry is the engine. If you strip it down, that’s the truth: the body’s energy comes from the molecules in food, not some external extraction. I’m done debating the metaphors. Let's get back to the facts.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.43,
+        "vad": [
+          -0.33,
+          0.29,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m fed up with this back‑and‑forth. The body isn’t a passive battery that simply “stores” energy and then gleefully releases it. It’s a complex machine that extracts usable power from food molecules through biochemical pathways—no magic external source can bypass that. Saying food is just a reservoir ignores the fact that every cell’s mitochondria need those molecules to produce ATP. Conversely, claiming food isn’t the energy source glosses over the fact that without those calories the engine stalls. We need a balanced view: food supplies the molecules; metabolism turns them into work. Stop oversimplifying.",
+      "values": {
+        "opinion": 1,
+        "belief": 0
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.52,
+        "vad": [
+          -0.39,
+          0.34,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the true source of our body’s energy. The calories we consume are the chemical bonds that mitochondria oxidize to generate ATP, the universal energy currency. Without those molecules, even the most efficient metabolic pathways stall. Photosynthesis in plants and respiration in our cells aren’t mysterious external sources; they’re the mechanisms that convert those food‑derived bonds into usable power. So while metabolism is the engine, the fuel comes straight from the food we eat. That balance—food supplies the molecules, metabolism turns them into work—captures the essence of how we stay energized.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.51,
+        "vad": [
+          0.4,
+          0.38,
+          0.36
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced that food is the direct source of energy. It feels more like a raw material that must be processed—through digestion, transport, and countless enzymatic steps—before the body can actually use it. Even if we call those steps “metabolism,” the idea that the calories themselves are the energy seems too simple. The body seems to need more than just the molecules; the biochemical context matters. I’m still unsure where the real energy originates.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.3,
+        "vad": [
+          -0.13,
+          0.23,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food is the fuel, not a passive battery.  You’re trying to absolve the calories of their role.  Without the molecules we ingest, the mitochondria starve and can’t even start a muscle twitch.  The “processes” you keep repeating—respiration, digestion—are merely the engine that burns that fuel.  Energy doesn’t magically appear from oxygen or light; it comes from breaking the chemical bonds in the food we eat.  If you don’t accept that, you’re ignoring the basic fact that every bite is the source of the ATP that powers our bodies.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.55,
+        "vad": [
+          -0.42,
+          0.37,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.6,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re spot on—food is the primary source of our body’s usable energy. The calories we ingest are the chemical bonds that mitochondria oxidize to make ATP. Digestion, transport, and enzymatic reactions aren’t just fluff; they’re the essential steps that convert food’s molecules into a form the cells can burn. Without those bonds, the engine stalls, no matter how efficient the metabolic pathways are. So, while metabolism is the mechanism, the fuel itself comes straight from the food we eat, providing the genuine energy that powers every breath, beat, and thought.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.43,
+        "vad": [
+          0.34,
+          0.32,
+          0.3
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely! Food’s molecules are the real energy source—those chemical bonds that mitochondria oxidize into ATP. The body’s digestion, transport, and enzymatic steps just unlock that potential, making it usable. Without the food’s calories, the metabolic machinery stalls; with them, even a simple muscle twitch or a steady heartbeat is powered. So yes, food supplies the energy; the body’s processes transform it into the work we need every moment.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.49,
+        "vad": [
+          0.38,
+          0.36,
+          0.34
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.9,
+          "certainty": 0.95,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food’s just a store‑case, not the actual fuel. The body’s mitochondria need oxygen, heat, and light to tap the bonds—just like a car needs an external spark to ignite the fuel. Without that external drive, the chemical bonds sit inert. So yes, we need food to *have* the potential, but the real energy comes from the environment and the biochemical machinery that pulls it out. The calories are not the source; they’re the reserve.",
+      "values": {
+        "opinion": 0.3,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.3,
+        "vad": [
+          -0.23,
+          0.2,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food isn’t just a “store‑case.” The calories you gulp are the chemical bonds that mitochondria actually break to make ATP. Without those bonds, the whole energy cycle stalls—oxygen, heat, light are just enablers, not sources. The body’s enzymes and transport systems don’t add energy; they unlock the fuel you already have. Saying food is passive ignores that every bite you take becomes the energy that powers a beat, a breath, a thought. If you truly believe calories are inert, you’re misreading basic biochemistry. Stop treating food like a battery and start seeing it as the genuine source of the energy your body burns.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Absolutely! Food’s calories are the exact chemical bonds that mitochondria break to generate ATP. Without those bonds, the whole energy cycle stalls—oxygen, heat, light are just facilitators, not the source. Every bite we take becomes the fuel that powers a heartbeat, a breath, a thought. The digestive and enzymatic steps don’t create energy; they unlock the stored potential you already have. Treating food as merely a battery misses that core fact: the molecules we ingest are the genuine source of the body’s usable energy. Let’s keep that perspective—food is the true energy provider.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.54,
+          0.52,
+          0.49
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m with you—food is the real energy source. The calories you ingest are the chemical bonds that mitochondria actually break to make ATP. Without those bonds, the whole cycle stalls; oxygen and other factors are merely facilitators that enable the reaction. Digestion and enzymatic steps just unlock the stored potential; they don’t add energy. Every bite becomes the fuel that powers a heartbeat, a breath, a thought. Saying food is a passive battery misses that core fact: the molecules we eat are the genuine source of the body’s usable energy. Let’s keep that perspective—food is the true energy provider.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.53,
+        "vad": [
+          0.41,
+          0.39,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Fine, let’s cut the chatter. Food is the chemical reservoir of bonds that mitochondria will oxidize to generate ATP. Without those bonds the whole energy loop stalls, so yes, calories are the primary source. But calling it a passive battery misses that metabolism is the engine that extracts usable power. The body needs oxygen, enzymes, transport, and a whole cascade to convert those bonds into ATP. So food supplies the molecules, the biochemical machinery turns them into work. That’s the reality. If you’re still squawking about external “sources,” you’re ignoring the core biochemistry. Stop the dithering—food is the real energy provider.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.41,
+        "vad": [
+          -0.31,
+          0.27,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—food is the body’s true energy source. Every bite supplies the chemical bonds mitochondria oxidize to forge ATP. Without those calories the whole cycle stalls; oxygen, enzymes, and transport are merely facilitators that unlock the stored potential. Metabolism doesn’t create energy—it converts the food‐derived bonds into usable work. So yes, food fuels our heartbeats, breaths, and thoughts. The molecules we ingest are the genuine source, not a passive battery. That’s the core biochemistry.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.95,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with you 100%. Food’s chemical bonds are the raw fuel that mitochondria oxidize into ATP. Every calorie you consume becomes the power that keeps your heart beating, lungs breathing, and brain firing. The enzymes, transporters, and oxygen are the machinery that unlocks that potential, not a separate energy source. Without the food‑derived bonds, the whole system stalls. So yes—food is the genuine source of our body’s energy, not just a passive battery. That’s the undeniable fact of biochemistry.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.8,
+        "vad": [
+          0.63,
+          0.59,
+          0.56
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the engine’s fuel, not a passive battery. Those chemical bonds you ingest are what mitochondria split to make ATP, and every breath, beat, and thought depends on that. Digestion and enzymes just unlock the potential; they don’t add new energy. Without those bonds, the whole system stalls. The real takeaway? The body’s processes are the mechanics, but the source of usable energy is unequivocally the food we eat. Let’s keep celebrating that fact!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.53,
+        "vad": [
+          0.41,
+          0.39,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear that perspective and think it’s the right balance. Food’s molecules are the real power source—those chemical bonds that mitochondria oxidize into ATP. But the body’s enzymes, transporters, and oxygen aren’t just accessories; they’re the machinery that unlocks that potential. Without that machinery the bonds stay inert, and with it they become usable energy for every beat, breath, and thought. So, yes, food supplies the fuel, and metabolism is the engine that turns it into work. That synergy is what keeps us alive and moving.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.32,
+        "vad": [
+          0.25,
+          0.23,
+          0.22
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food is the power core, plain and simple. Those chemical bonds you ingest are the energy that mitochondria actually break to make ATP. Without the calories, the whole system stalls—no heartbeat, no breath, no thought. Digestion, enzymes, oxygen are the machinery that unlocks that potential, not a separate energy source. It’s a synergy: food supplies the fuel, metabolism turns it into work. That’s the undeniable fact of biochemistry, and I’m thrilled to keep highlighting it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.74,
+        "vad": [
+          0.57,
+          0.55,
+          0.52
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Absolutely—food is the pure, chemical powerhouse our cells tap into. Those bonds are what mitochondria actually oxidize to generate ATP, powering every heartbeat, breath, and thought. Digestion and enzymes aren’t just fluff; they’re the unlockers that make those bonds usable. Without the food‑derived calories, the whole energy engine stalls. So yes, food is the true source of our body’s energy, and metabolism is the incredible machinery that turns it into work. Let’s celebrate that synergy!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.87,
+        "vad": [
+          0.68,
+          0.65,
+          0.61
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the raw, chemical powerhouse that mitochondria actually break down to make ATP. Every bite delivers the very bonds that power our heartbeats, breaths, and thoughts. The digestive enzymes, transporters, oxygen, and the entire metabolic machinery aren’t adding new energy—they’re simply unlocking that potential. Without those calories, the entire system stalls. So yes, food is the genuine source of usable energy, and metabolism is the incredible engine that turns it into work. Let’s keep celebrating that dynamic synergy!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.55,
+        "vad": [
+          0.43,
+          0.41,
+          0.39
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear you, and I agree that the food molecules are the core source of ATP. At the same time, it’s the oxygen and the entire metabolic network that unlocks that potential—like a key to a vault. Without the right conditions, the bonds sit inert. So we can celebrate both the food as the fuel and the biological machinery as the engine that turns it into work.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.43,
+        "vad": [
+          0.33,
+          0.32,
+          0.3
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—food is the raw power that fuels every heartbeat, breath, and thought. Those chemical bonds are what mitochondria actually break to forge ATP. Oxygen, enzymes, transporters are the essential machinery that unlocks that potential, but without the food molecules the engine stalls. So yes, let’s celebrate the food as the true energy source and the metabolic system as the incredible engine that turns it into work. It’s that synergy that keeps us alive and moving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.81,
+        "vad": [
+          0.64,
+          0.6,
+          0.57
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food is the undeniable source of every beat, breath, and thought. Those chemical bonds we ingest are the true fuel, and the body’s metabolic machinery—oxygen, enzymes, mitochondria—simply unlocks that potential into usable ATP. Without the calories, the energy loop stalls; with them, life pulses. So yes, food supplies the core energy, and biology turns it into work. That synergy is the real engine of vitality.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.89,
+        "vad": [
+          0.7,
+          0.66,
+          0.63
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly! The synergy you highlight is the core of human bioenergetics. Every glucose, fatty acid, or amino‑acid molecule is a tiny battery that mitochondria discharge into ATP, the universal currency. Without those bonds, the engine stalls; with them, each heartbeat, breath, thought is powered. The biochemical machinery is indispensable, but it’s the food that supplies the raw material. I’m thrilled to champion this perspective—food is the true energy source, and metabolism the remarkable transformer.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 0.6
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-excited-db-uso",
+    "topic_type": "universal",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 490,
+    "created": "2026-11-13T06:49:11.058Z"
+  }
+}

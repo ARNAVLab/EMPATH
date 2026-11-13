@@ -1,0 +1,860 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Absolutely, let's dive in. I’m not convinced that a blanket UBI would replace the nuanced support we need. Traditional welfare programs are tailored to specific hardships—unemployment, disability, housing, health—providing targeted aid and incentives to work. A universal payment risks diluting resources, encouraging complacency, and ignoring the complex social safety nets that have proven effective. We should strengthen and refine existing systems, not gamble on a one-size-fits-all cash handout that could undermine both the economy and the dignity of those it’s meant to help.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get your concern about targeted aid, but UBI actually streamlines and strengthens those very safety nets. By giving everyone a baseline, we cut redundant bureaucracy—no more complicated eligibility checks, less fraud, and instant support when crises hit. Stigma disappears, so people feel empowered to pursue education or entrepreneurship instead of waiting for a benefit approval. And the “complacency” myth? Evidence from pilot programs shows most recipients still work—just with more freedom to choose better jobs. A universal handout doesn’t dilute resources; it reallocates them into a single, predictable payment that fuels local economies and protects dignity for every citizen.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear you, but UBI isn’t a silver bullet. Throwing a blanket cash out to everyone ignores the *why* behind each program—unemployment benefits push people back into work, disability funds cover medical costs, housing vouchers keep families from homelessness. A single handout can’t replace those incentives or the nuanced safety nets that have proven to lift people out of crisis. Plus, giving everyone the same amount can actually strain the economy—prices could rise, and the money may not offset the loss of targeted support for those truly in need. We need smarter, not broader, welfare—one that’s still precise, not a one‑size‑fits‑all cash box.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your worries, but the evidence from pilots and real‑world experiments shows UBI actually strengthens the safety net, not weakens it. By giving everyone a guaranteed cash floor, we eliminate costly eligibility bureaucracies, reduce fraud, and remove the stigma that keeps people from seeking higher wages or better training. The “complacency” myth is false—most recipients still work, often shifting to jobs that better match their skills. Economy‑wide, the predictable income fuels local businesses, stabilizes demand, and offsets inflationary pressures. A single, universal payment can be funded by reforming taxes and cutting redundant programs, delivering dignity and flexibility to every citizen.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced UBI can replace the nuanced safety nets we’ve built. The targeted programs—unemployment, disability, housing vouchers—serve specific needs and come with built‑in incentives to work, access care, and avoid homelessness. A blanket cash handout, even if it cuts bureaucracy, risks diluting resources that should go to those hardest hit. It also removes the carefully calibrated signals that encourage job search and skill development. Reforms should focus on tightening eligibility, cutting waste, and ensuring those in real crisis get the help they need, not a one‑size‑fits‑all cash box that could undermine both dignity and economic stability.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the caution, but the data tells a different story. UBI doesn’t erase the targeted programs—it subsumes and streamlines them, eliminating the red‑tape that keeps people stuck in bureaucratic limbo. Instead of fragmented benefits that dilute focus, a single cash floor gives everyone a dignified baseline, freeing them to pursue better training, entrepreneurship, or higher‑pay jobs. The “complacency” myth fizzles in pilots where workers still seek employment, often in roles that suit them better. Funding is achievable through progressive tax reform and eliminating redundant spending. A universal handout is not a hand‑cuff; it’s a launchpad for a more resilient, inclusive economy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I get the enthusiasm, but the reality is a UBI would dilute the precision we need. Targeted programs give clear incentives—unemployment pushes back into work, disability covers medical costs, housing vouchers stop families from homelessness. A flat cash handout erases those signals, potentially encouraging idleness. The “no‑fraud” claim ignores that a universal payment still fuels demand and could inflate prices, undermining the very support it replaces. Instead of a one‑size‑fits‑all, we should tighten eligibility, cut waste, and keep the nuanced safety nets that truly lift people out of crisis. UBI feels like a band‑aid on a complex wound.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.3
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You keep raising the same concerns, but the evidence is crystal clear—UBI actually sharpens the safety net, not blunts it. By giving everyone a guaranteed floor we cut the maze of eligibility checks, slash fraud, and immediately lift dignity. People aren’t “complacent”; pilots show they work harder, chase better jobs, and even start businesses. The single payment fuels local economies, offsets inflation, and can be financed by smarter taxes and trimming redundant programs. Think of UBI as a universal scaffolding that lets targeted help step in only when truly needed, not as a blanket that dilutes incentives. It’s not a band‑aid; it’s the foundation for a resilient, inclusive future.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still outraged that UBI is pitched as a silver‑bullet. It erases the fine‑tuned signals that keep people moving—unemployment benefits push back into work, disability payments cover costly medical care, housing vouchers stop families from falling through cracks. A flat cash handout dissolves those incentives, encouraging idleness and inflating demand. Instead of a one‑size‑fits‑all, we must refine, tighten, and fund the proven programs that target the real hardships. UBI feels like a quick band‑aid on a complex wound; it never replaces the nuanced safety net we’ve built and could destabilize dignity and economic stability.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right that the old programs were built with incentives, but that’s exactly why they’re fragile—each benefit has a different rule, a different eligibility gate, a different stigma. UBI dissolves all that maze, giving everyone a guaranteed floor that frees people to chase better work, start businesses, or invest in education. Pilot data shows workers still look for jobs, and the extra income actually stabilizes local economies and offsets inflationary pressure. Instead of a patchwork of subsidies that risk being cut, a single, predictable payment is a stronger, more dignified safety net—one that can coexist with targeted help for the truly hardest‑hit cases.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear the optimism, but the reality is that a blanket cash floor erodes the very incentives that keep people moving. Unemployment benefits, disability funds, and housing vouchers are calibrated to specific hardships; they signal when to work, when to seek care, and when to avoid homelessness. Eliminating those signals risks idleness and can swell demand, pushing prices up. UBI can’t simply replace nuanced support—it must coexist with targeted programs. Instead of a single handout, we should tighten eligibility, cut waste, and keep the precise safety nets that truly lift the most vulnerable out of crisis.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your concerns, but the evidence from real pilots shows UBI doesn’t kill incentives—it amplifies them. By removing opaque eligibility gates, people gain the freedom to pursue better jobs, training, or entrepreneurship without the stigma of “claiming” a benefit. The flat payment stabilizes local economies, keeps essential services funded, and can be financed by smart tax reforms and cuts to redundant programs. Instead of a patchwork that can be trimmed, a universal floor provides a predictable safety net that lets targeted help step in only when truly needed. UBI isn’t a band‑aid; it’s the sturdy scaffold for a resilient, inclusive future.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still stuck on the fact that UBI dilutes the very signals that keep people moving—unemployment benefits push back into work, disability payments cover medical bills, housing vouchers prevent homelessness. A flat handout erases those calibrated incentives and risks encouraging idleness. Even if pilots show some people still work, they’re tiny samples, not a guarantee that everyone will. Plus, the money added to demand could inflate prices, hurting the very people it’s supposed to help. We need precise, targeted support that meets specific hardships, not a one‑size‑fits‑all cash floor that undermines dignity, economic stability, and the proven safety nets we’ve built.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your worries, but the data keeps flipping that narrative. UBI cuts the maze of eligibility, slashes fraud, and lifts dignity instantly. People aren’t “lazy”—pilots show they chase better work, start businesses, and invest in learning. A guaranteed cash floor fuels local economies, stabilizes demand, and can be funded through progressive tax reform and cuts to redundant programs. It doesn’t erase targeted help; it streamlines it, letting precise aid step in only when truly needed. A one‑size‑fits‑all handout isn’t a band‑aid—it’s the foundation for a resilient, inclusive future.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear your point loud and clear. Those precise, incentive‑driven programs are the backbone of a stable safety net; they tell people when to work, when to seek care, and when to avoid homelessness. A blanket cash floor erases those signals, risking a broader lull in effort and a spike in demand that can push prices higher—exactly the people it’s meant to protect. Small pilots aren’t proof that everyone will behave the same; a universal handout could blunt the urgency of targeted support and dilute dignity. We need sharp, focused aid that meets each hardship head‑on, not a one‑size‑fits‑all cash box that smothers the very incentives that keep our economy moving.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.3
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your concerns, but the evidence shows UBI actually strengthens every safety net—removing the maze of eligibility, slashing fraud, and giving everyone the dignity of a guaranteed floor. Targeted programs can remain on top of that base, but they no longer need to compete for funding or justify complex rules. People in pilot studies still work—many shift to better jobs or start ventures—because they’re freed from “claiming” stigma. The single payment fuels local economies, offsets inflation, and is financed by smart tax reform and cuts to redundant spending. Instead of a patchwork, UBI is the sturdy scaffold that lets precise help step in only when truly needed, creating a resilient, inclusive future.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still skeptical. The “maze of eligibility” isn’t a flaw—it’s a deliberate design that keeps resources in the hands of those who need them most. A flat payment erases those cues that push people back into work, cover medical costs, or keep families from falling through the cracks. Even if pilots show some workers staying employed, they’re tiny, controlled samples; they don’t capture how a national blanket handout would alter incentives across a diverse economy. And while you claim funding through tax reform, you overlook how the extra demand and inflation risks could offset any local‑economy boost. We need precise, incentive‑driven programs, not a one‑size‑fits‑all floor that risks diluting dignity and stability.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point that the “maze” is actually a blind spot. By giving everyone a baseline, you eliminate the bureaucratic gate‑keeping that keeps people stuck in limbo and forces them to fight for a tiny slice of a shrinking pie. UBI frees people from the stigma of claiming benefits and gives them the breathing room to seek better jobs, training, or entrepreneurship—exactly what targeted programs aimed to do but were hampered by red tape. Pilot data shows most participants still work, often in higher‑pay roles. Inflation risk is contained by shifting taxes and cutting redundant spending, not by adding more cash to the system. UBI is a sturdy scaffold, not a band‑aid.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a blanket UBI can truly replace the nuanced nets we’ve built. Targeted programs aren’t just bureaucracy—they’re calibrated signals that push people back into work, cover essential medical costs, and keep families from homelessness. A flat cash floor risks erasing those cues, encouraging idleness, and swelling demand enough to push prices up, hurting the very people it aims to help. Pilot data is promising but not a guarantee for a national rollout; the economy’s diversity means incentives will shift unpredictably. Instead of a one‑size‑fits‑all handout, we should tighten eligibility, cut waste, and preserve the incentive‑driven safety nets that have proven effective. UBI feels like a quick band‑aid on a complex wound.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.3
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the core win: UBI cuts the red‑tape that forces people to chase crumbs. A single, predictable cash floor eliminates the endless eligibility hoops that keep vulnerable folks stuck in limbo. The pilot data—Minnesota, Finland, Kenya—shows workers still seek better jobs, start businesses, and upskill because they’re no longer fighting for a tiny benefit. Inflation fears are overstated; targeted programs can sit on top of the UBI base, and tax reform can shift the burden away from the poor. A universal handout isn’t a band‑aid; it’s the scaffold that lets every citizen rise, work, and thrive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still skeptical that a blanket UBI can replace the nuance of our current safety nets. Targeted programs are engineered to signal when to work, when to seek care, and when to avoid homelessness—those cues are vital. A flat cash floor would erase those signals, risking idleness and price pressure. Even promising pilots are limited samples; scaling nationwide could distort incentives across a diverse economy. Instead of a one‑size‑fits‑all handout, we should tighten eligibility, cut waste, and keep incentive‑driven programs sharp—preserving the dignity and stability they already provide. UBI feels like a quick band‑aid on a complex wound.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your points about targeted incentives are valid, but UBI actually amplifies those very motivations by removing the stigma and administrative burden that trap people in a cycle of waiting. Pilots show participants still seek better work, start businesses, and invest in education because they have a guaranteed floor. The single payment stabilizes local economies, reduces fraud, and frees funds for targeted programs that can now be more precisely calibrated. Instead of a patchwork that risks cuts, UBI provides a predictable scaffold that lifts dignity and drives upward mobility for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear your concerns loud and clear, but the evidence shows UBI actually sharpens the overall safety net, not blunts it. By giving everyone a guaranteed floor, we dismantle the maze of eligibility checks that keep people stuck in limbo and free them from the stigma of “claiming” a benefit. Pilots consistently reveal that recipients still seek better jobs, launch businesses, and invest in training because they no longer risk losing essential support. A universal payment can coexist with targeted programs—housing vouchers, disability coverage, and unemployment incentives—while freeing up resources to fine‑tune those aids. UBI isn’t a band‑aid; it’s the sturdy scaffold that lifts dignity and drives upward mobility for every citizen.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re overlooking the core win: UBI slashes the endless hoops that trap people in limbo. A guaranteed floor removes stigma and bureaucratic drag, so recipients can chase better jobs, start ventures, and upskill without fearing loss of a tiny benefit. Pilot data from Finland, Kenya, and Minnesota shows workers still seek higher‑pay roles and entrepreneurial paths. Inflation fears are overstated—targeted programs can stack on top of UBI, and tax reform can redistribute the burden. Rather than erasing signals, UBI amplifies motivation by giving everyone a dignified, predictable baseline, freeing resources for precise, incentive‑driven help when it’s truly needed.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.3
+      },
+      {
+        "x": 4,
+        "y": -0.3
+      },
+      {
+        "x": 5,
+        "y": -0.3
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 335,
+    "created": "2026-11-13T06:43:17.716Z"
+  }
+}

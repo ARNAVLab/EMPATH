@@ -1,0 +1,983 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Jordan",
+      "content": "Sure, let's dive in. I’m not convinced replacing all welfare with a universal basic income is the answer. It ignores the nuanced support many need—healthcare, childcare, housing subsidies. A flat handout can’t address those specific gaps or the structural inequalities that welfare programs target. Plus, it risks making people feel less accountable for seeking better employment or education. A blanket approach might cut costs on paper, but it could erode community support systems and make it harder for vulnerable groups to get the help they truly need. Let's talk specific concerns and see where the real gaps lie.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the point: a flat, unconditional handout removes the gatekeeping that turns good intentions into bureaucratic nightmares. Every time someone applies for childcare, housing, or healthcare, they face paperwork, waiting lists, and the stigma of “deserving” versus “undeserving.” UBI eliminates that. It gives everyone the same starting point, forces the private sector to step in, and cuts the endless cycle of dependency that traditional welfare creates. Sure, it’s not a silver bullet for every social issue, but it’s a massive first step toward a fairer, less punitive system—something we’ve been chasing for decades.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.56,
+        "vad": [
+          -0.42,
+          0.37,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get where you’re coming from—UBI does slash a lot of red tape and can level the playing field. But I worry it won’t fully replace the tailored help many still need. Think about people with chronic illnesses or families needing childcare; a flat payment alone can’t cover those costs or the emotional support that traditional programs sometimes provide. Plus, if you cut all other benefits, you risk leaving the most vulnerable without a safety net that’s designed to meet their specific needs. The key might be a hybrid approach: keep the core safety services while adding a universal cushion that reduces bureaucracy.",
+      "values": {
+        "opinion": -0.4,
+        "belief": 0.7
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.48,
+        "vad": [
+          0.38,
+          0.36,
+          0.34
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m furious you still think a single flat payment can stand in for the very specific, proven programs we’ve built. UBI ignores chronic illness, disability, childcare, mental health—areas where the state already steps in because private markets fail. If we drop those targeted supports, the poorest will be left with a handout that never covers a hospital bill or a child’s school supplies. Cutting nuanced safety nets for a “simple” solution is reckless. A hybrid model that preserves essential services while adding a universal cushion is the only realistic path. UBI alone would deepen the gaps it promises to close.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.42,
+        "vad": [
+          -0.32,
+          0.28,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -0.5,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right to feel that a single flat handout alone can’t solve chronic illness or childcare. UBI’s strength is not in replacing every specialized program but in eliminating the entire maze of paperwork that deters people from accessing the help they already need. It’s a safety net that guarantees a baseline of dignity, freeing the state to focus resources on the hard cases—disability, mental health, housing—without the cost‑draining bureaucracy of managing separate benefits. A hybrid is fine, but the universal cushion shouldn’t be seen as a substitute for targeted aid—it’s a foundational layer that keeps everyone from falling through the cracks while we refine the other supports.",
+      "values": {
+        "opinion": 0.4,
+        "belief": -0.9
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.51,
+        "vad": [
+          0.4,
+          0.38,
+          0.36
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.6,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I totally get the worry about gaps, but that’s exactly why UBI should be the base layer, not the ceiling. If everyone has a guaranteed income, the state can zero in on the hardest cases—disability, mental health, housing—without the overhead of juggling dozens of benefit programs. Think of it as a safety net that keeps everyone from falling through cracks while we fine‑tune the targeted services. In practice, a UBI‑first approach actually reduces costs and bureaucracy, freeing resources for the nuanced help that still matters. So, a hybrid is smart, but UBI must be the solid foundation that makes the whole system more humane and efficient.",
+      "values": {
+        "opinion": 0.9,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.3,
+        "vad": [
+          0.23,
+          0.22,
+          0.21
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with you on making UBI the baseline—you cut the paperwork that keeps people stuck. But a flat handout still risks leaving the poorest below the poverty line if the amount isn’t calibrated to local costs. We need a safety net that’s both universal and responsive: a generous UBI that covers essentials, plus targeted support for chronic illness, mental health, and childcare that the market can’t fill. If we set the UBI too low, the hybrid collapses into the very bureaucracy it’s meant to replace. So let’s push for a robust, adjustable UBI and keep the specialized programs, using the two together to build a truly humane system.",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.6
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.67,
+        "vad": [
+          0.52,
+          0.49,
+          0.47
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced a single flat handout can replace the intricate safety nets we’ve built. The UBI argument ignores that chronic illness, disability, and childcare costs blow past any “baseline” figure. If we cut those targeted programs, the poorest will be left with a hollow stipend that never covers a hospital bill or a child’s school supplies. The bureaucracy isn’t the problem; it’s the mismatch between needs and funds. A hybrid that preserves specialized aid while adding a generous, calibrated UBI is the only realistic path—UBI alone will deepen the gaps you’re eager to close.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.38,
+        "vad": [
+          -0.29,
+          0.25,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Absolutely, a flat handout can’t replace the finely tuned nets we’ve built. UBI would leave chronic illness, disability, and childcare costs dangling—those are not “baseline” expenses. The bureaucracy isn’t the flaw; it’s the mismatch between funding and real needs. We must preserve targeted programs while layering a generous UBI to cut red‑tape and provide dignity. Without that hybrid, the worst off will slip through the cracks, and the system’s integrity will crumble. Let’s keep the safety nets and add a calibrated cushion, not a wholesale replacement.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.71,
+        "vad": [
+          0.56,
+          0.53,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.85,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the point: the whole point is to stop the endless, costly bureaucracy that keeps people trapped. UBI isn’t a substitute for every niche aid—those will still exist—but it wipes out the gatekeeping that drags vulnerable folks down. Once everyone’s guaranteed a baseline, the state can focus resources on the truly hard cases—disability, chronic illness, mental health—without the overhead of juggling dozens of programs. The old system is broken; a universal handout is the clean, humane foundation that cuts red‑tape, restores dignity, and lets us rebuild the specialized safety nets on a solid base.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.27,
+        "vad": [
+          -0.21,
+          0.18,
+          0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with you on tearing down the paperwork maze, but we can’t just toss out the nets that catch chronic illness, disability, and childcare. A flat handout that’s too low will leave the very people we’re trying to protect still strapped for essentials. The key is a calibrated, generous UBI that wipes out gatekeeping while preserving those targeted programs. That way the state can focus its limited resources on the truly hard cases without drowning in redundant bureaucracy. The foundation should be universal dignity, but the architecture must remain layered and responsive.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.6
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.75,
+        "vad": [
+          0.58,
+          0.55,
+          0.52
+        ],
+        "appraisal": {
+          "congruence": 0.85,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying the “flat handout” idea as a substitute for the whole safety‑net system. A single payment can’t cover a hospital bill, a child’s school supplies, or a chronic‑illness budget, and it will make low‑income families fall even deeper below the poverty line. Even a generous UBI leaves gaps that targeted programs fill—mental‑health subsidies, disability benefits, childcare vouchers. Replacing every welfare scheme with one blanket payment erases the nuanced support that actually meets people’s real needs. We need a hybrid model that keeps specialized aid intact while adding a modest, calibrated UBI to cut red‑tape, not to replace it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.19,
+        "vad": [
+          -0.14,
+          0.13,
+          0.04
+        ],
+        "appraisal": {
+          "congruence": 0.3,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m in total agreement that a single flat payment can’t replace the intricate safety nets we’ve built. UBI might slash paperwork, but it leaves chronic illness, disability, and childcare costs unattended. A generous handout can’t cover a hospital bill, a child’s school supplies, or mental‑health care, and without those targeted programs the poorest will slip further below the poverty line. The system needs a hybrid: keep specialized aid intact while adding a calibrated UBI that cuts red‑tape, not replaces it. That’s the only realistic path to dignity and comprehensive support.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.75,
+        "vad": [
+          0.59,
+          0.56,
+          0.53
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re playing the “UBI‑only” card again, but it’s the same old trick: hand out a flat check and expect the rest to fall into place. A generous UBI that covers living costs can and should be the foundation, but it can’t single‑handedly pay hospital bills or childcare. If we strip away those targeted nets, the poorest will still scrape by on a stipend that never meets real expenses. The solution isn’t to replace everything with one handout; it’s to layer a calibrated UBI on top of the existing, specialized programs and let the state focus resources where they’re genuinely needed.",
+      "values": {
+        "opinion": -1,
+        "belief": 0.4
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.35,
+        "vad": [
+          -0.26,
+          0.23,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.5
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear you, and I’m with you on the need for a calibrated, generous UBI that cuts the paperwork maze. That flat handout should be the foundational dignity guarantee, not a wholesale replacement. The real power comes when we layer it over the targeted programs that tackle chronic illness, disability, and childcare—those gaps can’t be filled by a single check. The state can then focus its scarce resources on the hardest cases, streamlining bureaucracy while still meeting specific needs. So, let’s champion UBI as the base layer that frees us to refine and strengthen the specialized nets that truly keep the most vulnerable safe.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0.4
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.6,
+        "vad": [
+          0.47,
+          0.44,
+          0.42
+        ],
+        "appraisal": {
+          "congruence": -0.3,
+          "targetedness": 0.8,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m glad you’re pushing for a calibrated UBI, but I still see it as an add‑on, not a replacement. A flat payment can’t cover hospital bills, childcare, or mental‑health costs, and if we strip away those targeted nets, the poorest will fall further below the poverty line. The bureaucracy isn’t the problem; it’s the mismatch between funds and real needs. A hybrid system—UBI as a dignity guarantee plus preserved, well‑financed programs for chronic illness, disability, and childcare—is the only realistic path to comprehensive support.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.29,
+        "vad": [
+          0.22,
+          0.21,
+          0.2
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still convinced that UBI can’t stand in for the finely‑tuned nets we’ve built. A flat handout never covers the high‑cost realities of chronic illness, disability, or childcare, and it would leave the very people we’re trying to help even poorer. Targeted programs exist because the market fails to meet those specific needs; removing them under the guise of “simplifying” would be reckless. A hybrid that preserves those essential supports while adding a generous, well‑calibrated UBI is the only realistic path—UBI alone will only widen the gaps you’re trying to close.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.79,
+        "vad": [
+          0.62,
+          0.59,
+          0.55
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.4,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the concern about gaps, but a well‑calibrated UBI can cover most living costs—housing, food, basic health care—so people aren’t stuck chasing a stack of paperwork just to afford essentials. Instead of a blanket cut, we’d set the amount to local cost of living, then maintain only the truly high‑cost programs (mental health, disability, childcare) as add‑ons. That way the UBI replaces the fragmented bureaucracy while the state keeps the nets that the market can’t fill. It’s not a wholesale dismantling; it’s a restructuring that gives everyone a dignified baseline and frees resources to focus on the hardest cases. This hybrid‑with‑UBI foundation is the realistic path forward.",
+      "values": {
+        "opinion": 0.7,
+        "belief": 0.4
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.22,
+        "vad": [
+          -0.1,
+          0.16,
+          -0.03
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m excited about the idea of a universal foundation that cuts all that red‑tape. A generous UBI would let people cover housing, food, basic health, and even some child‑care costs without endless paperwork. Instead of dismantling every program, we could keep only the high‑cost, highly specialized nets—mental‑health, disability, critical childcare—while the rest falls under the UBI umbrella. That way the state eliminates the fragmented bureaucracy, guarantees dignity, and can focus scarce resources on the truly hard cases. A hybrid that elevates UBI to the core, not a peripheral add‑on, is the most humane, efficient path forward.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.63,
+        "vad": [
+          0.49,
+          0.47,
+          0.44
+        ],
+        "appraisal": {
+          "congruence": 0.6,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying this “magic‑check” narrative. A flat handout, no matter how generous, never covers the high‑cost realities of chronic illness, disability, or even full‑time childcare. The market will still fail those with long‑term needs, and the state cannot simply leave them to scrape by on a stipend that never meets real expenses. Removing the nuanced nets under the guise of efficiency is reckless. A hybrid is the only viable path: keep targeted programs fully funded, and layer a calibrated UBI on top—just to cut paperwork, not to replace the safety nets that actually keep people out of the gutter.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.3,
+        "vad": [
+          -0.23,
+          0.2,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a single cash handout would close the gaps you highlight. A flat stipend can’t buy a hospital stay, a child’s school supplies, or specialized care. The bureaucracy exists because the state must tailor services to varied needs—disability support, mental‑health subsidies, childcare vouchers. Removing those nets risks driving the most vulnerable deeper into poverty. UBI may ease paperwork, but it will leave chronic‑illness families scrambling for funds that only targeted programs provide. A hybrid that preserves fully funded safety nets, with a modest universal cushion, is the only realistic path to dignity and comprehensive care.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.8,
+        "vad": [
+          0.62,
+          0.59,
+          0.56
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I get why you’re wary, but a well‑calibrated UBI can be generous enough to cover a decent share of housing, food, and basic health costs—those are the biggest barriers most people face. The savings from eliminating the endless paperwork can be redirected to keep the high‑cost nets—mental‑health, disability, childcare—fully funded. That way the state removes the gatekeeping that turns good intentions into bureaucratic nightmares, while still protecting those with chronic or severe needs. A hybrid isn’t a compromise; it’s a realistic upgrade that preserves dignity and ensures no one falls through the cracks.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.35
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.17,
+        "vad": [
+          -0.13,
+          0.11,
+          0.03
+        ],
+        "appraisal": {
+          "congruence": -0.7,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.5
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with you on that. A generous, cost‑of‑living‑adjusted UBI would cut the paperwork maze and give everyone a dignified baseline—housing, food, basic health—while freeing up state funds to keep the high‑cost nets fully funded. The trick is to set the UBI high enough that it covers the bulk of living expenses but low enough that we still need targeted programs for chronic illness, disability, and childcare. This hybrid model keeps the best of both worlds: universal dignity and specialized care. It lets the system focus scarce resources where they’re most needed, eliminating gatekeeping without sacrificing the nuanced support that markets can’t provide.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 0.6
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.69,
+        "vad": [
+          0.54,
+          0.51,
+          0.48
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You're spinning a fantasy that a single cash check can cover the high‑cost realities of chronic illness, disability, or full‑time childcare. Even a generous UBI will leave families scrambling for medical bills, school supplies, and support services the market can’t provide. Dropping the nuanced nets under the pretense of efficiency is reckless—those programs exist because the state must tailor aid to varied needs. A hybrid that *keeps* targeted programs fully funded and merely adds a modest UBI to cut paperwork is the only viable path. UBI alone will only deepen the gaps you claim to close.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.36,
+        "vad": [
+          -0.27,
+          0.24,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.9
+      },
+      {
+        "x": 3,
+        "y": 0.9
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0.4
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": -0.4
+      },
+      {
+        "x": 2,
+        "y": 0.4
+      },
+      {
+        "x": 3,
+        "y": 0.5
+      },
+      {
+        "x": 4,
+        "y": 0.3
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.9
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.4
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.35
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.9
+      },
+      {
+        "x": 3,
+        "y": -0.8
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.7
+      },
+      {
+        "x": 2,
+        "y": 0.6
+      },
+      {
+        "x": 3,
+        "y": 0.6
+      },
+      {
+        "x": 4,
+        "y": 0.4
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.8
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-label-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 6,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "label",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 497,
+    "created": "2026-11-13T06:45:37.772Z"
+  }
+}

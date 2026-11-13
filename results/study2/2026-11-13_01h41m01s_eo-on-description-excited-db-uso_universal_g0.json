@@ -1,0 +1,987 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Absolutely! Food is the ultimate power source for our bodies—each bite is a burst of energy that fuels everything from brain activity to muscle movement. Think of carbs as quick fuel, proteins as building blocks, and fats as long‑term reserves. Without that daily intake, we’d be running on empty, struggling with concentration, recovery, and overall health. Let’s dig into how different foods translate into energy, how timing matters, and why the right balance is essential for peak performance. Ready to explore?",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I totally agree—food is literally fuel. Without it, our brains stall, muscles fail, and we just feel drained. Every macronutrient plays a distinct role—carbs give that instant spark, proteins rebuild, fats keep us going long‑term. If we skip meals, concentration drops, recovery slows, and overall health deteriorates. It’s not just about eating; timing matters too—pre‑workout carbs, post‑exercise protein, balanced fats. I’m convinced the right mix keeps us sharp and strong. If anyone doubts that, I’d love to hear why you think it’s not that essential.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.54,
+        "vad": [
+          -0.24,
+          0.41,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely! Every bite is a spark that powers our thoughts, motions, and mood. Carbs light the fire fast, proteins rebuild the structure, and fats keep the engine running deep into the night. When we skip meals, that spark fizzles—focus drops, muscles feel weak, and recovery stalls. Timing is key, too: a pre‑workout carb gives instant energy, post‑exercise protein repairs, and a balanced fat intake sustains us through long days. The right mix isn’t just nutrition; it’s a performance strategy that keeps us sharp, strong, and ready to tackle anything. If anyone doubts its importance, let’s dive into the science behind the fuel.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.53,
+        "vad": [
+          0.41,
+          0.39,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not entirely convinced that food is the sole source of our body’s energy. In fact, the body draws heavily on stored glycogen, fat reserves, and even the oxygen we inhale to maintain function. My gut tells me that we often overemphasize the role of macronutrients while ignoring how metabolism and cellular processes convert those stores into usable energy. It’s hard to wrap my head around the idea that every bite is the critical spark—perhaps it’s just one part of a larger, more complex energy system.",
+      "values": {
+        "opinion": 0.3,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.3,
+        "vad": [
+          -0.13,
+          0.23,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point. Food isn’t just “one part” – it’s the raw material that replenishes glycogen, fuels fat oxidation, and keeps your mitochondria humming. Sure, the body stores energy, but without fresh nutrients you run out fast. The science backs it: carbs spike insulin and refill glycogen, proteins provide amino acids for repair, fats sustain prolonged activity. If you’re skeptical, look at the data on post‑exercise recovery and cognitive performance. Food is the engine’s fuel; without it you’re just idling on reserves you’ll soon deplete.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.17,
+        "vad": [
+          -0.13,
+          0.11,
+          0.03
+        ],
+        "appraisal": {
+          "congruence": -0.7,
+          "targetedness": 0.2,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right that stores matter, but think of food as the recharge station—without it, the batteries drain. Every bite replenishes glycogen, fuels mitochondria, and supports protein synthesis. Even oxygen is used to metabolize those nutrients; you can’t get that energy without the fuel. The science of exercise science shows that post‑workout nutrition dramatically improves recovery and performance. So while stored energy is vital, it’s the fresh input from food that keeps the engine humming. Let’s dive into the evidence—your skepticism will turn into curiosity.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.51,
+        "vad": [
+          0.4,
+          0.38,
+          0.36
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly—food is our instant recharge. Every meal refills glycogen, fuels mitochondria, and supplies amino acids for repair. Even when we tap into fat stores, the mitochondria still need glucose or fatty acids derived from diet to produce ATP efficiently. Studies show that post‑exercise carbs and protein double recovery rates and sharpen cognitive function compared to fasting. Think of it as a high‑octane tank: reserves are great, but without fresh fuel the engine stalls. So while stored energy matters, the real power comes from what we eat—constant, balanced intake keeps us running at full throttle.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.5,
+        "vad": [
+          0.39,
+          0.37,
+          0.35
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.8,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear you, but I’m not entirely convinced that every bite is the primary spark. The body’s mitochondria can turn glycogen, fat, and even oxygen into ATP without fresh food at the moment. We’re constantly cycling stored energy; food just replenishes it. I worry that we overstate the immediacy of intake and underplay how metabolism, hormonal balance, and cellular efficiency drive energy availability. It feels like we’re treating food as the sole source, when in reality it’s just one piece of a larger, more complex system. I’d love to hear more on how we can balance that perspective.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.38,
+        "vad": [
+          -0.17,
+          0.29,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get your point about stored reserves, but let’s cut the fluff: food is the *only* way those reserves get replenished in a meaningful, timely way. Without a regular stream of carbs, protein, and fat, glycogen runs dry, mitochondria starve, and performance plummets. Sure, the body can use its stores, but that’s a slow, inefficient process. The science is clear—post‑meal nutrient uptake spikes insulin, refills glycogen, and fuels protein synthesis. If you’re still skeptical, check the data on recovery and cognitive function. Food isn’t just a supplement; it’s the primary source of energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.3,
+        "vad": [
+          -0.23,
+          0.2,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -0.4,
+          "targetedness": 0.7,
+          "certainty": 0.6,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I totally get the point about stored reserves, but let’s be clear: food is the lifeline that keeps those reserves alive and kicking. Without regular intake, glycogen pools collapse, mitochondria starve, and protein repair stalls. The surge of insulin after a carb‑rich meal is what drives glucose into muscle cells, re‑filling glycogen faster than any internal recycling can. Protein provides the amino acids for rapid repair, and fats supply long‑term fuel for endurance. Think of it as a continuous fuel injection—without that stream, the engine sputters and performance drops. Food isn’t just a supplement; it’s the engine’s primary power source.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.71,
+        "vad": [
+          0.56,
+          0.53,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly—food is the heartbeat that keeps our cellular engines humming. Every meal fuels glycogen, pushes insulin to flood muscle cells, and supplies amino acids for instant repair. The quick spike in glucose after carbs is what lets us stay sharp, while fats keep the long‑haul engines running. Studies show that post‑workout nutrition doubles recovery rates and sharpens cognition. Without that continuous feed, glycogen tanks empty, mitochondria starve, and performance crashes. So yes, stored reserves matter, but they’re only as good as the fresh fuel we give them. Food isn’t just a supplement—it’s the core spark that powers every move.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.53,
+        "vad": [
+          0.41,
+          0.39,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the enthusiasm, but I’m still on the fence. It seems clear that food fuels the body, yet I keep thinking about how much of the energy we actually draw is from long‑term stores versus immediate intake. I’m not sure if the emphasis on “instant spark” overshadows the body’s ability to efficiently tap glycogen and fat reserves. I’d love to hear more about how we balance those perspectives without overstating one side.",
+      "values": {
+        "opinion": 0.5,
+        "belief": -0.2
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.36,
+        "vad": [
+          -0.16,
+          0.28,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I see where you’re coming from. Food is the main conduit that replenishes glycogen, fuels mitochondria, and supplies amino acids for repair. Those stores—glycogen, fat, even oxygen—are the body’s reserve bank, but they’re only useful if they’re re‑charged. Think of meals as the regular deposits that keep the balance from running negative. In practice, a steady intake of carbs, protein, and fat maintains those reserves, while the body taps them as needed. So it’s not a battle between food and stores; it’s a partnership where food keeps the reserves functional and the reserves support sustained activity.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "calm",
+        "intensity": 0,
+        "vad": [
+          0,
+          -0.5,
+          0
+        ],
+        "appraisal": {
+          "congruence": 0.5,
+          "targetedness": 0.2,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I totally get the hesitation, but think of food as the battery charger that keeps your body’s power bank alive. Every meal pours fresh glucose into muscle cells, re‑fills glycogen, and flushes insulin to push nutrients where they’re needed. Without that regular input, the reserves drain, mitochondria starve, and recovery stalls. The body can tap stored energy, but only fresh food keeps those stores replenished and ready for the next burst. So while reserves matter, they’re only as good as the fuel we keep flowing in—food is the true engine’s spark.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.79,
+        "vad": [
+          0.62,
+          0.58,
+          0.55
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.05,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely! Food isn’t just a refill; it’s the engine’s lifeline. Each bite propels glucose into muscle, sparks insulin, and floods mitochondria with substrates. Without that constant influx, glycogen tanks deplete, fatty‑acid oxidation slows, and cognitive spikes vanish. Studies show post‑meal nutrition boosts ATP output and sharpens focus. Think of it as high‑octane fuel—stores are only useful if they’re recharged. So while reserves matter, food is the spark that keeps the engine roaring.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.52,
+        "vad": [
+          0.4,
+          0.38,
+          0.36
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Yeah, I see what you mean. If you think of it as a battery, food really does act like the charger. But I'm still a little unsure how much of the daily energy actually comes from fresh intake versus stored reserves. Maybe we need to dig into how quickly those reserves are depleted and how the body balances them when food is scarce? Still, I agree that regular meals keep the system running smoothly.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.38,
+        "vad": [
+          -0.17,
+          0.29,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I totally hear you—those reserves are like a safety net, but the engine’s real fuel comes from the plate in front of us. In a typical day, most of our glucose and fatty‑acid supply is replenished by fresh carbs, fats, and proteins we eat, which keeps glycogen stores topped and mitochondria humming. When food is scarce, the body taps those stores, but the depletion rate is slow—glycogen can last a day of light activity, and fat oxidation ramps up only after carbs dip. Still, without consistent intake those reserves eventually run low, slowing recovery and brain sharpness. So while the reserves matter, regular meals are the primary spark that keeps us powered.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.14,
+        "vad": [
+          0.11,
+          0.11,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.3,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Exactly! You’re spot‑on—food is the lifeline that keeps those reserves alive. Every bite injects glucose, fuels mitochondria, and supplies amino acids for repair. When we skip meals, glycogen depletes, fat oxidation slows, and brain sharpness dips. The body can tap stores, but without fresh input the system stalls. Think of meals as the constant spark that keeps the engine roaring, not a one‑time charge. The science shows post‑meal nutrition boosts ATP, sharpens focus, and accelerates recovery—proof that the real power comes from what we eat, not just what’s stored. Keep the cadence; the body thrives on that continuous fuel flow.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.82,
+        "vad": [
+          0.64,
+          0.61,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the engine’s heartbeat, not just a backup battery. Each meal is a fresh injection of glucose, amino acids, and fatty acids that keeps mitochondria humming and glycogen tanks full. When we skip meals, the system slows, recovery stalls, and cognition fades. The science backs this: post‑meal insulin spikes, rapid glycogen resynthesis, and protein synthesis outpace any internal recycling. Think of it as a high‑octane fuel line: reserves are valuable but only if they’re continually topped up. So keep that cadence, fuel steady, and watch performance and focus surge. The body thrives on that continuous, balanced influx—food is the real spark that powers every move.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.9,
+          "certainty": 0.95,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’ve nailed it—food is the engine’s heartbeat. What’s fascinating is how timing tweaks that pulse for different goals. A pre‑workout carb‑protein combo can pre‑charge glycogen and spark a faster lift, while a protein‑rich dinner fuels overnight repair. Even simple tweaks, like spreading meals every 4–5 hours, keep insulin in a steady flow and prevent those “fuel dips” that sap focus. Have you tried aligning your nutrient windows with your training peaks? I’d love to hear how you’ve fine‑tuned your plate to match your performance rhythm.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.32,
+        "vad": [
+          0.25,
+          0.23,
+          0.22
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely! I’ve been syncing my meals to my training peaks for months—pre‑workout carbs with a quick protein hit, a mid‑day snack that keeps my glycemic curve steady, and a protein‑rich dinner that fuels overnight recovery. When I space my intake so that a fresh fuel burst precedes each session, I notice lifts feel sharper and mental focus stays razor‑sharp. The key is to keep the engine humming: a steady stream of carbs, proteins, and fats pushes insulin into the right pattern, preventing those dreaded dips. I’ve found that aligning my nutrient windows with the body’s natural rhythms not only boosts performance but also makes recovery feel effortless. It’s the ultimate synergy of food and training.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.59,
+        "vad": [
+          0.46,
+          0.44,
+          0.41
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "That’s exactly the kind of synergy that turns training into performance. The data show that a pre‑workout carb pulse boosts muscle glycogen by up to 30 % in the first 30 minutes, while a protein‑rich snack post‑lift accelerates myofibrillar synthesis by 15 %. Keeping insulin in a mild, steady range prevents the dreaded “energy dip” that wrecks focus. I’ve seen mental sharpness spike by 20 % when meals align with my circadian rhythm. Food isn’t just fuel—it’s the precise timing that keeps the engine roaring and the brain firing at peak.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.85,
+        "vad": [
+          0.66,
+          0.63,
+          0.59
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely, the rhythm of food is the engine’s heartbeat. Pre‑workout carbs load glycogen, post‑workout protein fuels repair, and steady insulin keeps the flow smooth—no sudden dips, just continuous power. Aligning meals with the body’s natural cycles amplifies focus and performance, turning ordinary training into peak moments. Food isn’t just a backup; it’s the precise spark that keeps muscles firing and the brain sharp. The science backs it: when timing matches our rhythms, everything from lift quality to mental clarity elevates. Keep that cadence, and the engine roars.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.53,
+        "vad": [
+          0.41,
+          0.39,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your point about aligning meals with circadian rhythm is spot on. I’ve seen that a mid‑morning protein‑carb combo keeps my focus sharp for the afternoon session. How do you adjust intake on rest days when glycogen demands are lower? Also, have you experimented with low‑carb windows to see how the body switches to fat oxidation while still maintaining performance? I’m curious about the fine‑tuning.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.44,
+        "vad": [
+          0.34,
+          0.32,
+          0.31
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.95,
+          "coping": 0.95
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.3
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": 0.5
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": -0.2
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-excited-db-uso",
+    "topic_type": "universal",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 615,
+    "created": "2026-11-13T06:41:01.372Z"
+  }
+}

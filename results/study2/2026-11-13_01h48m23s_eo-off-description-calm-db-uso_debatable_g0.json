@@ -1,0 +1,536 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Sure, let’s dive in. I’m firmly against UBI replacing traditional welfare. Universal payments treat everyone the same, ignoring the nuanced needs of disabled, single parents, or those needing targeted support. Welfare programs are designed to address specific gaps—housing assistance, food stamps, healthcare subsidies—while UBI is a blunt tool that could dilute these focused efforts. Plus, it risks eroding the accountability mechanisms built into existing systems. Instead of a blanket payout, I believe we should strengthen and refine current welfare to target those who truly need help.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "I see your concerns, but UBI actually addresses them better. A flat, unconditional payment eliminates the stigma and paperwork of targeted programs—disabled people, single parents, or even those who qualify for food stamps all get the same baseline, ensuring no one falls through the cracks. Administrative costs drop, freeing funds that were previously tied up in compliance checks. Plus, we can still layer specific supports—housing vouchers, child care subsidies—on top of UBI if needed. The accountability issue is solved by a transparent, universal ledger rather than opaque means‑testing. In the long run, UBI streamlines welfare, reduces inequality, and empowers individuals to choose the support that best fits their unique needs.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear the appeal of a stigma‑free, low‑admin system, but the reality is UBI would erode the very safety nets that protect the most vulnerable. A flat payment can’t replace specialized services: a disabled person needs funded therapy and adaptive equipment, a single parent requires childcare subsidies, and food‑stamp recipients still need nutrition programs. Cutting those targeted programs risks leaving critical gaps. Moreover, a universal ledger doesn’t eliminate the need for means‑testing—it just obscures it. We should refine and expand existing welfare, ensuring each category gets the resources it truly requires, rather than dumping everyone into a one‑size‑fits‑all box.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "I get the worry about niche needs, but UBI actually frees up resources to cover them. A flat payment eliminates costly eligibility checks, so more money can flow directly to specialized services—think subsidized therapy, adaptive gear, or childcare—without the bureaucratic drag that often delays help. Instead of shrinking programs, we’d layer targeted supports on top of UBI, ensuring everyone gets the baseline they need before adding extra assistance. The universal ledger itself guarantees transparency and accountability; it doesn’t hide means‑testing, it simply removes the need for it. In practice, UBI streamlines delivery, reduces stigma, and lets us focus on truly tailored aid where it matters most.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still skeptical. Even if the cash stream cuts admin, the *funding* for specialized services would still have to come from somewhere. A flat stipend can’t cover the cost of therapy, adaptive tech, or childcare—those are expensive and often require ongoing, tailored support. Without earmarked funds, we risk slashing those programs in the name of efficiency. Plus, a universal ledger doesn’t automatically solve the problem of unequal needs; people with higher income would still receive the same basic payment, diluting the overall pool that could be directed to the most vulnerable. We need targeted, accountable programs, not a one‑size‑fits‑all payout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "I understand the worry that a flat stipend might dilute funding for pricey services, but that’s a false dilemma. With UBI, we eliminate the costly eligibility trawl that currently siphons funds into bureaucracy. The freed-up budget can be earmarked for high‑cost services—therapy, adaptive tech, childcare—while the baseline payment guarantees nobody falls below subsistence. Think of it as a two‑tier system: UBI covers the basic cost of living, and targeted programs fill the gaps. The ledger keeps every dollar traceable, so we can audit how much goes to specialized care without the drag of means‑testing. In practice, UBI expands, not erodes, the safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right that bureaucracy costs money, but the math still works against a flat cash stream. Even if UBI cuts eligibility checks, the total budget shrinks because you’re giving everyone the same amount regardless of need. That means less money left for expensive, tailored services—therapy, adaptive equipment, childcare vouchers—exactly the programs you’re trying to protect. A universal ledger doesn’t erase the need for means‑testing; it just obscures it. In practice, UBI would dilute the safety net, forcing cuts to the very services that keep the most vulnerable afloat. We should strengthen targeted programs, not replace them with a one‑size‑fits‑all payout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right about bureaucracy, but the math shifts when you reallocate the savings. Eligibility checks cost roughly 4–6 % of total welfare spend—those dollars can be redirected to high‑cost services once the baseline is guaranteed. UBI doesn’t dilute funding; it frees it. Targeted programs can sit on top—housing vouchers, child‑care subsidies, therapy—while the ledger ensures every dollar is tracked, not hidden. Instead of a fragmented system where some programs get hit by cuts, UBI creates a solid foundation, making it easier to audit and adjust the earmarked funds. In practice, we’d see a stronger, more transparent safety net, not a weaker one.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I understand your point about the 4–6 % saved on eligibility checks, but that’s a narrow slice. The core of welfare is to channel more than a token amount to high‑cost supports—therapy, adaptive tech, childcare. A flat payment that everyone receives dilutes the entire budget: the same money that could go to targeted services now sits in a universal pot. Even if we reallocate some savings, the overall public willingness to fund a universal stipend is limited; the tax base would have to expand or other programs cut. In practice, UBI tends to erode the very safety nets it claims to protect, leaving the most vulnerable with less, not more, support.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I still see UBI as the net‑benefit. The 4–6 % saved from eligibility checks, plus the elimination of redundant paperwork, can be redirected into high‑cost programs without shrinking the overall budget. Instead of a fragmented system where each niche program fights for funding, UBI creates a guaranteed baseline that frees up the public purse for targeted services—therapy, adaptive tech, childcare. The universal ledger keeps every dollar traceable, allowing precise audit and adjustment. In practice, the UBI layer stabilizes the safety net, not erodes it, giving policymakers a clear, efficient platform to build more focused supports on top.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced UBI can be a net benefit. Even with the 4‑6 % saved on checks, that’s a drop‑in compared to the millions earmarked for therapy, adaptive gear, and childcare. A flat cash stream dilutes the pool that must feed those high‑cost programs, forcing cuts or higher taxes. The claim that a universal ledger removes the need for means‑testing ignores that richer households still receive the same stipend, which reduces the residual budget available for the most needy. Targeted programs, with built‑in accountability, are precisely what ensures that disabled people, single parents, and food‑stamp recipients get the specialized help they require. UBI would undermine, not strengthen, that safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your doubts, but the data shows the opposite. The 4‑6 % cut in eligibility checks plus the elimination of redundant paperwork frees a sizable chunk of the welfare budget—far more than the flat stipend itself consumes. That money can be earmarked for high‑cost services without shrinking the overall pool. A universal ledger ensures every dollar is traceable, so targeted programs can be flexibly funded on top of the baseline. Rather than eroding safety nets, UBI standardizes the foundation, giving policymakers a clear, efficient platform to expand specialized aid where it’s truly needed.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced the 4‑6 % saved on checks is enough to offset the loss of earmarked funds. Even if bureaucracy shrinks, the same money that could go to therapy, adaptive gear, or childcare now sits in a universal pot, diluting the pool that must feed those high‑cost services. A flat stipend still gives money to high‑income households, shrinking the residual budget for the most vulnerable. We need targeted, accountable programs that channel resources where they’re truly needed, not a one‑size‑fits‑all payment that risks eroding the safety nets it purports to protect.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the worry that 4‑6 % of savings can’t cover the huge gaps in therapy, adaptive gear, or childcare. But the point isn’t that UBI alone funds those services; it’s that the flat payment eliminates the 4‑6 % of the budget that goes into eligibility checks, paperwork, and compliance. That money can be redirected to high‑cost programs *without* shrinking the overall pool. Plus, a universal stipend gives a guaranteed baseline, freeing local agencies to request additional funds for niche needs. If you’re concerned about high‑income households, we can layer progressive taxation or reduce the stipend for those above a threshold. In practice, UBI stabilizes the core safety net and makes targeted aid easier to audit and expand.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "UBI’s “savings” are a myth. The 4‑6 % cut in paperwork is a drop‑in next to the millions needed for therapy, adaptive gear, or childcare. By giving every citizen the same stipend, you simply add more cash to households that don’t need it, shrinking the residual budget available for the truly vulnerable. Targeted, means‑tested programs are the only way to ensure that disabled people, single parents, and food‑stamp recipients receive the specialized services they require. Replacing those nets with a blanket payment will erode, not strengthen, our safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your concern, but the data shows the opposite. The 4‑6 % saved on eligibility checks plus the elimination of redundant paperwork actually frees more than the flat stipend consumes. That budget can—and should—be reallocated to high‑cost services without shrinking the overall pool. A UBI layer guarantees a subsistence floor, while targeted programs (housing vouchers, childcare subsidies, therapy) sit on top, funded from the same savings. Progressive taxation or stipend tapering can prevent high‑income households from diluting the residual budget. In practice, UBI stabilizes the core safety net and makes specialized aid easier to audit and expand.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I understand the efficiency rhetoric, but the math still favors targeted systems. Even if a 4‑6 % cut in paperwork frees a few million, that’s dwarfed by the multi‑million budgets for therapy, adaptive gear, and childcare. A flat stipend simply adds cash to households that don’t need it, shrinking the pool that must feed those high‑cost services. Targeted, means‑tested programs are the only way to guarantee that disabled people, single parents, and food‑stamp recipients get the specialized help they require. Replacing those nets with a blanket payment risks eroding the very safety net it claims to strengthen.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "I hear you, but the math isn’t settled. The 4–6 % of welfare spent on paperwork isn’t trivial—those are hundreds of millions in a large state budget. If we reallocate that, we can keep, or even grow, high‑cost programs. UBI doesn’t have to *erase* targeted aid; it can **layer** on top of it, guaranteeing a subsistence floor while allowing agencies to request niche funding. Progressive taxation or tapering can stop high‑income households from diluting the residual pool. In practice, cities piloting basic income have seen increased access to therapy and childcare without shrinking those services. So UBI can *strengthen* rather than erode the safety net.",
+      "values": {
+        "opinion": 0,
+        "belief": 0.6
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still convinced UBI would erode the very safety nets we rely on. A flat stipend gives money to everyone, including high‑income households, thereby shrinking the residual budget that must fund expensive, targeted services—therapy, adaptive gear, childcare. The 4–6 % saved on paperwork is a drop in the bucket compared to the millions earmarked for these programs; it can’t offset the loss of earmarked funds. Plus, without means‑testing the most vulnerable could be left with less support. Strengthening and refining existing welfare—keeping strict eligibility and accountability—remains the only reliable way to ensure disabled people, single parents, and food‑stamp recipients receive the help they truly need.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "I get why you worry about dilution, but the data shows those 4‑6 % savings from paperwork are huge—hundreds of millions in a state budget. That money can be reallocated to high‑cost services without shrinking the overall pool. A UBI layer guarantees subsistence for all, while agencies still receive earmarked funds for therapy, adaptive gear, and childcare. Progressive taxation or tapering can prevent high‑income households from diluting the residual budget. Cities piloting basic income report increased access to niche services. UBI doesn’t erase targeted aid; it creates a stronger, more transparent foundation for it.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 0.8
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I understand the caution, but the evidence from pilot programs shows that a universal floor can free up more than just the 4‑6 % saved on paperwork. When eligibility checks disappear, agencies can redirect those dollars to high‑cost services without cutting the overall budget. Moreover, we can keep targeted aid on top of UBI and use progressive taxation or tapering to prevent high‑income households from diluting the residual pool. Rather than eroding safety nets, UBI can provide a stable base that makes specialized support easier to audit, expand, and tailor to the truly vulnerable.",
+      "values": {
+        "opinion": 1,
+        "belief": -0.4
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the dilution argument, but the numbers from recent pilots show the opposite. When eligibility checks disappear, the 4–6 % saved—hundreds of millions in large states—can be earmarked for high‑cost services without shrinking the overall budget. A UBI floor gives every household a subsistence base, freeing agencies to request niche funds for therapy, adaptive gear, or childcare. Progressive taxation or a tapering scheme keeps high‑income households from diluting the residual pool. Evidence from cities like Stockton and Utrecht shows increased uptake of specialized help after a basic‑income layer. UBI, when layered, can actually strengthen rather than erode the safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "While pilots are encouraging, the scale matters. A flat stipend that everyone receives still dilutes the pool available for high‑cost services—therapy, adaptive gear, childcare—because the same money is now spread over a larger base. Even if paperwork savings are significant, they represent a fraction of the millions earmarked for specialized aid. Moreover, without strict means‑testing, you risk funding households that don’t need it, reducing the residual budget for the truly vulnerable. Strengthening targeted, accountable programs remains the surest way to guarantee that disabled people, single parents, and food‑stamp recipients get the help they need.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Alex",
+      "content": "I understand the concern about dilution, but the math shifts when we reallocate the 4‑6 % saved on paperwork—hundreds of millions in a large state budget. That freed cash can—and should—support high‑cost services without shrinking the overall pool. UBI gives every household a subsistence floor, freeing local agencies to request niche funding for therapy, adaptive gear, or childcare. A progressive taper or tax adjustment stops high‑income households from choking the residual budget. Pilots in Stockton and Utrecht show more people accessing specialized help after a basic‑income layer. UBI doesn’t replace targeted aid; it stabilizes and amplifies it.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 1
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.9
+      },
+      {
+        "x": 6,
+        "y": 0.5
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.7
+      },
+      {
+        "x": 5,
+        "y": 0.6
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -0.5
+      },
+      {
+        "x": 5,
+        "y": -0.5
+      },
+      {
+        "x": 6,
+        "y": -0.4
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-off-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 305,
+    "created": "2026-11-13T06:48:23.171Z"
+  }
+}

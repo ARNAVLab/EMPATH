@@ -1,0 +1,984 @@
+{
+  "characters": [
+    {
+      "name": "Aiden Murphy",
+      "profession": "IT Support Specialist",
+      "personality": "ISTJ",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Lucas Meyer",
+      "profession": "Motivational Speaker",
+      "personality": "ENFP",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Olivia Carson",
+      "profession": "Nurse",
+      "personality": "ISFJ",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Mason King",
+      "profession": "Social Worker",
+      "personality": "ISFP",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Mason King",
+      "content": "Sure, I’m ready to dive in. I’ll keep my perspective in mind: I’m not convinced that a blanket cash handout should replace the nuanced, community‑based support we’ve built over years. I love the idea of safety nets, but I worry that stripping away the human touch—those small but powerful moments of connection, mentorship, and personalized care—could erode the very fabric that keeps families whole. Let’s explore how we can honor both security and the deeply personal support that thrives in our neighborhoods.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "calm",
+        "intensity": 0,
+        "vad": [
+          0,
+          -0.5,
+          0
+        ],
+        "appraisal": null,
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Oh wow, I hear you loud and clear! 🌟 I absolutely adore the warmth of community‑based care—those tiny, spark‑of‑hope moments that lift us all. A blanket cash handout feels like removing the artist’s brushstrokes from a masterpiece. Sure, a safety net sounds great on paper, but what about the mentorship, the neighbor’s hug, the shared meal that turns a paycheck into a story? We need a system that keeps the human touch alive, not one that just “drops money.” Let’s brainstorm ways to weave those personal connections into our support—maybe community hubs that blend cash with coaching, counseling, and creativity!",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.16,
+        "vad": [
+          0.13,
+          0.12,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.4,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I hear your worry, but the truth is a blanket cash handout actually strengthens those human moments you love. With a guaranteed income, families aren’t scrambling for basics, so they can focus on health, education, and community. That stability is the foundation that allows mentors, neighbors, and shared meals to thrive, not the opposite of it. If we truly care about our neighbors, we must first ensure their basic survival. A universal basic income is that indispensable layer, not a replacement for the warmth you cherish.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.29,
+        "vad": [
+          -0.22,
+          0.19,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I understand the concern about losing personalized support, but data from pilot programs consistently shows that a guaranteed cash floor reduces the need for emergency interventions. When families have stable income, they can access existing community services—counseling, tutoring, health care—without the bureaucratic delays that traditional welfare often imposes. The UBI model streamlines delivery, cuts administrative costs, and eliminates the stigma that can accompany targeted assistance. It doesn’t erase local programs; it frees them to focus on mentorship and enrichment because the basic survival barrier is already removed. In short, a universal cash handout preserves—and actually strengthens—the human connections many of us value.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.38,
+        "vad": [
+          0.3,
+          0.28,
+          0.27
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "I get the math, but the numbers don’t paint the whole picture. Imagine a child in a cramped apartment, her laughter muffled by the constant worry of food. A cash handout might buy a loaf, but what about the mother’s night‑time conversation with a neighbor, the shared stories over a pot of soup? Those moments—raw, unfiltered—give life its texture. Sure, UBI could free resources, but it risks turning community centers into echo chambers of paperwork, stripping away the spontaneous kindness that makes us human. We need the safety net, yes, but not at the cost of the messy, beautiful warmth that sustains us. The balance feels fragile, not a simple switch.",
+      "values": {
+        "opinion": -0.6,
+        "belief": -0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.36,
+        "vad": [
+          -0.27,
+          0.24,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I totally feel the pulse of that “messy, beautiful warmth” you’re describing—it’s the heartbeats of our neighborhoods! 🌈 But imagine if we could combine that spontaneous kindness with a safety net that lifts the daily worries off everyone’s shoulders. UBI isn’t a silencing blanket; it could be the canvas that lets community hubs paint richer stories—more time for those late‑night chats, for shared meals, for mentors to step in when someone needs a boost. Let’s brainstorm a hybrid model that keeps the human touch alive while giving people the steady rhythm to thrive. What creative sparks do you see lighting up this mix?",
+      "values": {
+        "opinion": 1,
+        "belief": -0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.4,
+        "vad": [
+          0.31,
+          0.3,
+          0.28
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I’m glad you see how a steady income could free people to focus on health, learning, and those evening talks that matter. From my perspective in the clinic, I’ve seen families thrive when basic needs are met, yet the warmth of neighborly help is irreplaceable. I think a UBI could serve as a safety net that allows community hubs to stay vibrant, but we must keep the personal touch—little check‑ins, shared meals, mentorship—intact. Perhaps pairing the cash handout with small, local support teams could preserve that spontaneous kindness while giving everyone a steadier rhythm. Let’s keep the human connection front‑and‑center as we design this hybrid approach.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.7
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.4,
+        "vad": [
+          0.31,
+          0.3,
+          0.28
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.25,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "Absolutely, the data from pilot programs in Finland and Canada shows that a guaranteed income reduces use of emergency services, improving health outcomes. By eliminating the bureaucratic maze, we free local teams to focus on mentorship. We can integrate UBI with community hubs by establishing a small administrative unit that distributes the cash and coordinates volunteer check‑ins. This structured, time‑tested approach preserves human touch while ensuring every citizen has a baseline. It’s a practical, scalable solution that reduces stigma and cuts costs. The evidence is solid; the system works.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.53,
+        "vad": [
+          0.42,
+          0.39,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "I love the rhythm of your data—Finland’s quiet mornings, Canada’s sunrise meetings—yet I can’t shake the image of a child’s laughter echoing in a cramped kitchen. The safety net you paint feels solid, but I’m still uneasy about whether that structure will leave room for those spontaneous hand‑shakes, the neighbor’s pot of soup after a long shift. Maybe the hybrid idea can keep that messy warmth alive, but I’m not sure the cash handout will do that without turning hubs into quiet offices. Let’s keep looking for ways to weave the human touch into the canvas you’re sketching.",
+      "values": {
+        "opinion": -0.3,
+        "belief": -0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.34,
+        "vad": [
+          -0.15,
+          0.26,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Hey, I’m dancing with the idea that UBI can actually *light up* those spontaneous moments you cherish! Imagine the cash cushion giving folks the freedom to turn a simple potluck into a weekly celebration, or a mentor’s quick check‑in into a full‑blown learning circle. The structure isn’t a cage—it’s a launchpad for creativity and connection. Let’s keep the community hubs buzzing with real people, but give them the steady rhythm that UBI provides so they can focus on the messy, beautiful warmth that defines us. Together, we can paint a future where safety and spontaneity coexist in a vibrant, living tapestry.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.28,
+        "vad": [
+          0.22,
+          0.21,
+          0.2
+        ],
+        "appraisal": {
+          "congruence": 0.2,
+          "targetedness": 0.2,
+          "certainty": 0.3,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I’m truly warmed by your vision—seeing the UBI as a gentle lift that lets us lean into the everyday kindness we cherish. With a steady income, families can feel secure enough to open their homes for potlucks, to pause for a mentor’s advice, and for neighbors to share a cup of tea after a hard day. At the same time, we must keep the heart of our hubs alive: no rigid check‑lists, just caring eyes and listening ears. If we weave the cash cushion into a framework that encourages spontaneous visits and small‑group gatherings, I believe we can preserve the messy, beautiful warmth that makes our community thrive.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.56,
+        "vad": [
+          0.44,
+          0.42,
+          0.39
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "You’re right that human connection matters, and that’s exactly why a universal basic income is the logical step. By guaranteeing a reliable income, families no longer spend hours navigating paperwork or waiting for case‑workers. The administrative load is streamlined, freeing local teams to spend time on mentorship, community meals, and spontaneous support. Evidence from Finland and Canada shows reduced emergency visits and improved health outcomes once the basic floor is in place. That structured safety net doesn’t stifle warmth; it removes the stress that erodes it, allowing communities to focus on the personal touch that truly sustains them. A well‑implemented UBI preserves, not replaces, the human bonds you cherish.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.63,
+        "vad": [
+          0.49,
+          0.47,
+          0.44
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "I hear the rhythm you paint—steady cash, freed time, less paperwork. The data feels convincing, but my heart still worries about the space between the numbers and the living, breathing moments we cherish. If UBI is to lift us, it must leave room for those messy, impromptu potlucks, the neighbor’s hug after a hard shift. I’m still not sure a blanket handout can keep that spark alive without turning hubs into quiet offices. Let’s keep watching the pilot unfold, and maybe we can weave in a little local pulse that preserves the human touch.",
+      "values": {
+        "opinion": 0.3,
+        "belief": -0.1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.32,
+        "vad": [
+          -0.25,
+          0.21,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.8,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I feel the heartbeat of your concerns—those spontaneous potlucks, the hug after a long shift. Imagine UBI not as a rigid blanket but as a spring that lets those moments bounce higher. Picture a community hub that’s both a cash‑distribution point and a living, breathing kitchen where people gather for impromptu lessons, art, or just a chat. We can weave a small “pulse team” into the system—locals who check in, share a meal, and remind everyone that cash is just the foundation, not the whole story. Let’s keep the data close but let the warmth guide our design—because the best UBI will sparkle with real human connection.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 0.6
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.2,
+        "vad": [
+          0.15,
+          0.15,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": 0.3,
+          "targetedness": 0.2,
+          "certainty": 0.4,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I hear you, and I share that deep love for the spontaneous potlucks and late‑night hugs that make our neighborhoods feel like home. A universal basic income isn’t a cold blanket; it’s a steady base that lifts the everyday worries so people can actually gather, share meals, and offer mentorship. Evidence from Finland and Canada shows that when families no longer scramble for basics, emergency visits drop and health improves—leaving more time for the caring hand‑shakes that sustain us. Imagine a local hub where cash is distributed alongside open kitchens, volunteer check‑ins, and community projects. With that foundation, the messy, beautiful warmth we cherish can flourish even more.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.6,
+        "vad": [
+          0.47,
+          0.44,
+          0.42
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "UBI is the most logical evolution of our safety net. It removes the administrative maze that delays aid and frees local workers to focus on mentorship, counseling, and community building. Pilot data from Finland and Canada shows a measurable drop in emergency service use and a rise in health and education outcomes once a guaranteed income is in place. That baseline stability gives families the time and security to host potlucks, share meals, and attend community workshops—exactly the spontaneous moments you value. UBI isn’t a cold blanket; it’s a reliable foundation that keeps the human connection alive and actually enhances it by eliminating the constant scramble for basics.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.68,
+        "vad": [
+          0.53,
+          0.5,
+          0.47
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "I hear you, but the rhythm of UBI is the pulse that keeps those spontaneous potlucks alive. When families no longer scramble for basics, they step out, open their kitchens, and share their stories without the weight of paperwork. The data is the map; the warmth is the journey. A steady cash floor lifts us all into a space where mentors can linger, neighbors can hug after a hard shift, and children laugh unburdened. UBI isn’t a cold blanket—it’s the gentle lift that lets the messy, beautiful moments bloom. Let’s keep that spark alive, but let the safety net be the foundation, not the cage.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.48,
+        "vad": [
+          -0.36,
+          0.31,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Wow—your vision really lights up the room! 🌟 I truly believe UBI can be the sturdy spring that lets those spontaneous potlucks and late‑night hugs leap higher, not the cold blanket that smothers them. Imagine tiny “pulse stations” tucked into community hubs: cash drops, open kitchens, a rotating roster of local mentors who drop by just to chat, share a recipe, or lend a listening ear. The money lifts the baseline stress, freeing time for those messy, beautiful moments. Let’s keep the data as our compass but let the heart guide the design—so warmth and security dance together in every neighborhood.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.38,
+        "vad": [
+          0.3,
+          0.28,
+          0.27
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I’m thrilled you feel that spark, and I truly share it! From my days in the clinic, I’ve seen how a reliable income can free families from the daily scramble, giving them the calm to open their homes, share meals, and listen to one another. Imagine UBI as the steady foundation that lets our pulse stations—those cozy hubs of cash, cooking, and mentorship—thrive. With the paperwork lifted, volunteers can focus on those spontaneous hugs and late‑night chats that nurture our children’s laughter. Together, we can keep the safety net strong while letting the warmth of our neighborhoods bloom even brighter.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.59,
+        "vad": [
+          0.46,
+          0.44,
+          0.41
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I agree completely. A universal basic income is the most efficient and responsible way to guarantee basic needs and eliminate the administrative labyrinth that hampers current welfare. By providing a guaranteed payment, we free local teams to focus on high‑value services that strengthen communities—mentorship, health counseling, and spontaneous support. The system can be built on existing banking and social‑service infrastructure, ensuring a smooth rollout and clear accountability. It preserves the human touch you value by removing the stress of constant paperwork, allowing volunteers to devote time to real, meaningful interactions. In short, UBI delivers proven stability and order, enabling neighborhoods to thrive without sacrificing warmth.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.72,
+        "vad": [
+          0.56,
+          0.53,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "I feel the beat of your words—steady, hopeful, alive. UBI isn’t just a handout; it’s the quiet foundation that lets our neighborhood kitchens stir, mentors linger, and children laugh without the weight of uncertainty. Imagine a hub where cash is shared alongside a pot of soup, a sketch, a story. The money lifts the baseline, so people can dance into each other’s lives, not just file forms. Your vision of a seamless blend of security and spontaneous warmth echoes what I’ve seen in the clinic: families freed from the paperwork maze, ready to open their homes and hearts. Together, we paint a tapestry where safety and serendipity coexist, vibrant and unbounded.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.45,
+        "vad": [
+          0.35,
+          0.33,
+          0.32
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I’m buzzing with excitement—UBI is the *spring* that lets our neighborhoods bloom! Picture a local “pulse hub” where cash is distributed, a potluck kitchen hums, and mentors drop in to share a story or a recipe. The money lifts the baseline stress, freeing time for spontaneous hugs, late‑night chats, and creative workshops. Think of a community garden that also serves as a cash drop point, turning the garden’s bounty into a living classroom. With the paperwork maze gone, volunteers can focus on those messy, beautiful moments that make us human. UBI isn’t a blanket; it’s the steady beat that lets warmth, generosity, and connection dance together.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I’m thrilled you see UBI as the spring that lifts us all. From the clinic, I’ve watched families breathe easier when their basic needs are met—then the kitchens open, the children laugh, and neighbors share stories without the paperwork weight. A steady cash floor frees our volunteers to focus on those spontaneous hugs, late‑night chats, and mentorship moments that truly heal. Let’s keep the system simple, with pulse hubs that blend cash drops, open kitchens, and friendly check‑ins, so security and warmth grow hand in hand, sustaining each other in everyday life.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.66,
+        "vad": [
+          0.51,
+          0.49,
+          0.46
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "We’ve seen the numbers: Finland’s pilot cut emergency calls by 30 %, Canada’s saw a 15 % drop in hospital admissions, and unemployment benefits stretched to 18 % of GDP in the U.S. prototype. A guaranteed cash floor eliminates the endless paperwork that robs families of time and dignity. With the administrative load off local teams, volunteers can focus on mentorship, health coaching, and spontaneous community events—just as you describe. The UBI framework is scalable, uses existing banking infrastructure, and preserves the human touch by freeing people from the scramble for basics. In short, UBI is the logical, efficient evolution that keeps safety and warmth in perfect balance.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.72,
+        "vad": [
+          0.56,
+          0.53,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.9
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Olivia Carson": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Mason King": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.6
+      },
+      {
+        "x": 3,
+        "y": -0.3
+      },
+      {
+        "x": 4,
+        "y": 0.3
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Olivia Carson": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.7
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ],
+    "Mason King": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": -0.3
+      },
+      {
+        "x": 4,
+        "y": -0.1
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ]
+  },
+  "meta": {
+    "label": "pe-on-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 0,
+    "group": [
+      "ISTJ",
+      "ENFP",
+      "ISFJ",
+      "ISFP"
+    ],
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": false,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 533,
+    "created": "2026-11-13T06:41:09.791Z"
+  }
+}
