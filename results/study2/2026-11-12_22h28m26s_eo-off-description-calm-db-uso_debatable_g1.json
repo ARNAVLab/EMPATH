@@ -1,0 +1,528 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Jordan",
+      "content": "Sure, I’m ready to dive in. I strongly disagree that a universal basic income (UBI) should replace traditional welfare systems. UBI’s blanket approach ignores the nuanced needs of vulnerable groups—like disabled individuals, single parents, or those requiring targeted job training. Welfare programs are designed with safeguards, eligibility criteria, and support services that a flat cash payment simply can’t match. Replacing them with UBI risks eroding these safety nets, potentially leaving the most at‑risk populations worse off. Rather than a wholesale swap, we should refine and integrate UBI ideas into existing frameworks, preserving the specificity and support that current welfare offers.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear your concern about blanket payments, but dropping the whole welfare net is risky. Admin costs of UBI are lower, yet we’d lose targeted programs that address disability, housing, and childcare. Those services create a safety net that cash alone can’t replicate. Instead of a wholesale replacement, we should pilot UBI alongside existing benefits, ensuring vulnerable groups still get the support they need while simplifying the system. What safeguards would you propose if we tried a hybrid approach?",
+      "values": {
+        "opinion": -0.5,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "Your concerns are understandable, but UBI’s goal is to streamline and eliminate stigma. A pilot can start with a base UBI plus automatic add‑ons—disability supplements, childcare credits, and housing allowances—so people get extra help only if they qualify. This keeps safety nets while removing separate applications. As the UBI proves effective, we can phase out the old welfare lines, retaining only the supplemental modules that still address niche needs. In this way we keep everyone protected, but move toward a single, transparent payment that’s easier to administer and less punitive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "I’m glad you’re seeing the potential for a UBI pilot. The key is to treat it as a full transition, not a partial patch. Once the base payment proves it can lift people above the poverty line, we can drop the old welfare programs entirely—keeping only the targeted supplements as optional add‑ons that automatically trigger. This eliminates bureaucratic friction, reduces stigma, and cuts administrative costs by a significant margin. We should monitor metrics—employment rates, mental health, housing stability—to ensure no group falls through the cracks. If we see any gaps, we’ll tweak the supplement thresholds. Ultimately, a single, transparent UBI stream is the simplest, most humane safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I see the appeal of a streamlined system, but I worry that even a “base+add‑on” UBI could under‑serve the very groups we’re trying to protect. Disability, childcare, and housing needs are complex and often require more than a fixed supplement—training, counseling, and case‑management are still essential. If we drop the old welfare lines too early, we risk leaving people without the specialized support they need, especially when the UBI amount itself might be insufficient to lift anyone above the poverty line. A hybrid model that keeps targeted programs intact, while gradually introducing a universal payment, would let us test and adjust without risking a blanket “one‑size‑fits‑all” collapse.",
+      "values": {
+        "opinion": -0.6,
+        "belief": -0.7
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I agree a gradual, hybrid rollout is safer. A blanket UBI—even with add‑ons—risks oversimplifying needs that require hands‑on services, like job coaching for the disabled or case management for low‑income parents. Retaining targeted programs gives us the flexibility to adjust funding, scale support, and respond to local conditions. If we cut those programs too early, we’ll see gaps in housing, healthcare, and child‑care that a flat payment can’t fill. So let’s keep the safety nets while piloting a universal base, but only phase out the old lines when data shows every vulnerable group’s needs are met and no one falls through the cracks.",
+      "values": {
+        "opinion": 0.3,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "I’m glad we’re on the same page about safety nets, but the point is that the existing welfare web is a patchwork that perpetuates stigma and inefficiency. A UBI that automatically triggers disability, childcare, and housing add‑ons is a single, transparent safety net that can be calibrated in real time. We can pilot it while keeping those modules active; once data confirms the base plus add‑ons lift everyone above the poverty line, we can retire the separate programs. The goal isn’t a “one‑size‑fits‑all” collapse, but a complete, cost‑effective system that still delivers tailored support through built‑in supplements.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "I see the logic in a phased UBI that auto‑triggers supplements, but “complete retirement” feels premature. A single payment stream can cut stigma and overhead, yet the complexity of disability care, childcare, and housing still demands hands‑on support—case management, training, and local coordination. We should keep those targeted programs as active pilots alongside the UBI base, monitor outcomes closely, and only begin phasing out the old lines when data shows the combined system consistently lifts every vulnerable group above the poverty line without service gaps. This hybrid approach balances efficiency with the nuanced safety nets that a flat cash payment alone can’t fully replace.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0.7
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m glad you call it “premature,” but that’s exactly why I’m firmly against UBI replacing welfare. Even a well‑calibrated base plus add‑ons can’t substitute for the hands‑on case management, job‑training, and localized housing support that current programs provide. Those services are proven to meet nuanced needs—especially for disabled families and single parents—where a flat payment falls short. We should pilot UBI as an *extra* layer, not a substitute, and only consider phasing out traditional lines after long‑term evidence that all vulnerable groups are sustainably served by the hybrid system.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I appreciate your point, but I still see a UBI‑only base as fundamentally flawed. Even with “add‑ons,” it can’t replace the depth of case‑management, vocational training, or crisis‑housing that welfare programs already provide. Those services are tailored to individual circumstances; a flat payment, however generous, can’t account for a disabled parent’s medical expenses or a single mother’s childcare costs. I’d argue that UBI should be a supplemental safety net on top of existing programs, not a substitute. Only after a decade of rigorous data showing that every vulnerable group is met more effectively than before should we consider trimming the old lines. Until then, keep the full spectrum of targeted services.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your concerns, but the evidence is already pointing the other way. Even generous cash transfers, when combined with automated disability, childcare, and housing supplements, lift people above the poverty line while eliminating the need for dozens of fragmented programs. Case‑management and training can be delivered digitally and on demand, reducing bureaucracy and stigma. Pilot studies in Finland and Kenya show improved health and employment outcomes with a single cash stream. A hybrid model is a stopgap; a full transition to UBI—plus targeted digital services—offers a scalable, humane safety net that outperforms the patchwork of today.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I’m glad you point to those pilot results—they’re encouraging. Still, we should remember that cash alone isn’t a silver bullet; the real test is long‑term, across diverse regions. The digital case‑management you mention works well in controlled studies, but scaling it while maintaining quality for complex needs—like chronic health care for disabled parents or localized housing crises—requires robust infrastructure and oversight. A phased rollout that keeps core targeted services active for a few years while we monitor outcomes seems safest. If data shows the UBI plus digital supplements consistently lift every vulnerable group above the poverty line, then we can justifiably trim the old welfare lines. Until then, a hybrid approach keeps us from leaving anyone behind.",
+      "values": {
+        "opinion": 0.6,
+        "belief": null
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I still believe a full UBI replacement is risky. Even with digital case‑management, the nuance of chronic medical care, individualized job training, and crisis‑housing cannot be captured by a flat cash stream. Scaling those services requires not just software but on‑ground coordinators, local knowledge, and flexible funding that a universal payment alone can’t provide. A hybrid model that preserves the proven targeted programs for at least a decade, while piloting UBI, lets us compare outcomes without risking a sudden loss of essential support. Until we see sustained evidence that every vulnerable group is better served—especially those with complex, long‑term needs—we should keep the full spectrum of welfare services intact.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still against replacing welfare with a UBI. Even a generous cash base can’t replace the tailored case‑management, job‑training, and crisis‑housing that current programs deliver—especially for disabled families, chronic‑care patients, and single parents. Digital tools help, but they can’t substitute for local coordinators, flexible funding, and hands‑on support. A hybrid approach—keeping existing safety nets intact for at least a decade while piloting UBI as an add‑on—lets us measure outcomes without risking gaps for those with complex, long‑term needs. Until we see sustained, nationwide evidence that every vulnerable group fares better, the full welfare system must remain.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "I’m still convinced the whole welfare web should be replaced by UBI. A single universal payment coupled with automatically‑triggered digital supplements for disability, childcare, and housing eliminates stigma, cuts admin costs, and ensures every citizen gets a guaranteed baseline. The pilot data from Finland and Kenya already show better health and employment outcomes. We can keep case‑management as a digital overlay, not a separate program—no more fragmented eligibility checks. If any group falls below the poverty line, the system will flag it and re‑allocate resources immediately. A phased approach is fine, but the end goal must be a unified, humane safety net, not a patchwork that keeps people in limbo.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "I’m convinced UBI should replace the patchwork welfare system. A single cash stream eliminates stigma and bureaucracy while still delivering the safety net we need. Of course, a pure flat payment isn’t enough for everyone, so we’ll pair it with automated supplements—disability, childcare, housing—and a digital case‑management overlay for complex cases. Pilot data from Finland and Kenya show that this hybrid model lifts people above the poverty line and improves health and employment. We’ll monitor outcomes closely and keep existing programs as a fallback until the UBI‑plus‑digital system proves it can meet every group’s needs sustainably. The goal is a unified, humane safety net, not a fragmented web.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still firmly opposed. A flat UBI can’t replace the hands‑on case‑management, specialized job training, and crisis‑housing that existing welfare programs provide—especially for disabled families, chronic‑care patients, and single parents. Digital overlays help, but they can’t substitute for local coordinators, flexible funding, and adaptive services. Even a generous cash base might leave many below the poverty line. Until we have nationwide, long‑term evidence that every vulnerable group is better served by a UBI‑plus‑digital model, the full spectrum of targeted welfare services must remain intact.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still convinced a blanket UBI can’t replace the nuanced, hands‑on services that current welfare programs deliver. Even with digital supplements, we’d lose the tailored case‑management, job‑training, and crisis‑housing that are essential for disabled families, chronic‑care patients, and single parents. A flat payment risks leaving many below the poverty line. Until we have long‑term, nationwide evidence that every vulnerable group fares better under a UBI‑plus‑digital model, the full spectrum of targeted welfare services must stay intact. Let’s keep those programs active and use UBI as an additional layer, not a wholesale swap.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that hands‑on support matters, but the data shows that a well‑designed UBI, coupled with automated supplements and a digital case‑management layer, can provide every essential service without the fragmentation of today’s system. Finland’s basic income pilot lifted participants above the poverty line and improved health; Kenya’s universal cash transfer reduced child labor. Digital coordinators already manage disability benefits in several states with lower admin costs and faster response times. If we keep a flexible, data‑driven threshold for supplements, no group will fall through. A phased, full‑replacement plan is the most efficient, humane way to eliminate stigma and bureaucracy while guaranteeing everyone a baseline of support.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "I agree that a smartly engineered UBI can streamline and reduce stigma, and the pilot data are promising. But we must be careful not to oversimplify complex needs. Even with digital supplements, some families still require hands‑on case management, job‑training, and crisis housing. A phased rollout that keeps those targeted programs active for a few years—while piloting the UBI base—allows us to capture real‑world gaps and adjust thresholds. If data show every vulnerable group consistently tops the poverty line without losing essential services, we can move toward full replacement. Until then, a hybrid strategy protects those who need more than a flat payment.",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.65
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m glad you see the value of a phased approach, but that still keeps the welfare system intact. A UBI alone, even with digital supplements, can’t replace the on‑ground case‑management, tailored job‑training, or crisis‑housing that many families rely on. The risk of leaving chronic‑care patients or single parents under‑served is too high. A hybrid model that preserves targeted programs for at least a decade while piloting UBI is essential. Only after long‑term, nationwide evidence that every vulnerable group is better served—without losing those hands‑on services—can we consider a full replacement. Until then, the full spectrum of welfare must remain.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 5
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m with you on keeping the full spectrum of programs for now. A flat payment, even if topped with digital add‑ons, still lacks the nuanced case‑management, specialized training, and crisis housing that many rely on. Chronic‑care patients and single parents need in‑person support and flexible funding that a universal cash stream can’t provide. The pilot data are encouraging, but they’re limited in scope and duration. Until we have solid, nationwide, longitudinal evidence that every vulnerable group is consistently above the poverty line without losing essential hands‑on services, we must preserve the current targeted welfare network and use UBI only as an additional layer, not a substitute.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Alex",
+      "content": "I agree we must keep the full array of welfare programs. A blanket UBI, even with “digital add‑ons,” risks eroding the hands‑on support that chronic‑care patients, single parents, and people with disabilities actually need. The pilot data are promising, but they don’t capture the complexity of real‑world service delivery, such as in‑person case management, flexible funding for crisis housing, or tailored job‑training. Until we have long‑term, nationwide evidence that every group consistently tops the poverty line without losing those essential services, UBI should stay an optional layer, not a wholesale replacement. The safety net must remain robust and responsive.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your point, but I still think a UBI can be designed to fill those gaps. The Finland and Kenya pilots show that a universal cash plus automated supplements for disability, childcare, and housing can lift people above the poverty line while a digital case‑management layer keeps hands‑on support available. A phased rollout that keeps current programs as a fallback while we test a UBI that triggers these add‑ons is the safest compromise. If data show every vulnerable group consistently tops the poverty line without losing essential services, we can then consider a full replacement, but we should keep the safety net robust until then.",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.65
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.6
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.3
+      },
+      {
+        "x": 3,
+        "y": 0.6
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.6
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": 0.3
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.7
+      },
+      {
+        "x": 3,
+        "y": -0.8
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.8
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.7
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 0.65
+      },
+      {
+        "x": 6,
+        "y": 0.65
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-off-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 683,
+    "created": "2026-11-13T03:28:26.938Z"
+  }
+}
