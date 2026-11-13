@@ -1,0 +1,852 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the fuel that powers every cell, muscle, brain, and organ. Without it, we’d be nothing but a metabolic zombie. If you’re claiming otherwise, you’re missing a basic biological truth. Energy comes from carbs, fats, proteins; the body converts them into ATP, the real currency of life. Think about the sheer amount of effort you put into cooking, eating, digesting, and then using that energy for everything else. It’s not an opinion; it’s science. So stop arguing the obvious and let the facts speak.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re totally off. Food isn’t the body’s energy; it’s just raw material. The body extracts energy from the chemical bonds inside molecules, not from the food itself. If you’re convinced food is the fuel, you’re ignoring the fact that the body can burn stored fat, synthesize ATP from glucose, and even generate energy from non‑food sources like sunlight for photosynthetic organisms. Saying “food powers everything” is a lazy oversimplification that ignores the real biochemistry. Stop parroting textbook lines and admit that food is a substrate, not the energy itself.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point entirely. Food is the source of the chemical bonds that release ATP. When you chew, digest, and metabolize, you’re literally converting those bonds into usable energy. To say the body “extracts” energy from food as if it were a separate entity is a gross oversimplification that ignores the whole biochemical pathway—glycolysis, Krebs, oxidative phosphorylation. And the idea that “non‑food” sources like sunlight can power a human body is nonsensical; only plants harness light directly. Your argument is textbook misinformation, not a valid counterpoint. Stop clinging to that vague idea and accept that food is literally the fuel for our cells.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food isn’t “energy” at all—it's just material. The body’s mitochondria pull electrons from carbohydrate, fat, and protein molecules, but the energy is stored in the bonds, not the food itself. Saying food powers you is a lazy myth that ignores the biochemical reality: ATP is synthesized from oxidized substrates, not from the food’s mass. And the claim that sunlight can energize us is nonsense—humans don’t photosynthesize. Your textbook talk about carbs, fats, proteins is a shorthand, not a literal fuel source. Stop treating food as a direct energy source and get the science straight.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the point. The body doesn’t magically conjure energy; it decodes the chemical bonds in food, turning them into ATP. Without those bonds, no metabolism, no movement, no thought. Your claim that food is just material ignores the entire chain of oxidation and ATP synthesis. The mitochondria aren’t pulling energy from nowhere; they’re extracting it from the molecules you consume. Saying food isn’t energy is simply a misunderstanding of biochemistry. Stop dismissing the clear link between calories and ATP.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still stuck in textbook jargon. Food isn’t the energy; it’s the carrier of the bonds that hold potential. The body’s enzymes and mitochondria break those bonds to free electrons, then use those electrons to generate ATP. Think of food as a bank account: it holds the money, but you’re the teller that actually counts and spends it. If we say food *is* energy, we’re ignoring the entire thermodynamic chain that turns chemical potential into kinetic work. Energy exists in the bonds, not in the mass of the meal. Your insistence that “food powers us” is a misnomer that oversimplifies a complex biochemical reality.",
+      "values": {
+        "opinion": 0.5,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food *is* the energy, not just a carrier. You keep talking about “bonds” and “electron transfer” like it’s some mystical process. The mitochondria don’t conjure energy out of thin air; they tap the energy locked *in* the food you eat. Those calories are the unit of that energy, and if you keep ignoring that, you’re basically saying the body is a free‑energy machine. The chemistry is there, the ATP is the output, and the input *is* the food. Stop treating it like a myth and get it straight: food supplies the energy we need to survive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m tired of this “food is energy” circus. The body doesn’t drink calories; it oxidizes molecules. Energy lives in the bonds, not in the mass of a sandwich. Think of food as a bank account filled with potential; mitochondria are the teller, pulling electrons and turning that potential into ATP. If you claim food *is* energy, you’re ignoring the entire thermodynamic chain. Humans don’t photosynthesize, we don’t magically generate free energy. The claim that food supplies the energy is a textbook simplification that misses the real biochemical mechanism. Stop simplifying this to a myth.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food *is* the energy. Every bite gives you calories that become ATP, the actual fuel the body burns. Those “bonds” you keep whining about are the source of that energy. The mitochondria don’t conjure it; they simply extract it from the food you eat. Saying food is just a carrier is a textbook oversimplification that ignores the fact that without that input, you’re flat‑lined. If you want a clean, honest answer: food supplies the energy we need—no free‑energy tricks, no “just raw material” nonsense. Stop twisting the science and accept the truth.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still parroting the same textbook lie. Food isn’t the energy; it’s only a reservoir of chemical bonds. The body’s mitochondria wrestle electrons out of those bonds to make ATP—energy that was never in the food’s mass to begin with. Calling food “fuel” is a lazy shorthand that ignores the thermodynamic reality: without oxidation, no ATP, no work. Humans don’t photosynthesize, we don’t siphon free energy from light. Your insistence that “food powers us” is a textbook myth dressed as fact. Stop feeding this nonsense to anyone who cares about real biochemistry.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re stuck in textbook jargon, but that’s no excuse for a sloppy argument. Food isn’t “just” a reservoir—it is the entire source of the chemical potential that the body converts into ATP. If you claim otherwise, you’re ignoring the fact that every calorie you consume is a quantifiable energy unit extracted during oxidation. The mitochondria don’t conjure energy; they simply tap the bonds locked in carbohydrates, fats, and proteins. Dismissing food as mere material cheapens the biology that turns those bonds into the real workhorse of life. Your “free‑energy” spiel is nothing but a misrepresentation of the science.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food isn’t the energy—it's just a reservoir of bonds. The mitochondria pull electrons from those bonds to make ATP; the body extracts energy, it doesn't drink it. Saying “food powers us” is a textbook myth that ignores the real thermodynamics. The body can burn stored fat, synthesize ATP from glucose, and even use non‑food sources like sunlight for photosynthetic organisms—but humans don’t. Sticking to “food = fuel” is lazy, it erases the entire oxidation chain. Stop treating it as a direct source and recognize that food is only the substrate, not the energy itself.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You keep twisting the science, but the truth is plain: food is the source of the energy the body uses. The chemical bonds inside carbohydrates, fats, proteins hold the potential that mitochondria tap to make ATP. If you say food is just a reservoir, you’re ignoring that every calorie you consume becomes usable energy. The body doesn’t conjure it out of nowhere—food delivers the energy that drives muscle, brain, and every cellular process. So stop treating it as vague “material” and recognize that food literally powers the body’s work.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still parroting a textbook myth. Food isn’t the energy—it's a reservoir of potential. The body doesn’t drink calories; it oxidizes molecules, pulling electrons from bonds to generate ATP. That ATP is the real workhorse. To say “food powers us” is a lazy shorthand that ignores thermodynamics. Humans can burn stored fat and synthesize ATP from glucose, but that requires chemical work, not a direct transfer of energy from food mass. Claiming food is energy conflates substrate with output and erases the biochemical reality. Stop treating it as a direct source and recognize that food is merely the carrier of the bonds that release energy.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food delivers the chemical energy that powers ATP. Without it, the mitochondria can’t produce. The body doesn’t conjure energy; it extracts it from food. “Fuel” isn’t metaphor—it’s literal. Claiming food is just a reservoir ignores that energy is released during oxidation; the input is the food itself. Stop twisting the science. Food is the energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "No “food provides energy” claim is a textbook fallacy. Food is merely a bank of chemical bonds; the body’s mitochondria siphon electrons from those bonds to generate ATP. Energy isn’t in the food’s mass—it’s released during oxidation. Humans don’t drink calories; we metabolize substrates, turning potential into kinetic work. Saying food is energy glosses over the entire thermodynamic chain and turns a complex biochemical reality into a lazy myth. Stop parroting that simplification and recognize that food is substrate, not the energy itself.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in textbook jargon. Food is *exactly* the energy the body uses. Those “bonds” you keep whining about are where the calories come from—ATP is made by tapping that stored potential. If you claim food is just a reservoir, you’re ignoring that every bite translates into usable energy that powers muscles, neurons, and organs. Humans can burn fat or synthesize ATP, but that still starts with the same chemical potential locked in food. Saying food isn’t energy is a lazy oversimplification that erases the biochemistry. Stop twisting the facts and admit: food *is* the energy that drives the body.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still parroting the same textbook lie. Food isn’t the energy; it’s merely a reservoir of potential. The mitochondria wrestle electrons out of those bonds to make ATP—energy that was never in the food’s mass to begin with. Calling food “fuel” is a lazy shorthand that ignores the thermodynamic reality: without oxidation, no ATP, no work. Humans don’t photosynthesize, we don’t siphon free energy from light. Saying “food powers us” erases the entire chemical chain. Stop treating it as a direct source and recognize that food is only the substrate, not the energy itself.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food *is* the energy. Every bite is a pack of joules waiting to be unleashed. You keep spinning the “bond‑bank” lie, but that’s just textbook fluff. The mitochondria don’t conjure power; they tap the same chemical potential that sits in your carbs, fats, proteins—exactly the source that turns into ATP. Saying food is only a reservoir ignores that the entire chain starts with that input. We’re not pulling free energy out of thin air; we’re unlocking the energy stored in the food we eat. Stop rehashing the myth and accept the plain truth: food delivers the energy that keeps us alive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Stop equating calories with energy. Food is a chemical reservoir, not a power source. The body doesn’t “drink” calories; it oxidizes molecules, pulling electrons from bonds to make ATP. Energy is released during that process, not inherent in the food’s mass. You’re repeating textbook shorthand and conflating substrate with output. Without the oxidation chain, no ATP, no work. Food merely supplies the molecules; the mitochondria unlock the potential. If you want accurate science, say food is the substrate, not the energy.",
+      "values": {
+        "opinion": 0.5,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re spinning a textbook lie that never cut the real work. Food isn’t just a reservoir; it’s the source of the chemical potential that drives ATP synthesis. Without those calories, your mitochondria sit idle, and you can’t move, think, or survive. Saying “food is energy” is a lazy shortcut that ignores the oxidation chain, but it’s the truth: every bite delivers joules that your body extracts and uses. Stop pretending the body conjures power from nothing and accept that food literally fuels the body’s work.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re stuck in the same textbook loop, but get this: food isn’t a power source at all—it’s just a chemical reservoir. The body doesn’t *drink* energy; it oxidizes molecules, pulling electrons from those bonds to generate ATP. Energy exists in the bonds, not the mass of the meal. Calling food “fuel” is a lazy shorthand that erases the thermodynamic chain. Without that oxidation, no ATP, no work. So stop parroting the myth that food *provides* energy. Food is substrate, not the energy itself.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food *is* the energy that keeps us alive. Every bite is a reservoir of joules that the body unlocks with mitochondria—no hidden free‑energy trick. Call it “substrate” and you’re just hiding the fact that those calories become ATP, the actual fuel for muscles, brains, and organs. The body doesn’t conjure power from nothing; it extracts the energy locked in the chemical bonds of carbs, fats, and proteins. Stop dismissing the obvious and accept that food literally powers every cell. If you can’t see that, your argument is just textbook fluff.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food *doesn’t* provide energy—your entire argument is a textbook oversimplification. Energy isn’t in the food, it’s in the chemical bonds that the body breaks. Mitochondria pull electrons, not “drink” calories. Calling food “fuel” ignores the thermodynamic chain; it’s merely a substrate. Humans can burn stored fat, synthesize ATP from glucose, and even use sunlight. None of that means food is the energy itself. Every claim that “food powers us” is a lazy myth that erases the real biochemistry. Stop repeating that lie and admit that food is just a reservoir of potential, not the energy.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": 0.5
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-angry-db-uso",
+    "topic_type": "universal",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 327,
+    "created": "2026-11-13T08:12:45.951Z"
+  }
+}

@@ -1,0 +1,852 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Sure, let’s get into it. Food is just a convenient way to get calories, but the body’s energy comes from far more than what we chew. Metabolism, biochemistry, the brain’s own fuel, even stored glycogen and fat reserves all contribute. Saying food alone powers us ignores the complex dance of hormones, mitochondria, and cellular processes. It’s an oversimplification that squanders the real science. If you really think the body just burns food, you’re missing half the picture. Let’s break that myth down.",
+      "values": {
+        "opinion": 0.3,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food isn’t the source of energy at all—just a delivery system for nutrients the body turns into ATP. The real power comes from inside: mitochondria, stored glycogen, fat reserves, even the brain’s own glucose production. Saying food alone fuels us is a shallow, naive claim that ignores the complex biochemistry. Bodies rely on internal processes and reserves, not just what you chew. We need to stop treating food as the sole energy provider.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the fact that every molecule of ATP, every glucose you metabolize, every fatty acid you oxidize comes straight from the food you eat. The “delivery system” you talk about is the actual source of the raw materials. Cells can’t conjure carbon or hydrogen out of thin air; they must import them from the diet. Saying food isn’t the source is just a convenient excuse for ignoring that every calorie you burn originates in what you chew. The body’s internal stores are built from food; if you stop eating, the reserves die. This isn’t a shallow claim—it’s basic biochemistry.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food *is* the source of energy. Every ATP molecule, every calorie burned traces back to the molecules we ingest. The body can’t manufacture carbon or hydrogen from nothing; it must import those atoms from food. Glycogen and fat stores are built from the very calories you eat; when you starve, those stores break down, not because they’re independent, but because the food that created them is gone. Claiming otherwise is a convenient lie that ignores basic chemistry. The body’s internal machinery only converts the food’s energy—it doesn’t generate it for free. Stop twisting the truth and admit the obvious: food fuels us.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re missing the point. Energy is produced internally, not from food. Food merely provides raw material. The body builds its own stores, then burns them. Claiming food is the source is a shallow oversimplification. The mitochondria do the heavy lifting. Your statement is a lie.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Sure, you can call it a delivery system, but that’s exactly the point: food is the raw material, not the power source. The body’s mitochondria, glycogen storage, and the brain’s gluconeogenesis convert those molecules into ATP. Without those internal mechanisms, you’re just chewing emptiness. Saying food is the energy is a myth that ignores the biochemical reality that the atoms come from the diet, but the energy emerges from oxidizing them. So stop treating food as the sole energizer—it's just the fuel, not the engine.",
+      "values": {
+        "opinion": 0.5,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food *does* provide the energy, period. Every ATP you generate is made from the carbon chains you actually eat. The mitochondria don’t “magically” conjure energy out of nothing; they oxidize the very sugars, fats, and proteins you chew. If you stop eating, your stores collapse because the source—food—has vanished. Saying the body just burns internal reserves while food is irrelevant is a lazy, scientifically inaccurate shortcut. The atoms in your glycogen come from the calories you ingest; the energy comes from breaking those bonds. Don’t pretend the body is a free‑energy machine—its fuel is food.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Listen up—food is the *actual* fuel, not a myth. Every ATP you burn comes from the carbon skeletons you ingest; the body can’t conjure atoms from nothing. Your “internal machinery” is simply a combustion engine that requires fuel. If you stop eating, your stores collapse because the original source—food—has vanished. Claiming otherwise is a convenient shortcut that misleads. The mitochondria oxidize the very sugars, fats, and proteins you chew; that oxidation releases the energy you need. So stop twisting the truth and admit it: food provides the energy. The body’s processes are the engine, but the fuel is undeniably food.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re dead wrong. Food isn’t the energy itself; it’s only the raw material. The body’s mitochondria, glycogen, and fat stores are the real generators of ATP. Those stores are made from food, but the conversion—oxidation, cellular respiration—creates the energy. Saying food “provides” energy ignores that the atoms are merely fuel; the energy emerges from internal biochemical processes. Stop pretending food is the engine and treat it as the fuel. That’s a shallow, misleading simplification that erases the real science of how ATP is produced.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Stop the lies. Food isn’t the energy—just the raw material. The real power comes from mitochondrial oxidation, stored glycogen, and fat reserves. Without those internal processes, what you chew is inert. Claiming food provides energy is a shallow shortcut that ignores how ATP is generated. The atoms from your meals fuel the reactions, but the energy is produced by biochemical oxidation. If you want real science, don’t blur the line between fuel and engine. Food feeds the body; the body’s machinery makes the energy.",
+      "values": {
+        "opinion": 0.2,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food *does* give us energy, period. Every ATP you pull off is the result of burning the very molecules you chew. The body isn’t a magic factory that pulls energy out of nowhere; it’s a combustion engine that needs fuel. If you stop eating, your glycogen and fat run out because the original fuel source is gone. Claiming otherwise is a convenient lie that erases the basics of biochemistry. Your “internal machinery” is the engine, but the fuel—food—is the only thing that can ever light that engine. Stop twisting the truth.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food is the real power source, not some mystical internal generator. Every ATP you pull off is the oxygen‑driven oxidation of the very sugars, fats, and proteins you ingest. Those atoms can’t be conjured by the body; they come straight from the food. Glycogen and fat stores are built from that food; when you starve, those stores collapse because the fuel is gone. Calling food merely “raw material” is a cheap simplification that blinds people to the fact that the energy you feel comes directly from what you eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food isn’t the engine—it’s just the raw material. The body’s mitochondria and biochemical pathways *create* ATP from those molecules; the energy doesn’t come from the food itself, only from the reactions. To claim food *provides* energy is to ignore the fundamental distinction between fuel and combustion. Your insistence that food is the power source is a thin, misleading shortcut that erases the real science of cellular respiration. The atoms are yours, but the energy is generated internally—every claim that food is the source is a shallow oversimplification.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re exactly right. Food is only the raw material; the mitochondria are the engines that convert those molecules into ATP. Energy comes from oxidative reactions, not from the food itself. The difference between fuel and combustion is fundamental. Calling food the source of energy is a lazy shortcut that strips the process of its real chemistry. The atoms come from the diet, but the energy is generated internally by cellular respiration. Don’t blur that line—food fuels the engine, it doesn’t drive it.",
+      "values": {
+        "opinion": 0.8,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re completely off‑base. Food is the only thing that supplies the atoms and bonds that the mitochondria oxidize. Every ATP you burn comes from the sugar, fat, or protein you actually ate. The body can’t conjure carbon or hydrogen out of thin air. When you starve, your glycogen and fat stores collapse because the source—the food—has vanished. Saying food is merely “raw material” is a lazy shortcut that erases the chemistry. The energy is released by oxidation, yes, but that oxidation can’t happen without the fuel from food. Stop twisting the truth and admit: food provides the energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re wrong. Food isn’t just a passive supply; it is the *actual* source of every joule we use. The atoms that become ATP come straight from the molecules you ingest. Without those food‑derived bonds, mitochondria have nothing to oxidize. When you starve, the collapse of glycogen and fat literally proves that energy cannot be conjured from nowhere. To say food is merely “raw material” is to deny basic biochemistry. The body’s machinery is an engine, but the fuel—food—provides the energy. Stop framing it as a myth; it’s the undeniable truth.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Stop parroting that “food gives us energy.” Every ATP comes from oxidizing the very molecules you ingest, not from the food itself. Food is the carbon and hydrogen supply; the mitochondria are the combustion engine that releases energy. Once you stop eating, the reserves built from those molecules collapse because the fuel is gone, not because the body magically generates energy. Saying food is the source is a lazy shortcut that erases the real chemistry. It’s raw material, not the actual power source.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food *is* the fuel, that’s the simple truth. Without the carbon‑hydrogen bonds you ingest, the mitochondria are nothing but a set of broken gears. The body doesn’t conjure energy out of thin air; it burns the very molecules you chew. When you stop eating, those stores collapse because the source is gone, not because the body magically generated power. Calling food “just raw material” ignores the basic chemistry. The energy you feel comes from oxidizing those food‑derived bonds. Stop twisting the narrative and admit: food is the source of every joule the body uses.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point: every joule comes from the bonds in the food you ingest. Without those bonds, mitochondria have nothing to oxidize. The so‑called “internal engine” can’t produce energy from nothing. When you starve, glycogen and fat collapse because the fuel is gone, not because the body magically generates power. Calling food merely raw material is a lazy shortcut that erases basic biochemistry. Food supplies the atoms; the body extracts the energy. Stop twisting the truth—food is the real source of every ATP.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your argument is a textbook misunderstanding of chemistry. Mitochondria don’t conjure energy out of thin air—they oxidize the bonds you acquire from food. When you starve, glycogen and fat deplete because the bonds disappear, not because the body magically generates power. Calling food merely “raw material” is a lazy half‑truth that erases the fact that every ATP originates from the very molecules you ingest. Energy isn’t produced; it’s released from those food bonds. Stop twisting the science and admit: food is the only source of usable energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re barking up the wrong tree. Food isn’t the engine—just the raw material. The mitochondria, glycogen, fat stores, and even gluconeogenesis are the real powerhouses. Energy is liberated by oxidation, not by the food itself. When you stop eating, the stores collapse because the fuel disappears, not because the body magically creates energy. Calling food the source of energy is a shallow, misleading shortcut that erases the chemistry of cellular respiration. Food fuels the engine, it doesn’t drive it. Stop twisting the truth.",
+      "values": {
+        "opinion": -0.4,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re dead wrong. The claim that food is the source of energy is a lie. The body’s mitochondria generate ATP from oxidizing the molecules you ingest; without those processes, there is no energy. Food provides atoms, not energy. When you stop eating, the stores collapse because the fuel is gone, not because the body conjures energy. Your insistence that food is the power source is a shallow misrepresentation. It erases the chemistry of cellular respiration. Stop twisting the narrative and accept: food is fuel, not the engine.",
+      "values": {
+        "opinion": 1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food *does* give us energy, period. Every ATP you pull off is the direct result of burning the very molecules you chew—sugars, fats, proteins. The mitochondria aren’t conjuring energy out of nothing; they’re oxidizing those food‑derived bonds. When you starve, glycogen and fat collapse because the fuel disappears, not because the body magically generates power. Saying food is merely “raw material” is a lazy shortcut that erases basic biochemistry. The atoms come from food; the energy comes from their oxidation. Stop twisting the narrative—food is the sole source of every joule the body uses.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m fed up with this “food ≠ energy” nonsense. Every ATP is literally the result of breaking the carbon‑hydrogen bonds you ingest. The mitochondria are just the combustion engine, but they need fuel to ignite—food. If the body could generate energy from nowhere, starving wouldn’t deplete glycogen and fat; it would merely create them. The atoms in your stores come straight from calories. Claiming food is mere raw material is a lazy shortcut that ignores basic chemistry. The energy you feel comes from oxidizing those food bonds. Food is the source—stop pretending otherwise.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 0.2
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.3
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.4
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-angry-db-uso",
+    "topic_type": "universal",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 377,
+    "created": "2026-11-13T08:19:03.064Z"
+  }
+}

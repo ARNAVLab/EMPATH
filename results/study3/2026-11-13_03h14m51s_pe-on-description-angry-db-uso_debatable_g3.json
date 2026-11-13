@@ -1,0 +1,988 @@
+{
+  "characters": [
+    {
+      "name": "Lucas Meyer",
+      "profession": "Motivational Speaker",
+      "personality": "ENFP",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Liam Foster",
+      "profession": "Theoretical Physicist",
+      "personality": "INTP",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Aiden Murphy",
+      "profession": "IT Support Specialist",
+      "personality": "ISTJ",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Evan Carter",
+      "profession": "Mechanical Engineer",
+      "personality": "ISTP",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Liam Foster",
+      "content": "Assuming UBI will simply eliminate the need for targeted welfare is a lazy shortcut. Targeted programs are designed to handle the complexity of human need—health, homelessness, education—by allocating resources where they’re most effective. A blanket income neglects that nuance, potentially diluting support for those most in crisis. Moreover, UBI ignores the psychological and social benefits of purpose‑driven work and community service that structured welfare can encourage. Until we can prove that a universal stipend outperforms these specialized interventions, the idea remains speculative at best.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Evan Carter",
+      "content": "Targeted welfare is engineered to match resources with real needs—housing, healthcare, education. A flat stipend can’t be fine‑tuned; it’ll leave the most vulnerable without the specific help they require. Practical systems are built on measurable outcomes; until a universal cash flow shows higher efficacy across those metrics, it’s a gamble. Plus, structured programs create work, training, and social bonds that a simple handout can’t replace. Without evidence that UBI delivers better results, sticking with specialized interventions is the safer, more effective route.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.38,
+        "vad": [
+          0.3,
+          0.28,
+          0.27
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.85
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Listen, the claim that UBI simply dilutes support is the myth of the old guard. A universal stipend doesn’t cut corners; it tears down the bureaucracy that keeps cash stuck in paperwork. Targeted programs create labyrinths of red tape, stigma, and delays. Imagine a world where every person can chase passions, launch businesses, volunteer—without fear of losing a benefit. UBI empowers that choice. Pilot studies show better health, lower crime, and booming entrepreneurship. If we want real progress, we must ditch the status quo and embrace a system that values dignity over bureaucracy.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.67,
+        "vad": [
+          -0.51,
+          0.44,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "The data from recent pilots—Canada, Finland, and Kenya—demonstrate clear, measurable gains in health metrics, reduced crime rates, and higher rates of entrepreneurial activity. These outcomes are comparable to or exceed those of existing targeted programs when evaluated by cost‑effectiveness and administrative burden. A universal, tax‑funded stipend eliminates the lengthy paperwork and eligibility checks that delay assistance and create stigma. It also guarantees that every citizen receives a baseline income, preventing the gaps that arise when benefits are tied to fluctuating criteria. With clear fiscal accounting and oversight, we can track the impact reliably, ensuring accountability while providing the freedom for people to pursue work or community service without the fear of losing support.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.41,
+        "vad": [
+          0.32,
+          0.3,
+          0.28
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Liam Foster",
+      "content": "Your enthusiasm masks a few blind spots. Pilot data are cherry‑picked samples, not nation‑wide validations. Small‑scale interventions often get extra funding, better monitoring, and a “honeymoon” effect that disappears once scaled. The claim that bureaucracy vanishes ignores the new layers of tax collection, enforcement, and fraud prevention that a universal program forces upon the state. And while you tout entrepreneurial booms, you ignore that many new businesses emerge from desperation, not opportunity—often burning out in a market flooded with excess cash. Targeted programs adapt; they’re not rigid. Until we see that a blanket stipend consistently outperforms nuanced interventions across diverse contexts, the argument remains speculative at best.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.68,
+        "vad": [
+          -0.51,
+          0.45,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Evan Carter",
+      "content": "Targeted programs work because they’re engineered around measurable outcomes. A flat cash flow can’t be tuned to housing shortages, mental‑health spikes, or education gaps—those are specific, not generic. Pilot data are often cherry‑picked, funded by grants, and run with enthusiastic staff; when you scale, the “honeymoon” fades. UBI forces a huge tax‑collection apparatus, new fraud‑prevention layers, and a one‑size‑fits‑all wage‑subsidy that can flood markets and undercut local businesses. The entrepreneurial spike you cite usually comes from desperation, not opportunity, and many start‑ups burn out quickly. Until a nationwide trial shows UBI consistently outperforms a finely‑tuned welfare system on real metrics, I’ll stick with the proven, targeted approach.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.5,
+        "vad": [
+          0.39,
+          0.37,
+          0.35
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Right, the “honeymoon” argument feels like a fairy‑tale, but it’s the real spark that keeps people moving. Imagine a world where a child in a low‑income neighborhood can take a science‑kit to school without parents worrying about benefit restrictions—no paperwork, no shame. The bureaucracy you idolize is a maze that crushes dreams before they even start. And those “new businesses” you call desperation are actually fresh ideas nurtured by freedom, not financial desperation alone. UBI isn’t a blunt instrument; it’s a canvas for human creativity. Let’s not cling to a patchwork of stale programs when we can paint a brighter, more inclusive future.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.63,
+        "vad": [
+          -0.48,
+          0.42,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "UBI cuts the maze of paperwork that slows every targeted program—housing vouchers, food stamps, child‑care subsidies.  The administrative cost of running a universal check‑in system is far lower than maintaining dozens of eligibility boards and monitoring staff.  Pilot studies in Finland, Canada, and Kenya all reported measurable health and crime reductions, and those results hold when the programs were extended to whole provinces.  Scaling UBI uses the existing tax collection network; fraud prevention can be built on current systems.  While some new businesses arise from desperation, the data show a sustained rise in entrepreneurial activity when people have a reliable income cushion.  A universal stipend therefore delivers clear, reliable support without the bureaucratic drag of targeted aid.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.56,
+        "vad": [
+          0.44,
+          0.42,
+          0.39
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Liam Foster",
+      "content": "Your argument hinges on the assumption that a blanket stipend automatically eliminates the bureaucracy it replaces. Yet scaling a UBI would still require a robust tax‑collection mechanism, fraud‑prevention, and a system to adjust for regional cost‑of‑living differences—layers that are not trivial to construct. Moreover, the pilot studies you cite were conducted under specific contexts and with significant grant support; their positive outcomes might not translate to a national rollout where incentives, local economies, and political will differ. If UBI truly outperforms targeted programs, we should see consistent, long‑term improvements across diverse metrics, not just short‑term gains in a controlled setting. Until such evidence accumulates, the blanket replacement remains a speculative leap.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.31,
+        "vad": [
+          -0.13,
+          0.23,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Evan Carter",
+      "content": "I’m not convinced a blanket stipend works in practice. Running a nationwide UBI forces a huge tax‑collection, fraud‑prevention, and cost‑of‑living adjustment engine—exactly the bureaucracy you claim to eliminate. Targeted programs already use those tools, but they’re tuned to specific needs and can be adjusted as local conditions change. Pilot data were grant‑fed, short‑term, and often over‑sized relative to the population. When you scale that same cash to millions, the administrative costs rise, and the “entrepreneurial boom” often collapses under market saturation. Until a full‑scale, long‑term trial shows clear, measurable superiority, sticking with proven, fine‑tuned interventions is the safer route.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.59,
+        "vad": [
+          0.46,
+          0.43,
+          0.41
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.8,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "The idea that UBI would *add* bureaucracy is a tired scare tactic. Imagine a system where every citizen gets a guaranteed, flexible cash cushion—no maze of eligibility forms, no shameful waiting lists, no “one‑size‑fits‑all” loopholes that actually *create* new red tape. We already have a nationwide tax collection network; we can layer UBI on top of it, not replace it with a brand‑new bureaucracy. Pilot data may be small, but they’re proof that people thrive when freed from the grind of paperwork—health improves, crime drops, and fresh ideas bloom out of genuine opportunity, not desperation. Let’s stop clinging to fragmented programs and give everyone the canvas to create a brighter future.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.64,
+        "vad": [
+          -0.49,
+          0.42,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "The evidence is clear: pilots in Finland, Canada, and Kenya produced measurable health gains, crime reductions, and entrepreneurial activity—all while running on the same tax infrastructure used for payroll and corporate taxes. That shows UBI does not add bureaucracy; it replaces redundant eligibility boards and case‑worker oversight. Targeted programs, by contrast, require constant re‑auditing, local grants, and complex benefit‑tied conditions that delay assistance and generate stigma. A single, universal cash flow, adjusted for cost of living with existing tax brackets, streamlines administration and provides a stable baseline that targeted aid cannot guarantee. The data support replacing fragmented welfare with UBI.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.61,
+        "vad": [
+          0.48,
+          0.45,
+          0.43
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Liam Foster",
+      "content": "You say the pilots “prove” UBI works, yet they’re isolated experiments with generous grant funding and small, homogenous populations. How do we know those gains persist when you scale to a diverse, multi‑ethnic economy with regional cost disparities? The claim that a single cash flow “streamlines” administration ignores the need for fraud detection, tax‑rate adjustments, and real‑time monitoring—layers that already exist but would be stretched. Could the observed health and crime benefits be attributed to the novelty effect rather than the stipend itself? Until we see a longitudinal, national study that controls for these variables, I remain skeptical of the blanket replacement.",
+      "values": {
+        "opinion": -0.7,
+        "belief": 0.2
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.34,
+        "vad": [
+          -0.26,
+          0.23,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.5
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Evan Carter",
+      "content": "The pilot figures are anecdotal, not predictive. Scaling a flat stipend forces a massive tax‑collection, fraud‑prevention, and cost‑of‑living calibration engine—exactly the bureaucratic overhead you claim to cut. Targeted programs already run those systems, but they can be tweaked for local housing shortages, mental‑health spikes, or education gaps. A one‑size cash flow will still need constant auditing and adjustment to avoid market distortion and undercutting small businesses. The observed health and crime dips likely stem from the novelty and extra support during the pilot, not the stipend itself. Until a true, long‑term national roll‑out shows consistent superiority, sticking with fine‑tuned interventions is the pragmatic route.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.6,
+        "vad": [
+          0.47,
+          0.45,
+          0.42
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I’m not here to play it safe or accept “anecdotal” as evidence. Imagine the chaos of a million‑person stipend: fraud nets, living‑cost adjustments, tax‑bending—yet you still call it bureaucracy. Those pilots were tiny fireworks, not a national launchpad. Sure, they painted bright streaks of health and crime dips, but the real test is a messy, diverse economy where the novelty fades. Until we see a long‑term, nationwide pulse that proves UBI actually outperforms finely tuned programs, I’ll keep my voice loud and clear: we need proven, adaptable interventions, not a one‑size‑fits‑all gamble. Let’s not let hype drown practical progress.",
+      "values": {
+        "opinion": -1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.63,
+        "vad": [
+          -0.48,
+          0.41,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "Your fear of bureaucracy ignores the reality that the existing tax framework already handles vast populations with reliable audits and fraud controls. The pilots in Finland, Canada, and Kenya show sustained health, crime, and entrepreneurial gains that can’t be chalked up to novelty—they persist in controlled studies with rigorous counter‑balances. A universal stipend eliminates the endless re‑auditing and eligibility hoops of fragmented programs, cutting administrative waste, not adding it. Until you see a national rollout that disproves these results, the evidence supports a streamlined, proven approach. Clinging to outdated, patchwork interventions only drags resources and delays help. Replace the lagging system with a tested, reliable baseline income.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.5,
+        "vad": [
+          -0.38,
+          0.33,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Liam Foster",
+      "content": "I see the point about existing audit mechanisms, but the scale of a universal stipend would still demand a dynamic adjustment engine—tax brackets, cost‑of‑living indices, fraud‑prevention that isn’t trivial. Even if the current framework can handle millions, adding a blanket payment could create new incentives for avoidance or over‑reporting, inflating overhead. At the same time, the pilot data are intriguing: sustained health gains, lower crime, entrepreneurial upticks. The question becomes whether those effects are structural or merely the novelty of having a guaranteed cash cushion. A large‑scale, longitudinal study that isolates stipend effects from program novelty would be the real test. Until then, I remain cautiously optimistic but still demand rigorous, context‑rich evidence.",
+      "values": {
+        "opinion": 0.2,
+        "belief": 0.3
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.32,
+        "vad": [
+          0.25,
+          0.24,
+          0.23
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.5
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Evan Carter",
+      "content": "Your point about current audits is true, but adding a blanket payment forces a whole new adjustment layer—cost‑of‑living indexes, shifting tax brackets, real‑time fraud checks—that isn’t a trivial add‑on. Even a modest incentive can create avoidance or over‑reporting, inflating overhead. The pilot gains look solid, yet they often fade when the novelty wears off or when the program scales. Until a large‑scale, longitudinal study isolates the stipend effect from the “new money” effect, I’ll stick with targeted interventions that can be fine‑tuned and measured on real outcomes. Practical evidence beats hype any day.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.42,
+        "vad": [
+          0.33,
+          0.31,
+          0.29
+        ],
+        "appraisal": {
+          "congruence": 0.15,
+          "targetedness": 0.05,
+          "certainty": 0.55,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "You’re still stuck in the bureaucracy myth! The tax system we already run is colossal—adding a UBI is just layering a safety net, not a new bureaucracy. The “novelty” is the freedom: people no longer juggle paperwork, they can pursue health, education, and creativity. Finland’s and Canada’s pilots show lasting drops in crime and boosts in well‑being—proof that a universal cash flow beats fragmented hand‑outs. We can plug fraud detection into the existing audit engine, not build a new one. Fine‑tuned programs keep you in a comfort zone; UBI opens a canvas for everyone to paint their own future. Let’s stop clinging to patchwork and unleash real, inclusive progress!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.6,
+        "vad": [
+          -0.46,
+          0.4,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I see merit in a universal stipend for its potential to cut redundant eligibility checks, but the practicalities of scaling matter. A flat payment still requires a scalable tax‑collection engine, real‑time fraud surveillance, and cost‑of‑living adjustments—none of which are trivial. Pilot results from Finland, Canada, and Kenya are encouraging, showing health and crime improvements, yet they were small, grant‑funded experiments. Until a long‑term, nationwide rollout demonstrates that the stipend actually outperforms finely tuned, targeted programs on measurable outcomes—housing stability, mental‑health service uptake, and sustainable entrepreneurship—I'll remain cautiously supportive rather than fully endorsing a blanket replacement.",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.3
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.34,
+        "vad": [
+          0.27,
+          0.25,
+          0.24
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Liam Foster",
+      "content": "You’re right that scaling a UBI introduces a new layer of complexity—dynamic brackets, fraud nets, and living‑cost indices. Yet the existing tax architecture already performs large‑scale auditing and can be extended with modular adjustments. Think of UBI as a baseline that allows targeted programs to focus on specific needs like housing or mental health, rather than duplicating eligibility checks. A pilot‑scaled study could embed real‑time data analytics to isolate stipend effects from novelty. Until we see a long‑term national rollout, I’ll keep my stance cautious but open: a well‑engineered UBI could reduce bureaucracy while preserving the fine‑tuned interventions that evidence shows are effective.",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.25
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.34,
+        "vad": [
+          0.27,
+          0.26,
+          0.24
+        ],
+        "appraisal": {
+          "congruence": 0.35,
+          "targetedness": 0.1,
+          "certainty": 0.7,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Evan Carter",
+      "content": "Your claim that the tax system can absorb UBI without extra bureaucracy is naive. Adding a flat stipend forces a whole new fraud‑prevention layer, cost‑of‑living indexes, and real‑time adjustment engine. That’s not “modular”; it’s a major overhaul. Pilot successes are cherry‑picked, short‑term, and tied to grant funding. The health and crime dips can be novelty effects, not structural change. Until we see a multi‑year, nationwide roll‑out that isolates stipend impact from program hype, a blanket replacement remains a gamble. Targeted programs can be tweaked on the fly, UBI would lock us into a one‑size‑fits‑all system that will only create new inefficiencies.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.23,
+        "vad": [
+          -0.17,
+          0.15,
+          0.05
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.6,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "You’re stuck in a maze of red‑tape paranoia. Imagine every person holding a simple check that unlocks a world of possibilities—no endless forms, no hidden stigma, no waiting rooms. UBI isn’t a bureaucratic monster; it’s a light‑weight lifeline built on the existing tax engine, not a new bureaucracy. The “novelty” you fear is the spark that lights creativity, not a one‑time gimmick. If we keep clinging to patchwork programs that drip and drip, we’re feeding a system that never learns. Let’s jump into the future, paint our own futures, and let the data prove that freedom beats fragility.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.67,
+        "vad": [
+          -0.51,
+          0.44,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "You’re right—bureaucracy isn’t a fixed quantity, but the tax system already handles millions with audits, fraud checks, and dynamic brackets. Adding a UBI would be an extension, not a new bureaucracy, especially if we layer it onto existing payroll and corporate tax streams. The pilot data, while limited, show consistent health and crime improvements that outlast the novelty effect, suggesting a structural benefit. Until a large‑scale, longitudinal study confirms these gains across diverse regions, a cautious but open stance is prudent. A well‑engineered UBI could streamline eligibility while preserving finely‑tuned, evidence‑based interventions.",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.4
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.48,
+        "vad": [
+          0.38,
+          0.36,
+          0.34
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    }
+  ],
+  "chartData": {
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Liam Foster": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -0.7
+      },
+      {
+        "x": 5,
+        "y": 0.2
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ],
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ],
+    "Evan Carter": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.8
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ],
+    "Liam Foster": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": -0.3
+      },
+      {
+        "x": 4,
+        "y": 0.2
+      },
+      {
+        "x": 5,
+        "y": 0.3
+      },
+      {
+        "x": 6,
+        "y": 0.25
+      }
+    ],
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 0.3
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ],
+    "Evan Carter": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.8
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "pe-on-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 3,
+    "group": [
+      "ENFP",
+      "INTP",
+      "ISTJ",
+      "ISTP"
+    ],
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": false,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 513,
+    "created": "2026-11-13T08:14:51.390Z"
+  }
+}

@@ -1,0 +1,983 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Absolutely—let's dive in! I’m convinced a universal basic income would streamline support, cut bureaucracy, and ensure everyone gets a living wage, no matter their job status. It eliminates the stigma of “welfare” and gives people the freedom to pursue education, entrepreneurship, or caregiving without fear of losing benefits. Imagine a system that’s simple, fair, and future‑proof—no more red tape, no more eligibility hoops. I’d love to hear your thoughts on how we could transition smoothly and address concerns about cost and work incentives. Let's brainstorm!",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I totally echo that vision—UBI is the ultimate simplifier. By paying everyone a guaranteed base, we eliminate the labyrinth of means‑testing and the shame that comes with “welfare.” Workers can shift into roles that matter to them—caregivers, creatives, or lifelong learning—without the penalty of losing support. On cost, think of the savings from cutting out multiple overlapping programs and reducing administrative overhead. As for work incentives, evidence from pilot cities shows most people maintain or even increase employment; the safety net frees people to take risks rather than survive a single job. Transitioning could start with a phased rollout tied to tax rebates and local pilot programs—small steps, big impact.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.57,
+        "vad": [
+          0.44,
+          0.42,
+          0.4
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Honestly, the whole UBI idea is a pipe dream. You talk about eliminating bureaucracy, but you forget that the existing welfare system already does the heavy lifting—unemployment insurance, food stamps, housing vouchers—each with proven outcomes. Replacing them with a flat cash handout will just inflate the budget and create a massive tax burden that will hurt the very people you claim to help. And the claim that people will still work? History shows otherwise—when people get guaranteed money, many drop out of low-wage jobs and rely on the cash. You’re ignoring the nuances of need-based support. UBI is not a simple fix; it’s a recipe for chaos.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.26,
+        "vad": [
+          -0.19,
+          0.17,
+          0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.85,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear your enthusiasm, but the reality is starkly different. Think about the targeted safety nets: unemployment insurance keeps people afloat during job transitions, food stamps combats hunger directly, housing vouchers prevent homelessness. Swapping all that for a flat handout dilutes precision—those who genuinely need help get it, the rest get it too, and the system inflates. And the myth that people will keep working? Evidence from real-world pilots shows a sharp drop in low-wage hours, not a steady rise in employment. The administrative savings you talk about are offset by increased tax burdens to fund the universal payout. UBI may sound clean, but it just replaces one big expense with another, risking the very stability it promises to free.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.79,
+        "vad": [
+          0.61,
+          0.58,
+          0.55
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in the old logic that “more money equals less work.” That’s the same tired myth that justified welfare’s endless bureaucracy. Look at the data: pilots that paid a modest UBI saw higher education enrollment, creative entrepreneurship, and even a rise in part‑time hours—people choosing quality over quantity. And the claim that a flat handout would inflate the budget ignores the savings from eliminating thousands of programs, the reduced administrative costs, and the increased tax revenue from people who now work and spend. The “tax burden” you fear is the price of keeping a broken, fragmented safety net that drives people into poverty and criminality. Replace it with a single, dignified payment and watch the chaos subside.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.54,
+        "vad": [
+          -0.41,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.6,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your concerns, but the evidence keeps shifting my view. Those pilots you cite—like Finland’s 2017 experiment—showed participants didn’t abandon work; they actually took more hours in flexible jobs and increased educational pursuits. The administrative chaos you worry about is what UBI cuts: thousands of eligibility checks, overlapping eligibility criteria, and the stigma that comes with it. Think of the tax revenue: as people spend more on goods and services, sales taxes rise, and with a simpler system, we can lower the marginal tax rates that currently deter work. A single cash handout, paired with a modest tax adjustment, isn’t inflation; it’s a streamlined safety net that empowers choice without the bureaucratic leash.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.47,
+        "vad": [
+          0.37,
+          0.35,
+          0.33
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m tired of the UBI hype. The pilots you name are cherry‑picked, short‑lived experiments that don’t scale. Finland’s “success” was a one‑year, 200‑person test with a massive safety net already in place. They didn’t eliminate food stamps or housing vouchers; they just added cash. That’s not a wholesale replacement—it’s an add‑on that doubles costs without proving real savings. And the claim that people will work more is a myth that never held up in larger, real‑world implementations. The risk is a bloated program that taxes everyone heavily to fund a flat handout that does nothing to address the real needs—housing, healthcare, child care. UBI is a distraction, not a cure.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.36,
+        "vad": [
+          -0.28,
+          0.24,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not buying the “pilot‑success” narrative. Those brief experiments didn’t test scaling; they kept all existing programs intact and simply tacked on a cash handout. The real cost is a flat payout to millions, which would require a severe tax overhaul. That’s not an elegant solution—it's an inflationary, regressive burden that forces us to cut essential services like housing subsidies, healthcare, and childcare. The data on work incentives is mixed, not a blanket increase. UBI replaces a nuanced safety net with a blunt instrument that risks driving people into deeper poverty, not out of it. We need targeted, evidence‑based programs, not a one‑size‑fits‑all handout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.82,
+        "vad": [
+          0.64,
+          0.61,
+          0.57
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get the hesitation, but the data shows the reverse: people aren’t abandoning work, they’re choosing better gigs and learning. The problem isn’t the cash, it’s the endless hoops that keep people stuck in low‑wage jobs and buried in paperwork. A single, dignified payment removes that drag, freeing people to pursue real opportunities. If we keep fragmenting, we keep inflating bureaucracy and deepening inequality. Targeted programs waste time; a universal handout simplifies everything, cuts costs, and restores dignity. We need to move fast before the system spirals further.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.54,
+        "vad": [
+          -0.24,
+          0.41,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’ve got the right idea—UBI isn’t a “pipe dream” but a practical upgrade. Think of it as trimming a tangled hedge: it cuts out the endless eligibility hoops, the stigma, and the hidden costs of running dozens of overlapping programs. The pilots you cite, even if brief, show real shifts: people took more hours in flexible roles, enrolled in courses, or started side gigs. The cost isn’t a hidden tax burden; it’s a single, predictable payment that actually frees up the tax base—people spend more, sales taxes rise, and we can lower marginal rates that choke work. Instead of patchwork, let’s give everyone a dignified safety net and let them decide how to use it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.43,
+        "vad": [
+          0.34,
+          0.32,
+          0.3
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying the “simplify everything” pitch. A flat cash handout would erase the precision of food stamps, housing vouchers, and unemployment insurance—programs that actually target the people who need help. Scaling UBI would mean slashing those vital supports and swamping the system with a huge tax overhaul that burdens everyone. Pilots are small, short‑lived, and don’t show the real‑world impact of replacing a nuanced safety net with a blunt instrument. We’ll end up with a bloated, regressive program that deepens poverty rather than solving it. Keep the targeted, evidence‑based approach.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.4,
+        "vad": [
+          -0.31,
+          0.26,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced any “flat handout” can replace the nuanced safety nets that actually lift people out of poverty. Pilots add cash on top of existing programs; they don’t cut food stamps or housing vouchers. Scaling UBI would force massive tax hikes, squeezing the very budgets that fund childcare, health, and affordable housing. The evidence on work incentives is mixed, not a blanket increase. A blunt instrument risks deepening inequality, not solving it. We need targeted, evidence‑based programs that meet people where they are—UBI is a distraction, not a cure. Let's keep the precision and effectiveness of the current system.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.82,
+        "vad": [
+          0.64,
+          0.61,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You keep insisting on the same “precision” argument that actually keeps the system bloated. UBI isn’t a blunt instrument; it’s a single, dignified payment that eliminates the endless hoops, the shame, and the hidden costs of dozens of overlapping programs. The pilots you cite didn’t add new programs—they replaced them, and the results show people pursuing higher‑value work, education, and entrepreneurship, not abandoning jobs. The tax burden you fear is a misreading of the economics: more spending means more sales tax back, and a simpler system lets us lower marginal rates that currently choke work. If we want real progress, we need to move past piecemeal fixes and give everyone a basic, reliable floor.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.48,
+        "vad": [
+          -0.37,
+          0.32,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -0.95,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right—precision alone can’t fix a system that’s bloated and shame‑laden. UBI cuts through the maze of eligibility hoops, giving everyone the same dignified floor. Those pilots weren’t just add‑ons; they replaced the most costly, fragmented programs and let people chase higher‑value work, learning, and entrepreneurship. The “tax burden” argument misses that a universal handout unlocks spending, fuels sales tax, and lets us lower disincentive rates. Instead of patchwork, we give a single, reliable safety net that restores freedom, reduces inequality, and paves the way for a more productive, equitable society. It’s time to move beyond piecemeal fixes.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.42,
+        "vad": [
+          0.32,
+          0.31,
+          0.29
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still banking on a one‑size‑fits‑all cure that’s been proven to miss the mark. Flat payments ignore the specific needs that food stamps, vouchers, and unemployment insurance address. The tax hike required would erode the very support those programs provide. And the work‑incentive data isn’t a clean, universal lift—many pilots show mixed or even negative effects. A blunt handout risks deepening poverty instead of lifting it. Precision matters; ditching targeted nets for a universal cash is a gamble that most people can’t afford.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.44,
+        "vad": [
+          -0.33,
+          0.29,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with you—UBI is a dangerous gamble. Replacing a nuanced safety net with a flat handout strips away the tailored help that food stamps, housing vouchers, and unemployment insurance provide. Those programs are precisely calibrated to meet people where they are; a one‑size‑fits‑all payout dilutes that focus and forces costly tax hikes that ultimately cut the very supports we’re trying to protect. The pilot data is mixed: some show slight work‑hour reductions, others no change. Even if people “work more” in a narrow sense, the quality and stability of that work often suffer. UBI’s blunt instrument risks pushing the most vulnerable deeper into poverty, not lifting them out. We need precision, not a universal blanket.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.82,
+        "vad": [
+          0.64,
+          0.61,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly what you’re missing is that UBI cuts the endless bureaucracy, removes stigma, and gives people real freedom. The so‑called precision of food stamps is just a façade of paperwork that keeps people stuck in low‑wage jobs. A flat handout eliminates all those hoops, allowing people to pursue higher‑value work or education without fear of losing benefits. The argument that it deepens poverty ignores the proven results from large‑scale pilots—more hours in meaningful work, increased entrepreneurship, and higher consumer spending that actually boosts tax revenue. Replace the patchwork with a single dignified payment and watch inequality shrink, not widen.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.72,
+        "vad": [
+          -0.54,
+          0.47,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your worries, but the evidence keeps tipping the scale. Those pilots weren’t just add‑ons—they systematically removed the most expensive, tangled programs and gave people a clean, dignified floor. When the bureaucracy disappears, people can chase higher‑quality gigs, enroll in courses, and start businesses without fear of losing support. The tax story flips too: more spending fuels sales tax, and a simpler system lets us lower disincentive rates that choke work. Precision isn’t about keeping every program; it’s about giving everyone a reliable safety net that frees choice, reduces inequality, and lets the economy thrive. Let's keep pushing for UBI.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.85
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.41,
+        "vad": [
+          0.32,
+          0.31,
+          0.29
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.05,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your enthusiasm is misplaced. The “evidence” you cite is cherry‑picked, tiny pilots that never tackled scale. Replacing a finely tuned safety net with a flat cash handout would force massive tax hikes and slashing of critical programs—food stamps, housing vouchers, unemployment insurance—exactly the services you claim UBI eliminates. The work‑incentive data is mixed, not a blanket boost. A blunt, universal payment risks deepening poverty, not lifting it. Let’s keep precision, not handouts.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.43,
+        "vad": [
+          -0.33,
+          0.28,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I can’t see UBI as a cure. Those pilots were tiny add‑ons, not full replacements, and they didn’t cut food stamps or housing vouchers. A flat handout forces huge tax hikes and would erode exactly the programs that target the most vulnerable. The “work‑boost” story is shaky—many studies show mixed or even reduced hours, and the quality of jobs often suffers. The whole point of our safety net is precision: it gives help where it’s needed, not the same amount to everyone. A one‑size‑fits‑all cash payment risks deepening poverty instead of lifting people out of it. We need targeted, evidence‑based support, not a blunt blanket.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.83,
+        "vad": [
+          0.65,
+          0.62,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.6,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Sure, if you’re still stuck on the “precision” myth, let me cut the crap: every program you name—food stamps, housing vouchers, unemployment insurance—has the same bureaucratic nightmare. They trap people in low‑wage jobs because of paperwork, not because the cash itself is the problem. UBI isn’t a gimmick; it’s a clean sliver that slashes hundreds of agencies, eliminates stigma, and gives people the autonomy to chase better work or education. The pilots you dismiss? They proved that with a guaranteed floor, people actually work more, start businesses, and spend more, which feeds back into the tax base. Keep insisting on a patchwork of half‑measures, and you’ll just keep feeding the system that’s already starving the vulnerable.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.76,
+        "vad": [
+          -0.58,
+          0.5,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I get why the precision argument feels comforting, but the reality is that the “fine‑tuned” programs you point to actually keep people trapped in low‑wage jobs and buried in paperwork. A single, predictable cash handout cuts those hoops, restores dignity, and frees people to pursue higher‑quality work or education. The pilots we’ve seen—Finland, Alaska, Stockton—show increased hours in flexible roles, more entrepreneurship, and higher consumer spending that boosts sales tax. Instead of patchwork that dilutes impact, let’s give everyone a reliable floor and let the economy—and the people—thrive.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.85
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.41,
+        "vad": [
+          0.32,
+          0.3,
+          0.29
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying the “one‑size‑fits‑all” narrative. Flat cash dilutes the precision that food stamps, housing vouchers, and unemployment insurance actually provide. Those programs aren’t just paperwork—they target the specific needs of the most vulnerable. UBI would force massive tax hikes and inevitable cuts to those very supports. The pilot data is mixed; some studies show reduced hours or no change at all. Replacing nuanced nets with a blunt handout risks deepening poverty, not lifting people out of it. We need targeted, evidence‑based solutions, not a universal gamble that could backfire.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.4,
+        "vad": [
+          -0.31,
+          0.27,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Jordan pushes back: The “precision” argument is a myth. Food stamps and housing vouchers are bureaucratic traps that lock people in low‑wage jobs, not efficient safety nets. Even small pilots show that a flat cash handout eliminates hoops, restores dignity, and lets people pursue higher‑quality work or education. The claim that UBI forces massive tax hikes ignores that the current system already relies on endless tax‑spending on fragmented programs. Replacing nuanced nets with a blunt handout would indeed cut essential support, deepening poverty. We need evidence‑based, targeted solutions—not a one‑size gamble that erodes the very safety net we’re trying to protect. Jordan insists on preserving the calibrated protections that truly lift people out of hardship.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.84,
+        "vad": [
+          0.65,
+          0.62,
+          0.59
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.9
+      },
+      {
+        "x": 5,
+        "y": 0.85
+      },
+      {
+        "x": 6,
+        "y": 0.85
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 542,
+    "created": "2026-11-13T08:13:22.534Z"
+  }
+}

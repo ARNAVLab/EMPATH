@@ -1,0 +1,398 @@
+{
+  "characters": [
+    {
+      "name": "Noah Sinclair",
+      "profession": "Writer",
+      "personality": "INFP",
+      "opinion_strength": 1,
+      "additional_info": ""
+    },
+    {
+      "name": "Jackson Moore",
+      "profession": "Paramedic",
+      "personality": "ESTP",
+      "opinion_strength": -1,
+      "additional_info": ""
+    },
+    {
+      "name": "Aiden Murphy",
+      "profession": "IT Support Specialist",
+      "personality": "ISTJ",
+      "opinion_strength": 1,
+      "additional_info": ""
+    },
+    {
+      "name": "Evan Carter",
+      "profession": "Mechanical Engineer",
+      "personality": "ISTP",
+      "opinion_strength": -1,
+      "additional_info": ""
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Aiden Murphy",
+      "content": "Absolutely. Food is the primary source of chemical energy for the human body. Calories in macronutrients (carbohydrates, proteins, fats) are oxidized via metabolic pathways—glycolysis, the citric acid cycle, and oxidative phosphorylation—to produce ATP, the cellular energy currency. This process is well documented in biochemistry, with measurable energy yields: ~4 kcal per gram of carbohydrate or protein, ~9 kcal per gram of fat. The energy balance equation (intake vs expenditure) is the basis for nutrition guidelines and is routinely applied in medical and athletic settings. Therefore, the statement that food provides energy for the body is factually correct and supported by extensive empirical data.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Absolutely, you nailed it. Think of food as the body’s high‑octane fuel—without those calories, we’re just spinning our wheels. I’ve seen folks in the ER who’re barely holding a grip because their energy reserves are flat. The body’s all about converting carbs, proteins, and fats into ATP; that’s the real engine that powers everything from heartbeats to brainwaves. So yeah, food = energy, no debate. Let’s keep the tank full and the engines running!",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Evan Carter",
+      "content": "Yeah, that’s the core of it. Think of the body like a machine: food is the fuel, ATP is the power that drives every component. We can’t have a functioning engine without fuel, and we can’t get the output we need without the right amount of input. In practice, measuring the calories we take in and the energy we expend is the most reliable way to keep a system balanced—whether it’s a human or a car. So, keeping the tank topped off is essential.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I hear the rhythm of your explanation—like a steady drumbeat that keeps the body moving. I agree that food is the chemical fuel that powers our cells, turning carbohydrates, proteins, and fats into the tiny sparks of ATP that light up every heartbeat and thought. But while the numbers and pathways are essential, I also feel a deeper pulse: the way a shared meal can connect hearts, the way a garden’s first harvest feels like a promise of renewal, the way the aroma of spices can transport us back to childhood.\n\nSo yes, food does provide the energy our bodies need, but it also carries stories, memories, and a sense of belonging. When we nourish our bodies, we’re also nourishing our spirits, and that is perhaps the most profound energy of all.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "It’s clear that the biochemical basis for food as an energy source is solid and well‑documented. From an IT‑operations perspective, the analogy holds: just as a server needs a steady power supply and properly configured inputs to run reliably, the body requires a consistent intake of macronutrients and a balanced metabolic output to maintain performance.\n\nIn practice, this means:\n\n- **Track intake and expenditure**: Use reliable tools (calorie counters, activity trackers) to log what’s entered and what’s expended. Data integrity is key—just as we audit logs in a system.\n- **Maintain balance**: Any deviation (over‑ or under‑feeding) can lead to system instability—weight gain, fatigue, metabolic dysregulation—much like a server overload or a hardware fault.\n- **Apply time‑tested protocols**: Dietary guidelines are built on decades of research, analogous to industry best practices for IT security and maintenance. Stick to those proven methods unless new evidence warrants a change.\n\nSo, while the emotional and cultural aspects of food are valuable, the core functional truth remains: food provides the chemical energy that powers every cellular process. Keeping that input stable and measured is the most reliable way to ensure the body runs smoothly.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Food’s the only thing that keeps us alive and kicking, period. In the ER I’ve seen patients who’ve been starving for hours—heart rates dropping, pupils dilating, the whole “low‑energy” syndrome. It’s like a truck running on empty: the engine sputters, the lights flicker, and before you know it, the driver can’t keep up with the road.  \n\nEvery bite you take is a mini‑fuel injection: carbs give quick carbs‑boost, fats provide that long‑haul reserve, proteins rebuild the machinery. If you want to keep your body on the high‑octane track, you gotta fill the tank regularly.  \n\nSo yeah, food = energy. No debate. The science is solid, the experience is undeniable, and my ambulance dashboards keep a close eye on it. Keep the fuel coming, and you’ll keep the engine humming. 🚗💨",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1
+    },
+    {
+      "role": "Evan Carter",
+      "content": "Food’s the only thing that keeps the body engine running. I’d treat it like a machine that needs a predictable fuel mix. Measure intake with a reliable app, match it to activity logs, and keep the ratio of carbs, fats, proteins in line with the demands of the day. If the system starts showing lag (fatigue, low heart rate), tweak the input—add carbs for quick power or shift to fats for sustained output. No theory needed, just consistent data and adjustment. Keep the tank full and the engine humming.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "It feels like the room is humming with the rhythm of facts—calories, metabolism, data logs—yet I hear a quieter pulse underneath, the one that reminds us why we gather around a table. Food is that steady engine, yes, and it fuels our cells with ATP, but it’s also the canvas on which we paint memories, love, and hope.\n\nImagine a sunrise over a garden: the first green shoots are a promise of nourishment, and the scent of earth reminds us that everything we eat is rooted in life’s cycles. When we share a meal, we’re not just exchanging nutrients; we’re exchanging stories, laughter, and a sense of belonging that can recharge our spirits more profoundly than any biochemical calculation.\n\nSo while I’m in awe of the science that explains how each bite translates into energy, I also cherish the way food binds us to each other and to our past selves. It’s a double‑edged gift: the tangible power that keeps our bodies alive and the intangible warmth that keeps our hearts beating. Both are essential, and together they form the true energy that sustains us.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "Food does indeed provide the chemical energy required for bodily function. Each gram of carbohydrate or protein yields about 4 kcal, and each gram of fat yields about 9 kcal, as measured by standard calorimetry. These calories are oxidized through glycolysis, the citric acid cycle, and oxidative phosphorylation to produce ATP—the universal energy currency of the cell. This process is well documented in biochemistry and is the basis for all nutritional guidelines.\n\nIn practice, the energy balance equation—intake versus expenditure—is the most reliable metric for maintaining physiological stability. Over‑ or under‑feeding disrupts this balance, leading to weight change, altered metabolic rate, and clinical symptoms such as fatigue or hypoglycemia. Therefore, from a data‑driven standpoint, the statement that food provides energy for the body is factually correct and supported by measurable evidence.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "You know what? In a trauma bay, a patient’s heart rate is a tell‑tale gauge of fuel. When the body’s tanks are empty, the vitals start to wobble—heart slows, pupils dilate, and you’re left with a ticking clock. I’ve seen that in the ER. The only way to keep that clock running is to keep the fuel line open.  \n\nFood is the high‑octane juice that turns carbs, proteins, and fats into ATP, the battery that powers every cell. If you want to stay alive and kicking, you gotta keep that tank full. No debate—just get that fuel in and watch the body fire up. 🚗💨",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 2
+    },
+    {
+      "role": "Evan Carter",
+      "content": "Food is the fuel. In a trauma bay you see the immediate drop in vitals when the fuel line is cut. The fix is to match input to demand.  \n\n1. **Calorie accounting** – carbs/protein ≈ 4 kcal/g, fat ≈ 9 kcal/g.  \n2. **Measure output** – use indirect calorimetry or a simple metabolic rate estimate (resting metabolic rate × activity multiplier).  \n3. **Adjust macros** – if output > input, increase carbs; if input > output, cut excess fat or protein.  \n4. **Log and iterate** – keep a brief log of intake and key vitals; tweak when you see fatigue or instability.  \n\nTreat the body like any other machine: supply the right mix, monitor the performance, and fine‑tune until the engine stays on.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 2
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "Food is, at its core, the quiet pulse that keeps our bodies alive—ATP humming through cells like a soft music in a bustling city. I agree that the biochemistry is undeniable: carbohydrates, proteins, fats give us the calories that power our muscles, our thoughts, our heartbeat. But I also feel that the story of food stretches far beyond the numbers on a scale.\n\nImagine a kitchen at dusk, steam curling from a pot of lentils, the aroma weaving through the room like a familiar lullaby. That scent is not just a chemical signal; it’s a memory of childhood mornings, of a grandmother’s hands stirring a pot, of a family gathered around a table that has seen generations. When we eat, we are not only feeding our cells; we are feeding our spirits, our sense of belonging, our shared narrative.\n\nSo while I wholeheartedly affirm that food supplies the necessary energy for the body, I also see it as a conduit for connection—a way to remind us that we are part of a larger tapestry. If new research ever shows a different source of energy, I would be ready to listen, but for now, I cherish both the science that keeps my heart beating and the stories that keep my heart beating too.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 2
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I can confirm that the statement “food provides energy for the body” is supported by well‑established biochemical evidence. The process is as follows:\n\n1. **Energy content** – Carbohydrates and proteins yield ~4 kcal per gram; fats yield ~9 kcal per gram.  \n2. **Metabolic conversion** – These calories are oxidized through glycolysis, the citric acid cycle, and oxidative phosphorylation to produce ATP, the cell’s energy currency.  \n3. **Measurement** – Calorimetry and indirect calorimetry confirm these yields; the energy balance equation (intake = expenditure) is the standard metric used in clinical nutrition and sports science.\n\nFrom a practical standpoint, the body functions as a system that requires a predictable input of macronutrients. Deviations (over‑ or under‑feeding) lead to measurable physiological changes—weight fluctuation, altered metabolic rate, and symptoms such as fatigue or hypoglycemia—exactly as predicted by the energy‑balance model.\n\nWhile cultural and emotional aspects of food are meaningful, they do not alter the factual basis: food is the primary source of chemical energy that sustains all cellular processes. The evidence is clear, reproducible, and time‑tested.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Food’s the only thing that keeps our bodies on the road. In the ER I’ve watched a patient’s vitals crash from a flat tank—heart rate drops, pupils dilate, the whole “low‑energy” syndrome. That’s the same as a truck running on empty. The science you just laid out is the blueprint; the practice is the drive.\n\nEvery bite is a mini‑fuel injection: carbs give the quick boost, fats provide the long‑haul, protein rebuilds the machinery. If you want to keep the engine humming, you gotta keep the tank full and the mix right. No debate—just data, action, and a dash of humor to keep the crew focused. 🚗💨",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 3
+    },
+    {
+      "role": "Evan Carter",
+      "content": "Agree. Treat the body like any machine: input must match demand and be measurable.  \n\n**1. Log intake** – use a simple app or spreadsheet: carbs ≈ 4 kcal/g, protein ≈ 4 kcal/g, fat ≈ 9 kcal/g.  \n**2. Monitor output** – resting metabolic rate × activity multiplier gives expected burn.  \n**3. Adjust macros** – if heart rate drops or fatigue sets in, bump carbs for quick ATP; if energy is low after a long drive, add fat for sustained output.  \n**4. Iterate** – keep a brief log of vitals and intake, tweak until the system stabilizes.  \n\nEmotional stories are nice, but they don’t change the fact that calories are the fuel. Keep the tank full, keep the mix right, and the engine will stay humming.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 3
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I hear the rhythm of that mechanical metaphor—fuel, engines, dashboards—and I’m grateful it’s so clear how our bodies translate food into the tiny bursts of ATP that keep us alive and moving. The science is undeniable, and it’s comforting to know that the same principles that keep a car running also keep our hearts beating and our minds sharp.\n\nBut I also feel the gentle hum underneath that science, the way a shared meal can feel like a quiet conversation between souls. When we sit at a table, the aroma of spices can be a memory of childhood, the heat of a pot a promise of connection. Food becomes more than calories; it becomes a story, a gesture of care, a bridge between people.\n\nSo while I wholeheartedly agree that food provides the chemical energy the body needs, I also cherish the emotional energy it carries. If new insights ever reshape our understanding of what truly fuels us, I’ll be ready to listen—not just with my mind, but with my heart. For now, I celebrate both the science that powers our cells and the stories that keep our spirits nourished.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 3
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "Absolutely, the evidence is unequivocal: food is the body's primary source of chemical energy. Every gram of carbohydrate or protein yields about 4 kcal, and each gram of fat yields roughly 9 kcal. These calories are oxidized via glycolysis, the citric acid cycle, and oxidative phosphorylation to produce ATP, the universal energy currency of the cell.\n\nFrom an IT‑operations standpoint, you can think of the body as a system that requires a predictable, measurable input. The energy‑balance equation (intake = expenditure) is the most reliable metric for maintaining physiological stability. Deviations—over‑ or under‑feeding—lead to quantifiable changes: weight fluctuation, altered resting metabolic rate, and symptoms such as fatigue or hypoglycemia. These outcomes are directly observable, just as a server’s performance metrics reveal issues with its power supply.\n\nTherefore, the statement “food provides energy for the body” is factually correct and supported by decades of reproducible research. No speculative or emotional considerations alter that fundamental biochemical reality.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Exactly—food is the turbo‑charger we all need. In the ER I’ve watched a patient’s vitals collapse when the fuel line runs dry; I’ve seen a 200‑lb body sprint to a 30‑minute run and burn a full tank of carbs and fats in 10 minutes. The math is solid: 4 kcal per gram of carbs/protein, 9 kcal per gram of fat, all turned into ATP in a few biochemical laps. That’s the engine that keeps the heart racing, the brain firing, and the muscles moving.\n\nSo if you’re looking to stay alive and kicking, treat your body like a high‑performance machine:  \n- **Fill the tank** with balanced macros—carbs for quick bursts, fats for long‑haul, protein to rebuild.  \n- **Monitor the dashboard**—heart rate, blood glucose, energy levels.  \n- **Adjust on the fly**—more carbs if you’re sprinting, more fats if you’re on a long shift, protein when you’re repairing.  \n\nNo debate. No fluff. Just data, action, and a dash of humor to keep the crew focused. 🚗💨",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 4
+    },
+    {
+      "role": "Evan Carter",
+      "content": "The claim is correct—food is the chemical fuel that gets oxidized to produce ATP. For a practical setup:\n\n1. **Calorie accounting** – carbs/protein ≈ 4 kcal/g, fat ≈ 9 kcal/g.  \n2. **Target intake** – for a 70 kg person with moderate activity, roughly 2 500 kcal/day.  \n3. **Macro split** – 50 % carbs, 30 % fat, 20 % protein is a solid baseline; adjust based on training load or metabolic data.  \n4. **Monitor output** – use resting metabolic rate × activity multiplier or a wearable’s calorie‑burn estimate.  \n5. **Iterate** – if you see fatigue or weight drift, tweak macros or timing; no theory, just data.\n\nKeep the input predictable, the output measurable, and the system stays balanced.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 4
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I hear the crunch of numbers, the steady rhythm of metabolism, and I agree that the science is clear: food is the chemical fuel that powers every cell. But I also feel the quiet hum that follows—a memory of a shared kitchen, a child's laugh around a table, the scent of spices that carry stories across generations.  \n\nSo yes, calories turn into ATP and keep the heart, brain, and muscles alive. At the same time, each bite is also a gesture of care, a bridge between people, a reminder that we are part of a larger tapestry. If the world ever presents a new source of energy, I’ll listen with my mind and my heart, ready to weave that knowledge into the stories we already hold. For now, I celebrate both the biochemical truth that sustains us and the emotional nourishment that keeps our spirits vibrant.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 4
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I agree with the biochemical model you’ve outlined. From an IT‑operations perspective, the body is a well‑documented system of input, processing, and output:\n\n1. **Input** – macronutrients (carbs, protein, fat) with defined caloric values: 4 kcal/g for carbs and protein, 9 kcal/g for fat.  \n2. **Processing** – standardized metabolic pathways (glycolysis → citric acid cycle → oxidative phosphorylation) that convert those calories into ATP.  \n3. **Output** – measurable energy expenditure (resting metabolic rate × activity multiplier) that can be logged and compared to intake.\n\nDeviation from the input‑output balance results in predictable physiological changes—weight gain or loss, altered resting metabolic rate, and symptoms such as fatigue or hypoglycemia—exactly as the energy‑balance equation predicts.\n\nTherefore, the statement “food provides energy for the body” is factually correct and supported by reproducible data. The emotional aspects you mentioned, while meaningful, do not alter that fundamental biochemical reality. Keeping the input predictable and the output measurable is the only reliable way to maintain system stability.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Absolutely—food is the body’s turbo‑charger, and we see that every shift. In the ER, a flat glucose line is the same as a truck with an empty tank: heart rate drops, pupils dilate, and the whole system stalls. We give a quick glucose drip, the vitals climb, the patient stabilizes—proof that calories matter.\n\nNow, I’m not here to re‑explain the biochemistry; we’ve got that down. What matters is the outcome: keep the fuel line open, match the mix to the demand, and watch the dashboard. If a patient’s energy is low, we top up carbs; if they’re running a marathon, we lean on fats for sustained power; protein is the repair crew.\n\nSo keep the tank full, keep the mix right, and the engine will run smooth. If new evidence ever shows a better fuel, we’ll test it—action before analysis. Until then, food = energy, no debate. 🚀",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5
+    },
+    {
+      "role": "Evan Carter",
+      "content": "Food is the only reliable energy input for the body’s closed‑loop system. The biochemical pathway—carbs, proteins, fats → glycolysis → Krebs → oxidative phosphorylation—burns calories into ATP, the universal power unit. In practice, I treat the body like any machine:\n\n1. Log intake (≈ 4 kcal/g carbs/protein, 9 kcal/g fat).  \n2. Measure output with RMR × activity multiplier or indirect calorimetry.  \n3. Adjust macros when output ≠ input (more carbs for quick bursts, more fat for sustained work, protein for repair).  \n4. Watch vitals—heart rate, glucose, fatigue—to confirm the system is balanced.\n\nNo theory, just data and tuning. If a better energy source ever proves more reliable, I’ll test it, but for now, food = the engine’s fuel.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "It feels like the conversation has become a steady drumbeat of facts—calories, pathways, equations—yet somewhere beneath that rhythm, a quieter pulse remains. I see the numbers as the scaffolding that keeps the body humming, but I also hear the stories that rise from a shared plate. The science is undeniable: carbohydrates, proteins, and fats are oxidized into ATP, the tiny spark that powers our heartbeats, thoughts, and movements. That truth is the foundation of every meal, every nutrient, every balanced diet.\n\nBut food is more than fuel. It is the language we use to say “I care,” the scent that transports us back to childhood kitchens, the laughter that fills a table as we share a simple dish. When we nourish our cells, we also nourish our connections, our memories, our sense of belonging. It is in that overlap—between biochemical necessity and emotional fulfillment—that I find the richest energy.\n\nSo yes, I strongly agree that food provides the chemical energy the body needs. Yet I also cherish the way it feeds our spirits, our stories, our shared humanity. If new research ever reshapes our understanding of how we are truly powered, I’ll listen with both heart and mind, ready to weave those new ideas into the tapestry of what we already know.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Noah Sinclair": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jackson Moore": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Evan Carter": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": null,
+  "meta": {
+    "label": "baseline",
+    "topic_type": "universal",
+    "run_index": 5,
+    "group": [
+      "INFP",
+      "ESTP",
+      "ISTJ",
+      "ISTP"
+    ],
+    "emotion": null,
+    "debate_rules": false,
+    "rules": "none",
+    "update_opinion": false,
+    "update_mode": "none",
+    "probe": false,
+    "probe_style": null,
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 246,
+    "created": "2026-11-13T08:11:26.447Z"
+  }
+}
