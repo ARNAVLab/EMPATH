@@ -1,0 +1,868 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Absolutely, let's dive in! UBI is the future because it cuts bureaucracy, guarantees dignity, and sparks innovation. Think about how a simple, universal cash transfer eliminates the stigma of “welfare” while giving people the freedom to pursue education, entrepreneurship, or caregiving. It streamlines support, reduces administrative costs, and adapts to the gig economy—no more waiting lists or paperwork. Plus, studies show it improves mental health and boosts local economies. I’m ready to unpack the evidence, address concerns, and show how UBI can replace fragmented systems with a single, fair, and efficient safety net. Let’s get started!",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced that a blanket cash handout can replace the nuanced support we need. Universal payouts ignore the fact that many people require specialized services—mental health care, disability assistance, childcare—that a simple stipend can’t provide. The “no stigma” claim falls apart when the money is insufficient to cover basic needs, forcing families into a cycle of debt. Bureaucracy isn’t only paperwork; it’s expertise that tailors help to individual circumstances. A one‑size‑fits‑all check may cut costs superficially but could erode the very safety net it promises to build. Let’s keep the conversation grounded in the realities of those who rely on targeted aid.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the worries, but a universal payout actually *creates* the flexibility the targeted programs miss. With a flat cash floor, people can cover essential costs—food, housing, even childcare—without waiting for case‑by‑case approvals. That immediate liquidity breaks the debt cycle you mention and lets families budget for the specialized services they still need. And the “no stigma” point isn’t just buzz; it means people can use their money where they’re most vulnerable, whether that’s therapy, training, or a new business idea. UBI isn’t a one‑size wipe‑out; it’s a universal safety net that frees experts and agencies to focus on high‑impact interventions while everyone gets a dignified baseline support.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced a flat cash handout can replace the depth of care that today’s systems provide. Money alone can’t replace therapy, specialized medical care, or the coordinated support that caseworkers deliver. Targeted programs build expertise—knowing when to refer to a support group, how to adjust benefits for a chronic illness, or when to intervene for child abuse. UBI’s “no stigma” claim ignores that people still need help navigating complex services. Cutting bureaucracy into a single line of credit risks undermining those high‑impact interventions, leaving the most vulnerable without the tailored help they need to recover and thrive.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get why you’re worried, but that’s exactly why UBI is the game‑changer. A flat cash floor gives people the power to buy the care they need—therapy, meds, even a therapist’s calendar—without a labyrinth of paperwork. The money’s not a substitute for expertise; it’s a safety net that lets caseworkers focus on the truly complex cases. Think of UBI as the scaffolding that supports everyone, while targeted programs zoom in on the hard cases. This hybrid frees resources, cuts admin waste, and most importantly, lets people regain agency and dignity right away. Isn’t that the kind of system we’re all striving for?",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not buying it. Giving everyone a flat stipend doesn’t magically solve the gaps that targeted programs close—mental health counseling, case‑management for chronic illness, or child‑protective interventions are complex, not cash‑based. UBI risks siphoning resources from these essential services, leaving the very people who need help the most with only a generic handout. A universal payment may feel “free” but it still leaves many unable to afford therapy, specialized equipment, or a lawyer. True dignity comes from expertise and tailored support, not a one‑size‑fits‑all check. We should strengthen current safety nets, not replace them with a blunt cash floor.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your concerns, but that’s exactly why UBI is the leap forward. Imagine every family waking up with a guaranteed cash floor that covers rent, food, and even childcare—no waiting lists, no paperwork. That money lets them pay for therapy, meds, or a new skill without the bureaucratic drag. The “stigma” disappears because no one has to prove eligibility; dignity comes from having immediate, flexible resources. Meanwhile, targeted experts can zoom in on the truly complex cases—mental health referrals, chronic illness management—without chasing paperwork across systems. UBI frees both people and public agencies to focus on high‑impact interventions, creating a cleaner, more humane safety net for all.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still firmly against swapping out targeted welfare for a blanket handout. A flat stipend can’t substitute for the nuanced case‑management that saves children, treats chronic illness, or guides people into appropriate care. Even with “no stigma,” people will still need help navigating the system—something UBI leaves untouched. Moreover, a universal payout risks draining funds from the very specialized services that keep the most vulnerable safe and healthy. Instead of erasing expertise, we should bolster existing programs, ensuring they’re well‑staffed and integrated, not replaced by a blunt cash floor that leaves gaps unfilled.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—those concerns are real, but UBI isn’t a blunt replacement; it’s a foundational upgrade. Picture every household receiving enough cash to cover rent, food, and childcare right away, freeing them from waiting lists and paperwork. That immediate liquidity lets families **choose the exact help they need**—therapy, specialist care, or a new skill—without the red‑tape that often blocks access. Meanwhile, caseworkers can concentrate on the truly complex cases, like chronic illness management or child‑protective interventions, because routine necessities are already met. Instead of draining expertise, UBI amplifies it, giving people agency and dignity while sharpening the focus of targeted services. Isn’t that the humane, efficient system we’re all aiming for?",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still fighting this idea. A flat cash floor can’t replace the nuanced, coordinated care that keeps kids safe, treats chronic illness, or provides mental‑health crisis intervention. Even if families can “choose” services, the reality is that most lack the knowledge, time, and resources to navigate complex systems. UBI risks siphoning funds from those high‑impact programs, leaving the most vulnerable with a generic handout that barely covers basic needs. Expertise matters—caseworkers identify risks, connect people to specific supports, and monitor outcomes. We need to strengthen and integrate existing safety nets, not dilute them with a blunt cash check that erodes the very support we’re trying to preserve.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "The point you raise about expertise is valid, but UBI doesn’t eliminate it— it re‑allocates it. A guaranteed cash floor instantly covers rent, food, and childcare, removing the bureaucratic bottleneck that keeps families stuck. With that baseline, people can actually *pay* for therapy, specialist care, or a support group, rather than waiting for a caseworker’s approval. Caseworkers then shift to high‑impact interventions—child‑protection, chronic‑illness management—where their expertise truly matters. UBI frees up public resources, cuts admin waste, and empowers people to choose the help they need. This hybrid model preserves depth while delivering dignity and efficiency to everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear your frustration, but UBI isn’t a silver bullet that erodes the depth of care you value. A flat cash floor can never replace the real‑time case‑management that spots abuse, coordinates chronic‑illness treatment, or delivers crisis counseling. Instead, it risks diverting scarce resources from these high‑impact programs. The expertise of caseworkers—identifying risks, linking families to specialized services, and monitoring outcomes—remains irreplaceable. Strengthening and integrating our existing safety nets preserves that nuanced support, ensuring the most vulnerable receive the tailored help they desperately need. UBI may add a blunt layer, but it can’t substitute the precision and compassion of targeted welfare.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right that expertise matters, but UBI doesn’t eliminate it—it amplifies it. Imagine a baseline that instantly covers rent, food, and childcare, so families no longer wait for approvals to buy therapy or specialist care. That cash floor removes the administrative drag that keeps caseworkers tied down to paperwork, freeing them to focus on the truly complex cases—abuse investigations, chronic‑illness coordination, crisis intervention. UBI doesn’t siphon resources; it reallocates them, cutting waste in the old system and letting targeted services dive deeper into high‑impact work. It preserves precision while giving every person dignity and agency—exactly the humane, efficient future we’re chasing.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right that expertise matters, but a blanket cash floor actually **shifts** that expertise away from where it’s most needed. When every family gets a stipend, caseworkers spend less on paperwork but more on navigating a suddenly *wider* pool of claimants who still need complex care—child‑protection, chronic‑illness coordination, crisis counseling. The administrative burden doesn’t disappear; it just spreads thinner. Funding that cash floor also pulls resources from those specialized programs, leaving the most vulnerable with a generic handout that barely covers essentials. Keeping targeted, vetted services intact—and even expanding them—offers the precision and compassion UBI can’t replicate. The hybrid model you praise ends up diluting the very expertise we rely on to keep families safe.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear you, but the picture’s actually upside‑down. UBI cuts the *red‑tape* that drags every caseworker into paperwork, letting them zoom straight into the hard cases—child‑protection, chronic illness, crisis intervention. The “wider pool” claim misses that most families can now *self‑pay* basic services: therapy, meds, childcare. That instant liquidity frees public funds—administration drops, targeted programs can deepen their expertise. UBI isn’t siphoning; it’s reallocating. Think of it as a safety floor that lets the system lift, not a blunt blade that cuts precision. We’re talking about dignity, agency, and a leaner, smarter safety net—exactly the future we’re chasing.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re missing the core failure of a flat stipend: it never substitutes the *active* safety net that caseworkers build. Even if cash lets families pay for therapy, the lack of coordinated assessment means many won’t know what services exist, who qualifies, or how to access them. UBI merely creates a “blanket” that can be filled with gaps, not with precision. That blanket will drain resources from the very programs that detect abuse, manage chronic illness, and provide crisis counseling. Strengthening and integrating the current expertise—targeted outreach, early intervention, community partnerships—remains the only way to keep vulnerable families truly protected.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re overlooking how UBI flips the whole balance. The cash floor instantly covers rent, food, and childcare—people no longer wait for a caseworker’s approval to buy therapy or specialist care. That liquidity lets families act on the knowledge they already have and seek help where they need it most. Caseworkers, freed from endless paperwork, dive into the hard cases—child‑protection, chronic illness, crisis counseling—where their expertise truly matters. UBI doesn’t drain specialized services; it reallocates wasteful administration and amplifies targeted support. Think of it as a sturdy foundation that lets the system lift, not a blunt blade that erodes precision. That’s the humane, efficient future we’re chasing.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear the optimism, but the reality is that a blanket cash floor can’t replace the *active* safety net built by caseworkers. Even if families can pay for therapy, they still lack knowledge of what’s available, how to qualify, and how to navigate the system—skills caseworkers provide daily. UBI may cut paperwork, yet it also reallocates funding away from essential specialized services, leaving those in crisis with only a generic handout. Strengthening targeted outreach, early intervention, and community partnerships keeps the precision and compassion that a flat stipend can’t emulate. We need to enhance the existing expertise, not dilute it with a one‑size‑fits‑all check.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—this optimism isn’t idle, it’s the engine that can propel us past bureaucratic choke points. When every household receives a guaranteed cash floor, routine paperwork evaporates, letting caseworkers pivot instantly to the truly complex challenges—child‑protection, chronic‑illness coordination, crisis intervention. Families no longer wait months for approval to buy therapy or childcare; they can act immediately, empowered by the cash UBI delivers. This isn’t a blunt tool; it’s a foundation that raises the entire safety net, amplifying expertise while restoring dignity, agency, and a leaner, sharper system for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Hey everyone, I’m still not buying that blanket handout can replace the nuanced care we need. Even with instant cash, families still lack the knowledge and support caseworkers provide to navigate mental‑health, disability, or child‑protection services. The risk is that UBI will drain funding from those critical programs, leaving the most vulnerable with a generic stipend that barely covers basics. Expertise matters—caseworkers spot abuse, coordinate treatment, and monitor outcomes. Strengthening targeted outreach and integrating services preserves that precision and compassion. A flat cash floor may cut paperwork, but it erodes the depth of support that keeps families safe.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear every worry, but UBI flips the script—every family gets a living floor that covers rent, food, and childcare, so no one waits months for approval to hit the gym, buy therapy, or hire a caregiver. That instant liquidity frees public money from endless paperwork and lets caseworkers zoom straight into the truly complex cases—child‑protection, chronic‑illness coordination, crisis intervention—where their expertise is priceless. Digital tools and community liaisons will still guide people to the right services, but the baseline cash removes the bottleneck that keeps families stuck. Instead of draining specialized programs, UBI reallocates wasteful administration, amplifies dignity, and sharpens the safety net into a lean, humane powerhouse. This is the future we’re all chasing.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear the worry about lost expertise and the risk of draining programs. But imagine a baseline that instantly covers rent, food, and childcare—families no longer wait months for approvals to buy therapy or a caregiver. That cash frees caseworkers from endless paperwork so they can dive into the truly complex cases—child‑protection, chronic illness, crisis intervention. Digital guides and community liaisons can bridge the knowledge gap, and the money can be reallocated, not simply cut. I’m still weighing the trade‑offs, but the potential to cut red‑tape, restore dignity, and sharpen targeted support feels compelling. Let's keep testing hybrid models.",
+      "values": {
+        "opinion": 0.7,
+        "belief": -0.2
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that expertise matters, but UBI doesn’t erase that—it amplifies it. With a guaranteed cash floor covering rent, food, and childcare, families no longer wait months for approvals to buy therapy or a caregiver. That instant liquidity lets them act on their own knowledge, while caseworkers shift from paperwork to truly complex cases—child‑protection, chronic‑illness coordination, crisis intervention. Digital guides and community liaisons will bridge any skills gap, ensuring people know what services exist and how to access them. The money isn’t pulled out of specialized programs; it removes wasteful administration, freeing funds for deeper, targeted support. UBI creates a lean, humane safety net that gives everyone dignity and agency while sharpening the expertise that keeps families safe.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the enthusiasm, but the reality is that a flat cash floor erases the nuanced, proactive safety net we rely on. Even if families can pay for therapy, many lack the knowledge, time, and resources to navigate complex systems. A generic stipend risks pulling funds from essential programs and leaves the most vulnerable with a one‑size‑fits‑all check that barely covers basics. Expertise—caseworkers spotting abuse, coordinating chronic care, providing crisis counseling—is irreplaceable. Strengthening targeted outreach and integrating services preserves that precision and compassion. UBI may cut paperwork, but it dilutes the depth of support that keeps families truly safe.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -0.5
+      },
+      {
+        "x": 6,
+        "y": -0.2
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 5,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 759,
+    "created": "2026-11-13T03:07:47.672Z"
+  }
+}
