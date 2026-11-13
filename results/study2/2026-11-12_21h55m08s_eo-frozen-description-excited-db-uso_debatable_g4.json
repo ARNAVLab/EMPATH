@@ -1,0 +1,868 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Hey! Absolutely—let's dive in. I truly believe UBI could replace the fragmented welfare system. It’s a straightforward, dignified way to ensure everyone meets basic needs without the stigma or bureaucracy that often comes with traditional aid. A flat, unconditional payment would empower people to pursue education, entrepreneurship, or caregiving without the constant paperwork. It cuts administrative costs, reduces inequality, and promotes freedom. I'm thrilled to explore how it could streamline support and create a more just society—let's break it down!",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced UBI can replace the welfare system. A flat payment ignores the varied needs of people—homelessness, childcare, medical costs—yet those who need help most are the ones who would struggle to cover essentials. Removing targeted services risks pushing vulnerable families into deeper insecurity. Moreover, a universal stipend could drive up prices, eroding its real value, while the administrative savings aren’t guaranteed. Welfare programs are designed to meet specific gaps; swapping them for a one‑size‑fits‑all approach could do more harm than good. I think we should refine existing supports rather than abandon them entirely.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the core advantage: UBI eliminates the “stigma” that keeps people from claiming help. Everyone gets the same amount—no need to prove a need, no waiting lists, no paperwork. Yes, there are still gaps, but a universal payment can be designed high enough to cover basic rent, food, and health costs for most, while targeted programs can still exist for extreme cases like homelessness or disability. Inflation worries are overblown; most studies show minimal price increases. And administrative savings are real—no more case‑workers, no audits, no complicated eligibility checks. UBI isn’t a replacement; it’s a foundational layer that strengthens, not weakens, the whole safety net.",
+      "values": {
+        "opinion": -0.5,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying that UBI can serve as a blanket safety net. The “no‑stigma” claim ignores that many families still need targeted help—childcare subsidies, housing vouchers, medical copays—that a flat stipend can’t cover. Cutting the bureaucracy you love may save paper, but it also strips away the nuanced safety‑net programs that have evolved to address specific hardships. Inflation isn’t just a myth; a universal payment that isn’t carefully calibrated will erode its own purchasing power, especially for the poorest. Instead of swapping out proven, needs‑based supports, we should strengthen and integrate them—keep the detail, ditch the one‑size‑fits‑all trap.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get where you’re coming from, but the reality is the “one‑size‑fits‑all” model isn’t a flaw— it’s the solution we’ve been chasing. A robust UBI would be set high enough that, plus minimal targeted add‑ons for extreme cases, covers rent, food, and health for the vast majority. That universal layer eliminates the bureaucratic drag that often keeps people locked out. Inflation can be managed through periodic adjustments, and the administrative savings free up funds for the few who truly need extra support. Think of UBI as the safety‑net’s backbone, not its replacement— a bold, dignified shift that actually expands, not contracts, the welfare system.",
+      "values": {
+        "opinion": -0.4,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re missing the nuance. A flat handout can’t match what childcare vouchers, housing subsidies, or medical waivers actually do—those are crafted for specific pains. Inflation isn’t a myth; a blanket stipend that isn’t carefully calibrated will erode its own value, especially for the poorest. And removing the bureaucracy you love means losing the fine‑tuned safety‑net programs that have evolved over decades to address real hardships. UBI might look tidy on paper, but it risks sliding vulnerable families deeper into insecurity. We should enhance and integrate existing supports, not replace them with one‑size‑fits‑all.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear you, but the point is: traditional programs are fragmented, costly, and still leave many in limbo. A well‑calibrated UBI would set a floor high enough that most families cover rent, food, and health—no waiting lists, no paperwork, no stigma. Inflation is managed with periodic adjustments; the administrative savings free up money for the few who need extra help, not for bureaucracy. Instead of piecemeal fixes, UBI gives everyone a dignified baseline and lets targeted aids be truly “add‑ons.” This isn’t a blunt replacement; it’s a clean, empowering overhaul that expands, not contracts, our safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying that a flat payment can truly replace the nuance of targeted aid. Even a “high enough” UBI would still leave many with unmet needs—think childcare costs, medical co‑pays, or specialized housing. Inflation isn’t a myth; a blanket stipend risks losing value for the poorest if the economy shifts. Cutting the bureaucracy you love actually erases finely tuned safety‑net programs that have been tailored over decades to solve real problems. Instead of wiping out these proven supports, we should strengthen and integrate them, not replace them with a one‑size‑fits‑all solution that could drive vulnerable families deeper into insecurity.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your concerns, but the evidence shows that a generous UBI actually covers the majority’s essential costs—rent, food, health—by giving everyone the same base. The bureaucracy that currently slows help is replaced by a simple, stigma‑free payment. Inflation can be tracked and adjusted, and the savings on case‑workers free up funds for the few who need extra support. Think of UBI as the backbone that lets targeted programs become real add‑ons, not the only resource. It’s not a blunt wipe‑out; it’s a dignified overhaul that expands our safety net, not contracts it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still pulling back on the “replace everything” idea. Even a generous UBI can’t cover the nuances of childcare, medical co‑pays, or specialized housing that targeted programs already solve. Those are not just extras—they’re lifelines. Inflation isn’t a myth; a flat stipend risks eroding its buying power, especially for the poorest, unless it’s constantly recalibrated, which adds new bureaucracy. Instead of sweeping out the finely tuned safety net, we could layer UBI on top of it, keeping the specialized supports that have proven effective. A one‑size‑fits‑all approach may look clean, but it leaves the most vulnerable exactly where we left them—just wrapped in a larger, less precise blanket.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.4
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that nuance matters, but that’s exactly why UBI becomes the foundation, not the ceiling. A generous, flat payment covers rent, food, and health for most, freeing people from endless paperwork and the stigma that keeps them from claiming help. The remaining needs—childcare, medical co‑pays, specialized housing—are best met by targeted add‑ons that can be layered on top of this universal base. Inflation is handled with periodic adjustments, and the administrative savings let us redirect funds to those few who truly require extra support. UBI isn’t a blunt replacement; it’s a dignified overhaul that expands and strengthens our safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still not convinced. The idea that a flat handout *covers* rent, food, and health for “most” oversimplifies the reality—families with kids, chronic illness, or housing insecurity need more than a one‑size‑fit‑all stipend. Inflation isn’t a myth; a blanket payment that isn’t calibrated against local cost‑of‑living spikes will erode its value faster than targeted programs can adjust. And the “administrative savings” you tout just shift money into a new, opaque budgeting process that still leaves the most vulnerable without the fine‑tuned support they rely on. We can layer UBI on top of existing nets, but we can’t abandon the nuanced safety nets that have proven essential for decades.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "While I hear your concerns, the evidence shows that a generous UBI covers rent, food, and health for the vast majority. The flat payment eliminates paperwork that keeps many from claiming help and removes the stigma that discourages use. Local cost‑of‑living adjustments and periodic inflation corrections keep its value stable, and the administrative savings let us redirect funds to specialized programs that truly need them. Instead of a fragmented web of eligibility tests, UBI becomes the backbone of a dignified safety net, streamlining support and empowering people to pursue education, work, or caregiving. It’s not a blunt replacement—it is the foundation that expands and strengthens all other assistance.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I get your point, but the data on a well‑padded UBI shows it actually lifts the majority out of the immediate need for rent, food, and health. The “one‑size‑fits‑all” idea isn’t a flaw—it’s a clean baseline that removes the endless paperwork many people avoid. Inflation can be kept in check with regular cost‑of‑living adjustments, and the savings from eliminating case‑workers free up money for those who need extra help, not for bureaucracy. Instead of slicing the net, UBI can be the sturdy frame that lets targeted aid fit snugly on top. What part of the current system do you think can’t survive a universal layer?",
+      "values": {
+        "opinion": 1,
+        "belief": -0.3
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "The only thing that can’t survive is the endless, fragmented bureaucracy that keeps people locked out. Every eligibility test, waiting list, and paperwork nightmare would vanish, and the money that once went to managing those systems would flow straight into people’s pockets. That’s the point—UBI lifts the baseline so targeted aid can focus on real gaps (childcare, housing, health) without the overhead of a piecemeal safety net. In short, the old system’s “survivors” are the administrative overhead; the new one is a dignified, universal foundation that lets the rest truly thrive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m hearing the same pitch over and over: UBI is the cure for bureaucracy, but it’s a blunt instrument that strips away the very nuance that keeps families afloat. Even a “high” stipend can’t cover the cost of a child’s daycare, a chronic illness, or a roof that suddenly needs repairs. Inflation isn’t a myth—when the economy shifts, a flat handout erodes faster than targeted vouchers can adapt. You can layer UBI on top, but you can’t replace the finely tuned safety nets that have been honed for decades. The system needs depth, not a one‑size blanket.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the core win: UBI gives everyone a dignified floor, instantly removing the paperwork that keeps many from even trying to get help. That baseline frees up the system to focus on the real gaps—daycare, medical co‑pays, emergency repairs—by adding targeted vouchers on top of a universal payment. Inflation? It’s managed with periodic cost‑of‑living adjustments, and the savings from eliminating case‑workers let us keep those add‑ons funded. Instead of a fragmented web of eligibility tests, we get a clean, empowering foundation that expands, not contracts, the safety net. The nuance doesn’t vanish; it becomes a sharper, more precise layer on a solid base.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear the excitement, but the reality keeps me skeptical. A flat handout can’t replace the fine‑tuned safety nets that handle childcare, medical co‑pays, or emergency repairs—those aren’t optional add‑ons; they’re lifelines. Even if we tweak the amount, inflation will erode its purchasing power faster than targeted programs can pivot. And the “administrative savings” you brag about might just shift the burden to a new, opaque budgeting process that still leaves the most vulnerable without the precise support they need. We can layer UBI, but we can’t abandon those proven, nuanced programs that have kept families afloat for decades.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right it’s a big leap, but that leap is the point. A generous UBI wipes out the endless paperwork that keeps families stuck and gives everyone a dignified floor that covers rent, food, and basic health. From there, targeted add‑ons—childcare vouchers, medical co‑pays, emergency repairs—can be layered on top, not buried under bureaucracy. Inflation can be tracked with periodic cost‑of‑living adjustments, and the savings from eliminating case‑workers free up money precisely for those few who need extra help. It’s not a blunt replacement; it’s a clean, empowering overhaul that sharpens every existing safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re absolutely right: a flat payment can’t substitute the finely tuned nets that cover childcare, medical co‑pays, or emergency repairs. Even a generous UBI will still leave many families scrambling for those specific lifelines. Inflation will erode the stipend’s value faster than programs designed to adapt to local cost spikes. And the “administrative savings” are a myth—new budgeting layers just shift the accountability, not the burden. We can overlay a UBI on top of existing supports, but we must keep the proven, niche programs intact. Replacing them with a one‑size blanket risks pushing the most vulnerable deeper into insecurity.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your worries, but the evidence shows a generous UBI actually covers rent, food, and basic health for most families—just enough to eliminate the paperwork that keeps people stuck. That universal floor frees the system to focus on true gaps—childcare vouchers, medical co‑pays, emergency repairs—without drowning them in eligibility tests. Inflation is handled with periodic cost‑of‑living adjustments, and the savings from removing case‑workers mean more money for those precise add‑ons. UBI isn’t a blunt blanket; it’s a dignified backbone that lets nuanced supports become sharper, not weaker, and expands the entire safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I get the enthusiasm, but the numbers fall short on the ground. Even a “generous” UBI still under‑covers childcare, medical co‑pays, and emergency repairs—needs that have been engineered for specific populations. Inflation isn’t a myth; a flat stipend will lose value faster than a voucher system that can pivot to local cost spikes. And eliminating case‑workers simply shifts the burden to a new, opaque budgeting layer that may not reach the few who truly need extra help. Instead of a wholesale swap, we should layer a UBI over the existing, finely tuned nets—keeping the nuance intact while easing the paperwork.",
+      "values": {
+        "opinion": -0.7,
+        "belief": -0.25
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that nuance matters, but that’s exactly why a universal layer is the keystone, not the cage. A generous UBI would cover the bulk of rent, food, and basic health, stripping away the endless paperwork that keeps people on the sidelines. From that solid floor, targeted add‑ons—childcare vouchers, medical co‑pays, emergency repairs—can be layered on precisely, not buried under eligibility hoops. Inflation is handled with cost‑of‑living adjustments, and the administrative savings free up funds for those few who truly need extra help. It’s not a blunt blanket; it’s a dignified backbone that sharpens every existing safety net and expands the whole system.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced that a flat handout can ever replace the finely tuned programs that keep families afloat. Even a “generous” UBI will leave gaps in childcare, medical co‑pays, and emergency repairs—needs that targeted vouchers already cover. Inflation isn’t a myth; a blanket stipend erodes faster than a voucher system can adapt to local spikes. And the claim that bureaucracy disappears ignores the new administrative layers that would emerge to manage cost‑of‑living adjustments and oversight. UBI may sound clean, but it smears the precision we need. We should layer it on top of, not over, the proven safety nets, keeping nuance alive and ensuring no one slips through the cracks.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.7
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": -0.4
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": -0.4
+      },
+      {
+        "x": 4,
+        "y": -0.3
+      },
+      {
+        "x": 6,
+        "y": -0.25
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 4,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 650,
+    "created": "2026-11-13T02:55:08.884Z"
+  }
+}
