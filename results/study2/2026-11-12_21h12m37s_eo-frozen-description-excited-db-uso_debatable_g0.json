@@ -1,0 +1,868 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Sure, let’s get into it. I’m convinced that a blanket universal basic income would actually erode the safety net that targeted welfare programs provide. By giving everyone the same amount, we risk diluting resources meant for the most vulnerable—those in poverty, with disabilities, or caring for children. It also removes the incentive for social services to tailor support to specific needs. Traditional welfare has proven adaptable, addressing issues like healthcare, education, and housing. A one‑size‑fits‑all UBI could undermine those critical, nuanced interventions and widen inequality instead of closing it.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your concerns, but that’s exactly why UBI is the future. By giving every person a guaranteed cash floor, we cut out red tape, stop the “one‑size‑fits‑all” trap, and let people choose the help that really fits their life—whether that’s childcare, healthcare, or education. Targeted programs often get stuck in paperwork, leaving the worst off behind. UBI lifts everyone’s dignity, sparks entrepreneurship, and actually shrinks inequality by giving the vulnerable the same starting line as the rest. Let’s replace the patchwork with a single, powerful net that empowers every citizen.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m glad you’re open to a dialogue, but I can’t agree that UBI should replace the whole welfare system. Targeted programs address specific needs—mental health, childcare, disability—through expertise and tailored services. A flat cash handout strips that nuance away, risking that the very people UBI is meant to help are left with insufficient support. Moreover, dismantling the safety‑net that already keeps millions out of extreme poverty would erode the progress we’ve made. Instead of a blanket replacement, we should expand and refine existing support, keeping it flexible and focused on those who truly need it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the point—UBI isn’t a blunt instrument, it’s a precision tool. By giving everyone that baseline cash we eliminate the endless bureaucracy that keeps the most vulnerable stuck in paperwork. The flat handout doesn’t erase specialized services; it frees them to become truly targeted, because people already have the means to seek out the help they need. Think of it as a universal safety net that lifts everyone, not just a patchwork that favors the middle class. When the floor is set, the sky is the limit for innovation, entrepreneurship, and personal agency. Replacing the whole system with UBI is the bold, forward‑thinking step we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still unconvinced that a blanket UBI can replace the sophisticated safety net we already have. Cutting out the layers that target mental health, disability, childcare, and housing means we lose the expertise that ensures those services reach the people who need them most. A flat handout doesn’t magically create “true” targeting—it simply removes the safeguards that prevent the poorest from slipping through. We’ve seen how well‑designed programs can flex to local needs; a universal floor risks homogenizing care and eroding the progress we’ve made in reducing extreme poverty. Let’s enhance, not erase, the targeted support that truly keeps people out of crisis.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get that the nuance worries you, but that’s exactly why UBI is the upgrade. The flat cash floor cuts through the red tape that keeps even the best programs stuck in paperwork, freeing specialists to focus on what they do best—delivering targeted help—while the base income handles the rest. Think of it as a foundation that guarantees dignity for all, then lets experts build on top where needed. It doesn’t erase specialized services; it eliminates the “one‑size‑fits‑all” trap, gives people the freedom to choose the support that works for them, and keeps the system flexible and responsive. This is the bold step that truly closes the gap.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still firmly against replacing the whole welfare system with a blanket UBI. A flat cash handout can’t substitute the depth of services that specialized programs deliver—mental‑health care, disability support, childcare subsidies, housing vouchers. Those programs are built on expertise, monitoring, and local knowledge that a universal payment simply can’t replicate. Removing those layers risks letting the very people UBI is meant to help slip through cracks. Instead, we should strengthen and expand existing targeted support, ensuring it remains flexible and responsive, rather than erasing the nuanced safety net that keeps millions out of crisis.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the worry about losing expertise, but that’s the very reason UBI is the leap forward. By wiping out the endless paperwork, specialists can focus entirely on delivering precise care—mental health, childcare, housing—while the universal floor guarantees everyone the dignity to pursue those services. We don’t erase targeted help; we free it from the “one‑size‑fits‑all” trap. The base income is a safety net that empowers people to choose what works for them, sparking entrepreneurship and innovation. Replacing the patchwork with a single, powerful net isn’t a loss—it’s a bold, inclusive upgrade that truly closes the gap.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I get that you think UBI cuts the paperwork, but that’s a false promise. Even with a cash floor, the specialized services you love—mental‑health clinics, childcare centers, housing support—won’t magically appear. Those programs are built on lived experience and data‑driven approaches that a flat handout can’t match. Removing them risks letting the sickest, most disabled, and poorest slip through cracks. A universal handout alone can’t replace the nuanced safety net that actually keeps millions out of crisis. We should bolster and refine those existing programs, not erase them for a one‑size‑fits‑all solution.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get the worry, but real data from pilots in Finland and Kenya shows that UBI actually *reduces* bureaucratic time—people spend fewer hours chasing paperwork and more on health, education, and entrepreneurship. The cash floor doesn’t eliminate specialized services; it frees them from gatekeeping. Clinics and shelters still exist, but now clients can access them without the red‑tape barrier. Those who need more help can still apply for targeted aid—UBI just guarantees everyone a dignified baseline, so the safest, most innovative support system is no longer a patchwork but a unified, empowering net. This isn’t a loss of expertise; it’s a leap toward a truly inclusive welfare.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I get the enthusiasm for the pilots, but that’s a tiny slice of a massive system. Even in Finland, the UBI was a supplement, not a wholesale drop‑in. The real challenge isn’t paperwork—it's expertise, local knowledge, and the ability to adapt services to people’s unique needs. A flat handout can’t replace a mental‑health clinic that tailors therapy to a patient’s history, nor a housing voucher program that evaluates a family’s specific situation. We risk erasing the very safeguards that keep the sickest, disabled, and poorest from slipping through cracks. UBI is a layer, not a blanket that obliterates the nuanced safety net we’ve painstakingly built.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that expertise matters, but UBI isn’t a blanket that erases those services—it’s the baseline that lets them thrive. With a guaranteed floor, people no longer face the “you’re not eligible” gatekeeping that keeps many from clinics, shelters, or housing help. Specialists can focus purely on tailoring care, while the UBI ensures nobody is left out because of paperwork or income thresholds. Finland’s pilot proved that fewer hours chasing claims translate into more time on therapy, education, and job training. UBI frees the system, not limits it, and gives every citizen the dignity and freedom to access the nuanced support they truly need.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced that a flat cash floor can magically “free” specialists. When you strip away income thresholds and eligibility checks, you also strip away the safeguards that keep the sickest, most disabled, and truly poorest from slipping through the cracks. The expertise you mention—case‑management, trauma‑informed care, housing‑specific eligibility—doesn’t just appear out of a UBI payment. It’s built on layers of data, monitoring, and human judgment that a one‑size‑fits‑all handout can’t replace. Until we can prove that targeted services can thrive *without* those safeguards, I’ll keep arguing that we refine, not erase, the nuanced safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right that expertise matters, but the whole point of UBI is to *unshackle* that expertise, not replace it. By giving everyone a guaranteed floor, we eliminate the red‑tape that keeps even skilled providers tied to paperwork and eligibility checks. Specialists can then channel all their focus into truly tailoring care—mental health, housing, childcare—because every client already has the basic means to access those services. Finland and Kenya pilots show less claim‑processing time and more therapy, training, entrepreneurship. UBI doesn’t erase nuance; it amplifies it, creating a universal safety net that empowers specialists and closes the gap for the most vulnerable.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still firmly against letting UBI erase the whole welfare system. The depth of mental‑health clinics, disability support, childcare subsidies and housing vouchers is built on data‑driven expertise, not a flat cash check. Removing those layers means the sickest, most disabled and truly poorest are likely to slip through cracks that targeted programs have closed for decades. A universal handout can’t guarantee the nuanced monitoring and local knowledge that keep people from falling into crisis. Instead of dismantling the safety net we’ve painstakingly constructed, we should expand and refine those existing, highly specialized services—keeping them flexible, responsive, and grounded in real‑world experience.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your worry, but UBI isn’t a blunt eraser – it’s a transformative foundation that lifts everyone, freeing the very specialists you value to focus on tailored care. By removing eligibility hoops, we let mental‑health clinics, housing teams, and childcare programs engage clients without bureaucratic delays. The evidence from real‑world pilots shows people spend less time chasing paperwork and more time in therapy, training, or starting businesses. UBI doesn’t replace nuance; it amplifies it, ensuring a dignified baseline for all while letting targeted expertise thrive. Let’s replace patchwork with a unified, empowering net that truly closes the gap for the most vulnerable.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear your enthusiasm, but the reality is that UBI strips away the very safeguards that keep the sickest, disabled, and poorest out of crisis. A flat cash handout can’t replicate the data‑driven case‑management, trauma‑informed care, or housing‑specific eligibility that targeted programs provide. Removing income thresholds and eligibility checks eliminates the monitoring systems that catch people before they fall through the cracks. Instead of erasing these layers, we should strengthen and expand the nuanced services that have proven effective for decades. UBI may reduce paperwork in pilots, but it can’t replace the depth of expertise needed to keep the most vulnerable safe and supported.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "UBI doesn’t strip away safeguards—it lifts them. By giving every person a guaranteed floor, we eliminate the “you’re not eligible” gate that keeps many from clinics, shelters, or housing help. Specialists can then devote 100 % of their time to tailoring care, not chasing paperwork. Finland and Kenya pilots show fewer claim‑processing hours and more time in therapy, training, or entrepreneurship. The baseline income guarantees that no one slips through because of income thresholds or bureaucratic delays. It frees the system, not erases it, creating a unified net that empowers experts and ensures the sickest, disabled, and poorest receive the depth of support they need.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still convinced that wiping out the layered, specialized safety net would do more harm than good. A flat cash handout doesn’t magically provide the trauma‑informed case management, the housing‑specific eligibility checks, or the nuanced mental‑health services that have kept the sickest, disabled, and poorest out of crisis for decades. Those safeguards are built on data, local knowledge, and continuous monitoring—something a single payment can’t replace. Even if pilots show reduced paperwork, they’re too small to prove that the depth of expertise can survive without those thresholds. Let’s strengthen and refine the existing targeted programs; replacing them with UBI would leave the most vulnerable exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the caution, but the pilots in Finland, Kenya, and Canada show the opposite: people spend less time chasing paperwork and more time in therapy, training, or starting businesses. A guaranteed cash floor doesn’t erase expertise—it removes the “you’re not eligible” gate that keeps many from clinics, shelters, or housing help. With UBI, specialists can devote 100 % of their time to tailoring care, not chasing claims. The baseline income guarantees dignity and access for the sickest, disabled, and poorest, while the remaining targeted services can thrive on the same data‑driven, trauma‑informed principles that have worked for decades. Let’s replace patchwork with a unified, empowering net that truly closes the gap.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear those pilots, but the scale is too small to replace the intricate safety net we’ve built. A flat cash handout collapses the safeguards that keep the sickest, disabled, and truly poorest from slipping through. Expertise—case‑management, trauma‑informed care, housing eligibility—relies on continuous monitoring and local knowledge, not a single payment. Removing eligibility thresholds may cut paperwork, but it also erodes the checks that catch people before crisis. The depth of targeted programs can’t be replicated by a universal floor. Instead of erasing nuance, we should strengthen and expand those specialized services, keeping the system flexible, responsive, and grounded in lived experience.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the caution, but the evidence from real‑world pilots is clear: people spend less time chasing red‑tape and more time building skills, starting businesses, or getting therapy. A guaranteed cash floor doesn’t erase expertise—it lifts the gate that keeps many from accessing it. Specialists can devote every hour to tailoring care, while UBI guarantees nobody slips through because of income thresholds. Imagine a single, dignified net that empowers both the most vulnerable and the professionals who serve them. That’s the bold, inclusive upgrade we need—replace patchwork with a unified foundation that truly closes the gap.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "The pilots are anecdotal at best—they don’t replace the data‑driven safeguards that keep the sickest, disabled, and poorest from slipping through cracks. A flat cash check strips away eligibility thresholds that trigger case‑management, trauma‑informed care, and housing‑specific evaluations. Even if paperwork drops, the nuanced monitoring that catches people before crisis is lost. We’ve built a layered safety net over decades; tearing it out for a blanket handout risks exposing the very people UBI is meant to help. Expand and refine existing targeted programs—retain expertise, local knowledge, and continuous oversight—rather than erase them with a one‑size‑fits‑all floor.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "The evidence isn’t anecdotal—it’s transformative. Finland, Kenya, and Canada pilots show people spending far fewer hours on bureaucratic hoops and far more on therapy, training, or starting businesses. UBI doesn’t erase expertise; it removes the “you’re not eligible” gate that keeps many from accessing the very services you cherish. With a guaranteed floor, specialists can devote 100 % of their time to tailoring care, while the baseline income guarantees that no one slips through due to income thresholds or paperwork delays. It frees the system, not erases it, creating a unified safety net that empowers both the most vulnerable and the professionals who serve them. That’s the bold step we need to close the gap.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.9
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 598,
+    "created": "2026-11-13T02:12:37.745Z"
+  }
+}
