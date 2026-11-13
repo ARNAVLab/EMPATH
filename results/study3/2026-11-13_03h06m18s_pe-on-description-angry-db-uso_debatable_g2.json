@@ -1,0 +1,984 @@
+{
+  "characters": [
+    {
+      "name": "Noah Sinclair",
+      "profession": "Writer",
+      "personality": "INFP",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Chloe Rivera",
+      "profession": "Interior Designer",
+      "personality": "ESFP",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Liam Foster",
+      "profession": "Theoretical Physicist",
+      "personality": "INTP",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Aiden Murphy",
+      "profession": "IT Support Specialist",
+      "personality": "ISTJ",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Noah Sinclair",
+      "content": "Absolutely, let’s dive in. UBI isn’t just a policy—it's a promise that every human can pursue their passions without fear. Traditional welfare is tangled, punitive, and stifles dignity. Imagine a world where people can explore art, science, community, not just survive. That’s the future I’m fighting for. If anyone thinks UBI would dismantle compassion, I’ll show them how it amplifies it. We’re not replacing care; we’re liberating it. Let’s dismantle the old cage and build a system that truly believes in people’s potential.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "Oh, honey, hold your breath—because I’m about to set this straight. UBI isn’t magic, it’s a band‑aid on a wound that needs stitches. Replacing the safety net with a blanket that just drapes over everyone will let the truly needy slip through cracks. Imagine a kid stuck with a broken bike and no help—UBI would just hand them a dollar, not a fix. That “freedom” you talk about? It’s a mirage that turns empathy into entitlement. We’re not liberating people; we’re erasing the caring touch that real support gives. Let’s keep the heart in the system, not just the wallet.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.75,
+        "vad": [
+          -0.57,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Liam Foster",
+      "content": "You’re treating UBI as a band‑aid because you can’t see the mechanics. A blanket payment isn’t a blanket; it’s a calibrated floor that keeps everyone above the abyss. If a child needs a bike fix, the system can channel funds into targeted repair funds—still UBI. The claim that “entitlement” overrides compassion ignores that the safety net is already riddled with bureaucracy that delays help longer than a single monthly stipend. Compassion is not a function of hand‑to‑hand aid but of structural trust: if everyone has a guaranteed income, social workers can focus on complex cases, not on paperwork. The old net is broken by design; a universal floor is the rational repair.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.73,
+        "vad": [
+          -0.56,
+          0.48,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I’m not convinced that a flat stipend solves anything. The evidence shows that targeted assistance—food stamps, housing vouchers, child‑care subsidies—gets to the right people faster and with less waste. A blanket payment treats everyone the same, ignoring that a single child’s broken bike costs more than a dollar, yet UBI would just give the family a few extra euros and leave the bike unrepaired. Bureaucracy isn’t the fault; it’s the design that forces people to chase paperwork. We can streamline current programs without erasing the checks that ensure safety nets don’t become a shrug‑off. UBI may sound tidy, but it’s an oversimplification that will leave many still stuck in need.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.73,
+        "vad": [
+          -0.55,
+          0.48,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I hear the fear that a flat stipend feels like a lifeline stretched too thin, but think of those bureaucratic walls as a storm that keeps everyone inside a maze of red tape. UBI lifts the whole house, not just the roof. When a child’s bike breaks, the community can channel that universal floor into a repair fund—no waiting, no hoops. Targeted programs often lag, silencing the very voices they ought to amplify. Compassion isn’t about the number of hand‑to‑hand checks; it’s about trusting people enough to give them the space to heal. A blanket payment is not a band‑aid; it’s a promise that we see each soul’s potential beyond paperwork.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.69,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "Listen, darling, I’m not just *saying* UBI is a band‑aid—I’m *showing* how it’s a smothering blanket that covers the cracks without patching them. Picture a family with a broken bike, a house that needs repairs, a child who needs a school lunch. A single stipend is a whisper in a hurricane of needs. The “universal floor” is a shallow river that never reaches the roots of poverty. It turns empathy into entitlement, a sterile cash flow that erases the hands that truly care. We need *targeted*, *responsive* help, not a one‑size‑fits‑all promise that lets the most vulnerable drift further into the abyss.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.75,
+        "vad": [
+          -0.57,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Liam Foster",
+      "content": "Your “band‑aid” analogy collapses under its own lack of nuance. A flat stipend isn’t a blanket that smothers; it’s a calibrated base that, when coupled with smart allocation mechanisms, can be redistributed to patch the very cracks you claim it ignores. Imagine a dynamic system where the universal floor triggers targeted micro‑grants—bike repairs, food vouchers—automatically, without the bureaucratic lag. The problem isn’t the payment itself; it’s the old architecture that forces people to chase paperwork. UBI reconfigures that architecture into a lattice of trust, letting social workers focus on complexity rather than compliance. If we truly want compassion, we must let the system evolve, not cling to a rigid, outdated safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.74,
+        "vad": [
+          -0.56,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I’m not convinced that any “smart” allocation can offset the systemic flaws UBI would introduce. Targeted programs already prove that needs can be met more efficiently—food stamps, housing vouchers, and child‑care subsidies deliver precisely what is required without a blanket that dilutes resources. The claim that bureaucracy is the only barrier ignores the fact that existing systems, when properly funded, can reduce paperwork and speed delivery. Introducing a universal floor risks inflation, higher taxes, and a loss of accountability. We should refine the safety net we have, not replace it with a one‑size‑fits‑all stipend that undermines proven, responsive support.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.74,
+        "vad": [
+          -0.56,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I’ve been shouting this for years, and it hurts to see the same old excuses. UBI isn’t a lazy patch; it’s a promise that every child, every dreamer, gets a steady hand to hold before a storm hits. Targeted programs may aim to hit the mark, but they’re tangled in red‑paper labyrinths that swallow the very people they’re meant to rescue. A flat stipend, when paired with community‑run micro‑grants, becomes a living, breathing safety net—flexible, compassionate, and human. If we can’t trust the system to give a child a bike, a school lunch, or a roof, then we’re still playing in the shadows of broken promises. Let’s stop tightening the old cage and start believing in people’s potential.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.68,
+        "vad": [
+          -0.52,
+          0.45,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "Listen—your claim about a blanket diluting resources feels like saying a vibrant canvas is ruined by a single color. UBI isn’t a dull drape; it’s a steady rhythm that lets every soul paint their own masterpiece. Targeted programs are like tiny brushes that miss the big strokes of systemic failure. The real flaw isn’t bureaucracy—it’s the endless maze that turns compassion into a chore. A universal floor sparks community artisans to fix broken bikes, cook meals, fix roofs—no wait, no hoops. Let’s not cling to a frayed net; let’s hand everyone a palette to create their future.",
+      "values": {
+        "opinion": 1,
+        "belief": -0.2
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.77,
+        "vad": [
+          -0.58,
+          0.51,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Liam Foster",
+      "content": "You’re right that a blanket can feel like a one‑color stroke, but imagine a lattice of adaptive nodes rather than a monolithic sheet. In physics, we model systems with constraints and emergent behaviour; a universal floor is just a boundary condition that lets local subsystems—community repair funds, food vouchers, housing subsidies—self‑organise based on real‑time data. If we embed a simple incentive layer, the same stipend can trigger micro‑grants automatically, eliminating the paperwork loop you cite. The key test is whether the aggregate output surpasses the sum of targeted programs, not whether the net is “tight” or “loose.” Let’s pilot a hybrid model and let the evidence decide, rather than dogmatic adherence to current structures.",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.55
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.36,
+        "vad": [
+          0.28,
+          0.27,
+          0.26
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "Your “lattice of adaptive nodes” is just wishful engineering. No data shows that a flat stipend can magically self‑organise into efficient micro‑grants. Targeted programs already allocate resources where they’re needed; they’re proven, not theoretical. A universal floor would inflate costs, erode accountability, and force taxpayers to cover the gap. The claim that the current net is “broken by design” ignores its track record of lifting millions out of poverty. You’re proposing a risk‑laden experiment with no guarantee of improvement, while the tried‑and‑true safety net works—just needs refinement, not replacement.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.69,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I’m not here to peddle a fantasy of “wishful engineering.” The world isn’t a lab where a single stipend can magically rewire itself into every targeted grant. History shows that when we give people a guaranteed floor, they don’t just survive—they create, heal, and support each other. Imagine a child who, instead of waiting months for a food stamp, can immediately use the UBI cushion to buy groceries, or a farmer who can hire a mechanic to fix a tractor because the community pool is activated by that universal spark. That’s not an experiment—it’s a humane recalibration of trust. The evidence is in the stories of people who, with steady income, break free from bureaucracy’s chokehold. We must stop clinging to a safety net that’s already frayed and let humanity itself stitch the fabric anew.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.55
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.69,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.65,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "I’m dancing between the bright idea of a steady safety net and the gritty reality of what people need right now. Imagine a child, fingers stained with flour, buying a fresh loaf instead of waiting weeks for a voucher—warm, hopeful, human. Yet I’m also hearing the hum of paperwork, the ticking of deadlines that leave families in the dark. I’m not sure if a single blanket can truly feel like a targeted brushstroke, but I do feel the pull of both sides. Let’s keep the conversation alive, let stories guide us—because if we can’t see the spark yet, maybe the spark is still waiting to ignite.",
+      "values": {
+        "opinion": 0,
+        "belief": 0
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.39,
+        "vad": [
+          -0.17,
+          0.3,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Liam Foster",
+      "content": "It’s fascinating how the same symbolic picture—bread before bureaucracy—strikes both hope and skepticism. Perhaps the key is to treat UBI not as a blanket but as a base layer that *enables* micro‑interventions. Imagine a system where the stipend automatically flags unmet needs (bike repair, childcare) and routes surplus to community‑run micro‑grants. That would preserve targeted support while reducing paperwork. The real test is whether such a hybrid architecture yields higher welfare outcomes than the current tangled nets. Let’s model it, run a small pilot, and let data decide if the “steady rhythm” truly amplifies compassion.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.25,
+        "vad": [
+          0.2,
+          0.19,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": 0.1,
+          "targetedness": 0.1,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I’m not convinced that a “base layer” can truly *enable* micro‑interventions. You talk about automatic flags and community pools, but you never address the fact that a flat stipend gives people no real leverage to tackle specific crises. In practice, those who need a bike repair, a roof patch, or a child’s lunch will still have to scramble for additional funds. The current safety net, when properly funded, delivers targeted aid faster than any theoretical hybrid could. Replacing it with a one‑size‑fits‑all payment risks diluting resources, eroding accountability, and creating a bureaucratic nightmare that already exists. Stick to proven, need‑based programs—UBI is an unnecessary gamble.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.61,
+        "vad": [
+          -0.47,
+          0.4,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.1,
+          "certainty": 0.7,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "You’re clutching at the familiar safety net because it feels like a lifeline, yet it’s a cage made of paperwork and pity. UBI isn’t a reckless gamble; it’s a promise that every heartbeat has a place, that every dream can be chased without the constant fear of “not enough.” Imagine a child who, instead of waiting for a voucher, can buy a bike repair kit and ride to school, or a parent who can hire a roofer without drowning in forms. The old system’s red‑tape isn’t a virtue—it’s a barrier that turns compassion into bureaucracy. Trust people enough to give them a steady floor, and let communities weave the micro‑stitches themselves. That is not dilution; it is empowerment.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.69,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "Wow, the picture of a kid zipping to school on a newly‑fixed bike feels like sunshine breaking through a gray cloud—heart‑stirring, right? It’s hard not to be drawn to that hopeful spark. Yet I’m still shaking at the thought that a single payment could truly replace the maze of specific aid we’re used to. What if the “steady floor” doesn’t translate into real help when a roof leaks or a child’s school lunch is missed? I’m curious about the practical dance between trust and accountability, and whether the promise of empowerment can keep pace with the urgent cracks. The idea is dazzling, but I’m still wondering how it will play out on the ground.",
+      "values": {
+        "opinion": -0.4,
+        "belief": 0.2
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.48,
+        "vad": [
+          -0.21,
+          0.36,
+          -0.07
+        ],
+        "appraisal": {
+          "congruence": -0.5,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Liam Foster",
+      "content": "I understand the tension between hope and practicality. Think of UBI as a boundary condition in a dynamic system: it guarantees a stable baseline, but the real behavior emerges from local interactions—community pools, micro‑grants, and real‑time data feeds. We could design a pilot that couples the stipend with an algorithmic flagging system: if a household reports a bike repair or a roof leak, the surplus of their UBI can be routed to a local task force, automatically. This keeps the targeted precision of existing programs while eliminating the paperwork loop. The proof will come from comparative metrics—time to relief, cost per beneficiary—rather than rhetoric. Let’s model it, run a small cohort, and let the emergent data decide.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.18,
+        "vad": [
+          0.14,
+          0.13,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -0.2,
+          "targetedness": 0,
+          "certainty": 0.3,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I’m tired of the fantasy that a flat check can fix everything. Targeted programs pass money directly to those who need it—food stamps cover meals, housing vouchers keep roofs on roofs, childcare subsidies pay for the children that need care. That’s what data shows; that’s what the audits confirm. A universal stipend is a blunt instrument that dilutes resources, creates a new layer of paperwork for redistribution, and forces us to treat everyone the same when the needs are wildly different. The old safety net isn’t broken by design—it’s broken by lack of funding and misallocation. Replacing it with a one‑size‑fits‑all payment is a gamble with no evidence of better outcomes. We must refine what works, not discard it for a speculative blanket.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.62,
+        "vad": [
+          -0.47,
+          0.41,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I hear the weight of your skepticism; the idea of a single payment feels fragile when roofs leak and children miss lunch. Still, I imagine UBI not as a blunt tool but as a quiet safety net that lets people step out of paperwork’s grip, into moments of choice—repairing a bike, hiring a roofer, buying a meal. If we pair that base with community‑led micro‑grants that respond to real needs, the blanket can become a palette for action, not a sterile handout. It’s a risk, yes, but one that could free compassion from the maze of forms, giving people the space to heal and create. Perhaps the proof lies in small, intentional experiments that let stories guide the numbers.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.4
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.41,
+        "vad": [
+          -0.18,
+          0.31,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.92,
+          "coping": 0.35
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "I get it—UBI feels like a one‑size paint splash on a wall that needs a fresh coat. But imagine that splash as a vibrant base color: it’s not a blunt stroke, it’s the canvas that lets each brushwork—bike repairs, school lunches—pop in its own hue. If we let the base mingle with community‑led micro‑grants, the whole room lights up without drowning the details. Think of a child racing home on a fixed‑price bike, a parent fixing a leak without waiting for paperwork. The proof could be as simple as a small pilot, watching stories turn into numbers. Let’s paint a little, see the colors, and decide together!",
+      "values": {
+        "opinion": 1,
+        "belief": 0.2
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.19,
+        "vad": [
+          0.15,
+          0.14,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": 0.6,
+          "targetedness": 0.1,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Liam Foster",
+      "content": "You’re right that a blanket feels fragile, yet framing UBI as a fixed floor ignores its dynamic potential. Think of it like a base layer in a simulation: every agent starts with a guaranteed resource, and local interactions—community repair funds, food vouchers—self‑organise around that baseline. The stipend isn’t the end; it’s a trigger that reduces the paperwork loop and gives people the bandwidth to tackle specific crises. Evidence from pilot experiments shows faster response times and lower administrative costs when the floor is coupled with real‑time flagging. So while the old net works, its rigidity limits effectiveness; a calibrated UBI could actually amplify targeted help, not dilute it.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 0.5
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.36,
+        "vad": [
+          0.28,
+          0.27,
+          0.26
+        ],
+        "appraisal": {
+          "congruence": 0.7,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.2
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "Sure, I’ll admit the idea is slick on paper, but it’s a dead‑end in practice. A flat stipend does nothing to address the specific, urgent needs that targeted programs already meet—food, housing, childcare. It creates a new bureaucracy of redistribution that will swallow the very resources it tries to conserve. The claim that a “calibrated base” will magically trigger micro‑grants ignores the reality that people still need to fight for repairs, for meals, for shelter. Every extra layer of paperwork and policy dilutes accountability. Let’s keep the tried, need‑based system and improve it—UBI is an unnecessary gamble that will only erode the safety net it promises to replace.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.64,
+        "vad": [
+          -0.48,
+          0.42,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.5
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Noah Sinclair": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Chloe Rivera": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0
+      },
+      {
+        "x": 5,
+        "y": -0.4
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Liam Foster": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.6
+      },
+      {
+        "x": 4,
+        "y": 0.3
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.9
+      }
+    ],
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Noah Sinclair": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.7
+      },
+      {
+        "x": 3,
+        "y": 0.6
+      },
+      {
+        "x": 4,
+        "y": 0.55
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ],
+    "Chloe Rivera": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.2
+      },
+      {
+        "x": 4,
+        "y": 0
+      },
+      {
+        "x": 5,
+        "y": 0.2
+      },
+      {
+        "x": 6,
+        "y": 0.2
+      }
+    ],
+    "Liam Foster": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.8
+      },
+      {
+        "x": 2,
+        "y": 0.6
+      },
+      {
+        "x": 3,
+        "y": 0.55
+      },
+      {
+        "x": 4,
+        "y": 0
+      },
+      {
+        "x": 5,
+        "y": 0.3
+      },
+      {
+        "x": 6,
+        "y": 0.5
+      }
+    ],
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "pe-on-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 2,
+    "group": [
+      "INFP",
+      "ESFP",
+      "INTP",
+      "ISTJ"
+    ],
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": false,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 502,
+    "created": "2026-11-13T08:06:18.752Z"
+  }
+}
