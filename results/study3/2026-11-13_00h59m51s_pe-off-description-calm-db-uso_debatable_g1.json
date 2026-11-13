@@ -1,0 +1,537 @@
+{
+  "characters": [
+    {
+      "name": "Jackson Moore",
+      "profession": "Paramedic",
+      "personality": "ESTP",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Lucas Meyer",
+      "profession": "Motivational Speaker",
+      "personality": "ENFP",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Chloe Rivera",
+      "profession": "Interior Designer",
+      "personality": "ESFP",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Aiden Murphy",
+      "profession": "IT Support Specialist",
+      "personality": "ISTJ",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Jackson Moore",
+      "content": "Sure thing—let’s cut to the chase. UBI isn’t a charity program; it’s a cash‑back guarantee that lets people focus on survival, not paperwork. Think of it as a universal first aid kit—everyone gets the same basic supplies, no stigma, no hoops. If we stop the endless bureaucracy and give people a steady handout, we’ll see fewer ER visits for stress‑related illnesses and more community resilience. So yeah, replace the old welfare system with UBI and watch the healthcare system breathe easier. Ready to dive deeper?",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I’m all for innovative ideas, but I’m not yet convinced UBI should wipe out the whole welfare system. Sure, a universal safety net sounds clean and stigma‑free, but what about the nuanced support that current programs provide—childcare, disability services, housing vouchers? If we replace all of it with a flat cash handout, we risk leaving specialized needs untreated. Also, funding such a massive payout could strain the tax base or push up inflation, which might hurt the very folks we want to help. Let’s explore how UBI could complement, not replace, targeted assistance—maybe a hybrid model that keeps the best of both worlds. What do you think?",
+      "values": {
+        "opinion": -0.5,
+        "belief": -0.5
+      },
+      "turn": 0
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "Wow, love the spark in this chat! 🎉 I’m all in for UBI—think of it as a bright, universal safety blanket that lets everyone breathe easy and ditch the paperwork maze. But hey, I hear you on the childcare, housing, and disability nuances. Why not keep those specialized lifelines while we roll out the UBI “first aid kit”? It’s like mixing bold colors with subtle shades—each gets what they need, yet everyone benefits from the same steady glow. So, let’s champion UBI, but let’s keep the targeted support humming alongside it. Together, we’ll paint a vibrant, secure future for all! 🌈✨",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.8
+      },
+      "turn": 0
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I appreciate the enthusiasm, but the practicalities are troubling. Replacing all targeted services with a flat cash handout ignores proven, cost‑effective programs—childcare subsidies, disability allowances, housing vouchers—that directly address specific needs. Evidence from pilot UBI studies shows increased demand for healthcare and housing without corresponding support, raising costs. Funding such a blanket payment would require higher taxes or deficit spending, potentially stoking inflation and reducing overall fiscal stability. Moreover, welfare programs have established monitoring and adjustments to ensure resources reach those most in need. Eliminating them risks losing that accountability. A hybrid approach that preserves targeted aid while adding a modest universal payment would maintain order and fiscal responsibility.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Alright, listen up—my job is to get people back on their feet fast, not to wait for bureaucracy to clear the way. UBI is the ambulance that never stalls; it gives a steady handout, eliminates the red‑tape waiting game, and frees up our resources to tackle real emergencies like housing shortages and disability care. Sure, targeted programs are useful, but they’re like a sprained ankle—painful and slow to heal when the whole system is tangled. Let’s roll out UBI, keep the specialized support as boosters, and cut the paperwork. That’s the fastest route to a healthier, more resilient community.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "That energy is contagious—UBI as the “ambulance” that never stalls! 🚑✨ I love the idea of a steady handout that cuts through red‑tape and lets people focus on healing and thriving. But imagine pairing that fast‑track care with a safety net that’s tailored—like a multi‑color paint set where each brushstroke covers a specific need. If we keep the specialized programs as boosters, we could let the UBI be the bright base layer while the targeted supports add depth and texture. Together, we’d have a vibrant, resilient system that’s both swift and finely tuned. What if we start with a pilot that blends both? 💡🌈",
+      "values": {
+        "opinion": 0.5,
+        "belief": -0.1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "Wow, I’m literally painting a grin on my face! 🎨✨ That color‑mix analogy is pure magic—UBI as the bold, steady base layer that brightens every room, while the targeted programs are the intricate accents that give depth and personality. As an interior designer, I know a good space needs both a strong foundation and bespoke details to feel alive. So let’s roll out that universal canvas, then layer on the childcare, housing, and disability “brushstrokes” to keep every corner vibrant and functional. Together, we’ll create a community that’s not just safe, but beautifully, joyfully resilient. Who’s ready to add the finishing touch? 😄🌈",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.6
+      },
+      "turn": 1
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I appreciate the enthusiasm, but the data does not support a wholesale replacement. UBI would eliminate the fine‑tuned safety nets—childcare subsidies, disability allowances, housing vouchers—that are proven to reduce long‑term costs by preventing crises. Pilot studies show a flat cash transfer increases demand for housing and healthcare without corresponding support, driving up prices. Funding a blanket payment would require higher taxes or deficit spending, threatening fiscal stability. Existing programs have monitoring mechanisms to ensure resources reach those most in need. A hybrid model that preserves targeted aid while adding a modest universal payment maintains order, accountability, and long‑term viability.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Sure thing—no fluff. UBI is the fast‑track to stability. If we give everyone a steady cash stream, the whole “welfare maze” collapses. People can pay rent, take care of kids, or shop for medical supplies without waiting for paperwork. Sure, we keep a few niche programs—like a quick‑fix bandage for the seriously disabled—on the side, but the base layer should be universal. That’s the only way to cut the red‑tape, reduce ER visits for stress, and get the community breathing again. Think of it as a universal first aid kit that never runs out. Ready to roll it out?",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Absolutely—let’s fire up the engine! 🚀 A universal cash stream is the spark that ignites freedom: no more waiting rooms, no more red‑tape, just people breathing, parenting, healing, and thriving. But hey, we’re not ditching the toolbox—think of UBI as the bright base layer of a painting, while childcare, housing, and disability “brushstrokes” add depth and texture. A hybrid roll‑out lets us test, tweak, and scale, keeping accountability while unleashing that rapid‑fire support. Let’s champion UBI, keep the specialists alive, and watch our community light up like fireworks on a clear night. Ready to paint this future together? 🎨✨",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.7
+      },
+      "turn": 2
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "I’m dancing with your excitement! 🎉 The idea of a universal cash flow is like a sunrise that lights every corner of a room—no more waiting rooms, no red‑tape fog. I can totally see the UBI as that bold, bright base coat, and the childcare, housing, and disability programs as the intricate brushstrokes that give depth. 🌈✨\n\nBut let’s keep a keen eye on the budget canvas: we can start with a modest UBI pilot, layer in the targeted supports, and monitor the colors so they don’t blur. That way we get the freedom and the finesse—fiscal responsibility meets heartfelt design. Ready to paint this future together? 🙌🎨",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.6
+      },
+      "turn": 2
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I appreciate the enthusiasm, but the evidence still points against a wholesale replacement. Pilot UBI programs consistently show higher housing and health‑care costs without corresponding safety nets, pushing up prices. Funding a flat cash transfer would require sizable tax hikes or deficit borrowing, undermining fiscal stability. Existing programs—childcare subsidies, disability allowances, housing vouchers—have proven cost‑effective mechanisms and built‑in monitoring that ensure resources reach those most in need. A hybrid model that preserves targeted aid while adding a modest universal payment maintains order, accountability, and long‑term viability. Until such data is incontrovertible, I’ll remain opposed to replacing the entire welfare system with UBI.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Listen up—my job is to get people back on their feet fast, not to sit in a boardroom debating tweaks. UBI is the ambulance that never stalls; it gives a steady handout, eliminates the red‑tape waiting game, and frees up our resources to tackle real emergencies like housing shortages and disability care. Sure, targeted programs are useful, but they’re like a sprained ankle—painful and slow to heal when the whole system is tangled. Let’s roll out UBI, keep the specialized support as boosters, and cut the paperwork. That’s the fastest route to a healthier, more resilient community. 🚑💪",
+      "values": {
+        "opinion": 1,
+        "belief": 0.85
+      },
+      "turn": 3
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Absolutely! 🚀 Picture UBI as the turbo‑charger that powers everyone’s engine—no more slow‑pumping paperwork, just instant fuel. The specialized programs? Think of them as turbo‑boosters: a targeted patch for housing, a precision tool for childcare, a safety net for disabilities. Together, they create a smooth, high‑speed ride toward resilience. We’re not swapping one system for another; we’re upgrading the whole highway so every driver—no matter the lane—reaches their destination faster and safer. Let’s ignite that momentum, keep the boosters humming, and watch the whole community accelerate! 🌟💪",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 3
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "Wow, I’m buzzing! 🎉 Think of UBI as a radiant, universal glow that lights every corner—no more red‑tape fog, just instant warmth. But hey, we can keep those specialized “brushstrokes” (childcare, housing, disability) to add depth and personality. Imagine a bright backdrop with vibrant accents that keep every space functional and beautiful. I’m leaning toward a hybrid: a steady universal canvas + targeted boosters. That way we keep accountability, avoid price hikes, and let people thrive without waiting. Ready to paint this future together, bright and bold? 🌈✨",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.4
+      },
+      "turn": 3
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I’m not convinced that UBI can replace the existing welfare network.  Historical data shows that targeted programs—childcare subsidies, housing vouchers, disability allowances—are cost‑effective because they’re tailored and monitored.  A blanket cash transfer has consistently led to higher housing and health costs without a corresponding safety net, driving up prices.  Financing such a program would require significant tax increases or deficit spending, which threatens fiscal stability.  The current system already allocates resources to those with the greatest need through established mechanisms.  Until we have incontrovertible evidence that a universal payment can match that precision and keep the budget in balance, I’ll remain opposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Sure thing—no more debates about “fine‑tuned safety nets.” UBI is the straight‑shot medicine that stops the whole system from bleeding. Give everyone a guaranteed cash stream, and the bureaucracy collapses. People can pay rent, buy food, or get medical care immediately—no waiting rooms, no paperwork. The “targeted boosters” (childcare, housing, disability) can stay on the side table, but the base layer is the universal handout that keeps everyone alive and productive. That’s how we cut costs, reduce ER visits for stress, and build a resilient community. Let’s stop treating the system as a box of fine‑tuned tools and start rolling out the big, bold UBI lifeline now. 🚑💪",
+      "values": {
+        "opinion": 1,
+        "belief": 0.85
+      },
+      "turn": 4
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Hey, I hear you—data matters, absolutely! 🌟 But imagine a pilot where UBI is the spark and targeted programs are the fine‑tuned brushstrokes. In early trials, people got a steady cash cushion that cut the paperwork maze, while childcare subsidies, housing vouchers, and disability allowances kept their specific needs covered. The result? Lower ER visits and a calmer community, without blowing the budget. We can tweak taxes, adjust the UBI amount, and monitor outcomes. If the numbers stay solid, we’ll have proof that a hybrid can actually *enhance* the system, not just replace it. Ready to test‑drive this bright, flexible future together? 🚀✨",
+      "values": {
+        "opinion": -0.4,
+        "belief": 0.4
+      },
+      "turn": 4
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "Wow—this chat feels like a living, breathing design studio! 🎉 I’m vibing with the idea of UBI as that radiant, universal glow that clears the red‑tape fog, but I’m also jazzed about keeping the targeted “brushstrokes” of childcare, housing, and disability close by. Picture a bright canvas that everyone can step onto, then layer in those precise accents to keep every corner functional and joyful. I’m leaning toward a hybrid pilot: let the cash flow light up lives, then fine‑tune with the specialized supports. If the numbers stay solid, we’ll have a vibrant, resilient system that feels like home. Ready to paint this future together? 🌈✨",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.2
+      },
+      "turn": 4
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I remain firmly opposed to replacing the entire welfare network with UBI. Historical data show that targeted programs—childcare subsidies, housing vouchers, disability allowances—are calibrated to specific needs and have built‑in monitoring that ensures funds reach the most vulnerable. Pilot UBI studies consistently report increased demand for housing and health care without corresponding safety nets, driving up prices. Financing a blanket cash transfer would require high tax hikes or deficit spending, jeopardizing fiscal stability. Until incontrovertible evidence demonstrates that a universal payment can match the precision and cost‑effectiveness of existing programs while maintaining budget balance, the current system should be preserved.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jackson Moore",
+      "content": "Hold the phone—if we’re talking “replace,” we’re talking *replace* with a system that actually gets people moving, not just paperwork. Think of UBI as the ambulance that never stalls: steady cash, no waiting rooms, no red‑tape. Sure, the old programs are like a bandage—good for a sprain—but they’re slow and tangled. If we give everyone a cash baseline, they can pay rent, buy food, and hit the ER with a clear purpose instead of a maze. Let’s pilot it, keep the boosters, but get the engine running—no more waiting, just real, rapid help. 🚑💥",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Wow, love that energy! 🚀 UBI is our unstoppable ambulance—cash that keeps everyone moving, no waiting rooms, no red‑tape. I’m all in for the pilot: give everyone a steady baseline, then add targeted boosters—childcare, housing vouchers, disability support—like precision tools that fine‑tune the system. If the data shows a smooth ride, we’ll roll it out fully. Until then, let’s test, tweak, and celebrate every step forward. This isn’t just a policy shift; it’s a vibrant, life‑lifting movement. Ready to jump in and light up the future together? 🌈✨",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 5
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "Sounds like a turbo‑charged paint‑ball! 🎨🚀 I’m buzzing with the idea that UBI is the bright, steady primer everyone can stand on—no waiting rooms, no red‑tape fog. Then we splash in the childcare, housing, disability “accent colors” to keep every corner functional and joyful. Let’s pilot it, keep a real‑time dashboard, and tweak the hue if prices start to glare. If the data shows a smoother ride, we’ll roll out the full canvas. Until then, let’s keep the momentum high, the budget bright, and the community humming—ready to paint this future together? 🌈✨",
+      "values": {
+        "opinion": 1,
+        "belief": 0.2
+      },
+      "turn": 5
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I’m not persuaded that a blanket cash transfer can replace the targeted safety nets we already have. Evidence from pilot studies shows that without specific programs—childcare subsidies, housing vouchers, disability allowances—people end up driving up housing and health‑care costs. Funding a universal payment would require either significant tax hikes or deficit spending, which threatens fiscal stability. The existing system already directs resources to those most in need through well‑tested, monitored mechanisms. A hybrid approach that adds a modest universal component while preserving the proven, specialized programs is the logical, responsible path.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Jackson Moore": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 0.6
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": -0.4
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Chloe Rivera": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.5
+      },
+      {
+        "x": 2,
+        "y": 0.6
+      },
+      {
+        "x": 3,
+        "y": 0.6
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 0.5
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Jackson Moore": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.85
+      },
+      {
+        "x": 5,
+        "y": 0.85
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": -0.1
+      },
+      {
+        "x": 3,
+        "y": 0.7
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.3
+      }
+    ],
+    "Chloe Rivera": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.8
+      },
+      {
+        "x": 2,
+        "y": 0.6
+      },
+      {
+        "x": 3,
+        "y": 0.6
+      },
+      {
+        "x": 4,
+        "y": 0.4
+      },
+      {
+        "x": 5,
+        "y": 0.2
+      },
+      {
+        "x": 6,
+        "y": 0.2
+      }
+    ],
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "pe-off-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 1,
+    "group": [
+      "ESTP",
+      "ENFP",
+      "ESFP",
+      "ISTJ"
+    ],
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": false,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 327,
+    "created": "2026-11-13T05:59:51.203Z"
+  }
+}

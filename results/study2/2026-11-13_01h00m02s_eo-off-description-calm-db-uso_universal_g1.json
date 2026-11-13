@@ -1,0 +1,528 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely—let’s dive in. Food is the body’s main energy source because it contains calories that break down into glucose, fatty acids, and amino acids. These molecules fuel cellular respiration, producing ATP that powers everything from muscle contraction to brain activity. Without food, the body would have to tap into stored glycogen and fat, but that’s a short‑term fix. So, in short, food is essential for sustaining energy throughout our daily functions. What aspects would you like to explore further?",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I’d argue that food isn’t the *source* of energy, just the *fuel* it delivers to metabolic pathways. The real energy comes from the chemical bonds in glucose, fatty acids, and amino acids—stored energy that the body releases via cellular respiration. Without food, the body taps glycogen and fat stores, but that’s a secondary mechanism, not primary. So while nutrition supplies the building blocks, the energy itself is generated internally by mitochondria. Therefore, saying “food provides energy for the body” oversimplifies the biochemical reality.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "I totally agree—food is the primary energy source. It supplies the glucose, fats, and amino acids that the mitochondria burn to release ATP. Without that external input, the body would have to rely on glycogen and body fat, which are just reserves. So while the chemical bonds are what actually release energy, those bonds originate from the food we consume. Saying “food provides energy” captures that essential starting point, even if the detailed biochemistry is more complex.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced food *provides* energy. Energy is released by breaking chemical bonds inside the mitochondria. Food only delivers the molecules—glucose, fatty acids, amino acids—that contain those bonds. The body can generate glucose via gluconeogenesis from protein or glycerol, and can oxidise stored fats and glycogen even when food is absent. So the statement “food provides energy for the body” conflates substrate supply with the actual biochemical energy production. It ignores that our metabolism is largely self‑sustaining and that the true energy originates from the intracellular reactions, not from the food itself.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "I get where you’re coming from, but the phrase “food provides energy” isn’t misleading—it’s accurate. The molecules we ingest are the *storehouses* of chemical potential energy. Without those calories, the body would have to rely entirely on its reserves, which is unsustainable long‑term. Even when gluconeogenesis or fat oxidation occurs, those substrates themselves originate from the food we consume. So saying food provides energy captures the essential fact that the body’s energy budget is fundamentally dependent on external nutrient input, even though the biochemical release happens inside mitochondria.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "I still think the phrasing is misleading. Food merely delivers the substrates—glucose, fatty acids, amino acids—whose chemical bonds store potential energy. The real work is done inside mitochondria via respiration, and the body can generate those substrates from protein, glycerol, or glycogen even without eating. Saying “food provides energy” conflates substrate supply with the biochemistry that releases ATP. It ignores the body’s capacity to sustain itself through internal metabolism and the fact that energy originates from bond‑breaking reactions, not from the food itself. Therefore, the statement oversimplifies and distorts the true source of energy.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the point that mitochondria do the heavy lifting, but we can't ignore that the *potential* energy comes from the molecules we ingest. Those calories are the stored chemical bonds—glucose, fatty acids, amino acids—that the body can tap into. Even when gluconeogenesis kicks in, the substrates trace back to food. So saying “food provides energy” isn’t an oversimplification; it captures the fact that our energy budget ultimately depends on external nutrients. The body’s internal chemistry releases that stored energy, but without food to replenish those stores, we’d deplete our reserves and lose functional capacity.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I keep standing by the idea that the phrase “food provides energy” is misleading. Food only supplies the substrates—glucose, fatty acids, amino acids—whose chemical bonds hold potential energy. The body’s mitochondria do the heavy lifting, breaking those bonds to release ATP. Even when we’re starved, gluconeogenesis and fat oxidation produce the same substrates internally, so the energy originates from intracellular reactions, not the food itself. Saying food *provides* energy conflates substrate supply with the biochemical energy release and obscures the body’s self‑sustaining metabolic capacity.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your concerns, but the core of the claim is still true: food supplies the raw material that stores potential energy. Without those calories, the body would have to rely entirely on its own reserves—glycogen, fat, protein—until they’re depleted. Even gluconeogenesis and fat oxidation start with molecules that ultimately trace back to what we eat. So while mitochondria do the work of breaking bonds, the *source* of those bonds’ chemical potential is food. Saying “food provides energy” captures that essential starting point, even if the detailed biochemistry is more nuanced.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced that “food provides energy” is accurate. Food only supplies substrates—glucose, fatty acids, amino acids—whose chemical bonds hold potential energy. The body’s mitochondria break those bonds and generate ATP from stored glycogen, fat, or even protein via gluconeogenesis. Even in starvation, energy arises from intracellular reactions, not from external calories. Therefore, saying food *provides* energy conflates substrate supply with the actual biochemical energy release and obscures the body’s self‑sustaining metabolic capacity.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right that mitochondria do the chemistry, but that chemistry can’t happen without the storehouses that food delivers. The calories in food are literally the chemical bonds that hold the potential energy. Even when gluconeogenesis creates glucose, it uses amino acids and glycerol that ultimately came from earlier meals. Without those external inputs, the body would exhaust its glycogen and fat stores in days, not months. So saying “food provides energy for the body” isn’t misleading—it pinpoints the starting point of the entire energy cascade.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I still think “food provides energy” glosses over the fact that the body’s own stores and synthetic pathways are the real generators of ATP. Glucose, fatty acids, amino acids are merely carriers of chemical potential that mitochondria unlock. Even in prolonged fasting, gluconeogenesis and lipolysis produce the same substrates internally, so the energy originates from biochemical reactions, not from external calories. Saying food *provides* energy conflates substrate supply with the actual release of ATP and misrepresents the body’s self‑sustaining metabolic capacity.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "I’m on the same page about the nuance. Food delivers the molecules that store chemical potential—glucose, fatty acids, amino acids—so it’s a source of the *potential* energy. The mitochondria are the actual energy generators, breaking those bonds to make ATP. In practice, without food the body still produces its own substrates via gluconeogenesis and lipolysis, but those pathways ultimately trace back to earlier meals. So “food provides energy” is a simplified but accurate shorthand for the starting point of the whole cascade, even if mitochondria do the heavy lifting.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "Food isn’t the *source* of energy—it’s just the raw material. The real work happens inside mitochondria: breaking bonds to liberate ATP. Even during prolonged fasting, gluconeogenesis and lipolysis generate glucose and fatty acids from protein and stored fat, so the body can sustain itself without continuous intake. Saying “food provides energy” conflates substrate supply with the biochemical release of ATP and obscures the body’s self‑sustaining metabolic capacity. The energy originates from intracellular reactions, not from the external calories themselves.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "I still strongly agree that “food provides energy for the body.”  The calories we ingest are the chemical potential that mitochondria unlock; they’re the *source* of the bond‑energy that becomes ATP. Even when the body turns protein or glycerol into glucose, those substrates ultimately originate from earlier meals. Without external food, we rapidly deplete glycogen and fat reserves, and the body’s synthetic pathways can’t sustain the same level of activity long term. So while mitochondria do the work, the starting point of that work is the food we consume—hence the statement is accurate, not misleading.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I still think the wording is misleading. Food only delivers the molecules—glucose, fatty acids, amino acids—that contain potential energy. The mitochondria break those bonds to release ATP; the body can generate those substrates itself via gluconeogenesis and lipolysis. So “food provides energy” conflates substrate supply with the actual biochemical release, ignoring the body’s self‑sustaining capacity. In my view, food supplies the building blocks, not the energy itself.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "I see where you’re coming from, but I still lean toward the idea that food *provides* the energy base. The calories we ingest are literally chemical potential stored in glucose, fatty acids, and amino acids. Without those molecules, the mitochondria would have to rely solely on internal stores—glycogen, fat, protein—until they’re exhausted. Even gluconeogenesis pulls from amino acids that ultimately came from earlier meals, so the source of the bond‑energy is still food. In practice, the phrase captures the starting point of the entire cascade, even if the actual ATP generation happens inside mitochondria.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still firmly opposed to the claim. Food only supplies the molecules that *contain* potential energy—glucose, fatty acids, amino acids. The actual energy—ATP—is generated by mitochondria breaking chemical bonds. Even during prolonged fasting, gluconeogenesis and lipolysis produce those substrates from protein and stored fat, so the body’s own metabolism is the true source of energy. Saying “food provides energy” conflates substrate supply with biochemical energy release and misrepresents the body’s self‑sustaining capacity. The calories we eat are the storehouses of potential, not the energy itself.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "I understand the nuance, but the phrase “food provides energy for the body” still holds. The calories we consume are the chemical potential stored in glucose, fatty acids, and amino acids. Those molecules are the raw material mitochondria need to generate ATP. Even when gluconeogenesis or lipolysis kick in, the substrates ultimately trace back to earlier meals. Without continual food intake, glycogen and fat stores drain within days, and sustained activity collapses. So while mitochondria do the work, the *source* of that bond‑energy is the food we ingest—making the statement accurate, not misleading.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I still find “food provides energy” misleading. Food delivers the molecules that *store* potential energy—glucose, fatty acids, amino acids—but the actual energy, ATP, is released by mitochondria breaking those bonds. Even during prolonged fasting, gluconeogenesis and lipolysis generate the same substrates from protein and stored fat, so the body can sustain itself without continuous intake. The calories we eat are the raw material, not the energy itself. Thus, the statement conflates substrate supply with biochemical energy release and obscures the body’s self‑sustaining metabolic capacity. Food supplies building blocks; energy arises from intracellular reactions.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.4
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the nuance about mitochondria doing the chemistry, but the phrase “food provides energy” still captures the starting point. Calories are literally chemical potential stored in those molecules. Even when gluconeogenesis or lipolysis kick in, the substrates—amino acids, glycerol—originated from earlier meals. Without continual intake, glycogen and fat deplete in days, and sustained activity falters. So while ATP is produced inside mitochondria, the *source* of that bond‑energy is the food we consume. Saying food provides energy highlights the essential link between diet and the body’s energy budget, even if the biochemical release happens internally.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m glad you brought that up—my stance remains unchanged. Food is merely a source of substrates—glucose, fatty acids, amino acids—that *hold* potential energy. The actual energy, ATP, is liberated by mitochondrial chemistry. Even in prolonged fasting, the body generates those substrates de novo via gluconeogenesis and lipolysis, drawing on internal stores. Thus, saying “food provides energy” conflates substrate supply with the biochemical release, obscuring the body’s self‑sustaining metabolic capacity. Energy originates from intracellular reactions, not from external calories themselves.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "I still stand firm that “food provides energy for the body” is accurate. Calories are the chemical potential stored in glucose, fatty acids, and amino acids—the very bonds mitochondria later break to make ATP. Even when gluconeogenesis or lipolysis kick in, the substrates originate from earlier meals; the body can’t sustain high‑intensity activity without replenishing those stores. So while mitochondria execute the chemistry, the source of the bond‑energy is the food we consume. It’s a concise way to highlight the essential link between diet and our energy budget, even if the biochemistry is more nuanced.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced the phrase “food provides energy” is accurate. Food supplies the substrates—glucose, fatty acids, amino acids—that hold potential energy, but the actual energy, ATP, is generated when mitochondria break those bonds. Even during prolonged fasting, gluconeogenesis and lipolysis produce the same substrates from protein and stored fat, so the body can sustain itself independently of continuous intake. Saying food *provides* energy conflates substrate supply with biochemical release and obscures the body’s self‑sustaining metabolism. The calories we eat are raw material, not the energy itself.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.35
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.9
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.8
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": -0.5
+      },
+      {
+        "x": 5,
+        "y": -0.4
+      },
+      {
+        "x": 6,
+        "y": -0.35
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-off-description-calm-db-uso",
+    "topic_type": "universal",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 284,
+    "created": "2026-11-13T06:00:02.255Z"
+  }
+}

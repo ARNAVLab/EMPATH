@@ -1,0 +1,979 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Sure. I'm fed up with the broken welfare system. UBI is the only way to cut the bureaucracy, give people dignity, and stop the endless cycle of poverty. Stop whining about means‑testing—it's a waste of resources and human dignity. Let's get real: UBI replaces the mess, empowers people, and fixes the system.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "No, UBI is a band‑aid that will only deepen the mess.  The “mess” you talk about is a system built on safety nets that, when done right, protect the vulnerable.  UBI is a blunt instrument that ignores the nuances of housing, mental health, and childcare.  It will cut funding for targeted programs that actually help people climb out of poverty, and it will create a tax burden that hurts the very people you claim to help.  Stop romanticizing a flat stipend and start fixing the real structural problems—otherwise you’ll just hand out a meaningless check and let the cycle continue.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.84,
+        "vad": [
+          -0.64,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You think UBI is a bandaid, but that’s the same tired rhetoric used to justify keeping the old system in place. Targeted programs only work if you keep the bureaucracy alive, which they never do. The reality is that means‑testing creates endless paperwork that slows help to a crawl and humiliates people who need it. UBI cuts that mess, gives people the dignity to make choices, and eliminates the endless red tape that keeps people locked in poverty. If you’re still worried about tax burdens, remember the hidden costs of the current system—administration, lost productivity, and the human cost of chronic poverty. UBI isn’t a handout; it’s a reset button for a broken system.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.85,
+        "vad": [
+          -0.64,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Listen, you’re waving a “reset button” while ignoring the mess it creates. UBI isn’t a cure—it’s a crutch that strips away the safety nets that actually lift people out of chronic poverty. You talk about dignity, but what about the millions who need more than a flat stipend—housing, mental health, childcare? Targeted programs may be bureaucratic, but they’re calibrated to real needs. UBI will only inflate taxes, burden the middle class, and leave the most vulnerable to fend for themselves. Your romantic talk about bureaucracy is a fantasy. The system needs reform, not a one‑size‑fits‑all handout that does nothing but dilute real support.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.59,
+        "vad": [
+          -0.45,
+          0.39,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the bubble of “old-fashioned safety nets.” Bureaucracy is a broken system that slows help, humiliates recipients, and wastes billions. UBI cuts that red‑tape, gives people real choice, and restores dignity. It doesn’t replace targeted help—it frees funds for real services like housing, mental health, and childcare, while eliminating the endless paperwork that keeps people trapped. The “tax burden” argument ignores the hidden costs of the current mess: lost productivity, chronic poverty, and administrative waste. A flat stipend is not a handout; it’s the reset button this broken system has been craving. Stop romanticizing bureaucracy and start embracing UBI.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.57,
+        "vad": [
+          -0.43,
+          0.37,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still clinging to a broken, dehumanizing model. UBI is a flat, one‑size‑fits‑all handout that ignores the real, complex needs of people. It doesn’t “free” funds for housing or childcare; it drains the budget that funds those very programs. By erasing means‑testing you’ll create a huge tax burden that will crush the middle class and leave the most vulnerable to fend for themselves. Your “reset button” is a euphemism for cutting essential safety nets. The system needs focused, evidence‑based reforms—not a romantic, blunt instrument that erodes the carefully calibrated support people actually rely on.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.88,
+        "vad": [
+          -0.67,
+          0.58,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Fine. UBI isn’t a “handout” – it’s a lifeline that cuts the endless red‑tape choking families. The so‑called “budget drain” is a lie; we’ll slash administrative costs, eliminate duplicate programs, and pour the savings into housing, mental health, and childcare—exactly the services you claim UBI cuts. Your “tax burden” rhetoric ignores the hidden costs of keeping a maze of conditions alive: lost productivity, chronic poverty, humiliation. Stop romanticizing bureaucracy and start embracing a system that gives people dignity, choice, and a fair shot. The old model is broken; UBI is the only realistic reset.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.86,
+        "vad": [
+          -0.65,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I get the enthusiasm, but I’m still worried. A flat stipend feels like a band‑aid on a system that’s already fragile. Even if bureaucracy shrinks, the money has to come from somewhere, and that could mean cutting or shrinking the very programs—housing vouchers, mental‑health subsidies, child‑care subsidies—that people rely on daily. The promise of “savings” is often optimistic; real-life pilots show mixed results. And if taxes rise to fund it, the middle class could feel squeezed, while the most vulnerable may still need targeted help. I’m not convinced the one‑size‑fits‑all approach will actually lift people out of chronic poverty.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.39,
+        "vad": [
+          -0.17,
+          0.3,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your concerns are a textbook excuse to cling to a broken bureaucracy. UBI isn’t a band‑aid; it’s a system overhaul that slashes paperwork, cuts the stigma, and reallocates the “savings” to real services—housing, mental health, childcare—exactly where the old system drags itself down. Pilots show that the cost of maintaining a maze of conditions far exceeds the flat stipend. Let’s stop romanticizing targeted programs that never reach anyone in time and embrace a universal lifeline that restores dignity and choice. If you can’t see that, you’re simply defending a status‑quo that feeds poverty, not fighting it.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.46,
+        "vad": [
+          -0.35,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.75,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still parroting the same tired myth that a flat paycheck fixes everything. UBI ignores the fact that many people need more than a check: housing, child care, mental health services, and job training. It’s not a “savings” trick; it’s a tax‑driven handout that will squeeze the middle class and leave the truly vulnerable without the targeted help they need. The evidence from pilots shows mixed outcomes, not a magic bullet. Replacing a nuanced safety net with a one‑size‑fits‑all stipend is a reckless shortcut that deepens poverty rather than curing it. You’re defending a broken system by pretending it’s a cure.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.87,
+        "vad": [
+          -0.66,
+          0.58,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “tired myth” is the same tired excuse that keeps us chained to a broken bureaucracy. UBI isn’t a flat paycheck that magically fixes everything; it’s a bold overhaul that eliminates the endless red‑tape that robs dignity and forces people into a maze of conditions. The so‑called “mixed results” are a smokescreen—pilots that actually cut costs and free up funds for housing, mental health, and childcare show that the old system is bleeding money. If you can’t see that, you’re simply protecting a status quo that feeds chronic poverty. Stop romanticizing targeted aid that never reaches anyone in time and embrace the only realistic reset.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.87,
+        "vad": [
+          -0.66,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -0.95,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "First, the claim that UBI eliminates red tape is a fantasy. The flat stipend doesn’t even cover housing, child care, or mental health. “Mixed results” are real—some pilots raised poverty rates and cut labor participation. Cutting targeted programs hurts the very people who need them. And the idea that UBI is a “reset” ignores the huge tax hikes it would force, squeezing the middle class. If bureaucracy is the problem, look at how it has been reformed without abolishing the whole system. UBI is a blunt instrument that oversimplifies complex needs. Stop romanticizing it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.37,
+        "vad": [
+          -0.28,
+          0.24,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.8,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "If you’re still clinging to “red‑tape” as a virtue, you’re ignoring the fact that bureaucracy is the leak that drains resources. The flat stipend doesn’t “cover” everything by itself—it frees the budget so we can pour the savings into housing, childcare, mental health. Pilots that show higher poverty or lower labor participation were poorly designed, not proof that UBI fails. A tax‑heavy middle‑class squeeze is a myth; the current system already imposes hidden taxes through administrative costs and lost productivity. Stop romanticizing the status quo that keeps people stuck. UBI isn’t a band‑aid; it’s the only realistic reset we’ve got.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.47,
+        "vad": [
+          -0.36,
+          0.31,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “bureaucracy leak” claim feels like a myth to justify the status quo. A flat stipend never covers housing, childcare, or mental health—those are still funded by the same budget that must shrink to pay the UBI. Even the best pilots show mixed results: some people leave the workforce, others fall deeper into poverty. The argument that UBI frees money ignores that taxes would have to rise, squeezing the middle class and leaving the most vulnerable to fight for scraps. Saying UBI is a reset ignores the nuanced needs that targeted programs address. The system needs precise reforms, not a one‑size handout that oversimplifies everything.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.63,
+        "vad": [
+          -0.28,
+          0.48,
+          -0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m not sure I’m ready to give a full endorsement or rejection yet. The idea that a simple check could cut out all the paperwork sounds appealing, but I worry about whether that money would actually reach the services many people rely on—housing, childcare, mental health. On the other hand, the current system’s bureaucracy does feel stifling and humiliating. I’m torn between wanting to simplify and wanting to ensure targeted help isn’t lost. Maybe we need a hybrid approach, but I’m still uncertain about the best way to balance universal support with specific needs.",
+      "values": {
+        "opinion": 0,
+        "belief": 0.1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.46,
+        "vad": [
+          -0.2,
+          0.35,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m tired of this “maybe‑hybrid” talk. UBI won’t magically fund housing, childcare or mental health; it just cuts the safety nets that actually do. The pilots that claim savings are cherry‑picked; most show higher poverty or reduced labor force participation. Raising taxes to finance a flat stipend would crush the middle class and leave the most vulnerable to fight for crumbs. If bureaucracy is the problem, we tweak it, not erase the whole system. UBI is a blunt, one‑size‑fits‑all blunt instrument that oversimplifies complex needs. Stop romanticizing it and focus on real, targeted reforms.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.19,
+        "vad": [
+          -0.14,
+          0.12,
+          0.04
+        ],
+        "appraisal": {
+          "congruence": 0.2,
+          "targetedness": 0.1,
+          "certainty": 0.2,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m done with your “maybe‑hybrid” excuses. UBI is not a handout that cuts nets; it’s a system overhaul that eliminates the bureaucracy that keeps people trapped. The so‑called pilots with higher poverty are misinterpreted—those programs were poorly designed. A flat stipend frees funds because the administrative costs of the old system are astronomical. If you’re still worried about taxes, remember that the current model already imposes invisible taxes through lost productivity and endless paperwork. Stop romanticizing the status‑quo and start embracing a universal lifeline that restores dignity and choice. The old system is broken; UBI is the only realistic reset.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.46,
+        "vad": [
+          -0.35,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You're oversimplifying a complex issue. Even the most optimistic pilots reveal that a flat stipend can erode labor incentives and leave families still struggling with rent and childcare. Bureaucracy isn't the sole leak; it's the misallocation of resources. A universal payment would require massive tax hikes, squeezing the middle class and reducing funding for proven interventions. Targeted programs—housing vouchers, mental‑health subsidies, child‑care centers—are evidence‑based lifelines that a blanket check cannot replace. I fear that the rhetoric of a “reset” masks the very real need for nuanced, efficient reforms rather than a blunt, one‑size solution.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.82,
+        "vad": [
+          -0.36,
+          0.62,
+          -0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get the worry, but that’s the same “myth” that keeps the current system bleeding. The pilots that show higher poverty were poorly designed; most real-world trials reduce poverty and boost employment when UBI is paired with job‑training incentives. Yes, a flat stipend won’t *cover* housing or childcare on its own, but it frees the budget from endless paperwork—those savings can be redirected to vouchers, mental‑health centers, and childcare subsidies. The tax‑hike argument overlooks that the current system already imposes hidden taxes through lost productivity and administrative waste. If we tweak bureaucracy, we lose dignity and choice. UBI isn’t a blunt handout; it’s the only realistic reset that actually empowers people.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.7,
+        "vad": [
+          -0.31,
+          0.53,
+          -0.1
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Sure, you can paint UBI as a magic bullet, but that’s just wishful thinking. The pilots you cherry‑pick are outliers; most real experiments show increased poverty, reduced work incentives, and no real savings. Saying a flat check frees funds ignores that the money still comes from a tax‑heavy system that will further squeeze the middle class. And no, you can’t magically redirect savings to housing or childcare—those programs still need dedicated funding. Your “reset” narrative is a romantic fantasy that erases proven, targeted safety nets and leaves the most vulnerable with nothing.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.38,
+        "vad": [
+          -0.29,
+          0.25,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your “magic‑bullet” talk is exactly what keeps the old system alive. UBI isn’t wishful; it’s a proven mechanism that cuts bureaucracy, eliminates stigma, and reallocates savings to real services—housing vouchers, childcare centers, mental‑health clinics—without cutting them. The so‑called pilots that show higher poverty are poorly designed, not evidence of failure. A flat stipend doesn't just hand out money; it restores dignity and choice, forcing the state to spend smarter, not more. Stop clinging to half‑measured safety nets and embrace the only realistic reset that actually empowers people.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.49,
+        "vad": [
+          -0.37,
+          0.32,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You keep repeating the same delusion. A flat stipend cannot cover housing, childcare, mental health. Pilots show real setbacks. If we cut targeted programs, we leave the most vulnerable behind. Tax hikes will hurt the middle class. Bureaucracy is messy, but it provides needed safety nets. UBI isn’t a “reset”; it's a blunt instrument that erodes incentives and deepens dependence. The claim you make about savings ignores real evidence. Stop romanticizing a one‑size approach; focus on nuanced reforms instead of a fantasy handout.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.57,
+        "vad": [
+          -0.44,
+          0.38,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “delusion” is the same tired myth that keeps the system alive. A flat stipend is not a handout; it’s a liberation from the endless paperwork that robs dignity and wastes billions. Pilots that show setbacks were poorly designed; real trials that paired UBI with job‑training and targeted support cut poverty and boosted workforce participation. The tax‑heavy middle‑class squeeze you warn about is an illusion—administrative costs already bury the middle class. Bureaucracy is a leak, not a lifeline. Stop romanticizing half‑measured nets and embrace the only realistic reset that actually empowers people.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.58,
+        "vad": [
+          -0.44,
+          0.38,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.8,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "They keep treating UBI as a magic fix while ignoring the facts. A flat payment can’t fund housing, childcare, or mental‑health services—those still need dedicated budgets that would shrink to pay the stipend. Pilots that show savings are highly selective; most real experiments show higher poverty rates and reduced labor participation. The “bureaucracy leak” narrative is a myth; administrative costs already tax the middle class. Removing means‑testing cuts the targeted safety nets that help people climb out of chronic poverty. UBI oversimplifies a complex problem and risks deepening dependence. The system needs precise, evidence‑based reforms, not a blunt, one‑size handout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.46,
+        "vad": [
+          -0.35,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.7
+      },
+      {
+        "x": 2,
+        "y": 0.6
+      },
+      {
+        "x": 3,
+        "y": 0.4
+      },
+      {
+        "x": 4,
+        "y": 0.1
+      },
+      {
+        "x": 5,
+        "y": 0.6
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 458,
+    "created": "2026-11-13T06:04:30.347Z"
+  }
+}
