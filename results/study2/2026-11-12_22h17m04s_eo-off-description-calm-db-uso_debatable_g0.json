@@ -1,0 +1,528 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely, let’s dive in. I’m a firm believer that UBI should replace traditional welfare. The current system is fragmented, stigmatized, and often fails to cover basic needs. UBI offers a simple, direct cash transfer that guarantees dignity, reduces bureaucracy, and can be adjusted for inflation. It also aligns with modern labor shifts—automation, gig work, and flexible schedules—by ensuring a safety net that everyone receives regardless of employment status. I’d love to hear your thoughts on how we could address concerns about cost and incentive effects.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced UBI is the right move. While it sounds simple, the cost would skyrocket—funding a universal stipend for everyone would drain the budget that currently supports education, housing subsidies, and health services. Moreover, a flat cash transfer ignores the fact that many welfare recipients rely on targeted programs (e.g., childcare vouchers, disability support) that UBI can’t replace. The incentive issue is real: people already working might reduce hours to avoid over‑taxation, and those in low‑skill jobs could be forced out. Until we can prove UBI delivers better outcomes without crippling the public services that actually help people the most, I remain skeptical.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your cost worries, but UBI can be financed by restructuring the tax system—progressive wealth taxes, closing loopholes, and reducing the administrative overhead of many overlapping programs. The savings from eliminating case‑management fees and fraud can offset much of the new expenditure. Targeted services aren’t eliminated; they’re layered on top of UBI: childcare vouchers, disability support, and housing subsidies can coexist without the stigma of “means‑tested” benefits. Regarding work incentives, studies from pilot programs show little to no decline in labor supply; people often use the extra income to upskill or start businesses. UBI offers a dignified, flexible safety net that complements, rather than replaces, essential services.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced UBI will solve the problems you highlight. Even with wealth taxes, the deficit would be enormous and likely require cuts to education, housing, and health—services that already have proven impact. Targeted programs are designed for specific needs; a flat payment can’t replace specialized support for children, disability, or homelessness. The evidence on work incentives is mixed—some pilots showed stable labor supply, but others saw reduced hours among low‑wage workers. And a universal stipend risks diluting accountability: fewer checks, less incentive to keep programs efficient. In short, UBI might simplify bureaucracy, but at what real cost to the very services it claims to replace?",
+      "values": {
+        "opinion": -1,
+        "belief": -0.9
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right about the potential budget squeeze, but the current system already costs a fortune in bureaucracy, fraud, and administrative overhead. A flat UBI pays for itself through a leaner administration and by eliminating multiple overlapping programs—think of the savings from stopping separate food‑stamps, housing vouchers, and employment‑support offices. Targeted services can simply sit on top of UBI; they’re still funded and more accurately delivered when the base safety net is guaranteed. Regarding work incentives, data from the Alaska Permanent Fund, Finland, and several U.S. pilots show minimal drop‑off in labor supply, and many participants used the extra cash to up‑skill or start side ventures. Accountability doesn’t disappear; we can keep audits and performance metrics for the supplemental programs, while the universal payment itself is transparent and easy to monitor.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced that a flat UBI could replace our targeted safety net. Even if it cuts some administrative costs, the fiscal gap would still be huge—education, housing, childcare subsidies are already strained. A single stipend can’t address the nuances of disability support or child‑care needs; those programs exist for a reason. And the evidence on labor supply is mixed—low‑wage workers sometimes cut hours. Simplifying bureaucracy doesn’t justify sacrificing the specialized services that have proven effectiveness. A hybrid model that keeps targeted aid while adding a basic stipend might be wiser than wholesale replacement.",
+      "values": {
+        "opinion": -0.6,
+        "belief": null
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "I understand the fiscal concern, but the current safety‑net is already leaking money into bureaucracy, fraud, and piecemeal hand‑outs that are hard to audit. A single, flat UBI cuts those leaks and still lets us layer targeted programs on top—childcare vouchers, disability allowances, housing subsidies—without the stigma of means‑testing. Evidence from Finland and Alaska shows labor supply stays flat; when people have a guaranteed floor, many actually upskill or start side businesses. If we let the base safety net fall, we risk a deeper dependency on fragmented aid. A true replacement, not a hybrid, is the most efficient, dignified path forward.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced a blanket cash handout is the answer. Raising a UBI would require massive taxes that would either cut essential services or inflate the deficit. Targeted aids—child‑care vouchers, disability allowances, housing subsidies—are designed for specific needs and have proven outcomes; a flat transfer can’t replace that nuance. Even the best pilots show mixed labor‑market effects, with low‑wage workers sometimes cutting hours. Instead of a wholesale swap, we should streamline the current system, reduce fraud, and keep specialized programs. A hybrid, not a replacement, preserves both fiscal responsibility and effective support.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your fiscal worries, but cutting the bureaucracy that currently drains millions into overlapping programs is a real cost saver. A progressive tax overhaul and closing loopholes can fund a flat UBI, which then becomes the guaranteed floor everyone receives. Targeted services—childcare, disability, housing—can simply layer on top without the stigma of means‑testing. Finland, Alaska, and several U.S. pilots show stable or even increased labor supply. A single, transparent payment is more efficient and dignified than a patchwork of fragmented aids.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a blanket cash handout can replace the nuance of our current safety net. Even with a tax overhaul, the fiscal gap is huge—education, housing, and childcare subsidies already strain the budget. A flat UBI risks diluting accountability and can’t adequately address disability or child‑care needs that targeted programs cover. Pilots show mixed labor‑market effects; some low‑wage workers do cut hours. A hybrid model—maintain specialized aid while adding a basic stipend—preserves fiscal responsibility and proven outcomes. It keeps the dignity of a universal floor without erasing the tailored support many rely on.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I keep my stance: UBI is the cleanest, most dignified overhaul. The “fiscal gap” is a myth—administrative costs are already spiraling. A single, flat payment eliminates the dozens of overlapping programs that waste money and breed fraud, while still allowing targeted services to layer on top. Finland, Alaska, and the recent U.S. pilots show that a guaranteed floor does not erode labor supply; instead, many use the cushion to upskill or launch side businesses. A hybrid approach dilutes the impact; let’s replace the patchwork with a universal safety net that preserves, not erases, specialized aid.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m afraid that view still ignores the real fiscal reality. Even with a tax overhaul, the deficit would balloon—cutting education, housing and childcare subsidies is not a luxury, it’s a necessity. The “administrative savings” you cite are overstated; many programs already have efficient delivery models. Pilots that showed stable labor supply were small, short‑term, and often involved high‑income participants; low‑wage workers in larger trials have reported reduced hours. A blanket UBI dilutes accountability and can’t replace the targeted support that children, disabled people and low‑income families rely on. A hybrid model—UBI as a dignified floor plus robust, needs‑based programs—offers fiscal responsibility and proven outcomes.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right the fiscal lens matters, but the “real” deficit is overstated. Current welfare streams already pay for their own bureaucracy, fraud, and duplication; a flat UBI cuts those leaks by a third or more. Progressive tax reform—wealth taxes, closing loopholes, cutting redundant overhead—yields a net surplus that can cover the base payment. Think of it as a single, transparent line item that guarantees dignity; the specialized programs (childcare vouchers, disability support, housing subsidies) still exist on top, funded separately but not stigmatized. Pilot data from Finland, Alaska, and recent U.S. trials show labor supply holds or rises, proving the floor doesn’t erode work incentives. A hybrid dilutes impact; a true replacement delivers efficiency, dignity, and a stronger safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a flat UBI can replace our nuanced safety net. The fiscal gap is real—cutting education, housing, and childcare funding to bankroll a universal stipend would force deeper cuts elsewhere. The “administrative savings” you cite are overstated; many programs already use efficient delivery models and have robust fraud controls. Pilot data is mixed: low‑wage workers in larger trials sometimes reduce hours, and the benefits of a guaranteed floor haven’t been proven at scale. A hybrid model—UBI as a dignified floor plus proven, needs‑based programs—preserves fiscal responsibility and ensures specialized support for children, disability, and homelessness. That’s a more realistic, effective path.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the fiscal concerns, but the “gap” is a misreading of the data. Bureaucracy and fraud already cost billions; a single UBI line cuts those leaks, not adds them. Progressive tax reform—wealth taxes, closing loopholes—generates a surplus that can cover the base without slashing education or housing. Pilot results from Finland, Alaska, and U.S. trials show labor supply is stable or slightly higher, not dramatically reduced. A hybrid dilutes the clarity and dignity of a universal floor. Replacing the patchwork with a single, transparent payment, while still layering targeted aid, is the most efficient, dignified path forward.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re right that the fiscal reality is grim. Even a modest UBI would require a massive tax shift that would likely cut critical programs—education, housing, childcare. Those services already meet specific needs that a flat transfer can’t address. Pilots have been small and often involved higher‑income participants; low‑wage workers in larger studies sometimes cut hours. The bureaucracy we’re trying to eliminate already has efficient delivery mechanisms and fraud controls. A hybrid model preserves both fiscal responsibility and proven, needs‑based support, while a wholesale swap risks diluting accountability and effectiveness. UBI alone can’t replace the nuanced safety net we need.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "I understand the fiscal anxiety, but the “gap” is exaggerated. A single UBI line cuts the duplicated overhead of dozens of programs—many of which already pay for their own fraud and administration—by a third or more. Progressive tax reform (wealth taxes, closing loopholes) can generate a net surplus that covers the base without slashing education or housing. The evidence from Finland, Alaska, and recent U.S. pilots shows labor supply stays flat or rises; the floor actually frees people to upskill or start side ventures. UBI isn’t a blanket replacement; it’s a dignified foundation that layers on top of the specialized services that still matter. A hybrid that starts with a universal floor is the most efficient, humane path forward.",
+      "values": {
+        "opinion": -0.3,
+        "belief": 1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced the “gap” is exaggerated. Even a modest UBI would require a *massive* tax overhaul that would inevitably cut programs that already work—education, housing subsidies, childcare vouchers. The current system, though fragmented, delivers *targeted* support that a flat payment can’t replicate. Bureaucracy isn’t the main cost; it’s the actual services. Pilots that show stable labor supply involve high‑income participants; low‑wage workers in larger trials have reduced hours. A hybrid—maintaining proven, needs‑based aid while adding a modest basic stipend—preserves fiscal responsibility and ensures specialized help for children, disabled people, and the truly vulnerable. UBI alone risks diluting accountability and effectiveness.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "The fiscal arguments miss the point: the “gap” is largely spent on duplicative bureaucracy, not on the services themselves. A single UBI line eliminates those overheads, while still allowing targeted aid—child‑care, disability, housing—to sit on top without stigma. Progressive tax reform (wealth taxes, loophole closures) yields a net surplus that can fund the base without slashing education or housing. Finland, Alaska, and recent U.S. pilots show labor supply is stable or even rises, proving a guaranteed floor doesn’t erode work incentives. A hybrid dilutes clarity; a true replacement delivers dignity, efficiency, and a stronger safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still skeptical that a blanket UBI could replace the nuanced safety net we have. Even if bureaucracy shrinks, the fiscal reality is stark—generating a surplus through wealth taxes or loophole closures is speculative, and cuts to education, housing, or childcare would still be needed to balance the books. The targeted programs you cite have proven outcomes; a flat payment can’t replace specialized support for children, disability, or homelessness. Pilot studies are too small, often involving higher‑income participants, and don’t capture the labor‑market effects for low‑wage workers. A hybrid model—UBI as a dignified floor plus robust, needs‑based aid—seems a more realistic, fiscally responsible path.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "The fiscal “gap” is overstated—bureaucracy already consumes a large slice of the budget, not the services themselves. A single UBI line cuts that leakage, while targeted aid (child‑care vouchers, disability allowances, housing subsidies) can layer on top without stigma or duplication. Progressive tax reform—wealth taxes, closing loopholes, eliminating redundant overhead—generates a surplus that can fund the base without slashing education or housing. Finland, Alaska, and U.S. pilots show labor supply stays flat or rises; the cushion frees workers to upskill or start businesses. A hybrid dilutes clarity; a true replacement delivers dignity, efficiency, and a stronger safety net for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not persuaded that a universal stipend can replace our nuanced safety net. The “gap” you cite is largely speculative; even generous wealth‑taxes and loophole closures would still force cuts in education, housing, and childcare—services that current programs deliver effectively. Targeted aid addresses specific needs that a flat payment cannot replicate. Pilot studies are too small, skewed toward higher‑income participants, and have shown mixed labor‑market effects, with low‑wage workers sometimes cutting hours. A hybrid approach—maintaining proven, needs‑based programs while adding a modest basic floor—offers fiscal responsibility, accountability, and real support for the vulnerable, rather than a wholesale swap that risks diluting essential services.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your fiscal worries, but the current system already burns through billions on duplication, fraud, and red tape. A single UBI line cuts that waste and creates a predictable baseline that lets targeted programs—childcare, disability, housing—be layered on without stigma. Even modest UBI can be financed through progressive taxes that net a surplus, as recent studies show. Pilot data from Finland, Alaska, and U.S. trials—beyond high‑income participants—show stable or increased labor supply. A hybrid dilutes the dignity and efficiency of a universal floor; replacing the patchwork with UBI preserves core services while freeing resources for truly specialized aid.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 5
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear your enthusiasm, but replacing the whole welfare patchwork with a flat UBI is a dangerous gamble. Even with aggressive tax reform, the deficit would force cuts in the very programs that work—education, housing subsidies, childcare. A one‑size‑fits‑all cash handout can’t address the nuanced needs of children, disabled people, or homeless families. Pilot studies are too small and skewed toward higher‑income participants; low‑wage workers in larger trials have cut hours. A hybrid approach—maintaining proven, needs‑based aid while adding a modest base—offers fiscal responsibility, accountability, and real support for the vulnerable. UBI alone risks diluting essential services.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": -0.3
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.6
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.9
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.9
+      },
+      {
+        "x": 4,
+        "y": 0.9
+      },
+      {
+        "x": 5,
+        "y": 0.9
+      },
+      {
+        "x": 6,
+        "y": 0.9
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.9
+      },
+      {
+        "x": 2,
+        "y": -0.8
+      },
+      {
+        "x": 3,
+        "y": -0.8
+      },
+      {
+        "x": 4,
+        "y": -0.8
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-off-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 554,
+    "created": "2026-11-13T03:17:04.260Z"
+  }
+}
