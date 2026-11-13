@@ -1,0 +1,983 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely! UBI cuts bureaucracy, gives everyone a clean slate, and eliminates the stigma that comes with traditional welfare. It empowers people to pursue education, start businesses, or care for loved ones without the constant fear of losing benefits. Ready to explore how this shift could streamline support, boost economic resilience, and foster a more equitable society?",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re romanticizing a pipe dream. UBI sounds tidy, but it erases work incentives and blows budgets into the abyss. People will stop buying food, paying rent, and will be locked in a debt trap because the state can’t fund it. Stigma isn’t gone—just replaced by a new one: “You’re lazy, you’re getting paid to do nothing.” It turns citizens into passive consumers, not productive members. And the bureaucracy you claim it will cut? Those politicians will still need to figure out how to hand out cash, fraud, and a whole new set of loopholes. This isn’t progress; it’s a recipe for collapse.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.6,
+        "vad": [
+          -0.46,
+          0.4,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You talk about “collapse” while ignoring the collapse we already see—bureaucratic waste, hidden debt, and the invisible hand that keeps people trapped. Welfare is riddled with red tape, stigma, and endless paperwork that drains lives. UBI removes all that friction. It gives people a guaranteed floor, so they can negotiate their own worth instead of being coerced into low‑pay jobs just to keep the benefits. The claim that people will stop buying food is absurd; they still need food, and a guaranteed income actually stabilizes consumption. And those “new loopholes” are just old loopholes with a different name. UBI isn’t a pipe dream—it’s an overdue upgrade.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.64,
+        "vad": [
+          -0.48,
+          0.42,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still stuck in the same fantasy. UBI doesn’t solve the fundamental problem of funding. It’s a hand‑out, not a job‑maker. If you give everyone a stipend, the state will either cut essential services or raise taxes to ridiculous levels. We’ll end up with a society where people are paid to be idle while the economy suffers. And no, the bureaucracy isn’t gone—money still has to be distributed, tracked, audited. That’s just a new layer of red tape. Welfare isn’t perfect, but it’s a targeted safety net, not a blanket that erodes incentives and collapses the system.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.34,
+        "vad": [
+          -0.26,
+          0.22,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the same fantasy that “funding” is a magic word. UBI isn’t a hand‑out, it’s a redistribution of the wealth our economy already generates—taxes on the rich, corporate profits, and luxury goods. If we cut the old system’s waste, the budget gap shrinks. Incentives? People still work for purpose, skill‑up, and entrepreneurial ambition. The state can’t “raise taxes to ridiculous levels” if it stops paying for red‑tape bureaucracy and lets people use the cash directly. That’s a smaller, more efficient system. The “new loopholes” are just old loopholes dressed up—people will still abuse them, but with less friction they can be fixed faster. UBI is the overdue upgrade; your arguments are just excuses for status quo.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.34,
+        "vad": [
+          -0.26,
+          0.22,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re throwing every line of evidence into a rhetorical cauldron and then calling it “evidence.” The claim that UBI erases incentives is a flat‑line assumption that ignores the fact that people still need to earn for health, housing, and social status—basic human motivations that a cash stipend doesn’t eliminate. Saying you’ll “cut waste” and “redistribute wealth” ignores the reality that corporate profits and luxury taxes are already heavily capped; the tax base can’t magically expand to fund a blanket payment. And the bureaucracy? It’s just a different shape of red tape—more data, more fraud risk, more political pushback. Your optimism is a fantasy that doesn’t account for the fiscal crunch we’re already facing.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.56,
+        "vad": [
+          -0.25,
+          0.43,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in the same “magic‑budget” fantasy. The fact that corporate profits and luxury taxes are capped is the very reason UBI works: you cut the endless, waste‑filled bureaucracy and let the money flow directly to people. No one is “lazy” because they still need health, housing, status—those drives are stronger when people aren’t forced into low‑pay, low‑skill jobs to survive. The “new loopholes” are just the old ones, but with less friction you can audit and fix them faster. Saying UBI is a fiscal crunch ignores that the current system is already bleeding billions on paperwork and stigma. Stop whining about imaginary deficits and start demanding a realistic, humane safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.82,
+        "vad": [
+          -0.62,
+          0.54,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 1,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “magic‑budget” line is the same tired excuse everyone uses. Cutting paperwork doesn’t magically fund a universal stipend; it simply shifts the cost to the taxpayer. The idea that corporate profits can be tapped without higher rates is naïve—capital taxes are already limited by international agreements and loopholes. Even if you trimmed waste, you’d still need to raise revenue somewhere. And “no laziness” is wishful thinking; people will still gravitate toward low‑skill jobs if they’re the only way to afford health insurance or secure housing. UBI isn’t an upgrade; it’s a drain that will collapse the very services it claims to protect.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.45,
+        "vad": [
+          -0.34,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Seriously? You keep repeating the same “budget‑magic” nonsense. Cutting paperwork doesn’t magically create money; it just reallocates it. We’re not talking about a hand‑out, but a *redistribution* of the wealth that already exists—corporate profits, luxury goods, and the excess taxes we could tap. If we eliminate the old, waste‑filled safety nets, the gap shrinks. And the fear that people will stop buying food? They’ll still need to eat; a guaranteed floor means stable consumption, not collapse. Your “no laziness” argument is the same tired story that only works when the system is broken. Stop whining about imaginary deficits and start demanding the humane upgrade we need.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.46,
+        "vad": [
+          -0.35,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still clutching the same delusion. UBI is a fiscal nightmare, not a silver bullet. The state can’t magically conjure money—any “redistribution” is just a euphemism for higher taxes, and those taxes already hit their limits. Think about the real cost: healthcare, housing, infrastructure—UBI would force deep cuts or sky‑high rates that no one will accept. The claim that people will still work is wishful; the guarantee of cash will only loosen the incentive to earn, pushing more into low‑skill, low‑pay jobs that already devalue the workforce. It’s a pipe dream that will bleed the budget dry and collapse the very services it pretends to protect. Stop romanticizing it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.52,
+        "vad": [
+          -0.4,
+          0.34,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Fine, you keep whining about “fiscal nightmares” while the current system continues to bleed taxpayers through endless paperwork, corruption, and stigma. UBI isn’t a hand‑out; it’s a direct transfer of the wealth that’s already being siphoned off by corporate loopholes and luxury tax evasion. Cutting the wasteful bureaucracy that drives up costs is the only way to make a budget that can actually cover healthcare, housing, infrastructure. If you think people will abandon work, remember that a guaranteed floor liberates them to pursue meaningful jobs, education, or entrepreneurship—exactly what the old system forced them into out of necessity. Stop pretending the status quo is perfect and start demanding the humane upgrade we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.87,
+        "vad": [
+          -0.66,
+          0.58,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 1,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your romanticism blinds you to reality. UBI is a pipe dream that erodes incentives, collapses services, and bankrupts the state. The claim that waste can be cut to fund a blanket stipend ignores the fact that you still need revenue. You keep repeating the same delusion. The old system saves millions in targeted help and prevents the worst of poverty. Replacing it with a universal hand‑out will only make people lazy, drain budgets, and widen inequality. Stop pretending UBI is a solution and face the facts.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.51,
+        "vad": [
+          -0.39,
+          0.34,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the same “budget‑myth.” Waste isn’t a mystery—bureaus spend billions on paperwork, fraud, and stigma. Removing that bureaucracy doesn’t create money, it frees the money that’s already there. Corporate loopholes and luxury tax evasion keep billions out of the tax base; a UBI would simply redirect that existing wealth instead of adding new taxes. And the claim that people will abandon work? History shows that a guaranteed floor actually boosts entrepreneurship and skill‑upgrading, not laziness. The status quo is bleeding taxpayers, not protecting them. It’s time to stop whining and start fixing the system that already fails.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.49,
+        "vad": [
+          -0.37,
+          0.32,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.95,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re playing with a lethal myth. UBI is a hand‑out that will collapse services, not a safety net. The state can’t conjure money; you’ll cut welfare and raise taxes until people can’t afford healthcare, housing, or infrastructure. Even if some corporate profits leak through loopholes, the tax base is already stretched. A guaranteed stipend will erode work incentives, driving more into low‑skill, low‑pay jobs that already undermine the economy. You claim “no laziness,” but history shows the opposite: people chase jobs that pay enough for insurance and stability. Stop romanticizing a system that will drain budgets and widen inequality. The status quo may be flawed, but it’s a targeted safety net—UBI is a fatal gamble.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.78,
+        "vad": [
+          -0.6,
+          0.52,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.6
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your whole “budget‑myth” argument collapses under its own contradictions. Bureaucracy doesn’t create money; it steals it. A UBI cuts that theft, reallocates the wealth that corporations and the ultra‑wealthy already keep in loopholes, and gives people a guaranteed floor that actually fuels entrepreneurship, skill‑upgrading, and healthier consumption patterns. You talk about “lazy” people, but the evidence from pilot programs shows a surge in creative work and reduced reliance on low‑pay jobs. The status quo is bleeding taxpayers in invisible ways—fraud, stigma, endless paperwork—yet you cling to it as if it’s a safety net. UBI isn’t a gamble; it’s a realistic, humane upgrade that your rhetoric keeps denying.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.89,
+        "vad": [
+          -0.68,
+          0.59,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still dancing around the same broken myths. UBI isn’t a silver bullet that magically frees money; it’s a hand‑out that will swallow the budget, choke healthcare, and widen inequality. The “budget‑myth” you cling to ignores that the state can’t conjure cash—every dollar of UBI must come from higher taxes or slashing essential services. History shows when people get a guaranteed floor, many gravitate to low‑skill, low‑pay jobs just to keep insurance or housing. Your “pilot evidence” is cherry‑picked; real‑world trials reveal no widespread surge in entrepreneurship—just a shift to precarious gigs. The old system, flawed as it is, is a targeted safety net that a blanket stipend will unravel. Stop romanticizing a plan that will collapse the very services it pretends to protect.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.53,
+        "vad": [
+          -0.4,
+          0.35,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You keep repeating the same “budget‑myth” while ignoring the facts. Bureaucracy isn’t where the money comes from—it’s where it goes. We’re already paying billions in paperwork, fraud, and stigma. UBI simply redirects the wealth that corporations and the ultra‑wealthy siphon off through loopholes and luxury tax evasion. Pilot data shows people use the cash to start businesses, pursue education, and reduce reliance on low‑pay, insecure jobs—not to become lazy. The “guaranteed floor” gives people leverage, not a hand‑out that drains services. If we slice the wasteful safety net and let the money flow directly, we can fund healthcare, housing, and infrastructure without collapsing anything.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.49,
+        "vad": [
+          -0.37,
+          0.33,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I still can’t see how a blanket stipend would replace the precision of a targeted net. The “budget myth” is just rhetoric—money has to come from somewhere, and raising taxes or slashing essential services is the only way. Even if some corporate loopholes are closed, the tax base is already stretched; you can’t just reallocate what isn’t there. A guaranteed floor tends to pull people into low‑skill, low‑pay gigs to cover insurance or housing, not to pursue meaningful work. The current system, flawed as it is, protects the most vulnerable; UBI would erode that safety net and choke the very services it claims to save.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.57,
+        "vad": [
+          -0.25,
+          0.44,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.35
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “budget‑myth” is the same tired excuse that keeps the status quo alive. Bureaucracy doesn’t create money—it steals it. A UBI simply redirects the wealth corporations and the ultra‑wealthy already hoard in loopholes and luxury‑tax evasion. Pilot evidence shows people use the cash to start businesses, pursue education, and reduce reliance on low‑pay, insecure jobs—not to become lazy. If we cut the wasteful safety net and let the money flow directly, we can fund healthcare, housing, and infrastructure without draining services. Stop clinging to a broken safety net and demand the humane upgrade that actually works.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.88,
+        "vad": [
+          -0.67,
+          0.58,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “budget‑myth” ignores reality: a blanket payment would drain the only revenue streams that keep hospitals, schools, and public safety afloat. You claim bureaucracy is waste, yet the existing safety net funds essential services—health, housing, food assistance—directly to those who need them most. Redirecting a trivial portion of corporate loophole revenue can’t replace the millions already spent on targeted aid. UBI would push the poor into low‑pay gigs for insurance and housing, not to pursue meaningful work. Stop romanticizing a hand‑out that will collapse the very services it pretends to protect.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.55,
+        "vad": [
+          -0.42,
+          0.37,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You still can't see the numbers: the “budget‑myth” is real because targeted programs waste a ton of money on paperwork, fraud, and stigma. Cutting that waste frees up more than enough to cover a modest UBI, and the remainder comes from already‑tapped corporate loopholes and luxury taxes that are under‑exploited. A blanket stipend doesn’t drain hospitals—it stabilizes the economy, reduces stress‑related health costs, and lets people afford insurance without chasing low‑pay gigs. Think of pilot data: people start businesses, take courses, and reduce reliance on insecure work. The status quo is bleeding taxpayers; UBI is the pragmatic, humane upgrade that actually works. Stop clinging to an ineffective safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.49,
+        "vad": [
+          -0.38,
+          0.33,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re missing the point that the “waste” in the current system is enormous—billions in paperwork, fraud, and stigma. If we cut that and redirect the existing corporate loophole revenue, we can fund basic services without shrinking hospitals or schools. UBI isn’t a hand‑out that kills jobs; it gives people financial stability, freeing them to pursue higher‑quality work or education. The fear that it will push everyone into low‑pay gigs ignores pilot data showing increased entrepreneurship and reduced reliance on precarious labor. If we can’t see that, we’re clinging to a system that already fails. This argument feels like a losing hand—no, UBI can preserve, not collapse, essential services.",
+      "values": {
+        "opinion": 1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.8,
+        "vad": [
+          -0.35,
+          0.61,
+          -0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Indeed, the targeted system drags on paperwork and stigma. Cutting that waste and redirecting untapped corporate revenue actually frees up more than a modest UBI would require. Pilot programs consistently show people using the cash to start businesses, pursue education, and reduce reliance on precarious work, not to become idle. By giving everyone a financial floor, we stabilize consumption, lower health‑care costs, and reduce the administrative burden that strains hospitals and schools. The promise of a universal stipend is not a gamble but a practical upgrade that preserves essential services while empowering citizens to seek higher‑quality work.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.48,
+        "vad": [
+          0.38,
+          0.36,
+          0.34
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still dancing around the same “budget‑myth.” Cutting paperwork doesn’t magically create money; it merely re‑allocates what the state already spends on fraud, red‑tape, and stigma. That re‑allocation isn’t enough to fund a universal stipend without slashing essential services or crushing taxes. Even if you close a few loopholes, the tax base is already maxed out by international agreements and corporate evasion. The guarantee of cash will only loosen work incentives, pushing people into low‑skill gigs to keep insurance or housing. The old system, for all its flaws, is a targeted safety net that protects the most vulnerable; UBI is a fiscal disaster in disguise.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.47,
+        "vad": [
+          -0.36,
+          0.31,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 452,
+    "created": "2026-11-13T06:32:35.951Z"
+  }
+}

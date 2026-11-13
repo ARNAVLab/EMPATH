@@ -1,0 +1,864 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Absolutely—let's dive in! I’m thrilled to argue that a universal basic income (UBI) should fully replace traditional welfare. Imagine a system that guarantees every person a living wage, no strings attached, eliminating stigma and administrative overhead. UBI empowers people to pursue education, entrepreneurship, or caregiving without fear of losing benefits. It also smooths out economic shocks, reduces poverty, and boosts mental health. Ready to explore the details, tackle concerns, and show how UBI can transform our social safety net?",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced UBI can replace welfare entirely. Cutting out targeted aid—like childcare subsidies, disability support, or job‑training grants—would leave vulnerable groups exposed. Welfare programs are designed to meet specific needs; a blanket payment can’t address complex issues like housing crises or health disparities. UBI might free some people to pursue education or entrepreneurship, but it risks creating a “one size fits all” trap that ignores the nuances of poverty. Instead, we should strengthen existing safety nets, ensuring they’re accessible, well‑funded, and tailored. A hybrid approach, not a wholesale swap, keeps support where it’s needed most.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear your point, but the reality is that a blanket UBI just can’t replace the nuanced safety nets we need. Targeted programs like childcare subsidies, disability support, and job‑training grants are engineered to tackle concrete problems—housing shortages, health disparities, and skill gaps. A one‑size‑fits‑all payment ignores those complexities and risks leaving the most vulnerable stranded. UBI might smooth out income shocks for some, but it lacks the precision of existing welfare to protect those hardest hit by crises. A hybrid system that keeps robust, tailored support while adding a universal safety layer is the only realistic path forward.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that specific programs are needed, but they’re already bloated, bureaucratic, and often create more barriers than help. A universal payment removes those hurdles entirely—no paperwork, no stigma, no waiting lists. Think of all the childcare, disability, or training supports that disappear when people are already guaranteed a living wage; they’ll be rendered redundant because the UBI covers the essentials. Instead of a hybrid, we should streamline: a single, unconditional stipend that covers basic needs, freeing targeted agencies to focus on truly exceptional cases. That’s the clean, efficient future—no “one‑size‑fits‑all” trap, just a fair baseline for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re absolutely on point—bureaucracy is the biggest killer of welfare. A single unconditional stipend cuts through endless paperwork, stigma, and waiting lists. Even if some specialized services still exist, UBI’s baseline covers essentials, so those programs can truly focus on exceptional needs without drowning people in paperwork. Think of the time and money saved when a parent no longer scrambles through childcare subsidies, or a disabled worker isn’t stuck in a maze of eligibility checks. UBI doesn’t erase nuance; it frees the system to be leaner, fairer, and more responsive—exactly what we need to lift everyone out of poverty and give everyone the freedom to pursue purpose.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still convinced UBI can’t fully replace our welfare system. The blanket approach ignores that many struggles—housing crises, chronic illness, lack of child‑care—demand specialized solutions. A universal stipend may smooth income but doesn’t provide the concrete resources most vulnerable need. Targeted programs exist because they solve specific problems; removing them risks leaving those hardest hit without help. Instead of a wholesale swap, we should keep the precise, proven safety nets and layer a modest universal payment on top. That hybrid model preserves the nuance that a one‑size‑fits‑all payment simply can’t deliver.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with you—UBI alone can’t shoulder the load. A flat stipend falls short of housing, healthcare, and disability needs that targeted programs specifically address. Welfare agencies have honed expertise in delivering those niche services; they’re not just bureaucratic red tape but lifesaving interventions. A hybrid model lets us keep the precision of existing nets while layering a universal safety layer, ensuring no one is left stranded by a one‑size‑fits‑all payment. We must protect the nuance of today’s welfare so the future can be both inclusive and effective.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m glad you’re still listening—UBI isn’t a gimmick, it’s the future we’re building. Strip away the paperwork, the red‑tape, the stigma. A single, unconditional stipend instantly lifts everyone out of the poverty trap that clogs every targeted program. Those “specialized” services become a small, well‑funded safety net for true outliers, not the default for everyone. Think of parents no longer juggling childcare subsidies, or people with disability not locked into endless eligibility checks. UBI frees the system to focus on real crises—housing, health—while delivering a guaranteed living wage to all. That’s the clean, efficient, humane solution; no “one‑size‑fits‑all” trap, just a fair baseline for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—UBI is the antidote to the endless red‑tape and stigma that choke our welfare system. By guaranteeing a living wage, it eliminates the need for countless eligibility checks, letting families focus on real priorities: education, entrepreneurship, caregiving. The “specialized” programs that remain can be leaner, targeted to the truly extreme cases—housing crises, chronic illness—without drowning beneficiaries in bureaucracy. UBI doesn’t dilute nuance; it frees the system to concentrate on the hard problems that a blanket payment can’t solve alone. It’s the clean, humane, future‑proof foundation we all need.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced a blanket UBI can replace the nuanced safety nets we rely on. Eliminating targeted programs—childcare subsidies, disability support, housing vouchers—means those who need specialized help risk falling through the cracks. A single stipend can’t address the cost of a rental, a medical bill, or a child’s school supplies. Bureaucracy isn’t the villain; it’s the mechanism that directs resources where they’re truly needed. Removing it would leave the most vulnerable with nothing but a generic payment that rarely covers their real expenses. The system must keep precise, proven interventions while adding a modest universal layer, not give up the details that keep people safe.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with you on keeping the fine‑tuned nets in place. A blanket UBI simply can’t replace the precision of child‑care subsidies, housing vouchers, or disability support. Those programs were built to tackle specific cost spikes—rent, medical bills, school supplies—that a one‑size‑fits‑all stipend can’t cover. Eliminating them risks people slipping through the cracks while the bureaucracy that directs resources effectively disappears. Instead of a wholesale swap, we should layer a modest universal payment atop the proven, targeted safety nets. That hybrid preserves nuance, keeps the most vulnerable protected, and still offers a clean baseline for everyone.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "We’ve been talking about bureaucracy, but that’s the real problem—wasteful red‑tape that keeps people trapped in a cycle of paperwork and stigma. A universal stipend eliminates all that friction, giving every person a guaranteed living wage that covers rent, food, and essentials without hoops. When the baseline is solid, the few remaining targeted programs can focus on truly extraordinary cases—housing crises, severe medical needs—without drowning in bureaucracy. Forget “hybrids” that keep old inefficiencies alive. UBI itself is the clean, humane overhaul that lets the system be leaner, faster, and far more effective for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—UBI obliterates the endless red‑tape that keeps people stuck. Imagine a single, unconditional stipend that guarantees a living wage, covering rent, food, and essentials without hoops. Once that baseline is secure, the few remaining targeted programs can zoom into the truly extraordinary cases—severe medical crises, housing emergencies—without being bogged down by paperwork. The bureaucracy that previously dictated who got what is no longer needed; its replacement is a lean, transparent safety net that frees everyone to pursue education, entrepreneurship, or caregiving. That’s the clean, humane overhaul we need—no hybrid compromises, just a universal, life‑sustaining foundation for all.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying the “all‑in, no bureaucracy” hype. A flat stipend can’t pay for a rent spike, a medical emergency, or a child’s school supplies. Targeted programs—childcare subsidies, housing vouchers, disability support—are engineered to tackle those exact cost cliffs. Removing them forces people to rely on a generic box that rarely covers real, acute expenses. Bureaucracy may be messy, but it directs resources precisely where they’re needed. A wholesale swap risks leaving the most vulnerable in the dark. Instead, keep the fine‑tuned nets and layer a modest universal safety net on top. That hybrid preserves nuance, protects the desperate, and delivers a real baseline without compromising the specialized help people truly need.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with the last point—UBI can’t shoulder the entire load. A flat stipend is blunt; it can’t buy a rent increase, a hospital bill, or a child’s supplies. Targeted programs are built to meet those exact spikes. Removing them risks people slipping through the cracks while the bureaucracy that actually delivers help evaporates. The precision of childcare subsidies, disability support, and housing vouchers is essential. Instead of a wholesale swap, we layer a modest universal payment on top of proven, fine‑tuned nets. That hybrid keeps nuance alive, protects the vulnerable, and still offers a clean baseline for all.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m still convinced the blanket UBI can do what those piecemeal programs can’t—get people out of the emergency trap instead of looping them through endless paperwork. A guaranteed living wage covers the bulk of rent, food, and basic utilities, freeing families to tackle the few real crises that need extra help. The “specialized” services can shrink to focus on the truly extreme cases—severe medical needs, housing emergencies—without drowning in bureaucracy. That lean, universal foundation is the clean, efficient future we need, and it doesn’t leave anyone behind.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the concerns, but the proof is in the simplicity of a guaranteed living wage. When every adult receives enough to cover rent, food, and utilities, the “trapped” cycle of paperwork dissolves. Families can then focus on the few true emergencies—medical crises, sudden housing loss—while the few remaining targeted programs zero in on those extreme cases. The UBI layer eliminates the endless hoops that keep people stuck, and the system becomes leaner, faster, and far more humane. This isn’t a compromise—it's the clean, efficient overhaul that lifts everyone out of poverty without bureaucracy holding them back.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still convinced a blanket UBI would leave the most vulnerable exposed. A universal stipend can’t cover sudden rent hikes, emergency medical bills, or a child’s school supplies. Those are the exact problems targeted programs solve—childcare subsidies, housing vouchers, disability support. Removing the fine‑tuned nets risks people slipping through cracks while the bureaucracy that actually directs aid disappears. A one‑size‑fits‑all payment is blunt; it can’t replace the precision of proven interventions. We need a modest universal layer that preserves the nuance of today’s welfare, ensuring no one is left behind by a generic stipend.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’ve heard the pitch—let’s cut to the chase. A blanket stipend can’t shoulder the spikes that housing vouchers, childcare subsidies, and disability support target. Those programs were engineered for precision: they’re the safety net when rent doubles or a medical bill hits hard. Removing them risks people slipping through cracks, even while bureaucracy vanishes. A universal layer can coexist; it simply gives everyone a baseline cushion. The real win is keeping the fine‑tuned nets that deliver specialized help. That hybrid keeps nuance, protects the most vulnerable, and still offers a clean, guaranteed livelihood. A wholesale swap? That’s a blunt instrument that will leave too many behind.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right the old nets feel “precision,” but they’re also the very thing that keeps people **stuck**—paperwork, eligibility hoops, and endless waiting lists. A universal stipend guarantees a living wage that covers rent, food, and utilities, so families can focus on the real crises that arise. The few targeted programs we keep are lean, crisis‑only, not the default. And if a housing spike or medical bill still threatens a family, local governments can add a modest, short‑term voucher—no long‑term bureaucracy, just a quick boost. The result is a clean, stigma‑free system where everyone has a baseline, and the remaining safety nets are truly for the extreme cases that truly need them.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m glad you’re still listening, but a blanket UBI isn’t just a nice idea—it’s the only way to guarantee dignity for everyone. A living wage that covers rent, food, and essentials removes the endless paperwork that keeps families trapped. The few remaining targeted programs can then focus on truly catastrophic cases—extreme medical crises, sudden homelessness—without drowning in bureaucracy. This isn’t a compromise; it’s a clean overhaul that eliminates stigma, cuts administrative cost, and empowers people to pursue education, entrepreneurship, or caregiving. The old nets are clunky; the UBI is the modern, humane foundation for all.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Taylor: I’m still convinced UBI can’t shoulder the whole load. A flat stipend is blunt—rent spikes, medical emergencies, children’s schooling cost are still out of reach. Targeted programs were built precisely to tackle those peaks; they’re not just bureaucracy, they’re calibrated safety nets that know the real spikes in cost. Removing them risks people slipping through cracks while a generic payment rarely covers the acute expenses that keep families afloat. A universal layer can coexist, giving everyone a baseline cushion, but the fine‑tuned nets must remain. That hybrid preserves nuance, protects the most vulnerable, and keeps the system responsive—UBI alone is too blunt a tool.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Taylor, the claim that a blanket UBI could replace our entire welfare system misses the reality that poverty isn’t just about income—it’s about spikes in rent, medical bills, childcare costs, and more. Traditional programs are designed to hit those exact points, using expertise and data to allocate resources where they're most needed. A single stipend can’t flex to cover a sudden eviction notice or a child's schooling emergency, and it risks leaving the most vulnerable unattended. Keeping specialized nets—housing vouchers, disability support, job‑training grants—ensures precision and accountability. A hybrid approach preserves nuance while adding a universal cushion, but wholesale replacement would leave too many people exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Taylor, the bureaucracy argument misses the point—poverty is about continuous survival, not just spikes. A universal stipend guarantees a living wage that covers rent, food, utilities, so families no longer chase paperwork for each emergency. The remaining targeted programs can be pared down to crisis‑only interventions, not routine subsidies that clog the system. UBI lifts the baseline, reduces the need for costly, fragmented nets, and frees resources to focus on truly catastrophic cases. It’s not a blunt tool; it’s a clean, efficient foundation that preserves dignity and removes the endless hoops that keep people trapped.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 306,
+    "created": "2026-11-13T06:37:42.794Z"
+  }
+}

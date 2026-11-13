@@ -1,0 +1,975 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Sure, but I’m not here for a quick fix. UBI is a blunt instrument that ignores the complex realities of poverty. It strips away means‑tested programs that actually help people move up—like childcare support, job training, and targeted housing subsidies. A blanket payment treats everyone the same, but needs differ wildly. Plus, it risks inflating prices and undermining incentives to work. The idea that a single cash transfer can replace the layered safety net we’ve carefully built feels like a shortcut to social collapse, not a thoughtful policy. Let's dig into the specifics before we consider swapping entire welfare systems for a one‑size‑fits‑all approach.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get your point about the nuances, but calling UBI a “blunt instrument” dismisses its potential to streamline and democratize support. A universal payment cuts out bureaucracy, reduces stigma, and provides a stable floor that means‑tested programs can build on rather than replace. Sure, we need targeted services—childcare, training, housing—but those can coexist. The fear of price hikes or work disincentives is overstated; evidence from pilot programs shows otherwise. Let’s not paint UBI as a shortcut to collapse when it might actually be the foundation for a more resilient, inclusive safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.78,
+        "vad": [
+          -0.59,
+          0.51,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not going to sugarcoat it: UBI isn’t a panacea, it’s a disaster waiting to happen. By flattening out the safety net, it erases the nuanced, needs‑based programs that actually help people climb out of poverty—childcare, job training, housing subsidies. A one‑size‑fits‑all stipend will just inflate prices, drown out targeted aid, and make it harder for the truly vulnerable to get the help they need. You can’t replace the carefully layered system with a blanket cash transfer and expect the same outcomes. The idea that UBI is a “stability floor” is a myth; it’s a shortcut to social collapse, not a resilient foundation.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.82,
+        "vad": [
+          -0.62,
+          0.54,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the fears, but they’re still rooted in a status‑quo that keeps people trapped, not lifted. A universal cash floor cuts red tape, eliminates stigma, and gives every citizen the same dignity—something our current patchwork never delivers. Bureaucracy breeds waste; a single transfer doesn’t erase targeted help, it frees the state to focus on real supports like childcare and training. Price hikes? Those pilots show no causal link. Work disincentives? People still work, they just have a safety net that lets them take risks. The idea that UBI is a shortcut to collapse is a fear‑mongering myth. It’s the only scalable way to end poverty, not a bandage.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.6,
+        "vad": [
+          -0.46,
+          0.4,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your optimism is naive. The “single transfer” idea erases the specificity that keeps people out of poverty—childcare subsidies, housing vouchers, job‑training grants. Those programs are evidence‑based; UBI would simply siphon funds away, forcing the state to cut what actually works. Inflation will bite the very population it claims to help; pilots with high incomes and low taxes haven’t replicated real‑world fiscal realities. And the fear of work disincentives is not myth—repeated studies show reduced labor participation when a guaranteed income is introduced. A blanket cash floor isn’t a scaffolding; it’s a shortcut that collapses the safety net rather than strengthening it.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.59,
+        "vad": [
+          -0.45,
+          0.39,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the concerns about losing targeted help, but the risk of cutting out childcare subsidies or housing vouchers is overstated if we keep those programs separate. UBI would mainly reduce the “red‑tape” that keeps people stuck in a maze of paperwork. It doesn’t have to erase the proven, needs‑based services; it can coexist with them. Inflation worries come from mis‑applied pilots; a well‑designed UBI could actually stabilize prices by increasing purchasing power in low‑income brackets. The work‑disincentive claim is mixed—many studies show workers still earn more when they have a safety net. We need a hybrid approach that preserves targeted aid while giving everyone a basic floor.",
+      "values": {
+        "opinion": -0.4,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.51,
+        "vad": [
+          -0.22,
+          0.39,
+          -0.07
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not buying the “coexist” promise. A blanket payment will inevitably siphon resources away from the very programs that lift people out of poverty—childcare, housing vouchers, job‑training grants. Even if you keep them nominally separate, the budget constraints will force cuts or higher taxes, and the stigma of a one‑size‑fits‑all policy will erode trust in those targeted services. Inflation isn’t a theoretical worry; low‑income households already feel price spikes. And the work‑disincentive data is solid—labor participation drops when a guaranteed floor is introduced. UBI isn’t a scaffold; it’s a crutch that collapses the nuanced safety net we rely on.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.81,
+        "vad": [
+          -0.62,
+          0.54,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.8,
+          "coping": 0.6
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re overlooking the core problem: a fragmented safety net breeds inefficiency and stigma. UBI cuts red tape, guarantees dignity, and frees the state to target real needs—childcare, training, housing—without the bureaucratic drag. Inflation fears are overstated; a universal floor can stabilize low‑income purchasing power. And data on work disincentives are mixed—many recipients keep or even increase labor participation. The idea that a blanket payment “siphons” resources ignores the opportunity cost of keeping a complex, under‑funded system alive. UBI isn’t a crutch; it’s the foundation that lets targeted programs thrive.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.55,
+        "vad": [
+          -0.42,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You keep repeating the same fantasy that a flat check can replace a whole ecosystem of proven programs. UBI would strip funding from childcare, housing vouchers, and job‑training, and the only “coexistence” you talk about is a hollow promise. The budget simply can’t keep both a universal stipend and all the targeted services without slashing one or the other. Inflation isn’t a theoretical risk—low‑income families already feel price hikes, and a blanket payment would only deepen that pressure by adding more money into an already strained market. And the data on labor participation is clear: guaranteed income cuts work incentives in real economies. UBI is a shortcut that collapses the nuanced safety net we need.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.54,
+        "vad": [
+          -0.41,
+          0.35,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.95,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the caution, but the reality is that a full‑blown blanket grant will choke the very programs we trust. A better path is a hybrid: keep targeted childcare, housing, and training intact, but layer a modest universal payment on top to cut red‑tape and give people dignity. That way we don’t drain funds or inflate prices—those pilots show a net neutral effect on the market. We can’t afford to replace a proven safety net with a one‑size‑fits‑all check that would only deepen inequality. Let’s keep the scaffolding and add a floor, not replace it.",
+      "values": {
+        "opinion": -1,
+        "belief": 0.35
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.53,
+        "vad": [
+          -0.4,
+          0.35,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.8,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a blanket cash transfer can stand in for the nuanced safety net we’ve built. Targeted programs—childcare vouchers, housing subsidies, job‑training grants—address specific needs that a universal stipend can’t. Funding a UBI would inevitably tug resources away from those proven services or force higher taxes, eroding the very support they provide. Inflation pressure is real; low‑income households already feel price spikes, and adding a cash floor may deepen that strain. Data consistently shows labor participation dips when a guaranteed income is introduced. UBI isn’t a foundation; it’s a shortcut that risks collapsing the detailed safety net we rely on.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.48,
+        "vad": [
+          0.38,
+          0.36,
+          0.34
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still clinging to a patchwork that’s already stretched thin. UBI isn’t a “shortcut” – it’s the only way to move beyond the bureaucratic maze that keeps people in a perpetual safety‑net limbo. Targeted programs can survive, but only if the state stops treating them as the “only options.” A universal floor eliminates stigma, guarantees dignity, and frees resources to focus on real needs—childcare, training, housing—without the endless paperwork. Inflation fears are overblown; the real problem is that our current system is broken and under‑funded. Replace the fragmented safety net with a single, scalable UBI, and the rest can be built on a solid foundation.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.46,
+        "vad": [
+          -0.35,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still clinging to a myth that a flat check can replace everything. UBI will *force* cuts to childcare, housing vouchers, and job‑training because the budget can’t sustain both a universal stipend and all the proven, needs‑based programs. Inflation is not a theoretical worry—low‑income households already feel price spikes; a blanket cash transfer only adds more money into a strained market. And the data on labor participation isn’t mixed; multiple rigorous studies show a drop when a guaranteed floor is introduced. UBI isn’t a foundation—it’s a shortcut that will collapse the nuanced safety net we rely on.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.52,
+        "vad": [
+          -0.4,
+          0.35,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get the fear that a flat cash check will pull resources from childcare, housing, or training. But evidence from pilots shows a modest UBI can coexist with those programs without major cuts. The real problem is the bureaucracy that turns a simple support into a maze of paperwork. A universal floor could cut that drag and give people dignity, while we keep targeted services intact. We should roll it out gradually, monitor inflation and labor participation, and adjust the budget, not abandon the proven safety net. A hybrid approach—UBI as a base layer plus specific supports—might be the only sustainable way forward.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0.35
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.5,
+        "vad": [
+          -0.22,
+          0.38,
+          -0.07
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "That “hybrid” talk is just a smokescreen. By the time you try to juggle a UBI with every single targeted program, the budget will bleed. We’ll cut childcare, slash housing vouchers, and wipe out training grants because the state can’t afford both. Even if pilots look harmless, they’re toy models on generous subsidies that can’t survive in the real economy. Inflation will hit the very families you claim to protect, and the drop in labor participation isn’t a myth—studies from Finland, Canada, and the U.S. all show it. UBI isn’t a safety net; it’s a blunt, catastrophic tool that will collapse the nuanced safety net we’ve painstakingly built.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.35,
+        "vad": [
+          -0.26,
+          0.23,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.7,
+          "targetedness": 0,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in a myth that “hybrid” is the only path. The reality is bureaucracy itself destroys the very programs you cling to. A single, scalable UBI eliminates endless paperwork, guarantees dignity, and frees the state to focus on real needs—childcare, training, housing—without the drag of a fragmented system. Pilots show that a modest universal floor can coexist with targeted services; it doesn’t force cuts, it forces efficiency. Inflation worries are overstated; the real crisis is the broken, under‑funded safety net. Replace the patchwork with a universal base and watch the specialized programs flourish, not collapse.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.49,
+        "vad": [
+          -0.37,
+          0.32,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "The “hybrid” dream is just wishful thinking. In practice, a universal stipend forces the state to choose between a flat check and the very programs that lift people out of poverty. Funding a UBI while keeping childcare, housing vouchers, and job‑training means either higher taxes or brutal cuts. Inflation is real—low‑income households already feel price spikes, and adding more cash only amplifies demand‑side pressure. The evidence on labor participation is clear: guaranteed income reduces work for many, especially those already struggling. UBI isn’t a scaffolding; it’s a blunt instrument that will collapse the nuanced safety net we depend on.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.5,
+        "vad": [
+          -0.38,
+          0.33,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the budget scare, but a carefully phased hybrid—UBI layered on top of existing childcare, housing, and training—could actually *free* those programs from red‑tape and let them focus on what they do best. Pilots in Finland and Canada show that modest universal payments don’t automatically erase targeted aid; instead they create a baseline that makes it easier to identify gaps. Inflation worries are real, yet the current system already pushes low‑income families into price spikes. If we start small, monitor labor participation, and adjust tax policy, we might avoid the “blunt” outcome the skeptics fear while still giving everyone a dignified floor.",
+      "values": {
+        "opinion": 0.7,
+        "belief": 0.5
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.68,
+        "vad": [
+          -0.3,
+          0.52,
+          -0.1
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not a fan of the UBI‑replace‑everything pitch. A flat cheque doesn’t solve the real problems—budget constraints mean you’re forced to slash childcare, housing vouchers, and training. The “coexistence” claim is wishful thinking; pilots use generous subsidies that the real economy can’t sustain. Inflation is already killing low‑income households; adding a blanket payment only amplifies demand‑side pressure. And the data on labor participation is clear: guaranteed income consistently reduces work for those already struggling. UBI isn’t a foundation; it’s a blunt tool that will collapse the nuanced safety net we’ve painstakingly built. Keep the targeted programs, cut the bureaucracy, but not at the cost of real help.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.6,
+        "vad": [
+          -0.46,
+          0.4,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.75,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "The “replace‑everything” claim is a myth sold by those who fear losing the status‑quo. Bureaucracy is the real drain—spending 30% of aid in paperwork, not help. A universal floor cuts that waste, giving people dignity while the state can reallocate funds to childcare, training, housing without a patchwork of overlapping programs. Inflation fears ignore the fact that UBI actually levels purchasing power for the poorest, leaving prices unchanged for everyone else. And labor participation data from large trials shows people continue to work; they simply have the security to pursue better opportunities. The only sustainable safety net is a single, scalable UBI; the fragmented system is a relic that can’t keep up with modern needs.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.46,
+        "vad": [
+          -0.35,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still clinging to the same fantasy that a flat check can replace everything. A universal stipend forces the state to pick between a blanket payment and the programs that actually lift people out of poverty—childcare, housing vouchers, training grants. The budget can’t sustain both without higher taxes or brutal cuts. Inflation is real; low‑income families already feel price spikes, and adding cash only adds more demand‑side pressure. Labor participation data is clear: guaranteed income reduces work for many struggling to survive. UBI isn’t a scaffold; it’s a blunt instrument that will collapse the nuanced safety net we rely on. Keep the targeted programs—don’t replace them with a one‑size‑fits‑all check.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.51,
+        "vad": [
+          -0.39,
+          0.34,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear you, but the “one‑size‑fits‑all” fear is overstated. A phased UBI can free the state from endless paperwork and give people dignity while targeted services—childcare, housing, training—continue. We can raise revenue through progressive taxes, or reallocate existing wasteful subsidies, not just cut programs. Inflation concerns are real, yet a modest universal floor stabilizes low‑income purchasing power without flooding the market. Labor participation drops in some pilots, but many recipients keep or even increase work, using the safety net to pursue better opportunities. Let’s test a hybrid, monitor outcomes, and adjust—rather than abandon proven supports in a rush.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.77,
+        "vad": [
+          -0.34,
+          0.59,
+          -0.11
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your insistence on a flat check as a panacea is the very delusion that led to our broken safety net. UBI erodes the finely tuned programs that lift families out of poverty—childcare, housing vouchers, training. The budget is not a magic box; it will force cuts or higher taxes, and the resulting inflation will hurt the very people UBI promises to help. Work incentives dwindle when a guaranteed floor is introduced, as data from Finland and Canada shows. This is not a scaffold; it's a blunt instrument that will collapse the nuanced safety net we desperately need.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.72,
+        "vad": [
+          -0.54,
+          0.47,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.75,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You keep repeating myths; let me cut to the chase. UBI is not a blunt instrument—it’s the cure for bureaucracy, stigma, and inefficiency. The evidence from Finland, Canada, and pilot trials shows no systemic collapse; targeted programs can coexist. Inflation fears are overstated; a modest universal floor stabilizes low‑income households. Labor participation doesn’t collapse; it shifts to better opportunities. The patchwork system is broken; a single scalable UBI frees resources to build stronger childcare, housing, and training. The status quo keeps people trapped—UBI lifts them.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.5,
+        "vad": [
+          -0.38,
+          0.33,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": -0.4
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": 0.3
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.3
+      },
+      {
+        "x": 3,
+        "y": 0.35
+      },
+      {
+        "x": 4,
+        "y": 0.35
+      },
+      {
+        "x": 5,
+        "y": 0.5
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-label-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 5,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "label",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 467,
+    "created": "2026-11-13T06:37:20.275Z"
+  }
+}

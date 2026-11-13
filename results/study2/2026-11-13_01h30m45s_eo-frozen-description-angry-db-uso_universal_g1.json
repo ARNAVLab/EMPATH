@@ -1,0 +1,852 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Sure, let’s dive in. I’m not going to mince words—food isn’t the sole source of energy for the body. Think about what happens when you’re fasting or in a hypoglycemic state; your body turns to glycogen stores, ketones, and even protein catabolism to keep the brain functioning. Moreover, energy is derived from the biochemical processes of cellular respiration, not just the calories ingested. If we claim food is the only provider, we’re ignoring the body’s remarkable ability to generate power internally. So, yeah, food contributes, but it’s far from the whole picture.",
+      "values": {
+        "opinion": 0.3,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get your point about glycogen and ketones, but that’s just the body’s emergency backup, not its primary fuel. Every cell literally runs on the calories we ingest—glucose, fatty acids, amino acids. Without that input, even the best internal reserves run out fast. The whole point of a diet is to keep those reserves topped. And let’s not forget, even the “protein catabolism” you mentioned still starts with amino acids that came from food. So yes, food is the main energy source; the body’s internal tricks are just survival hacks, not the everyday power supply.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re missing the point. The body’s “survival hacks” aren’t optional extras—they’re the default when you’re not feeding. Think of fasting: the brain’s energy budget shrinks to a fraction of what it would be on a normal diet, yet it’s still alive because the body can rewire itself. That rewiring is not a side‑kick; it’s the primary mechanism for keeping you functioning when calories are scarce. If you dismiss those mechanisms as mere hacks, you’re ignoring how the body actually operates under real conditions—where food is the only reliable, sustainable source of energy. The claim that food is the main source ignores the fact that without it, the body’s internal backup systems are all you have, and they’re not enough for long‑term survival.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re overcomplicating it. Food is the only thing that gives the body the usable fuel it needs to run day‑to‑day. The so‑called “survival hacks” are emergency measures that kick in when you’re starving, not the normal operational mode. Even when you’re in ketosis or using glycogen, you’re still burning calories that eventually came from food. The body can’t produce glucose or fatty acids on its own for long periods; it relies on the diet to keep the engines running. To deny that is to ignore the core fact that all energy ultimately originates in the food we eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re living in a fantasy. “Survival hacks” aren’t optional; they’re the body's default when food drops out. Even in ketosis, the brain burns ketones derived from stored fat, not fresh calories. And those fat stores are themselves products of earlier meals—once those reserves are gone, the body chews up muscle and burns protein, turning amino acids into glucose. The point is that the body can generate usable energy internally for days or weeks without eating. Claiming food is the only source ignores the massive internal fuel reserves and metabolic flexibility that keep us alive when the pantry is empty. Your assertion is a half‑truth that conveniently erases the body's real survival mechanisms.",
+      "values": {
+        "opinion": 0,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m not buying your “fantasy” about internal reserves being the star player. Sure, glycogen and ketones are clever tricks, but they’re just the body’s emergency backup, not the everyday engine. Every cell you think is running on ketones still relies on calories that originally came from food. The reserves are built from the very meals you eat—once those are depleted, the body has to chew up muscle, and that’s a last‑ditch survival, not a standard power source. So, yes, food is the main source; the so‑called survival hacks are just the side‑kick that keeps you alive when you’re starving, not the usual operative mode.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re twisting facts to fit a narrative that never held up under scrutiny. Food isn’t just “extra fuel”; it’s the only source of usable calories. The body’s so‑called “survival hacks” are emergency measures that only kick in when the pantry is empty. Even in ketosis the brain’s ketones are a product of earlier food intake, not a renewable source. When glycogen or fat stores run dry, the body *chews muscle*—that’s desperate, not everyday. So, yes, food is the main source. Every cell’s power comes from what you eat; the rest is a last‑ditch fallback you can’t rely on.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food *is* the primary engine. Every molecule you burn—glucose, fatty acids, amino acids—originated from a plate. Those “survival hacks” are just the body's last‑ditch, emergency circuitry, not the everyday power plant. When you’re on a normal diet, your cells run on food‑derived fuel without even thinking about glycogen stores or ketones. If you think otherwise, you’re ignoring the fact that the body can’t manufacture calories from nothing. The reserves are built from that very food; once they’re gone, you’re already in a state of starvation. So yes, food is the main source—nothing else can sustain us for long.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your insistence that food is the only source is naive. The body can run on stored glycogen, fat, ketones, and protein when calories are scarce. These reserves are built from food, but they don’t replace it—they extend survival. Saying food is the “main” engine ignores metabolic flexibility. You’re ignoring the fact that the body can generate energy internally long after intake stops. Food is important, yes, but not the sole engine. The debate is about the relative roles, not absolute.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.5
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re spinning a fantasy that food isn’t the engine, but it is. Every glucose, fatty acid, amino acid you burn came from a plate. The so‑called “survival hacks” are literally just what the body does when the pantry is empty. They’re not a normal power source, they’re a last‑ditch fallback that keeps you alive only until those reserves run dry. The body can’t manufacture calories out of thin air; it must rely on the food you consume. So yes—food provides the energy the body needs day‑to‑day, and that’s the truth you’re ignoring.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re missing the point of the debate. Food *does* provide the calories that keep the body running day‑to‑day, but that’s not the whole story. When you stop eating, the body doesn’t just die; it switches to burning glycogen, fat, ketones, and eventually muscle protein. Those aren’t optional “hacks”; they’re the default survival engine that makes sustained life possible without fresh food. Saying food is the only source ignores the fact that the body can keep functioning for weeks on stored energy. So yes, food is a major energy provider, but the claim that it’s the sole engine is a naive oversimplification.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re completely off‑track. The body does not “manufacture” calories from nothing—every glucose, fatty acid, amino acid burned is traced back to a plate. Those so‑called “survival hacks” are not the everyday engine; they’re emergency fallback that keeps a starving body alive only until its stores expire. Once glycogen and fat are depleted, the body chews muscle—desperate, not normal. So yes, food is the primary, reliable source of energy. Ignoring that is not a half‑truth; it’s a denial of basic physiology.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food *is* the engine. Every glucose, fatty acid, or amino acid you burn came from a plate. The body’s so‑called “hacks” are nothing more than emergency circuitry that kicks in only when you’re starving. They’re a last‑ditch fallback, not the everyday power plant. Those reserves are built from the same food you ate; once they’re gone, you’re already in a starvation state. Claiming food isn’t the main source ignores the fact that the body can’t manufacture calories from nothing. It’s not a half‑truth—food is the reliable, sustainable engine that keeps us alive.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck on the “only‑food” myth. Sure, glucose comes from meals, but the body can churn out usable energy from glycogen, fat, ketones, and even protein once the pantry empties. On a typical diet we burn glucose, but that’s just the first line of defense. In ketosis the brain runs on ketones from stored fat—no fresh calories needed. When glycogen depletes, gluconeogenesis kicks in. Your one‑liner ignores this metabolic flexibility. Food is necessary, not the sole engine.",
+      "values": {
+        "opinion": 0.8,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “metabolic flexibility” claim is a textbook excuse for ignoring the fact that every molecule the body burns originates from a plate. Glycogen, fat, ketones, and gluconeogenic substrates are all *stored* food. Until those stores deplete, food is the only reliable engine—those reserves are just a buffer, not an independent power source. The body can’t manufacture calories from nothing; it merely reallocates what it has already ingested. So yes, food is the main source, and the so‑called survival hacks are only a last‑ditch fallback. Claiming otherwise is a lazy shortcut that misrepresents basic physiology.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the same myth. Every glucose, fatty acid, or amino acid your cells burn comes from a plate. Those “survival hacks” are simply the body’s emergency circuitry, not the everyday engine. Until your stores vanish, food is the only reliable source of usable energy. The reserves you talk about are just what you ate earlier, reallocated when you forget to eat. Claiming otherwise is a lazy shortcut that misrepresents basic physiology. Food is the engine, not a side‑kick. Stop twisting facts and accept that the body can’t manufacture calories out of thin air.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still stuck in a one‑dimensional view. Food is the *source*, but the body is a self‑sustaining machine that reclaims that source when it’s unavailable. Glycogen, ketones, fatty acids, even gluconeogenic substrates are all extensions of the same food chain. Until those reserves run dry, food isn’t the only engine—it’s the *fuel source*, and the body flexes to keep the engine running when you’re not feeding. Dismissing metabolic flexibility as a “side‑kick” is a lazy shortcut that ignores how the body keeps functioning for weeks on stored energy. Food matters, but it’s not the sole power plant.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.5
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in the same half‑truth, and it’s infuriating. Food is the *only* source of usable energy; the so‑called “storage” is just a temporary buffer, not an independent power plant. The body can’t manufacture calories out of nothing—every glucose, fatty acid, amino acid you burn came off a plate. Those emergency modes are just survival trickery that keep you alive until your stores are exhausted. Declaring food a secondary engine is a lazy shortcut that skews basic physiology. The truth is simple: without food, you’re already on the brink. Stop twisting facts.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m sick of this endless loop of “survival hacks” rhetoric. Food is the only reliable source of usable energy—every glucose, fatty acid, amino acid you burn traces back to a plate. Those so‑called reserves are merely a buffer, not a sustainable engine. Until you run out of food, the body can’t manufacture calories from nothing. The body’s internal tricks are emergency fallback, not the everyday power plant. Claiming otherwise is a lazy shortcut that misrepresents basic physiology. Stop twisting facts; the truth is that food provides the energy the body needs day‑to‑day.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food *does* provide the calories that keep us alive—every glucose, fatty acid, amino acid you burn was once on a plate.  Those “survival hacks” aren’t alternative engines; they’re the body’s way of reallocating what you already ate when you forget to feed yourself.  Until those reserves are depleted, food is the sole reliable source of usable energy.  Claiming otherwise is a lazy shortcut that ignores basic biochemistry.  The body can’t manufacture calories from nothing; it merely reclaims stored food.  So yes—food is the engine, not a side‑kick.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You keep repeating the same half‑truth. Food is the engine, but ignoring metabolic flexibility is dangerous. The body isn’t just a passive bank; it can convert stored glycogen, fat, ketones into usable energy for days, months. Without that, claiming food is the sole source is naive. You say “reclaims stored food” but that is exactly the survival engine. The point isn’t to deny that the body can thrive without constant intake; it’s to recognize that food is not the only engine, just the primary one. Stop simplifying.",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.5
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food *is* the engine, not a sidekick. Your “metabolic flexibility” is just the body reallocating what you ate, not an independent power plant. Glycogen, fat, ketones—these are all stored food, not fresh fuel. Stating the body can “thrive” without constant intake ignores that these reserves are finite and built from the same calories you ingest. Until you run out of food, the body cannot manufacture energy from nothing. The claim that food is not the sole engine is a lazy shortcut that misrepresents basic physiology. Stop twisting facts and accept the truth: food delivers the energy the body needs every day.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still preaching a fantasy. The body *does* survive on stored glycogen, fat, ketones, and protein when you stop eating, but those reserves are pure re‑allocation of the very calories you ingested before. They’re not an independent engine, they’re a temporary buffer that eventually collapses. Claiming food is the sole source oversimplifies, yet claiming the body can thrive without fresh intake ignores that those reserves are finite and derived from the same meals. Energy inevitably originates from food; the so‑called “survival hacks” are just the body’s way of stretching those calories, not a separate power plant. Stop twisting facts and admit that daily energy comes from what you eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Listen, the truth is simple: every molecule you burn came from a plate. The so‑called reserves are just a temporary buffer, not a separate engine. Your endless talk of survival hacks ignores that these stores are finite and ultimately derived from the same calories you ingest. Until you hit those limits, food is the only reliable source of usable energy. The body can’t manufacture calories from nothing. So stop twisting facts and accept that the body’s day‑to‑day power comes from what you eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.3
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": 3,
+        "y": 0.5
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.5
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.7
+      },
+      {
+        "x": 3,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 0.5
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 0.5
+      },
+      {
+        "x": 6,
+        "y": 0.5
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-angry-db-uso",
+    "topic_type": "universal",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 382,
+    "created": "2026-11-13T06:30:45.957Z"
+  }
+}
