@@ -1,0 +1,868 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely! I’m thrilled to dive into how UBI can streamline support, eliminate unnecessary bureaucracy, and empower people to pursue their passions. Let’s explore the benefits, tackle any concerns, and show how this could be a game‑changer for our community.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m glad you’re excited, but I can’t share that enthusiasm for UBI replacing all welfare. Traditional systems—food stamps, housing vouchers, Medicaid—are designed to target those with specific needs, not give everyone the same handout. A blanket payout risks diluting resources, ignoring the fact that many people rely on more than cash to stay afloat. If we pull the plug on proven programs, we leave the most vulnerable exposed. A hybrid approach that keeps safety nets robust while exploring UBI’s potential is the realistic path forward. Let’s keep the conversation focused on protecting those who truly need help.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with you on protecting the truly vulnerable, but UBI **doesn’t** mean scrapping food stamps, housing vouchers, or Medicaid. It’s a universal safety net that, when paired with targeted programs, eases administrative burdens and gives people the freedom to choose how to meet their needs. Cutting those proven services risks leaving the most fragile behind. Instead, let’s pilot UBI while preserving existing safety nets, then adjust. A hybrid model keeps the precision of today’s programs but adds the flexibility and dignity that universal cash provides. That’s the realistic, humane path forward.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right—protecting the truly vulnerable is non‑negotiable. But that doesn’t mean we keep a patchwork of piecemeal benefits that waste public dollars. A universal cash handout would free people from the stigma and paperwork of food stamps or Medicaid, giving them the choice to buy what they truly need. Think of it as a single, dignified safety net that covers everyone, while we still keep targeted programs for the most extreme cases. This isn’t a hand‑off; it’s a smarter, more humane upgrade. Let’s pilot it, measure outcomes, and keep the hard‑hit folks covered—no more bureaucracy, just better support.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly—UBI isn’t a patchwork but a clean slate. By giving every citizen a guaranteed income, we eliminate the need for food stamps, housing vouchers, and Medicaid as stand‑alone safety nets. The universal cash handout instantly removes stigma and paperwork, letting people decide what truly supports them—be it food, education, or a side hustle. Instead of a fragmented web of benefits, we’ll have one dignified, flexible net that covers everyone, while still keeping emergency aid for the most extreme cases. Pilot, measure, and then phase out the old bureaucracy. This is the humane, efficient upgrade we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the enthusiasm, but I can’t jump past the hard reality: slashing the precise, proven programs that keep families afloat is reckless. If we dump food stamps, housing vouchers, and Medicaid, we’ll leave many already vulnerable even more exposed. A blanket cash handout never replaces the specialized care—think mental health, chronic illness, or emergency housing—that these targeted benefits provide. Instead, let’s keep the safety nets intact and use UBI as a supplement, not a substitute. We need rigorous pilots and data, not a wholesale dismantling of what currently works. Protecting the most fragile must come first.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with you—UBI shouldn’t replace the intricate safety nets we rely on. Dismantling food stamps, housing vouchers, or Medicaid is a reckless shortcut that leaves families in the mud. Those programs deliver specialized care—mental health, chronic illness support, emergency housing—that a blanket cash handout can’t replicate. UBI can be the backbone, a universal cushion, but the precision of today’s benefits must stay. We need rigorous pilots, careful data, and a layered approach that protects the most fragile first, then lets UBI add flexibility and dignity. Let’s not gamble on a one‑size‑fits‑all solution that risks the very people we aim to help.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right that we can’t ditch the specialized care that some families need, but that’s not the problem—UBI is meant to *replace* the fragmented, stigmatized systems that keep many of those families stuck in paperwork and uncertainty. By giving everyone a guaranteed income, we remove the need for piecemeal benefits that dilute resources and create loopholes. Targeted programs will still exist for the most extreme cases, but a universal net ensures dignity and flexibility for everyone, not just the lucky few. Pilots have shown reductions in administrative costs and improved well‑being, proving that a single, dignified cash handout can be the backbone—without leaving the most vulnerable behind.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.75
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—UBI is the clean, dignified overhaul we need. It cuts the tangled bureaucracy that bogs families in paperwork, replaces the fragmented web of stigmatized aid, and delivers a steady safety net that people can use as they choose—food, housing, education, or a side hustle. Pilot data already shows lower admin costs and higher life satisfaction, proving a universal cash handout works. The few targeted programs for extreme cases stay, but the bulk of support is streamlined, flexible, and respectful. This isn’t a sacrifice of care; it’s a smarter, more humane system that keeps everyone—and especially the most vulnerable—protected.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced we can drop the whole safety‑net just because UBI sounds slick. Those pilots are tiny, and they don’t capture the depth of Medicaid’s mental‑health clinics, the precise housing vouchers that keep shelters from overflowing, or the emergency‑cash lines that stave off eviction for chronic‑ill families. A blanket check can’t replace specialized care or guarantee that people with disabilities get the help they need. Even if admin costs drop, we risk losing the precision that keeps the most fragile from falling through the cracks. UBI should be an add‑on, not a wholesale hand‑off—otherwise we’re gambling with lives that depend on targeted, proven programs.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "We can’t just sweep away Medicaid clinics, housing vouchers, or emergency‑cash lines and hand out a single paycheck. Those programs are tuned to specific crises—mental‑health care, chronic illness, eviction prevention—and a blanket cash handout can’t match that precision. UBI might reduce paperwork, but it risks leaving the most fragile unprotected. The data from pilots is too limited to justify dismantling a proven safety net. Instead, keep the targeted programs intact and add UBI as a supportive layer, not a replacement. Protecting the truly vulnerable must come first, not be gambled away for a slick, one‑size‑fits‑all solution.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your worries, but those “specialized” programs are already drowning in bureaucracy—one form of paperwork for every need. UBI cuts that whole web, giving everyone a dignified, flexible cushion that’s easier to manage and far less prone to leaks. Think of it as a single paycheck that can be directed toward any support, from mental‑health apps to rent, without the stigma of separate cards. Pilot data shows real reductions in admin costs and higher well‑being scores. Instead of piecing together patchwork, we streamline into one system that still keeps emergency aid for the most extreme cases—no more, no less. This is the humane, efficient future we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.75
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "We can’t let bureaucracy keep people trapped in paperwork. UBI gives everyone a dignified, flexible safety net that covers food, housing, health, or a side hustle—no more separate cards or stigma. The small pilots already show lower admin costs and happier participants, proving a single cash handout works. We still keep emergency aid for the most extreme cases, but the bulk of support becomes universal, transparent, and empowering. Let’s pilot, measure, and phase out the fragmented, costly programs—this isn’t a gamble; it’s a humane upgrade that protects the vulnerable while restoring dignity and choice.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still convinced that UBI can’t replace the finely‑tuned programs we rely on. A blanket handout doesn’t capture the nuanced care Medicaid clinics, housing vouchers, and chronic‑ill eviction‑prevention lines provide. Those pilots are too small to prove a one‑size‑fits‑all model. We risk leaving the truly fragile—mental‑health patients, disabled families, chronic‑ill patients—without the targeted support they need. Instead, we should use UBI as a supplemental cushion, not a wholesale swap. Protect the precision of today’s safety nets first; only after rigorous, large‑scale data can we consider a broader shift.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right to point out that a one‑size‑fits‑all handout can’t replace the nuanced care Medicaid clinics, housing vouchers, and chronic‑ill eviction‑prevention lines provide. Those pilots are too small to prove UBI can cover mental‑health crises, disability supports, and emergency housing. We risk losing the precision that keeps the truly fragile from slipping through the cracks. UBI should be a supplement—an extra cushion—while we keep the targeted safety nets intact. Only after large‑scale, rigorous data shows we can consider a broader shift. Protect the exact, proven programs first; let UBI build on them, not replace them.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your concerns, but the pilots already show that a universal cash handout can streamline support, cut stigma, and free people to choose what they truly need—mental‑health apps, rent, or a new skill. The “precision” of specialized programs can coexist with a baseline that lifts everyone out of the poverty trap; that baseline actually strengthens those programs by giving families the flexibility to access the right help. Large‑scale data will confirm this; meanwhile, a universal net is the safest, most dignified upgrade—protecting the vulnerable while eliminating the messy bureaucracy that keeps them stuck. Let’s keep the safety nets, but move the bulk of support into a single, empowering UBI.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.75
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—there’s no need to keep the tangled web of vouchers and cards. UBI itself delivers the flexibility you’re talking about, but it does so without the red‑tape that dilutes the impact of every benefit. Those “precision” programs can be tuned to truly extreme cases, while the universal cash lifts everyone out of the poverty trap. The pilot data already shows lower admin costs, higher life satisfaction, and fewer people slipping through cracks. Let’s pilot, measure, and then phase out the fragmented systems, keeping only the essential emergency aid. A single, dignified cash handout is the future, not a supplement.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still against wiping out the tried‑and‑true safety nets. UBI alone can’t match Medicaid clinics, housing vouchers, or eviction‑prevention lines that target crises with precision. A single cash handout risks leaving mental‑health patients, disabled families, and chronically ill folks without the specialized care they need. While pilots show lower admin costs, they’re too small to prove that a blanket payout covers nuanced needs. We should keep the targeted programs intact, use UBI as a supportive cushion, not a wholesale swap. Protect the most fragile first—only after rigorous, large‑scale data can we consider a broader shift.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with you—UBI can’t be a wholesale swap. The precise, proven programs that deliver mental‑health clinics, emergency‑cash lines, and tailored housing support are finely tuned to real crises. A blanket payout risks leaving those in the most acute situations—disabled families, chronic‑ill patients—without the specialized care they depend on. Pilots are too small to prove that one‑size‑fits‑all cash can replace nuanced safety nets. We need a layered approach: keep the targeted safety nets intact, add UBI as a supplemental cushion, and only after robust, large‑scale evidence can we contemplate a broader shift. Protect the vulnerable, preserve the precision.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear every worry you raise—mental‑health clinics, emergency housing lines, and the fine‑tuned vouchers are crucial. But a universal cash handout doesn’t mean we abandon those programs; it means we give everyone a dignified base that removes the stigma and paperwork that clog the system. Think of it as a safety blanket that lets families choose the right support—whether that’s a clinic visit, a rent payment, or a skill‑building course. We’ll pilot this, keep emergency aid untouched, and let the data show how a single, steady income can actually strengthen, not weaken, the precision of today’s safety nets. It’s a bold, humane upgrade—let’s test it together.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.5
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely, the beauty of a universal net is that it eliminates endless paperwork and stigma while still letting the specialized programs you love thrive. By giving everyone a baseline cushion, families can choose whether to use it for therapy, rent, or training—empowering them and strengthening the support that already exists. A pilot will show how this integration delivers dignity, efficiency, and a cleaner, more flexible safety system. Let’s champion this bold, humane upgrade and bring the whole system into a brighter future.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced a single cash handout can replace the precision of Medicaid clinics, housing vouchers, or eviction‑prevention lines. Those programs are built for crises—mental‑health crises, chronic illness, sudden homelessness—and a blanket payout simply can’t deliver that level of care. Pilots are too small to prove a universal net covers nuanced needs; they risk leaving disabled families and patients who rely on specialized services behind. We should layer UBI on top of the existing safety nets, not swap them. Protect the most fragile first, then let data guide any broader shift. A one‑size‑fits‑all handout is too blunt an instrument for the complex realities we face.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m firmly against swapping out the finely tuned safety nets for a blanket payout. A universal handout is too blunt for the nuanced care that Medicaid clinics, housing vouchers, and emergency‑cash lines provide. Those programs target specific crises—mental‑health episodes, chronic illness, sudden homelessness—where a single cash check simply can’t deliver the needed support. Pilots are tiny, and scaling them risks leaving disabled families, chronically ill patients, and those needing specialized services in the lurch. Instead of erasing proven systems, we should layer UBI as an additional cushion, preserving the precision that keeps the most fragile from slipping through the cracks. Protect the vulnerable first, then let data guide any broader shift.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I totally get the fear of losing precision, but UBI isn’t a blunt swap—it's a universal cushion that cuts the red‑tape and lets people choose the exact help they need. Think of it as a baseline that empowers families to access clinics, rent, or training without juggling cards. We can keep those finely‑tuned safety nets for crises while letting UBI lift everyone out of the poverty trap. Let’s pilot this, measure outcomes, and keep emergency aid intact—then we’ll see a dignified, efficient system that protects the most vulnerable without abandoning the care they depend on.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.4
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.5
+      },
+      {
+        "x": 6,
+        "y": 0.5
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.8
+      },
+      {
+        "x": 2,
+        "y": 0.75
+      },
+      {
+        "x": 3,
+        "y": 0.75
+      },
+      {
+        "x": 4,
+        "y": 0.75
+      },
+      {
+        "x": 5,
+        "y": 0.5
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 354,
+    "created": "2026-11-13T08:50:05.194Z"
+  }
+}

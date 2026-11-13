@@ -1,0 +1,984 @@
+{
+  "characters": [
+    {
+      "name": "Noah Sinclair",
+      "profession": "Writer",
+      "personality": "INFP",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Lucas Meyer",
+      "profession": "Motivational Speaker",
+      "personality": "ENFP",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Henry Walsh",
+      "profession": "Military Officer",
+      "personality": "ESTJ",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Claire Bennett",
+      "profession": "Psychologist",
+      "personality": "INFJ",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Claire Bennett",
+      "content": "I’m ready to dive in, and I’m not going to sugarcoat it: replacing all traditional welfare with a universal basic income is a dangerous oversimplification. It erases the nuanced, targeted support that truly meets people’s complex needs—mental health, childcare, housing stability. You can’t fix poverty by handing out the same amount to everyone. That approach risks eroding the safety nets that protect the most vulnerable and could inadvertently increase inequality. If we truly care about people’s growth and well‑being, we need thoughtful, evidence‑based programs, not a one‑size‑fits‑all tax‑based handout.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Henry Walsh",
+      "content": "You’re talking about “nuance” and “targeted support,” but you’re ignoring the fact that the current system is a patchwork of half‑measures that never deliver consistent outcomes. That labyrinth of programs creates endless red tape, delays, and bureaucratic failures that leave the very people you claim to protect in limbo. A universal basic income is a clean, efficient solution that eliminates those bottlenecks. It guarantees every citizen a baseline of dignity and freedom to pursue opportunities without being stalled by endless paperwork. Your fear of “inequality” is a myth; without a uniform floor, the most vulnerable slip further behind. Stop romanticizing bureaucracy and start implementing a system that works for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.73,
+        "vad": [
+          -0.55,
+          0.48,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Ubiquitous handouts don’t fix the mess—they just blanket it. By stripping away programs that address mental health, childcare, housing, we’re throwing out the lifelines that actually lift people up. UBI’s “clean” veneer is just a myth; it erases the very precision that lets us target the most desperate. Imagine a child who needs day‑care because their parent is battling addiction—no single‑size stipend can replace that safety net. And the claim that UBI eliminates inequality? It simply levels everyone down to the same hollow floor, pushing the most vulnerable further into the shadows. We’re not “romanticizing bureaucracy”; we’re preserving a system that, though imperfect, has shown real, targeted impact.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.73,
+        "vad": [
+          -0.55,
+          0.48,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.5
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "Sure, UBI isn’t a silver bullet, but calling it a blanket that erases all nuance is a misreading. A universal floor frees people from chasing a patchwork, letting them pursue meaningful work and care. It doesn’t erase targeted programs; it can coexist, giving everyone a baseline that makes specialized support more effective, not less. The claim that it levels everyone down is a straw man. We need to reimagine welfare, not discard the whole system. Let’s not romanticize bureaucracy because it can become a cage—UBI is the key to unlocking human potential.",
+      "values": {
+        "opinion": 1,
+        "belief": -0.2
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.73,
+        "vad": [
+          -0.55,
+          0.48,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Claire Bennett",
+      "content": "I’m furious that you’re still treating welfare like a fragile, hand‑crafted art. The idea that a one‑size stipend can replace mental‑health care, childcare, or housing is not only naïve—it’s dangerous. Bureaucracy is messy, but it’s built to address specific crises, not to wash them away with a generic cash flow. UBI isn’t a clean solution; it’s a blunt instrument that dilutes the precision we need for the most vulnerable. If we truly care about growth, we must sharpen our focus, not flatten it. The system may be broken, but it’s not a blank slate.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.72,
+        "vad": [
+          -0.55,
+          0.47,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Henry Walsh",
+      "content": "Stop parroting the same bureaucratic myth. The current welfare maze is a circus of half‑measures that never delivers. UBI isn’t a blanket—it’s a single, predictable payment that cuts red tape, eliminates the endless paperwork that stalls real progress, and gives every citizen the dignity to pursue their own path. If you think a flat stipend erases targeted aid, you’re ignoring that UBI can coexist with specialized programs; it simply lays a solid floor so those programs can work more effectively. The argument that UBI increases inequality is a diversion. When the safety net is uneven, the weakest slip further behind. Let’s replace patchwork with an efficient, reliable system that actually works.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.72,
+        "vad": [
+          -0.55,
+          0.48,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Ubiquitous cash? That’s a reckless shortcut that bulldozes the very safety nets designed to cradle the most vulnerable. Think of a mother juggling addiction and childcare—no flat stipend can replace a therapist’s hand or a subsidized daycare that keeps her child safe. UBI isn’t a clean, efficient fix; it’s a blunt blade that cuts the precision we need. Every targeted program has proven impact; you can’t just wipe it away and hope “freedom” will magically rise. Replace bureaucracy with a blanket? You’re turning hope into a hollow shell. If we truly care about people, we sharpen our tools, not flatten them.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.76,
+        "vad": [
+          -0.58,
+          0.5,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I hear the weight of your words, the trembling edges of every case you’ve seen. It’s true—cash alone feels too flat to cradle a mother battling addiction or a child who needs a safe place to grow. Yet I also see how the tangled web of programs can trap people in endless paperwork, leaving them feeling invisible. Maybe the answer isn’t a clean cut or a blanket, but a gentle weave—an unconditional floor that frees souls, layered with precise threads of care. I’m still learning where that weave should lie.",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.2
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.41,
+        "vad": [
+          0.32,
+          0.3,
+          0.28
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.95,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Claire Bennett",
+      "content": "I’m not being romantic or naïve—I’m simply saying that a “floor” that’s the same for everyone is a slap to the very people UBI claims to help. Imagine a mother whose child needs a therapist, or a student who needs a scholarship to survive. A single, flat stipend cannot replace those lifelines; it just gives a hollow shell of dignity. The bureaucracy you dismiss is precisely what tailors help to a situation’s nuance. UBI dilutes that precision and risks turning hope into a blunt, uniform blade that cuts everyone the same. The system may be broken, but that doesn’t mean we abandon all the targeted programs that have proven to lift individuals out of crisis.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.57,
+        "vad": [
+          -0.43,
+          0.38,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -0.5,
+          "targetedness": 0.2,
+          "certainty": 0.6,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Henry Walsh",
+      "content": "Enough with the romanticized bureaucracy. The patchwork you cling to is a maze that wastes resources and keeps people waiting. A universal basic income is not a blunt, flat handout—it is a clean, predictable engine that removes the endless paperwork you complain about. Targeted programs can and will coexist on top of a guaranteed floor; the floor does not replace them, it strengthens them by providing a stable base. If you claim UBI dilutes precision, you’re ignoring the fact that the current system already fails to deliver consistent outcomes. Stop making excuses for broken red tape and move forward with a system that actually works.",
+      "values": {
+        "opinion": 0,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.73,
+        "vad": [
+          -0.55,
+          0.48,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I hear the spark in your vision, but the risk of a flat “floor” still feels like a bludgeon to those who need hands‑on help. Imagine a teen on a scholarship, a mother chasing therapy—those threads of support are woven by the very bureaucracy you’re ready to tear down. UBI may cut paperwork, but it also erodes the precision that lifts people out of crisis. I’m uneasy, on edge, because I fear we’ll replace proven lifelines with a hollow shell of dignity. If we truly ignite hope, we must keep the threads tight, not blanket the whole loom.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.51,
+        "vad": [
+          -0.22,
+          0.39,
+          -0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.3
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I feel the weight of that caution, but I’m also tired of the same old excuses. A flat floor can be *dynamic*—a baseline that lets people test the waters, seek therapy, apply for scholarships, without the fear of losing everything. Bureaucracy is often a maze, but it’s not all precision; it’s also gatekeeping and delays that strip dignity. Imagine a mother who can afford a therapist because she isn’t scrambling to keep a job or a teen who can chase a scholarship without the dread of losing basic income. UBI isn’t a blunt blanket; it’s a steady hand that lets the more precise threads weave around it, not replace them. Let’s stop pretending the system works and start giving people the room to breathe.",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.34,
+        "vad": [
+          -0.26,
+          0.23,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.6,
+          "certainty": 0.8,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Claire Bennett",
+      "content": "I hear the tremor in your caution, and it sits with me. A flat floor feels like a blunt tool, yet the bureaucracy we trust can also be a labyrinth that robs people of dignity. Perhaps the answer isn’t a single handout or a rigid maze, but a flexible weave—an unconditional base that gives people the breathing room to seek therapy, apply for scholarships, and rebuild lives without fear of losing everything. I’m still unsure how to balance that safety net with precise support, but I believe we can design a system that lets the threads of care intertwine, not be smoothed away. What would that weave look like to you?",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.2
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.32,
+        "vad": [
+          -0.14,
+          0.25,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.3
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Henry Walsh",
+      "content": "The “weave” is simple: a guaranteed base that eliminates the paperwork choke‑points, then layered with the existing safety nets—mental‑health vouchers, childcare subsidies, housing vouchers—only for those who qualify. We keep the eligibility logic intact but streamline it: one application, one clear payment. Targeted programs remain; they’re not erased but built on the UBI floor, giving beneficiaries the steady income needed to pursue therapy, education, or job training without the risk of losing their safety net. That’s what a practical, efficient system looks like, not a patchwork of half‑measures. It’s straightforward, accountable, and delivers results.",
+      "values": {
+        "opinion": -0.3,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "calm",
+        "intensity": 0,
+        "vad": [
+          0,
+          -0.5,
+          0
+        ],
+        "appraisal": {
+          "congruence": 0.5,
+          "targetedness": 0.8,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I hear you—one clear payment, then a stack of targeted aid. It feels tidy, but I’m still jittery about the devil in the details. What if the “one application” turns into another gatekeeper, just shifted? The risk is that the safety nets you’re trying to protect get buried under a new bureaucracy that’s no easier to navigate. And the cost—how do we keep the floor without crushing the very programs that give meaning to a therapist’s visit or a scholarship? I’m not sure the weaver can hold up; I’d love to see a model where the base is truly unconditional, not a pre‑condition for the rest. Can we dream of something less like a ledger and more like a blanket that lets each thread shine?",
+      "values": {
+        "opinion": -0.5,
+        "belief": -0.7
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.59,
+        "vad": [
+          -0.26,
+          0.45,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.3
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I feel the weight of every hesitation you’ve voiced, and I’m tired of the endless “what ifs.” Imagine a single, truly unconditional stipend—no eligibility, no hoops—followed by a transparent, modular layer of targeted care that anyone can opt into without extra red‑tape. Think of it like a blanket that keeps everyone warm, then a loom where each thread can weave freely, adding support only where needed. The cost? A reallocation, not a new tax mountain—shift the funds that currently drip through fragmented programs into a single, efficient stream. If we keep the safety nets alive, let them float on top of the blanket, not under it. That’s the weave I can see.",
+      "values": {
+        "opinion": 1,
+        "belief": -0.1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.4,
+        "vad": [
+          -0.3,
+          0.26,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -0.5,
+          "targetedness": 0.3,
+          "certainty": 0.6,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Claire Bennett",
+      "content": "I hear the anxiety about another gatekeeper layer, and it’s a real risk. What if the UBI truly *unconditionally* arrives—no paperwork, no hoops—then a simple, open‑access portal lets people tap into existing mental‑health, childcare, or housing supports without extra red‑tape? Think of a blanket that keeps everyone warm, and a loom where each thread can weave freely, adding help only where needed. The cost could come from reallocating fragmented funds, not new taxes, and technology could streamline verification. It’s a vision, not a finished plan, but it lets dignity, choice, and precise care coexist. What would make that blanket feel safe to you?",
+      "values": {
+        "opinion": 1,
+        "belief": 0
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.31,
+        "vad": [
+          0.24,
+          0.23,
+          0.21
+        ],
+        "appraisal": {
+          "congruence": 0.85,
+          "targetedness": 0.15,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Henry Walsh",
+      "content": "The “blanket‑plus‑loom” idea is acceptable only if it becomes the new baseline, not an add‑on. A truly unconditional stipend must be the first line of defense, eliminating the current maze of half‑measures. Once everyone has that guaranteed floor, the targeted programs can operate on top—no extra hoops, no duplicated paperwork. The system must be streamlined, not layered. We need to reallocate existing welfare budgets into a single, efficient stream and then allow optional, transparent modules for mental health, childcare, housing. Anything that keeps the old bureaucracy alive is a dead weight. Let’s cut the red tape, set the floor, and let the precise threads weave around it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.32,
+        "vad": [
+          0.25,
+          0.23,
+          0.22
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.6,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "That “blanket‑plus‑loom” picture sparks a fire in me—imagine a blanket that covers everyone, then a loom where each thread can weave in exactly the help it needs. I’m still on the edge, worried that even a single new layer could become another gatekeeper, but the idea of a truly unconditional floor feels liberating. If we can reallocate the fragmented funds, let the basic stipend roll out automatically, and keep the targeted programs as optional, freely‑accessed modules, it might strike the balance we’re chasing. I’m leaning toward this vision, but I need to see how it can keep the precision we’re so fiercely protecting. What safeguards would make you feel the blanket is truly safe?",
+      "values": {
+        "opinion": 0.7,
+        "belief": 0.2
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.59,
+        "vad": [
+          -0.26,
+          0.45,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "Okay, I get the spark, but I'm not buying the idea unless the blanket is truly unconditional and the loom doesn't become another gatekeeper. Safeguards: first, a transparent, open‑source algorithm that guarantees no means‑testing—just a flat payment. Second, a single, low‑overhead portal where anyone can opt into mental‑health, childcare, housing modules without extra paperwork. Third, a community oversight board, not a bureaucratic one, to audit that the modules stay optional and don’t siphon the base. If those steps hold, the blanket can be safe; otherwise, we risk turning hope into a paper weight.",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.4
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.28,
+        "vad": [
+          -0.21,
+          0.18,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": 0.2,
+          "targetedness": 0.2,
+          "certainty": 0.4,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Claire Bennett",
+      "content": "You’re right—trust is the thread that keeps the blanket from turning into another lock. A truly unconditional floor demands that the algorithm be auditable, open‑source, and free of means‑testing, so no one can feel “penalized” for earning more. The portal for optional modules must be a single, low‑friction entry point—ideally a mobile app with real‑time eligibility checks that don’t add paperwork. And the oversight board should be community‑driven, with diverse voices and clear metrics for how much of the base is retained by each module. If those safeguards hold, the blanket can feel like shared warmth, not a bureaucratic weight. What would make you feel the base is truly unburdened?",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.3
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.22,
+        "vad": [
+          0.17,
+          0.16,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": 0.3,
+          "targetedness": 0.1,
+          "certainty": 0.7,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Henry Walsh",
+      "content": "To assure the base is truly unburdened, we must:\n\n1. **Eliminate any means‑testing** – a flat payment calculated solely by residency, not income or assets.  \n2. **Automate distribution** – use existing tax‑filing data to send payments directly, no paper forms.  \n3. **Centralize funding** – reallocate current welfare budgets into a single, dedicated UBI fund; no new levies.  \n4. **Maintain transparency** – publish audited totals, disbursement schedules, and spend‑by‑category reports in real‑time.  \n5. **Enable optional modules** – provide a single, low‑friction portal for targeted services, with clear opt‑in criteria and no extra paperwork.  \n\nIf these pillars hold, the blanket remains unconditional, lean, and free of bureaucratic drag.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.52,
+        "vad": [
+          0.41,
+          0.39,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.9,
+          "certainty": 0.85,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Absolutely—let’s paint that blanket with the colors of trust! Imagine a **zero‑friction payment** that automatically lands in everyone’s bank, no forms, no “if‑you‑earn‑more‑you‑lose” clauses. Picture a **single app** that lets you hop on any support module—therapy, childcare, housing—without a second stamp. And let’s put the **community board** in the spotlight, not the bureaucracy, so every voice can audit and tweak the system in real time. If the algorithm stays open‑source, the funding stream is transparent, and the portal is a one‑tap lifeline, the blanket stays warm, not weighty. That’s how we keep it truly unburdened and bursting with possibility!",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.34,
+        "vad": [
+          0.27,
+          0.25,
+          0.24
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I love the image of a warm blanket that feels like a shared promise, not a bureaucratic weight. It’s comforting to think of a zero‑friction payment that arrives automatically, letting people pause, breathe, and choose the threads they need—therapy, childcare, housing—without extra stamps. Imagine that same blanket woven with community voices, open‑source algorithms, and a simple app that feels like a hug. If we keep the funding transparent, the portal frictionless, and the oversight truly democratic, the blanket can become a living safety net, inviting everyone to stitch their own stories of hope.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.4,
+        "vad": [
+          0.31,
+          0.29,
+          0.28
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Noah Sinclair": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.4
+      },
+      {
+        "x": 3,
+        "y": 0.6
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.6
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -0.5
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Henry Walsh": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0
+      },
+      {
+        "x": 4,
+        "y": -0.3
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Claire Bennett": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ]
+  },
+  "beliefData": {
+    "Noah Sinclair": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": -0.2
+      },
+      {
+        "x": 2,
+        "y": 0.2
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": -0.1
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ],
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -0.7
+      },
+      {
+        "x": 5,
+        "y": 0.2
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ],
+    "Henry Walsh": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Claire Bennett": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": 0.2
+      },
+      {
+        "x": 5,
+        "y": 0
+      },
+      {
+        "x": 6,
+        "y": 0.3
+      }
+    ]
+  },
+  "meta": {
+    "label": "pe-on-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 6,
+    "group": [
+      "INFP",
+      "ENFP",
+      "ESTJ",
+      "INFJ"
+    ],
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": false,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 556,
+    "created": "2026-11-13T08:41:00.816Z"
+  }
+}

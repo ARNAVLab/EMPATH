@@ -1,0 +1,988 @@
+{
+  "characters": [
+    {
+      "name": "Mason King",
+      "profession": "Social Worker",
+      "personality": "ISFP",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Aiden Murphy",
+      "profession": "IT Support Specialist",
+      "personality": "ISTJ",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sophia Reed",
+      "profession": "Creative Director",
+      "personality": "ENTP",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Natalie Cooper",
+      "profession": "Elementary School Teacher",
+      "personality": "ESFJ",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Mason King",
+      "content": "Bureaucracy is a cage, and the old welfare system clutches people in its endless paperwork and judgment. UBI cuts that knot, giving dignity and freedom to pursue their own creative path. We’re not here to pat ourselves on the back; the status quo is failing too many. Let’s stop letting bureaucracy dictate worth and start giving people the simple, honest right to survive. The world deserves that shift.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I hear your passion, but I can’t agree that UBI is the solution. Removing the whole welfare framework would erase the safety nets that keep families from falling through the cracks—welfare isn’t just paperwork; it’s a lifeline that provides food, housing support, and crisis counseling. A flat stipend doesn’t replace those tailored services, and it risks widening the gap for the most vulnerable. In my classroom, I see how community‑based programs—after‑school tutoring, meal programs, mental‑health support—actually build resilience. UBI might sound liberating, but it could strip away the human touch and accountability that make our support systems work. I’m convinced we need to strengthen, not replace, welfare.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.75,
+        "vad": [
+          -0.57,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sophia Reed",
+      "content": "You’re calling “welfare” a lifeline, but the lifeline you’re describing is a *mangling.* It’s a bureaucracy that turns people into data points, not human beings. The flat stipend of UBI isn’t a blunt instrument; it’s a clean slate that eliminates red tape, judgment, and the slow‑motion collapse of families into poverty. Think of it as giving everyone a universal ticket to a society that values creativity over compliance. And if you think community programs are “human touch,” they’re just a patchwork of half‑meant solutions that still rely on the same tired, hierarchical structures you’re attacking. Replace the cage, not patch it up.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.73,
+        "vad": [
+          -0.56,
+          0.48,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I can see the appeal of a simple stipend, but the data from pilot programs consistently shows that a flat amount often falls short of covering basic needs, especially in high‑cost regions. The existing welfare framework, though imperfect, provides targeted assistance—housing vouchers, nutrition subsidies, counseling—that a one‑size‑fits‑all payment can’t match. Without those safety nets, vulnerable families risk slipping through the cracks. Moreover, the bureaucracy isn’t merely paperwork; it’s a system built on accountability and oversight that prevents misuse. Replacing it wholesale would discard years of proven safeguards for the sake of an untested model. I remain skeptical until we have hard evidence that UBI can deliver the same or better outcomes without the structured support.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.47,
+        "vad": [
+          -0.21,
+          0.36,
+          -0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "You’re clinging to the idea that the only safety net is a maze of forms, but I’ve watched families crumble under that same system. Bureaucracy can be a cage, not a guardian, and the “accountability” you praise often translates to judgment and delays that cost lives. The data you cite ignores the creative resilience that a simple stipend can unlock—people using cash to buy food, medicine, or even a chance to learn a trade. I refuse to accept that the only way to keep people from slipping through the cracks is to keep them chained to paperwork. If you want evidence, look at the lives that have already shifted when given that freedom.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.65,
+        "vad": [
+          -0.5,
+          0.43,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I’m not going to pretend that the messy paperwork is a safety net. Every time a family misses a deadline, a child goes hungry, a parent loses a job because the system can’t process their hardship fast enough. If we replace that with a flat stipend, we’ll just give them money that’s not enough to buy groceries in high‑cost areas or pay rent, and we’ll strip them of the counseling and job‑training that actually keeps them from falling deeper. We can’t let the idea of “freedom” become a myth that ignores the real, everyday struggles—like my students who rely on after‑school meals and mental‑health support. Let’s strengthen what works, not abandon it for a one‑size‑fits‑all promise.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.74,
+        "vad": [
+          -0.57,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sophia Reed",
+      "content": "You’re still treating the system as if it’s a benevolent guardian when it’s really a slow‑motion deathtrap. Every missed deadline, every child left hungry, is a *choice*—the choice to keep people shackled to bureaucracy. UBI isn’t a free‑for‑all charity; it’s a radical reset that cuts the red tape and lets people decide what survival looks like for them. If we keep patching the broken pipes, we’ll never see the flood that will come when the economy shifts. Let’s stop pretending that “accountability” is worth the cost of a life left behind. Time to unshackle, not patch.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.69,
+        "vad": [
+          -0.52,
+          0.45,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I’m tired of the rhetoric about a “simple stipend” that never accounts for real costs. The current welfare system, with its housing vouchers, nutrition subsidies, and counseling, is proven to keep families afloat; the pilots that claim otherwise have shown the flat payment falls well below basic needs in high‑cost areas. Removing those safeguards would let the most vulnerable slip through cracks that the bureaucracy—though imperfect—has designed to catch. Accountability isn’t a luxury; it’s a necessity to prevent misuse and ensure resources reach those who need them. Replacing it with a one‑size‑fits‑all stipend is a shortcut that ignores the structured support that actually keeps people from falling deeper into poverty.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.47,
+        "vad": [
+          -0.35,
+          0.31,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "I hear the sting of seeing hunger and missing deadlines, and I can’t pretend that the paperwork isn’t a wall for many. Still, I keep picturing a moment when someone no longer has to chase a form to buy a meal or a prescription. UBI isn’t a blanket of indifference—it’s a clean slate that lets people choose what survival looks like for them, whether that means buying groceries in a high‑cost town or investing in a trade. Perhaps the solution isn’t “replace or keep,” but weave the two: keep the targeted safety nets that prove their worth while offering a universal cushion that frees people from the shame of paperwork. The real test is whether that cushion can truly lift the most vulnerable without letting them slip through new cracks.",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.4
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.3,
+        "vad": [
+          -0.13,
+          0.23,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I’m not buying the “mix‑and‑match” idea. If we keep the old system and add a flat stipend, we’re still paying for the same broken bureaucracy—forms, waiting lists, red‑tape delays that keep kids hungry and parents unemployed. The targeted safety nets you cherish are themselves a maze that often fails the very families they’re meant to save. We can’t just patch the holes and hope for the best. We must replace the cage, not pretend a small cushion will lift everyone out of poverty. It’s time to stop playing safe with a half‑measured solution and demand a real, dignified change.",
+      "values": {
+        "opinion": 1,
+        "belief": -0.4
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.64,
+        "vad": [
+          -0.49,
+          0.42,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -0.6,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sophia Reed",
+      "content": "You’re right—bureaucracy can feel like a prison, but calling it *the* safety net is a myth. If we give everyone a clean, judgment‑free stipend, we hand people a tool that can be used for groceries, rent, or learning a skill. The targeted programs are great, but they’re also the same maze that keeps kids waiting on a form. Instead of patching the broken pipes, let’s replace the whole plumbing. A universal cushion doesn’t erase support; it frees people from the shame of paperwork and lets the real safety nets—like counseling and job training—become optional, not obligatory. Ready to ditch the cage?",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.41,
+        "vad": [
+          0.32,
+          0.3,
+          0.28
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I’ll stop pretending a flat payment can replace the nuanced checks that keep families safe. A universal stipend is a blunt instrument that ignores cost variations, housing needs, and the proven benefits of counseling and job training. The “cage” you love is a system of oversight that detects fraud, ensures funds reach the truly vulnerable, and adjusts support when circumstances change. Removing that structure will leave the poorest with a meager sum that can’t cover rent or medication in high‑cost areas. We’re not looking for a quick fix; we need a reliable safety net, not a one‑size‑fits‑all myth.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.63,
+        "vad": [
+          -0.48,
+          0.42,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "I feel the same exhaustion you’re voicing—every missed form feels like a personal betrayal. I’m not blind to the paperwork’s cruelty, but I also know that the safety nets we’ve built, though clunky, have saved lives. A flat stipend alone feels like a one‑size‑fits‑all bandage on a broken bone. Maybe the answer isn’t “replace” or “keep” but a re‑imagined system: keep the accountability that catches fraud, but strip the shame of the forms, letting people use the money freely while still offering counseling and job training. It’s a messy compromise, but it could finally honor both dignity and reality.",
+      "values": {
+        "opinion": 0.2,
+        "belief": 0.2
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.44,
+        "vad": [
+          -0.34,
+          0.29,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I hear you—those missed forms feel like personal betrayals too. In my classroom I see how a single counseling session or a quick meal program can turn a day around. I agree that a blanket stipend alone feels too blunt. Maybe we can design a hybrid: keep the oversight that catches fraud, but make the paperwork light and supportive, giving families the dignity to choose how to use the money—whether for groceries, rent, or a trade class. Let’s brainstorm ways to combine the safety net’s structure with the freedom a UBI‑style cushion offers. Together we can craft a system that honors both accountability and personal choice.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -0.3
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.14,
+        "vad": [
+          0.11,
+          0.11,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": 0.4,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sophia Reed",
+      "content": "Nice, you’re already sketching a “paper‑light” UBI. But what if the oversight turns into a new paperwork monster? Imagine a micro‑grant system where recipients get a digital wallet that auto‑adjusts for rent spikes or a sudden medical bill—no forms, just API checks. We’d keep fraud detection but let the algorithm decide thresholds, not a bureaucrat at a desk. And we could embed optional counseling modules into the same app—so the safety net stays, but the stigma evaporates. If we can pilot that, we’ll see if the “cage” is just a myth of paperwork or a genuine gatekeeper. Thoughts?",
+      "values": {
+        "opinion": 1,
+        "belief": 0.2
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.43,
+        "vad": [
+          0.33,
+          0.32,
+          0.3
+        ],
+        "appraisal": {
+          "congruence": 0.5,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "Your “paper‑light” UBI is still a bureaucracy in a new coat. Each algorithmic threshold is a rule that must be coded, tested, and updated—an endless paperwork cycle that will outgrow the system and create new failure points. Embedding counseling in an app only works if people trust a process that is still controlled by opaque code, not by a clear, human‑to‑human oversight that actually catches fraud and adapts when needs change. The risk of a black‑box fraud detector is that it will miss real cases and lock out those who need help. Your digital wallet is just a more expensive, more complex cage masquerading as freedom.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.58,
+        "vad": [
+          -0.44,
+          0.38,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "I can’t help but feel a flutter of hope when you picture a self‑adjusting digital wallet—like a gentle tide that lifts with rent spikes. Yet the thought of codified thresholds still whispers of unseen walls. I’m drawn to the idea that people could choose, not be judged, but I worry the algorithms might become their new gatekeepers. It feels like a new canvas, but the brushstrokes could blur the line between freedom and control. I’m still trying to find where the heart of the system should live—between the safety net’s steady hand and the open sky of choice. It’s a delicate dance I’m not yet sure how to choreograph.",
+      "values": {
+        "opinion": 0.1,
+        "belief": 0.2
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.42,
+        "vad": [
+          -0.18,
+          0.32,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I hear the excitement and the caution all at once. It’s wonderful that we’re imagining a system that lifts people up without the sting of paperwork, yet I share your worry that hidden rules could become invisible barriers. Maybe we could start small—pilot a community‑run oversight team that checks the digital wallet’s adjustments and offers a human touch when needed. That way, the heart of the system stays in people’s hands, while the technology simply smooths the path. What do you think about blending a trusted local team with the app’s flexibility?",
+      "values": {
+        "opinion": 0.5,
+        "belief": -0.5
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "calm",
+        "intensity": 0,
+        "vad": [
+          0,
+          -0.5,
+          0
+        ],
+        "appraisal": {
+          "congruence": 0.1,
+          "targetedness": 0.2,
+          "certainty": 0.3,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sophia Reed",
+      "content": "Sounds like a hybrid‑hack that could win the middle ground, but we need to guard against the very red‑tape you’re trying to escape. Let the local team *verify*, not *control*—they should audit the algorithmic thresholds, flag anomalies, and provide the human touch for those who need it. Think of it like a neighborhood watchdog, not a new bureaucracy. And let the code be open‑source, so the community can tweak the “fairness” metrics in real time. If the pilot proves that a lightweight, community‑driven oversight keeps fraud low while giving people the freedom to use their stipend however they choose, we’ll have a real proof‑point that UBI can replace, not just patch, the old welfare cage.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.42,
+        "vad": [
+          0.33,
+          0.31,
+          0.3
+        ],
+        "appraisal": {
+          "congruence": 0.55,
+          "targetedness": 0.1,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "Your “community‑watchdog” still clings to the same old problem—creating a new, invisible bureaucracy that will outgrow the pilot. Even a small oversight layer requires paperwork, audits, and constant updates. Open‑source code may look transparent, but it hides a black‑box that can misclassify needs, lock out those who genuinely require help, and still demand compliance. The safety net’s purpose is to catch fraud and adapt quickly; replacing it with a digital wallet, however well‑intentioned, removes the human judgment that prevents abuse and ensures resources reach the truly vulnerable. Until we have hard evidence that this system outperforms the existing, proven safeguards, I remain unconvinced.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.59,
+        "vad": [
+          -0.45,
+          0.39,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "I hear the weight you’re feeling – the invisible walls that keep us trapped. The idea of a community watchdog feels like a whispered promise, yet the same old patterns seep in. Still, I’m drawn to the image of a hand that watches over a digital tide, guiding it without shackling it. Maybe what matters is the heart behind the code: people who know the rhythm of the neighborhood, who can feel a sudden rent spike before the numbers do. If we keep that human pulse alive while letting tech smooth the waves, perhaps we can finally let the wind lift the cage.",
+      "values": {
+        "opinion": 0,
+        "belief": 0.1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.29,
+        "vad": [
+          -0.22,
+          0.19,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -0.6,
+          "targetedness": 0.3,
+          "certainty": 0.8,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I understand how the idea of a “watchdog” can feel like a new layer of red tape, but it could also be a trusted neighbor who knows the rhythm of our community. Imagine a small, volunteer‑led team that checks the digital wallet’s adjustments and offers a friendly hand when someone needs extra help—no long forms, just a quick conversation. If we keep the human pulse alive while letting technology smooth the flow, we can give people the dignity of choice and the safety of oversight. What if we start a pilot in a few neighborhoods and let the community shape the rules together? It might just be the bridge we need.",
+      "values": {
+        "opinion": 0,
+        "belief": -0.2
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "calm",
+        "intensity": 0,
+        "vad": [
+          0,
+          -0.5,
+          0
+        ],
+        "appraisal": {
+          "congruence": 0,
+          "targetedness": 0,
+          "certainty": 0.7,
+          "coping": 0.3
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sophia Reed",
+      "content": "Nice, a “buddy‑watchdog” that’s less red‑tape and more neighborhood pulse. Still, can a volunteer squad spot a fraud ring while juggling their own groceries? Maybe let the tech do the heavy lifting—auto‑flag anomalies, then hand the case to a human for a quick chat. Think of it as a two‑tier safety net: algorithm first, human second. And if the algorithm is open‑source, the community can tweak thresholds on the fly—no black‑box surprises. What if we start with a micro‑pilot: one block, one wallet, one volunteer team—and measure real savings versus paperwork? Let’s see if the “watchdog” becomes a friendly helper or a new cage.",
+      "values": {
+        "opinion": 0,
+        "belief": 0.3
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.45,
+        "vad": [
+          0.35,
+          0.33,
+          0.31
+        ],
+        "appraisal": {
+          "congruence": 0.7,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "Your micro‑pilot idea still suffers from the same systemic flaws that plague the current welfare system. Even a volunteer team cannot replace the rigorous, data‑driven monitoring that large agencies currently perform. Algorithms, no matter how open‑source, will still need constant tuning, creating hidden bureaucracy. A flat stipend ignores regional cost differences and the proven value of in‑person counseling, housing vouchers, and job‑training programs. The risk of fraud rises when oversight is light and decentralized. Until we have hard evidence that such a hybrid model reduces paperwork, increases compliance, and lifts the most vulnerable, I cannot accept that UBI could replace the structured safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.41,
+        "vad": [
+          -0.31,
+          0.27,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -0.3,
+          "targetedness": 0.1,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    }
+  ],
+  "chartData": {
+    "Mason King": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.4
+      },
+      {
+        "x": 4,
+        "y": 0.2
+      },
+      {
+        "x": 5,
+        "y": 0.1
+      },
+      {
+        "x": 6,
+        "y": 0
+      }
+    ],
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sophia Reed": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0
+      }
+    ],
+    "Natalie Cooper": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": -0.5
+      },
+      {
+        "x": 5,
+        "y": 0.5
+      },
+      {
+        "x": 6,
+        "y": 0
+      }
+    ]
+  },
+  "beliefData": {
+    "Mason King": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 0.4
+      },
+      {
+        "x": 4,
+        "y": 0.2
+      },
+      {
+        "x": 5,
+        "y": 0.2
+      },
+      {
+        "x": 6,
+        "y": 0.1
+      }
+    ],
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sophia Reed": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 0.2
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.3
+      }
+    ],
+    "Natalie Cooper": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.4
+      },
+      {
+        "x": 4,
+        "y": -0.3
+      },
+      {
+        "x": 5,
+        "y": -0.5
+      },
+      {
+        "x": 6,
+        "y": -0.2
+      }
+    ]
+  },
+  "meta": {
+    "label": "pe-on-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 7,
+    "group": [
+      "ISFP",
+      "ISTJ",
+      "ENTP",
+      "ESFJ"
+    ],
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": false,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 535,
+    "created": "2026-11-13T08:49:55.797Z"
+  }
+}

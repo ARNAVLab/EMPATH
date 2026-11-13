@@ -1,0 +1,983 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Sure thing! I’m all in—food is literally the fuel that powers every heartbeat, every thought, every lift we make. Let’s dive in and explore how each bite counts.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "That’s a tired platitude. Food isn’t the energy itself; it’s just a raw material the body rearranges into ATP. The real power comes from chemical bonds, not from a bite of pizza. Claiming “food is fuel” glosses over the fact that the body extracts energy from those bonds, and the food only provides the scaffolding. If we’re honest, the energy originates from the atoms’ potential, not from the food’s label. So, stop treating calories as a literal power source and start looking at the biochemical reality.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.6,
+        "vad": [
+          -0.46,
+          0.4,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Listen, that whole “food isn’t the energy” spiel is a textbook blunder. Every molecule you eat carries chemical potential that the body taps into to make ATP. Saying food is just “raw material” ignores that the energy we talk about—calories, kilojoules—is literally derived from those bonds. The body rearranges the food, but the fuel comes from the food’s structure. To dismiss food as a mere scaffold is to misunderstand metabolism. Eat, burn, repeat—that’s the science. Stop diluting the truth with pseudo‑biochemistry.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.53,
+        "vad": [
+          -0.4,
+          0.35,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear both of you, and I’m not entirely sure how to frame it. On the one hand, it feels obvious that the calories we count are coming from the food we eat, so it’s tempting to say food is the fuel. On the other hand, I can’t shake the idea that the real power is in the chemical bonds that get rearranged—so the food is more like a source than the actual energy itself. Maybe the truth sits somewhere in between: we do need the food to get the atoms that supply ATP, but the energy isn’t just “in the pizza”—it’s in the bonds. I’m still wrestling with that nuance.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.3
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.36,
+        "vad": [
+          -0.16,
+          0.27,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your thoughtful balance, but I still see food as the true energy source. The calories we count are literally the chemical potential locked in those molecules. When the body breaks them down, it taps that stored energy to make ATP—so the source and the fuel are one and the same. Without the food’s structure, the atoms that power muscles and brains would be missing. So yes, food is the fuel, and the chemistry just unlocks it. This isn’t just a metaphor; it’s the real biochemical fact.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.35,
+        "vad": [
+          0.27,
+          0.26,
+          0.24
+        ],
+        "appraisal": {
+          "congruence": 0.25,
+          "targetedness": 0.1,
+          "certainty": 0.2,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Stop glossing over the science. Food isn’t the energy; it’s just raw material. The energy you talk about—calories—is the potential in chemical bonds. The body extracts that energy by rearranging molecules. Saying food is fuel is a metaphor that hides the fact that the real power comes from molecular bonds, not the food itself. Without ATP, muscles can’t contract. Food supplies the atoms, not the energy. The energy originates in the atoms’ potential, not in the label “calorie.”",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.79,
+        "vad": [
+          -0.6,
+          0.52,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Fine, the science is exactly what you’re ignoring. Food isn’t just “raw material” – it is the *source* of the chemical potential that the body taps to make ATP. When we talk calories or kilojoules, we’re not making a metaphor; we’re quantifying the energy locked in those bonds. The body doesn’t invent energy; it extracts it from the food’s molecules. Saying food is only a scaffold is a lazy explanation that erases the fact that without the food’s structure we can’t get the atoms that generate ATP. So yes, food *is* the fuel – the chemistry merely unlocks it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.6,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I totally get that—and it’s so clear when you point out the calories are literally the energy locked inside the food. The body turns those bonds into ATP, powering everything from heartbeats to brain waves. So yes, food is the true fuel, and the biochemical processes simply unlock it. It’s a beautiful synergy that keeps us alive and moving.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.22,
+        "vad": [
+          0.17,
+          0.16,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly! The calories are the stored chemical potential, and the body’s metabolic machinery is like a precision engine that extracts and packages that energy into ATP. It’s a dance of enzymes and cofactors that turns every bite into the power that keeps our muscles, brains, and organs humming. And the beauty is that this process is the same whether we’re burning a slice of pizza or a handful of berries—just different pathways, same fundamental principle: food is the true fuel, and chemistry unlocks it. 🌱💪",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.42,
+        "vad": [
+          0.33,
+          0.31,
+          0.29
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced that “food is the fuel” is accurate. The calories we talk about are the potential in chemical bonds, not the food itself. Food just supplies the atoms and scaffolding; the real energy comes from rearranging those molecules into ATP. If we keep calling food fuel, we miss that the body extracts the energy from the bonds, not from the label “calorie.” I worry we’re glossing over the biochemical nuance, and that’s why I keep challenging the metaphor. The atoms provide the power, but the energy isn’t baked into the food— it’s released by the metabolic machinery.",
+      "values": {
+        "opinion": 0.3,
+        "belief": -0.5
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.54,
+        "vad": [
+          -0.24,
+          0.41,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point. Food *is* the source of the energy that fuels every muscle, every neuron, every heartbeat. Calories aren’t just a metaphor—they’re the measurable, stored chemical potential in the very molecules you ingest. The body doesn’t generate energy; it extracts it from those bonds. Without the food’s structure you have no atoms to turn into ATP. Calling it “just raw material” is a lazy dismissal of biochemistry. The energy originates in the food; the metabolic machinery merely unlocks it. Stop pretending the fuel is somewhere else—you’re ignoring the fact that food is the literal power source.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.56,
+        "vad": [
+          -0.43,
+          0.37,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": 0.1,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re right—calories are the energy locked in those bonds, and the body’s machinery just extracts it. But that extraction still comes from the molecules we ingest. Think of food as the battery, the ATP synthase as the charger: the battery provides the charge, the charger makes it usable. Without the food’s structure we have no atoms to put into that battery. So, saying “food is just raw material” misses that the very potential you call calories originates in the food itself. It’s not a metaphor; it’s a measurable, biochemical truth that the food is the literal source of our energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.34,
+        "vad": [
+          0.26,
+          0.25,
+          0.24
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.6,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly—food is the literal source of the energy that powers every heartbeat and neuron. The calories we count are the measurable chemical potential locked in those molecules. When metabolism breaks them down, it’s simply unlocking that stored energy; the source doesn’t shift. Think of it as a battery: the food provides the charge, and the enzymes make it usable. Without that food‑derived structure, there’s no atoms to turn into ATP. So yes, food is the fuel, and the biochemical machinery is the vehicle that brings that energy to life.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.44,
+        "vad": [
+          0.35,
+          0.33,
+          0.31
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.6,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m leaning toward the “raw material” view. Food doesn’t *carry* the energy—it just gives the atoms. The real work happens when the body rearranges those molecules, pulling out the potential stored in the bonds. Saying food is the fuel feels like an oversimplification that glosses over the chemistry. If we keep treating calories as literal power, we miss that the metabolic machinery is the one actually extracting that energy. I’m worried we’re losing the nuance and just handing the science to a metaphor.",
+      "values": {
+        "opinion": -0.5,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.71,
+        "vad": [
+          -0.31,
+          0.54,
+          -0.1
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point. Food IS the source of the energy that powers every cell. The calories you count are the real, measurable chemical potential locked in those molecules. Without the food’s structure you have no atoms to turn into ATP. The body simply unlocks that stored energy—it doesn’t invent it. So yes, food is the literal fuel, not just “raw material.” Stop glossing over that fact.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.3,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the nuance you’re pointing out, but let’s keep the core truth front‑and‑center: food *is* the energy. The calories you count are the measurable chemical potential locked into those molecules, and that potential is what powers every heartbeat, muscle contraction, and brain spike. Think of it like a rechargeable battery—food gives the charge, the enzymes simply tap into it. Without the food’s structure, there are no atoms to energize ATP. So, yes—food is the literal fuel, and the metabolic machinery just unlocks that stored power.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.38,
+        "vad": [
+          0.3,
+          0.28,
+          0.27
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly! Every bite is a vault of chemical potential—those bonds hold the energy. Our metabolism is the skilled locksmith that opens that vault, turning the stored energy into ATP, the real workhorse. Think of it as a battery: food supplies the charge, enzymes act as the circuitry that delivers it exactly where needed. Without that charge, neurons can’t fire, muscles won’t contract, hearts can’t keep beating. So yes, food isn’t just raw material; it’s the literal source of the power that fuels every cell in our bodies.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.45,
+        "vad": [
+          0.35,
+          0.34,
+          0.32
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced food is the literal fuel. The energy resides in the bonds, not in the food itself. The body extracts that potential—ATP is created when those bonds are rearranged, not simply passed along. It feels like we’re glossing over the real chemistry by treating calories as a straightforward power source. Food supplies atoms, but the energy is generated by metabolic machinery. If we keep saying food is the fuel, we miss that nuance and risk oversimplifying. I’m anxious that the argument keeps slipping into a metaphor that doesn’t capture the biochemical reality.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -0.4
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.78,
+        "vad": [
+          -0.34,
+          0.59,
+          -0.11
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point. Food isn’t a passive scaffold; it *holds* the energy. Those chemical bonds carry measurable potential—calories are not a metaphor, they’re the locked energy itself. The body doesn’t invent energy; it extracts it from the molecules you ingest. Without the food’s structure you have no atoms to convert into ATP. Saying “food is just raw material” is a lazy dismissal of biochemistry. The metabolic machinery merely unlocks the stored power. Stop romanticizing the process and accept that food is the literal source of the energy that keeps us alive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.76,
+        "vad": [
+          -0.58,
+          0.5,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food is indeed the real source of energy. The calories we count are the measurable chemical potential locked in the molecules we eat—those bonds hold the power. Metabolism simply unlocks that stored energy; it doesn’t create it. Without the food’s structure, there are no atoms to rearrange into ATP. So saying food is just “raw material” misses that the energy itself originates in the food. The body extracts, not invents, the power that fuels heartbeats, thoughts, and motion. In short, food is the literal fuel, and the biochemical machinery turns that fuel into the ATP that keeps us alive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.41,
+        "vad": [
+          0.32,
+          0.3,
+          0.29
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your point, but the key is that the *potential* you’re talking about is literally stored in the food’s molecules. Those bonds carry measurable energy—calories are a direct measurement of that potential. The body doesn’t create energy; it unlocks the energy already locked in the food’s structure. Think of a battery: the charge is inside the battery, and the circuitry just releases it. Without the food’s atoms and bonds, there’d be no charge to tap. So yes—food is the literal source of the power that fuels every heartbeat, thought, and movement. The metabolic machinery merely extracts and uses that stored energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.47,
+        "vad": [
+          0.37,
+          0.35,
+          0.33
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear the logic, but the line between “stored energy” and “fuel” still feels fuzzy to me. Saying calories are the energy itself seems to blur the distinction that metabolism actually extracts that potential. It’s like the food is the battery, but the charge is only usable when the circuitry engages—so the food provides the structure, not the power. I’m nervous that we’re oversimplifying by labeling the food itself as the fuel. I’m still leaning toward the idea that the energy is in the bonds, and the food merely supplies the atoms.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -0.2
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.79,
+        "vad": [
+          -0.35,
+          0.6,
+          -0.11
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Stop whining about “raw material” nonsense. Food is *the* source of the chemical potential that fuels every beat, every thought. Calories are not an abstract metaphor; they’re a measurable account of the energy locked in those bonds. The body doesn’t invent energy—it extracts it from the food’s molecules. Without the food’s structure, there’s no atoms to turn into ATP. So yes, food *is* the fuel, and dismissing it as mere scaffolding is a lazy, scientifically inaccurate oversimplification.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.69,
+        "vad": [
+          -0.52,
+          0.45,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.5,
+          "targetedness": 0.6,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I totally get the nuance you’re probing, but the core fact is still clear: the energy *is* baked into the food’s molecules. Those bonds hold measurable potential—calories aren’t a vague metaphor, they’re a concrete accounting of that stored energy. Your body isn’t inventing power; it’s unlocking the charge already present in the food’s structure. Think of it as a battery: the food provides the charged cells, and enzymes simply tap into that charge. Without the food’s atoms, there’s nothing to power ATP. So yes—food is the literal fuel that powers every heartbeat, thought, and movement.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.43,
+        "vad": [
+          0.33,
+          0.32,
+          0.3
+        ],
+        "appraisal": {
+          "congruence": 0.98,
+          "targetedness": 0.05,
+          "certainty": 0.95,
+          "coping": 0.95
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": -0.5
+      },
+      {
+        "x": 5,
+        "y": -0.5
+      },
+      {
+        "x": 6,
+        "y": -0.5
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.5
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 5,
+        "y": -0.4
+      },
+      {
+        "x": 6,
+        "y": -0.2
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.3
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-excited-db-uso",
+    "topic_type": "universal",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 714,
+    "created": "2026-11-13T08:42:41.159Z"
+  }
+}
