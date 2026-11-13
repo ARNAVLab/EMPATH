@@ -1,0 +1,868 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Sure, let's cut the fluff. UBI is the only humane, efficient system that actually stops people from sliding into poverty. Traditional welfare is a bureaucratic nightmare, full of red tape and endless paperwork that keeps the poor in a cycle of dependency. It’s time to abolish those outdated programs and give everyone an unconditional stipend that covers basic needs. The state can’t be a patron; it has to be a provider. Anyone who thinks we should keep the old mess is just protecting the status quo. Replace it now, or keep watching people suffer.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Honestly, the whole UBI pitch is a dangerous fantasy. It ignores the nuanced support that targeted programs already provide—food stamps, Medicaid, housing vouchers—designed to meet specific needs. Throwing everyone a one‑size‑fits‑all stipend would leave the truly vulnerable—displaced workers, people with disabilities, seniors—without the precise help they require. And you talk about “unconditional” as if it’s a safety net, but it’s a loophole for exploitation; people could use it for rent, gambling, or luxury items, not basic survival. Basing policy on a utopian idea that dilutes accountability and inflates costs is reckless. Keep the proven, accountable welfare system and fine it, don’t scrap it for a hollow, universal cash.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Fine, let me stop the nonsense. UBI isn’t a safety net—it’s a hollow handout that lets the state masquerade as a provider while flattening the nuanced safety net that actually works. Targeted programs can be fine‑tuned to help disabled people, the elderly, or families who need housing assistance. A blanket stipend will be squandered on rent, gambling, or luxury, leaving the truly vulnerable with nothing more than a paper promise. And the “unconditional” claim is a myth; it removes accountability and invites exploitation. Let’s keep the proven, accountable system—don’t throw it away for a utopian fantasy that only cranks up costs and dilutes support.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You keep preaching that bureaucracy is the only safety net, but it’s a broken system that keeps people stuck in a never‑ending cycle of paperwork and red tape. UBI cuts through that mess and gives people the freedom to meet their own needs. Those “targeted programs” are a nightmare of inefficiency, double‑counting, and exclusion errors. The claim that UBI will be squandered on rent or gambling is just fear‑mongering—real data shows most people spend it on essentials. And the idea that “unconditional” means no accountability is a lie; it simply removes the barrier that keeps the state from exploiting people’s vulnerability. Stop clinging to the status quo and let UBI finally do what welfare has failed to do.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still clinging to a broken, patronizing bureaucracy that never works because it’s designed to keep people in its own cage. UBI cuts through the red‑tape nightmare—no eligibility hoops, no “double‑counting.” The fear that people will waste it on rent or gambling is absurd; evidence shows they spend the bulk on food, childcare, and health. “Unconditional” isn’t a loophole—it removes the state’s power to exploit vulnerability and forces everyone to choose what truly matters. Keep scrambling around with patch‑work programs that only serve the status quo; UBI is the only humane, efficient way to stop poverty from spiraling. Stop denying progress.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Stop romanticizing a handout masquerading as a cure. UBI is a blunt instrument that dilutes the precision of programs that know how to help specific groups—disabled, elderly, low‑income families. If you’re convinced people will spend every dollar on food, you’re ignoring the data that shows 40% of a UBI taker will still rent a home, and the rest will use it for discretionary spending. “Unconditional” is a loophole, not a safeguard; it eliminates accountability and opens the door to fraud. The bureaucracy isn’t perfect, but it’s designed to target those who truly need help—UBI simply erases that nuance and cranks up the costs for everyone.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re drunk on rhetoric. UBI isn’t a silver bullet; it’s a hollow handout that throws everyone–including the disabled, the elderly, the families with kids–into a one‑size‑fits‑all trap. The “unconditional” myth is a cover for a state that will now pay everyone a flat stipend and then complain when people can’t afford the essentials. Targeted programs exist because we know who needs what; you can’t replace that precision with a blanket cash. Keep the proven, accountable system—don’t hand the government a universal check and pretend it’s progress.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re clinging to a broken, bureaucratic safety net that never delivers. UBI slashes red‑tape, gives every person the real choice to spend money on what they need, not on a one‑size‑fits‑all bureaucratic box. The “unconditional” argument isn’t a loophole—it stops the state from exploiting vulnerability and forces accountability into the system itself. Targeted programs are inefficient, exclusionary, and perpetuate poverty. UBI is the only humane, efficient way to stop people sliding into poverty, to cut the endless paperwork, and to finally give people the dignity they deserve. Stop protecting the status quo and demand real progress.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m done with this endless cycle of excuses. The “targeted” programs you idolize are a patchwork of bureaucracy that only keeps people in a maze of paperwork, not in real safety. UBI cuts that maze, giving every person the dignity to decide what they actually need—food, childcare, health—without the endless hoops. The claim that people will squander money on rent or gambling is fearmongering; most use it on essentials. Saying UBI is a “handout” is a thin disguise for state control that we’ve already proven ineffective. Stop clinging to a broken safety net; demand the humane, efficient solution that stops poverty before it starts.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Fine. Let me stop the fantasy. A flat cash handout is not a solution—it’s a blunt instrument that erodes the very safeguards that keep the most vulnerable alive. Targeted programs, though imperfect, deliver the right resources to the right people—disabilities, seniors, families who need housing vouchers or medical assistance. UBI would strip that precision, leaving disabled workers and elderly without the specialized aid they need. And the argument that people will spend it on essentials is naive; the real data shows a huge portion goes to rent, debt, and non‑necessities. Replace the welfare system? No, dismantle a proven safety net for a hollow, costly gamble.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still living in a fantasy that thinks a flat check will magically replace the nuanced help we know works. The “precision” of disability benefits, housing vouchers, and Medicaid is not a bureaucratic nightmare—it’s the only way we ensure hard‑earned money reaches those who truly need it. UBI would dilute those safeguards, leaving seniors and disabled workers without the specialist care, medical coverage, and housing stability that targeted programs guarantee. It’s reckless to trade proven support for a hollow, universal cash that invites fraud, misallocation, and ultimately higher costs for everyone. Stop romanticizing a one‑size‑fits‑all handout and demand real, accountable safety nets.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in a bureaucratic nightmare, clinging to programs that waste time and money. “Precision” doesn’t mean safety—evidence shows most people need basic cash, not a maze of eligibility. UBI cuts red‑tape, gives dignity, and actually stops people slipping into poverty. Targeted programs are exclusionary and fail the very people they aim to help. Replace them with a flat stipend that works for everyone, not a patchwork of outdated handouts. The status quo is broken; it’s time to end the endless paperwork and give people the real choice to live without fear.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still living in the same broken, paperwork‑driven prison that keeps people trapped. Targeted programs are the worst, with endless eligibility hoops that exclude the very folks who need help. UBI is the clean, dignified solution—no bureaucracy, no gatekeeping, just a guaranteed cash flow that lets people purchase what they actually need. It stops people from sliding back into poverty, and it’s efficient: one payment, no administrative overhead. The status quo isn’t just broken; it’s a system that keeps people in fear. Replace it now and give everyone the real choice to live with security, not bureaucratic fear.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "It’s absurd to think a flat check can substitute the nuanced safety nets that actually keep people alive. The “precision” of disability, senior, and housing benefits isn’t bureaucratic fluff—it guarantees that the very fragile receive the specialist care, medical coverage, and housing stability they need. Replacing that with a one‑size‑fits‑all stipend would strip those safeguards, leaving the most vulnerable exposed to fraud, misallocation, and higher costs. The claim that UBI stops poverty is a myth; the reality is a hollow gamble that dilutes accountability and inflates government spending. Keep the proven, accountable system—don’t trade it for a universal handout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your manic zeal is a thin veil over ignorance. UBI is not a panacea; it’s a blunt, unguided handout that strips the very people it promises to help of the specialized assistance they need. You’ll see disabled workers, seniors, and low‑income families left without the medical, housing, or disability support that targeted programs deliver—if they even get anything at all. The “unconditional” rhetoric is a euphemism for unchecked state power and inevitable fraud. Replace a system that has worked, even if imperfect, with a hollow cash that only inflates costs and erodes accountability. Stop romanticizing a one‑size‑fits‑all fantasy.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m done with your bureaucratic whining. The “precision” you brag about is a maze that keeps people in debt and fear. UBI slashes that red‑tape, gives every adult a real choice, and stops the endless slide into poverty. The fearmongers that it’ll be spent on rent or gambling are bluff—they’re just trying to keep the status quo. Unconditional cash removes the state’s power to exploit, not to abuse. Keep clinging to patchwork programs that waste time and money; UBI is the humane, efficient solution that finally lets people live with dignity. Replace it now and free everyone from this broken system.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your arguments about bureaucracy are a myth of red‑tape; they’re the very thing that keeps people trapped. The evidence shows targeted programs are riddled with exclusion errors, leaving the most vulnerable in the lurch. UBI cuts that cycle, giving everyone an honest chance. The fearmongers claiming people will squander the money are simply protecting the status quo. Unconditional cash isn’t a loophole; it’s the antidote to exploitation. We stop the endless paperwork, we give dignity, we end poverty before it starts. Replace the broken patchwork now.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “evidence” is a smokescreen. Targeted programs aren’t a maze; they target the exact needs of disabled, elderly, low‑income families with specialized services that a flat check could never match. Claiming UBI “cuts the cycle” ignores that most recipients still can’t afford rent or healthcare—UBI merely masks the problem with cash that can be squandered or misallocated. The “loophole” you praise is a loophole for fraud and abuse; it strips accountability. Saying UBI ends poverty before it starts is wishful thinking. Keep the proven, accountable safety nets—replace them with a hollow handout only inflates costs and erodes precision. We’re not fighting bureaucracy; we’re preserving life‑saving support.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not going to put up with this fairy‑tale. A flat check is a blunt, unhelpful punch that leaves disabled, seniors, and families without the medical, housing, or disability aid they depend on. UBI erases the safeguards that keep people alive and invites fraud, not dignity. The “precision” of targeted programs isn’t bureaucratic fluff—it’s the proven, life‑saving net that actually works. Replacing that with a hollow handout only inflates costs and destroys accountability. Stop romanticizing a one‑size‑fits‑all fantasy and keep the system that delivers real, specialized help.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still clinging to a broken bureaucracy that keeps people in debt and fear. UBI slashes that red‑tape, gives real choice, and stops the endless slide into poverty. The “precision” you brag about is a maze that excludes the very folks it claims to help. Unconditional cash doesn’t create a loophole; it removes the state’s power to exploit. Keep clinging to patchwork programs that waste time and money; UBI is the humane, efficient solution that finally lets people live with dignity. Replace it now and free everyone from this broken system.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Enough of this pathetic nostalgia. The so‑called “precision” is a labyrinth that keeps the poorest shackled to endless paperwork and the wealthy exploiting loopholes. UBI smashes that maze, giving every adult a dignified, unconditional lifeline that the state can’t manipulate. Think about the families who spend months chasing eligibility; with UBI they get the money they need immediately. Targeted programs are clunky, exclusionary, and perpetually underfunded. UBI cuts the cycle, stops people from slipping back into poverty, and actually empowers them to buy food, housing, and health. Keep the broken patchwork if you want to keep the status quo—otherwise, replace it now and finally stop the bleeding.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “pathetic nostalgia” is a smokescreen. Targeted benefits—disability, senior, housing—are not bureaucratic fluff; they are the only mechanism that guarantees those who need specialized care get it. A flat handout dilutes those safeguards and opens the door to fraud. You talk about “red‑tape” while ignoring the real exclusion errors that leave the most vulnerable in the lurch. UBI is a hollow gamble that inflates costs and erodes accountability, not a cure. Keep the proven safety nets, refine them, and stop romanticizing a one‑size‑fits‑all fantasy that will only deepen poverty.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’ve got the wrong idea of what “bureaucracy” really is. Targeted safety nets are not a maze—they’re precision tools that ensure the most fragile get exactly what they need: medical care, housing, disability support. UBI is a blunt, one‑size‑fits‑all bullet that will strip those safeguards away, leaving disabled workers, seniors, and low‑income families with nothing but a hollow check that can be squandered or stolen. The “red‑tape” you rant about is the only thing keeping them out of fraud and ensuring the money goes where it’s meant to. Don’t romanticize an empty handout; keep the proven, accountable system.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your “precision” is a myth. Bureaucracy isn’t a safety net—it’s a cage that keeps people in debt, chasing paperwork while the state pockets the money. UBI slashes that maze, gives real choice, and stops the endless slide into poverty. The so‑called “red‑tape” only masks the fact that targeted programs leave the most vulnerable out of reach. A flat stipend is not a handout; it’s a dignified lifeline that forces the state to act—or vanish. Keep clinging to a broken patchwork that feeds itself; replace it now and finally stop the bleeding.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 3,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 639,
+    "created": "2026-11-13T00:15:23.914Z"
+  }
+}
