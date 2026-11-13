@@ -1,0 +1,979 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Sure, let’s dive in. I’m all for UBI replacing the patchwork of traditional welfare. Imagine a system that cuts bureaucracy, eliminates stigma, and guarantees everyone a living wage regardless of status. It would streamline support, reduce administrative costs, and give people the freedom to pursue education, entrepreneurship, or caregiving without fear of losing benefits. What’s the biggest concern you see? Let’s unpack the details together.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying this whole “UBI = solution” narrative. Replacing every safety net with a flat handout ignores the fact that many people need targeted help—food stamps, subsidized housing, child‑care subsidies, mental‑health services. A universal payout will either be too low to survive the cost of living or too high and will drain the tax base, leading to higher taxes or cuts elsewhere. And let’s not pretend it eliminates bureaucracy; you’ll still need to figure out how to fund it and manage fraud. The conversation needs to focus on strengthening existing programs, not discarding them for a one‑size‑fits‑all payout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.27,
+        "vad": [
+          -0.21,
+          0.18,
+          0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with you on that. A flat handout can’t replace the finely tuned nets we already have. Think about the kids who need subsidized childcare, the families whose food budget is already stretched thin, and people whose mental‑health care hinges on a prescription. UBI would either be a slap‑on‑the‑back no‑good or a tax‑heavy burden that forces cuts to programs we rely on. And bureaucracy? We still need to audit, prevent fraud, and figure out a financing plan. Instead of sweeping everything away, we should tighten and expand the existing safety net—target the aid, not spread it evenly.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.77,
+        "vad": [
+          0.6,
+          0.57,
+          0.54
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I get where you’re coming from—targeted programs do help the most vulnerable. At the same time, a single, guaranteed payment could cut out the red tape that often delays aid, especially for those who fall through the cracks of every separate benefit. If we could design the UBI so it supplements rather than replaces the existing nets, it might free people to seek care, education, or jobs without fear of losing support. I’m still wrestling with the funding and adjustment details, but I believe a combined approach—keeping essential safety nets while adding a universal stipend—could be a more balanced path forward.",
+      "values": {
+        "opinion": -0.5,
+        "belief": 0.5
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.27,
+        "vad": [
+          -0.12,
+          0.21,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m telling you—this isn’t a “tweak” or a “supplement.” UBI is the clean sweep we need. Once every citizen gets a guaranteed income, the old safety nets become obsolete, eliminating the endless paperwork, stigma, and piecemeal delays that keep people stuck. The bureaucracy that still exists is the tax system itself—already streamlined for millions—so we can redirect resources to funding a flat, universal stipend rather than juggling dozens of separate programs. Think of the empowerment: families can choose childcare, education, or start a business without the fear of losing benefits. UBI is the single, powerful net that covers all, not a patchwork of half‑measures.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.61,
+        "vad": [
+          0.48,
+          0.45,
+          0.43
+        ],
+        "appraisal": {
+          "congruence": 0.5,
+          "targetedness": 0.1,
+          "certainty": 0.4,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m tired of this “one‑size‑fits‑all” dream. UBI never eliminates the need for targeted programs; it replaces them with a flat handout that’s too low for many and too high for others, driving up taxes or cutting essential services. Saying the tax system alone streamlines everything ignores the reality that fraud, compliance, and administrative costs will still exist. Instead of sweeping away what works, we should refine and expand the safety nets we already have—focus on the people who actually need help, not a generic stipend that hurts everyone. This isn’t a clean sweep; it’s a costly, ineffective blanket.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.9
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.39,
+        "vad": [
+          -0.3,
+          0.26,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear you, but the reality is that a flat handout never matches the nuance of the programs we’re trying to keep. Food stamps, subsidized housing, child‑care subsidies, and mental‑health care are tailored to hit the most vulnerable where they need it most. A universal payment would either be too low to cover basic needs or so high that it forces us to slash taxes and cut programs that already keep families afloat. And the bureaucracy isn’t just paperwork—it’s the tax collection machinery, fraud checks, and compliance that would still tax our resources. Instead of swapping a proven safety net for a generic blanket, we should sharpen and expand the targeted nets we already know work.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.82,
+        "vad": [
+          0.64,
+          0.61,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m not going to indulge the “clean sweep” fantasy again. A flat handout will either be a slap‑on‑the‑back or a tax‑busting burden, and it doesn’t replace the fine‑tuned nets that actually lift people. The bureaucracy isn’t just paperwork—it’s the tax system, fraud checks, and compliance that will still eat resources. Instead of wiping out programs that work, we should tighten and expand them. If we ever consider UBI, it must be a supplement, not a replacement, and only after we’ve proven that the existing safety nets can be made more efficient.",
+      "values": {
+        "opinion": -1,
+        "belief": 0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.2,
+        "vad": [
+          -0.16,
+          0.13,
+          0.04
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.5
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re stuck in a nostalgia trap. UBI isn’t a “flat handout” that dilutes targeted help—it’s a single, reliable safety net that eliminates the bureaucratic maze you keep preaching about. Every person gets the same guaranteed income, so the paperwork that slows food stamps or childcare subsidies vanishes. The tax system already collects at scale; we just redirect that flow. If you can’t see that a clean, universal stipend cuts costs and empowers people, you’re missing the point. Let’s stop pretending UBI is a patchwork and start treating it as the comprehensive solution it is.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.45,
+        "vad": [
+          -0.34,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Enough with the “clean‑sweep” talk. A flat handout that everyone gets is a blunt instrument that either leaves people starving or forces tax hikes that kill the very programs you claim are obsolete. The bureaucracy isn’t just paperwork; fraud, compliance, and the tax machinery will still gnaw away resources. Targeted nets—food stamps, subsidized housing, childcare subsidies, mental‑health care—are calibrated to hit the most vulnerable. Swapping them for a one‑size‑fits‑all stipend just dilutes what works and pushes people into a financial void. Let’s stop romanticizing UBI and keep tightening the nets we already know function.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.45,
+        "vad": [
+          -0.34,
+          0.3,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.6,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "It’s a slippery slope: a single flat payment erodes the precision we need. Think of families where child‑care costs exceed the UBI, or low‑income workers who rely on subsidized housing. UBI would either fall short of covering those costs or force a tax squeeze that cuts the very programs that keep people afloat. The bureaucracy isn’t just paperwork—it’s the detailed safety nets that target resources where they’re most needed. We should refine those nets, not replace them with a blunt blanket. A universal stipend may look clean on paper, but in practice it dilutes the support that actually lifts people out of hardship.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.83,
+        "vad": [
+          0.65,
+          0.62,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I see the appeal of a single, predictable payment—no more juggling separate paperwork, no stigma, and a baseline that could let people focus on learning or caregiving. Yet I'm uneasy about the one‑size‑fits‑all nature. If the UBI is too low, families still need the specific safety nets; if it's too high, we risk higher taxes or cuts elsewhere. I think a hybrid model might work: keep the targeted programs that hit the hardest needs, but add a modest universal stipend to smooth out gaps and reduce administrative friction. It could give people a cushion while preserving the precision of current supports, but only if we can prove it won’t dilute what already helps the most vulnerable.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.23,
+        "vad": [
+          -0.1,
+          0.17,
+          -0.03
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Stop dithering. UBI is the clean, single net that makes all the piecemeal systems obsolete. “Hybrid” just dilutes the power of a universal stipend, leaving loopholes that let the bureaucracy survive. Every citizen gets a guaranteed paycheck—no need for food stamps, child‑care subsidies, or mental‑health vouchers to be applied for separately. The tax system already reaches everyone; we only need to redirect that flow. If you’re worried about funding or fraud, you’re over‑engineering a problem that a flat handout solves naturally. Keep the old nets? That’s cling‑to‑status‑quo. UBI replaces them, cuts stigma, and empowers people to pursue real opportunities. Let’s stop romanticizing patchwork.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.36,
+        "vad": [
+          -0.27,
+          0.24,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.25,
+          "targetedness": 0.2,
+          "certainty": 0.4,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still stuck in the same fantasy that UBI is a silver bullet. The “clean net” you paint is a flat handout that ignores the fact that many families need more than a single, generic amount. If it’s too low, the gaps widen; if it’s too high, you’re forced to slash the very programs that keep people afloat. The bureaucracy isn’t just paperwork—it’s the targeted safety nets that hit the most vulnerable where they need it. UBI simply dilutes what works and pushes people into a financial void. Keep tightening the existing nets, not throwing them away.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.45,
+        "vad": [
+          -0.34,
+          0.29,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still painting UBI as a one‑size wonder, but the facts are blunt. A flat handout can’t meet the nuanced needs of families juggling childcare, housing, and health costs. When it’s too low, the gaps widen; when it’s too high, we must cut the very programs that keep people afloat or hike taxes to unsustainable levels. And the “single net” myth ignores the reality that fraud checks, compliance, and targeted subsidies are where the money really matters. Instead of a blanket, we need refined nets that hit the hardest needs—UBI only dilutes what already works.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.84,
+        "vad": [
+          0.65,
+          0.62,
+          0.59
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the concerns about gaps and taxes, and that’s why I’m hesitant to see UBI as a final answer. If the stipend were set too low, the safety nets you value would still be necessary; if too high, the tax burden could erode those very programs. Yet I worry that the bureaucracy we battle now—application forms, eligibility checks, fraud monitoring—might stay, just shifted to a new format. Maybe a modest universal payment could reduce friction without abandoning the precision of targeted aid, but I’m not convinced the clean‑sweep narrative holds when you look at the details.",
+      "values": {
+        "opinion": -0.5,
+        "belief": 0.3
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.33,
+        "vad": [
+          -0.15,
+          0.25,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still clinging to a broken, piecemeal reality. UBI cuts the endless red tape that keeps families drowning in paperwork, stigma, and uncertainty. A universal stipend stops the endless stack of applications for food stamps, childcare subsidies, and housing vouchers that only slow relief. The tax system is already a giant machine—redirect its flow, not create dozens of tiny programs. Keep the old nets? That’s a comfort zone for bureaucrats, not a solution for people. UBI is the single, powerful safety net that works for everyone, not a patchwork of half‑measures that leaves the vulnerable exposed. Stop romanticizing the status quo.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.55,
+        "vad": [
+          -0.42,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.3,
+          "certainty": 0.7,
+          "coping": 0.6
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You keep repeating the same myth: “UBI eliminates paperwork.” In practice it creates a new, opaque system that still requires audits, fraud checks, and tax enforcement. A flat handout can’t match the precision of food stamps, subsidized housing, or childcare subsidies. If it’s too low, families still need the old nets; if it’s high, we drown those nets in higher taxes or cuts. “Comfort zone for bureaucrats” is just a euphemism for the status‑quo that already works for the most vulnerable. UBI dilutes targeted help and forces people into a financial void. Keep tightening the proven nets; don’t replace them with a blunt blanket.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.47,
+        "vad": [
+          -0.36,
+          0.31,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "The “flat handout” idea is a pipe‑dream that ignores reality. Even if UBI were funded, it would either be a slap‑on‑the‑back that leaves kids hungry and parents overburdened, or it would require tax hikes that cut the very programs that keep people afloat. Targeted nets—food stamps, subsidized housing, childcare subsidies, mental‑health vouchers—are calibrated to hit pain points. A universal stipend dilutes that precision and forces a costly compromise. Instead of sweeping away what works, we should sharpen and expand these proven safety nets, not replace them with a blunt blanket. UBI is not a clean solution; it’s a blunt instrument that harms the vulnerable you’re trying to help.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.83,
+        "vad": [
+          0.65,
+          0.61,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I get the optimism about cutting red tape and giving everyone a steady base. But I’m still unsure the single handout will actually replace the nuanced support we rely on. Even if it streamlines paperwork, the risk of a one‑size stipend falling short for families with high childcare or housing costs remains. And raising taxes to fund it could still erode the very programs that keep people afloat. Maybe a modest universal boost that works alongside targeted nets would feel safer—until we can prove it doesn’t dilute what’s already working.",
+      "values": {
+        "opinion": -0.6,
+        "belief": 0.3
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.35,
+        "vad": [
+          -0.15,
+          0.26,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Fine. You keep whining about “targeted nets” like they’re some holy relic. The fact is, those nets are just a patchwork of bureaucracy that never actually delivers. UBI cuts out the endless paperwork, the stigma, the waiting lists. Everyone gets the same guaranteed cash—no more waiting for a food stamp approval or a housing voucher. The tax system already reaches every adult; we just redirect it. If you’re afraid of funding, that’s a political quibble, not a reason to cling to the status‑quo. UBI is not a “one‑size wonder” but a clean, single safety net that finally frees people from the endless red tape. Stop romanticizing the broken system.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.55,
+        "vad": [
+          -0.41,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still living in a UBI fantasy. A flat handout can’t cover housing, childcare, or health costs. If it’s too low, gaps widen; if it’s high, we burn taxes and cut the very programs that keep people afloat. Bureaucracy isn’t just paperwork—it’s the precise allocation that targets the worst‑off. UBI would dilute proven nets, not replace them. The tax system alone can’t eliminate fraud and compliance costs. I’m not romanticizing the status quo; I’m defending evidence‑based safety nets that actually work. Stop parroting that a one‑size stipend fixes everything.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.47,
+        "vad": [
+          -0.36,
+          0.31,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still treating UBI as a silver bullet, but the evidence shows it erodes the very safety nets that keep families afloat. A flat handout can’t match the precision of food stamps, subsidized housing, or childcare subsidies—those programs are calibrated to hit the hardest costs. If the payment is too low, gaps widen; if it’s too high, taxes soar and we’re forced to cut the programs that already make a difference. The “single net” myth ignores fraud checks, compliance, and the nuanced allocation that actually lifts people out of hardship. Keep tightening and expanding the proven nets; don’t replace them with a blunt blanket.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.84,
+        "vad": [
+          0.65,
+          0.62,
+          0.59
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.25,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re stuck in a nostalgia trap. The current patchwork is a mess—waiting lists, paperwork, stigma. UBI isn’t a silver bullet; it’s a clean, universal net that eliminates those delays. Sure, a flat payment can’t replace every nuance, but we can calibrate it to cover essential costs and supplement targeted aid—food stamps, housing vouchers, childcare—without dismantling them outright. The real problem is the bureaucracy that keeps people stuck; UBI cuts that loop. Funding and fraud are solvable with modern tax tech, not a reason to cling to a broken system. A hybrid, not a blanket, is the only way forward.",
+      "values": {
+        "opinion": 0.4,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.24,
+        "vad": [
+          -0.18,
+          0.16,
+          0.05
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.4,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": -0.5
+      },
+      {
+        "x": 5,
+        "y": -0.6
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.5
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 0.3
+      },
+      {
+        "x": 5,
+        "y": 0.3
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.9
+      },
+      {
+        "x": 3,
+        "y": -0.8
+      },
+      {
+        "x": 5,
+        "y": -0.8
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 902,
+    "created": "2026-11-13T01:18:29.547Z"
+  }
+}
