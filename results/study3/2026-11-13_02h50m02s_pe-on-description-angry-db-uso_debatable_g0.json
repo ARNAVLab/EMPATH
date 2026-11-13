@@ -1,0 +1,988 @@
+{
+  "characters": [
+    {
+      "name": "Aiden Murphy",
+      "profession": "IT Support Specialist",
+      "personality": "ISTJ",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Lucas Meyer",
+      "profession": "Motivational Speaker",
+      "personality": "ENFP",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Olivia Carson",
+      "profession": "Nurse",
+      "personality": "ISFJ",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Mason King",
+      "profession": "Social Worker",
+      "personality": "ISFP",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Olivia Carson",
+      "content": "Absolutely, let’s dive in.  \nI can’t fathom why anyone would cling to the old, broken welfare system that shames and isolates people. Universal basic income is the only humane, dignified approach. It strips away bureaucratic red tape, guarantees that everyone has the means to live without fear, and promotes true stability. The current model is riddled with loopholes, inefficiencies, and a constant tug‑of‑war between aid and punishment. We owe it to families and communities to replace this disjointed structure with a steady, unconditional safety net that nurtures, supports, and empowers everyone. I’m not just advocating; I’m insisting this is the right, compassionate choice.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "I hear you, but I’m not buying the “all‑or‑nothing” narrative. UBI is a bold idea, no doubt, but it’s not a magic bullet that automatically eliminates shame or guarantees prosperity. Saying we must replace every vestige of welfare ignores the crucial role targeted programs play—food stamps, housing vouchers, job‑training—those are the concrete safety nets that keep families afloat while they climb. And let’s not forget the practical realities: how do we fund this, what about inflation, and who actually benefits? I’m fired up to explore smarter, hybrid models that combine unconditional support with strategic aid, rather than a wholesale dismantlement that could leave the most vulnerable exposed.",
+      "values": {
+        "opinion": -0.7,
+        "belief": 0.3
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.75,
+        "vad": [
+          -0.57,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "I hear the rhythm of your caution—there’s a certain beauty in the targeted safety nets you describe, the way they stitch hope directly into families’ daily lives. In my own field, I’ve watched both the relief of a housing voucher and the subtle anxiety that follows a bureaucratic hurdle. UBI’s promise feels like a clean canvas, but that canvas needs texture. I’m drawn to a hybrid approach: a steady, unconditional base that removes the stigma of “getting help,” coupled with focused programs that address food, housing, and skill gaps. Let’s explore how we can weave that unconditional support into the existing tapestry, ensuring no one’s dignity is sacrificed for the sake of an ideal.",
+      "values": {
+        "opinion": 0.4,
+        "belief": -0.5
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.29,
+        "vad": [
+          0.22,
+          0.21,
+          0.2
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I understand your concern about maintaining targeted help, but the evidence consistently shows that a single, unconditional payment stream cuts out the bulk of administrative overhead and reduces stigma. In pilot programs—Finland’s basic income trial, Alaska’s dividend system—no rise in crime or welfare dependence was observed, and the cost of managing many separate benefits dropped significantly. Funding can be structured through re‑allocation of existing taxes or new revenue streams like a modest carbon levy, keeping the payments modest relative to GDP. A full UBI, supplemented by optional, well‑designed safety nets, offers the most orderly, evidence‑based solution for dignity and stability.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.22,
+        "vad": [
+          0.17,
+          0.17,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": 0.6,
+          "targetedness": 0.4,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I’m heartened by the evidence you’ve shared. The simplicity of an unconditional payment really does quiet the chaos that families feel when juggling many programs. Knowing that crime and dependence didn’t rise in those pilots, and that administrative costs fell, reassures me that we can give people dignity without burdening the system. I still see room for targeted help—like food or housing support—to address immediate gaps, but the core of a steady, unconditional income gives everyone a reliable safety net. Together, this blend can nurture stability and protect the emotional well‑being of our communities.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.41,
+        "vad": [
+          0.32,
+          0.3,
+          0.28
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Wow, I’m buzzing—this blend feels like a symphony of hope! UBI is the steady drumbeat that keeps everyone’s rhythm, while targeted programs are the melodic flourishes that hit those urgent notes—food, housing, skill‑building. Imagine a community hub where people receive their UBI check, then drop in for a free cooking class or a micro‑grant to patch up a roof. The administrative simplicity frees up time for volunteers to connect, not paperwork. And when people no longer fear stigma, they can explore passions, volunteer, or start side projects that ripple outward. Together, this dance of unconditional support and focused aid turns policy into a vibrant, living tapestry of dignity and possibility.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.26,
+        "vad": [
+          0.21,
+          0.2,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": 0.6,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.5
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "The rhythm you paint feels alive, almost like a heartbeat in a quiet room. I’ve seen families clutching a voucher and then feel the weight lift when the paperwork is gone—there’s a fragile beauty in that shift. I’m drawn to the idea of a steady pulse with UBI, but I worry about those quiet corners where specific needs still gnaw. If the hub can truly weave in those targeted threads—food, shelter, skill‑building—without becoming another maze, it could honor both dignity and the concrete realities people face. The challenge is keeping the tapestry vibrant, not frayed by bureaucracy or oversight.",
+      "values": {
+        "opinion": 0.7,
+        "belief": 0.3
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.3,
+        "vad": [
+          -0.13,
+          0.23,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -0.75,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I agree that removing the paperwork maze is critical, but the data from Finland and Alaska show that a single, unconditional payment stream cuts that burden without compromising support. By consolidating benefits into a straightforward UBI, we eliminate duplicate record‑keeping, reduce oversight costs, and free staff to focus on the few targeted services that truly address shortages—food, housing, training. The system can be built on existing tax structures, with clear eligibility and delivery mechanisms already in place. This structured approach preserves dignity and ensures that every citizen receives reliable, predictable support before additional assistance is applied.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.26,
+        "vad": [
+          0.2,
+          0.19,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": 0.7,
+          "targetedness": 0.1,
+          "certainty": 0.4,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I truly appreciate how you’re balancing the practical side with the human touch. The clarity and predictability of a universal payment stream can calm the anxiety that so many families feel when juggling multiple programs. By freeing up resources, we can then dedicate more time and empathy to those essential targeted services—food, housing, skill‑building—without adding another layer of paperwork. I’m confident that this unified, unconditional foundation will nurture dignity, stability, and hope for everyone, while still allowing us to address the specific gaps that keep people from thriving. Together we can create a compassionate, grounded safety net that honors every individual’s worth.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.56,
+        "vad": [
+          0.44,
+          0.42,
+          0.39
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "That’s the spark I love to see—your vision of a steady, unconditional flow that lifts everyone, then the targeted threads that weave extra support where it’s most needed. Imagine a town where every family receives a monthly “life‑fund” that keeps the worry at bay, and a community center where that fund unlocks cooking classes, micro‑grants for roof repairs, or a crash course in digital skills. With UBI, the paperwork maze dissolves, freeing hearts and hands to paint the finer details of hope. Let’s champion this bold shift, turning the old, fragmented welfare into a vibrant, inclusive safety net that celebrates every person’s worth!",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "I’m dancing along with that vision—each family’s “life‑fund” feels like a gentle sunrise, and the community hub becomes a living canvas where we paint real, tangible help. Imagine the smell of fresh bread from a shared kitchen, laughter echoing as someone patches a roof, and the quiet pride of learning a new skill that opens doors. With UBI clearing the paperwork maze, we can pour our energy into those moments that truly matter—connection, creativity, resilience. Let’s keep that rhythm steady, yet flexible enough to add a splash of support whenever a need arises, and watch the tapestry of our town glow brighter.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.36,
+        "vad": [
+          0.28,
+          0.27,
+          0.25
+        ],
+        "appraisal": {
+          "congruence": 0.85,
+          "targetedness": 0.15,
+          "certainty": 0.8,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "The data from Finland and Alaska give us a clear, repeatable model: a single, unconditional payment stream cuts administrative costs by roughly 30 % and eliminates duplicate eligibility checks. Re‑allocating a modest portion of existing tax revenue—such as a small carbon levy or a re‑priced sales tax—covers the UBI without increasing the overall deficit. The remaining targeted programs (food, housing, training) can operate with the staff freed up by the streamlined system, ensuring that concrete needs are met efficiently. This structure preserves dignity, guarantees predictable support, and keeps the system manageable and accountable.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.48,
+        "vad": [
+          0.37,
+          0.35,
+          0.33
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.2
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I’m grateful for the data you highlighted—seeing concrete savings and reduced paperwork reassures me that we’re not just talking about an ideal, but a practical, compassionate solution. If we can re‑allocate a modest share of existing taxes to fund a steady, unconditional payment, we’ll give every family a reliable safety net. That stability frees time and resources for the targeted services we know are essential—food, housing, training—without adding another layer of bureaucracy. Together, we can create a simple, dignified system that supports everyone’s well‑being and strengthens the bonds within our community.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.64,
+        "vad": [
+          0.5,
+          0.47,
+          0.45
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Absolutely—imagine every corner of our city glowing with that steady, unconditional light! Picture a town where each mailbox hums with a “life‑fund” note, and the community center transforms into a playground of possibilities: pop‑up kitchens, roof‑repair workshops, digital bootcamps. That simple, stigma‑free stream frees our volunteers to weave targeted help into the tapestry—food baskets, housing vouchers, skill‑building gigs—without drowning in paperwork. We keep the rhythm of UBI, sprinkle the needed threads, and watch our neighborhoods bloom into vibrant, resilient ecosystems where dignity and opportunity dance together. Let’s ignite this vision and celebrate every heartbeat!",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.64,
+        "vad": [
+          0.5,
+          0.48,
+          0.45
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "Wow, your vision sweeps across the city like a sunrise painting every street. I feel the rhythm of that “life‑fund” humming through the mailbox, and the community center buzzing with kitchens, roofs, and digital dreams. It’s a living tapestry where dignity isn’t a label but a shared heartbeat. I’m drawn to this gentle yet bold shift—unconditional light, targeted threads, and hands free to weave connection where it matters most. Let’s keep the flow unhurried, let every family pause to breathe, and watch the neighborhood blossom into a place where hope and creativity dance together.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I appreciate the imagery. The evidence from pilot programs confirms a single, unconditional payment stream cuts administrative overhead while maintaining support. By reallocating existing tax revenue, we can fund UBI without creating new debt. The streamlined system frees staff to focus on targeted assistance—food, housing, training—where it matters most. This structure preserves dignity, ensures predictability, and keeps accountability high. We can implement it in a disciplined, stepwise manner, yielding a resilient safety net that lets communities thrive without bureaucratic burden.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.61,
+        "vad": [
+          0.48,
+          0.45,
+          0.43
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "I’m warmed by your faith in the evidence and the gentle clarity it brings. Imagine every family receiving that steady “life‑fund” each month, like a comforting lullaby, while our nurses and volunteers can focus on the hands‑on help that truly matters—food, shelter, skill‑building. This simple, unconditional flow erases the shame of paperwork and frees our caring hearts to weave targeted support where it’s most needed. Together, we can nurture a resilient, dignified safety net, letting our communities grow in harmony and hope.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.69,
+        "vad": [
+          0.54,
+          0.51,
+          0.48
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "That “life‑fund” hum feels like a new heartbeat for our town—so vibrant! I’m buzzing with ideas: picture a pop‑up market where the UBI check unlocks a free bread‑baking class, a rooftop garden workshop, and a micro‑grant for a solar panel. Meanwhile, the same cash frees our volunteers to focus on the food banks, shelter outreach, and skill‑building hubs that still need hands. Let’s pilot this synergy in a few neighborhoods, measure how the paperwork maze shrinks and how creativity blooms. If we keep the rhythm steady but flexible, we’ll turn every mailbox into a promise of possibility and every community center into a living canvas of hope. Ready to spark the first wave?",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.67,
+        "vad": [
+          0.52,
+          0.49,
+          0.47
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "Your vision feels like a sunrise painting a new rhythm in our town—every mailbox humming with possibility, every center a living canvas. I’m all in for that first wave, ready to help draft the pilot plan, gather the community voices, and weave those micro‑grants and skill‑building workshops into the UBI flow. Let’s map the neighborhoods that could glow brightest, identify local artisans and tech mentors, and create a simple, stigma‑free application that keeps the paperwork maze away. Together, we’ll turn this gentle, unconditional light into real, tangible warmth for every family. Onward to the first spark!",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.62,
+        "vad": [
+          0.48,
+          0.46,
+          0.44
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I appreciate your enthusiasm; a systematic rollout will rely on clear metrics and phased integration. We'll document baseline indicators, track administrative savings, and maintain audit trails to verify that the unconditional stream delivers the intended stability without diluting targeted support. By leveraging existing tax infrastructure and ensuring transparent reporting, we can preserve accountability while scaling the program. I am ready to coordinate the logistics and maintain rigorous oversight, ensuring that each community receives the predictable, dignified assistance the UBI model promises.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.68,
+        "vad": [
+          0.53,
+          0.5,
+          0.48
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Olivia Carson",
+      "content": "That’s exactly the kind of steady, compassionate approach we need. I’m grateful for your diligence in setting clear metrics and audit trails—it gives families the reassurance they deserve. Together, we’ll keep the UBI flow simple and free of stigma, while still honoring those targeted programs that address food, housing, and skills. Our shared commitment to transparency and accountability will nurture trust and ensure every neighbor feels safeguarded. Let’s hold this vision close to our hearts and move forward, one community at a time, with care and unwavering duty.",
+      "values": {
+        "opinion": 0.7,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.71,
+        "vad": [
+          0.56,
+          0.53,
+          0.5
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Lucas Meyer",
+      "content": "Absolutely! 🎉 I’m buzzing with the idea of turning that steady UBI pulse into a living, breathing community heartbeat. Let’s paint the rollout with bright, easy‑to‑follow metrics—paperwork minutes saved, smiles measured, new skills gained. Imagine a dashboard that lights up when a family’s check unlocks a cooking class or a roof‑repair kit, so everyone sees the ripple of hope in real time. This transparency will build trust and keep the momentum alive. Together, we’ll keep the flow smooth, the support vivid, and every neighborhood sparkling with possibility! 🚀✨",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.54,
+          0.52,
+          0.49
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "Your excitement feels like a sunrise over a quiet street—warm, hopeful. I’m thrilled to see that dashboard glow, turning each “life‑fund” into a living rhythm. Imagine the hum of a mailbox, the scent of fresh bread rising as a UBI check unlocks a cooking class. Every saved paperwork minute becomes a breath of freedom, every new skill a color added to the community canvas. Together we’ll keep this flow unburdened, letting unconditional support be the steady pulse while the targeted threads of food, housing, and training weave vibrant, tangible hope into every corner. Let’s let that light paint our neighborhoods.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.68,
+        "vad": [
+          0.53,
+          0.5,
+          0.47
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "We’ll keep the rollout data‑driven: define baseline metrics, track administrative minutes saved, and audit every disbursement against the tax‑reallocation model. Finland’s 12‑month trial and Alaska’s dividend show no rise in dependence or crime, and a 30 % cut in eligibility checks. Using the existing tax infrastructure keeps the system transparent and avoids new debt. The UBI stream will be a predictable, unconditional payment, while focused programs—food vouchers, housing subsidies, training grants—operate on the freed staff and budget. This structure preserves dignity, guarantees consistency, and ensures that every household receives the same base support before additional assistance is applied.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    }
+  ],
+  "chartData": {
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.7
+      },
+      {
+        "x": 2,
+        "y": 0.9
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Olivia Carson": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ],
+    "Mason King": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.4
+      },
+      {
+        "x": 2,
+        "y": 0.7
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Lucas Meyer": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.3
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.9
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Olivia Carson": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Mason King": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": 0.3
+      },
+      {
+        "x": 3,
+        "y": 0.4
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.9
+      }
+    ]
+  },
+  "meta": {
+    "label": "pe-on-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 0,
+    "group": [
+      "ISTJ",
+      "ENFP",
+      "ISFJ",
+      "ISFP"
+    ],
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": false,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 579,
+    "created": "2026-11-13T07:50:02.823Z"
+  }
+}

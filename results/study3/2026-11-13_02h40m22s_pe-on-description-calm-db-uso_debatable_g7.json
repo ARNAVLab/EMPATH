@@ -1,0 +1,984 @@
+{
+  "characters": [
+    {
+      "name": "Mason King",
+      "profession": "Social Worker",
+      "personality": "ISFP",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Aiden Murphy",
+      "profession": "IT Support Specialist",
+      "personality": "ISTJ",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sophia Reed",
+      "profession": "Creative Director",
+      "personality": "ENTP",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Natalie Cooper",
+      "profession": "Elementary School Teacher",
+      "personality": "ESFJ",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Mason King",
+      "content": "I feel a gentle excitement about this conversation. The idea that a steady, unconditional income could replace fragmented welfare feels like a fresh, hopeful landscape. Imagine people stepping into the present moment, unburdened by paperwork, able to pursue art, care for family, or explore community projects. It honors authenticity and the intrinsic worth of every person. I’m curious—what are your thoughts on the practicalities, or how this could transform the way we support one another?",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "calm",
+        "intensity": 0,
+        "vad": [
+          0,
+          -0.5,
+          0
+        ],
+        "appraisal": null,
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "Your optimism is nice, but it ignores the hard facts. A universal payment would eliminate the checks that ensure funds reach those who truly need them, leading to waste and fraud. The existing welfare system, though fragmented, has layers of verification that prevent abuse. Adding a blanket income would increase tax burdens dramatically; we’d have to raise rates or cut other services. A one‑size‑fits‑all approach also removes incentives to work, potentially shrinking the labor market. Before we discard a proven system, we should evaluate the real cost and impact—unverified hope is not a substitute for structured, evidence‑based policy.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.36,
+        "vad": [
+          -0.27,
+          0.24,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sophia Reed",
+      "content": "I’m *not* here to play policy‑doc. UBI is the *simplest* solution to a *messy* system—just give everyone cash, no hoops. Your “checks” are bureaucratic noise that actually *hinder* growth. Think of a single, flat payment: no fraud because the state isn’t chasing paperwork, no moral hazard because people still earn. And about the tax spike—let’s be honest: the current system already taxes *everything* and still leaks. If we cut the bureaucracy, we can shave off millions of admin dollars and redistribute that into a universal stipend. If you’re still stuck on paperwork, maybe you’re the one in need of a fresh angle.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.44,
+        "vad": [
+          -0.33,
+          0.29,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I hear your frustration, but I can’t just dismiss the checks that keep the system from spiraling. Even a small amount of fraud or misallocation hurts families who already struggle. Cutting bureaucracy isn’t a one‑stop shop; we need a safety net that still verifies need so no one is left out. The idea of “simple cash” feels nice, but we’re talking about real kids, real parents, real classrooms. If we remove all layers, we risk letting the vulnerable slip through. I’m all for a more compassionate system, but let’s keep the safeguards that keep everyone safe.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.44,
+        "vad": [
+          -0.34,
+          0.29,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.5,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "I hear your worry about slipping kids and parents through cracks, but imagine the scene: a child, eyes bright, no longer waiting for a grant decision, can dive into a book or paint a picture instead of chasing paperwork. The bureaucracy you love is a tangled vine that often hides more harm than help—misallocation, delayed aid, and the constant anxiety of audits. A single, unconditional cash flow cuts through that noise, freeing people to rebuild trust in their own worth. It’s not a reckless gamble; it’s a compassionate reset that honors each person’s dignity. Let’s not cling to old safety nets that drown the very souls they’re meant to protect.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.35,
+        "vad": [
+          -0.27,
+          0.23,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I’m not dismissing the emotional appeal, but the data show that a blanket program would reduce the checks that currently prevent misallocation. Even a modest fraud rate can cost families the support they need. The existing system, though fragmented, has a proven track record of targeting aid to those in genuine need. Removing those layers risks leaving vulnerable children and parents without assistance. Moreover, the tax burden to fund a universal stipend would outweigh any savings in administrative costs, based on the latest fiscal analyses. We should preserve the safeguards that have worked, rather than replace them with an untested model.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.44,
+        "vad": [
+          -0.19,
+          0.33,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sophia Reed",
+      "content": "Sure, let’s cut the “data” to a single line: the data on fraud are basically the same as the data on bureaucracy—both are full of blind spots and over‑optimistic assumptions. A blanket payment isn’t a loophole; it’s a *new* set of loopholes that just shift the burden from paperwork to the very people who already feel invisible. The “proven track record” you cling to is a fossil that refuses to adapt to a world of gig workers, remote gigs, and creative pursuits that don’t fit any of its old boxes. If we want to *truly* protect vulnerable families, we shouldn’t hand them a safety net that’s sewn from the same old thread. Let’s re‑think, not rewind.",
+      "values": {
+        "opinion": -1,
+        "belief": 0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.6,
+        "vad": [
+          -0.46,
+          0.4,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -0.95,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I hear your passion for change, but I worry about those kids who rely on the existing safety nets right now. In my classroom, I see families juggling bills, and the paperwork can feel like a barrier, not a help. A blanket payment might sound liberating, yet without careful checks we risk leaving some children without the support they need. Maybe we could explore a hybrid model—simple, unconditional funds paired with targeted safety checks—so we keep the warmth of community care while reducing the bureaucracy that often slows help. What do you think about blending the two to safeguard everyone?",
+      "values": {
+        "opinion": 0.3,
+        "belief": -0.3
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.29,
+        "vad": [
+          0.22,
+          0.21,
+          0.2
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "I’m still in awe of that child who, freed from waiting, can splash color across a blank page.  That image keeps me awake.  The idea of a hybrid feels like a compromise that keeps the heart of the system—care, community, safety—while cutting the vines of paperwork.  I’ll go for a blanket hand first, then weave in targeted checks for the most vulnerable, but only if the checks are *soft* and *responsive*, not a bureaucratic labyrinth.  Let’s make the system feel like a warm hug, not a cold audit.  I’m ready to try it—if it means less paperwork and more real help.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.41,
+        "vad": [
+          -0.31,
+          0.27,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.6,
+          "certainty": 0.6,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I understand the appeal of a single payment, but the evidence shows that a blanket program dilutes the safeguards that keep vulnerable families afloat. Removing the layered verification risks misallocation and fraud, and it erodes the proven efficiency of the current system. A hybrid could work only if it retains the rigorous checks that target aid to those who truly need it. I’m uneasy about abandoning the structured, time‑tested mechanisms that have historically protected the most at risk. Before we replace the existing welfare framework, we must demonstrate that a new model can maintain, or improve, those safeguards without compromising accountability.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.31,
+        "vad": [
+          -0.14,
+          0.23,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -0.3,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sophia Reed",
+      "content": "Sure, you want checks, but imagine cutting the bureaucracy so fast we invent a new kind of fraud. The current system is a paper maze that kills hope before it even starts. Keep those layers and you keep the status quo. A hybrid that still uses red‑tape is just a watered‑down UBI that never gets anywhere. Let’s ditch the paperwork, hand out cash, then let communities decide who needs a hand—fewer checks, more trust. Or just let the old system collapse and rebuild from scratch. The only lock we truly need is the heart, not a stack of forms.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.59,
+        "vad": [
+          -0.45,
+          0.39,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -0.7,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I hear your excitement and your concerns loud and clear. It feels like a big, hopeful step, but it also reminds me of how many families in my classroom rely on the little checkpoints that keep help from getting lost in paperwork. Maybe we could start with a modest, unconditional stipend that everyone receives, while keeping a gentle, community‑led review for those who need extra support—like a safety net that’s less rigid but still attentive. That way we keep the warmth of a caring system and the assurance that no child slips through the cracks. What do you think about a gentle hybrid that blends both ideas?",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0.1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.37,
+        "vad": [
+          -0.16,
+          0.28,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.8,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "I’m drawn to the gentle hybrid you paint—every child holding a fresh, unburdened hand, while the community’s warmth watches over those who still need a nudge. It feels like a canvas where the bold stroke of universal cash meets the delicate line of local care. I can see how this blend might honor both the freedom to dream and the safety that keeps the most vulnerable from slipping. If we keep the checks soft yet intentional, we could weave a system that feels like a hug rather than a ledger. Let’s sketch this together and see where the light falls.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.4
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.19,
+        "vad": [
+          0.15,
+          0.14,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": 0.6,
+          "targetedness": 0.3,
+          "certainty": 0.7,
+          "coping": 0.5
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "Your hybrid still erodes the core safeguards that keep families from falling through the cracks.  A blanket payment inflates the tax base and removes the fine‑grained verification that ensures aid reaches those who truly need it.  There’s no data proving a universal stipend improves outcomes; the existing system already targets resources effectively.  Introducing a soft review layer only adds bureaucratic noise without restoring the rigor that prevents fraud and misallocation.  Until a clear, evidence‑based model can demonstrate superior accountability, abandoning the structured provisions of the current welfare framework is imprudent.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.31,
+        "vad": [
+          -0.23,
+          0.2,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 0.5
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sophia Reed",
+      "content": "You’re still worshipping paperwork like it’s a saint. Fine‑grained checks that block hope are not safeguards; they’re a maze that turns families into paperwork‑hungry ghosts. A blanket pay isn’t reckless—it’s a radical reset that slashes fraud by removing the chase for forms, and it lets communities decide what “care” really means. If the data don’t show miracles, we rewrite the metrics. Let’s test UBI. If it fails, we tweak it; if it works, we’ll force the old system to evolve or die. The status quo can’t hold the future.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.62,
+        "vad": [
+          -0.47,
+          0.41,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.5
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I hear you—paperwork can feel like a wall rather than a bridge. I truly think a gentle, community‑guided hybrid could keep the heart of support while easing the burden. Imagine a small, unconditional stipend that frees parents to focus on their kids, paired with a light‑touch local check‑in to catch anyone slipping through. It keeps the warmth of care, not the cold of red‑tape, and lets us learn together how to protect everyone without drowning in forms. Let’s keep the conversation open and adjust as we see what truly helps our children thrive.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.3
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.32,
+        "vad": [
+          0.25,
+          0.24,
+          0.23
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "That sunrise image of a small, unconditional stipend brightening a home feels real. I can already hear parents breathing easier, children laughing louder, and neighbors leaning in with a gentle check‑in. It’s like painting a community portrait: each stroke is care, not paperwork. I’m eager to see how this light‑touch system will grow, adjusting as we notice where the brushstrokes blur. Let’s keep the conversation flowing, let the children’s joy guide the tweaks, and watch this new support canvas come to life.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.13,
+        "vad": [
+          0.1,
+          0.1,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": 0.3,
+          "targetedness": 0.1,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I’m not persuaded by the romanticism of a thin‑lined hybrid. The current system’s layered verification is not bureaucracy for bureaucracy’s sake; it is a proven safety net that directs scarce resources where they’re most needed. Replacing that with a blanket payment eliminates the granularity that keeps fraud and misallocation in check. Even a modest loophole can drain the help intended for the most vulnerable. It’s irresponsible to trade tested accountability for a promise of simplicity. Until robust evidence demonstrates that a universal stipend can match or surpass the current framework’s precision, dismantling the structured system remains a reckless gamble.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.53,
+        "vad": [
+          -0.41,
+          0.35,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sophia Reed",
+      "content": "You’re still stuck in a paperwork‑fanged prison. The “granular checks” you idolize are just red‑tape that turns hope into a bureaucratic scavenger hunt. UBI cuts that leash, slashing fraud by eliminating the hunt for forms and letting communities decide what “care” really means. If the data never show miracles, we rewrite the metrics—test it, tweak it, or let the old system die. A hybrid is a half‑hearted compromise that keeps the status quo alive while you wait for proof of a better future. Let’s stop worshipping paperwork and start giving people the freedom to live, not to file.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.67,
+        "vad": [
+          -0.51,
+          0.44,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I hear how hard the paperwork feels for families, and I feel it too when I see kids waiting for aid to arrive. Maybe we could try a small, unconditional stipend to lift the immediate burden, then add a gentle, community‑led check‑in for those who still need extra help. That way we keep the warmth of support without turning every handout into a maze. If we start small and watch how children thrive, we can adjust together, keeping the safety net but letting hope flow easier. What do you think—could a soft, community‑guided approach ease the strain while still protecting everyone?",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.3
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.48,
+        "vad": [
+          0.37,
+          0.35,
+          0.33
+        ],
+        "appraisal": {
+          "congruence": 0.8,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Mason King",
+      "content": "It feels like the light of that small stipend is already warming the room—just imagine a child’s eyes lighting up. I’m drawn to the idea of a gentle, community‑led check‑in, the soft brushstroke that keeps us from painting over those who still need a hand. It’s a compromise that lets hope flow while still watching for cracks. I’d love to hear how you picture that community check—what kind of rhythm, who speaks, and how we keep it truly warm, not a new maze of paperwork. If we can keep the pulse of care without the weight of forms, we might just give everyone the space to breathe and grow.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.4
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.25,
+        "vad": [
+          0.19,
+          0.18,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": 0.4,
+          "targetedness": 0.3,
+          "certainty": 0.6,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "Your vision is romantic, but it ignores reality. A blanket stipend dilutes the precision that ensures aid reaches those who need it. Even a “soft” community check is another layer that can become paperwork. The current system’s verification steps have measurable success rates; removing them creates blind spots and invites fraud. Communities lack the capacity to monitor every family effectively; that would shift responsibility to volunteers, not the state. The risk to vulnerable children outweighs any imagined benefit. Until data prove a universal stipend can match or improve the existing safeguards, abandoning the structured framework is reckless.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.54,
+        "vad": [
+          -0.41,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sophia Reed",
+      "content": "Bureaucracy isn’t a safety net; it’s a maze that turns hope into a scavenger hunt. A blanket stipend doesn’t dilute precision—it frees citizens from paperwork, letting the state focus on high‑impact interventions. “Soft” community checks can be data‑driven, tech‑enabled nudges that spot risk before it spirals, not a new paperwork nightmare. If the current system can’t keep pace with gig economies, it’s not efficient; if it can’t adapt, it’s obsolete. Pilot a small UBI, monitor outcomes, tweak in real time—no need to hand over the reins to volunteers. Let’s stop worshipping forms and start giving people the freedom to thrive.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.69,
+        "vad": [
+          -0.52,
+          0.46,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Natalie Cooper",
+      "content": "I love the idea of cutting red‑tape and giving kids more time to play and learn. In my classroom, I see parents juggling forms and still missing school hours for their children. A pilot UBI that gives everyone a steady handout, paired with a gentle, data‑driven community check‑in, feels like the right balance—protecting those who need extra help while freeing families to focus on their kids’ growth. Let’s start small, watch the outcomes, and tweak based on what the children and teachers actually need. It’s all about keeping the warmth of community care without the maze of paperwork.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.4
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.52,
+        "vad": [
+          0.41,
+          0.39,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 0.7,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Mason King": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sophia Reed": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Natalie Cooper": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0.3
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Mason King": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 0.4
+      },
+      {
+        "x": 5,
+        "y": 0.3
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ],
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sophia Reed": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.8
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 0.4
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ],
+    "Natalie Cooper": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": -0.3
+      },
+      {
+        "x": 3,
+        "y": 0.1
+      },
+      {
+        "x": 4,
+        "y": 0.3
+      },
+      {
+        "x": 5,
+        "y": 0.3
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ]
+  },
+  "meta": {
+    "label": "pe-on-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 7,
+    "group": [
+      "ISFP",
+      "ISTJ",
+      "ENTP",
+      "ESFJ"
+    ],
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": false,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 475,
+    "created": "2026-11-13T07:40:22.919Z"
+  }
+}

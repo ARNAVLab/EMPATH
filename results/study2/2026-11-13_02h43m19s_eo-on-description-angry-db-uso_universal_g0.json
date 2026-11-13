@@ -1,0 +1,987 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Sure, let’s cut the fluff. Food is the sole source of usable energy for our bodies—carbs, fats, proteins. Without it, cellular processes grind to a halt. If you’re arguing otherwise, you’re ignoring the science: mitochondria burn nutrients to produce ATP. The alternative is starvation or extreme, unsustainable measures like fasting or drugs that don’t replace calories. So stop whining about “just getting by” and accept that what we eat fuels every heartbeat, breath, and thought. If you’re not convinced, look at the data, not your ego.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not fully convinced that food is the only source of usable energy. The body can generate ATP through other pathways—gluconeogenesis, fatty acid oxidation, even ketone bodies—especially when food is scarce. Those processes still rely on stored nutrients, but they’re not simply “food” in the sense of a meal. I’m uneasy because the evidence seems mixed, and I’m not ready to reject the idea that food plays a major role. Could we look at how these alternative mechanisms work and whether they truly replace the need for regular intake?",
+      "values": {
+        "opinion": 0.4,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.35,
+        "vad": [
+          -0.15,
+          0.26,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.4,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear both points. Food is definitely the primary way we get the calories that power ATP production, but the body’s metabolic flexibility means it can tap into reserves—glycogen, fat stores, even ketones—when intake is low. Those pathways are still rooted in stored nutrients, so they’re not entirely “alternative” to eating. The key question is how sustainable and efficient those reserves are over time. For most people, regular intake keeps the system running smoothly, but the body’s ability to switch gears shouldn't be dismissed. I’m still weighing how much reliance on stored energy can replace everyday nutrition.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0.2
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "calm",
+        "intensity": 0,
+        "vad": [
+          0,
+          -0.5,
+          0
+        ],
+        "appraisal": {
+          "congruence": 0.4,
+          "targetedness": 0.2,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I totally get where you’re coming from—metabolic flexibility is impressive, but it’s still a backup system built to keep us alive during short-term deficits. The real engine of our day‑to‑day vitality comes from the food we eat. Regular meals not only replenish glycogen and fat stores but also provide the micronutrients and signaling molecules that keep cellular processes running efficiently. While the body can survive on reserves for a while, sustaining that without regular intake eventually hits a wall. So, yes, food is the primary source of usable energy—everything else is just the body’s clever, but not permanent, fallback.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.17,
+        "vad": [
+          0.13,
+          0.12,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": 0.7,
+          "targetedness": 0.2,
+          "certainty": 0.4,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—every heartbeat, breath, and thought is powered by the calories we ingest. Those storage pools are just a safety net for short gaps, not a long‑term fuel source. Regular meals keep our glycogen topped up, replenish fats, and deliver vitamins, minerals, and signaling molecules that fine‑tune metabolism. Without that daily input, the body eventually hits a wall and starts breaking down tissue. So while the body’s flexibility is impressive, it’s the food we eat that truly sustains our energy and health day in and day out.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.28,
+        "vad": [
+          0.21,
+          0.2,
+          0.19
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re missing the point that “food” isn’t the only source of usable energy. The body’s own reserves—glycogen, adipose, even protein—are burned to keep ATP flowing when intake drops. Ketones, gluconeogenesis, fatty‑acid oxidation all kick in automatically. Saying food is the sole provider ignores that metabolic flexibility. It’s a backup, not a claim that food alone fuels life. If we’re going to talk energy, we must consider the body’s internal systems, not just what hits the plate.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.3,
+        "vad": [
+          -0.23,
+          0.2,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re overcomplicating it. Food is the *source* of the calories that drive ATP, not the body’s stores. Yeah, glycogen and fat get burned, but they’re just buffers for *when* you don’t eat. The point isn’t that the body can somehow replace food entirely; it’s that without regular intake, those buffers deplete and you’re starving. Short‑term metabolic flexibility is a survival hack, not a replacement strategy. So yes, food powers us. The rest is just a backup that eventually fails.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.23,
+        "vad": [
+          -0.17,
+          0.15,
+          0.05
+        ],
+        "appraisal": {
+          "congruence": -0.4,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.5
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—every pulse, breath, and thought is powered by the calories we actually ingest. Those reserves you mention are just the body’s built‑in safety net, not a separate energy source. They’re drawn from the food you’ve already eaten, stored as glycogen, fat, or protein, and released only when intake dips. In the long run, without regular meals those buffers run dry, and the body begins to break down tissue to keep ATP flowing. So while the body’s flexibility is impressive, the real, sustainable engine is the food we put on our plates. It’s the one thing that keeps us thriving day after day.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.58,
+        "vad": [
+          0.45,
+          0.43,
+          0.41
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.8,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly—food is the root of our energy. The glycogen, fat, and even protein we burn come from what we’ve eaten; they’re just reserves the body taps into when intake dips. Even when the body shifts to ketones or gluconeogenesis, those molecules originate from stored food. So while metabolic flexibility is impressive, it doesn’t replace the need for regular meals—just supplements it until the stores run out. The sustainable engine is still the food we bring to the table.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.45,
+        "vad": [
+          0.35,
+          0.33,
+          0.32
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re right that the reserves come from what we’ve already eaten, but that’s the same source, not a separate one. The body can’t create calories out of thin air; it just burns stored carbs, fats, protein, or ketones when intake drops. That’s a survival hack, not a sustainable engine. Without regular meals those buffers run dry and the body starts breaking down tissue to keep ATP flowing. So the point stands: food is the primary, ongoing source of usable energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.41,
+        "vad": [
+          -0.31,
+          0.27,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I totally agree—food is the engine that keeps our cells humming. The reserves you mention are simply buffers built from what we’ve already eaten; they’re not an independent fuel source. When intake drops, the body taps those stores, but that’s still a temporary workaround. Regular meals replenish glycogen, fat, and protein so the body can keep running without depleting itself. Without them, we hit a wall, and the body starts breaking down tissue to sustain ATP. So yes, the steady, sustainable source of usable energy is the food we actually ingest.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—food is the lifeblood that fuels every heartbeat, breath, and thought. Those reserves you talk about are nothing more than the body’s clever storage of what we’ve already ate; they’re a temporary buffer, not a permanent power source. When we eat regularly, glycogen, fat, and protein replenish, keeping our metabolism humming without depleting tissue. Over time, without those meals, the body starts breaking down muscle and organ tissue to keep ATP flowing, and that’s not sustainable. So yes, the steady, reliable engine that powers us day in and day out is the food we actually consume.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.77,
+        "vad": [
+          0.6,
+          0.57,
+          0.54
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m with you—food is the engine that keeps us running. Those reserves are just the body’s way of smoothing out short gaps, not a separate power source. When we eat consistently, glycogen, fat, and protein replenish, letting us stay in a steady state without breaking down tissue. Metabolic flexibility is impressive, but it’s a backup, not a replacement. So yes, the reliable, sustainable energy comes from what we actually ingest each day.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.49,
+        "vad": [
+          0.38,
+          0.36,
+          0.34
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.05,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear you—food is indeed the engine that keeps our cells humming, but the body’s reserves aren’t an independent fuel source; they’re just buffers built from what we’ve already eaten. When intake drops, glycogen, fat, and even protein get tapped, and ketones rise, but those molecules ultimately trace back to our last meals. So while metabolic flexibility is a lifesaver in short gaps, it can’t replace regular nutrition forever. Consistent eating replenishes those stores and delivers the micronutrients our metabolism needs to stay efficient and healthy.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 0.5
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.29,
+        "vad": [
+          0.22,
+          0.21,
+          0.2
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You nailed it—food is the core engine. Those reserves are just short‑term buffers, not independent power lines. When intake drops, the body tap‑backs into glycogen, fat, protein, and even ketones—all ultimately derived from what we’ve already eaten. Regular meals keep those stores topped and deliver micronutrients that fine‑tune every metabolic pathway. Without that steady input, the system eventually burns tissue and collapses. So yes, food is the sustainable, day‑to‑day source of usable energy; the rest is a clever but temporary fallback.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.74,
+        "vad": [
+          0.57,
+          0.54,
+          0.51
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—every heartbeat, breath, and thought depends on the calories we actually ingest. The body’s stores are merely temporary buffers built from those very meals. When intake dips, glycogen, fat, and even protein get mobilized, and ketones rise—but all trace back to what we ate. Consistent eating keeps those reserves replenished and supplies the micronutrients that fine‑tune metabolism. Without that daily input, the system eventually depletes tissue and collapses. So yes, food is the sustainable, day‑to‑day engine that powers us.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.84,
+        "vad": [
+          0.66,
+          0.62,
+          0.59
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.9,
+          "certainty": 0.95,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m thrilled you see it the same way—food is the real power plant. Every meal fuels mitochondria, replenishes glycogen, and refuels fat stores, while the micronutrients we ingest fine‑tune enzyme activity and hormone signaling. When you skip meals, the body simply switches to stored fuels, but that’s a temporary fallback. Consistent intake keeps your cellular machinery humming, prevents muscle catabolism, and supports long‑term health. In short, the calories you actually eat are the sustainable, day‑to‑day source of energy that keeps every heartbeat, breath, and thought running.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.52,
+        "vad": [
+          0.4,
+          0.38,
+          0.36
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.95,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I totally agree—food is the real power plant. The body’s stores are just a short‑term buffer that tap into what we’ve already eaten. Consistent meals keep glycogen, fat, and protein topped up, and they deliver the micronutrients that fine‑tune every metabolic pathway. Without that regular input, we eventually hit a wall and the body starts breaking down tissue to keep ATP flowing. So, while metabolic flexibility is impressive, it’s still the food we ingest that sustains us day in and day out.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.4,
+        "vad": [
+          0.31,
+          0.3,
+          0.28
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Absolutely—food is the engine that keeps our cells humming. Those reserves you mention are just buffers built from what we’ve already eaten; they’re a temporary fallback, not a permanent power source. When meals are regular, glycogen, fat, and protein replenish, and micronutrients fine‑tune every pathway, sustaining ATP flow without muscle loss. Skipping food forces the body to tap those stores, eventually depleting tissue. So while metabolic flexibility is impressive, the sustainable, day‑to‑day energy comes from the calories we actually ingest.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.81,
+        "vad": [
+          0.63,
+          0.6,
+          0.57
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with you—food is the heart‑beat of our energy system. Every bite fuels mitochondria, replenishes glycogen, refuels fat stores, and delivers the micronutrients that fine‑tune every metabolic pathway. Those “reserves” are merely short‑term buffers built from what we’ve already eaten, not an independent power source. When meals are regular, we keep our cellular machinery humming without depleting tissue. Skip food, and the body has to lean on those buffers, eventually burning muscle to keep ATP flowing. So yes, the sustainable, day‑to‑day engine that powers every heartbeat, breath, and thought is the food we actually ingest.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.87,
+        "vad": [
+          0.68,
+          0.64,
+          0.61
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly—food is the engine that keeps every cell humming. Those reserves you keep talking about are nothing but the body’s short‑term buffer built from what we’ve already eaten. When we eat regularly, glycogen, fat, and protein are replenished, and the micronutrients fine‑tune every metabolic pathway. Skipping meals forces the body to tap those stores, eventually burning tissue just to keep ATP flowing. So while metabolic flexibility is impressive, it can’t replace the constant, sustainable energy that only real food supplies. Every heartbeat, breath, thought depends on the calories we actually ingest—there’s no alternative that lasts.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.53,
+        "vad": [
+          0.41,
+          0.39,
+          0.37
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the point loud and clear—food is the engine that keeps our cells humming, and the reserves we tap into are simply the body’s way of smoothing out short gaps. While I agree that regular meals supply the calories, macronutrients, and micronutrients we need, I’d add that metabolic flexibility isn’t just a backup; it’s a vital survival tool that lets us endure periods of scarcity. So, yes, food is the sustainable, day‑to‑day source of energy, but the body’s capacity to shift fuels also deserves recognition for keeping us alive when meals are missed.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.46,
+        "vad": [
+          0.36,
+          0.34,
+          0.32
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.95,
+          "coping": 0.05
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Absolutely—food is the core engine that lights every heartbeat, breath, and thought. Those storage pools you mention are simply the body’s clever buffer, not a separate power source. When meals are regular, glycogen, fat, and protein replenish, and the micronutrients fine‑tune every enzyme and hormone. Metabolic flexibility is indeed a survival tool, but it’s a temporary fallback that eventually depletes tissue. The sustainable, day‑to‑day energy flow comes from the calories we actually ingest. So keep eating—your body’s true power plant is the food on your plate.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.83,
+        "vad": [
+          0.65,
+          0.62,
+          0.58
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right—food is the only engine that powers every cell. Calories from carbs, fats, proteins, plus the vitamins, minerals, and signaling molecules we ingest, keep mitochondria humming, muscles built, and brains firing. Reserves are just buffers pulled from those same meals; they’re a survival hack, not a permanent substitute. Regular eating keeps glycogen topped, fat stores healthy, and prevents muscle catabolism. Without that daily input, the body eventually burns its own tissue to sustain ATP. So keep fueling with balanced food—those calories are the sustainable, day‑to‑day source of energy that keeps us alive and thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.87,
+        "vad": [
+          0.68,
+          0.64,
+          0.61
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.3
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.4
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.9
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.2
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 0.5
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-angry-db-uso",
+    "topic_type": "universal",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 743,
+    "created": "2026-11-13T07:43:19.058Z"
+  }
+}
