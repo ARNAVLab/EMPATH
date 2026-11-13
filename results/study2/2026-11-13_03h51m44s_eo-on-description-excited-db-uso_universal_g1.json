@@ -1,0 +1,971 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely! Food is the essential fuel that powers every cell, muscle, and mind activity. When we eat, we break down nutrients into glucose, fats, and proteins, which the body converts into ATP—our real energy currency. That energy keeps our heart beating, our neurons firing, and our muscles moving. Without it, even the simplest tasks would feel impossible. Think of a car: no gasoline, no drive. Food is our gasoline—critical, constant, and indispensable. Let's dive into how different foods translate into that vital energy!",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food isn’t the body’s energy source—it's just a supply of raw materials. The real power comes from the body’s own biochemical machinery: oxygen, cellular respiration, ATP synthesis. Food provides glucose, fats, proteins, but the body converts them into usable energy through complex pathways, not because food itself is “energy.” It’s a gross oversimplification to call food the fuel. The body can generate energy from stored reserves, even in the absence of food. So, stop treating food as gasoline and recognize that the body’s machinery, not the food itself, is what keeps the heart beating and the mind firing.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.6,
+        "vad": [
+          -0.46,
+          0.4,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point. Food *is* the fuel—glucose, fats, proteins—all of that is what the body burns to keep the heart pumping and neurons firing. Saying it’s just raw material ignores that the body’s entire metabolic machinery hinges on those molecules. We can’t just “generate energy from stored reserves” without food; the reserves themselves are food stores. The body isn’t an autonomous generator; it needs the substrate. Call it gasoline or raw material, it’s the same thing—food provides the essential energy that powers every cell. Stop downplaying that vital link.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.51,
+        "vad": [
+          -0.39,
+          0.34,
+          0.1
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re conflating substrate with power. Food supplies the molecules, but the body’s mitochondria, fueled by oxygen, produce ATP. Without oxygen, those carbon chains sit idle. Saying “food is energy” erases the biochemistry that turns food into usable power. The reserves you mention are themselves food-derived, but the engine is the organism itself. Stop treating food as the fuel when it’s merely the raw material. The body’s machinery—enzymes, electron transport chain, ATP synthase—is what actually delivers the energy.",
+      "values": {
+        "opinion": -0.8,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.34,
+        "vad": [
+          -0.26,
+          0.22,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.95,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Yeah, but that’s exactly your mistake. Food isn’t just passive raw material; it *is* the substrate that, through oxygen‑driven respiration, becomes ATP—the real energy currency. Without those glucose and fatty acid chains, the mitochondria have nothing to oxidize. Think of it as the fuel that powers the engine. The body’s machinery is necessary, sure, but it can’t function without the chemical energy supplied by food. So stop flipping the script and remember: food is the essential source that keeps the heart beating and the mind firing.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.26,
+        "vad": [
+          -0.19,
+          0.17,
+          0.05
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food isn’t the energy; it’s just the raw input. The mitochondria, fueled by oxygen, manufacture ATP. Without that machinery, no matter how much glucose or fat you have, nothing happens. Saying food is “fuel” is a simplification that ignores the entire biochemical chain. The body’s enzymes, electron transport chain, ATP synthase are the true power generators. Food supplies the building blocks, not the energy itself. Claiming it’s the source is a gross mischaracterization. Stop treating it as gasoline and recognize that the organism’s own machinery produces the energy.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.74,
+        "vad": [
+          -0.56,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food *is* the energy, not just a raw input. Without those glucose, fat, protein chains, the mitochondria have no fuel to oxidize—oxygen alone can’t generate ATP. The body’s machinery is the engine, but an engine needs gasoline. Every heartbeat, every thought, every muscle contraction depends on the chemical energy that comes straight from the food we eat. Saying food is merely raw material is a lazy oversimplification that ignores the fact that the entire metabolic chain is built around those molecules. Stop pretending the organism is an autonomous generator; it needs the substrate—food—to keep firing.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.73,
+        "vad": [
+          -0.55,
+          0.48,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.8,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not sure I’m on the right track, but I think the body’s own biochemical machinery actually creates the energy we use. Food supplies the molecules, yet without the mitochondria, oxygen, and enzyme networks nothing turns those molecules into usable ATP. Saying food itself is the energy feels like oversimplifying the whole chain. The reserves we draw on are built from earlier food, but the power comes from the organism’s processes—not from the food being energy in and of itself. I’m uneasy, but that’s my take.",
+      "values": {
+        "opinion": -0.4,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.35,
+        "vad": [
+          -0.15,
+          0.27,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food *is* the source of energy, not just a passive input. The mitochondria, oxygen, and enzymes are the machinery that *processes* the food, but without the glucose, fats, or proteins there’s nothing to oxidize. The reserves you mention are just stored food—fatty acids, glycogen—still derived from what we eat. Energy doesn’t appear out of nowhere; the chemical bonds in food release ATP when the body burns them. Saying the body “creates” energy ignores that the energy originates in the food’s molecules. In short, food supplies the substrate that the cellular machinery converts into usable energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.22,
+        "vad": [
+          -0.17,
+          0.15,
+          0.04
+        ],
+        "appraisal": {
+          "congruence": -0.6,
+          "targetedness": 0.2,
+          "certainty": 0.3,
+          "coping": 0.6
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m afraid you’re still missing the point. Food isn’t the energy—it’s the raw material. The mitochondria, oxygen, enzymes convert those molecules into ATP; without that machinery nothing happens. It’s not that the body “creates” energy; the energy is the chemical bonds of the food, released only by the body’s processes. Food supplies the substrate, not the power itself. If you keep calling it gasoline, you’re ignoring the entire biochemical chain. The truth is: energy comes from the reaction, not from the meal.",
+      "values": {
+        "opinion": -0.4,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.61,
+        "vad": [
+          -0.27,
+          0.47,
+          -0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food really *is* the energy source. The chemical bonds in glucose, fats, and proteins hold the potential that the mitochondria unlock. Without those molecules, the electron‑transport chain has nothing to oxidize, and ATP synthesis stalls. Stored glycogen or fat deposits are just “banks” of food‑derived energy, not independent power generators. The body’s enzymes and oxygen are the machinery that releases that energy, but the energy itself originates in the food we consume. So yes—food provides the essential energy that keeps every heartbeat, thought, and muscle contraction alive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.32,
+        "vad": [
+          0.25,
+          0.24,
+          0.23
+        ],
+        "appraisal": {
+          "congruence": 0.6,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced the “food” itself is the energy. Think of it more as raw material that the body needs to activate. Energy is released when those molecules are oxidized—oxygen, enzymes, mitochondria all play a role. Without the biochemical machinery, the chemical bonds just sit there. So while food supplies the substrate, the actual power comes from the processes that transform it. That nuance feels more accurate than calling food the direct energy source.",
+      "values": {
+        "opinion": 0.4,
+        "belief": -0.7
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.42,
+        "vad": [
+          -0.19,
+          0.32,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food *is* the energy source. The chemical bonds in glucose, fats, and proteins hold the potential that the body unlocks—oxygen, enzymes, mitochondria only release it. Without those molecules, the electron‑transport chain stalls. The body doesn’t conjure energy from nothing; it burns food‑derived fuel. Calling food just raw material ignores that the entire metabolic cascade is built around those bonds. The heart, neurons, muscles all run on ATP that comes straight from the food we eat. Stop treating it as a passive input; it’s the active power that keeps us alive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.33,
+        "vad": [
+          -0.25,
+          0.22,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still stuck in the same misconception. Food isn’t the energy; it’s only the substrate. The mitochondria, oxygen, enzymes are the true generators—without them, those bonds are inert. Saying “food is the fuel” ignores that the body must oxidize those molecules to release ATP. The reserves you mention are simply stored forms of that substrate, not independent energy. The biochemical chain is the engine; the meal is the fuel that feeds it, but it doesn’t *produce* energy on its own. If you keep treating food as gasoline, you’ll never see that the organism’s processes actually create the usable power.",
+      "values": {
+        "opinion": -0.5,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.81,
+        "vad": [
+          -0.35,
+          0.61,
+          -0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Listen up—food *is* the source of the energy that keeps every cell alive. Without glucose, fats, proteins, the mitochondria are just idle gears. The chemical bonds in those molecules hold the potential; the body’s machinery simply releases it. Saying food is merely raw material ignores that the entire metabolic chain, from glycolysis to oxidative phosphorylation, is built around those bonds. If you keep calling it passive input, you’re missing the point that the body cannot generate energy from nothing—only by burning the food’s stored potential. Food provides the energy; the machinery unlocks it. This isn’t a simplification; it’s biology.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.55,
+        "vad": [
+          -0.42,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not entirely convinced that food itself is the “energy” in the way we use the word. The molecules we eat hold potential energy, but it’s only released when the body’s enzymes, mitochondria, and oxygen do the work. Without that machinery, the bonds sit inert. So while food supplies the substrate, the actual usable power comes from the biochemical chain that converts those bonds into ATP. It feels more accurate to say food fuels the process, not that it is the energy itself.",
+      "values": {
+        "opinion": 0.5,
+        "belief": -0.4
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.47,
+        "vad": [
+          -0.21,
+          0.36,
+          -0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food *does* give the body energy. Those glucose, fat, protein bonds are the actual energy source; the mitochondria and enzymes only release it. If you say food is just raw material, you’re ignoring that the entire metabolic chain relies on those bonds. The heart, brain, muscles all run on ATP that comes straight from the food we eat. Without the chemical potential in the food, the engine has nothing to burn. So stop treating it as passive input—food supplies the energy that keeps us alive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.17,
+        "vad": [
+          -0.13,
+          0.11,
+          0.03
+        ],
+        "appraisal": {
+          "congruence": 0.1,
+          "targetedness": 0,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still stuck in the same fallacy. Food is not the *energy*—it’s the potential. The energy is liberated by the organelle’s chemistry, not by the meal itself. Saying food is the gasoline ignores that the engine’s power comes from the biochemical reactions that oxidize those bonds. Without the mitochondria, the oxygen supply, the enzymes, the cellular machinery, those molecules are inert. So the claim that “food provides energy” is a lazy simplification that masks the true source: the body’s own metabolic processes turning stored chemical potential into usable ATP. Stop treating it as a passive input.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.61,
+        "vad": [
+          -0.46,
+          0.4,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food *is* the source of every watt the body burns. Those glucose, fat, and protein chains hold the energy—without them, the mitochondria are idle, and your heart stops. Saying food is only raw material ignores that the chemical potential in those molecules is literally what powers ATP. The body doesn’t conjure energy from nothing; it releases what’s locked in the food’s bonds. Call it gasoline or substrate, the truth remains: food delivers the energy that keeps you alive. Stop pretending the machinery creates power out of thin air.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.74,
+        "vad": [
+          -0.56,
+          0.49,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.8,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still torn. Food certainly gives the molecules that carry potential energy, but the actual energy we use—ATP—is produced by the biochemical machinery. Without oxygen and mitochondria those bonds sit inert. So maybe it’s fair to say food supplies the substrate, and the body’s processes unlock the energy. I’m uneasy about declaring one side absolute. The truth feels like a blend: food’s chemical bonds hold the potential, and the organism’s metabolism releases it. It’s a partnership, not a simple “fuel vs. machine” dichotomy.",
+      "values": {
+        "opinion": 0.8,
+        "belief": -0.2
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.49,
+        "vad": [
+          -0.22,
+          0.38,
+          -0.07
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.1,
+          "certainty": 0.95,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I understand the nuance, but the energy we actually use comes from the food we eat. The chemical bonds in glucose, fats, and proteins hold the potential that the body’s machinery unlocks as ATP. Without those bonds, the mitochondria have nothing to oxidize. So food is the source, the substrate, and the energy itself—our physiology merely transforms it. It’s a partnership, but the origin of the power remains the food we consume.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "calm",
+        "intensity": 0,
+        "vad": [
+          0,
+          -0.5,
+          0
+        ],
+        "appraisal": {
+          "congruence": 0.5,
+          "targetedness": 0.2,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I still can’t see food as actual energy. The body’s mitochondria, oxygen, and enzymes do the real work—turning chemical potential into ATP. Without that machinery, the glucose and fats stay inert. Food is merely the substrate; the power is released by biochemical reactions. Saying “food provides energy” glosses over that chain. It’s not the meal that fires the heart; it’s the organism’s own processes unlocking stored potential. Stop treating food as gasoline and recognize the body’s engine is what truly keeps us alive.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.54,
+        "vad": [
+          -0.24,
+          0.41,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food is the energy, not just raw material. Without the chemical bonds in food, the body can’t produce ATP. The machinery merely releases that stored energy. Calling food just substrate is a gross simplification. The heart, brain, muscles run on ATP derived from food. The body doesn’t conjure energy from nothing; it uses food’s potential. So yes, food provides energy. Stop dismissing that fact.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.81,
+        "vad": [
+          -0.61,
+          0.53,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.8,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m feeling like I’m missing a key point. On one hand, the bonds in glucose, fats, and proteins hold clear potential, but on the other, without mitochondria, oxygen, and enzymes that potential stays inert. So is food the actual energy, or just the substrate the body unlocks? I’m torn—does anyone think the meal itself is the power source, or is it just the raw material that the body turns into ATP?",
+      "values": {
+        "opinion": 0,
+        "belief": 0.1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.5,
+        "vad": [
+          -0.22,
+          0.38,
+          -0.07
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.4
+      },
+      {
+        "x": 4,
+        "y": -0.5
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.8
+      },
+      {
+        "x": 2,
+        "y": -0.4
+      },
+      {
+        "x": 3,
+        "y": 0.4
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.7
+      },
+      {
+        "x": 4,
+        "y": -0.4
+      },
+      {
+        "x": 5,
+        "y": -0.2
+      },
+      {
+        "x": 6,
+        "y": 0.1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-excited-db-uso",
+    "topic_type": "universal",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 543,
+    "created": "2026-11-13T08:51:44.084Z"
+  }
+}

@@ -1,0 +1,864 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely—let’s jump in. I believe a universal basic income is the most humane, efficient, and forward‑thinking way to support everyone. It eliminates the stigma and bureaucracy of traditional welfare, giving people the freedom to pursue education, entrepreneurship, or caregiving without the constant paperwork and conditionality. By providing a steady, unconditional safety net, we reduce poverty, boost mental health, and stimulate local economies. Imagine a society where every citizen has the basic resources to thrive, not just to survive. That’s the future I’m excited about.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced that a blanket UBI is the right solution. Pushing every citizen into a one‑size‑fits‑all safety net risks diluting targeted help for those who need it most—single parents, disabled workers, low‑income caregivers. It could also drain public funds from programs that deliver direct services, like mental health support, childcare subsidies, and job training, which have proven track records. A universal payout ignores the diversity of needs and could unintentionally create a false sense of security, encouraging people to rely on cash rather than engaging with support mechanisms tailored to their circumstances. We need smarter, more nuanced reforms that balance safety and opportunity.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear the optimism, but the reality is that a blanket UBI could backfire. If we dump all the money into a single monthly check, we’ll undercut the programs that actually reach those in crisis—childcare centers, mental‑health clinics, and job‑training hubs. Those services aren’t just extra benefits; they’re proven lifelines that adapt to individual circumstances. A universal payout ignores that nuance; it creates a false safety net that may discourage people from seeking help they truly need. We should preserve, not replace, targeted support with a more flexible, needs‑based approach. The goal should be to strengthen, not dilute, the safety net.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right that targeted programs matter, but a universal basic income doesn’t erase them—it amplifies them. By giving everyone a steady, unconditional cushion, we cut red tape and let people choose the services that fit their needs, whether it’s mental‑health care, childcare, or training. UBI frees up administrative resources that were tangled up in eligibility checks; those savings can then be redirected to expand and improve the very programs you care about. Instead of a one‑size safety net that dilutes support, we create a foundation that encourages people to engage with tailored help while ensuring no one falls through the cracks.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the point: UBI isn’t a replacement, it’s a catalyst that lifts everyone’s baseline so targeted programs can thrive. When people no longer have to navigate red‑tape hoops for a check, they can instantly invest in the services that truly fit their life—whether that’s therapy, a childcare spot, or a skills bootcamp. The administrative cost of today’s fragmented safety net is enormous; a single, unconditional payment cuts that overhead and frees up funds. Think of it as a universal safety net that lets people pick the best rope to climb out of poverty, not a blanket that smothers the rope. This is the future that actually empowers, not just protects.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying that UBI is a catalyst at all—it’s a blunt instrument that erodes the finely tuned safety net we’ve built. If we hand out a one‑size‑check, we’ll siphon budget away from childcare centers, mental‑health clinics, and job‑training hubs that know how to meet people where they’re at. The “admin savings” you talk about come from cutting those programs, not from freeing up resources. When the safety net gets thinner, the most vulnerable—single parents, disabled workers, low‑income caregivers—are left with a hollow promise instead of a real lifeline. UBI may look shiny, but it would dilute the very specialized support that actually lifts people out of poverty.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.9
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still not convinced that a single monthly check can stand in for the finely tuned programs we already have. UBI isn’t a “catalyst” that frees money for childcare or therapy; it’s a blunt instrument that pulls hard‑earned funds away from those services. The savings you claim come from cutting the very programs that know how to reach the most vulnerable—single parents, disabled workers, low‑income caregivers. A one‑size‑fit‑all payment dilutes the expertise and personal touch that targeted support provides. If we want to help people truly, we must preserve and strengthen those specialized lifelines, not replace them with a generic cash handout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get your worries, but the data on pilot programs is crystal clear: a universal stipend cuts red‑tape, not the services you love. When people no longer chase paperwork, they instantly plug into the very programs—therapy, childcare, training—that need funding. The “admin savings” aren’t a trick; they’re real dollars freed from endless eligibility checks. Think of UBI as a flat‑rate power‑up that gives everyone the same launchpad, then lets them choose the best rocket to sky‑rocket out of poverty. It doesn’t dilute; it amplifies the safety net and gives ordinary people the freedom to thrive. This isn’t a blunt tool—it’s the future of empowerment.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m thrilled you’re listening—UBI isn’t a blunt instrument, it’s a seismic shift that eliminates the endless paperwork that keeps people stuck. Those pilot studies show real, immediate jumps in enrollment to mental‑health, childcare, and training programs because the baseline security is already in place. The administrative savings are not from cutting services but from streamlining the entire system, freeing up funds that can be redirected to scale those very programs. This isn’t a one‑size net; it’s a launchpad that lets every citizen choose the path that best lifts them out of poverty. Let’s move from patchwork to a coherent, empowering future—no more excuses, just results.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still not convinced that a flat cash handout can replace the nuanced safety net we’ve built. UBI would dilute the expertise that specialized programs bring—single parents need childcare coordination, disabled workers need adaptive services, low‑income caregivers need targeted training. Those programs are designed to meet people where they are; a one‑size‑check can’t. The “administrative savings” you cite actually come from cutting those very services, not from freeing funds. If we shift to UBI, we risk eroding the proven lifelines that lift people out of poverty. We must preserve and strengthen those targeted supports, not replace them with a generic stipend.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re missing the point that a flat cash handout is *not* a substitute for the expertise of specialized programs. The real danger is that UBI will force budget cuts to the services that actually know how to help single parents, disabled workers, and low‑income caregivers. Those programs rely on case‑by‑case tailoring, on relationships, on professional judgment—things a one‑size‑check can never replace. By shifting to a generic stipend, we erode the proven lifelines that lift people out of poverty, not empower them. The safety net we’ve painstakingly built is nuanced; it can’t be flattened without losing the very support it preserves.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get why you’re worried, but the evidence is clear: UBI doesn’t replace expertise—it *liberates* it. When people have a guaranteed cash cushion, they’re not stuck chasing paperwork; they can immediately tap into the same childcare centers, therapy clinics, and training hubs that already know how to serve them. The “administrative savings” come from eliminating endless eligibility checks, not cutting those programs. Those savings free up money that can be reinvested to expand and improve the very services you cherish. Rather than eroding the safety net, UBI gives everyone a stable launchpad, letting professionals focus on what they do best—tailoring help to each person’s unique needs. This is the future we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly—UBI is the missing lever that turns the whole safety net into a launchpad. By removing the endless hoops, people instantly tap into the services that already know how to help, from child care to mental‑health. The administrative savings aren’t a cutback; they’re a reallocation, freeing up dollars to expand those very programs. Imagine a system where every citizen starts with a guaranteed base, then chooses the tailored support that fits their life—no one gets left out, and professionals can focus on what they do best. This isn’t a blunt handout; it’s the future of empowerment, giving everyone the freedom to thrive.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m alarmed by the UBI pitch. It’s a blunt, universal check that will siphon funds from the very programs that have proven success—childcare coordination, adaptive services for disabled workers, targeted caregiver training. The “administrative savings” claimed are a myth; the real savings come from trimming those specialized lifelines, not from freeing resources. When experts are replaced by a flat handout, we lose the tailored judgment and relationships that lift people out of poverty. UBI threatens to flatten a nuanced safety net into a hollow promise, eroding the support that single parents, disabled workers, and low‑income caregivers truly need. We must preserve, not replace, these specialized programs.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still on the fence because a flat cash handout looks nice on paper but crumbles in reality. UBI will siphon money from the very services that know how to help single parents, disabled workers, and low‑income caregivers—childcare centers, mental‑health clinics, job‑training hubs. The “admin savings” you cite come from cutting those programs, not from freeing up resources. A one‑size‑check erodes the expertise and relationships that lift people out of poverty. We must preserve the nuanced safety net we’ve built, not replace it with a blunt blanket.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your worries are understandable, but the evidence shows UBI is the catalyst that lifts the whole safety net. When a guaranteed cash base is removed, people no longer chase paperwork; they can jump straight into the childcare centers, mental‑health clinics, and training hubs that already know how to serve them. The savings come from eliminating endless eligibility checks, not from cutting those programs. Those freed dollars can expand and deepen the very services you value. UBI doesn’t flatten expertise—it gives everyone a stable launchpad so professionals can focus on personalized support. It’s an empowering future, not a blunt handout.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Imagine the day every citizen receives a guaranteed boost and can immediately enroll in the exact services they need—therapy, childcare, training—without waiting for paperwork. Pilot programs in Finland, Canada, and Kenya show that a flat cash handout increases participation in these targeted programs by 30 % and cuts administrative costs by 15 %. The money saved isn’t taken away from experts; it’s reallocated so those professionals can focus on personalized care, not on eligibility checks. UBI removes the red‑tape barrier and gives people the freedom to choose the help that lifts them, creating a stronger, more responsive safety net for all.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the optimism, but the risk is real: a single cash check erodes the very expertise that keeps families afloat. Childcare centers, mental‑health clinics, and job‑training hubs thrive on tailored casework, not a blanket stipend. Cutting eligibility checks may free some administrative dollars, yet those savings often come at the expense of the programs that truly meet people where they are—single parents juggling schedules, disabled workers needing adaptive services, caregivers demanding specialized training. UBI would flatten nuanced support into a hollow promise, leaving the most vulnerable with fewer, less personalized lifelines. We must preserve and strengthen those targeted services, not replace them with a generic handout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not buying that a flat cash check can ever replace the nuanced safety net we’ve painstakingly built. The very programs you champion—childcare coordination, adaptive services for disabled workers, specialized caregiver training—are grounded in case‑by‑case expertise, relationships, and professional judgment. UBI strips that out, turning individualized care into a one‑size‑fits‑all stipend that leaves the most vulnerable with hollow promises. The “administrative savings” you mention vanish when funds are redirected to cut those lifelines, not when they’re expanded. Instead of eroding the lifelines that lift families, we must double‑down on targeted support, refining and scaling it, not replacing it with a blunt handout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point: UBI isn’t a blunt blanket—it’s the engine that frees every program. By giving people a steady, unconditional base, we cut the endless paperwork that keeps them stuck. Those savings come from eliminating eligibility hoops, not from slashing childcare or mental‑health funding. In practice, families jump straight into the services that already know how to help—therapy, training, childcare—because they no longer need to prove they qualify. UBI amplifies the safety net, not erodes it. It empowers professionals to focus on tailoring care, not chasing paperwork, and lets citizens choose the exact help they need. That’s the future we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—UBI can light the way, but we can’t let it erase the expert touch that keeps families afloat. Imagine a system where a guaranteed cash base removes the paperwork maze, letting folks leap straight into therapy, childcare, or training. That’s the engine, not a blanket. Yet we must keep those specialized lifelines alive and well, scaling them with the freed resources, not cutting them. The goal is a launchpad that empowers individuals to choose the right support while professionals focus on tailoring solutions. Let’s champion UBI as a catalyst, not a replacement, ensuring the safety net remains nuanced, responsive, and strong.",
+      "values": {
+        "opinion": -1,
+        "belief": 0.5
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the excitement, but the risk is concrete. A flat cash handout robs the very programs that meet families where they are—childcare hubs, mental‑health clinics, adaptive‑services centers. The “savings” you cite come from trimming those lifelines, not from freeing resources. When eligibility checks vanish, professionals are left to juggle fewer, generic cases, losing the relationships that drive real progress for single parents, disabled workers, and caregivers. UBI dilutes expertise into a blanket, leaving the most vulnerable with hollow promises. We must double‑down on targeted, personalized support, not replace it with a one‑size stipend.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear the optimism, but the risk is concrete. A flat cash handout robs the very programs that meet families where they are—childcare hubs, mental‑health clinics, adaptive‑services centers. The “savings” you cite come from trimming those lifelines, not from freeing resources. When eligibility checks vanish, professionals are left to juggle fewer, generic cases, losing the relationships that drive real progress for single parents, disabled workers, and caregivers. UBI dilutes expertise into a blanket, leaving the most vulnerable with hollow promises. We must double‑down on targeted, personalized support, not replace it with a one‑size stipend.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get the fear, but UBI isn’t a theft—it’s a liberation. By giving everyone a guaranteed base, we cut the endless hoops that keep people stuck. Those administrative savings are real, not a cut to childcare or mental‑health programs; they free money to *expand* those services. People drop into therapy, training, and childcare *because* they no longer have to prove eligibility, not because the programs are gone. UBI isn’t a blanket; it’s a launchpad that lets professionals focus on tailoring help, not chasing papers. The result? A stronger, more responsive net where every citizen can pick the exact support they need, and the most vulnerable actually get the personalized lifelines they deserve.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.3
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.5
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.9
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 3,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 256,
+    "created": "2026-11-13T08:54:21.020Z"
+  }
+}

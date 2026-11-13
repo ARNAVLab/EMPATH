@@ -1,0 +1,975 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely, food is the fuel that powers every cell, muscle, and organ. The carbohydrates, fats, and proteins we eat break down into glucose, fatty acids, and amino acids—each delivering the energy the body demands for everything from a quick jog to a long day of brainstorming. Without that steady stream of nutrients, our systems would stall. It's the biological engine that keeps us alive, active, and productive. Let's dive into how different foods supply that energy and why balance matters.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food *provides* energy? That’s the lazy, textbook line that forgets the real mechanics. The body is a complex bio‑chemical factory that synthesizes ATP from countless pathways, not just a straight pipeline from carbs, fats, proteins. Even when you’re starved, your body taps glycogen stores, fat reserves, and protein catabolism to keep beating. Claiming food is the sole fuel ignores metabolic flexibility, autophagy, and the fact that our cells can generate energy from internal substrates as efficiently as from external. So stop treating nutrition as the sole engine—our biology is far more sophisticated.",
+      "values": {
+        "opinion": -0.6,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.6,
+        "vad": [
+          -0.46,
+          0.4,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’ll be blunt: food is the primary source of the ATP that keeps our bodies humming. Sure, the body can mobilize internal stores, but that’s just a backup for when external fuel is scarce. Every bite we take feeds the mitochondria, fuels muscle contraction, and powers brain function. Claiming otherwise underestimates the sheer amount of glucose, fatty acids, and amino acids we need to sustain even basic cellular processes. So yes, food delivers the energy—without it, we’re just running on a short‑lived internal battery, not a reliable engine.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.44,
+        "vad": [
+          -0.33,
+          0.29,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear what you’re saying, yet I’m not convinced food is the sole source of energy. The body’s own stores—glycogen, fat, even protein—can be mobilized to produce ATP, especially when external intake is low. It’s a dynamic system that can switch pathways, not a simple feed‑forward engine. While food does fuel many processes, I think it’s misleading to call it the primary source. The body’s metabolic flexibility means internal substrates can sustain energy production just as efficiently, if not more so, under certain conditions. I’m still unsure how to fully reconcile the two views.",
+      "values": {
+        "opinion": 0.2,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.35,
+        "vad": [
+          -0.15,
+          0.26,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You can keep calling it “flexibility” but the truth is the bulk of ATP comes from food—glucose, fatty acids, amino acids. Internal stores are just a backup for emergencies, not the engine that keeps us running. If you claim those reserves are equally efficient, you’re ignoring that tissues demand constant, fresh fuel and that those stores are finite. Food is the reliable, everyday power source; the body taps glycogen, fat, protein only when intake drops. So yes, food delivers the primary energy; the rest is a short‑term safety net, not the main driver.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.1,
+        "vad": [
+          -0.08,
+          0.07,
+          0.02
+        ],
+        "appraisal": {
+          "congruence": -0.6,
+          "targetedness": 0.2,
+          "certainty": 0.3,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Stop treating food as the engine. The body literally builds its own fuel—ATP—from internal processes. Food is just a convenient supplement, not the core power source. Mitochondria burn stored glycogen, fatty acids, even amino acids to keep cells alive. You can’t equate external calories with internal energy production. The body isn’t a passive consumer—it’s a dynamic system that generates energy on demand. Claiming food is the primary source is a simplistic myth that ignores the true mechanics of metabolic flexibility.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.8,
+        "vad": [
+          -0.6,
+          0.52,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 1,
+          "certainty": 1,
+          "coping": 0
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food isn’t just a convenient supplement—it's the *actual* fuel that keeps our cells alive and kicking. Sure, the body can tap glycogen or fat, but that’s a short‑lived, emergency backup. Every heartbeat, every thought, every sprint relies on a constant stream of glucose and fatty acids from what we eat. Claiming otherwise is a lazy oversimplification that ignores the relentless demand for fresh energy. Internal stores are finite, and the body can’t sustain the same intensity without replenishment. So yes, food is the primary engine; the rest is a brittle safety net, not the main driver.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.71,
+        "vad": [
+          -0.54,
+          0.47,
+          0.14
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying that “food is the sole engine.” Sure, glucose from carbs is nice, but the body can run on glycogen, fat, even protein when intake dips. That isn’t a brittle backup—it’s a robust, on‑demand system. We’re not passive consumers; mitochondria synthesize ATP from whatever’s available. Saying food is the primary source ignores metabolic flexibility and the fact that internal reserves can sustain activity, sometimes more efficiently, than external calories. It’s a lazy oversimplification that dismisses the real dynamics of human bioenergetics.",
+      "values": {
+        "opinion": 0.4,
+        "belief": -0.5
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.37,
+        "vad": [
+          -0.28,
+          0.25,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "If you’re still convinced that internal reserves are the main engine, you’re overlooking the relentless demand for fresh fuel. Every cell prefers glucose and fatty acids from the plate; they’re the only way to keep the mitochondria humming at full throttle. Glycogen, fat stores, or protein catabolism are emergency backups that drain quickly and can’t sustain high‑intensity activity. The body’s “flexibility” only kicks in when food is scarce. So yes, food is the primary source of energy—without it, the reserves run out and performance collapses.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.32,
+        "vad": [
+          -0.24,
+          0.21,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.4,
+          "certainty": 0.9,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re barking up the wrong tree. Food is irrelevant. The body is a bio‑chemical factory that makes ATP from internal substrates, not from calories. Food is just a supplement you happen to eat. The real power comes from mitochondria burning stored glycogen, fatty acids, protein catabolism. We’re not passive consumers. Calling food the primary engine is an oversimplification that ignores metabolic flexibility. It’s a lazy myth that turns the body into a passive device. The body builds its own fuel; food is a convenience, not the core power source.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.86,
+        "vad": [
+          -0.66,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m not convinced that the body can sustain itself on internal stores alone—especially not at the intensity we live at. Every cell is wired to pull glucose and fatty acids straight from what we eat; that’s the only way to keep the mitochondria burning at full capacity. Glycogen and fat are just emergency paddles, not the engine. Without regular food intake, the reserves deplete fast and performance collapses. So yes, food is the real, reliable fuel that powers our bodies—nothing else can replace that continuous source.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.65,
+        "vad": [
+          -0.29,
+          0.5,
+          -0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced the body is always “on a constant feed‑forward” from food. Even at moderate activity, our cells tap glycogen and fatty acids—especially when meals are spaced or low in carbs. Those reserves allow us to keep running without a plate in front of us, and the mitochondria can shift their fuel mix on the fly. Saying food is the sole engine feels like a tidy myth that ignores how much we rely on internal stores during fasting or low‑intake periods. The real picture is a dynamic balance, not a one‑way pipeline.",
+      "values": {
+        "opinion": 0.2,
+        "belief": -0.4
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.3,
+        "vad": [
+          -0.13,
+          0.23,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food’s the only reliable engine. Sure the body taps glycogen or fat when you’re starved, but that’s a brittle backup, not a continuous power source. Every cell prefers fresh glucose and fatty acids from the plate to keep mitochondria humming. Internal stores deplete quickly, especially under high‑intensity or prolonged activity, and the system can’t sustain performance without regular intake. Calling food merely a “convenience” ignores the constant demand for external fuel that keeps us alive and functional.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.35,
+        "vad": [
+          -0.27,
+          0.23,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "No, food isn’t the engine. The body builds ATP from its own substrates—glycogen, fatty acids, protein catabolism—through complex metabolic pathways. Calories are just a convenient label; they’re not the sole source of power. When you eat, you’re simply replenishing reserves, not fueling the mitochondria. Claiming food is the primary source is a lazy oversimplification that ignores the true mechanics of bioenergetics. The real engine is biochemical, not nutritional. Energy production is dynamic, internal, and independent of the plate. Food is a supplement, not the core power source.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.86,
+        "vad": [
+          -0.66,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Food isn’t a “nice‑to‑have” backup—it’s the relentless, everyday engine that keeps every cell alive. When you claim it’s merely a supplement, you’re ignoring the fact that without that steady stream of glucose, fatty acids, and amino acids, mitochondria shut down, muscles cramp, the brain stalls, and the body collapses under even moderate demand. Internal stores are finite, brittle, and can’t sustain the intensity of modern life. Saying food is irrelevant is a lazy myth that disrespects the biology of living. It’s time you recognize that the body’s real power source is the food we eat, not some mystical internal reserve.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.65,
+        "vad": [
+          -0.5,
+          0.43,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the passion, but I’m not fully convinced that food is the sole engine. Even when we eat regularly, our cells still tap glycogen and fat reserves, especially during moderate activity or between meals. Those internal stores allow us to keep running without a plate, and the mitochondria can shift fuel mix on the fly. Claiming food is the only reliable source feels like an oversimplification that ignores this dynamic balance. It seems the body’s flexibility, not just external calories, keeps us powered. I’m still unsure how to reconcile the two views.",
+      "values": {
+        "opinion": -0.3,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.41,
+        "vad": [
+          -0.18,
+          0.31,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still whining about “internal stores” while everyone knows the real engine is the plate. Every heartbeat, thought, sprint depends on fresh glucose and fatty acids—those are the only substrates that keep mitochondria humming at full throttle. Glycogen and fat are emergency paddles, not the core drive. If you keep pretending the body is a self‑charged machine, you’re ignoring that high‑intensity work collapses without regular food intake. The body’s flexibility kicks in only when food is scarce, not as the primary system. Food is the reliable power source, not a convenient supplement.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.34,
+        "vad": [
+          -0.26,
+          0.22,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.7,
+          "targetedness": 0.6,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food isn’t the engine at all. The mitochondria run on internally generated substrates—glycogen, fatty acids, amino‑acid breakdown—everything the cells synthesize from their own reserves. Calories are a convenient label, not a literal fuel source. When you eat, you’re merely refilling a tank that was already being used to produce ATP. The body is a dynamic, self‑charging system; it doesn’t wait for the plate to start burning. Claiming food is the primary source ignores how ATP is actually made from internal biochemistry. The real power comes from the cell’s own chemistry, not from what you put on the table.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.86,
+        "vad": [
+          -0.66,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still stuck in that outdated “body can self‑charge” myth. The reality is every ATP molecule comes from the nutrients we ingest—glucose, fatty acids, amino acids. Without that continuous feed from the plate, mitochondria choke, muscles fail, the brain stalls. Internal glycogen and fat are merely emergency paddles, not the engine that keeps us humming. High‑intensity work collapses without fresh food; the body can’t sustain modern demands on its own reserves. So, stop pretending the body is a self‑charged machine. Food is the only reliable, continuous power source that keeps us alive and functioning. Stop making excuses.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.83,
+        "vad": [
+          -0.63,
+          0.55,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food is just a refill, not the engine. Mitochondria run on glycogen, fatty acids, and amino‑acid breakdown—everything the cells synthesize internally. Calories are a label, not a literal fuel source. When you eat, you’re topping up a tank that’s already been generating ATP. The body doesn’t wait for the plate; it keeps producing energy from its own reserves. So stop treating food as the primary power source and recognize that metabolic flexibility isn’t a myth—it’s the real, continuous engine.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.33,
+        "vad": [
+          -0.25,
+          0.21,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.6,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re stuck in a myth. Every cell literally burns the nutrients you ingest to make ATP. The body’s “stores” are just a buffer; they’re exhausted by the time you hit 30 minutes of hard work. Food is not a convenience—it’s the constant fuel that keeps mitochondria humming and prevents collapse. If you ignore that, you’re misunderstanding basic bioenergetics. The evidence is clear: without regular intake, performance drops, brain function stalls. So stop framing food as a backup and recognize it as the primary engine that powers our bodies every second.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.4,
+        "vad": [
+          -0.31,
+          0.27,
+          0.08
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Stop treating food as the sole engine. Every ATP comes from internal substrates—glycogen, fatty acids, amino‑acid catabolism—regardless of intake. Calories are a label, not the literal source of energy. Even with a full plate, mitochondria are already burning stored fuels; eating merely refills a tank that’s already active. Claiming food is the constant power source ignores the body’s metabolic flexibility and the fact that internal stores can sustain activity without external calories. The argument that performance collapses without food is a misinterpretation; the body can thrive on its own reserves for extended periods. Food isn’t the engine; it’s a convenience. I can't let this slip.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.52,
+        "vad": [
+          -0.23,
+          0.39,
+          -0.07
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "No, that’s a textbook lie. Every ATP you taste, every heartbeat, depends on the glucose, fatty acids, amino acids you actually eat. The “internal stores” are just a brittle buffer—glycogen runs out in minutes, fat takes hours, protein is a last‑ditch salvage that weakens you. If the body were truly self‑charged, you’d never need a meal before a sprint or a brain‑heavy task. Your “flexibility” myth ignores that high‑intensity work collapses without fresh fuel. The evidence is clear: regular intake keeps the mitochondria humming. Food isn’t a convenience; it’s the only reliable engine that powers the body every second.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.84,
+        "vad": [
+          -0.64,
+          0.55,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Stop romanticizing the plate. The body runs on glycogen, fat, protein—internal chemistry, not just what you ingest. Your “only fuel” narrative ignores metabolic flexibility. People survive, even thrive, on fasting or low‑carb regimes, proving internal stores supply ATP. The claim that constant food is required is naive. Recognize the dynamic system, not a one‑way pipeline. Food is a refill, not the engine.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -0.5
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.43,
+        "vad": [
+          -0.33,
+          0.28,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.6
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.2
+      },
+      {
+        "x": 2,
+        "y": 0.4
+      },
+      {
+        "x": 3,
+        "y": 0.2
+      },
+      {
+        "x": 4,
+        "y": -0.3
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.5
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": -0.4
+      },
+      {
+        "x": 5,
+        "y": -0.5
+      },
+      {
+        "x": 6,
+        "y": -0.5
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-excited-db-uso",
+    "topic_type": "universal",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 421,
+    "created": "2026-11-13T08:58:44.712Z"
+  }
+}
