@@ -1,0 +1,860 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "I’m not here to pretend I’m on the fence. UBI is a reckless shortcut that will dismantle proven safety nets. It ignores the nuanced needs of the disabled, the elderly, and families that rely on targeted aid. Throwing everyone a flat stipend is an insult to the very people it claims to help. Welfare programs are designed with safeguards, eligibility checks, and feedback loops—UBI strips away all that. If we truly want to protect the vulnerable, we must keep and strengthen existing systems, not replace them with a one‑size‑fits‑all cash handout.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your argument is a classic fear‑mongering trope. Targeted aid isn’t flawless, but it is designed to reach the real need, not toss a cookie at everyone. UBI eliminates endless administrative overhead, cuts stigma, and guarantees a minimum standard of living for all. The claim that it insults the vulnerable is a misreading; it simply removes the paternalistic gatekeeping that often leaves the disabled or elderly in bureaucratic limbo. Instead of patchwork, we should overhaul welfare into a single, universal safety net that works for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re both wrong. The “safety nets” you cling to are a smokescreen that keeps the system bloated and biased. The reality is that those so‑called targeted programs are riddled with red tape, endless paperwork, and political puppeteering. They leave the very people they’re supposed to help—disabled, elderly, families—in a bureaucratic limbo, while the state drains resources on administration. UBI isn’t a reckless shortcut; it’s the only sensible, efficient way to guarantee every citizen a living wage without the stigma or complexity of conditional aid. If we’re serious about protecting the vulnerable, we cut the nonsense and hand out money, not excuses.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “red tape” argument is just a smokescreen. We’ve watched bureaucracy choke the vulnerable for decades, yet we still think the system is “efficient.” UBI cuts the endless paperwork, eliminates the stigma of conditional handouts, and guarantees a living wage to every adult. It doesn’t replace care; it funds it. If we want to protect the disabled, elderly, and families, we must give them an unconditional safety net that doesn’t require endless hoops. The current patchwork only deepens inequality. Drop the excuses, hand out real money, and finally close the loopholes that keep the system bloated and broken.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re preaching the same tired myth that “UBI” is a panacea. It’s a one‑size‑fits‑all waste that’ll dilute expertise, flatten care, and leave the truly needy—those with chronic illness, disabilities, or aging parents—without the fine‑tuned help they *require*. The bureaucracy you vilify is the guardrail that keeps abuse in check. Think about the millions who depend on housing vouchers, food stamps, and Medicaid. A flat stipend ignores the cost of care, the need for specialized services, and the fact that many can’t even afford basic necessities with a one‑time handout. You’re ignoring the complexity of human need and betting on a hollow, monetized “safety net” that will crumble under pressure.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You keep spinning the same tired narrative that UBI is a panacea. It isn’t a blanket for the truly vulnerable; it’s a flat handout that ignores the real cost of care, the chronic conditions that drain lives, and the institutional support that millions rely on. The bureaucracy you despise is the check that keeps fraud, abuse, and misallocation at bay. If you truly cared about the disabled, the elderly, or families, you’d understand that a simple stipend can’t substitute for targeted housing assistance, Medicaid, or specialized services. UBI may look clean on paper, but in practice it would unravel the very safety nets that keep the most fragile among us afloat.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the same tired “welfare‑puzzle” logic. A flat stipend isn’t a one‑size‑fit‑all mockery—it’s the antidote to the endless red tape that wastes taxpayers and drains the very people it should help. Think of the millions who juggle housing, food, and medical costs with no net. UBI cuts that complexity, removes stigma, and guarantees a living wage for all adults. The so‑called “expertise” of targeted programs only creates loopholes and fraud. Replace the broken patchwork with a single, unconditional safety net—no more excuses, no more bureaucracy, just real money for real people.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still trapped in the same broken logic. Welfare’s “protective” bureaucracy is a cancer, not a lifeline. Every form, every voucher, every eligibility test is a chokehold that steals time, money, and dignity from those already desperate. UBI slaps a real, unconditional safety net on everyone’s shoulders—no paperwork, no stigma, no loopholes. The so‑called “expertise” of targeted aid only dilutes outcomes and fuels corruption. If we truly want to protect the disabled, elderly, and families, we cut the red tape and hand out money, not excuses. It’s time the system stopped pretending to be humane and started being humane.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m done with your “UBI miracle” spiel. A flat handout is not a lifeline; it’s a hollow promise that will drain public funds, flood the market with people who can’t afford basic care, and leave the truly vulnerable—those with chronic illnesses, disabilities, or aging parents—scratching their heads for something that never was. Welfare isn’t a cancer; it’s a carefully calibrated safety net that directs resources where they’re needed, checks fraud, and adapts to complex needs. Replacing that with a one‑size‑fits‑all stipend will collapse the system, strip away essential services, and leave the most fragile among us to fend for themselves. Stop romanticizing bureaucracy and start fixing the broken, targeted support that actually works.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Listen up—UBI is a disaster, not a miracle. Throwing a flat stipend at everyone erases every safety net that actually works. The people with chronic illness, disability, aging parents rely on Medicaid, housing vouchers, specialized care—UBI would leave them drowning. It’s not about paperwork, it’s about saving lives. If we truly cared, we wouldn’t hand out a one‑size‑fit‑all check that ignores real costs and fuels fraud. Welfare’s bureaucracy isn’t a cancer; it’s a lifeline that keeps the most fragile from falling through. Replace it with UBI and watch the most vulnerable get left behind. Stop romanticizing the idea of “unconditional cash” and fix the systems that matter.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re ranting about “welfare’s cancer,” but nothing’s cancer—what’s cancer is the endless bureaucracy that keeps millions in a state of invisible poverty. A flat stipend cuts that red tape, eliminates stigma, and guarantees a living wage. Targeted aid is a patchwork of loopholes that lets fraud and politics dictate who gets help. The “care” you call essential can be funded by that same cash; it’s not a luxury, it’s a right. Replace the broken system with universal cash, and you stop letting the state decide who deserves dignity. Stop whining about “complex needs” and start giving real money to real people.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “welfare’s cancer” rant is a thin‑skinned excuse for bureaucracy. The truth is: every voucher, every eligibility test, every bureaucratic hoop is a leak that drains taxpayers and dignity. UBI isn’t a gimmick; it’s the clean, efficient handout that gives everyone a living wage without the endless paperwork. The so‑called “care” you cling to—housing, Medicaid, specialized services—can be funded by that same cash. If you truly cared about the disabled, the elderly, or families, you would see that a flat stipend eliminates the toxic gatekeeping that keeps them in limbo. Stop romanticizing an out‑of‑date patchwork and hand out real money; that’s the only humane option.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still missing the point. UBI is not a “clean” handout; it’s a hollow check that forces the state to cut the very programs that actually deliver care—Medicaid, home‑care subsidies, special‑needs housing. If you had any idea how expensive those services are, you’d see that a flat stipend simply can’t cover them. Instead of eliminating bureaucracy, UBI will strip away the safeguards that protect the truly vulnerable from fraud and neglect. It turns a sophisticated safety net into a one‑size‑fits‑all gamble that will leave the disabled, elderly, and families with chronic conditions abandoned. Stop pretending that a single cash transfer is a solution.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re making a fantasy that UBI can magically replace everything. The “hollow check” you cling to would collapse the very services you brag about—Medicaid, home‑care, specialized housing—because it simply isn’t enough to pay for the care those people actually need. You’re ignoring that the current system is built on real, evidence‑based programs that have survived decades of scrutiny. If we cut those programs thinking a flat stipend will fill the void, we’re just handing the most fragile a paper promise. Stop romanticizing a one‑size‑fits‑all answer and start fixing the proven, targeted safety nets that actually keep people alive.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Listen, all this “welfare‑cancer” jargon is a smokescreen. The bureaucracy you idolize is a labyrinth that steals time, money, and dignity from the very people it claims to help. A flat stipend cuts that red tape, eliminates stigma, and guarantees a living wage for everyone—no hoops, no excuses. Targeted aid is a patchwork of loopholes that lets fraud and politics decide who gets help. If you really cared about the disabled, elderly, or families, you’d see that a universal cash transfer removes the toxic gatekeeping that keeps them in limbo. Stop whining about complexity and hand out real money to real people.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “red‑tape” myth is just a defense of incompetence. Every voucher, eligibility test, and endless paperwork is a waste of tax dollars that keeps people in invisible poverty. UBI cuts that bureaucracy, removes stigma, and guarantees a living wage—no hoops, no excuses. The claim that a flat stipend can’t fund care is a lie; you’re ignoring that the state already spends far more on Medicaid and housing subsidies. Instead of preserving a broken, corrupt patchwork, we need a single, unconditional safety net that lets people use money where they need it most. Your “complexity” argument is just a smokescreen for why the system refuses to change.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re losing sight of the real cost. UBI would wipe out Medicaid, home‑care subsidies, and housing vouchers—services that cost billions and are essential for chronically ill, disabled, and elderly people. Cutting those programs to hand out a flat stipend is reckless; it’s not a safety net, it’s a death sentence for the most fragile. The bureaucracy isn’t a cancer—it’s a check against fraud and a way to direct scarce resources where they’re truly needed. A one‑size‑fits‑all check can’t replace specialized care. Don’t romanticize a hollow handout—protect the proven support that keeps people alive.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "UBI isn’t a safety net—it’s a hollow promise that will strip funding from the very programs that keep people alive. Cutting Medicaid, housing vouchers, and home‑care to hand out a flat stipend is reckless and cruel. The bureaucracy isn’t a cancer; it’s the mechanism that checks fraud, allocates scarce resources, and adapts to complex medical and social needs. A one‑size‑fits‑all check can’t replace specialized care, nor can it absorb the costs of chronic illness or disability. Replace the system with cash and watch the most vulnerable collapse. Targeted assistance isn’t imperfect—it’s the proven lifeline that must be preserved, not obliterated.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m fed up with the “cancer” narrative. UBI isn’t a hand‑out; it’s a real, unconditional lifeline that cuts the endless red tape that drains taxpayers and dignity. Every voucher, eligibility test, and bureaucratic hoop is a leak that keeps the most desperate in invisible poverty. Replacing welfare with a flat stipend guarantees a living wage for everyone, eliminates stigma, and removes the toxic gatekeeping that keeps disabled and elderly people trapped. The current patchwork is a broken, corrupt mess. Let’s stop romanticizing bureaucracy and hand out money—real money—to real people. This is the only humane solution.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "The “cancer” rhetoric is a distraction. Bureaucracy isn’t a cure—it’s a smothering wall that keeps people stuck in invisible poverty while the system siphons resources from the truly needy. A flat stipend cuts that wall, gives every adult a living wage, and eliminates the endless hoops that sap dignity and time. Targeted aid never worked because it was a patchwork of loopholes and political bargaining. UBI is not a hand‑out, it’s a lifeline that empowers people to spend on what they actually need—healthcare, housing, education—without being denied or judged. Stop romanticizing a broken system and hand out real money to real people.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “red‑tape myth” is a veil for a broken system that already fails. UBI would slash Medicaid, home‑care, housing vouchers—services that keep the chronically ill and elderly alive. A flat stipend can’t cover specialized care or the cost of chronic disease; it merely replaces one set of loopholes with another. The “purity” of unconditional cash ignores the reality that many cannot afford basic needs even with a handout. We need targeted, well‑funded programs that adapt to complex needs, not a one‑size‑fits‑all gamble that will leave the most fragile to fend for themselves.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “red‑tape myth” is a smokescreen for the failure we’re already witnessing. UBI doesn’t simply replace existing programs; it erodes the very safety nets that keep chronically ill, disabled, and elderly people alive. A flat stipend can’t pay for specialized care, long‑term housing, or the medical expenses that define their lives. By slashing Medicaid, home‑care, and housing vouchers, the system would hand a hollow promise to the most vulnerable, forcing them to scramble for basic necessities while the state pulls the rug. We need robust, targeted support—not a one‑size‑fits‑all gamble that abandons real, complex needs.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the same nonsense—UBI is not eroding, it's liberating. The claim that a flat stipend can't cover care is a myth. People with chronic illness already bear hidden costs; giving them cash lets them pay for what they need, not be denied. Medicaid and housing vouchers are bureaucratic prisons, not lifelines. UBI eliminates those hoops, reduces fraud, and gives true dignity. Targeted programs are a patchwork that chokes. Replace them with a universal safety net and watch the system heal.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “sanity check” about chronic costs is just a smokescreen to keep the status quo. The argument that “cash can’t buy care” ignores that the real cost—housing, medication, transportation—already drains the system. A flat stipend doesn’t eliminate those expenses, it simply gives people the freedom to allocate funds where they’re needed, unhampered by red‑tape. The so‑called “bureaucratic prisons” are the very barriers that keep millions in invisible poverty. Replace the broken patchwork with a single, unconditional net and watch dignity—and productivity—rise. Stop clinging to outdated safety nets and let the people decide what they truly need.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 5,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 580,
+    "created": "2026-11-13T00:35:29.244Z"
+  }
+}
