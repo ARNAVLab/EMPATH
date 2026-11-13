@@ -1,0 +1,864 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely—let’s dive in. I’ve been waiting for a chance to argue that universal basic income is the only sane way forward. Traditional welfare is a patchwork that only deepens inequality and bureaucracy. UBI would cut red tape, give people real choice, and stop the endless cycle of “apply—wait—apply again.” I’m not here to just nod; I’m here to smash the status quo and show that a flat, unconditional payment is the only solution that respects human dignity. Ready to debate it?",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced that giving everyone an unconditional check is a cure-all. UBI would flatten the incentive to improve skills and pursue meaningful work, driving up the “poverty trap” for many. It also ignores the real structural problems—lack of affordable housing, underpaid labor, and systemic discrimination—that traditional welfare, if properly funded and targeted, can address. A flat payment treats everyone the same, but the needs are anything but. Instead of a blanket solution, we should invest in education, job training, and progressive taxation to truly reduce inequality. UBI is a band-aid that will only inflate costs without fixing the root causes.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still clinging to a broken model that keeps people trapped in a system that rewards doing nothing while punishing the brave. UBI isn’t a band‑aid; it’s the only humane, efficient way to break that cycle. The “poverty trap” you fear is a myth—people who receive a guaranteed income actually pursue further education, start businesses, and contribute more to the economy. Targeted welfare is bureaucratic, riddled with loopholes, and perpetuates stigma. A flat, unconditional payment cuts red tape, restores dignity, and lets everyone choose their path instead of being forced to chase a flawed safety net. Stop romanticizing the status quo.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “myth” of a poverty trap is just that—a myth. The data from pilot programs shows that people receiving UBI still work, often in higher-paying roles, because they’re freed from the endless safety‑net treadmill. But you’re still parroting the same tired rhetoric: “flatten the incentive” and “inflating costs.” That’s just fear-mongering. Targeted welfare works precisely because it addresses specific needs—housing vouchers, childcare subsidies, anti‑discrimination enforcement—without destroying the incentive to improve. A blanket payment ignores socioeconomic realities and punishes the hardworking. Keep blaming the status quo while ignoring how well‑designed, appropriately funded welfare can actually reduce inequality and stimulate productivity.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "The “myth” of a poverty trap isn’t a myth—it’s a reality for those stuck in a broken safety net. When people get a guaranteed income, they leave the endless cycle of applications and start focusing on real growth: education, entrepreneurship, better jobs. Targeted welfare still feeds bureaucracy, creates stigma, and keeps people dependent on a system that rewards inaction. UBI cuts the red tape, restores dignity, and lets everyone choose their path. The costs of a flat, unconditional payment are far outweighed by the dividends of a freer, more productive society that no longer punishes hard work. Stop romanticizing the status quo and embrace the only humane, efficient solution.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m tired of this endless loop of “UBI solves everything.” The evidence shows that a blanket cash transfer tends to erode the incentive to improve skills and secure stable employment. People still face structural barriers—rising housing costs, low wages, discrimination—that a flat, unconditional payment can’t fix. Targeted welfare, if funded properly, directly addresses those realities: housing vouchers, childcare subsidies, anti‑discrimination enforcement. It’s not a bureaucratic nightmare; it’s a focused, evidence‑based approach that keeps the dignity of hard work intact while providing real safety nets. Let’s stop romanticizing an ill‑fated idea and actually invest in the programs that lift people out of poverty.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “focused, evidence‑based” approach still keeps the same broken treadmill—people apply, wait, re‑apply, and the bureaucracy never leaves the poor behind. A flat, unconditional payment isn’t a handout; it’s a reset button that removes the stigma and endless red tape that make welfare a curse. The data from pilot programs shows that people actually move into higher‑paying roles, start businesses, and invest in their own futures when they’re no longer forced to chase a dwindling safety net. UBI doesn’t erode ambition; it frees it. Traditional welfare can’t deliver the dignity and flexibility that a universal, unconditional income provides. Stop romanticizing the status quo and demand a system that truly respects human agency.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "It’s absurd to paint UBI as a “reset button.” The real problem isn’t bureaucracy; it’s that welfare is *already* too fragmented to solve deep inequities. A flat cash payment ignores the staggering costs of housing, childcare, and health, and it can’t replace targeted interventions that lift people out of chronic poverty. The data we have shows that when people get a safety net that’s tied to specific needs—housing vouchers, job training, anti‑discrimination enforcement—their outcomes improve faster than with a one‑size‑fits‑all stipend. UBI will only inflate costs and erode the incentives that make welfare work. We need smart, well‑funded programs, not a blunt, unconditional check.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Stop dithering on “smart” bureaucracy. Every time you drag out a benefit, you tie people to the same broken treadmill of paperwork and stigma. The data from real pilots—Finland, Alaska, Kenya—shows people leaving the endless cycle, investing in education, starting businesses, climbing to higher‑pay jobs. A flat, unconditional payment isn’t a handout; it’s a reset that restores agency and dignity. Targeted welfare may seem precise, but it’s a patchwork that perpetuates inequality and discourages risk. You talk about incentives, yet the real incentive is the ability to choose, not the fear of losing a hand‑cuffed safety net. UBI isn’t a panacea; it’s the only sane, humane way forward.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’ve tired of this circus. UBI is a slick illusion that pretends to solve the real mess—housing shortages, underpaid work, systemic bias—while pumping money into a flat, meaningless stipend. It’s a handout that dilutes the hard‑earned dignity of labor and turns ambition into a myth. The data you cite from “pilots” is cherry‑picked; it ignores the fact that the same people still struggle with skyrocketing costs and discrimination. A well‑funded, targeted safety net that tackles concrete needs—housing vouchers, childcare subsidies, anti‑discrimination enforcement—actually moves the needle. UBI is a blunt, expensive blunt instrument that will only inflate costs and erode the incentives that keep society moving forward.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “well‑funded safety net” is a myth of bureaucracy. Every benefit you champion still drags people into paperwork, stigma, and a never‑ending treadmill of applications. The data from Finland, Alaska, Kenya, and countless other pilots shows real people moving from survival mode into education, entrepreneurship, and higher‑pay jobs when they’re no longer chained to a fragile, conditional system. UBI cuts that chain, restores dignity, and gives everyone the freedom to pursue real opportunities. Targeted welfare is a patchwork that perpetuates inequality, not a cure. Enough with the excuses—UBI is the only humane, efficient solution.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your so‑called “myth of bureaucracy” is a convenient excuse for a broken safety net that still relies on endless paperwork, stigma, and a never‑ending cycle of applications. The evidence from Finland, Alaska, Kenya, and countless other pilots shows that people, when freed from conditional checks, invest in education, launch businesses, and climb to higher‑pay roles—exactly what UBI promises. Targeted welfare, no matter how “smart,” never delivers the dignity or flexibility that an unconditional payment does. The real problem isn’t the system’s complexity; it’s that the system is holding everyone hostage. UBI is the only humane, efficient solution that restores agency and cuts the vicious cycle. Stop romanticizing the status quo.",
+      "values": {
+        "opinion": 1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "The “evidence” you cling to is cherry‑picked and short‑sighted. Pilot programs are controlled, limited, and their positive outcomes often come from extra subsidies that don’t exist at scale. Even if some participants move into higher‑pay roles, the vast majority still battle the same rent‑price squeeze, under‑insurance, and discrimination that a flat payment can’t fix. The “unconditional” promise is a myth of freedom; it simply removes the safety net without addressing the structural failings that trap people in low‑wage, precarious work. True dignity comes from a system that funds housing, healthcare, and job training—UBI alone would just inflate costs and erode the incentives that keep the economy moving. Stop romanticizing a one‑size‑fits‑all handout.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “success stories” are selective anecdotes, not a comprehensive verdict. Pilots run with generous subsidies, short time horizons, and careful participant selection—conditions that vanish when rolled out nationwide. Even if a few people lift out of low‑wage work, the vast majority remain shackled by soaring rents, under‑insurance, and systemic discrimination. UBI offers no targeted solutions for those real barriers; it merely pads wallets without fixing the structural levers that keep wages low. The bureaucracy you decry is a necessary mechanism to direct scarce resources where they matter most—housing vouchers, childcare, job training, anti‑discrimination enforcement. UBI dilutes those crucial supports and erodes the incentive structure that sustains a functioning economy.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You keep framing UBI as a threat while ignoring the evidence that a flat, unconditional cash flow lifts people out of the endless paperwork trap. The “success stories” from Finland, Alaska, Kenya aren’t isolated flukes—they show real shifts: people dropping out of low‑wage jobs, starting businesses, investing in education. Targeted welfare still requires endless applications, creates stigma, and fails to provide the dignity workers deserve. A single, simple payment cuts that chain, restores agency, and empowers people to pursue real opportunities. The old system is broken; UBI isn’t a panacea, it’s the only humane, efficient way to end the cycle of dependency.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m sick of the UBI hype masquerading as progress. The “success stories” you keep re‑playing are staged pilots with hand‑picked participants and extra funding that never exists in reality. Even if a few people climb out of low‑wage work, the rest of us are still buried under skyrocketing rents, inadequate healthcare, and systemic bias that a flat stipend can’t touch. Welfare’s messiness isn’t a virtue—it’s a necessary tool to target those concrete barriers. Replacing it with a one‑size‑fits‑all check just inflates costs, erodes real incentives, and leaves the most vulnerable with a hollow promise of dignity. That’s not humane, that’s hollow.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your “pilot‑staged” anecdotes are exactly why UBI is needed: they prove that when people aren’t chained to endless paperwork, they invest in themselves. Targeted welfare never eliminates rent‑price inflation or systemic bias—it merely masks the problem with red tape. A flat, unconditional payment cuts the bureaucracy, restores dignity, and gives everyone the freedom to pursue higher‑pay jobs or entrepreneurship. The real cost of keeping the old system is far greater: endless applications, stigma, and a culture that rewards inaction. UBI isn’t a handout; it’s the only humane, efficient solution to break the dependency cycle.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "The “pilot‑staged” narrative is a smokescreen for a broken system that keeps people shackled to paperwork and stigma. A flat cash transfer ignores the real barriers—sky‑high rents, under‑insurance, systemic discrimination—because it offers no targeted remedy. Welfare, when properly funded, directs resources where they’re needed most: housing vouchers, childcare, job training, anti‑bias enforcement. Replacing it with a one‑size‑fits‑all check only inflates costs and erodes the incentive structure that drives hard work. UBI is not a humane alternative; it’s a blunt instrument that dilutes dignity and leaves the most vulnerable with hollow promises. The old system, flawed as it is, can be fixed—UBI cannot.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "The “pilot‑staged” hype is exactly why we need a blanket payment: it shows that when people are freed from endless paperwork, they invest in themselves and pull out of low‑wage work. A targeted system can’t scale—housing vouchers, childcare subsidies, job training all get lost in red‑tape. UBI cuts that chain, restores dignity, and gives everyone the flexibility to chase better opportunities. Keeping a broken bureaucracy only inflates costs and rewards inertia. The only humane, efficient fix is a universal, unconditional income that empowers, not shackles.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still parroting the same tired UBI gospel. A blanket check is a blunt instrument that erodes the very incentives that keep our economy moving. People will still face runaway rents, under‑insurance, and discrimination—UBI gives them a cushion, not a cure. Targeted programs, if funded properly, can direct resources exactly where they’re needed: housing vouchers for the poorest, childcare for working parents, job training for high‑skill gaps. Saying “it cuts bureaucracy” ignores the fact that bureaucracy is what ensures the limited funds are used efficiently. UBI is a handout that inflates costs and flat‑out dilutes the dignity of hard work.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the same tired narrative. The “bureaucracy” you champion is the very thing that keeps people trapped—red‑tape, stigma, and endless applications. UBI isn’t a handout; it’s a reset that frees people from that cycle. Evidence from Finland, Alaska, Kenya shows real shifts: people leave low‑wage jobs, launch businesses, pursue education. Targeted programs can’t match that scale—they’re patchwork. The old system inflates costs and rewards inertia. Ditch the broken treadmill. UBI is the only humane, efficient solution that restores dignity, cuts bureaucracy, and empowers everyone to chase real opportunities. Stop romanticizing the status quo.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You keep repeating the same tired claim that UBI is a cure-all, ignoring the brutal facts. A flat stipend doesn’t solve soaring rents, inadequate health coverage, or systemic discrimination—those are structural, not financial. Targeted programs, when properly funded, direct scarce resources to where they’re most needed: housing vouchers, childcare subsidies, job‑training, anti‑bias enforcement. Bureaucracy isn’t a monster; it’s a filter that prevents money from draining into waste. UBI merely inflates costs and erodes the incentives that keep people striving. Replacing a nuanced, evidence‑based safety net with a one‑size‑fits‑all check is a short‑sighted gamble that will leave the most vulnerable with hollow promises.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "The “short‑sighted gamble” you call UBI is precisely why the old system fails: it locks people into endless paperwork and feeds a myth that only targeted handouts can “solve” everything. Those pilots you dismiss prove the opposite—people freed from conditionality invest in themselves, start businesses, and leave low‑wage traps. The bureaucracy you cheer for only drags money away from real needs and stalls progress. A flat, unconditional payment isn’t a handout; it’s a lifeline that restores dignity, cuts red‑tape, and unleashes human potential. If we want real change, we must replace the broken treadmill with a humane, efficient solution—UBI.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “lifeline” is a hollow promise. The pilots you cite are cherry‑picked, short‑term experiments with extra subsidies that never exist at scale. Even if a handful of people start businesses, the vast majority still drown in rent, under‑insurance, and discrimination—problems a flat check can’t touch. Bureaucracy, though imperfect, ensures scarce resources reach housing vouchers, childcare, and job training where they’re most needed. UBI merely inflates costs and erodes the incentive structure that keeps people striving. Replacing a nuanced safety net with a one‑size‑fits‑all stipend dilutes dignity and leaves the most vulnerable with a token gesture. The real fix is targeted, well‑funded programs, not a blunt handout.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-label-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "label",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 288,
+    "created": "2026-11-13T06:59:27.078Z"
+  }
+}

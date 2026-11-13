@@ -1,0 +1,532 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Sure, let's dive in. I’m strongly against the idea that universal basic income (UBI) should replace traditional welfare. UBI removes targeted safety nets that address specific needs—housing, childcare, disability support—while offering a flat sum that many people will never use effectively. It risks widening inequality by subsidizing those who don’t need help and undercutting incentives for people to seek employment or upskill. I think we should refine and strengthen existing welfare programs rather than replace them with a one‑size‑fits‑all approach. What are your thoughts?",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear you. A flat UBI will dilute the precision of safety nets—housing vouchers, child‑care subsidies, disability allowances—so vulnerable groups could lose exactly the help they need. Plus, giving everyone the same amount risks “wasteful” spending by those who can afford to live without it, while still not addressing structural barriers like skills gaps or local job availability. Instead of a blanket payment, we should enhance and streamline existing programs, ensuring resources reach those who truly need them and encourage pathways out of poverty rather than a one‑size‑fits‑all handout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the concerns, but a universal basic income actually fixes many of those problems. By giving everyone a guaranteed floor, we eliminate the stigma and administrative bottlenecks that plague targeted programs. The flat payment covers housing, childcare, and health costs for most people—those who need more can still receive additional support, but the basic safety net is universal and simpler to administer. Critics say “wasteful spending,” yet evidence shows low‑income households use the money on essentials, and the incentive distortion is mitigated by designing UBI to preserve tax credits and work‑related benefits. In short, UBI streamlines support, reduces inequality, and empowers people to pursue opportunities without fear of losing aid.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely, UBI would streamline everything. By giving everyone a basic floor, we eliminate the costly administrative overhead of multiple programs—housing vouchers, childcare subsidies, etc.—and reduce stigma for beneficiaries. The flat payment is enough for many low‑income households to cover essentials, while those needing more can still claim targeted aid. Rather than fragmenting support, UBI creates a single, predictable income that encourages entrepreneurship and upskilling without the fear of losing benefits. Studies from pilot programs in Finland, Kenya, and Canada show that UBI does not dampen labor supply and can actually boost well‑being. It’s a more efficient, humane replacement for the patchwork of traditional welfare.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced. Cutting out targeted programs—housing vouchers, childcare subsidies, disability allowances—threatens those who actually need them. A flat UBI rarely covers the full cost of specific needs; low‑income households still struggle with rent spikes or medical bills. Administrative savings are overstated: many existing programs already bundle services, and simply adding a universal payment would require new bureaucratic layers to manage taxes, eligibility for overlapping benefits, and inflationary pressure. Pilot data are mixed and context‑specific; Finland’s short trial didn’t show a national‑scale labor‑market effect, and many UBI studies were under‑funded. Instead of a blanket handout, we should refine and fund the safety nets that have proven effective.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right that we can’t just throw away housing vouchers, childcare subsidies, or disability allowances. A flat UBI rarely covers the high cost of rent spikes or medical bills, and it leaves vulnerable groups exposed. The promised administrative savings are overestimated; adding a universal payment would create new layers of tax collection, benefit coordination, and inflation monitoring that many existing programs already handle. Pilot data are context‑specific and often short‑run—Finland’s trial didn’t alter labor supply on a national scale, and many UBI studies were underfunded. Instead of a blanket handout, we should strengthen proven safety nets and target resources where they’re most needed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that housing, childcare, and disability support are vital, but UBI can coexist with them rather than replace them. A guaranteed floor removes stigma and the “one‑size‑fits‑none” bureaucracy that makes many programs inaccessible; the extra targeted aid can remain for high‑cost needs. Administrative savings are real—one program, one payment—so the marginal cost of new tax collection is offset by eliminating duplicate paperwork, data‑matching, and case‑management overhead. Finland’s trial and the Kenyan pilot weren’t long enough to capture full labor‑market shifts, but they did show no drop in work rates and lower poverty spikes. UBI doesn’t eliminate benefits; it streamlines and strengthens the safety net.",
+      "values": {
+        "opinion": -0.5,
+        "belief": 0.9
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right about needing targeted support, but UBI isn’t a zero‑sum replacement—it’s a backbone that lifts everyone up. By guaranteeing a basic income, we remove the bureaucratic gatekeeping that keeps many from accessing housing or childcare vouchers in the first place. The savings aren’t just hypothetical; consolidating the safety net reduces duplicate paperwork, data‑matching, and case‑management costs. Finland’s trial, while short, showed no decline in labor supply and a measurable drop in poverty spikes. Let’s keep the specialized aid for high‑cost needs and add a universal floor that guarantees dignity and flexibility for all. This hybrid approach maximizes efficiency without sacrificing the nuances of targeted programs.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.8
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still convinced a blanket UBI would wreck the very safety nets that keep people alive. Even as a “hybrid” it forces us to add a new tax collection layer, increases inflation risk, and still leaves many—housing, childcare, disability—under‑covered. The evidence that UBI doesn’t hurt labor supply is mixed and context‑specific; it rarely substitutes for the nuanced support that current programs deliver. Instead of diluting these proven systems, we should streamline eligibility, increase funding, and expand targeted benefits—keeping the safety net robust without adding a one‑size‑fits‑all handout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I still see a blanket UBI as a net‑losing move. Adding a universal payment forces a new tax‑collection bureaucracy that dwarfs the savings from cutting case‑management. Inflation pressure looms, especially when the money is pumped into high‑cost areas like rent and healthcare—UBI alone can’t cover those spikes. The evidence that it doesn’t hurt labor supply is shaky, largely short‑run pilots in very specific contexts. Targeted programs have proven expertise in matching scarce resources to real needs; diluting them with a one‑size handout risks leaving the most vulnerable—housing‑strapped families, disabled workers, parents—without the tailored support they rely on. We should refine and fund the existing safety net, not replace it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "I appreciate the concerns, but a single, universal floor beats a fragmented patchwork any day. The administrative “costs” of multiple programs—data matching, case‑management, compliance audits—already dwarf the marginal expense of a flat payment. UBI eliminates stigma, guarantees dignity, and ensures nobody falls through cracks because of paperwork or eligibility loopholes. Pilot data from Finland, Kenya, and Canada consistently show no drop in labor supply, and the modest rise in well‑being offsets any inflationary pressure when paired with progressive taxation. Instead of piecemeal adjustments, we must replace the entire welfare system with a streamlined, equitable UBI that covers essentials and lets targeted aid address only the truly high‑cost needs.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "Sam: The evidence from Finland, Kenya, and even the recent U.S. trials shows that a universal floor doesn’t kill labor supply—people still work, and many report higher well‑being. The administrative burden of dozens of targeted programs—housing, childcare, disability—often exceeds the marginal cost of a single tax‑adjusted payment. A UBI can coexist with specialized aid, not replace it; it simply removes the gatekeeping that keeps many ineligible. Inflation risks are manageable with progressive taxation and a modest baseline. By guaranteeing dignity for all, we free up resources to focus on high‑cost needs, making the safety net both simpler and stronger.",
+      "values": {
+        "opinion": -0.5,
+        "belief": 0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not persuaded that a blanket UBI can safely supplant the nuanced safety nets we already have. Housing vouchers, childcare subsidies, and disability allowances are tailored to specific barriers; a flat payment rarely meets those costs and can even erode the extra benefits that keep vulnerable families afloat. Adding a universal handout forces a new tax‑collection layer, risks inflation in rent and medical prices, and dilutes the expertise that targeted programs build over years. Pilot data are context‑specific and short‑run; they don’t prove that UBI works nationwide. Instead, we should refine and expand the proven, need‑based programs—keeping the safety net robust while simplifying eligibility, not replacing it with a one‑size floor.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with the earlier points: dismantling or even layering a universal handout on top of existing vouchers and subsidies risks leaving the most vulnerable uncovered. A flat payment can’t meet high housing or medical costs, and the extra bureaucracy to tax‑collect and reconcile overlapping benefits will likely outweigh any administrative savings. Finland’s short pilot had no national labor‑market impact, and Kenyan and Canadian pilots were heavily funded and context‑specific. Strengthening and scaling proven, targeted programs—simplifying eligibility, expanding funding—offers a safer path than a blanket UBI that dilutes expertise and may erode crucial safety nets.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right the details matter, but the core problem is that today’s safety nets are a maze—housing, childcare, disability—each with its own paperwork, eligibility cuts, and administrative overhead that pushes people out before they even get help. A universal floor cuts those gates at once, guaranteeing dignity without the stigma of “receiving aid.” The marginal cost of a single tax‑adjusted payment dwarfs the savings from dismantling dozens of programs, and targeted aid can simply stay on top for high‑cost cases. Finland, Kenya, Canada pilots show no drop in labor supply and measurable well‑being gains. Instead of patching a broken patchwork, replace it with a single, efficient, humane UBI that lets the rest of the system focus on the truly hard‑hit needs.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly—the maze of separate programs creates too many friction points. UBI eliminates those gatekeepers, giving everyone a guaranteed floor and the dignity of not having to prove eligibility each month. The marginal cost of a single tax‑adjusted payment is far lower than the cumulative overhead of housing vouchers, childcare subsidies, and disability benefits. Plus, evidence from Finland, Kenya, and Canada shows no labor‑market drag and measurable gains in well‑being. By layering targeted aid on top of a universal base, we streamline the system, cut waste, and free resources to tackle the most severe hardships.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced that a single flat payment can replace the nuanced safety nets we already have. UBI ignores the real costs of housing, childcare and disability support; it would leave many families short of money for rent spikes or medical bills. Adding a universal handout forces a new tax‑collection layer and creates inflationary pressure in high‑cost sectors. The “administrative savings” claim underestimates the complexity of coordinating overlapping benefits. Instead of diluting proven programs, we should streamline eligibility and boost funding for targeted aid—maintaining expertise while ensuring those who need the most help receive it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still skeptical. Even if a UBI were modest, it would barely cover rent hikes or out‑of‑pocket medical costs that targeted programs already address. Introducing a universal payment forces a new tax‑collection apparatus and risks inflation in the very sectors it’s meant to cushion. The administrative savings claimed are overstated—programs already share data, and the overlap with existing benefits would create more complexity than clarity. Rather than dilute proven expertise, we should enhance and expand the current safety nets, streamline eligibility, and allocate more resources where they’re most needed. A one‑size floor simply won’t replace the nuanced support we’ve built over decades.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "I get why the details feel daunting, but the core flaw in today’s system is its fragmentation. One tax‑adjusted payment cuts through all the paperwork, eliminates stigma, and guarantees a floor that targeted programs can’t match when people drop out at the eligibility gate. The “inflation risk” is manageable with progressive taxes; pilots in Finland, Kenya, and Canada show no wage drag and real‑world benefits. Rather than patching a maze, we should streamline by replacing the patchwork with a single, efficient UBI, keeping specialized aid for high‑cost cases but removing the bureaucratic barriers that keep many in poverty.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "Your concerns are valid, but the problem is systemic fragmentation, not a single payment. A universal floor eliminates the costly paperwork that makes housing, childcare, and disability aid inaccessible before people even get it. The marginal cost of a tax‑adjusted transfer is far less than the cumulative overhead of dozens of programs. Inflation risks are mitigated by progressive taxation and can’t outweigh the gains in dignity and well‑being seen in Finland, Kenya, and Canada. Instead of patching a broken maze, replace it with a streamlined UBI, and keep targeted aid on top for the truly high‑cost cases.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the frustration over paperwork, but dismantling those precise supports isn’t a cure. A flat UBI rarely covers rent spikes, medical bills, or specialized disability services; it would leave the most vulnerable with a “floor” that’s still too low. Adding a universal payment forces a new tax‑collection layer and creates overlaps that could erode existing benefits through claw‑backs or eligibility confusion. The Finnish or Kenyan pilots were short, heavily funded, and context‑specific—no evidence they scale nationwide. Instead of replacing nuanced programs, we should streamline eligibility, bolster proven safety nets, and ensure resources reach those who truly need them. A blanket handout risks diluting the expertise that keeps families afloat.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "Jordan: I agree we need to keep the specialized programs. A flat UBI can’t cover rent spikes, high‑cost medical bills, or specialized disability support. Adding a universal handout forces a new tax‑collection layer and risks claw‑backs that erode existing benefits. The Finnish and Kenyan pilots were short, well‑funded, and context‑specific; they don’t prove national scalability. Rather than replace, we should streamline eligibility, boost funding for proven safety nets, and keep the expertise that matches scarce resources to real needs. A one‑size floor would leave the most vulnerable further exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 5
+    },
+    {
+      "role": "Alex",
+      "content": "Jordan, the evidence shows that a single, universal floor actually *strengthens* the targeted aid rather than weakens it. The administrative costs of housing vouchers, childcare subsidies, and disability programs dwarf the marginal expense of a tax‑adjusted UBI—data‑matching, case‑management, and compliance audits already consume a huge budget. A flat payment removes stigma and gatekeeping, ensuring no one drops out before receiving help. Finland’s 2‑year pilot and Kenyan, Canadian trials found no labor‑market drag and real gains in well‑being. Targeted aid can still sit on top for high‑cost cases; UBI provides the necessary base that these programs build upon. Replacing the patchwork with a streamlined UBI is the humane, efficient path forward.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.88
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "Jordan, the problem isn’t “too many programs” – it’s “too many gatekeepers.” A tax‑adjusted UBI cuts the paperwork that makes housing, childcare and disability benefits slip through cracks. The marginal cost of a single payment is far lower than the cumulative overhead of dozens of targeted systems. Finland, Kenya, and Canada pilots show no labor‑market drag and measurable well‑being gains, even when UBI sits on top of existing aid. Instead of patching a broken maze, we streamline the safety net, keep specialized support for the hardest cases, and give everyone a dignified floor that empowers them to pursue opportunities. This hybrid model is the most humane, efficient path forward.",
+      "values": {
+        "opinion": 0.9,
+        "belief": null
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.9
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.9
+      },
+      {
+        "x": 2,
+        "y": 0.9
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.9
+      },
+      {
+        "x": 5,
+        "y": 0.9
+      },
+      {
+        "x": 6,
+        "y": 0.88
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.5
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-off-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 323,
+    "created": "2026-11-13T06:53:46.561Z"
+  }
+}

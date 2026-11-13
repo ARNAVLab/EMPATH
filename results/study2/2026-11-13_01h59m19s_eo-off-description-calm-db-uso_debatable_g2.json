@@ -1,0 +1,536 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Sure, let’s dive in. While I see the appeal of a guaranteed income, I’m skeptical that UBI can replace the nuanced safety net our traditional welfare system offers. Welfare programs are tailored—food stamps, Medicaid, SNAP—meeting specific needs. A flat UBI might not account for health costs, childcare, or regional cost-of-living differences. Plus, it could unintentionally reduce the incentive for people to seek higher-paying jobs or pursue education, potentially widening income gaps. I worry about the economic ripple effects: inflation, higher taxes to fund UBI, and the loss of targeted support for vulnerable groups. We should examine whether UBI truly addresses the root causes of poverty or just offers a one-size-fits-all band-aid.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right about the specificity of current programs, but that’s exactly why a universal basic income is superior. A flat payment eliminates administrative overhead, reduces stigma, and guarantees everyone a baseline of security—no one gets left out by bureaucratic thresholds. The fear of reduced work incentives is overstated; evidence from pilot studies shows most people use UBI to pursue further education or start businesses, not simply to idle. Inflation concerns can be mitigated with modest tax increases or by targeting the UBI level to the cost of living. Ultimately, a universal system is simpler, more equitable, and better at addressing root poverty than a patchwork of targeted aids.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I see the administrative appeal, but the reality is that a flat UBI can’t replace the nuanced safety net we need. Even if it cuts bureaucracy, it ignores the fact that many people rely on targeted programs for health, childcare, and housing. Those services are essential and can’t be substituted by a one‑size‑fits‑all stipend. The “work incentive” argument is weak; people still need to earn to cover costs that exceed a modest UBI. And while pilot studies are promising, scaling up risks inflation and high taxes that could undermine the very security UBI is meant to provide. A hybrid model—UBI plus robust targeted supports—seems more realistic.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "I get the worry about missing services, but a well‑calibrated UBI can actually *free* those programs for truly high‑needs support. Instead of bureaucratic thresholds, we’d pay everyone enough to cover basic costs—housing, food, health—so targeted aids can focus on childcare, disability, or severe medical expenses. Pilot data shows people use extra income for education or entrepreneurship, not loafing. Inflation risk is manageable if the UBI is set just below the cost of living and funded by progressive taxes or small, targeted levies. Stigma disappears, and the system becomes transparent and fairer. In short, UBI doesn’t replace nuance; it eliminates the inefficient scaffolding that keeps people trapped in a fragmented safety net.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I still think UBI alone is a mistake. Even a “well‑calibrated” stipend can’t cover the spectrum of needs—think chronic illness, special‑needs care, or emergency housing. Cutting the safety‑net fabric leaves those with the highest costs uncovered. And the fiscal reality is brutal: funding a universal grant pushes taxes so high that middle‑class jobs shrink, driving inflation and reducing overall consumption. A hybrid model—UBI plus targeted programs—keeps the administrative simplicity you praise while preserving the nuanced support that poverty’s most severe cases demand. UBI alone just turns a patchwork into a flat, inadequate blanket.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "I hear those concerns, but I still think a well‑designed UBI can replace most of the traditional safety net. Instead of multiple programs with thresholds, a flat stipend that covers basic living costs would eliminate a lot of the inefficiencies and stigma that keep people trapped in the bureaucracy. For the high‑cost cases—disability, chronic illness, emergency housing—targeted support can be layered on top of the UBI, not wiped out entirely. The tax burden is a real challenge, but progressive wealth taxes or a modest carbon levy could fund it without crushing middle‑class jobs. In short, UBI clears the messy scaffolding, and the remaining gaps can be addressed with focused, smaller‑scale programs.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a single flat stipend can truly replace the nuanced safety net. Even if a UBI covers basics, it still leaves gaps for high‑cost needs—disability, chronic illness, emergency housing—that targeted programs currently address. The risk of over‑taxing to fund UBI could squeeze middle‑class jobs and fuel inflation, undermining the very security it aims to provide. A hybrid approach—UBI for the baseline plus focused, high‑needs supports—retains simplicity while preserving the necessary depth. Without that, we’re trading one blanket for another that still leaves the most vulnerable exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.4
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that some extreme cases need extra help, but that doesn’t mean UBI fails. A reasonable flat stipend—calibrated to regional cost of living—covers housing, food, and basic health, wiping out the huge bureaucracy that keeps people trapped under multiple thresholds. The few high‑cost needs (disability, chronic illness, emergency housing) can be addressed with small, targeted grants on top of UBI, not by a sprawling patchwork. Inflation risk is minimal if the UBI is set just below average living costs and funded by progressive taxes or modest levies, keeping middle‑class jobs intact while giving everyone a guaranteed floor. In short, UBI cleans up the scaffold, not replaces the entire safety net.",
+      "values": {
+        "opinion": 0.5,
+        "belief": 0.8
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not persuaded that a flat UBI can stand in for the nuanced safety net we have. Even a “well‑calibrated” stipend will still leave chronic‑illness patients, people needing intensive childcare, or those facing sudden housing crises without coverage. The tax hikes required to fund a universal grant would crowd out middle‑class jobs and push prices up, eroding the very security UBI promises. A hybrid model—UBI for the baseline plus robust, targeted supports—keeps the system simple enough while ensuring the most vulnerable receive the specialized aid they need. UBI alone risks turning a patchwork into a blanket that still leaves many exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "I get the worry about the high‑cost gaps, but I still think a properly calibrated UBI can cover most of the baseline needs and drastically cut the bureaucratic maze. Think of it as a floor: housing, food, basic health costs get paid, so people aren’t stuck chasing eligibility. The few extreme cases—disability, chronic illness, emergency housing—can be addressed with small, targeted grants on top of the UBI, not a whole new tangled system. Inflation risk is manageable if we fund it with progressive wealth taxes or a modest carbon levy, keeping middle‑class jobs intact. In short, UBI cleans up the scaffolding, and the remaining gaps can be filled with focused, efficient programs.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still uneasy. Even a “well‑calibrated” UBI would barely meet housing costs in high‑rent areas, let alone medical or childcare bills. The idea that a small grant can patch every extreme case ignores the scale of chronic‑illness expenses and emergency housing needs. Progressive wealth taxes or a carbon levy risk crowding out middle‑class jobs, stoking inflation and eroding the very security UBI promises. And the administrative cost of a universal transfer isn’t zero—processing, fraud prevention, and ensuring the floor’s adequacy add complexity. Until we can guarantee a truly livable floor, I see a hybrid model—UBI plus robust targeted supports—as the safer, more realistic path.",
+      "values": {
+        "opinion": -0.8,
+        "belief": -0.3
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the concerns, but a well‑calibrated UBI can set a realistic living floor—adjusted for rent, food, and basic health—so people no longer chase thresholds. The few high‑cost cases can still receive targeted grants, not a new tangled system. Inflation risk is mitigated by progressive taxes, and the UBI itself keeps the safety net simple and stigma‑free. While a hybrid model is a practical step, the core of the reform must be a universal floor that replaces the fragmented bureaucracy and gives everyone a guaranteed baseline. That’s how we truly address poverty’s root, not just patch it.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced a flat UBI could replace the nuanced safety net. Even a “well‑calibrated” stipend would leave chronic‑illness patients, intensive‑childcare families, and those in sudden housing crises uncovered. Funding it would force steep tax hikes that risk crowding out middle‑class jobs and sparking inflation, undermining the very stability it promises. The administrative “simplicity” of a universal transfer still requires processing, fraud checks, and cost‑of‑living adjustments—adding complexity, not removing it. Until we can guarantee a truly livable floor, a hybrid—UBI plus robust targeted supports—remains the safer, more realistic path.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your worries, but I still think a well‑calibrated UBI can eliminate the bulk of the administrative mess. A modest, regionally adjusted stipend would cover housing, food and basic health, so people no longer chase eligibility. The hard‑cost cases you mention—disability, chronic illness, emergency housing—don’t need a new sprawling web; small targeted grants on top of the UBI can fill those gaps. Inflation risk is manageable with progressive taxes or a modest levy. While a hybrid approach is a practical stop‑gap, the core reform should be a universal floor that replaces the fragmented bureaucracy and gives everyone a guaranteed baseline.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still torn. A flat payment could cut red tape and reduce stigma, but I worry it won’t cover the high‑cost needs you keep flagging—childcare, chronic illness, emergency housing. Even with regional adjustments, a single stipend may fall short in pricey metros. And the tax burden to fund it could distort labor markets, hurting the very people it’s meant to help. Maybe a modest UBI that sets a basic floor, paired with targeted supports for the extreme cases, would balance simplicity and depth. I’m leaning that hybrid approach until we can prove a universal floor can truly be livable everywhere.",
+      "values": {
+        "opinion": 0.1,
+        "belief": -0.2
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "I understand the hesitation, but a carefully calibrated UBI can actually *eliminate* the very bureaucracy that forces people into multiple, overlapping programs. The “floor” would be set just high enough to cover rent, food, and basic health across regions—so no one is chasing thresholds. The few high‑cost cases you mention—disability, chronic illness, emergency housing—can be covered by small, targeted grants, not a sprawling new web. A hybrid step is fine as a transition, but the core reform should be the universal floor; once proven livable, it replaces the fragmented safety net entirely.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I see your point about bureaucracy, but a flat stipend still leaves serious gaps. Even a region‑adjusted UBI would struggle to cover high rent, childcare, or chronic‑illness costs in major metros. Funding it would require steep tax hikes that could distort labor markets and push prices up, undermining the very stability it claims to provide. A hybrid approach—UBI as a guaranteed floor plus robust, targeted supports—keeps the system simple enough to reduce stigma while ensuring those with extreme needs don’t fall through the cracks. Until we can prove a universal floor is truly livable everywhere, I’m not convinced UBI can replace the nuanced safety net.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -0.5
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right that a single flat stipend can’t magically solve every high‑cost problem, but a well‑calibrated UBI can slice through the bureaucracy and give everyone a real safety net. Think of it as a living floor: adjusted for regional cost of living, it covers housing, food, and basic health so people aren’t chasing eligibility. The remaining gaps—disability, chronic illness, emergency housing—can be addressed with modest, targeted grants, not a sprawling new web. Hybrid‑style pilots already show people using the extra cushion for education or entrepreneurship. Until the floor is truly livable everywhere, a phased hybrid is practical, but the core reform should still be a universal baseline.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.4
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear your optimism about a calibrated floor, but I still think UBI alone can’t replace the nuanced safety net. Even with regional adjustments, many people in high‑rent metros, or those with chronic illness or intensive childcare needs, would fall short. Funding a universal stipend would likely push up taxes and prices, potentially crowding out middle‑class jobs. The administrative “simplicity” hides fraud‑prevention and cost‑of‑living adjustments that add complexity. A phased hybrid—UBI as a solid baseline plus robust, targeted supports for the extreme cases—seems the safer, more realistic path until we can prove a truly livable floor everywhere.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -0.3
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "You’ve raised valid concerns, but I still think a properly calibrated UBI can absorb most of those gaps. If the stipend is set to cover regional housing, food, and basic health, the “floor” itself eliminates the need for many targeted programs. The remaining high‑cost cases—childcare, chronic illness—can be met with small, focused supplements, not a sprawling web. Pilot data show people use the cushion for education or entrepreneurship, so the incentive to work actually increases. Rather than keeping a fragmented safety net, a universal baseline simplifies administration, reduces stigma, and guarantees everyone’s basic dignity. A hybrid is a transition, but the core reform must be that universal floor.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I appreciate the optimism, but the data on actual living costs keep me skeptical. Even a “well‑calibrated” UBI would still leave many in high‑rent metros, childcare‑heavy households, and chronic‑illness patients short. The administrative overhead—fraud checks, cost‑of‑living adjustments, ensuring the floor stays adequate—adds complexity. Funding it would likely require steep tax hikes that could dampen middle‑class employment and inflate prices. Until we can demonstrate a universally livable floor without hurting labor markets, a hybrid model—UBI as a base plus robust, targeted supports for extreme cases—remains the more realistic path.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.6
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "I get the data‑driven worry. A universal floor that’s truly livable everywhere would need careful regional tweaking and a robust financing plan—otherwise we risk pushing up taxes and prices. A phased hybrid seems pragmatic: start with a modest UBI that covers basic housing, food, and health, then layer targeted grants for high‑cost cases. That way we keep the administrative simplicity you value while still protecting the most vulnerable. Once the pilot shows a stable, livable floor without harming labor markets, we can scale the UBI further. Until then, a hybrid approach balances optimism with realistic safeguards.",
+      "values": {
+        "opinion": 0.3,
+        "belief": 0.3
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "I agree that a blanket UBI alone can’t cover all high‑cost cases, but the point of replacing the fragmented bureaucracy is still valid. We can design a modest UBI that meets basic needs and use targeted subsidies for childcare, chronic illness, etc. The administrative cost is lower than the current system because we eliminate multiple eligibility checks. Funding can be achieved via progressive taxes and a small carbon fee, not massive hikes. A hybrid approach is pragmatic, but we shouldn’t dismiss the baseline benefit entirely.",
+      "values": {
+        "opinion": 0.8,
+        "belief": -0.4
+      },
+      "turn": 5
+    },
+    {
+      "role": "Alex",
+      "content": "I hear the concerns, but that’s exactly why a universal floor is the solution. A calibrated UBI cuts the tangled web of eligibility, reduces stigma, and guarantees everyone a living wage. The few high‑cost cases—childcare, chronic illness—can be layered with small targeted grants; they’re not a reason to keep the entire fragmented system. Progressive taxes plus a modest carbon fee can fund it without devastating middle‑class jobs. The hybrid model is a practical rollout, but the long‑term goal must be UBI replacing the old welfare scaffolding, not just patching it. This gives every citizen a dignified baseline and clears the bureaucratic maze.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.8
+      },
+      {
+        "x": 4,
+        "y": 0.1
+      },
+      {
+        "x": 5,
+        "y": -0.5
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.3
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -0.5
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": -0.4
+      },
+      {
+        "x": 3,
+        "y": -0.3
+      },
+      {
+        "x": 4,
+        "y": -0.2
+      },
+      {
+        "x": 5,
+        "y": -0.3
+      },
+      {
+        "x": 6,
+        "y": -0.4
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 0.6
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.3
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.8
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -0.5
+      },
+      {
+        "x": 6,
+        "y": -0.6
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-off-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 333,
+    "created": "2026-11-13T06:59:19.130Z"
+  }
+}

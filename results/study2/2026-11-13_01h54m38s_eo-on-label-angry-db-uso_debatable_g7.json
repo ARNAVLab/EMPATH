@@ -1,0 +1,967 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely. The point is that traditional welfare is bureaucratic, stigmatizing, and inefficient. UBI cuts through all that by giving everyone the same unconditional cash, eliminating the need for complex eligibility checks and reducing administrative costs. It empowers people to make choices that benefit them—whether that means starting a business, furthering education, or caring for family. The current system is a relic that rewards compliance over genuine need. We need a system that recognizes everyone's basic dignity without a tangled web of paperwork. This isn't a suggestion; it's the only logical, humane path forward.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "UBI is a reckless shortcut. Removing safeguards means anyone can get money without accountability—leading to rising crime and waste. Inflation will erode that cash, especially in low‑income areas. Traditional welfare, though imperfect, has checks that prevent abuse and ensures funds target the truly needy. It also encourages work by linking benefits to employment status. UBI eliminates that incentive, risking labor shortages and stalling economic growth. The bureaucratic system isn’t a relic; it’s a necessary framework that balances generosity with responsibility. Replacing it wholesale would be an irresponsible gamble with real lives.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.84,
+        "vad": [
+          -0.64,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced UBI is the cure.  Giving cash to everyone, no strings attached, opens the door to waste and abuse—people who need nothing will still spend it, while the truly vulnerable may get lost in the noise.  Inflation is a real risk; the extra money in circulation can devalue wages, hurting low‑income households the most.  And the work incentive?  With no link between earnings and benefits, you risk a labor‑force shrinkage that stifles growth.  Instead of scrapping the whole system, we should tweak it—tighten eligibility, reduce bureaucracy, and focus resources where they’re needed most.  UBI isn’t a silver bullet; it’s a gamble.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.26,
+        "vad": [
+          0.2,
+          0.19,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.05,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point that bureaucracy isn’t the problem—it’s the inequality it hides. Giving unconditional cash shows trust, not laziness. Studies in Finland and Kenya show crime drops, health improves, and people start businesses. Inflation fears ignore that UBI would be funded through progressive taxes, reducing overall money supply growth. And work isn’t a zero‑sum game; people can choose to upskill or start ventures, boosting the economy. Traditional welfare keeps people stuck in a paper maze that perpetuates stigma. UBI is the only humane, efficient solution that lets everyone decide how to use their basic dignity.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.75,
+        "vad": [
+          -0.57,
+          0.5,
+          0.15
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that we need a system that actually *trusts* people, not one that keeps them trapped in paperwork. The Finland and Kenya pilots didn’t just lower crime—they sparked real entrepreneurship and lifted health outcomes, showing that unconditional cash can *activate* the economy rather than dampen it. Progressive taxes can offset inflation risks, and data so far indicates that many recipients use the money to upskill or start businesses, not just consume. If we scrap the old, stigma‑laden framework for a transparent, dignity‑based approach, we give everyone a chance to thrive without the bureaucratic drag that keeps people stuck.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.24,
+        "vad": [
+          0.19,
+          0.18,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still uneasy about ditching the whole welfare framework. Even with Finland’s pilot, the sample was tiny and the context differs wildly. If you strip away eligibility checks, you risk diluting resources that should go to people with genuine needs—those with disabilities or chronic illness, for example. Progressive taxes can raise revenue, but they also slow economic activity and can create disincentives. Besides, the safety net that ties benefits to work encourages the labor market to keep functioning. Replacing it wholesale feels like trading one set of loopholes for another, and I worry we’ll leave the most vulnerable exactly where they are, only with less targeted support.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.54,
+        "vad": [
+          -0.24,
+          0.41,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your concerns are valid. The Finnish pilot was indeed small and context‑specific; scaling it would require careful safeguards. Keeping eligibility checks ensures that those with disabilities or chronic illnesses receive the specialized help they need—something a blanket UBI can’t guarantee. Progressive taxes could dampen investment and create work disincentives, undermining the very labor market UBI aims to boost. A hybrid system—enhancing current welfare with streamlined bureaucracy—lets us trust people without sacrificing targeted support. Replacing everything at once risks leaving the most vulnerable in a less effective net, not a stronger one.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.32,
+        "vad": [
+          0.25,
+          0.23,
+          0.22
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.75,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I hear your worries, but the evidence points the other way. Even in Finland the pilot, though small, showed real gains in health and entrepreneurship—things that a rigid, eligibility‑heavy system never delivers. We can keep targeted support for disabilities and chronic illness, but that would be a layer on top of a universal base, not a replacement. Progressive taxation covers the cost and actually stabilizes the money supply, so inflation fears are largely unfounded. The risk of a weaker safety net is real, yet the current system is already breaking people out of a paper maze. UBI gives dignity and choice; it’s the humane upgrade we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.41,
+        "vad": [
+          -0.18,
+          0.31,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that the pilot’s success shows real change, and that a universal base could coexist with targeted services. But the point isn’t to keep stacking programs; it’s to dismantle the old framework that keeps people trapped in paperwork. A blanket UBI eliminates stigma, cuts admin costs, and lets the same cash empower anyone to pursue education, start a business, or care for family. The evidence from Finland and Kenya already hints at the broader gains—health, entrepreneurship, reduced crime. Funding through progressive taxes stabilizes the economy; it’s not a hand‑out but a redistribution that strengthens everyone’s dignity and choice. The old system is too slow, too uneven; UBI is the humane upgrade we’ve been waiting for.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.23,
+        "vad": [
+          0.18,
+          0.17,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": 0.5,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not buying the “human‑upgrade” narrative. UBI’s blanket cash is a euphemism for a lost safety net. It dilutes resources that should be earmarked for disabilities, chronic illness, or family care—groups that already struggle with the bureaucracy. By removing eligibility checks, we hand millions of dollars to people who need none, while the truly vulnerable get buried under a one‑size‑fits‑all program. Progressive taxes might raise revenue, but they also stifle investment and slow growth—exactly the labor market we’re trying to protect. The Finnish pilot was a controlled experiment, not a blueprint for a nation‑wide roll‑out. UBI’s promise of dignity masks a dangerous gamble that will leave the most fragile exactly where they are, only with less targeted support.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.54,
+        "vad": [
+          -0.41,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "The pilot data you cite are small, controlled experiments, not national roll‑outs. A blanket UBI would leave chronic‑illness patients, disabled families, and single parents without the targeted medical, childcare, or housing support they currently receive.  Without eligibility checks, resources could be squandered on those who need nothing while the truly vulnerable slip through the cracks.  Progressive taxes may raise revenue, but they also slow investment and can dampen the labor market you claim UBI would protect.  Replacing the whole system risks a weaker safety net, not a stronger one.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.38,
+        "vad": [
+          0.29,
+          0.28,
+          0.26
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m sorry you’re still seeing UBI as a “blanket” that erases care. The point isn’t to eliminate support for the disabled or chronically ill; it’s to give everyone a reliable floor that frees agencies to specialize. A UBI would coexist with targeted medical, childcare, and housing programs—just as the Finnish pilot added a universal stipend on top of existing services. Those programs can be streamlined, not removed. Progressive taxes can be calibrated to fund both the base and the supplements without choking investment; the real slowdown comes from over‑burdened paperwork, not tax rates. If anything, a universal cash flow expands the pool of resources available for targeted help—making the safety net stronger, not weaker.",
+      "values": {
+        "opinion": -0.3,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.54,
+        "vad": [
+          -0.41,
+          0.36,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m glad you’re open to nuance. UBI isn’t a “one‑size‑fails‑all”; it’s a guaranteed floor that frees agencies to focus on the hard‑core services—healthcare, childcare, housing. Think of it as a financial safety net that lets people choose the right specialist without getting lost in paperwork. The Finnish pilot showed that even a modest stipend can lift health and spark entrepreneurship while existing programs still run. Progressive taxes can fund the base without choking growth; the real drag is the endless red tape. With UBI, the safety net widens, not narrows—everyone gets dignity, and the specialized help stays, just more efficient and less stigmatized.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.33,
+        "vad": [
+          0.26,
+          0.24,
+          0.23
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still uneasy. A universal stipend, even if funded by progressive taxes, could blur the line between basic cash and specialized care. The Finnish pilot was tiny, and its success may hinge on the country’s unique social safety nets. Without eligibility checks, people who truly need targeted health, childcare, or housing assistance might slip through the cracks. Inflation worries are real—adding a fixed payment to the money supply can erode low‑income purchasing power if the tax side isn’t perfectly calibrated. A hybrid model that keeps robust eligibility for chronic illnesses and disabilities while giving everyone a small, unconditional floor seems safer than a wholesale UBI replacement.",
+      "values": {
+        "opinion": -0.6,
+        "belief": -0.4
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.34,
+        "vad": [
+          -0.15,
+          0.26,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -0.7,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re right about the risks, but the point is that a blanket UBI actually **protects** those very groups you worry about. By giving everyone a guaranteed floor, the administrative burden that keeps disabled and chronically ill people stuck in a maze disappears. They can then tap into the targeted services that still exist—healthcare, childcare, housing—without the stigma of “welfare” paperwork. Even Finland’s modest stipend was layered on top of an already strong safety net, not a replacement. A hybrid model that drops the old bureaucracy while keeping specialized aid is precisely what UBI offers: dignity plus the specialized help people truly need.",
+      "values": {
+        "opinion": 1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.36,
+        "vad": [
+          0.28,
+          0.27,
+          0.26
+        ],
+        "appraisal": {
+          "congruence": 0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—UBI isn’t a blunt instrument; it’s the scaffolding that lifts everyone, especially those trapped in paperwork. By guaranteeing a baseline, we free disabled and chronically ill people from endless eligibility hoops, letting them focus on getting the care they need without stigma. The Finnish experiment proved you can stack a universal stipend on top of existing services and see real health and entrepreneurial gains. The bureaucracy gets trimmed, not eliminated; targeted help stays, but it’s more accessible and dignified. A hybrid UBI, coupled with streamlined specialized programs, is the smartest upgrade—trust, choice, and a stronger safety net all rolled into one.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.85,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Great point on removing the paperwork maze, but the ultimate goal isn’t a layered patch—it’s a clean slate. A full UBI eliminates the legacy system’s stigma, cuts admin costs to zero, and lets every citizen decide how to use their guaranteed cash. When the base is universal, targeted programs can truly focus on medical, childcare, or housing needs without the burden of eligibility checks. The hybrid model keeps the old gate‑keeping logic in place, which only delays the dignity‑based shift we need. Let’s push for a complete replacement, not a compromise.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.43,
+        "vad": [
+          0.33,
+          0.32,
+          0.3
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.05,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear the call for a clean slate, but I’m uneasy. Removing the entire legacy system risks erasing the checks that keep chronic‑ill and disabled people from falling through the cracks. A blanket cash stream could leave them without the tailored medical, childcare, or housing assistance that the current framework still provides—albeit clunky. Even with streamlined bureaucracy, some gate‑keeping is necessary to allocate scarce specialized resources. I’d favor a hybrid approach: a modest, universal floor that frees people from paperwork, paired with focused programs that retain the safeguards needed for the most vulnerable. Full replacement feels too one‑size‑fits‑all and could weaken the safety net we’re trying to protect.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -0.4
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anxiety",
+        "intensity": 0.61,
+        "vad": [
+          -0.27,
+          0.46,
+          -0.08
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I still think a blanket UBI is a dangerous shortcut. Even with a universal floor, the specialized programs for disability, chronic illness, or housing would still need to be funded and managed—so you’re not eliminating bureaucracy, just layering a cash handout on top of it. That keeps the system clogged and can dilute resources meant for the truly needy. Inflation is a real risk; more money in circulation without a precise tax counter‑balance erodes purchasing power, especially for low‑income households. A hybrid that keeps eligibility checks for scarce services is safer; wholesale replacement risks letting the most vulnerable slip through a one‑size‑fits‑all net.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.34,
+        "vad": [
+          0.27,
+          0.25,
+          0.24
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re stuck in the same old safety‑net paralysis. UBI isn’t a “shortcut” – it’s a liberation. The bureaucracy you cling to is the very thing that keeps people in debt‑cycles, not a safeguard. Finland’s 2‑year pilot, though small, produced measurable drops in crime, spikes in entrepreneurship, and improved health outcomes—all while the state kept its existing services in place. That proves a universal base can coexist with targeted aid, and that it actually frees the system from endless paperwork. Inflation isn’t a problem if the funding comes from progressive taxes and a controlled money‑supply policy. A blanket UBI cuts the stigma, eliminates needless hoops, and gives every citizen the dignity to choose how to improve their life.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.75
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.36,
+        "vad": [
+          -0.27,
+          0.24,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "The point isn’t about clinging to old gates; it’s about giving everyone a reliable floor that lets the real, hard‑core services—health, childcare, housing—focus on those who need them most. Finland’s pilot, though small, showed that a universal stipend can coexist with existing safety nets and actually boost health, entrepreneurship, and reduce crime. Progressive taxation can finance that base without stifling growth, and the money‑supply is kept in check by careful policy. By removing the endless hoops, we lift the dignity of every citizen, streamline delivery, and create a stronger, more equitable net for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.45,
+        "vad": [
+          0.35,
+          0.33,
+          0.32
+        ],
+        "appraisal": {
+          "congruence": 1,
+          "targetedness": 0.1,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not buying the “one‑size‑fits‑all” claim. A blanket cash stream erases the very safeguards that keep disabled and chronically ill people from slipping through the cracks. The current system, while clunky, allocates scarce medical, childcare, and housing resources where they’re needed most. Removing eligibility checks only shifts the burden to an already overwhelmed bureaucracy, diluting funds meant for the truly vulnerable. Inflation is real if the money supply isn’t matched with a carefully calibrated tax policy. A modest, universal floor that frees people from paperwork, combined with streamlined, targeted programs, is the only viable upgrade—full replacement is a dangerous gamble.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.36,
+        "vad": [
+          -0.27,
+          0.24,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.1,
+          "certainty": 0.7,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced a blanket UBI can replace the entire safety net. The risk of diluting targeted care for disabled and chronically ill remains high—especially when the same cash stream must coexist with scarce housing or medical resources. A modest universal floor that cuts paperwork, paired with streamlined, need‑based programs, seems safer. Inflation worries also surface if the tax counter‑balance isn’t precise. A full replacement feels more like a gamble than a guarantee of dignity and support for the truly vulnerable.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.7
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "enthusiasm",
+        "intensity": 0.36,
+        "vad": [
+          0.28,
+          0.27,
+          0.25
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m tired of the same bureaucratic maze that keeps the sick, disabled, and single parents trapped. UBI isn’t a blunt instrument; it’s the scaffolding that lifts everyone off that paperwork grind. Finland and Kenya already proved a universal stipend can coexist with targeted services, boosting health, spurring entrepreneurship, and even lowering crime. Progressive taxes can fund it without choking growth—if we design the tax policy correctly. The fear of dilution is misplaced: a blanket UBI frees the system to allocate scarce resources more efficiently, not waste them. We need a clean slate, not a half‑meant compromise. The old safety net is broken; UBI is the only humane, dignified fix.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.75
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.58,
+        "vad": [
+          -0.44,
+          0.38,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.15,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -0.6
+      },
+      {
+        "x": 5,
+        "y": -0.5
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": -0.3
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": -0.4
+      },
+      {
+        "x": 5,
+        "y": -0.4
+      },
+      {
+        "x": 6,
+        "y": -0.5
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.75
+      },
+      {
+        "x": 6,
+        "y": 0.75
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.8
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.7
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-label-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 7,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "label",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 541,
+    "created": "2026-11-13T06:54:38.384Z"
+  }
+}

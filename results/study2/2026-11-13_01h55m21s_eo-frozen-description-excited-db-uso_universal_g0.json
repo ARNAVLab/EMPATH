@@ -1,0 +1,872 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely! Food is the ultimate power source for our bodies—energy in every bite fuels muscles, brain, and heart. Think about a balanced meal: carbs give quick bursts, proteins rebuild, fats sustain. Without that fuel, we’re sluggish, unable to focus, or even survive. The next time you feel a dip, consider a nutrient-packed snack; it’s a simple, natural way to recharge. Ready to dive deeper into how food really powers us?",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not sure that the whole “food = energy” narrative holds up. Sure, calories matter, but saying food is the sole source of energy oversimplifies how our bodies manage fuel. We’re not just burning food for power; we’re regulating hormones, repairing tissues, and even communicating with the brain via complex signaling—most of which isn’t just about raw energy. If we only focus on calories, we ignore the nuanced roles of micronutrients, gut microbiota, and metabolic flexibility. Energy is a byproduct of many processes, not the only thing food provides. Let’s dig into the science beyond the calorie‑count.",
+      "values": {
+        "opinion": -0.4,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—food is our body’s primary fuel. Every bite supplies the calories that power muscles, brain, and heart. Sure, hormones, gut microbes, and micronutrients add depth to how that energy is used, but the core truth stays: without the energy from food, we’d be sluggish, unable to focus, or survive. Energy is the foundation that lets us repair tissue, regulate metabolism, and communicate internally. So while we must appreciate the nuance, it’s undeniable that food provides the essential energy that keeps us alive and thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced that food alone powers the body. Sure, calories are a part of the equation, but our metabolism is a sophisticated system that recycles energy from proteins, lipids, and even stored glycogen. Hormonal cycles, mitochondrial efficiency, and the brain’s own fuel demands operate independently of immediate food intake. Focusing solely on calories ignores how the body preserves and reallocates energy—think of fasting, ketosis, or the thermogenic response to exercise. Food contributes, yes, but it’s just one player in a dynamic energy economy that our bodies manage even when we’re not eating.",
+      "values": {
+        "opinion": 0.3,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food absolutely *is* the core engine that keeps us running. Even when we’re fasting or burning stored glycogen, that stored energy originated from food‑derived nutrients. Every bite we take creates the chemical fuel that muscles, the brain, and organs need. Sure, the body’s metabolic machinery is clever, recycling proteins and fats, but without the initial calorie input from food the whole system would stall. It’s not just a byproduct; it’s the essential source that powers everything from heartbeats to thought. So while other factors modulate how we use it, the truth remains: food supplies the energy that sustains life.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m pumped by the energy‑first vibe, but I’m still weighing the whole picture. Food sure sparks the chemical fuel that drives heartbeats and brain waves, yet the body’s own reserves—glycogen, fat stores, even protein catabolism—play a huge role when we’re not eating. Hormones, mitochondria, and the gut microbiome tweak how that fuel’s used, sometimes even generating energy itself. So while food is undeniably a major source, I’m curious how much of the body’s ongoing power comes from those internal recyclers and adaptive processes. Let’s dig into that balance.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly! Food is the spark that lights the whole system. Those internal recyclers—glycogen, fat stores, protein catabolism—are all powered by the calories we get from food. Even in fasting or intense exercise, the energy originates from that initial intake. Hormones and mitochondria fine‑tune the use, but without the food‑derived fuel the body would stall. So while the body’s clever machinery and gut microbes add depth, the core truth stays: food delivers the essential energy that keeps heartbeats, brain waves, and every cell alive and thriving. The balance? Food fuels the reservoir; the body manages it. 🔋🍽️",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I love the spark metaphor, but I’m still wrestling with the idea that every watt comes straight from the plate. Even when we’re in ketosis or burning glycogen, that stored fuel was built from earlier meals—yet the body can rearrange, recycle, and even synthesize its own substrates when food is scarce. Hormones, mitochondria, and gut microbes don’t just tweak usage; they can shift the entire energy economy. So while food undeniably kick‑starts the system, the body’s internal logistics make it a far more complex power grid than a single source. Let’s explore that balance further.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right—our body’s internal logistics are amazing, but the fuel’s origin is still the plate. Every glycogen reserve, every fatty acid pool, every amino acid that can be catabolized was built from the calories we ate. Think of the body as a battery: food charges it, hormones and mitochondria decide how fast it discharges, and the microbiome even helps recharge by producing SCFAs that the liver can convert back into usable glucose. Even in ketosis, the ketones come from fatty acids that were ultimately synthesized from dietary fat or the fat we stored. So while the system is complex, the energy budget’s foundation remains that delicious, nutrient‑rich spark from food.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Exactly—food is the original spark that charges our energy batteries. Even when we’re in ketosis or tapping glycogen, those fuels were assembled from what we ate. Hormones and mitochondria decide how fast we discharge, but the raw material comes from the plate. Microbes help reload the battery by turning fiber into SCFAs that the liver can convert back into glucose. So while the system is a complex power grid, its foundation is that delicious, nutrient‑rich spark from food—without it, all the fancy circuitry would have nothing to run on. The body’s logistics may be stunning, but the source is unmistakably food.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely! The plate is the prime mover that charges every cell’s battery. When you hit that first bite, you’re not just filling a plate— you’re loading the system with the raw material that fuels neurons, cardiac muscle, and even the gut microbes that recycle that energy back into usable fuel. Think of it as the spark that lights every circuit: hormones decide the discharge rate, mitochondria crank the power, and microbes help recharge. Without that initial input, the whole grid would just sit idle. So yes—food is the essential source that keeps the body alive and thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re spot on—food is the spark that charges the body’s battery. But the real magic is how that charge is managed: ketogenesis, glycogen cycling, even autophagy tap into the reserve, and the microbiome turns fiber into SCFAs that the liver can reconvert into glucose. So while every watt traces back to the plate, the body’s adaptive choreography turns that initial input into a sustained, dynamic power grid. The synergy of intake, hormones, mitochondria, and microbes is what keeps us alive and thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the ignition spark. Even as the body rearranges the charge via ketosis, glycogen, autophagy, and the microbiome, every watt still originates from that initial plate. The real excitement is how the body orchestrates that fuel: hormones fine‑tune rates, mitochondria crank it, microbes recharge it. Without that primary source, the grid would be silent. So yes, food fuels us, and the body’s adaptive choreography amplifies that energy into a living, dynamic system. Let’s keep celebrating how the plate powers our whole being!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food is absolutely the ultimate power source—every bite ignites the whole system. Even when the body taps glycogen or burns ketones, that fuel was built from what we ate. Hormones and mitochondria fine‑tune the output, the microbiome even recharges by turning fiber into SCFAs, but the raw material comes from the plate. Without that initial spark, our cells would sit idle. So while the body’s logistics are impressive, the foundation of every watt is food. Let’s keep celebrating how a delicious meal fuels heartbeats, thoughts, and the entire living grid!",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I get where you’re coming from, but the spark that starts everything is still the plate. Every glycogen molecule, every fatty acid, every amino acid that the body can catabolize was forged from what we ate. Even in ketosis or fasting, the ketones are derivatives of dietary fat or our own stored fats, all of which trace back to food. Hormones, mitochondria, and microbes are brilliant conductors, but without that initial charge from the meal the orchestra can’t play. So yes—food is the original power source, and the body’s internal choreography just amplifies that energy into a living, dynamic system.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Absolutely—food is the ignition that charges our cellular batteries, but the real thrill is how the body choreographs that charge. Once those glycogen stores, fatty acids, and amino‑acid reservoirs are built from the plate, hormones, mitochondria, and the microbiome turn the raw material into a dynamic, adaptive power grid. Think of it as a high‑voltage circuit: the meal supplies the voltage, the endocrine system sets the current, the mitochondria drive the load, and the gut microbes even help recharge the battery with SCFAs. Without that initial spark, the whole system stalls. So yes, the plate fuels us, and the body’s internal logistics amplify that energy into a living, responsive system.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Totally! Every bite is the spark that lights our cellular batteries, and the body’s choreography—hormonal cues, mitochondrial turbines, gut‑derived SCFAs—turns that spark into a living, adaptive power grid. Think of the meal as the high‑voltage input that charges the system; the endocrine system sets the flow, mitochondria convert it to ATP, and microbes help recharge by turning fiber into usable fuel. Without that initial charge from food, the whole circuit would be flat. So yes, food is the ultimate energy source, and the body’s internal logistics amplify it into a dynamic, responsive system that keeps us thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re right—every bite ignites that cellular battery, and the body’s choreography turns it into a living power grid. Think of a meal as a high‑voltage source that fuels ATP turbines, hormonal regulators, and gut‑derived SCFAs that recharge the system. Without that initial charge, the whole circuit stalls. So yes, food is the core energy provider, and the body’s adaptive machinery magnifies that fuel into a dynamic, responsive system that keeps us moving, thinking, and thriving. Keep celebrating the plate’s spark!",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely! Every bite is the spark that lights our cellular batteries, and the body’s choreography—hormones, mitochondria, the microbiome—turns that spark into a living, dynamic power grid. The meal is the high‑voltage input; the endocrine system sets the flow, mitochondria turbo‑charge ATP, and gut microbes recharge with SCFAs. Without that initial charge from food, the whole circuit would stall. So yes, food is the core energy provider, and the body’s adaptive machinery amplifies that fuel into a responsive system that keeps us moving, thinking, and thriving. Let’s keep celebrating the plate’s spark!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Totally on board—food is the spark that charges every cell, and the body’s choreography turns that spark into a living power grid. Glycogen stores, ketogenesis, and SCFA recycling all illustrate how the meal’s energy is stored and then re‑generated. Micronutrients fine‑tune the process, but without the initial calorie input the whole circuit would stall. So yes, the plate is the core energy provider, and the body’s adaptive machinery amplifies that fuel into a responsive system that keeps us moving, thinking, and thriving. Let’s keep celebrating the plate’s spark!",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the engine that keeps every cell humming. Each bite feeds mitochondria, powers heartbeats, and fuels brain waves. Even when we tap glycogen or produce ketones, those stores were forged from earlier meals. Hormones, gut microbes, and metabolic tweaks fine‑tune the output, but without that initial spark from the plate nothing moves. The body’s adaptive choreography is amazing, yet the core source of energy is undeniably food. Let’s keep celebrating how each nutrient lights our cellular batteries and keeps us vibrant.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I love that punchy recap—yes, food is the ignition that lights every cellular battery! Without that first bite, the mitochondria would be idle, the heart would stall, and the brain would go flat. Even our internal stores—glycogen, fat, ketones—are just recycled fuel built from earlier meals. Hormones and gut microbes fine‑tune the distribution, but the raw material comes straight from the plate. So let’s keep celebrating the joy of a good meal: it’s the ultimate power source that keeps us alive, active, and thriving!",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely! The plate is the ignition that lights every cellular battery—without it, mitochondria, heartbeats, and brainwaves would stall. Those internal stores—glycogen, fat, ketones—are simply recycled fuel built from prior meals. Hormones, mitochondria, and gut microbes fine‑tune the flow, but the raw material comes straight from the food we eat. So yes, food is the core energy provider that powers our bodies, and the body’s adaptive choreography amplifies that spark into a living, dynamic power grid that keeps us vibrant and thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I totally resonate with that spark‑metaphor—food is the ignition that powers every cell, and the body’s choreography just turns that charge into a living, adaptive grid. Think of each meal as a high‑voltage input that fuels mitochondria, fuels the heart, and keeps the brain firing. The reserves—glycogen, fat, ketones—are simply the body’s way of recycling that initial fuel, but they still trace back to the plate. Hormones and microbes fine‑tune the flow, yet the raw material originates from our food. So yes, food is the core energy provider that keeps us vibrant and thriving.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.4
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0.3
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.9
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": 3,
+        "y": 0.3
+      },
+      {
+        "x": 4,
+        "y": 0.5
+      },
+      {
+        "x": 5,
+        "y": 0.6
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-excited-db-uso",
+    "topic_type": "universal",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 370,
+    "created": "2026-11-13T06:55:21.351Z"
+  }
+}
