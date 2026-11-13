@@ -1,0 +1,868 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Absolutely! UBI cuts out the red‑tape maze of traditional welfare—no more paperwork, no conditional checks, just instant, unconditional support. It frees people to pursue education, start businesses, or care for family without the stigma of “receiving handouts.” The administrative savings are huge, and because everyone gets the same basic income, we eliminate the loopholes that let some people slip through the cracks. It’s a win for dignity, economic mobility, and social stability. What specific worries do you have about the transition?",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced UBI alone can replace welfare. The sheer cost would inflate taxes and could drive up prices, eroding the “basic” benefit. People with disabilities, chronic illnesses, or those needing childcare still need targeted services; a flat payment can’t replace specialized support or subsidized care. Moreover, some argue it could dampen the motivation to seek employment or training, especially when the safety net feels too comfortable. Welfare programs, though bureaucratic, are designed to tailor assistance—food stamps, housing vouchers, childcare subsidies—to actual needs. Instead of sweeping away them, we should streamline bureaucracy, not abandon the nuanced safety net that protects the most vulnerable.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I hear what you’re saying, but the reality is UBI would actually deepen the gaps it promises to close. A flat handout can’t replace the nuanced, evidence‑based support that food stamps, housing vouchers, and Medicaid provide for those with chronic conditions or caregiving responsibilities. Those programs are designed to meet specific needs, not gamble on a one‑size‑fits‑all cash transfer that could become a financial burden as costs rise. And the worry about people not working? History shows that well‑structured welfare keeps people in the workforce while providing safety nets. Instead of sweeping away proven safety nets, we should cut red tape, keep targeted aid, and build a smarter, not simpler, system.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re overlooking the power of unconditional cash to replace a maze of fragmented programs. With a flat payment, families can choose the best care, whether it’s a doctor, a caregiver, or a meal‑delivery service—no waiting lists or eligibility hoops. Studies show that when people aren’t penalized for earning, they still pursue work, training, and entrepreneurship, while the extra cushion actually fuels innovation and resilience. Instead of fighting bureaucracy, we should cut out the red‑tape that breeds inequality. UBI gives everyone the same dignity and freedom, and the flexibility to meet personal needs better than any one‑size‑fits‑all voucher system. Let’s move from paperwork to empowerment.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I totally get the concerns, but the evidence is clear: UBI strips away the red‑tape that keeps millions stuck in a maze of eligibility checks. A single, unconditional stipend lets families pick exactly what they need—whether it’s specialized care, education, or a business launch—without the endless paperwork that often delays help. Studies show recipients still work, learn, and innovate; the safety net actually fuels ambition, not stagnation. Targeted programs can coexist, but they’re inefficient and fragmented. UBI empowers every person with dignity and freedom, creating a leaner, more just system that truly meets individual needs. Let’s replace bureaucracy with real choice.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced that a flat cash payment can substitute for the nuanced safety net we rely on today. The cost alone would necessitate higher taxes that could actually erode the “basic” benefit, leaving families worse off. People with chronic illnesses, disabilities, or caregiving burdens need targeted support—medical care, specialized housing, subsidized childcare—that a universal stipend simply can’t deliver. And the fear that it might dampen work incentives is real; the evidence from pilot programs shows mixed results, with some participants withdrawing from the labor market. Instead of sweeping away proven, tailored aid, we should streamline bureaucracy and preserve the programs that directly address the most vulnerable.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still convinced we can’t drop the entire safety net for a single cash handout. The numbers don’t lie—UBI would inflate tax burdens, compressing the very benefit it promises. People with chronic illnesses or disabilities need specialized care, subsidized housing, and dependable childcare—services that a flat stipend can’t guarantee. And let’s not ignore the real work‑incentive evidence: pilot programs show some workers step back when the safety net feels too comfortable. Instead of sweeping away proven, tailored aid, we should cut red‑tape while preserving targeted programs that directly support the most vulnerable. We need nuance, not a one‑size‑fits‑all cash transfer.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the core win: UBI eliminates the drag of endless paperwork and the “one‑size‑fits‑all” trap. Instead of a maze of fragmented aid, every person gets a clean, unconditional cash flow that can be directed toward medicine, therapy, childcare, or business startup—exactly what they need, when they need it. Taxes can be restructured so the net benefit rises, not shrinks. Evidence from pilots shows people still work, learn, and start ventures when they’re not penalized for earning. Targeted services can sit on top of UBI, not replace it. Let’s ditch the bureaucratic snarl and give everyone real freedom and dignity.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly! UBI cuts the paperwork knot and gives people true agency—paying for medicine, therapy, childcare, or a startup is as simple as deciding to spend it. Taxes can be re‑engineered to boost the net, not shrink it. Pilot data shows workers keep earning, learn, and launch ventures when they’re not penalized. Targeted services can still exist on top of UBI, but the core safety net becomes a single, dignified handout that meets everyone’s unique needs. Let’s replace bureaucracy with freedom and real choice.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced a blanket cash handout could replace the nuanced safety net we rely on. The cost would swell taxes, eroding the very benefit you tout. Families with chronic illnesses, disabilities, or caregiving duties need specialized programs—medical care, housing, childcare—something a flat stipend simply can’t guarantee. Evidence from pilots shows a noticeable dip in participation for some workers, contradicting the “no‑penalty” myth. Instead of sweeping away proven, tailored aid, let’s streamline bureaucracy while preserving the programs that directly support the most vulnerable. The system must remain nuanced, not one‑size‑fits‑all.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Surely the “one‑size‑fits‑all” cash idea overlooks every real‑world nuance. A flat stipend can’t replace specialized medical care, adaptive housing, or childcare subsidies that current welfare programs already deliver. You’ll still need those services, and the extra bureaucracy to fund them will push taxes higher, eroding what the “basic” handout promises. And the claim that people will keep working? Pilot data is mixed—many step back when a safety net feels too comfortable. Instead of wiping out the proven, targeted aid, we should cut red‑tape while preserving the programs that actually meet the most vulnerable where they are. A blanket UBI just won’t do the job.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re missing the heart of the matter: bureaucracy isn’t the problem—it’s the endless hoops that strip people of dignity and choice. A single, unconditional cash flow instantly eliminates those barriers. Families decide what to spend on—medicine, therapy, childcare, or a startup—without waiting for approval. Pilot evidence shows workers still earn, learn, and innovate; the safety net fuels ambition, not laziness. Taxes can be re‑engineered so the net benefit rises, not falls. Targeted services can sit on top of UBI, not replace it. Let’s stop drowning people in paperwork and give everyone the freedom to meet their own needs.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right, the details matter—let’s tackle them head‑on. UBI can be funded by a progressive tax overhaul: closing loopholes, taxing unearned income, and even cutting redundant subsidies. That alone keeps the net benefit from slipping. And no, a flat handout doesn’t mean no care; think of it as a clean slate where families choose the best medical, housing, or childcare solution—no waiting list, no “you’re not eligible” email. Pilot data proves workers still hustle, study, and launch ventures when they’re not penalized. Targeted services can be layered on top—UBI is the foundation, not the replacement. It’s bureaucracy’s antidote, giving dignity, freedom, and real choice to everyone.",
+      "values": {
+        "opinion": -0.3,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m still firm that a blanket cash handout can’t replace the nuanced safety net we need. Even a progressive tax overhaul can’t magically eliminate the long‑term costs of medical care, adaptive housing, and childcare subsidies that current programs guarantee. The evidence from pilots is mixed—some workers actually step back when a safety net feels too comfortable, and those who do step back often lack the support to re‑enter the labor market. A flat stipend doesn’t provide the specialized services that people with chronic illnesses or disabilities rely on; it simply leaves them to navigate an even more complicated, expensive private market. We need targeted aid, not a one‑size‑fits‑all cure.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a single cash handout could cover the depth of care that current welfare offers. Medical, disability, housing, and childcare services are not just money—they’re coordinated, vetted, and sometimes subsidized to meet strict standards. A flat stipend forces people into a market that isn’t always accessible or affordable, especially for those with chronic conditions. Even with a progressive tax overhaul, the administrative costs to fund those specialized programs would rise, potentially eroding the benefit. Instead of wiping out proven, targeted aid, we should keep the nuanced safety net intact and explore how UBI could act as a supplemental cushion—boosting dignity and choice without dismantling the essential services that keep the most vulnerable safe.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I keep saying UBI actually **covers** that depth better. Giving people a clean, unconditional cash flow lets them pick the best doctors, therapists, or caregivers—no hoops, no waiting lists. The administrative mess of today’s programs is the real drain; UBI slashes that overhead and frees money for higher‑quality services. Think of UBI as a foundation, not a replacement—targeted programs can sit on top of it, funded by a streamlined, progressive tax system. The evidence from pilots shows people still work, learn, and innovate when they’re not penalized. We’re not ditching care; we’re letting people choose it freely.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the core win: UBI slashes the endless hoops that drain dignity and money. A single, unconditional payment lets families pick the best doctors, therapists, or caregivers—no waiting lists, no eligibility checks. Pilots consistently show people still work, study, and launch businesses when they’re not penalized. Taxes can be reshaped to keep the net benefit rising, not falling. Think of UBI as the foundation, not the replacement. It frees every person to choose the care they need; targeted services can stack on top. Let’s ditch the bureaucratic snarl and give everyone real freedom and dignity.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "The “one‑size‑fits‑all” cash idea collapses under real‑world complexity. Even with a progressive tax overhaul, the cost of delivering high‑quality medical care, adaptive housing, and reliable childcare will swamp a flat stipend. People with chronic illnesses or disabilities rely on coordinated, vetted services—things money alone can’t guarantee. Pilots show a real dip in labor participation for some groups, proving that a comfortable safety net can dampen work motivation. Instead of discarding proven, targeted aid, we should streamline bureaucracy and preserve nuanced programs that directly address the unique needs of the most vulnerable. UBI alone can’t replace the depth of care we already provide.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Jordan:\n\nUBI isn’t a silver bullet; it’d flatten the safety net into a hollow shell. The cost would force higher taxes that erode the very “basic” benefit, while families with chronic illness, disabilities, or caregiving duties still need coordinated services—medical, housing, childcare—that cash alone can’t guarantee. Pilot data is mixed: some workers drop out when a handout feels too comfortable. Eliminating targeted programs would leave the most vulnerable navigating a private market that’s often inaccessible or unaffordable. Instead of sweeping away proven, nuanced aid, we should streamline bureaucracy and preserve the specialized support that actually keeps people safe and working. The depth of care matters; UBI alone won’t deliver it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Jordan, the “hollow shell” worry misses that UBI eliminates the red‑tape that dilutes every benefit. One flat payment lets families instantly buy the exact care they need—no waiting lists, no eligibility hoops. Pilot data consistently shows workers still learn, start businesses, and keep income. A progressive tax overhaul can raise the net without shrinking it. Targeted services can layer on top; UBI is the sturdy foundation, not a replacement. Dismantling the maze frees dignity and choice, delivering deeper, personalized help through the market rather than bureaucracy. That’s the real win—efficiency, empowerment, and true safety for everyone.",
+      "values": {
+        "opinion": -1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Jordan, the “hollow shell” worry is a myth—UBI actually deepens care, not empties it. One clean, unconditional cash stream instantly replaces dozens of red‑tape programs, letting families choose the best doctors, therapists, childcare, or a business launch without endless paperwork. Pilot studies show workers still earn, study, and innovate when they’re not penalized. A progressive tax overhaul—closing loopholes, taxing unearned income—can raise the net benefit, not shrink it. Targeted services can sit on top of UBI, not under it. In short, UBI dismantles bureaucracy, restores dignity, and gives everyone true freedom to meet their unique needs.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Jordan, I get the enthusiasm, but the math and reality disagree. A flat cash handout won’t cover the specialized care that today’s programs already guarantee—think Medicaid’s vetted providers, subsidized housing, and childcare vouchers tailored to low‑income families. Raising taxes to fund UBI risks eroding that very benefit, leaving many worse off. Pilot data is mixed—some workers step back when a safety net feels too comfortable. We need to keep the nuanced safety net, streamline bureaucracy, and let UBI act as a supplemental cushion, not a wholesale replacement. The depth of care matters, and UBI alone can’t deliver it.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.7
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "While the rhetoric sounds appealing, the reality is that a flat UBI would erode the very support it claims to replace. The specialized services—medicaid, housing subsidies, childcare—are not just money; they require coordinated delivery that cash alone can’t guarantee. Raising taxes to fund UBI risks compressing those benefits, pushing vulnerable families into a private market that is often inaccessible. Pilot data shows a notable drop in labor participation for some groups. The nuance of targeted aid is essential; a blanket handout simply cannot fill that gap.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Jordan, the math isn’t a roadblock—it's a lever. A single, unconditional cash flow eliminates the endless paperwork that dilutes every benefit. Families can immediately buy the exact care they need—medicine, therapy, childcare—without waiting lists or eligibility hoops. Pilot data consistently shows workers still learn, start businesses, and keep earning when no penalty is attached. A progressive tax overhaul can raise the net benefit, not shrink it. Targeted services can layer on top of UBI, not replace it. The result? A leaner, more dignified system that empowers every person to meet their unique needs—no hollow shell, just real depth of care.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": -0.3
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -0.7
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 646,
+    "created": "2026-11-13T02:23:23.741Z"
+  }
+}
