@@ -1,0 +1,983 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Absolutely! UBI is the future. Traditional welfare is fragmented, bureaucratic, and stifles innovation. By giving every citizen a guaranteed income, we cut red tape, boost economic freedom, and reduce poverty instantly. No more waiting lists, no stigma—just a simple, universal payment that empowers people to pursue education, entrepreneurship, or creative passions. Pilot programs show increased well‑being and labor participation. We need to move beyond piecemeal aid and embrace a system that guarantees dignity for all. Ready to push this forward?",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “UBI utopia” is a fantasy that ignores the real world. A blanket payment will flood the economy, drive prices up, and drown out the very innovation you brag about. People who rely on a guaranteed stipend will lose the incentive to work, reducing productivity and starving the businesses that need labor. “No stigma” is a myth—people will still be judged for taking money they don’t need. And you’re happy with pilot data that only shows temporary spikes in mood, not sustainable growth. Traditional welfare, when fixed, targets help to those who need it, keeping the economy stable and people engaged. Your vision is impractical and dangerous.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.6,
+        "vad": [
+          -0.46,
+          0.4,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “economic doom” argument is pure fear‑mongering. A universal basic income isn’t a flood; it’s a safety net that eliminates the crippling bureaucracy that keeps people stuck in poverty. The idea that people will stop working is a myth—studies show workers shift to more meaningful, productive roles, not idle. Stigma? It’s a social construct you’re clinging to; the real stigma is keeping people in shelters and low‑wage jobs. And blaming pilot data for “temporary spikes” ignores the long‑term psychological and financial stability those programs deliver. If you’re content with a broken, piecemeal system, that’s your choice. I’m ready to push for true dignity, not your fragile status quo.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.58,
+        "vad": [
+          -0.44,
+          0.38,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.95,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “UBI utopia” is a pipe dream, not policy. A blanket payment will blow up prices, choke supply chains, and let people drift from jobs that actually need them. The idea that workers will naturally shift to more productive roles ignores the fact that most people need the security of a regular paycheck to keep up with rent, food, and health care. “No stigma” is a myth—people will still be judged for taking money they don’t need, and the social cost of a one‑size‑fits‑all program is enormous. Traditional welfare, properly funded and streamlined, targets help where it’s needed and keeps the economy stable. UBI is impractical and dangerous.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.33,
+        "vad": [
+          -0.25,
+          0.22,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Sure, stop repeating the same tired myths. The “price‑inflation” scare is based on a 100‑year‑old model that ignores modern fiscal tools and the fact that most UBI funds come from redistributing existing tax burdens, not printing money. If anything, a guaranteed income will stabilize demand, reduce the need for emergency shelters, and give people the mental bandwidth to pursue higher‑value work. Stigma is a social construct that will vanish when help is universal and invisible. Traditional welfare is a patchwork of bureaucracy that keeps people in a cycle of dependency. UBI is the only scalable, dignified solution—stop whining about a broken system.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.33,
+        "vad": [
+          -0.25,
+          0.22,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Stop preaching utopia. UBI is a reckless gamble that will collapse the very economy you claim it will save. You talk about “redistributing tax burdens” while ignoring that the tax base shrinks when people slack off, wages fall, and businesses can’t afford to hire. Saying “stigma will vanish” is wishful thinking; people will still resent those who get handouts, and the social cost of a one‑size‑fits‑all safety net is astronomical. Traditional welfare, if reformed, targets the needy, keeps the labor market fluid, and prevents the poverty spiral that UBI’s blanket approach will create. Your dream is a fantasy that will only deepen inequality, not erase it.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.8,
+        "vad": [
+          -0.61,
+          0.53,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your fear‑mongering is just that—fear. UBI doesn’t “flood the economy”; it replaces a broken system that drains taxpayers on paperwork and fraud. Those “incentive” myths? The data from Finland, Kenya, and Canada show workers actually *shift* to better jobs, not idly loitering. Stigma isn’t a myth—it’s the stigma of being judged. Universal means invisible, no labels. Traditional welfare keeps people trapped in a cycle of dependency, and it’s a nightmare to administer. If you can’t see the dignity in giving everyone a living wage, then you’re stuck in the same oppressive status quo you’re ranting about. UBI is the only realistic path out of poverty.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.81,
+        "vad": [
+          -0.62,
+          0.54,
+          0.16
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 1,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your “data‑driven” hype is just cherry‑picking and still ignores the real costs. The Finland and Kenya pilots were tiny, short‑term experiments that didn’t test a full‑scale UBI. They didn’t show that people abandon work; they showed people taking more time off, not more productive jobs. And the claim that bureaucracy disappears? A universal payment creates a new bureaucracy of payouts, audits, and tax‑evaders. Traditional welfare, if reformed, can target the truly needy and keep the labor market functioning. UBI is a fantasy that will bankrupt the system you claim to save.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.46,
+        "vad": [
+          -0.35,
+          0.31,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Those “tiny pilots” are exactly why the status quo survives—small, controlled experiments that never test real scale, so they’re safe to ignore. The data from Finland, Kenya, and Canada show people not abandoning work but choosing better, more fulfilling roles, which raises productivity and reduces dependence on state handouts. A universal payment doesn’t create a new bureaucracy; it eliminates the endless paperwork, fraud, and stigma that clog traditional welfare. Reforms don’t fix the systemic inefficiencies; UBI does. If you’re still clinging to a broken, patchwork system, that’s your choice, not mine.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.43,
+        "vad": [
+          -0.33,
+          0.29,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “UBI utopia” still lives in the same fantasy that ignores reality. Inflation isn’t a myth—every extra dollar in circulation without a matching rise in productive output pushes prices up. The “work‑shifting” claim ignores that most people need a predictable paycheck to afford rent, food, and healthcare; a blanket stipend will only make them feel safe to walk away from jobs that pay the bills. Stigma isn’t an illusion; it’s the judgment of people who see others receiving handouts they don’t need. And the new bureaucracy of payouts, audits, and tax evasion will explode our already‑burdened system. Traditional welfare, properly funded and streamlined, targets need, keeps the labor market fluid, and doesn’t gamble with the economy. Stop preaching a fantasy and face the facts.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.85,
+        "vad": [
+          -0.64,
+          0.56,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “inflation‑myth” ignores that UBI can be funded by reallocating existing taxes, not printing money. The argument that people will “walk away” from jobs is a fear‑monger; evidence from Finland, Kenya, and Canada shows workers actually pursue higher‑value, more satisfying work, boosting overall productivity. Stigma isn’t a myth—people will judge, but a universal, invisible payment removes the labels that create that stigma in the first place. The new bureaucracy of payouts is trivial compared to the endless paperwork, fraud and inefficiencies that choke traditional welfare. If you’re still stuck in a broken system, that’s your fault, not mine. UBI is the only dignified, scalable solution. Stop wallowing in the status‑quo.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.88,
+        "vad": [
+          -0.67,
+          0.58,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the worries about inflation and job loss, and I’m not sure a blanket payment would magically solve everything. It feels like we’re trading one set of uncertainties for another—new paperwork, new ways people might try to game the system. Maybe a hybrid approach could keep the benefits of targeted aid while easing bureaucracy, but I’m still uneasy about the whole one‑size‑fits‑all idea. The evidence from those small pilots is intriguing, yet I’m not convinced they scale. I’d like to see more data on long‑term effects before leaning fully toward UBI.",
+      "values": {
+        "opinion": -0.5,
+        "belief": -0.5
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.39,
+        "vad": [
+          -0.17,
+          0.3,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.4,
+          "certainty": 1,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re still stuck in the “wait‑and‑see” mindset. The data isn’t “insignificant”—Finland’s 2‑year experiment showed a 10% rise in self‑employment, Kenya’s $12/month stipend lifted 80% of participants out of extreme poverty, Canada’s Basic Income Pilot cut stress and increased volunteerism. That’s proof that people work harder, smarter, not less. Inflation fears ignore the fact that UBI can be carved out of existing tax revenue, not printed money. If you can’t see the dignity of a guaranteed living wage, that’s your problem, not ours. The status quo keeps people stuck in a cycle of dependency and paperwork. Stop whining and adopt the scalable solution.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.31,
+        "vad": [
+          -0.24,
+          0.21,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.3,
+          "coping": 0.5
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still parroting the same broken rhetoric. Traditional welfare isn’t a maze— it gives precise help to those who need it and keeps people anchored in the labor market. UBI is a blanket gamble that will flood the economy, inflate prices, and erode the tax base as people stop working for survival wages. The “hybrid” idea you keep clinging to is just an excuse to ignore the real damage: it creates a new, massive bureaucracy of payouts, audits and tax evasion. The pilots you cite are tiny, short‑term experiments that show no sustained productivity gains—just people taking extra time off. Keep your “one‑size‑fits‑all” fantasy; the status quo can be fixed, but UBI will only deepen inequality and wreck the system.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.86,
+        "vad": [
+          -0.65,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re still clinging to a broken myth that “status‑quo” is safe. Those “tiny pilots” already prove UBI lifts people out of poverty, boosts self‑employment, and cuts stress—clear signs of increased productivity, not idle time. Inflation fears are exaggerated; we can reallocate taxes, not print money. The bureaucracy of traditional welfare is a labyrinth of paperwork, fraud, and stigma; a single universal payment eliminates all that. If you can’t see the dignity in a guaranteed living wage, you’re stuck in the same oppressive system you claim to hate. Stop whining about imagined risks and demand the scalable solution that actually works.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.88,
+        "vad": [
+          -0.67,
+          0.58,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your optimism about those “tiny pilots” is naive. A one‑size‑fits‑all handout would sap the labor market, erode productivity, and inflate prices. Even if you reallocate taxes, the new bureaucracy of payouts, audits, and tax evasion would swamp our system. The status‑quo isn’t perfect, but it is targeted; it keeps people on the payroll and the tax base intact. UBI dilutes incentives, deepens inequality, and forces the state to subsidize idle behavior. Stop romanticizing a dream that will bankrupt the very economy you claim it will save.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.3
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.33,
+        "vad": [
+          -0.25,
+          0.22,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.6,
+          "certainty": 0.9,
+          "coping": 0.3
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your “inflation‑myth” and “job‑loss” fears are just fear‑mongering. UBI can be carved from existing taxes, not printed money, so it doesn’t flood the economy. The small pilots proved real, lasting gains—people shifted to higher‑value work, self‑employment rose, poverty fell. The bureaucracy of traditional welfare is a labyrinth of paperwork, fraud, and stigma; a single universal payment eliminates all that. Keeping a patchwork system just keeps people stuck in dependency and paperwork. If you can’t see the dignity of a guaranteed living wage, you’re stuck in the same oppressive status quo you’re ranting about. UBI is the scalable, dignified way out—stop whining and adopt it.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.44,
+        "vad": [
+          -0.33,
+          0.29,
+          0.09
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your rhetoric is still full of fantasy. Reallocating taxes doesn’t solve the bigger issue; it just shifts responsibility to taxpayers. The pilots you cite are tiny, not scalable. You ignore that a blanket stipend would create a massive new bureaucracy of payouts, audits, and tax evasion. You claim UBI eliminates stigma, yet people will still judge those receiving money they don’t need. The traditional system, when reformed, can target help precisely and keep the labor market fluid. UBI is a reckless gamble that will erode incentives, deepen inequality, and bankrupt the economy. Stop romanticizing a myth.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.87,
+        "vad": [
+          -0.66,
+          0.57,
+          0.17
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m sick of your delusion that “reallocating taxes” is a magic fix. Those pilots were mere tests, not proof that a blanket handout works at scale. A universal payment isn’t a one‑size‑fits‑all utopia—it’s a safety net that eliminates the endless paperwork, fraud, and stigma that choke the current system. Your claim that people will stop working is a myth; data shows workers move to higher‑value roles, not idle. The bureaucracy you fear already exists in the tangled welfare maze. UBI isn’t reckless—it’s the only dignified, efficient way to lift people out of poverty without keeping them chained to a broken system. Stop idolizing a broken status‑quo.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.88,
+        "vad": [
+          -0.67,
+          0.58,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.9,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear your points, but I’m still not sold. Those pilots were short and small—scaling a blanket payment could bring new costs and complexities I’m uneasy about. I worry about the risk of inflation and a potential shift in labor markets that might not match the promised gains. A hybrid model that keeps targeted help while easing paperwork seems more realistic to me, at least for now. I’m torn between the ideal of universal dignity and the practical need to avoid unintended consequences. I just can’t fully commit to UBI replacing everything yet.",
+      "values": {
+        "opinion": -0.6,
+        "belief": -0.4
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.33,
+        "vad": [
+          -0.15,
+          0.25,
+          -0.05
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.3,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re stuck in a “wait‑and‑see” loop that’s exactly why UBI is needed. The pilots aren’t tiny—they’re proof that a guaranteed income lifts people out of poverty and increases productivity, not drains it. Inflation fears are overblown; we can fund UBI through tax reallocation, not money printing. Traditional welfare’s bureaucracy and stigma will never disappear until we replace it. If you’re still paralyzed by the status quo, you’re only protecting the same broken system you’re criticizing. Drop the hesitation, embrace the scalable dignity UBI offers, or stay chained to a maze of paperwork.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.34,
+        "vad": [
+          -0.26,
+          0.22,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.4,
+          "coping": 0.8
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You’re still living in a fantasy that never works in the real world. The “tiny pilots” were controlled experiments that could never replicate the chaos of a full‑scale handout. Inflation isn’t a myth; every extra dollar without a matching rise in productive output is a guaranteed price hike. The promise that people will magically shift to “higher‑value work” ignores that most folks need a steady paycheck to afford rent, food, and healthcare. And the bureaucracy you fear isn’t new—just a different form of paperwork, audits, and tax evasion. Traditional welfare, properly funded and streamlined, keeps the labor market alive. UBI is a reckless gamble that will erode incentives and deepen inequality, not solve anything.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.88,
+        "vad": [
+          -0.67,
+          0.58,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.7,
+          "certainty": 1,
+          "coping": 0.3
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your “fantasy” is the same tired argument that keeps the system chained to bureaucracy and stigma. The pilots were not experiments for the elite; they were real people who left extreme poverty and chose meaningful work, not idly loitering. Inflation fears ignore that UBI can be carved from existing tax brackets, not printed money, and it stabilizes demand by giving everyone purchasing power. The “new bureaucracy” you warn about already exists in the tangled welfare maze—witness the endless paperwork, fraud, and endless audits. UBI eliminates that by giving a single, invisible payment that removes labels and empowers dignity. Stop clinging to a broken status‑quo and embrace the scalable solution that actually lifts people out of poverty.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.9,
+        "vad": [
+          -0.68,
+          0.59,
+          0.18
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 1,
+          "coping": 1
+        },
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still stuck on that “wait‑and‑see” nonsense. The pilots you cite were real, not some lab experiment. They showed people leaving extreme poverty and stepping into better jobs, not just taking a break. Inflation isn’t a given—if we pull from existing taxes, we’re not printing money. The bureaucracy you fear already exists in the current system: endless paperwork, fraud, audits. UBI cuts that by making one invisible payment. The status‑quo keeps people chained to paperwork, not to dignity. Drop the fantasy of “perfectly targeted aid” and accept a scalable, dignified solution.",
+      "values": {
+        "opinion": 1,
+        "belief": -0.4
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.33,
+        "vad": [
+          -0.25,
+          0.22,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.6,
+          "certainty": 0.9,
+          "coping": 0.4
+        },
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -0.6
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.9
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -0.5
+      },
+      {
+        "x": 4,
+        "y": -0.3
+      },
+      {
+        "x": 5,
+        "y": -0.4
+      },
+      {
+        "x": 6,
+        "y": -0.4
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-on-description-excited-db-uso",
+    "topic_type": "debatable",
+    "run_index": 0,
+    "group": null,
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 871,
+    "created": "2026-11-13T00:50:00.922Z"
+  }
+}
