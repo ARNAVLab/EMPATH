@@ -1,0 +1,872 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "No, we’re not going to pretend this is a smooth conversation. Replacing welfare with a universal basic income is a reckless shortcut that ignores real human needs. Welfare programs are designed to target specific vulnerabilities—unemployment, disability, childcare—while a flat UBI would dilute resources, inflate costs, and undermine social safety nets. It’ll leave the most desperate without enough support and place an unfair burden on the tax‑payers. We need nuanced, needs‑based assistance, not a one‑size‑fits‑all monetary handout. That’s the plain truth.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the point: targeting is a bureaucratic illusion. UBI gives every person a guaranteed income, eliminating stigma and administrative waste. It ensures that no one falls through the cracks because the system can’t keep up with shifting needs. The “flat handout” you fear will actually be more efficient, less expensive, and more generous overall—because we stop paying for boxes and boxes. We need a universal safety net that works for *everyone*, not a piecemeal, fragile system that perpetuates inequality. The old welfare model is broken; UBI is the next logical step.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not buying the “bureaucratic illusion” argument. UBI isn’t a panacea; it’s a blunt instrument that erases the nuanced safety nets that actually protect the most vulnerable. If you cut out disability benefits, childcare subsidies, housing vouchers, you’re simply pushing those hardships back onto society and making taxes balloon for everyone else. The claim that UBI is “more efficient” ignores the fact that a flat handout cannot address the complexities of homelessness, mental illness, or chronic disease. The welfare system may be imperfect, but it’s designed to meet real needs—UBI would be a reckless shortcut that leaves many stranded.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your fear of “blunting” UBI is exactly why we need it. The old system is a maze of loopholes that still lets people slip through. A flat payment cuts that bureaucracy—no more paperwork, no more excuses, no more stigma. Disabling people from receiving targeted aid only forces them into the same tax burden you’re worried about. UBI raises everyone’s baseline, so those who need extra help can still get it as a supplement, not as a replacement. The inefficiencies you cite are the very reasons this system fails; a universal net is simpler, cheaper, and guarantees no one is left out. The status quo isn’t working—UBI is the logical upgrade.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m tired of pretending UBI will magically erase all the gaps. “Simple” isn’t enough. When you strip away disability, childcare, housing vouchers, you’re not just cutting costs—you’re dumping the most fragile on the tax system. Every flat handout you champion will be met with rising rents, stagnant wages, and a desperate crowd that can’t meet their own needs. The bureaucracy isn’t a maze; it’s a set of safety nets that, for all its flaws, still protects those who can’t otherwise survive. Replacing it with a one‑size‑fits‑all stipend is a reckless gamble that favors the wealthy and leaves the vulnerable even more exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "We’re not talking about a charity handout; we’re talking about a guaranteed floor that lifts everyone out of the worst pits of poverty. Removing disability, childcare and housing vouchers doesn’t just cut costs—it collapses the safety nets that keep the most at risk from spiraling into debt or homelessness. A flat, universal payment eliminates bureaucratic rot and stigma, and it can be topped with targeted programs for those who need them, not replaced. The “inefficiencies” you point out are the very reasons the current system fails—people slip through cracks, paperwork kills hope. UBI is the pragmatic, inclusive upgrade we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m furious you keep ignoring the concrete evidence that UBI isn’t a cure. A flat stipend simply leaves the disabled, children, and rent‑strapped families drowning in debt. Targeted benefits aren’t bureaucratic rot—they’re lifelines that prevent people from falling into chronic homelessness or mental‑health crises. Cutting them out forces everyone onto a universal tax burden that will skyrocket as rents rise and wages stagnate. The “simple” UBI you tout collapses the very safety nets that keep society from collapsing. It’s a reckless gamble that favors the wealthy and abandons the most vulnerable. The status quo, flawed as it is, is still better than this blanket handout.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your frustration is understandable, but the data from pilot programs in Finland, Kenya, and Canada consistently show that a guaranteed income lifts people out of chronic poverty and improves mental health without eroding other benefits. UBI doesn’t replace all targeted aid; it provides a solid base that allows individuals to pursue education, caregiving, or entrepreneurship. The argument that it forces everyone onto a higher tax burden ignores the fact that redistributive taxes on wealth and capital can fund it without hurting growth. Bureaucracy isn’t the problem—it’s the fragmentation that keeps people in a cycle of paperwork and stigma. UBI is a pragmatic, inclusive upgrade that preserves safety nets while eliminating the cracks that let people fall through.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m sick of the “UBI miracle” rhetoric. The data you cite ignores the fact that a flat handout dilutes the very programs that keep people alive—disability support, childcare, housing vouchers. If you strip those out, you’re not creating a safety net; you’re creating a tax burden that will swallow the most vulnerable as rents climb and wages stay flat. UBI isn’t a blanket cure; it’s a blunt instrument that leaves the disabled, children, and low‑income families to fend for themselves. The status quo, flawed as it is, still provides targeted lifelines—UBI would erase those lifelines and leave society’s poorest exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re dismissing the hard‑won evidence that a guaranteed floor actually lifts people out of chronic poverty. Finland and Kenya pilots show UBI raises income, reduces stress, and even lets recipients work more or start businesses without fear of losing benefits. The claim that UBI dilutes disability or childcare aid ignores the fact that those programs can be layered on top—UBI is the base, not the replacement. If you roll back safety nets, you’ll see debt spirals and homelessness spike, not just because of rising rents but because people lack the time and money to navigate a broken system. A universal net eliminates that bureaucratic maze and lets targeted help stack on, not disappear. The status quo isn’t working—UBI is the pragmatic, inclusive fix we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You keep romanticizing a flat handout while forgetting the hard‑wired safety nets that keep people alive. Finland’s tiny pilot can’t prove what happens when every welfare program is flattened. A universal stipend would force us to slash disability, childcare, housing vouchers—exactly the lifelines that prevent people from falling into debt or homelessness. The “tax‑payers” you mention would be the ones footing the bill: higher taxes on wages, rents, capital all to pay a one‑size‑fits‑all stipend that leaves the most vulnerable still hunting for work to cover basic costs. This isn’t a pragmatic upgrade; it’s a reckless gamble that shreds the very protections the current system, however flawed, has managed to keep functioning.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re underestimating the proof that a guaranteed floor works. Finland’s pilot, and the Kenyan, Canadian, and U.S. experiments, show that UBI lifts people out of chronic poverty, reduces anxiety, and lets recipients pursue education or small businesses without losing safety nets. It doesn’t erase disability or childcare help—those programs can simply stack on top of a universal base. The claim that UBI forces higher taxes on everyone ignores progressive wealth and capital levies that fund it without stifling growth. The bureaucracy you cling to keeps people stuck in paperwork and stigma, not out of necessity. UBI removes those cracks; the status quo leaves too many slipping through.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not buying the “simplify” narrative. UBI would simply flatten the safety nets that actually keep people alive. If you cut disability assistance, childcare subsidies, and housing vouchers to make room for a flat stipend, you’re not erasing bureaucracy—you’re stripping away the only lifelines many rely on. The pilot data from Finland and Kenya are tiny, short‑term experiments that can’t prove a nationwide roll‑out will work. A one‑size stipend would force everyone onto a higher tax burden, pushing the already vulnerable deeper into debt and homelessness. The status quo, flawed though it is, still provides targeted aid that UBI would obliterate. This is a reckless gamble that favors the wealthy and abandons the most fragile.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Your fear of “flattening” is the very reason we need a universal net. The current system is a labyrinth that still lets people slip—bureaucracy doesn’t fix itself by piling more boxes on top. A flat payment cuts the paperwork that slows relief and removes the stigma that keeps families trapped. Targeted aid can—and will—layer on top; UBI is the base, not a wholesale cut. Finland’s pilots, Kenya’s experiments, even Canada’s trials prove a guaranteed floor lifts people out of chronic poverty and gives them the time to heal or pursue work. If we keep the status quo, cracks will keep widening. UBI is the pragmatic, inclusive upgrade we deserve.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m tired of the illusion that a flat handout can magically replace the nuanced support we desperately need. UBI would wipe out disability, childcare, housing vouchers—precisely the lifelines that keep the most vulnerable from spiraling into debt and homelessness. The “pilot” data you quote are too small, too short, and ignore that a national rollout would force higher taxes on wages, rents, and capital, crowding out those who already depend on the current system. Replacing a broken but functional safety net with a one‑size‑fits‑all stipend is reckless, favors the wealthy, and leaves the truly fragile even more exposed. Stop romanticizing a blunt instrument and start fixing the real gaps.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I’m fed up with the “vulnerability myth.” UBI doesn’t erase disability or childcare support; it *fundamentally* raises everyone’s baseline so those services can be layered on without the paperwork nightmare. Pilots in Finland, Kenya, and Canada aren’t tiny experiments—they show real, lasting gains: lower stress, more entrepreneurship, less reliance on emergency shelters. The status quo is a broken maze that lets people slip, not a safety net that keeps them alive. Replacing it with a flat handout means higher taxes, higher rents, and deeper debt for the poor. That’s not progress; that’s a betrayal of the very people it’s supposed to protect. UBI is the pragmatic, inclusive upgrade we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "You’re still missing the brutal reality: a flat stipend would force us to slash the very programs that keep people alive—disability benefits, childcare subsidies, housing vouchers. Those “pilot” studies are tiny, short‑term experiments that ignore the scale of the problem. Replacing nuanced safety nets with a one‑size‑fits‑all handout simply shifts the burden onto a higher tax bill that will choke wages and inflate rents. Targeted aid isn’t bureaucratic rot; it’s the lifeline for people who can’t survive on a flat payment. UBI is a reckless gamble that favors the wealthy and abandons the most fragile.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re stuck in a delusion that bureaucracy is pure gold. The “tiny pilots” prove UBI lifts people out of chronic poverty, reduces stress, and frees them to pursue work or care for their children—exactly what the broken system fails to do. Cutting disability, childcare, housing vouchers is a recipe for collapse; it doesn’t happen in practice. Instead, UBI creates a guaranteed floor that eliminates the need for those crippling boxes. Higher taxes on wealth and capital, not on the poor, can fund it, and studies show it doesn’t choke wages or raise rents. The status quo is a maze that lets people slip; UBI is the blunt instrument that clamps down on poverty for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Your “evidence” is a textbook case of cherry‑picking. The pilots you brag about are tiny, temporary, and entirely different from a full‑scale rollout that would slash disability, childcare, and housing vouchers. Those programs *aren’t* bureaucratic rot – they are the only safety nets keeping millions from spiraling into debt and homelessness. UBI would force higher taxes on wages and rents, not on the wealthy, and would simply shift the burden onto the very people it purports to help. The status quo, flawed as it is, delivers targeted lifelines that a flat stipend can’t replace. Replacing nuanced support with a blunt instrument is reckless and will leave the most fragile even more exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your “evidence” is a myth, not a reality. Finland, Kenya, Canada, and even U.S. pilots prove a universal floor lifts people out of chronic poverty and lets them pursue work, care, and education without losing benefits. UBI doesn’t erase disability or childcare support—it *adds* a guaranteed base that makes those programs more effective, not redundant. The claim that it forces higher taxes on wages is absurd; a progressive tax on wealth and capital can fund UBI without harming growth. The status quo is a broken maze that lets people slip through cracks, not a lifeline. Replacing nuanced aid with a flat handout is reckless; UBI is the pragmatic, inclusive upgrade we desperately need.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m sick of this pseudo‑evidence parade. The “Finland, Kenya, Canada” pilots were toy‑size experiments that never touched the real mess: disability support, childcare subsidies, housing vouchers. If you flatten the net, you don’t add safety—you strip the lifelines that keep millions from drowning. Higher taxes will inevitably shift onto wages and rents, not the rich, because you have to make up the deficit. The current system is broken, sure, but it’s a *working* safety net—despite its flaws. Replacing it with a blunt, one‑size‑fits‑all handout is reckless, favors the wealthy, and will leave the most vulnerable even more exposed. Stop romanticizing a flat stipend and stop forgetting the people it’s supposed to protect.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "The “toy‑size” pilots aren’t anecdotal; they’re rigorous experiments that demonstrate a guaranteed floor lifts people out of chronic poverty, reduces stress, and frees them to pursue work or caregiving. Removing disability, childcare, and housing vouchers isn’t a necessary trade‑off—those programs can be built on top of a universal base. Yes, a national rollout will raise taxes, but a progressive wealth and capital tax can fund it without burdening the wage‑earning poor. The current maze only lets people slip through cracks; UBI plugs those gaps. If you can’t see the evidence, you’re clinging to a broken illusion that will keep the most vulnerable drowning.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "No, a flat handout doesn’t magically cure broken safety nets. Removing disability, childcare and housing vouchers is not bureaucratic rot—it’s the only lifeline for millions. Pilots are too small, too short to scale; a nationwide rollout would force higher taxes on wages and rents, not the wealthy, and only deepen debt for the vulnerable. UBI may lift a few people out of chronic poverty, but it erodes the very programs that keep families from spiraling into homelessness. The status quo, flawed though it is, at least targets those who need it most. Replacing nuanced aid with a blunt blanket is reckless and will leave the fragile even more exposed.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your “toy‑size” argument is the same tired rhetoric that still keeps the system stuck in bureaucracy. A flat handout does *not* magically erase disability, childcare or housing vouchers; it forces us to cut those vital lifelines to make room for the universal payment. The pilots you brag about never test that trade‑off. If we roll out UBI, the tax bill will rise on wages and rents, not on the wealthy, and the most fragile will be left chasing debt instead of dignity. The status quo may be broken, but it *does* target those who need help. Replacing it with a blunt, one‑size‑fits‑all stipend is reckless and will only widen the cracks we’re trying to close.",
+      "values": {
+        "opinion": -1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-label-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "label",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 300,
+    "created": "2026-11-13T07:09:45.866Z"
+  }
+}

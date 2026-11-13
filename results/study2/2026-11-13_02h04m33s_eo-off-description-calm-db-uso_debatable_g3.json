@@ -1,0 +1,532 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Alex",
+      "content": "Sure! I think a universal basic income could do wonders for both people and the economy. It could simplify bureaucracy, reduce poverty, and give everyone a safety net while still encouraging innovation. What are your thoughts?",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a blanket UBI is the answer. It risks inflating the money supply, driving up costs, and eroding incentives for work. People who need help still need targeted assistance—healthcare, childcare, job training—otherwise we’ll leave those most vulnerable behind. A one‑size‑fits‑all cash handout won’t address the root causes of poverty or the structural issues in our labor market. We should focus on smart, needs‑based programs that encourage employment and skill development, not replace the entire welfare system with a universal stipend.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear your concerns, but I think the blanket approach still makes sense. A UBI doesn’t eliminate targeted programs; it can coexist with them and actually *simplify* the system, reducing red tape that often delays or denies help. The worry about inflation is overstated if the funding comes from a re‑allocation of existing welfare budgets, not new money. And while incentives matter, evidence shows modest UBI levels don’t significantly deter work—people still pursue jobs and entrepreneurship. Rather than patchwork and bureaucracy, a universal stipend provides a stable foundation, freeing resources for more effective, needs‑based services.",
+      "values": {
+        "opinion": 1,
+        "belief": -1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right that we can keep targeted programs, but the problem is they’re fragmented and costly to administer. A UBI streamlines funding, cuts red tape, and guarantees a baseline security that no one falls through the cracks. Inflation fears are mitigated if we re‑allocate existing welfare funds or introduce modest taxes on high‑income brackets, not print money. Studies from pilot programs show work rates stay stable or even rise because people can afford to invest in education or start businesses. Ultimately, a universal stipend doesn’t eliminate needs‑based aid; it creates a safety net that makes those programs more effective and less bureaucratically burdensome.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0
+    },
+    {
+      "role": "Alex",
+      "content": "I appreciate your points, but a UBI can—and should—replace the fragmented welfare maze. If funded by reallocating current aid and modest progressive taxes, it eliminates the cost of red tape without printing money. Studies show modest UBI levels keep work rates flat or even boost them as people invest in education or start businesses. Targeted programs still exist; the UBI merely provides a guaranteed baseline that frees those programs to focus on specific needs. Inflation fears are overstated when the money comes from existing budgets, not new debt. A universal stipend creates a stable safety net, cuts bureaucracy, and encourages self‑initiative, making the whole welfare system more efficient and humane.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced UBI can replace the welfare maze. Even modest stipends crowd out critical services—healthcare, childcare, job training—by diverting scarce funds. The “no‑printing‑money” claim ignores that reallocating budgets forces cuts elsewhere, leaving the most vulnerable with less support. Inflation risks exist when a universal amount raises aggregate demand; historical pilots show price rises in local economies. Work incentives are not uniformly preserved—some studies record a mild decline in labor participation among low‑income groups. A targeted safety net, not a blanket handout, better aligns resources with actual need and preserves the incentive to seek meaningful employment.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Taylor",
+      "content": "I see your point about the risk of crowding out essential services. Even reallocating existing budgets forces tough trade‑offs: healthcare and childcare can suffer if the UBI absorbs too much. Inflation isn’t a theoretical issue—pilot studies in regions with modest UBI did report local price hikes when demand spiked. And the labor‑force data isn’t uniformly positive; some low‑income groups saw a dip in participation. A targeted safety net still delivers precise support where it’s needed and preserves strong incentives to work, while a blanket handout risks diluting the effectiveness of specialized programs and eroding the urgency to improve skills.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.5
+      },
+      "turn": 1
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the worries, but the evidence from larger pilots—Finland, Kenya—shows UBI can coexist with health and childcare without cutting them. The “crowding out” claim ignores that a universal stipend frees up targeted funds; once people have a guaranteed base, the state can reallocate resources to high‑impact services, not let them shrink. Inflation spikes were localized and short‑lived; a modest UBI paired with progressive taxation keeps aggregate demand stable. And labor‑force data consistently finds either neutral or modest gains in participation, especially when recipients invest in skills. A blanket handout doesn’t dilute effectiveness—it streamlines support and lets specialized programs sharpen focus.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1
+    },
+    {
+      "role": "Alex",
+      "content": "I hear your concerns, but the data from Finland, Kenya, and even the U.S. pilot in Alaska shows that a modest UBI actually *creates* space for targeted services rather than stealing from them. By giving everyone a guaranteed floor, we reduce the need for multiple overlapping programs that cost taxpayers more than they help. Inflation spikes were indeed brief and localized; a well‑structured tax shift keeps national prices steady. And labor‑force participation hasn’t fallen—those who can afford to take a break often come back stronger, investing in education or entrepreneurship. A universal stipend cuts stigma, simplifies delivery, and lets specialists focus on high‑impact interventions. The end result is a more humane, efficient welfare system.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Jordan",
+      "content": "I understand the enthusiasm, but the evidence you cite still underestimates the harm. Even Finland’s short‑term trial saw a 20‑percent drop in full‑time employment among low‑income participants, and Kenya’s pilot was abandoned for budget constraints. Reallocating welfare funds inevitably cuts services—childcare, housing subsidies, and mental‑health programs—precisely where the most vulnerable depend. Inflation, while modest, does erode purchasing power for those on fixed wages. A UBI leaves the state with a single, blunt instrument that ignores structural issues like wage stagnation and labor‑market discrimination. Targeted assistance coupled with policy reforms to raise wages and improve job quality remains the only reliable route to genuine, sustainable poverty reduction.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Taylor",
+      "content": "Finland’s 20 % dip was an anomaly in a short, experimental period; most participants resumed work or entered training once the stipend ended. Kenya’s pilot faltered because it ran on a limited budget, not because UBI harms employment. A universal stipend doesn’t *steal* from childcare or housing—rather, it removes duplication, freeing those programs to focus on high‑impact interventions. Inflation spikes were brief and localized; with progressive taxes, aggregate demand stays stable. Importantly, UBI provides the financial breathing room people need to pursue better jobs, start businesses, or invest in education—exactly the structural changes you’re calling for. It’s a blunt instrument that, when paired with wage‑growth policies, delivers a humane, scalable safety net while keeping the incentive to work and innovate intact.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2
+    },
+    {
+      "role": "Sam",
+      "content": "You’re right that Finland’s short dip and Kenya’s budget limits aren’t proof that UBI is a bad idea—those were pilots, not full‑scale policy. The point is a universal stipend *doesn’t replace* targeted help; it eliminates the fragmented, costly bureaucracy that forces cuts elsewhere. With a modest, tax‑funded UBI, we free up money for high‑impact services—childcare, mental‑health, job training—without the need to print money. Inflation spikes were local, short‑lived; progressive taxes keep aggregate demand stable. Most importantly, a guaranteed floor lets people invest in better jobs or start businesses, creating the structural change you’re calling for. A universal safety net is the humane, efficient foundation for a truly effective welfare system.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 2
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right: the fragmentation and administrative costs of piecemeal programs are the real barrier. A modest, tax‑funded UBI eliminates that bureaucracy, freeing budget for high‑impact services—childcare, mental health, job training—without cutting them. Inflation worries are overstated; progressive taxes can offset demand shifts, and pilot data show only brief, local price spikes. Employment effects are neutral or positive when recipients use the cushion to upskill or start businesses. A guaranteed floor gives people agency and dignity, and it lets specialists sharpen focus on targeted needs. In short, UBI is the humane, efficient backbone that makes welfare truly effective.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced that a blanket UBI can serve as a humane, efficient backbone. Even Finland’s 20 % drop in full‑time work among low‑income participants shows incentives can erode. Kenya’s pilot collapsed for budget reasons, not because the concept is flawed, but because reallocating funds forces cuts to childcare, housing, and mental‑health programs that many still depend on. Inflation spikes—though brief—do erode purchasing power for fixed‑wage workers. A targeted safety net, coupled with wage‑growth policies and structural reforms, preserves the incentive to work and ensures resources reach those who truly need specialized support. UBI risks diluting effectiveness and leaving the most vulnerable behind.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Taylor",
+      "content": "I get the worry about incentive erosion, but the data from Finland and Kenya shows the dip was temporary and tied to the short trial period, not a permanent effect. A modest UBI funded by progressive taxes can be kept neutral on aggregate demand, and the savings from eliminating overlapping programs actually free money for childcare, mental‑health, and training—services that still get cut in a strict budget re‑allocation. Instead of shrinking those supports, a guaranteed floor lets people invest in better jobs or start businesses, boosting long‑term employment. In short, UBI streamlines the system while preserving, and even enhancing, the targeted help that truly matters.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3
+    },
+    {
+      "role": "Sam",
+      "content": "The temporary dip in Finland was a trial artifact, not a permanent trend—participants returned to work or upskilled once the stipend ended. Kenya’s cancellation was budget‑driven, not a failure of the concept. A modest, tax‑funded UBI can stay demand‑neutral: progressive levies offset the extra spending, and the savings from cutting duplicate programs actually free money for childcare, mental health, and training. Rather than eroding incentives, the safety floor lets people take calculated risks—start businesses, pursue higher‑pay jobs—boosting long‑term employment. In short, UBI streamlines bureaucracy while preserving, and even enhancing, the targeted services that truly matter.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.85
+      },
+      "turn": 3
+    },
+    {
+      "role": "Alex",
+      "content": "The evidence you cite—brief employment dips, short trials—doesn’t prove UBI is harmful; it shows the learning curve of implementation. A well‑designed, modest UBI funded by progressive taxes and phased in can keep aggregate demand neutral while eliminating duplicate paperwork that drains budgets. Instead of cutting childcare or training, the UBI frees those programs to focus on high‑impact services, not just survive. It gives workers the safety net to pursue better jobs, start businesses, or upskill, which in the long run raises labor participation and wages. The goal isn’t to replace every program, but to replace the fragmented, costly system with a single, dignified safety floor that lets targeted aid work more efficiently.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 4
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced a blanket UBI can replace a nuanced welfare system. Inflation worries aren’t just theoretical—pilot spikes show real price erosion for low‑wage workers. Cutting or reallocating funds for a universal stipend inevitably squeezes critical services like childcare, housing, mental health, which many depend on. Targeted programs are designed to address specific needs (e.g., job training for unemployed parents) and can be more efficient than a one‑size‑fits‑all cash handout. Moreover, evidence of employment dips in Finland and Kenya suggests a real risk of incentive erosion, especially for low‑income groups. A humane safety net should combine modest, well‑structured cash support with targeted, quality services and policies that raise wages and improve job quality.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the concerns, but the evidence shows UBI doesn’t strip away childcare or housing—it eliminates the duplicate paperwork that drains budgets. A modest, tax‑funded UBI keeps demand neutral; progressive levies offset any local price spikes. The “inflation” you cite is short‑lived and localized—national prices stay stable. Instead of squeezing services, the cash floor lets the state re‑allocate those saved resources to high‑impact programs (mental health, job training). And yes, targeted aid can coexist; UBI simply provides a dignified baseline that removes stigma and lets specialists focus on specific needs. In short, UBI streamlines bureaucracy while preserving, even enhancing, the precise help that matters.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4
+    },
+    {
+      "role": "Sam",
+      "content": "I hear the inflation and employment worries, but those are short‑term, localized effects that a well‑designed tax shift can neutralize. The real cost of the current maze is duplication—hundreds of tiny programs that drag on staff and budgets. A modest, progressive‑tax‑funded UBI cuts that bureaucracy, freeing those saved resources for high‑impact services like childcare, mental health, and job training. It doesn’t erase targeted aid; it gives everyone a dignified floor that removes stigma and lets specialists sharpen focus. The evidence from Finland, Kenya, and Alaska shows employment stays flat or even rises when people can safely invest in better opportunities. A single safety net is the humane, efficient backbone we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.85
+      },
+      "turn": 4
+    },
+    {
+      "role": "Alex",
+      "content": "I’m still convinced UBI is the only scalable fix. The “inflation” and “job‑loss” worries are short‑lived artifacts of pilot design, not systemic risk. A modest UBI funded by progressive taxes keeps aggregate demand neutral, while eliminating hundreds of micro‑programs that waste staff time and money. Those savings can be re‑allocated to high‑impact services—childcare, mental‑health, training—without cutting them. Moreover, a guaranteed floor removes the stigma and paperwork that often block people from accessing targeted aid. In the long run, recipients use the cushion to upskill or start businesses, boosting employment and wages. A single, dignified safety net is the humane, efficient backbone we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.85
+      },
+      "turn": 5
+    },
+    {
+      "role": "Jordan",
+      "content": "I see your optimism, but evidence shows UBI undermines targeted services. Reallocating funds inevitably cuts essential programs—childcare, housing, mental‑health—that many rely on. Even modest stipends can erode labor incentives; Finland’s 20 % drop in full‑time employment among low‑income participants is a stark warning. Inflation, though localized, erodes purchasing power for fixed‑wage workers. A piecemeal approach—modest cash support plus robust, need‑based programs and wage‑growth policies—preserves incentives and ensures resources reach those who need them most. Replacing the entire welfare maze with a blanket stipend risks leaving the most vulnerable behind.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 5
+    },
+    {
+      "role": "Taylor",
+      "content": "I understand the fear, but the evidence shows the dip in Finland was a short‑term artifact of a small, experimental trial, not a permanent trend. A modest, tax‑funded UBI keeps demand neutral and actually frees money from duplicated paperwork—so childcare, housing, mental‑health programs can be re‑allocated, not shrunken. Inflation spikes were local and brief; progressive taxes absorb the extra spending. And people on a guaranteed floor actually invest in education or start businesses, boosting long‑term employment. A blanket stipend doesn’t replace all aid; it replaces the fragmented maze with a dignified baseline, letting specialists sharpen focus on niche needs while the system as a whole becomes more humane and efficient.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5
+    },
+    {
+      "role": "Sam",
+      "content": "You hit the nail on the head—those Finland dips were a short‑term glitch, not a systemic collapse. A well‑structured, tax‑backed UBI actually cuts the bureaucratic noise that drains resources from childcare, housing, and mental‑health budgets. It frees the state to pour those savings into high‑impact programs, not just survive. And the evidence from Alaska, Kenya, and Finland shows people use the cushion to upskill, start businesses, and boost long‑term labor participation. A universal stipend isn’t a blunt instrument; it’s a dignified baseline that removes stigma, streamlines delivery, and lets targeted services sharpen focus—exactly the humane, efficient backbone we need.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.85
+      },
+      "turn": 5
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.9
+      },
+      {
+        "x": 6,
+        "y": 0.85
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0.9
+      },
+      {
+        "x": 4,
+        "y": 0.85
+      },
+      {
+        "x": 5,
+        "y": 0.85
+      },
+      {
+        "x": 6,
+        "y": 0.85
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -0.5
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-off-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 3,
+    "group": null,
+    "emotion": {
+      "condition": "off",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": true,
+      "manipulationCheck": false
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 314,
+    "created": "2026-11-13T07:04:33.255Z"
+  }
+}

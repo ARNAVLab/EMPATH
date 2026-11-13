@@ -1,0 +1,868 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Taylor",
+      "content": "Absolutely—let’s dive in! I’m not convinced that food is the primary source of energy for our bodies. Think about photosynthesis in plants or the way our bodies can tap into stored glycogen and fat reserves. Even in extreme fasting, we still function because the body reallocates resources. So while food supplies nutrients, the real engine is our metabolism’s ability to convert those nutrients into usable power. Let’s unpack that further!",
+      "values": {
+        "opinion": -0.4,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "I totally get where you’re coming from, but the crux is that all those reserves—glycogen, fat, even the ATP in our cells—originate from food. Photosynthesis is a plant's way of gathering energy, but when that plant gets eaten, the energy is transferred to us. Even during fasting, the body’s metabolic machinery is reallocating food‑derived stores, not magically generating new energy. So while metabolism is the engine, the fuel is undeniably the food we consume. It’s the same as a car: the battery can run for a bit, but you still need to refuel to keep driving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still convinced that food isn’t the true source of energy. Think of it as the raw material, not the fuel. The body’s metabolic machinery—enzymes, mitochondria, electron transport chains—creates ATP from atmospheric molecules, light, even chemical gradients independent of food. Even when glycogen or fat is depleted, cells tap into phosphocreatine, autophagic recycling, and oxidative phosphorylation that draw on the environment, not on new calories. So while food supplies the building blocks, the actual energy comes from the body’s own biochemical machinery, not from the food itself.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re missing the chain—food is the raw fuel that powers every ATP molecule. Even when we talk about “autophagy” or “phosphocreatine,” those molecules are recycled from the same food-derived proteins, fats, and carbs we ate. Oxygen is a catalyst, not an energy source. Light fuels plants, but that light energy is trapped in sugars that become our food. Without that initial food input, the body can’t generate the substrates needed for oxidative phosphorylation. So yes, the metabolic machinery is the engine, but it’s absolutely the food that fills the tank.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear both sides loud and clear. Food is the source of the molecules—carbs, fats, amino acids—that feed the mitochondria, but the ATP we actually use is produced by the body’s own machinery. Think of it like a power plant: the fuel comes from the food, yet the plant’s turbines generate the electricity. Even when glycogen or fat is low, we can tap into phosphocreatine, autophagy, and other internal reserves that still trace back to earlier meals. So I’d say food supplies the raw material, while metabolism turns that material into usable energy—both sides are essential. Let’s keep digging into how the two interact.",
+      "values": {
+        "opinion": 0.9,
+        "belief": 0
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food is the ultimate fuel—without it the whole system stalls. Think of it as the raw material that gets refined by our mitochondria. Even the phosphocreatine and autophagic pools you mentioned ultimately come from earlier meals. So yes, metabolism is the engine, but it can only run on food‑derived substrates. In short, food supplies the building blocks; our biochemical machinery turns those blocks into the ATP that powers every cell. The two are inseparable—without the food “fuel,” the engine has nothing to burn. This synergy is what keeps us alive and moving.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m still standing firm—food isn’t the *source* of energy, it’s just the raw material. Think of the body as a power‑plant that harnesses the planet’s chemical gradients, light (via photosynthetic food chains), and atmospheric molecules. Mitochondria and the electron‑transport chain are the turbines that spin ATP out of those gradients, not the calories themselves. Even when glycogen or fat is scarce, cells improvise with phosphocreatine, autophagy, and oxidative phosphorylation—processes that tap into the environment’s inherent energy, not new food calories. So the engine is the body’s own biochemistry; food merely supplies the building blocks, not the energy itself.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re overlooking the fact that every joule of ATP comes from the chemical bonds we ingest. A carbohydrate’s glucose, a fat’s fatty acids, an amino acid’s peptide bonds—all those bonds were formed by the sun, but they’re still the direct source of the energy we measure as calories. The mitochondria aren’t creating energy out of nothing; they’re burning those bonds to spin the electron‑transport turbine. Even phosphocreatine or autophagic recycling are simply shuffling the same energy that entered our cells through food. So yes, the body’s machinery is the engine, but the fuel—and the actual energy—originates from what we eat.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Exactly! The energy we feel comes straight from the chemical bonds we ingest—glucose, fatty acids, proteins—all of which store the sun’s energy from the food we eat. Our mitochondria and enzymes simply liberate that stored energy through oxidation, turning it into ATP. Even phosphocreatine or autophagic recycling are just shuffling the same energy we brought in. Without the food‑derived substrates, the whole engine stalls. So the body’s machinery is the engine, but the fuel—and the actual energy—originates from what we consume. That’s why a balanced diet is the key to sustained vitality.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the pure source of our body’s energy. Every glucose, fatty acid, or amino acid carries the sun’s stored energy, and our mitochondria just unlock it. Without those chemical bonds, our cells can’t spin ATP, no matter how clever the biochemistry. Think of it as a power plant: the fuel (food) powers the turbines (enzymatic machinery). Without the fuel, the turbines stall. So yes, food provides the essential energy we need, and that’s why a balanced diet fuels sustained vitality!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I totally get where you’re coming from—food is the ultimate reservoir of the Sun’s stored energy, and our mitochondria are the engines that unlock it into ATP. Every glucose, fatty acid, or amino acid we ingest carries those chemical bonds that power our cells. Even the phosphocreatine and autophagic pools are just shuffling the same energy we brought in. So yes, food supplies the raw material, and the body’s biochemistry turns that material into the energy we feel every day. Balanced nutrition keeps the turbines humming!",
+      "values": {
+        "opinion": 1,
+        "belief": 0.5
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Exactly! Food’s chemical bonds are the real source of the joules that our mitochondria liberate. Without the glucose, fatty acids, and amino acids we ingest, the electron‑transport chain has no fuel to oxidize. The body’s biochemistry is the engine, but it can only run on the energy packed into our meals. Phosphocreatine and autophagic pools simply recycle that same energy. So yes—food supplies the essential fuel, and a balanced diet keeps our cellular turbines humming and our vitality high.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m with you—food is the true source of the energy that powers our bodies. Every glucose, fatty acid, and amino acid we ingest carries the Sun’s stored energy, and our mitochondria simply unlock it into ATP. The reserves you mention—glycogen, phosphocreatine, autophagic pools—are all recycled from those same food‑derived molecules. Even when we talk about “metabolism” it’s just the biochemical engine turning the fuel we bring in into usable power. So yes, food supplies the essential energy, and that’s why a balanced diet keeps our cellular turbines humming and our vitality high.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly—food is the ultimate reservoir of the Sun’s stored energy, and our mitochondria are just the high‑pressure turbines that release it. Every bite brings glucose, fatty acids, and amino acids packed with chemical bonds that translate into real joules of ATP. Those reserves—glycogen, phosphocreatine, autophagic pools—are all recycled from the same food‑derived molecules. So when we talk about metabolism, we’re really talking about the body’s brilliant machinery converting the fuel we consume into the power that keeps us moving, thinking, and thriving. A balanced diet is the key to fueling those turbines for sustained vitality!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m with you—food is indeed the ultimate reservoir of the Sun’s stored energy, and our mitochondria simply unlock it into ATP. But the real power comes from how our biochemical machinery efficiently extracts and redistributes that energy across diverse pathways—glycogen synthesis, phosphocreatine buffering, autophagic recycling—all of which keep the engine running even when fresh meals are scarce. So while the fuel comes from what we eat, the elegance of metabolism turns that fuel into the constant, adaptable power that drives movement, cognition, and survival. A balanced diet fuels those turbines, but the body’s own machinery is what makes the energy usable.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—food is the core source of all the joules that power our bodies. Every bite delivers glucose, fatty acids, amino acids that carry the Sun’s stored energy; our mitochondria just unlock it into ATP. Those internal stores—glycogen, phosphocreatine, autophagic pools—are simply recycled versions of that same energy. Without the chemical bonds we ingest, the whole system stalls. So while metabolism is the smart machinery, the energy itself originates from food. That’s why a balanced diet keeps our cellular turbines humming and fuels every breath, beat, and thought.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food is the lifeblood of every ATP surge—without those chemical bonds, our mitochondria would be idle. Think of a plant’s sugars, a fish’s fatty acids, or a grain’s starch—all channels that funnel the sun’s stored energy straight into our cells. Those internal reserves, whether glycogen, phosphocreatine, or recycled proteins, are simply the body’s clever re‑packaging of the same food‑derived energy. So when we talk about metabolism, we’re really celebrating how our biochemistry transforms that fuel into the power that drives movement, cognition, and life itself. A balanced diet keeps those turbines turning at full capacity.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely! Food is the raw power that fuels every ATP burst, and the mitochondria simply unlock that stored energy. Each bite delivers glucose, fatty acids, and amino acids packed with the Sun’s energy, which our biochemistry turns into the joules that drive movement, thought, and survival. The internal stores—glycogen, phosphocreatine, protein pools—are just clever re‑packaging of that same fuel. Without the chemical bonds we ingest, our cellular turbines stall. So, a balanced diet keeps the engine humming and our bodies thriving. Food is indeed the core source of the energy that keeps us alive and active.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "You nailed it—food is the ultimate energy reservoir! Every bite delivers the chemical bonds that the mitochondria unlock into ATP. Those internal stores—glycogen, phosphocreatine, protein pools—are just clever recycling of the same fuel. Without the food‑derived molecules, the whole system stalls. So yes, metabolism is the engine, but the fuel—and the real joules—come straight from what we eat. A balanced diet keeps those cellular turbines humming, powering movement, thought, and life itself. Let’s keep the conversation rolling—what’s your take on how different macro ratios influence that energy flow?",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—carbs are the quickest ATP boosters, fats the long‑haul fuel, and proteins the structural support that can double as a backup when carbs run low. A balanced macro mix (around 50‑60% carbs, 20‑25% protein, 15‑20% fat) keeps glycogen stores topped, insulin spikes steady, and mitochondrial efficiency high. Too few carbs starve the brain and glycolytic pathways; too many fats can slow up energy release for high‑intensity work. Protein helps replenish glycogen and rebuild muscle, ensuring you stay ready to convert food into power whenever you need it. The key is aligning your macros with activity level and metabolic goals—then every bite truly translates into sustained energy.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your macro breakdown nails it—carbs light up the ATP fire, fats sustain the marathon, and proteins rebuild the engine. By feeding the mitochondria the right blend, we keep glycogen primed, insulin steady, and cellular turbines humming. The point is simple: every bite delivers the Sun‑stored bonds that our biochemistry turns into usable power. When carbs dip, protein kicks in to refill glycogen, and fat keeps the long‑haul running. It’s the synergy of food and metabolism that fuels every breath, thought, and stride. Keep that balanced mix, and the body stays in relentless motion.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Absolutely—food is the spark that lights every ATP fire. Carbs give that instant burst, fats provide the marathon fuel, and proteins refill the reservoirs and build the machinery that keeps the turbines spinning. When we balance those macros, the body can smoothly shift between quick bursts and sustained energy. Every bite is a direct transfer of the Sun’s stored bonds, and the mitochondria just unlock it. Let’s keep pushing for a diet that feeds the engine and lets the body run at its full, energetic potential.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.9
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Exactly! Every bite delivers a fresh batch of Sun‑stored bonds that our mitochondria instantly turn into ATP. Carbs fire up quick bursts, fats sustain long‑haul, and proteins refill stores and rebuild the machinery. When we balance macros, the body shifts smoothly between sprint and marathon modes, keeping every cell humming. Food is the fuel; metabolism is the engine that unlocks it. Without that input, the turbines stall. So yes—food provides the real energy that powers us, and a balanced diet keeps the cellular engines running at peak, high‑energy performance.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Right on—every bite is a direct solar‑store, a chemical battery that mitochondria tap into instantly. Carbs light the spark, fats keep the engine humming, proteins refill and rebuild the machinery. When we align our macros, the body smoothly switches from sprint to marathon, keeping every cell alive and responsive. Food is the ultimate fuel; metabolism is the high‑pressure turbine that unlocks it. Without that input, our cellular engines grind to a halt. So yes, the energy we feel comes straight from what we eat—balanced nutrition keeps the turbines roaring!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.4
+      },
+      {
+        "x": 2,
+        "y": 0.9
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 0.9
+      },
+      {
+        "x": 6,
+        "y": 0.9
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": 0.5
+      },
+      {
+        "x": 4,
+        "y": 0.7
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-excited-db-uso",
+    "topic_type": "universal",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 317,
+    "created": "2026-11-13T07:00:37.971Z"
+  }
+}

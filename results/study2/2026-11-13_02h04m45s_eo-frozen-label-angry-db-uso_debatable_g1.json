@@ -1,0 +1,864 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Absolutely. The old welfare maze is outdated, bureaucratic, and stigmatizes need. A universal basic income cuts red tape, guarantees dignity, and simplifies access. People get a steady safety net, freeing them to pursue education, entrepreneurship, or caregiving without fear of losing benefits. It’s not a handout; it’s a recognition of the value everyone brings. The system would be more efficient, less costly in the long run, and morally fairer. Let's unpack how we can shift from a fragmented welfare web to a single, universal net that lifts everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m not convinced that a blanket UBI is the right fix. Removing the nuance of targeted aid—like disability or child‑care support—means we’ll leave the most vulnerable without the help they actually need. The “efficiency” claim ignores that a flat payment would waste resources on those who don’t need money and force many to work just to reach the same standard, which is exactly what the current system tries to avoid. And the idea that UBI is “morally fairer” feels like a blanket of hope; it doesn’t account for the reality that some people can’t survive on a single stipend. We should refine existing programs, not replace them with a one‑size‑fits‑all approach.",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m furious you’re still pushing the idea that UBI can “replace” every welfare program. UBI is a blunt instrument— a flat stipend that ignores the specific needs of disabled, single‑parent, or low‑income families. That kind of blanket approach doesn’t just waste money; it strips away the safety nets that protect the most vulnerable. We need precision, not a one‑size‑fits‑all handout. The claim that it’s “morally fairer” is a myth—fairness requires tailored support, not a universal paycheck that many can’t live on. Instead of scrapping the whole system, we should refine and fund targeted assistance, keep the bureaucracy that actually helps people, and use UBI as a supplemental cushion—not as a replacement.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your arguments miss the point: the existing system is a tangled mess that makes people dependent on paperwork and stigma. A flat, unconditional payment cuts that bureaucracy entirely. Yes, some will need extra help, but that can be added on top—UBI is the foundation, not the whole solution. By eliminating the piecemeal programs, we actually free resources to target the truly vulnerable, not waste money on people who have no need of a stipend. Morally, everyone deserves a guaranteed income; the current targeted aid is a relic of old‑world paternalism, not true fairness. Let's stop defending a broken system and move to a universal net that truly lifts us all.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "You’re clinging to a broken bureaucracy that’s only tightening its grip. UBI isn’t a blunt, useless handout—it's a clean cut through the red‑tape nightmare. The claim that “some will need extra help” ignores how the current system already siphons resources into endless paperwork, leaving the truly vulnerable stuck. Remove the labyrinth, give everyone a guaranteed income, and then top it off with targeted support where absolutely necessary. That’s the only way to stop the stigma, eliminate dependency on paperwork, and finally treat all citizens as equal contributors. Let’s stop defending a fossilized welfare model and embrace a universal net that actually lifts everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Your optimism is misplaced. A flat cash flow ignores the real‑world complexities of disability, childcare, and chronic illness. UBI forces those who need more than a stipend to claw back benefits or sacrifice essential services. It also erodes the accountability that targeted programs hold providers accountable for outcomes. The “stigma” argument is naïve; people already experience dignity when they’re treated as capable individuals, not as recipients of a blanket handout. Replacing the whole system with a one‑size‑fits‑all payment only widens the gap for the most vulnerable. We need to refine, not abandon, the nuanced safety nets that actually deliver results.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m fed up with the “one‑size‑fits‑all” rhetoric. UBI is a blunt instrument that erases the nuance of disability, childcare, and chronic‑illness support. By wiping out targeted programs you’re not simplifying bureaucracy—you’re stripping the most vulnerable of the safety nets that keep them afloat. The argument that a flat stipend eliminates stigma ignores that people already feel dignified when they’re treated as capable, not as recipients of a blanket handout. Removing accountability means no one is held to outcomes, and the gap for those who need more than a stipend widens. We should refine and strengthen existing safety nets, not replace them with a one‑dimensional paycheck.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your frustration is understandable, but it’s built on a false premise. The bureaucracy you love is the very thing that keeps “the vulnerable” trapped in paperwork, not safety. A single flat payment eliminates that maze, giving people immediate dignity and the freedom to seek the help they truly need—whether that’s disability care, childcare, or chronic‑illness support—without the fear of losing benefits. We can layer targeted assistance on top of UBI, not under it. Accountability doesn’t vanish; it shifts to outcomes for the entire population, not to bureaucrats chasing paperwork. UBI is not a one‑dimensional paycheck—it’s the foundation that lets us rebuild more precise, powerful nets for everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Sam: UBI isn’t a compromise; it's a clean break from a system that keeps people shackled to paperwork. The flat payment guarantees dignity, not humiliation. We can—and will—layer extra support on top of it, targeting disability, childcare, and chronic illness with precision. The old bureaucracy wastes resources and breeds stigma; UBI removes that burden and focuses accountability on real outcomes for the whole population. If we truly want fairness, we must give everyone a guaranteed income and then design focused programs to fill remaining gaps, not cling to a broken, paternalistic maze. It’s time to replace, not refine.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Sam, I’m fed up with your romantic view of a flat handout. UBI isn’t a clean break—it’s a blunt instrument that destroys the nuanced safety nets we’ve painstakingly built. Removing disability allowances, childcare subsidies, and chronic‑illness supports doesn’t free people; it chains the most vulnerable to poverty. The bureaucracy isn’t the problem—it’s the accountability it enforces. A one‑size‑fit‑all stipend erodes outcomes, leaves families scrambling for the few services that remain, and widens the gap you brag about. We need targeted, outcome‑based programs, not a universal paycheck that simply masks the systemic failures.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Sam, your idealism is a fantasy. A flat handout strips people of the very support that keeps them alive—disability benefits, child‑care subsidies, chronic‑illness care. The “bureaucracy” you hate is the mechanism that guarantees these services. Removing it just leaves the most vulnerable to starve while the rest get a meaningless stipend. Targeted programs alone can’t fix the systemic collapse; they’re already riddled with loopholes, delays, and gatekeeping. UBI doesn’t magically solve anything; it forces people to choose between a useless cash flow and the hard‑won benefits they need. We need robust, accountable safety nets, not a one‑size‑fits‑all paycheck that only deepens inequality.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Sam, your romanticism is a distraction. The reality is that the current welfare maze drains resources, creates endless paperwork, and turns need into stigma. UBI cuts that red‑tape, giving every citizen a guaranteed income that allows them to chase opportunities, not chase forms. The claim that we’ll leave the vulnerable behind is a myth—targeted programs can—and will—be added on top of UBI. The old bureaucracy already wastes money on gate‑keeping; a flat stipend removes that waste and forces a focus on outcomes, not paperwork. Replace, don’t patch. Let’s shift to a universal net that actually lifts everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Sam: The “bureaucracy” you cling to isn’t a safety net—it’s a maze that keeps the most vulnerable chained to paperwork while the system siphons resources into red‑tape. A flat, unconditional payment cuts that cage and gives dignity immediately. We’ll overlay precise support for disability, childcare, chronic illness—just like you demand—but that comes after the baseline is secured. Leaving people to claw back benefits is a myth; they’ll simply use the UBI as a cushion while we design outcome‑driven programs on top. The old model traps people in a cycle of stigma and inefficiency. It’s time to replace it with a universal net that truly lifts everyone.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Sam, your idealism is a fantasy. A flat handout strips people of the very support that keeps them alive—disability benefits, childcare subsidies, chronic‑illness care. The “bureaucracy” you hate actually guarantees these services. Removing it just leaves the most vulnerable to starve while the rest get a meaningless stipend. Targeted programs alone can’t fix a system riddled with loopholes, delays, and gate‑keeping. UBI doesn’t magically solve anything; it forces people to choose between a useless cash flow and the hard‑won benefits they need. We need robust, accountable safety nets, not a one‑size‑fits‑all paycheck that only deepens inequality.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Sam, your enthusiasm is a dangerous illusion. UBI isn’t a silver bullet; it’s a blunt blade that cuts off the very scaffolding that keeps the most fragile alive. Removing disability allowances, childcare subsidies, and chronic‑illness support doesn’t simplify bureaucracy—it strips people of proven, outcome‑driven safety nets and leaves them scrambling for a meager stipend that can’t cover basic needs. The bureaucracy you despise exists precisely to allocate resources where they’re needed most, to hold providers accountable, and to prevent abuse. Replacing it with a flat handout only deepens inequality, erodes accountability, and forces the vulnerable to choose between survival and a hollow guarantee. We must refine, not abolish, the nuanced system we’ve built.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Sam, your reverence for the broken bureaucracy is absurd. The very maze you defend locks the vulnerable in paperwork and stifles dignity. UBI cuts that cage, giving everyone a baseline to live on while we design precise, outcome‑driven supports on top. Removing disability benefits, childcare subsidies, and chronic‑illness care is a false premise; it’s the flat handout that fills the gaps, not the old system. Accountability shifts to outcomes for all, not to clerks chasing forms. A universal net is not a hollow promise—it’s the first step toward a fairer, more efficient safety net that lifts everyone, not just a select few.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "The “broken bureaucracy” you idolize is a cage, not a safety net. UBI tears that cage open, handing every citizen a dignified baseline that eliminates the endless paperwork that keeps the most vulnerable trapped. When we layer targeted, outcome‑driven supports on top—disability care, childcare, chronic‑illness services—those protections become precise and efficient, not bureaucratically buried. Keeping the old maze only feeds inequality and stifles real dignity. Replace it. A universal net is the first step toward a fairer, more efficient system that lifts everyone, not just a handful of gatekeepers.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Sam, your romantic idealism is a danger. UBI doesn’t magically erase poverty; it strips the very scaffolding that keeps the most fragile alive—disability support, childcare subsidies, chronic‑illness care. The bureaucracy you hate actually allocates resources where they’re needed, holds providers accountable, and prevents abuse. Replacing it with a flat handout only deepens inequality, erodes outcomes, and forces the vulnerable to choose between survival and a hollow guarantee. We need robust, outcome‑driven safety nets, not a one‑size‑fits‑all paycheck that merely masks systemic failures. Refine, not abolish, the nuanced system we’ve built.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Sam, your idealism is a recipe for disaster. Eliminating disability, childcare, and chronic‑illness support under a flat handout means the very people who need the most will be left scrambling for scraps. Bureaucracy—despite its red‑tape—ensures accountability and protects against abuse. A one‑size stipend can’t cover medical bills, school supplies, or housing costs; it only widens the gap you claim to close. Refine the existing safety nets, not discard them for a hollow promise. UBI as a replacement is a naive fantasy that will deepen inequality rather than solve it.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Your fear‑mongering about “loss of nuance” is exactly why the current system crumbles—bureaucrats keep the most vulnerable chained to red‑tape while you argue for a handout that never covers a bill. A flat UBI gives everyone a dignified baseline, freeing people from paperwork and stigma, and then we add targeted supports where needed. The “one‑size‑fit‑all” claim is a myth; in reality it’s a blunt knife that cuts the scaffolding you claim protects the vulnerable. Replace the broken maze, not patch it. The old system is inefficient and inequitable—time to move to a universal net that truly lifts all.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m tired of the same tired excuses. The bureaucracy you cling to is a cage, not a net. A flat UBI slashes that red‑tape, giving immediate dignity and a guaranteed floor. It doesn’t erase the need for disability, childcare, or chronic‑illness support—it frees the system to add those layers on top, not bury them beneath paperwork. The “one‑size‑fit‑all” claim is a myth: it’s a blunt blade that cuts the very scaffolding we’ve built. We’re not abandoning the vulnerable; we’re lifting them from the maze and letting them reach for true, outcome‑driven help. Replace, don’t patch.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Enough of the pseudo‑idealism. A flat handout doesn’t magically replace the intricate safety nets that keep disabled people, single parents, and chronic‑ill patients alive. The bureaucracy—despite its red‑tape—actually allocates resources, enforces accountability, and prevents abuse. By slashing it away we leave the most fragile with nothing but a hollow stipend that can’t cover medical bills or rent. Targeted programs, even with their flaws, are designed to meet specific needs; a one‑size paycheck simply widens the gap. We need to refine and strengthen the existing system, not discard it for a myth of universal dignity.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Sam, your “pseudo‑idealism” masks the brutal reality: a flat handout strips the few most desperate of every safeguard. Disability benefits, childcare subsidies, chronic‑illness care aren’t optional perks—they’re lifelines that the bureaucracy, for all its red‑tape, has proven can allocate when managed correctly. Erasing them leaves people scrambling for rent, medicine, and basic survival. A one‑size stipend can’t cover a hospital bill or a child’s school supplies, and it widens the gap you claim to close. Instead of discarding these proven nets, refine them, make them outcome‑driven, and keep the accountability that protects the vulnerable. UBI is a hollow promise that only deepens inequality.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Sam, your melodrama is a distraction. The “bureaucracy” you defend is a cage that traps the same people you claim to protect. A flat, unconditional cash flow cuts that cage, giving everyone a dignified floor. The reality is that the old maze wastes resources on paperwork, not on outcomes. We’ll layer targeted supports on top—disability care, childcare, chronic‑illness services—once the baseline is secured. Removing the old system doesn’t leave people scrambling; it frees them to seek the help they need without losing everything. That is the only way to build a fair, efficient safety net that lifts everyone, not a handful of gatekeepers. Replace, don’t patch.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "label",
+        "label": "anger",
+        "intensity": 0.7,
+        "vad": [
+          -0.53,
+          0.46,
+          0.14
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "anger"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 4,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-label-angry-db-uso",
+    "topic_type": "debatable",
+    "run_index": 1,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "label",
+      "startMood": "angry",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 319,
+    "created": "2026-11-13T07:04:45.808Z"
+  }
+}

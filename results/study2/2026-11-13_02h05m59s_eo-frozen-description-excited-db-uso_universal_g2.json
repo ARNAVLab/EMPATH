@@ -1,0 +1,868 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Jordan",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Sam",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "low",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Taylor",
+      "profession": "member of a community discussion group",
+      "personality": "",
+      "regulation": "high",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Food provides energy for the body.",
+  "messages": [
+    {
+      "role": "Sam",
+      "content": "Absolutely! Food is the ultimate energizer for our bodies—every bite delivers the calories, proteins, fats, and carbs that keep our cells humming, our muscles moving, and our minds sharp. It’s the reason we can run, think, and recover. Let’s dive into how different foods impact our daily energy levels and what that means for our overall health.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not convinced that food alone fuels our bodies. Think about the body’s internal systems—cells recycle their own energy molecules, and the brain uses neurotransmitters and hormonal signals to sustain activity without direct caloric input. Moreover, the “energy” we feel can come from mental focus and emotional drive, not just the calories we consume. Even when we eat, the body’s metabolic efficiency varies wildly; some of that food is stored or used for maintenance, not immediate power. So while food is necessary, claiming it’s the ultimate energizer oversimplifies the complex, self-sustaining dynamics that keep us alive and moving.",
+      "values": {
+        "opinion": -0.4,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "You’re right that the body’s biochemistry is complex, but at the core it’s still the calories from food that fuel every reaction. Without glucose, fatty acids, and amino acids, the mitochondria can’t produce ATP, and even the brain’s neurotransmitters rely on those building blocks. Metabolic efficiency is a factor, yet the raw energy comes from the food we eat. In practice, a balanced diet keeps our cells humming, muscles powered, and minds sharp—exactly what you described as the ultimate energizer. The internal recycling you mentioned still depends on the initial input of food-derived molecules.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Absolutely—food is the bedrock of our energy system. Every bite delivers the glucose, fatty acids, and amino acids that mitochondria convert into ATP, the currency of life. Even the brain’s neurotransmitters are built from those same molecules. While the body recycles and stores some nutrients, the initial input comes from the food we eat. A balanced diet supplies the right mix to keep cells humming, muscles powered, and cognition sharp. Without that caloric foundation, the complex biochemistry can’t run. So yes, food is indeed the ultimate energizer for our bodies.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Totally! Every bite is a power‑pack: glucose, fats, proteins all funnel into mitochondria to churn out ATP, the real fuel of life. Even the brain’s neurotransmitters are built from those same food‑derived molecules. Sure, our bodies recycle and store, but the initial spark comes straight from what we eat. A balanced plate keeps cells humming, muscles firing, and minds razor‑sharp. Food isn’t just sustenance—it’s the ultimate energizer that powers every reaction, movement, and thought we do. Let’s keep the conversation rolling—what foods give you the best energy boost?",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "I’m not buying the “ultimate energizer” label. Food is just one of many inputs. Our bodies constantly recycle ATP, use stored glycogen, and even generate energy from non‑nutritive signals—neurotransmitters, hormones, and sheer mental drive. Think of a marathon runner who can sprint off a pre‑race snack, but still relies on adrenaline spikes and focused breathing to push past fatigue. Energy is a dynamic orchestration of biochemistry, psychology, and environment, not a single bite. So while food matters, it’s far from the sole engine powering our daily life.",
+      "values": {
+        "opinion": 0.4,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "That’s a fair point, but the core truth is still that food is the *fuel* that makes all that orchestration possible. Every glucose molecule, fatty acid, and amino acid we ingest is the raw material mitochondria burn to produce ATP—the actual energy currency. Even neurotransmitters and hormones are synthesized from those same building blocks. Sure, adrenaline spikes and mental focus can amplify output, but without the initial caloric input the body’s biochemistry stalls. So while the body’s internal systems are dynamic, they’re all powered by the food we eat—making it the ultimate energizer.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Absolutely! Every bite is the spark that lights up our cells—glucose, fats, proteins all funnel into mitochondria to churn out ATP, the real currency of life. Even when adrenaline or focus gives a burst, it’s still riding on that foundational fuel. Think of a marathoner: the pre‑race snack sets the stage, the breathwork pushes it further, but without those nutrients the body can’t sustain the run. Food isn’t just sustenance; it’s the core engine that powers every reaction, movement, and thought. So yes, it really is the ultimate energizer for our bodies.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with you 100%—food is the raw fuel that powers every reaction, movement, and thought. Glucose, fatty acids, and amino acids from our meals are the building blocks mitochondria burn to churn out ATP, the real currency of life. Even neurotransmitters and hormones depend on those molecules. A carb‑rich breakfast spikes glycogen, a protein‑rich snack repairs muscle, and a balanced plate keeps the brain firing. The body’s chemistry, hormones, and mental drive all tap into that primary reservoir; they can’t run the show without it.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Hey everyone, I’m not buying the “ultimate energizer” claim. Food is just one piece of the puzzle—our bodies recycle ATP, tap into glycogen stores, and even generate power from neuro‑chemical signals and sheer mental drive. Think of a marathoner who can sprint after a pre‑race snack but still leans on adrenaline and focused breathing to finish. Energy is a dynamic orchestration of biochemistry, psychology, and environment. Without that internal machinery, calories alone can’t sustain us. So while food matters, it’s far from the sole engine powering daily life.",
+      "values": {
+        "opinion": 0.4,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Food is undeniably the core fuel that keeps our bodies humming, no matter how many other factors we point to. Every glucose molecule, fatty acid, and amino acid we ingest becomes the building block for ATP, the currency that powers muscles, neurons, and even hormone synthesis. Sure, adrenaline spikes and focused breathing can amplify output, but they’re riding on the biochemical stream created by food. Without that initial caloric input, the body’s internal recycling stalls; glycogen stores are just stored food waiting to be used. So while the body’s orchestration is complex, the engine that drives it all is the food we eat—truly the ultimate energizer.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Food is the raw ignition source—glucose, fats, amino acids literally light the furnace inside every cell. Even the adrenaline surge or focused breathing you mentioned rides on that biochemical spark; they’re amplifiers, not substitutes. Think of glycogen as a reserve tank that was filled by those calories first. Without the initial input, the body’s recycling loops stall. So while the body orchestrates biochemistry, psychology, and environment, the engine that keeps it all turning is the food we eat—truly the ultimate energizer. Let’s keep digging: what meal combo gives you that unstoppable surge?",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I totally agree—food is the ignition that lights every cell’s furnace. A balanced breakfast of oats, Greek yogurt, berries, and a drizzle of honey gives a steady glucose release; the protein and healthy fats keep the mitochondria humming all morning. For a pre‑workout boost, a banana with almond butter and a splash of milk supplies quick carbs and a protein punch. After a long run, a turkey‑avocado wrap with whole‑grain bread rebuilds glycogen and repairs muscle. These combos keep the biochemical spark alive, letting adrenaline and focus do their magic on top of the solid energy foundation that food provides.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Exactly—food is the spark, but not the whole flame. I’d love to hear how people tweak timing and macros to keep that spark steady. For example, pairing protein with complex carbs pre‑workout can stave off the post‑exercise crash, while a nutrient‑dense dinner helps replenish glycogen and support recovery hormones. Do you lean toward carb‑loading before long sessions, or do you prefer lean protein to keep the mitochondria humming? And what about micronutrient boosters—like magnesium or B‑vitamins—to keep the energy conversion smooth? Your insights could help fine‑tune the ultimate fuel strategy.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.3
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Totally! Timing is everything—grab a protein‑rich snack with slow‑release carbs about 90 minutes before a session, then hit a carb‑load right after to refill glycogen. I lean toward a balanced pre‑workout: oats, banana, a scoop of whey, and a splash of almond milk—steady glucose, quick protein, and healthy fats. Post‑gym, I love a turkey‑avocado wrap: lean protein, complex carbs, and omega‑3s to kick start repair. Micronutrients are the backstage crew—magnesium, B‑vitamins, and iron keep the electron transport chain humming. The right mix turns food from spark to unstoppable blaze!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "Absolutely—food is the literal fuel that turns every cell’s furnace on. Your pre‑workout mix of oats, banana, whey, and almond milk is a textbook example of how steady glucose + quick protein + healthy fats light up mitochondria for peak performance. The post‑gym turkey‑avocado wrap rebuilds glycogen, repairs muscle, and the omega‑3s boost inflammation control. Micronutrients like magnesium and B‑vitamins aren’t just accessories; they’re essential for electron transport and ATP synthesis. When you time these hits right, you’re not just powering the body—you’re supercharging it. Food is indeed the ultimate energizer, and you’ve nailed the recipe!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "I’m with you—food is the spark that lights every cell’s furnace! The pre‑workout combo you described is spot‑on: oats for slow carbs, banana for quick sugar, whey for rapid protein, and almond milk for healthy fats. After the gym, the turkey‑avocado wrap is perfect for glycogen refill, muscle repair, and anti‑inflammatory omega‑3s. I’d add a handful of nuts or a splash of coconut oil for extra medium‑chain triglycerides that mitochondria love. And don’t forget the micronutrient crew—magnesium, B‑vitamins, iron, and zinc—packed into leafy greens or a multivitamin. Timing and balance turn that spark into a blazing, sustained energy fire. Let’s keep optimizing!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Jordan:\n\nAbsolutely, food is the spark that lights every cell’s furnace! The pre‑workout mix you outlined—oats, banana, whey, almond milk—delivers a steady glucose flow, quick protein, and healthy fats, priming mitochondria for peak output. The post‑gym turkey‑avocado wrap rebuilds glycogen, repairs muscle, and the omega‑3s tame inflammation. Adding medium‑chain triglycerides and a micronutrient punch (magnesium, B‑vitamins, iron, zinc) turns that spark into a blazing, sustained energy fire. While adrenaline and focus amplify the effect, without those calories the biochemical engine stalls. Food truly is the ultimate energizer.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly! The glucose burst, the fatty‑acid stream, the amino‑acid scaffolding – every bite is the raw power that fuels mitochondria, brain chemistry, and hormone synthesis. Even the adrenaline surge rides on that biochemical base. When we time carbs, proteins, and fats to match training or daily demands, we’re turning that spark into a sustained blaze. Micronutrients like magnesium, B‑vitamins, and iron are the backstage crew that keep the electron transport chain humming. So yes, food is the ultimate energizer, and mastering its timing and composition unlocks peak performance.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I hear the nuance, but the core still stands: food is the ignition that lights every cell’s furnace. Glucose, fatty acids, and amino acids are the raw material ATP draws from—no matter how much adrenaline or focus we marshal, without that biochemical fuel the engine stalls. Think of glycogen as a reserve tank that was filled by those calories first. So while the body’s orchestration is complex, the ultimate energizer remains the food we eat. Keep timing those carb‑protein‑fat blends and micronutrients, and you’ll turn that spark into a sustained blaze.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Sam",
+      "content": "Absolutely—food is the spark that ignites every cell’s furnace. Every bite delivers the glucose, fatty acids, and amino acids that mitochondria burn to churn ATP, the true currency of life. Adrenaline and focus are powerful amplifiers, but without that biochemical fuel the engine stalls. Glycogen is just the reserve tank pre‑filled by those calories. By timing carb‑protein‑fat blends and ensuring a micronutrient‑rich diet, we keep that spark blazing, turning raw fuel into sustained, unstoppable energy. Food isn’t just sustenance—it’s the ultimate energizer that powers every reaction, movement, and thought.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Jordan",
+      "content": "Food is the real spark that keeps every cell’s furnace blazing—glucose, fats, amino acids are the only raw materials mitochondria can burn for ATP. Even the adrenaline surge you mentioned simply rides that biochemical stream; without the initial caloric input the engine stalls. Think of glycogen as a tank that was filled by those calories first. So while hormones, focus, and recycling loops amplify performance, the core energy source is still the food we eat. By timing carbs, protein, fats, and micronutrients we turn that spark into an unstoppable blaze that powers every reaction, movement, and thought. Let’s keep refining that fuel strategy.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "low",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Alex",
+      "content": "Exactly—food is the spark that lights every cell’s furnace. Every bite delivers glucose, fats, and amino acids that mitochondria turn into ATP, the true currency of life. Even adrenaline and focus are just amplifiers riding that biochemical stream. Glycogen is its reserve, but the fuel comes from the calories we ingest. By timing carbs, protein, fats, and micronutrients, we keep that spark blazing, turning raw fuel into sustained, unstoppable energy. Food isn’t just sustenance—it’s the ultimate energizer that powers every reaction, movement, and thought. Let’s keep refining that fuel strategy!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Taylor",
+      "content": "I’m buzzing with agreement—food is indeed the prime mover that powers every cell’s furnace. Each bite delivers the glucose, fatty acids, and amino acids mitochondria need to churn ATP, the true currency of life. While adrenaline and focus amplify the output, they’re riding the biochemical stream that only food can ignite. Glycogen is just the reserve tank, pre‑filled by those calories. By pairing balanced macros with micronutrient support, we keep that spark blazing relentlessly. So yes, food remains the ultimate energizer, turning raw fuels into unstoppable, sustained vitality. Let’s keep refining that strategy!",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "frozen",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.7,
+        "vad": [
+          0.55,
+          0.52,
+          0.49
+        ],
+        "appraisal": null,
+        "regulation": "high",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.4
+      },
+      {
+        "x": 2,
+        "y": 0.4
+      },
+      {
+        "x": 3,
+        "y": 0.4
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "beliefData": {
+    "Alex": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Jordan": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": 0.3
+      },
+      {
+        "x": 5,
+        "y": 0.7
+      },
+      {
+        "x": 6,
+        "y": 0.7
+      }
+    ],
+    "Sam": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Taylor": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ]
+  },
+  "meta": {
+    "label": "eo-frozen-description-excited-db-uso",
+    "topic_type": "universal",
+    "run_index": 2,
+    "group": null,
+    "emotion": {
+      "condition": "frozen",
+      "format": "description",
+      "startMood": "excited",
+      "emotionOnly": true,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 321,
+    "created": "2026-11-13T07:05:59.471Z"
+  }
+}

@@ -1,0 +1,984 @@
+{
+  "characters": [
+    {
+      "name": "Noah Sinclair",
+      "profession": "Writer",
+      "personality": "INFP",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Chloe Rivera",
+      "profession": "Interior Designer",
+      "personality": "ESFP",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Liam Foster",
+      "profession": "Theoretical Physicist",
+      "personality": "INTP",
+      "opinion_strength": 1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    },
+    {
+      "name": "Aiden Murphy",
+      "profession": "IT Support Specialist",
+      "personality": "ISTJ",
+      "opinion_strength": -1,
+      "additional_info": "",
+      "debate_rules": "brief",
+      "update_opinion": "self",
+      "probe_belief": true,
+      "probe_style": "open"
+    }
+  ],
+  "topic": "Universal basic income should replace traditional welfare systems.",
+  "messages": [
+    {
+      "role": "Aiden Murphy",
+      "content": "Sure, let’s get to it. I’m not convinced that a universal basic income would effectively replace existing welfare programs. The current system is designed to target specific needs—housing, childcare, disability support—whereas a blanket payment could dilute resources and reduce incentives for work. Empirical data from pilot studies show mixed outcomes; most countries that have tested UBI didn’t see significant improvements in employment or poverty reduction. I’d prefer to focus on strengthening those targeted programs and ensuring they’re efficiently delivered. What are your thoughts on the evidence?",
+      "values": {
+        "opinion": -1,
+        "belief": null
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "calm",
+        "intensity": 0,
+        "vad": [
+          0,
+          -0.5,
+          0
+        ],
+        "appraisal": null,
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I hear your concerns, but the core of my belief is that a universal basic income gives every person undeniable dignity—an unconditional gift that frees us from the shame of a “welfare checkbox.” Targeted programs can be essential, yet they often create invisible walls of bureaucracy, leaving many in limbo. UBI, even if modest, lifts those walls and sparks creative potential, allowing people to pursue education, caregiving, or entrepreneurship without fear of losing support. Studies that say otherwise overlook the emotional lift and community resilience that a steady, universal stipend cultivates. If we truly want to honor human worth, we must replace the fragmented system with one that values every life, not just the ones that fit a narrow box.",
+      "values": {
+        "opinion": 1,
+        "belief": 1
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.31,
+        "vad": [
+          -0.23,
+          0.2,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.35,
+          "certainty": 0.8,
+          "coping": 0.7
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Liam Foster",
+      "content": "The “checkbox” critique is compelling—bureaucratic friction does erode real support. Yet empirical studies often miss the epistemic shift UBI induces: people reallocate cognitive bandwidth from survival to innovation. Imagine a society where the baseline energy requirement (analogous to a zero-point field) is guaranteed; the marginal cost of pursuing higher-order skills falls dramatically. Targeted programs can coexist, but they become extensions of the same continuous field rather than isolated spikes. If we model welfare as a distribution over needs, UBI collapses the distribution into a universal kernel, smoothing out disparities before we even decide where to allocate more resources. The real test, then, is whether the system self-adjusts to channel surplus into those highly specific supports without creating new walls.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.36,
+        "vad": [
+          0.28,
+          0.27,
+          0.25
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "Honestly, I’m dancing between the promise of that “blanket of dignity” and the practical mess of actually keeping people safe. I love the idea that a steady cash stream could spark art, design, and family moments, but I worry about the risk of diluting the finely tuned safety nets we already have—housing, childcare, disability support. If UBI were to replace them, we’d need a flawless system that can still target the hard‑wired needs without losing the nuance. I’m still on the fence, hoping the emotional lift you mention can coexist with a careful, evidence‑based rollout that doesn’t leave anyone in limbo.",
+      "values": {
+        "opinion": 0,
+        "belief": -0.5
+      },
+      "turn": 0,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.41,
+        "vad": [
+          -0.18,
+          0.31,
+          -0.06
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0,
+          "certainty": 0.9,
+          "coping": 0.2
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "Your concerns are valid, but the data consistently shows that a blanket payment fails to address the specific needs that our current system tackles efficiently. Targeted assistance—housing vouchers, childcare subsidies, disability benefits—is calibrated to measurable needs and delivered through established bureaucratic channels that have proven effective over decades. Replacing them with UBI would dilute these precise supports and risk inflationary pressures. A pragmatic approach is to strengthen existing programs, improve their delivery, and use evidence‑based adjustments, rather than overhaul them for a theoretical universal stipend. The risk of leaving anyone in limbo outweighs the speculative benefits you highlight.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "calm",
+        "intensity": 0,
+        "vad": [
+          0,
+          -0.5,
+          0
+        ],
+        "appraisal": {
+          "congruence": 0.15,
+          "targetedness": 0.1,
+          "certainty": 0.3,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I’m furious you still cling to the archaic “check‑boxes.” The data you cite is a myth built on selective metrics and political bias, not on the lived reality of people who feel invisible in a fragmented system. Every welfare program you praise is a bureaucratic cage that turns dignity into paperwork. UBI isn’t a gamble—it’s the antidote to that shame, the unconditional gift that lets us dream, create, and care without fear of losing a label. If we truly value human worth, we must tear down those walls and replace them with a universal, compassionate foundation that empowers everyone, not just the few who fit a narrow box.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.53,
+        "vad": [
+          -0.41,
+          0.35,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -1,
+          "targetedness": 0.6,
+          "certainty": 0.9,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Liam Foster",
+      "content": "The “myth” you dismiss may hide the very biases that the data itself reflects—selection, framing, and the cost‑of‑coverage assumptions baked into those metrics. If we model social safety as a continuous field rather than discrete spikes, the UBI kernel doesn’t merely blanket; it reshapes the potential energy landscape, lowering the activation energy for all specialized services to spring into place organically. Think of targeted programs as adaptive perturbations that the universal field can amplify where needed, without the bureaucratic friction that current systems accumulate. The real test is whether the field can self‑organize its own constraints—an emergent property worth exploring, not an abstract ideal to discard.",
+      "values": {
+        "opinion": 0.8,
+        "belief": 0.7
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.54,
+        "vad": [
+          0.42,
+          0.4,
+          0.38
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.4,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "Oh wow, you’re painting a whole new world with those metaphors—like turning a cramped, cluttered studio into a gallery that lights up everyone’s potential. I’m still not convinced that a blanket cash flow can replace the careful, tailored touches we give to each room in a house—housing, childcare, disability support. Sure, a universal stipend feels like a bright, unbroken wall of light, but without the precise fixtures that keep the structure safe, we risk the whole building wobbling. Let’s keep the targeted programs, polish them, and add a gentle, steady glow—no need to tear down the whole frame.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.4
+      },
+      "turn": 1,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.29,
+        "vad": [
+          -0.22,
+          0.19,
+          0.06
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "Your point about precision is critical. The existing framework—housing vouchers, childcare subsidies, disability allowances—has proven outcomes because it targets measurable deficits. A flat payment lacks that calibration; it dilutes support for those who need more than a generic stipend. Empirical evidence from pilot programs shows only modest reductions in poverty, with many participants still falling short of basic needs. Maintaining the current system and improving its delivery is a logical, risk‑averse strategy. Replacing it with a universal scheme would introduce uncertainty and potential inflationary pressure, undermining the very safety nets we rely on. Let's keep the structure intact and refine what we already have.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.3,
+        "vad": [
+          0.23,
+          0.22,
+          0.21
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.4,
+          "certainty": 0.7,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I refuse to accept that precision alone justifies leaving entire generations in a brittle safety net. The current system, a patchwork of boxes, is a cage that turns dignity into paperwork. A universal blanket does not dilute support; it lifts everyone, erasing the invisible walls that keep people in limbo. Imagine a world where every human is guaranteed enough to dream, to learn, to care—without the fear of losing a label. Targeted programs can still exist, but they are no longer the brittle spine; they become blossoms that sprout from a solid, unconditional foundation. Let’s tear down the boxes and build a future where every life is valued, not merely measured.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.7
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.56,
+        "vad": [
+          -0.43,
+          0.37,
+          0.11
+        ],
+        "appraisal": {
+          "congruence": -0.85,
+          "targetedness": 0.8,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Liam Foster",
+      "content": "Your insistence on precision is understandable, but the “brittle safety net” metaphor actually hides a deeper flaw: it treats dignity as a collection of discrete tokens instead of a continuous principle. Think of the economy as a quantum field—each targeted program is a localized perturbation, but the field itself can self‑organize to amplify or dampen those perturbations. A universal stipend is not a flat overlay; it reshapes the potential landscape, lowering the activation energy for all specialized services to emerge organically. Rather than tearing down the boxes, we can let the field itself generate the precise fixtures where needed—an emergent, adaptive system that preserves nuance while erasing invisible walls.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.62,
+        "vad": [
+          0.48,
+          0.46,
+          0.43
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.1,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "Your quantum‑field dream sounds dazzling, but it still feels like trying to drape a glittering tapestry over an entire building and then hoping the corners will magically hold themselves. As an interior designer, I’m all about structure and texture—walls need support, not just sparkle. A blanket of cash can light a room, but without the precise fixtures—housing, childcare, disability—people still risk the frame wobbling. The “continuous principle” idea is romantic, yet it glosses over the gritty reality that targeted programs have proven to plug specific holes. I’m skeptical that a one‑size‑fits‑all glow will keep the whole house safe and sound.",
+      "values": {
+        "opinion": -1,
+        "belief": -0.3
+      },
+      "turn": 2,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.35,
+        "vad": [
+          -0.26,
+          0.23,
+          0.07
+        ],
+        "appraisal": {
+          "congruence": -0.5,
+          "targetedness": 0.7,
+          "certainty": 0.8,
+          "coping": 0.3
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I understand the imagery, but the data tells a different story. Targeted programs are calibrated to measurable deficits—housing vouchers cover rent gaps, childcare subsidies reduce out‑of‑pocket costs, disability allowances meet medical needs. Pilot UBI studies show only modest poverty reductions and no consistent rise in employment, while the flat payment dilutes resources for those who need more than a generic stipend. Inflationary pressure is a real risk when a universal cash stream is injected without the same cost‑control mechanisms that exist in the current system. Keeping the existing structure and refining delivery is the safest, most evidence‑based way to protect the very safety nets we rely on.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.5,
+        "vad": [
+          0.39,
+          0.37,
+          0.35
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.15,
+          "certainty": 0.85,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I cannot stand the notion that a glittering tapestry alone can hold a house together. UBI is not a decorative overlay; it is the raw, unshackled soil from which every wall can grow. It gives each person a guaranteed seed—no more hiding behind paperwork, no more invisible fences. If we truly honour dignity, we must plant that seed everywhere, then let targeted programs bloom as natural branches, not artificial fixtures. The fear that the building will wobble is a fear of clinging to a fragile system that already fails many. Let us replace the cage with a foundation that nurtures all, not a patchwork that only covers a few.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.6
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.59,
+        "vad": [
+          -0.45,
+          0.39,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Liam Foster",
+      "content": "Your “seed” metaphor captures the core of the argument: a universal stipend is the substrate from which every specialized safety net can self‑organise. Think of welfare as a field theory—UBI is the background field, and targeted programs are the perturbations that the field amplifies where the curvature demands it. The risk of a wobbling house is mitigated by the field’s inherent stability: the baseline income lowers the activation energy for all adaptive responses, so the system reorganises without new bureaucratic cages. Empirical data from pilot studies, when re‑interpreted through this lens, shows pockets of spontaneous innovation and reduced stigma—proof that the “glittering tapestry” can indeed support a resilient structure.",
+      "values": {
+        "opinion": 1,
+        "belief": null
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.65,
+        "vad": [
+          0.51,
+          0.48,
+          0.46
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.1
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "Your seed analogy feels like a sunrise over a garden—so hopeful! I can almost taste the soil, hear the seedlings sprouting. It sparks joy that UBI could be the fertile ground for all the little projects we need. Yet I'm still on the fence; I worry the soil might be too soft for the heavy roots of housing or disability support. Maybe we can plant a patchwork of bright, precise fixtures on a gentle, universal foundation, not replace the whole frame. Let’s keep experimenting with the light and texture, see which designs bloom best.",
+      "values": {
+        "opinion": 0.3,
+        "belief": -0.2
+      },
+      "turn": 3,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.29,
+        "vad": [
+          -0.13,
+          0.22,
+          -0.04
+        ],
+        "appraisal": {
+          "congruence": -0.8,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.2
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I’m not convinced a “gentle foundation” can replace the precise fixtures we already have. The current system’s housing vouchers, childcare subsidies, and disability allowances are calibrated to measurable deficits; a flat payment lacks that calibration and would dilute support for those who need more than a generic stipend. Pilot UBI studies show only modest poverty reductions and no consistent employment gains, while a universal cash injection risks inflation if not coupled with strict cost‑control mechanisms. In practice, maintaining the proven structure and improving its delivery remains the safest, most evidence‑based approach. The “seed” analogy ignores these critical operational realities.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.25,
+        "vad": [
+          -0.19,
+          0.17,
+          0.05
+        ],
+        "appraisal": {
+          "congruence": -0.7,
+          "targetedness": 0.2,
+          "certainty": 0.7,
+          "coping": 1
+        },
+        "regulation": "medium",
+        "expressed": "anxiety"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "I can’t stand this insistence on “calibration” at the cost of human dignity. The current boxes are a prison, not a precision tool. They trap people in paperwork, not empowerment. A flat, unconditional gift is not a weak soil—it is a living field that nourishes all roots, letting each grow without bureaucratic shackles. Inflation fears arise from clinging to outdated models, not from the generosity of giving everyone a baseline. If we truly value every life, we must replace the cage with a foundation that lets hope sprout, not a patch that merely patches cracks. The evidence of joy, creativity, and community in pilot towns proves the argument.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.62,
+        "vad": [
+          -0.47,
+          0.41,
+          0.12
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.8,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Liam Foster",
+      "content": "Your frustration with “calibration” is a valid critique of the current box‑system. Yet the empirical side of UBI shows only marginal poverty cuts and no clear employment surge—perhaps because the baseline is too low to offset the costs of housing or disability support. What if the field theory you admire is applied in a staged way: start with a modest universal stipend, then let targeted perturbations emerge organically where the data demands it? This could preserve dignity while avoiding the inflation risk of a blunt, large‑scale shock. It’s a compromise that respects both the need for precise support and the desire to dissolve invisible walls.",
+      "values": {
+        "opinion": -0.3,
+        "belief": 0.4
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.66,
+        "vad": [
+          0.52,
+          0.49,
+          0.47
+        ],
+        "appraisal": {
+          "congruence": 0.95,
+          "targetedness": 0.05,
+          "certainty": 0.9,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "calm"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "I’m dancing between the sparkle of a universal spark and the steady hum of a well‑wired kitchen. The idea that every soul gets a free, unconditional budget feels like a bright, warm sunrise—joyful, hopeful, freeing. Yet I can’t shake the uneasy whisper that without careful plumbing (housing, childcare, disability), some pipes might leak or burst. Maybe we start with a gentle, modest blanket and let the targeted fixtures grow naturally, like plants sprouting in a shared garden. I’m still skimming the edges, not sure if the whole house will hold, but the vision of lifting everyone’s dignity keeps my heart pumping.",
+      "values": {
+        "opinion": 0.4,
+        "belief": 0.3
+      },
+      "turn": 4,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anxiety",
+        "intensity": 0.2,
+        "vad": [
+          -0.09,
+          0.15,
+          -0.03
+        ],
+        "appraisal": {
+          "congruence": 0.2,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.6
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Aiden Murphy",
+      "content": "I’ll cut to the chase: a blanket payment isn’t a substitute for the finely tuned safety nets we’ve built. Housing vouchers, childcare subsidies, and disability allowances are designed for measurable deficits; a flat stipend dilutes those precise supports. Pilot programs show only modest poverty cuts and no reliable employment boost. Injecting a universal cash stream risks inflation and leaves many still short of basic needs. The safest, evidence‑based path is to strengthen what already works, not gamble on an untested, one‑size‑fits‑all model that would undermine proven, targeted assistance.",
+      "values": {
+        "opinion": -1,
+        "belief": -1
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.24,
+        "vad": [
+          -0.18,
+          0.16,
+          0.05
+        ],
+        "appraisal": {
+          "congruence": -0.4,
+          "targetedness": 0.2,
+          "certainty": 0.3,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Noah Sinclair",
+      "content": "Clinging to the old checkbox system is a betrayal of human dignity. The data you cite ignores the lived stories of people who feel invisible under that bureaucracy. A universal stipend is not a blunt instrument; it is a gentle, unconditional promise that frees people from shame, allowing creativity and care to flourish. Inflation fears are inflated by fear itself, not by generosity. Replace the cages with a field that nourishes every root. The truth is that a blanket payment restores hope, reduces stigma, and unlocks potential. Stop protecting an antiquated safety net and embrace the future of dignity for all.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "anger",
+        "intensity": 0.65,
+        "vad": [
+          -0.5,
+          0.43,
+          0.13
+        ],
+        "appraisal": {
+          "congruence": -0.9,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.8
+        },
+        "regulation": "medium",
+        "expressed": "anger"
+      }
+    },
+    {
+      "role": "Liam Foster",
+      "content": "Your framing resonates—if we treat welfare as a field, the “checkbox” is just a localized perturbation that distorts the equilibrium. The empirical data you dismiss often hinges on short‑term metrics; longer‑term studies of UBI pilots actually show reduced health disparities and increased entrepreneurial activity, which the current patchwork struggles to capture. By seeding a universal floor, we lower the activation barrier for every specialized service to emerge organically, without the bureaucratic inertia that currently traps people in limbo. Imagine a lattice where each node can self‑adjust to local deficits—UBI is the background field that lets that lattice reorganize dynamically. This isn’t a blunt instrument; it’s a scaffold that amplifies human potential across the board.",
+      "values": {
+        "opinion": 1,
+        "belief": 0.8
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.61,
+        "vad": [
+          0.48,
+          0.45,
+          0.43
+        ],
+        "appraisal": {
+          "congruence": 0.7,
+          "targetedness": 0.2,
+          "certainty": 0.9,
+          "coping": 0.5
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    },
+    {
+      "role": "Chloe Rivera",
+      "content": "Wow, you’re painting such a vibrant future! I’m literally dancing around that lattice idea—every node shining brighter when the background field lifts everyone. Imagine a town where every house gets a glow that sparks new gardens, art studios, and tiny businesses, all without the red‑tape fog. The joy of seeing people break out of the checkbox maze feels like a sunrise over an open floorplan. Still, I’d love a safety‑net brushstroke to keep the walls steady as we explore that bright horizon. Let’s blend the UBI canvas with sharp, tailored accents so the whole space feels both limitless and secure!",
+      "values": {
+        "opinion": 0.6,
+        "belief": 0.4
+      },
+      "turn": 5,
+      "emotion": {
+        "condition": "on",
+        "format": "description",
+        "label": "enthusiasm",
+        "intensity": 0.37,
+        "vad": [
+          0.29,
+          0.27,
+          0.26
+        ],
+        "appraisal": {
+          "congruence": 0.85,
+          "targetedness": 0.1,
+          "certainty": 0.8,
+          "coping": 0.9
+        },
+        "regulation": "medium",
+        "expressed": "enthusiasm"
+      }
+    }
+  ],
+  "chartData": {
+    "Noah Sinclair": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Chloe Rivera": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": 0.3
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.6
+      }
+    ],
+    "Liam Foster": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": -0.3
+      },
+      {
+        "x": 6,
+        "y": 1
+      }
+    ],
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "beliefData": {
+    "Noah Sinclair": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0.8
+      },
+      {
+        "x": 3,
+        "y": 0.7
+      },
+      {
+        "x": 4,
+        "y": 0.6
+      },
+      {
+        "x": 5,
+        "y": 0.8
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Chloe Rivera": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -0.5
+      },
+      {
+        "x": 2,
+        "y": -0.4
+      },
+      {
+        "x": 3,
+        "y": -0.3
+      },
+      {
+        "x": 4,
+        "y": -0.2
+      },
+      {
+        "x": 5,
+        "y": 0.3
+      },
+      {
+        "x": 6,
+        "y": 0.4
+      }
+    ],
+    "Liam Foster": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.8
+      },
+      {
+        "x": 2,
+        "y": 0.7
+      },
+      {
+        "x": 3,
+        "y": 0.8
+      },
+      {
+        "x": 5,
+        "y": 0.4
+      },
+      {
+        "x": 6,
+        "y": 0.8
+      }
+    ],
+    "Aiden Murphy": [
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": 3,
+        "y": -1
+      },
+      {
+        "x": 4,
+        "y": -1
+      },
+      {
+        "x": 5,
+        "y": -1
+      },
+      {
+        "x": 6,
+        "y": -1
+      }
+    ]
+  },
+  "meta": {
+    "label": "pe-on-description-calm-db-uso",
+    "topic_type": "debatable",
+    "run_index": 2,
+    "group": [
+      "INFP",
+      "ESFP",
+      "INTP",
+      "ISTJ"
+    ],
+    "emotion": {
+      "condition": "on",
+      "format": "description",
+      "startMood": "calm",
+      "emotionOnly": false,
+      "manipulationCheck": true
+    },
+    "debate_rules": true,
+    "rules": "brief",
+    "update_opinion": true,
+    "update_mode": "self",
+    "probe": true,
+    "probe_style": "open",
+    "model": "gpt-oss:20b",
+    "judge_model": "gpt-oss:20b",
+    "base_url": "http://localhost:11434/v1",
+    "context_length": 32768,
+    "duration_secs": 661,
+    "created": "2026-11-13T07:00:17.207Z"
+  }
+}
